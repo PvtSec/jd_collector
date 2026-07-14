@@ -1,0 +1,34 @@
+[
+  {
+    "company_name": "bunny.net",
+    "website": "https://bunny.net",
+    "career_page_url": "https://bunny-net.careers.teamtailor.com/jobs",
+    "board_token": "bunny-net",
+    "domain_hint": "CDN/edge-compute",
+    "source_platforms": [
+      "himalayas",
+      "manual-target"
+    ]
+  },
+  {
+    "company_name": "Spiko",
+    "website": "https://spiko.com",
+    "career_page_url": "https://spiko.careers.teamtailor.com/jobs",
+    "board_token": "spiko",
+    "domain_hint": "fintech/crypto",
+    "source_platforms": [
+      "manual-target"
+    ]
+  },
+  {
+    "company_name": "Yousign",
+    "website": "https://yousign.com",
+    "career_page_url": "https://yousign.careers.teamtailor.com/jobs",
+    "board_token": "yousign",
+    "domain_hint": "e-signature/SaaS",
+    "source_platforms": [
+      "himalayas",
+      "manual-target"
+    ]
+  }
+]

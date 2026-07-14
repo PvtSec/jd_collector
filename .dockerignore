@@ -1,0 +1,33 @@
+# Keep the Docker build context small + free of machine-specific junk
+.venv/
+venv/
+**/__pycache__/
+*.py[cod]
+app/frontend/node_modules/
+app/frontend/dist/
+app/frontend/*.tsbuildinfo
+dist_bundle/
+.claude/
+.git/
+.gitignore
+
+# Runtime / regenerable data (the image ships the curated dataset; the live
+# discovery DB + caches are created at runtime, mounted on a volume)
+data/jobs.db
+data/jobs.db-*
+data/applied.sqlite
+data/applied.sqlite-*
+data/.cache_*/
+data/*.bak
+app/state.json
+app/.links*
+app/.*_done
+
+# Candidate PII (never in the image)
+profile.yaml
+profile.example.yaml
+resumes/
+
+*.log
+.DS_Store
+job_auto_dashboard.pdf

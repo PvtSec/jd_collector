@@ -1,0 +1,1522 @@
+[
+  {
+    "company_name": "Trellix",
+    "career_page_url": "https://www.trellix.com/careers",
+    "website": "https://www.trellix.com",
+    "domain_hint": "XDR/security",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Trellix",
+    "career_page_url": "https://www.trellix.com/jobs",
+    "website": "https://www.trellix.com",
+    "domain_hint": "XDR/security",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Qualys",
+    "career_page_url": "https://www.qualys.com/careers",
+    "website": "https://www.qualys.com",
+    "domain_hint": "vuln mgmt",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Qualys",
+    "career_page_url": "https://www.qualys.com/jobs",
+    "website": "https://www.qualys.com",
+    "domain_hint": "vuln mgmt",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Fortinet",
+    "career_page_url": "https://www.fortinet.com/careers",
+    "website": "https://www.fortinet.com",
+    "domain_hint": "network security",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Fortinet",
+    "career_page_url": "https://www.fortinet.com/jobs",
+    "website": "https://www.fortinet.com",
+    "domain_hint": "network security",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Palo Alto Networks",
+    "career_page_url": "https://www.paloaltonetworks.com/careers",
+    "website": "https://www.paloaltonetworks.com",
+    "domain_hint": "network security",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Palo Alto Networks",
+    "career_page_url": "https://www.paloaltonetworks.com/jobs",
+    "website": "https://www.paloaltonetworks.com",
+    "domain_hint": "network security",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Zscaler",
+    "career_page_url": "https://www.zscaler.com/careers",
+    "website": "https://www.zscaler.com",
+    "domain_hint": "cloud security",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Zscaler",
+    "career_page_url": "https://www.zscaler.com/jobs",
+    "website": "https://www.zscaler.com",
+    "domain_hint": "cloud security",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Netskope",
+    "career_page_url": "https://www.netskope.com/careers",
+    "website": "https://www.netskope.com",
+    "domain_hint": "CASB/SSE",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Netskope",
+    "career_page_url": "https://www.netskope.com/jobs",
+    "website": "https://www.netskope.com",
+    "domain_hint": "CASB/SSE",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Lookout",
+    "career_page_url": "https://www.lookout.com/careers",
+    "website": "https://www.lookout.com",
+    "domain_hint": "mobile security",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Lookout",
+    "career_page_url": "https://www.lookout.com/jobs",
+    "website": "https://www.lookout.com",
+    "domain_hint": "mobile security",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Auth0",
+    "career_page_url": "https://auth0.com/careers",
+    "website": "https://auth0.com",
+    "domain_hint": "IAM",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Auth0",
+    "career_page_url": "https://auth0.com/jobs",
+    "website": "https://auth0.com",
+    "domain_hint": "IAM",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Okta",
+    "career_page_url": "https://www.okta.com/careers",
+    "website": "https://www.okta.com",
+    "domain_hint": "IAM",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Okta",
+    "career_page_url": "https://www.okta.com/jobs",
+    "website": "https://www.okta.com",
+    "domain_hint": "IAM",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "CyberArk",
+    "career_page_url": "https://www.cyberark.com/careers",
+    "website": "https://www.cyberark.com",
+    "domain_hint": "PAM",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "CyberArk",
+    "career_page_url": "https://www.cyberark.com/jobs",
+    "website": "https://www.cyberark.com",
+    "domain_hint": "PAM",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "BeyondTrust",
+    "career_page_url": "https://www.beyondtrust.com/careers",
+    "website": "https://www.beyondtrust.com",
+    "domain_hint": "PAM",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "BeyondTrust",
+    "career_page_url": "https://www.beyondtrust.com/jobs",
+    "website": "https://www.beyondtrust.com",
+    "domain_hint": "PAM",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Delinea",
+    "career_page_url": "https://delinea.com/careers",
+    "website": "https://delinea.com",
+    "domain_hint": "PAM/secrets",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Delinea",
+    "career_page_url": "https://delinea.com/jobs",
+    "website": "https://delinea.com",
+    "domain_hint": "PAM/secrets",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Thales",
+    "career_page_url": "https://www.thalesgroup.com/careers",
+    "website": "https://www.thalesgroup.com",
+    "domain_hint": "security/crypto",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Thales",
+    "career_page_url": "https://www.thalesgroup.com/jobs",
+    "website": "https://www.thalesgroup.com",
+    "domain_hint": "security/crypto",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Entrust",
+    "career_page_url": "https://www.entrust.com/careers",
+    "website": "https://www.entrust.com",
+    "domain_hint": "IAM/pki",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Entrust",
+    "career_page_url": "https://www.entrust.com/jobs",
+    "website": "https://www.entrust.com",
+    "domain_hint": "IAM/pki",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Varonis",
+    "career_page_url": "https://www.varonis.com/careers",
+    "website": "https://www.varonis.com",
+    "domain_hint": "data security",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Varonis",
+    "career_page_url": "https://www.varonis.com/jobs",
+    "website": "https://www.varonis.com",
+    "domain_hint": "data security",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Forcepoint",
+    "career_page_url": "https://www.forcepoint.com/careers",
+    "website": "https://www.forcepoint.com",
+    "domain_hint": "DLP/SSE",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Forcepoint",
+    "career_page_url": "https://www.forcepoint.com/jobs",
+    "website": "https://www.forcepoint.com",
+    "domain_hint": "DLP/SSE",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Proofpoint",
+    "career_page_url": "https://www.proofpoint.com/careers",
+    "website": "https://www.proofpoint.com",
+    "domain_hint": "email security",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Proofpoint",
+    "career_page_url": "https://www.proofpoint.com/jobs",
+    "website": "https://www.proofpoint.com",
+    "domain_hint": "email security",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Noname Security",
+    "career_page_url": "https://nonamesecurity.com/careers",
+    "website": "https://nonamesecurity.com",
+    "domain_hint": "API security",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Noname Security",
+    "career_page_url": "https://nonamesecurity.com/jobs",
+    "website": "https://nonamesecurity.com",
+    "domain_hint": "API security",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Salt Security",
+    "career_page_url": "https://salt.security/careers",
+    "website": "https://salt.security",
+    "domain_hint": "API security",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Salt Security",
+    "career_page_url": "https://salt.security/jobs",
+    "website": "https://salt.security",
+    "domain_hint": "API security",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Wallarm",
+    "career_page_url": "https://www.wallarm.com/careers",
+    "website": "https://www.wallarm.com",
+    "domain_hint": "API security",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Wallarm",
+    "career_page_url": "https://www.wallarm.com/jobs",
+    "website": "https://www.wallarm.com",
+    "domain_hint": "API security",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Escape",
+    "career_page_url": "https://escape.tech/careers",
+    "website": "https://escape.tech",
+    "domain_hint": "API security",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Escape",
+    "career_page_url": "https://escape.tech/jobs",
+    "website": "https://escape.tech",
+    "domain_hint": "API security",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Cymulate",
+    "career_page_url": "https://cymulate.com/careers",
+    "website": "https://cymulate.com",
+    "domain_hint": "BAS",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Cymulate",
+    "career_page_url": "https://cymulate.com/jobs",
+    "website": "https://cymulate.com",
+    "domain_hint": "BAS",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Mandiant",
+    "career_page_url": "https://www.mandiant.com/careers",
+    "website": "https://www.mandiant.com",
+    "domain_hint": "IR/threat intel",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Mandiant",
+    "career_page_url": "https://www.mandiant.com/jobs",
+    "website": "https://www.mandiant.com",
+    "domain_hint": "IR/threat intel",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Recorded Future",
+    "career_page_url": "https://www.recordedfuture.com/careers",
+    "website": "https://www.recordedfuture.com",
+    "domain_hint": "threat intel",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Recorded Future",
+    "career_page_url": "https://www.recordedfuture.com/jobs",
+    "website": "https://www.recordedfuture.com",
+    "domain_hint": "threat intel",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Censys",
+    "career_page_url": "https://censys.io/careers",
+    "website": "https://censys.io",
+    "domain_hint": "attack surface",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Censys",
+    "career_page_url": "https://censys.io/jobs",
+    "website": "https://censys.io",
+    "domain_hint": "attack surface",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Shodan",
+    "career_page_url": "https://www.shodan.io/careers",
+    "website": "https://www.shodan.io",
+    "domain_hint": "attack surface",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Shodan",
+    "career_page_url": "https://www.shodan.io/jobs",
+    "website": "https://www.shodan.io",
+    "domain_hint": "attack surface",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Network Intelligence",
+    "career_page_url": "https://www.niiconsulting.com/careers",
+    "website": "https://www.niiconsulting.com",
+    "domain_hint": "security services (India)",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Network Intelligence",
+    "career_page_url": "https://www.niiconsulting.com/jobs",
+    "website": "https://www.niiconsulting.com",
+    "domain_hint": "security services (India)",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "ISOAH",
+    "career_page_url": "https://www.isoah.com/careers",
+    "website": "https://www.isoah.com",
+    "domain_hint": "security services (India)",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "ISOAH",
+    "career_page_url": "https://www.isoah.com/jobs",
+    "website": "https://www.isoah.com",
+    "domain_hint": "security services (India)",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "KratosLabs",
+    "career_page_url": "https://kratoslabs.com/careers",
+    "website": "https://kratoslabs.com",
+    "domain_hint": "security (India)",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "KratosLabs",
+    "career_page_url": "https://kratoslabs.com/jobs",
+    "website": "https://kratoslabs.com",
+    "domain_hint": "security (India)",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Smokescreen",
+    "career_page_url": "https://www.smokescreen.com/careers",
+    "website": "https://www.smokescreen.com",
+    "domain_hint": "deception security (India)",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Smokescreen",
+    "career_page_url": "https://www.smokescreen.com/jobs",
+    "website": "https://www.smokescreen.com",
+    "domain_hint": "deception security (India)",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Lucideus",
+    "career_page_url": "https://www.lucideus.com/careers",
+    "website": "https://www.lucideus.com",
+    "domain_hint": "security (India)",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Lucideus",
+    "career_page_url": "https://www.lucideus.com/jobs",
+    "website": "https://www.lucideus.com",
+    "domain_hint": "security (India)",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "WiJungle",
+    "career_page_url": "https://www.wijungle.com/careers",
+    "website": "https://www.wijungle.com",
+    "domain_hint": "UTM/security (India)",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "WiJungle",
+    "career_page_url": "https://www.wijungle.com/jobs",
+    "website": "https://www.wijungle.com",
+    "domain_hint": "UTM/security (India)",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Seclore",
+    "career_page_url": "https://www.seclore.com/careers",
+    "website": "https://www.seclore.com",
+    "domain_hint": "data security (India)",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Seclore",
+    "career_page_url": "https://www.seclore.com/jobs",
+    "website": "https://www.seclore.com",
+    "domain_hint": "data security (India)",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Infisecure",
+    "career_page_url": "https://www.infisecure.com/careers",
+    "website": "https://www.infisecure.com",
+    "domain_hint": "bot/security (India)",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Infisecure",
+    "career_page_url": "https://www.infisecure.com/jobs",
+    "website": "https://www.infisecure.com",
+    "domain_hint": "bot/security (India)",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Katalon",
+    "career_page_url": "https://www.katalon.com/careers",
+    "website": "https://www.katalon.com",
+    "domain_hint": "test automation",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Katalon",
+    "career_page_url": "https://www.katalon.com/jobs",
+    "website": "https://www.katalon.com",
+    "domain_hint": "test automation",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Reflect",
+    "career_page_url": "https://reflect.run/careers",
+    "website": "https://reflect.run",
+    "domain_hint": "test automation",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Reflect",
+    "career_page_url": "https://reflect.run/jobs",
+    "website": "https://reflect.run",
+    "domain_hint": "test automation",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "BugBug",
+    "career_page_url": "https://bugbug.io/careers",
+    "website": "https://bugbug.io",
+    "domain_hint": "test automation",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "BugBug",
+    "career_page_url": "https://bugbug.io/jobs",
+    "website": "https://bugbug.io",
+    "domain_hint": "test automation",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Endtest",
+    "career_page_url": "https://endtest.io/careers",
+    "website": "https://endtest.io",
+    "domain_hint": "test automation",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Endtest",
+    "career_page_url": "https://endtest.io/jobs",
+    "website": "https://endtest.io",
+    "domain_hint": "test automation",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "TestSigma",
+    "career_page_url": "https://testsigma.com/careers",
+    "website": "https://testsigma.com",
+    "domain_hint": "test automation",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "TestSigma",
+    "career_page_url": "https://testsigma.com/jobs",
+    "website": "https://testsigma.com",
+    "domain_hint": "test automation",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Kobiton",
+    "career_page_url": "https://kobiton.com/careers",
+    "website": "https://kobiton.com",
+    "domain_hint": "mobile testing",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Kobiton",
+    "career_page_url": "https://kobiton.com/jobs",
+    "website": "https://kobiton.com",
+    "domain_hint": "mobile testing",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Headspin",
+    "career_page_url": "https://www.headspin.io/careers",
+    "website": "https://www.headspin.io",
+    "domain_hint": "mobile testing",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Headspin",
+    "career_page_url": "https://www.headspin.io/jobs",
+    "website": "https://www.headspin.io",
+    "domain_hint": "mobile testing",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Apptim",
+    "career_page_url": "https://apptim.com/careers",
+    "website": "https://apptim.com",
+    "domain_hint": "mobile testing",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Apptim",
+    "career_page_url": "https://apptim.com/jobs",
+    "website": "https://apptim.com",
+    "domain_hint": "mobile testing",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Rainforest QA",
+    "career_page_url": "https://www.rainforestqa.com/careers",
+    "website": "https://www.rainforestqa.com",
+    "domain_hint": "QA as a service",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Rainforest QA",
+    "career_page_url": "https://www.rainforestqa.com/jobs",
+    "website": "https://www.rainforestqa.com",
+    "domain_hint": "QA as a service",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Test IO",
+    "career_page_url": "https://www.test.io/careers",
+    "website": "https://www.test.io",
+    "domain_hint": "crowdtesting",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Test IO",
+    "career_page_url": "https://www.test.io/jobs",
+    "website": "https://www.test.io",
+    "domain_hint": "crowdtesting",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "uTest",
+    "career_page_url": "https://www.utest.com/careers",
+    "website": "https://www.utest.com",
+    "domain_hint": "crowdtesting",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "uTest",
+    "career_page_url": "https://www.utest.com/jobs",
+    "website": "https://www.utest.com",
+    "domain_hint": "crowdtesting",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Applause",
+    "career_page_url": "https://www.applause.com/careers",
+    "website": "https://www.applause.com",
+    "domain_hint": "crowdtesting",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Applause",
+    "career_page_url": "https://www.applause.com/jobs",
+    "website": "https://www.applause.com",
+    "domain_hint": "crowdtesting",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Global App Testing",
+    "career_page_url": "https://www.globalapptesting.com/careers",
+    "website": "https://www.globalapptesting.com",
+    "domain_hint": "crowdtesting",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Global App Testing",
+    "career_page_url": "https://www.globalapptesting.com/jobs",
+    "website": "https://www.globalapptesting.com",
+    "domain_hint": "crowdtesting",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Digitify",
+    "career_page_url": "https://www.digitify.com/careers",
+    "website": "https://www.digitify.com",
+    "domain_hint": "QA/digital (India)",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Digitify",
+    "career_page_url": "https://www.digitify.com/jobs",
+    "website": "https://www.digitify.com",
+    "domain_hint": "QA/digital (India)",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Render",
+    "career_page_url": "https://render.com/careers",
+    "website": "https://render.com",
+    "domain_hint": "cloud platform",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Render",
+    "career_page_url": "https://render.com/jobs",
+    "website": "https://render.com",
+    "domain_hint": "cloud platform",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Fly.io",
+    "career_page_url": "https://fly.io/careers",
+    "website": "https://fly.io",
+    "domain_hint": "edge hosting",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Fly.io",
+    "career_page_url": "https://fly.io/jobs",
+    "website": "https://fly.io",
+    "domain_hint": "edge hosting",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Railway",
+    "career_page_url": "https://railway.app/careers",
+    "website": "https://railway.app",
+    "domain_hint": "cloud platform",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Railway",
+    "career_page_url": "https://railway.app/jobs",
+    "website": "https://railway.app",
+    "domain_hint": "cloud platform",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Northflank",
+    "career_page_url": "https://northflank.com/careers",
+    "website": "https://northflank.com",
+    "domain_hint": "PaaS",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Northflank",
+    "career_page_url": "https://northflank.com/jobs",
+    "website": "https://northflank.com",
+    "domain_hint": "PaaS",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Porter",
+    "career_page_url": "https://porterrun.com/careers",
+    "website": "https://porterrun.com",
+    "domain_hint": "PaaS",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Porter",
+    "career_page_url": "https://porterrun.com/jobs",
+    "website": "https://porterrun.com",
+    "domain_hint": "PaaS",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "SST",
+    "career_page_url": "https://sst.io/careers",
+    "website": "https://sst.io",
+    "domain_hint": "serverless framework",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "SST",
+    "career_page_url": "https://sst.io/jobs",
+    "website": "https://sst.io",
+    "domain_hint": "serverless framework",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Temporal",
+    "career_page_url": "https://temporal.io/careers",
+    "website": "https://temporal.io",
+    "domain_hint": "workflow engine",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Temporal",
+    "career_page_url": "https://temporal.io/jobs",
+    "website": "https://temporal.io",
+    "domain_hint": "workflow engine",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Convex",
+    "career_page_url": "https://convex.dev/careers",
+    "website": "https://convex.dev",
+    "domain_hint": "BaaS",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Convex",
+    "career_page_url": "https://convex.dev/jobs",
+    "website": "https://convex.dev",
+    "domain_hint": "BaaS",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Xata",
+    "career_page_url": "https://xata.io/careers",
+    "website": "https://xata.io",
+    "domain_hint": "serverless DB",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Xata",
+    "career_page_url": "https://xata.io/jobs",
+    "website": "https://xata.io",
+    "domain_hint": "serverless DB",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Neon",
+    "career_page_url": "https://neon.tech/careers",
+    "website": "https://neon.tech",
+    "domain_hint": "serverless postgres",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Neon",
+    "career_page_url": "https://neon.tech/jobs",
+    "website": "https://neon.tech",
+    "domain_hint": "serverless postgres",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Turso",
+    "career_page_url": "https://turso.tech/careers",
+    "website": "https://turso.tech",
+    "domain_hint": "edge DB",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Turso",
+    "career_page_url": "https://turso.tech/jobs",
+    "website": "https://turso.tech",
+    "domain_hint": "edge DB",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Upstash",
+    "career_page_url": "https://upstash.com/careers",
+    "website": "https://upstash.com",
+    "domain_hint": "serverless redis",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Upstash",
+    "career_page_url": "https://upstash.com/jobs",
+    "website": "https://upstash.com",
+    "domain_hint": "serverless redis",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Tinybird",
+    "career_page_url": "https://www.tinybird.co/careers",
+    "website": "https://www.tinybird.co",
+    "domain_hint": "real-time data",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Tinybird",
+    "career_page_url": "https://www.tinybird.co/jobs",
+    "website": "https://www.tinybird.co",
+    "domain_hint": "real-time data",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Hex",
+    "career_page_url": "https://hex.tech/careers",
+    "website": "https://hex.tech",
+    "domain_hint": "data notebooks",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Hex",
+    "career_page_url": "https://hex.tech/jobs",
+    "website": "https://hex.tech",
+    "domain_hint": "data notebooks",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "MotherDuck",
+    "career_page_url": "https://motherduck.com/careers",
+    "website": "https://motherduck.com",
+    "domain_hint": "duckdb cloud",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "MotherDuck",
+    "career_page_url": "https://motherduck.com/jobs",
+    "website": "https://motherduck.com",
+    "domain_hint": "duckdb cloud",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Pulumi",
+    "career_page_url": "https://www.pulumi.com/careers",
+    "website": "https://www.pulumi.com",
+    "domain_hint": "IaC",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Pulumi",
+    "career_page_url": "https://www.pulumi.com/jobs",
+    "website": "https://www.pulumi.com",
+    "domain_hint": "IaC",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "env0",
+    "career_page_url": "https://www.env0.com/careers",
+    "website": "https://www.env0.com",
+    "domain_hint": "IaC automation",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "env0",
+    "career_page_url": "https://www.env0.com/jobs",
+    "website": "https://www.env0.com",
+    "domain_hint": "IaC automation",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Ottertune",
+    "career_page_url": "https://ottertune.com/careers",
+    "website": "https://ottertune.com",
+    "domain_hint": "DB tuning",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Ottertune",
+    "career_page_url": "https://ottertune.com/jobs",
+    "website": "https://ottertune.com",
+    "domain_hint": "DB tuning",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Fermyon",
+    "career_page_url": "https://www.fermyon.com/careers",
+    "website": "https://www.fermyon.com",
+    "domain_hint": "wasm/cloud",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Fermyon",
+    "career_page_url": "https://www.fermyon.com/jobs",
+    "website": "https://www.fermyon.com",
+    "domain_hint": "wasm/cloud",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Estuary",
+    "career_page_url": "https://estuary.dev/careers",
+    "website": "https://estuary.dev",
+    "domain_hint": "data streaming",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Estuary",
+    "career_page_url": "https://estuary.dev/jobs",
+    "website": "https://estuary.dev",
+    "domain_hint": "data streaming",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Deci",
+    "career_page_url": "https://deci.ai/careers",
+    "website": "https://deci.ai",
+    "domain_hint": "AI infra",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Deci",
+    "career_page_url": "https://deci.ai/jobs",
+    "website": "https://deci.ai",
+    "domain_hint": "AI infra",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Tabnine",
+    "career_page_url": "https://www.tabnine.com/careers",
+    "website": "https://www.tabnine.com",
+    "domain_hint": "AI code assist",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Tabnine",
+    "career_page_url": "https://www.tabnine.com/jobs",
+    "website": "https://www.tabnine.com",
+    "domain_hint": "AI code assist",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Codium",
+    "career_page_url": "https://www.codium.ai/careers",
+    "website": "https://www.codium.ai",
+    "domain_hint": "AI test/code",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Codium",
+    "career_page_url": "https://www.codium.ai/jobs",
+    "website": "https://www.codium.ai",
+    "domain_hint": "AI test/code",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Qodo",
+    "career_page_url": "https://www.qodo.ai/careers",
+    "website": "https://www.qodo.ai",
+    "domain_hint": "AI code quality",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Qodo",
+    "career_page_url": "https://www.qodo.ai/jobs",
+    "website": "https://www.qodo.ai",
+    "domain_hint": "AI code quality",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Aikido",
+    "career_page_url": "https://www.aikido.dev/careers",
+    "website": "https://www.aikido.dev",
+    "domain_hint": "ASPM",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Aikido",
+    "career_page_url": "https://www.aikido.dev/jobs",
+    "website": "https://www.aikido.dev",
+    "domain_hint": "ASPM",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Cycode",
+    "career_page_url": "https://cycode.com/careers",
+    "website": "https://cycode.com",
+    "domain_hint": "code security",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Cycode",
+    "career_page_url": "https://cycode.com/jobs",
+    "website": "https://cycode.com",
+    "domain_hint": "code security",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "ArmorCode",
+    "career_page_url": "https://armorcode.com/careers",
+    "website": "https://armorcode.com",
+    "domain_hint": "ASPM",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "ArmorCode",
+    "career_page_url": "https://armorcode.com/jobs",
+    "website": "https://armorcode.com",
+    "domain_hint": "ASPM",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Kondukto",
+    "career_page_url": "https://kondukto.io/careers",
+    "website": "https://kondukto.io",
+    "domain_hint": "ASPM",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Kondukto",
+    "career_page_url": "https://kondukto.io/jobs",
+    "website": "https://kondukto.io",
+    "domain_hint": "ASPM",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Zoho",
+    "career_page_url": "https://www.zoho.com/careers",
+    "website": "https://www.zoho.com",
+    "domain_hint": "SaaS (India)",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Zoho",
+    "career_page_url": "https://www.zoho.com/jobs",
+    "website": "https://www.zoho.com",
+    "domain_hint": "SaaS (India)",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Freshworks",
+    "career_page_url": "https://www.freshworks.com/careers",
+    "website": "https://www.freshworks.com",
+    "domain_hint": "SaaS (India)",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Freshworks",
+    "career_page_url": "https://www.freshworks.com/jobs",
+    "website": "https://www.freshworks.com",
+    "domain_hint": "SaaS (India)",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Chargebee",
+    "career_page_url": "https://www.chargebee.com/careers",
+    "website": "https://www.chargebee.com",
+    "domain_hint": "subscription billing (India)",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Chargebee",
+    "career_page_url": "https://www.chargebee.com/jobs",
+    "website": "https://www.chargebee.com",
+    "domain_hint": "subscription billing (India)",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Kissflow",
+    "career_page_url": "https://kissflow.com/careers",
+    "website": "https://kissflow.com",
+    "domain_hint": "workflow SaaS (India)",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Kissflow",
+    "career_page_url": "https://kissflow.com/jobs",
+    "website": "https://kissflow.com",
+    "domain_hint": "workflow SaaS (India)",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Mad Street Den",
+    "career_page_url": "https://madstreetden.com/careers",
+    "website": "https://madstreetden.com",
+    "domain_hint": "AI (India)",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Mad Street Den",
+    "career_page_url": "https://madstreetden.com/jobs",
+    "website": "https://madstreetden.com",
+    "domain_hint": "AI (India)",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Uniphore",
+    "career_page_url": "https://www.uniphore.com/careers",
+    "website": "https://www.uniphore.com",
+    "domain_hint": "AI (India)",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Uniphore",
+    "career_page_url": "https://www.uniphore.com/jobs",
+    "website": "https://www.uniphore.com",
+    "domain_hint": "AI (India)",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Aryaka",
+    "career_page_url": "https://www.aryaka.com/careers",
+    "website": "https://www.aryaka.com",
+    "domain_hint": "network (India/US)",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Aryaka",
+    "career_page_url": "https://www.aryaka.com/jobs",
+    "website": "https://www.aryaka.com",
+    "domain_hint": "network (India/US)",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Druva",
+    "career_page_url": "https://www.druva.com/careers",
+    "website": "https://www.druva.com",
+    "domain_hint": "data protection (India)",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Druva",
+    "career_page_url": "https://www.druva.com/jobs",
+    "website": "https://www.druva.com",
+    "domain_hint": "data protection (India)",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Mphasis",
+    "career_page_url": "https://www.mphasis.com/careers",
+    "website": "https://www.mphasis.com",
+    "domain_hint": "IT services (India)",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Mphasis",
+    "career_page_url": "https://www.mphasis.com/jobs",
+    "website": "https://www.mphasis.com",
+    "domain_hint": "IT services (India)",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "LTIMindtree",
+    "career_page_url": "https://www.ltimindtree.com/careers",
+    "website": "https://www.ltimindtree.com",
+    "domain_hint": "IT services (India)",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "LTIMindtree",
+    "career_page_url": "https://www.ltimindtree.com/jobs",
+    "website": "https://www.ltimindtree.com",
+    "domain_hint": "IT services (India)",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Hexaware",
+    "career_page_url": "https://www.hexaware.com/careers",
+    "website": "https://www.hexaware.com",
+    "domain_hint": "IT services (India)",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Hexaware",
+    "career_page_url": "https://www.hexaware.com/jobs",
+    "website": "https://www.hexaware.com",
+    "domain_hint": "IT services (India)",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Cybage",
+    "career_page_url": "https://www.cybage.com/careers",
+    "website": "https://www.cybage.com",
+    "domain_hint": "IT services (India)",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Cybage",
+    "career_page_url": "https://www.cybage.com/jobs",
+    "website": "https://www.cybage.com",
+    "domain_hint": "IT services (India)",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Persistent",
+    "career_page_url": "https://www.persistent.com/careers",
+    "website": "https://www.persistent.com",
+    "domain_hint": "IT services (India)",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Persistent",
+    "career_page_url": "https://www.persistent.com/jobs",
+    "website": "https://www.persistent.com",
+    "domain_hint": "IT services (India)",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Calsoft",
+    "career_page_url": "https://www.calsoft.com/careers",
+    "website": "https://www.calsoft.com",
+    "domain_hint": "IT services (India)",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Calsoft",
+    "career_page_url": "https://www.calsoft.com/jobs",
+    "website": "https://www.calsoft.com",
+    "domain_hint": "IT services (India)",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "TCS",
+    "career_page_url": "https://www.tcs.com/careers",
+    "website": "https://www.tcs.com",
+    "domain_hint": "IT services MNC (India)",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "TCS",
+    "career_page_url": "https://www.tcs.com/jobs",
+    "website": "https://www.tcs.com",
+    "domain_hint": "IT services MNC (India)",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Infosys",
+    "career_page_url": "https://www.infosys.com/careers",
+    "website": "https://www.infosys.com",
+    "domain_hint": "IT services MNC (India)",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Infosys",
+    "career_page_url": "https://www.infosys.com/jobs",
+    "website": "https://www.infosys.com",
+    "domain_hint": "IT services MNC (India)",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Wipro",
+    "career_page_url": "https://www.wipro.com/careers",
+    "website": "https://www.wipro.com",
+    "domain_hint": "IT services MNC (India)",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Wipro",
+    "career_page_url": "https://www.wipro.com/jobs",
+    "website": "https://www.wipro.com",
+    "domain_hint": "IT services MNC (India)",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "HCLTech",
+    "career_page_url": "https://www.hcltech.com/careers",
+    "website": "https://www.hcltech.com",
+    "domain_hint": "IT services MNC (India)",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "HCLTech",
+    "career_page_url": "https://www.hcltech.com/jobs",
+    "website": "https://www.hcltech.com",
+    "domain_hint": "IT services MNC (India)",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Tech Mahindra",
+    "career_page_url": "https://www.techmahindra.com/careers",
+    "website": "https://www.techmahindra.com",
+    "domain_hint": "IT services MNC (India)",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  },
+  {
+    "company_name": "Tech Mahindra",
+    "career_page_url": "https://www.techmahindra.com/jobs",
+    "website": "https://www.techmahindra.com",
+    "domain_hint": "IT services MNC (India)",
+    "ats_type": "unknown",
+    "source_platform": "curated"
+  }
+]

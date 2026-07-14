@@ -1,0 +1,34 @@
+{
+  "total_companies": 4041,
+  "by_ats": {
+    "unknown": 2098,
+    "greenhouse": 959,
+    "ashby": 520,
+    "lever": 373,
+    "custom": 31,
+    "workable": 13,
+    "breezyhr": 9,
+    "yc": 9,
+    "workday": 7,
+    "personio": 4,
+    "smartrecruiters": 3,
+    "teamtailor": 3,
+    "onlyfy": 2,
+    "pinpoint": 2,
+    "mailto": 2,
+    "bamboohr": 1,
+    "trinethire": 1,
+    "keka": 1,
+    "rippling": 1,
+    "attrax": 1,
+    "applytojob": 1
+  },
+  "ats_conflicts": [
+    "Envoy",
+    "Plaid",
+    "Podium",
+    "Strava",
+    "Temporal"
+  ],
+  "automatable_count": 1901
+}

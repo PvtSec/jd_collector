@@ -1,0 +1,56 @@
+# job_auto configuration. Copy to config.yaml and edit.
+# This project only discovers and filters jobs; it never submits.
+
+data:
+  companies_file: data/companies.json
+  ledger_db: data/applied.sqlite         # applied-jobs ledger (de-dupe + history)
+
+# Role targeting — only jobs matching ALL of these are considered.
+target:
+  role_keywords:                          # matched (case-insensitive) against job title
+    - software engineer
+    - backend engineer
+    - frontend engineer
+    - fullstack engineer
+    - full stack engineer
+    - platform engineer
+    - infrastructure engineer
+    - sre
+    - site reliability
+    - developer experience
+    - "ml engineer"
+    - "data engineer"
+  exclude_keywords:                       # reject titles containing these
+    - manager
+    - director
+    - head of
+    - intern
+    - senior manager
+    - principal
+  location_pref: ["remote", "india", "bengaluru", "bangalore", "eu", "latam"]
+  work_types: ["remote", "hybrid"]        # onsite only if also in location_pref
+
+# Per-ATS enable list. Leave null to enable all automatable companies in companies.json.
+# Set to a list of company names to opt in only those (recommended).
+allow_companies: null
+
+safety:
+  dry_run: true                           # true = never submit, only list/preview matches
+  min_delay_seconds: 45                   # min seconds between submissions
+  max_delay_seconds: 180                  # max (random within [min,max])
+  max_applications_per_run: 20
+  skip_if_captcha: true                   # skip captcha-protected forms, log for manual
+  skip_if_tos_anti_automation: true
+  respect_robots_txt: true
+
+ats_priority:                             # build/integration order
+  - greenhouse
+  - lever
+  - ashby
+  - smartrecruiters
+  - workable
+
+http:
+  timeout_seconds: 20
+  user_agent: "Mozilla/5.0 (job-auto; contact: <your-email>)"
+  retries: 2

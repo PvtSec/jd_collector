@@ -1,0 +1,22 @@
+[
+  {
+    "company_name": "Anexia",
+    "website": "https://www.anexia.com",
+    "career_page_url": "https://anexia.onlyfy.jobs/en",
+    "board_token": "anexia",
+    "domain_hint": "cloud/IT infrastructure",
+    "source_platforms": [
+      "anexia"
+    ]
+  },
+  {
+    "company_name": "InfoGuard AG",
+    "website": "https://www.infoguard.ch",
+    "career_page_url": "https://infoguard-ag.onlyfy.jobs/en",
+    "board_token": "infoguard-ag",
+    "domain_hint": "cybersecurity/penetration testing",
+    "source_platforms": [
+      "manual-target"
+    ]
+  }
+]

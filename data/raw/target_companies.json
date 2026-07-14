@@ -1,0 +1,32 @@
+[
+  {"company_name":"Yousign","career_page_url":"https://yousign.careers.teamtailor.com/jobs","website":"https://yousign.com","domain_hint":"e-signature/SaaS","ats_type":"teamtailor","source_platform":"manual-target"},
+  {"company_name":"Spiko","career_page_url":"https://spiko.careers.teamtailor.com/jobs","website":"https://spiko.com","domain_hint":"fintech/crypto","ats_type":"teamtailor","source_platform":"manual-target"},
+  {"company_name":"bunny.net","career_page_url":"https://bunny-net.careers.teamtailor.com/jobs","website":"https://bunny.net","domain_hint":"CDN/edge-compute","ats_type":"teamtailor","source_platform":"manual-target"},
+  {"company_name":"Vivid","career_page_url":"https://vivid.jobs.personio.com/","website":"https://vivid.money","domain_hint":"fintech/banking","ats_type":"personio","source_platform":"manual-target"},
+  {"company_name":"Giant Swarm","career_page_url":"https://giant-swarm.jobs.personio.com/","website":"https://giantswarm.io","domain_hint":"cloud-native/Kubernetes","ats_type":"personio","source_platform":"manual-target"},
+  {"company_name":"All Cares","career_page_url":"https://allcares.breezy.hr/","website":"https://allcares.com","domain_hint":"healthtech","ats_type":"breezyhr","source_platform":"manual-target"},
+  {"company_name":"Rule4","career_page_url":"https://rule4.breezy.hr/","website":"https://rule4.com","domain_hint":"cybersecurity/consulting","ats_type":"breezyhr","source_platform":"manual-target"},
+  {"company_name":"Teal","career_page_url":"https://teal.breezy.hr/","website":"https://tealhq.com","domain_hint":"career-tech/SaaS","ats_type":"breezyhr","source_platform":"manual-target"},
+  {"company_name":"WazirX","career_page_url":"https://wazirx.breezy.hr/","website":"https://wazirx.com","domain_hint":"crypto/exchange","ats_type":"breezyhr","source_platform":"manual-target"},
+  {"company_name":"InfoGuard AG","career_page_url":"https://infoguard-ag.onlyfy.jobs/en","website":"https://www.infoguard.ch","domain_hint":"cybersecurity/penetration testing","ats_type":"onlyfy","source_platform":"manual-target"},
+  {"company_name":"Workstreet","career_page_url":"https://ats.rippling.com/workstreet/jobs","website":"https://workstreet.in","domain_hint":"legal-tech/SaaS","ats_type":"rippling","source_platform":"manual-target"},
+
+  {"company_name":"Sarvam AI","career_page_url":"https://jobs.ashbyhq.com/sarvam","website":"https://sarvam.ai","domain_hint":"AI/voice-LLM (India)","ats_type":"ashby","source_platform":"manual-target"},
+  {"company_name":"Sprinto","career_page_url":"https://jobs.lever.co/Sprinto","website":"https://sprinto.com","domain_hint":"compliance/GRC SaaS (India)","ats_type":"lever","source_platform":"manual-target"},
+  {"company_name":"CloudSEK","career_page_url":"https://boards.greenhouse.io/cloudsek","website":"https://cloudsek.com","domain_hint":"AI digital-risk/security (India)","ats_type":"greenhouse","source_platform":"manual-target"},
+  {"company_name":"Trail of Bits","career_page_url":"https://apply.workable.com/trailofbits","website":"https://www.trailofbits.com","domain_hint":"security auditing/pentest","ats_type":"workable","source_platform":"manual-target"},
+  {"company_name":"Ajaib","career_page_url":"https://apply.workable.com/ajaib","website":"https://ajaib.id","domain_hint":"brokerage/fintech (Indonesia)","ats_type":"workable","source_platform":"manual-target"},
+  {"company_name":"Pepperstone","career_page_url":"https://apply.workable.com/pepperstone","website":"https://pepperstone.com","domain_hint":"fintech/brokerage","ats_type":"workable","source_platform":"manual-target"},
+
+  {"company_name":"ZynoSec","career_page_url":"https://zynosec.com/careers/","website":"https://zynosec.com","domain_hint":"pentest (India remote)","ats_type":"mailto","source_platform":"manual-target"},
+  {"company_name":"PentStark","career_page_url":"https://pentstark.com/careers/","website":"https://pentstark.com","domain_hint":"offensive security/AI security (India/EU remote)","ats_type":"mailto","source_platform":"manual-target"},
+  {"company_name":"Security Brigade","career_page_url":"https://securitybrigade.com/careers/","website":"https://securitybrigade.com","domain_hint":"pentest firm (Mumbai)","ats_type":"custom","source_platform":"manual-target"},
+  {"company_name":"Delta6Labs","career_page_url":"https://delta6labs.com/careers/","website":"https://delta6labs.com","domain_hint":"fintech/crypto pentest (Noida)","ats_type":"custom","source_platform":"manual-target"},
+  {"company_name":"Qualysec","career_page_url":"https://qualysec.com/career/","website":"https://qualysec.com","domain_hint":"web/mobile/API pentest (India)","ats_type":"custom","source_platform":"manual-target"},
+  {"company_name":"Clueso","career_page_url":"https://clueso.io/careers/","website":"https://clueso.io","domain_hint":"YC-backed SDET (Playwright)","ats_type":"custom","source_platform":"manual-target"},
+  {"company_name":"Seezo","career_page_url":"https://seezo.io/jobs/","website":"https://seezo.io","domain_hint":"AI-native AppSec","ats_type":"custom","source_platform":"manual-target"},
+  {"company_name":"Traveloka","career_page_url":"https://careers.traveloka.com/","website":"https://www.traveloka.com","domain_hint":"travel/tech (Singapore/Indonesia)","ats_type":"custom","source_platform":"manual-target"},
+  {"company_name":"Web3 Foundation","career_page_url":"https://web3.foundation/careers/","website":"https://web3.foundation","domain_hint":"blockchain/DeFi product security","ats_type":"custom","source_platform":"manual-target"},
+  {"company_name":"Airwallex","career_page_url":"https://careers.airwallex.com/","website":"https://www.airwallex.com","domain_hint":"fintech/cross-border payments","ats_type":"custom","source_platform":"manual-target"},
+  {"company_name":"Employment Hero","career_page_url":"https://employmenthero.com/careers/","website":"https://employmenthero.com","domain_hint":"HR/payroll SaaS (APAC)","ats_type":"custom","source_platform":"manual-target"}
+]

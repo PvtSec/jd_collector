@@ -1,0 +1,34 @@
+[
+  {
+    "company_name": "Flywire",
+    "website": "https://www.flywire.com",
+    "career_page_url": "https://www.flywire.com/company/careers",
+    "board_token": null,
+    "domain_hint": "fintech/payments",
+    "source_platforms": [
+      "builtin",
+      "himalayas"
+    ]
+  },
+  {
+    "company_name": "Nexthink",
+    "website": "https://nexthink.com",
+    "career_page_url": "https://nexthink.com/company/careers",
+    "board_token": null,
+    "domain_hint": "digital-experience/IT SaaS",
+    "source_platforms": [
+      "builtin",
+      "himalayas"
+    ]
+  },
+  {
+    "company_name": "Tufin",
+    "website": "https://www.tufin.com",
+    "career_page_url": "https://www.tufin.com/careers",
+    "board_token": null,
+    "domain_hint": "security",
+    "source_platforms": [
+      "builtin"
+    ]
+  }
+]

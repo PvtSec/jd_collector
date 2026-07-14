@@ -1,0 +1,136 @@
+[
+  {
+    "company_name": "Ajaib",
+    "website": "http://www.ajaib.co.id",
+    "career_page_url": "https://apply.workable.com/ajaib",
+    "board_token": "ajaib",
+    "domain_hint": "FinTech / Investment",
+    "source_platforms": [
+      "manual-target",
+      "topstartups.io"
+    ]
+  },
+  {
+    "company_name": "Callsign",
+    "website": "http://www.callsign.com",
+    "career_page_url": "https://apply.workable.com/callsign",
+    "board_token": "callsign",
+    "domain_hint": "Enterprise Software / Cybersecurity / Artificial Intelligence",
+    "source_platforms": [
+      "topstartups.io"
+    ]
+  },
+  {
+    "company_name": "Carbyne",
+    "website": "https://carbyne.com/",
+    "career_page_url": "https://apply.workable.com/carbyne-1",
+    "board_token": "carbyne-1",
+    "domain_hint": "Software / Public Safety / Communication",
+    "source_platforms": [
+      "topstartups.io"
+    ]
+  },
+  {
+    "company_name": "DNSFilter",
+    "website": "",
+    "career_page_url": "https://apply.workable.com/dnsfilter/#jobs",
+    "board_token": "dnsfilter",
+    "domain_hint": "apply.workable.com",
+    "source_platforms": [
+      "chsr"
+    ]
+  },
+  {
+    "company_name": "Gridware",
+    "website": "https://gridware.io/",
+    "career_page_url": "https://apply.workable.com/gridware",
+    "board_token": "gridware",
+    "domain_hint": "Predictive Analytics / Energy",
+    "source_platforms": [
+      "topstartups.io"
+    ]
+  },
+  {
+    "company_name": "Hugging Face",
+    "website": "https://huggingface.co",
+    "career_page_url": "https://apply.workable.com/huggingface/",
+    "board_token": "huggingface",
+    "domain_hint": "AI/ML",
+    "source_platforms": [
+      "direct-search",
+      "wellfound"
+    ]
+  },
+  {
+    "company_name": "Intuition Machines",
+    "website": "",
+    "career_page_url": "https://apply.workable.com/imachines/",
+    "board_token": "imachines",
+    "domain_hint": "apply.workable.com",
+    "source_platforms": [
+      "chsr"
+    ]
+  },
+  {
+    "company_name": "MLabs",
+    "website": "https://mlabs.city",
+    "career_page_url": "https://apply.workable.com/mlabs",
+    "board_token": "mlabs",
+    "domain_hint": "web3/DeFi",
+    "source_platforms": [
+      "himalayas",
+      "jobleads"
+    ]
+  },
+  {
+    "company_name": "Pepperstone",
+    "website": "https://pepperstone.com",
+    "career_page_url": "https://apply.workable.com/pepperstone",
+    "board_token": "pepperstone",
+    "domain_hint": "fintech/brokerage",
+    "source_platforms": [
+      "manual-target"
+    ]
+  },
+  {
+    "company_name": "ReversingLabs",
+    "website": "",
+    "career_page_url": "https://apply.workable.com/reversinglabs",
+    "board_token": "reversinglabs",
+    "domain_hint": "reversinglabs.workable.com",
+    "source_platforms": [
+      "chsr"
+    ]
+  },
+  {
+    "company_name": "Sky Mavis",
+    "website": "http://www.skymavis.com/",
+    "career_page_url": "https://apply.workable.com/sky-mavis",
+    "board_token": "sky-mavis",
+    "domain_hint": "Gaming / Crypto / Blockchain",
+    "source_platforms": [
+      "topstartups.io"
+    ]
+  },
+  {
+    "company_name": "Trail of Bits",
+    "website": "https://www.trailofbits.com",
+    "career_page_url": "https://apply.workable.com/trailofbits",
+    "board_token": "trailofbits",
+    "domain_hint": "security auditing/pentest",
+    "source_platforms": [
+      "himalayas",
+      "manual-target"
+    ]
+  },
+  {
+    "company_name": "TwelveSec",
+    "website": "",
+    "career_page_url": "https://apply.workable.com/twelvesec",
+    "board_token": "twelvesec",
+    "domain_hint": "twelvesec.workable.com",
+    "source_platforms": [
+      "chsr"
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "company_name": "Workstreet",
+    "website": "https://workstreet.in",
+    "career_page_url": "https://ats.rippling.com/workstreet/jobs",
+    "board_token": "workstreet",
+    "domain_hint": "legal-tech/SaaS",
+    "source_platforms": [
+      "manual-target"
+    ]
+  }
+]

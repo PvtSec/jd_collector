@@ -1,0 +1,315 @@
+[
+  {
+    "company_name": "Agave",
+    "website": "https://useagave.com",
+    "career_page_url": "https://useagave.com/careers",
+    "board_token": null,
+    "domain_hint": "fintech/construction",
+    "source_platforms": [
+      "yc"
+    ]
+  },
+  {
+    "company_name": "Airwallex",
+    "website": "http://www.airwallex.com",
+    "career_page_url": "https://careers.airwallex.com/",
+    "board_token": null,
+    "domain_hint": "FinTech / Payments",
+    "source_platforms": [
+      "manual-target",
+      "topstartups.io"
+    ]
+  },
+  {
+    "company_name": "Archbee",
+    "website": "https://www.archbee.com",
+    "career_page_url": "https://docs.archbee.com/careers",
+    "board_token": null,
+    "domain_hint": "devtools/docs",
+    "source_platforms": [
+      "jobleads"
+    ]
+  },
+  {
+    "company_name": "Aware Health",
+    "website": "https://www.awarehealth.io",
+    "career_page_url": "https://www.awarehealth.io/careers",
+    "board_token": null,
+    "domain_hint": "healthtech",
+    "source_platforms": [
+      "whoishiring"
+    ]
+  },
+  {
+    "company_name": "Bookmap",
+    "website": "https://bookmap.com",
+    "career_page_url": "https://bookmap.com/careers",
+    "board_token": null,
+    "domain_hint": "fintech",
+    "source_platforms": [
+      "workingnomads"
+    ]
+  },
+  {
+    "company_name": "Coda",
+    "website": "https://coda.io",
+    "career_page_url": "https://coda.io/about/jobs",
+    "board_token": null,
+    "domain_hint": "SaaS/productivity",
+    "source_platforms": [
+      "direct-search",
+      "topstartups.io"
+    ]
+  },
+  {
+    "company_name": "Conservation Metrics",
+    "website": "https://conservationmetrics.com",
+    "career_page_url": "https://conservationmetrics.com/careers/",
+    "board_token": null,
+    "domain_hint": "envtech/data",
+    "source_platforms": [
+      "whoishiring"
+    ]
+  },
+  {
+    "company_name": "Delta6Labs",
+    "website": "https://delta6labs.com",
+    "career_page_url": "https://delta6labs.com/careers/",
+    "board_token": null,
+    "domain_hint": "fintech/crypto pentest (Noida)",
+    "source_platforms": [
+      "manual-target"
+    ]
+  },
+  {
+    "company_name": "DuckDuckGo",
+    "website": "https://duckduckgo.com",
+    "career_page_url": "https://duckduckgo.com/hiring",
+    "board_token": null,
+    "domain_hint": "search/privacy",
+    "source_platforms": [
+      "powertofly"
+    ]
+  },
+  {
+    "company_name": "Ecosmic",
+    "website": "https://www.ecosmic.space",
+    "career_page_url": "https://careers.ecosmic.space",
+    "board_token": null,
+    "domain_hint": "space/infra",
+    "source_platforms": [
+      "whoishiring"
+    ]
+  },
+  {
+    "company_name": "Employment Hero",
+    "website": "https://employmenthero.com",
+    "career_page_url": "https://employmenthero.com/careers/",
+    "board_token": null,
+    "domain_hint": "HR/payroll SaaS (APAC)",
+    "source_platforms": [
+      "manual-target"
+    ]
+  },
+  {
+    "company_name": "Forecasting Research Institute",
+    "website": "https://forecastingresearch.org",
+    "career_page_url": "https://forecastingresearch.org/careers/data-engineer",
+    "board_token": null,
+    "domain_hint": "AI/ML/research",
+    "source_platforms": [
+      "whoishiring"
+    ]
+  },
+  {
+    "company_name": "G-Research",
+    "website": "https://www.gresearch.com",
+    "career_page_url": "https://www.gresearch.com/vacancies/",
+    "board_token": null,
+    "domain_hint": "fintech/quant",
+    "source_platforms": [
+      "whoishiring"
+    ]
+  },
+  {
+    "company_name": "IPinfo.io",
+    "website": "https://ipinfo.io",
+    "career_page_url": "https://ipinfo.io/careers",
+    "board_token": null,
+    "domain_hint": "devtools/API",
+    "source_platforms": [
+      "whoishiring"
+    ]
+  },
+  {
+    "company_name": "lemon.io",
+    "website": "https://lemon.io",
+    "career_page_url": "https://lemon.io/for-developers/",
+    "board_token": null,
+    "domain_hint": "devtools/marketplace",
+    "source_platforms": [
+      "workingnomads"
+    ]
+  },
+  {
+    "company_name": "Mainmatter",
+    "website": "https://mainmatter.com",
+    "career_page_url": "https://mainmatter.notion.site/Rust-Engineering-Consultant",
+    "board_token": null,
+    "domain_hint": "devtools/consulting",
+    "source_platforms": [
+      "whoishiring"
+    ]
+  },
+  {
+    "company_name": "Ojin",
+    "website": "https://ojin.ai",
+    "career_page_url": "https://ojin.ai",
+    "board_token": null,
+    "domain_hint": "AI/ML",
+    "source_platforms": [
+      "whoishiring"
+    ]
+  },
+  {
+    "company_name": "Paylocity",
+    "website": "https://www.paylocity.com",
+    "career_page_url": "https://www.paylocity.com/company/careers/",
+    "board_token": null,
+    "domain_hint": "HR SaaS",
+    "source_platforms": [
+      "powertofly"
+    ]
+  },
+  {
+    "company_name": "Peroptyx",
+    "website": "https://www.peroptyx.com",
+    "career_page_url": "https://www.peroptyx.com/company/careers/",
+    "board_token": null,
+    "domain_hint": "AI/ML (data annotation)",
+    "source_platforms": [
+      "workingnomads"
+    ]
+  },
+  {
+    "company_name": "Perry Street Software",
+    "website": "https://perrystreet.software",
+    "career_page_url": "https://rubyonremote.com/jobs/73278-senior-ruby-developer-eu-latam-na-at-perry-street-software",
+    "board_token": null,
+    "domain_hint": "SaaS",
+    "source_platforms": [
+      "whoishiring"
+    ]
+  },
+  {
+    "company_name": "Qualysec",
+    "website": "https://qualysec.com",
+    "career_page_url": "https://qualysec.com/career/",
+    "board_token": null,
+    "domain_hint": "web/mobile/API pentest (India)",
+    "source_platforms": [
+      "manual-target"
+    ]
+  },
+  {
+    "company_name": "QuestDB",
+    "website": "https://questdb.com",
+    "career_page_url": "https://questdb.com/careers/",
+    "board_token": null,
+    "domain_hint": "database/infra",
+    "source_platforms": [
+      "topstartups.io",
+      "yc"
+    ]
+  },
+  {
+    "company_name": "Security Brigade",
+    "website": "https://securitybrigade.com",
+    "career_page_url": "https://securitybrigade.com/careers/",
+    "board_token": null,
+    "domain_hint": "pentest firm (Mumbai)",
+    "source_platforms": [
+      "manual-target"
+    ]
+  },
+  {
+    "company_name": "Seezo",
+    "website": "https://seezo.io",
+    "career_page_url": "https://seezo.io/jobs/",
+    "board_token": null,
+    "domain_hint": "AI-native AppSec",
+    "source_platforms": [
+      "manual-target"
+    ]
+  },
+  {
+    "company_name": "SerpApi",
+    "website": "https://serpapi.com",
+    "career_page_url": "https://serpapi.com/careers",
+    "board_token": null,
+    "domain_hint": "devtools/API",
+    "source_platforms": [
+      "whoishiring"
+    ]
+  },
+  {
+    "company_name": "Spacelift",
+    "website": "https://spacelift.io",
+    "career_page_url": "https://careers.spacelift.io",
+    "board_token": null,
+    "domain_hint": "devtools/infra",
+    "source_platforms": [
+      "whoishiring"
+    ]
+  },
+  {
+    "company_name": "Storyteller",
+    "website": "https://www.getstoryteller.com",
+    "career_page_url": "https://www.getstoryteller.com/careers",
+    "board_token": null,
+    "domain_hint": "SaaS",
+    "source_platforms": [
+      "workingnomads"
+    ]
+  },
+  {
+    "company_name": "Traveloka",
+    "website": "https://www.traveloka.com",
+    "career_page_url": "https://careers.traveloka.com/",
+    "board_token": null,
+    "domain_hint": "travel/tech (Singapore/Indonesia)",
+    "source_platforms": [
+      "manual-target"
+    ]
+  },
+  {
+    "company_name": "We The Flywheel",
+    "website": "https://wetheflywheel.com",
+    "career_page_url": "https://wetheflywheel.com/en/careers/",
+    "board_token": null,
+    "domain_hint": "AI/ML",
+    "source_platforms": [
+      "whoishiring"
+    ]
+  },
+  {
+    "company_name": "Web3 Foundation",
+    "website": "https://web3.foundation",
+    "career_page_url": "https://web3.foundation/careers/",
+    "board_token": null,
+    "domain_hint": "blockchain/DeFi product security",
+    "source_platforms": [
+      "manual-target"
+    ]
+  },
+  {
+    "company_name": "Yuzu Health",
+    "website": "https://yuzu.health",
+    "career_page_url": "https://yuzu.health/careers",
+    "board_token": null,
+    "domain_hint": "healthtech",
+    "source_platforms": [
+      "whoishiring"
+    ]
+  }
+]

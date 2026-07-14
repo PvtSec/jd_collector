@@ -1,0 +1,42 @@
+[
+  {
+    "company_name": "Friendly Captcha",
+    "website": "https://friendlycaptcha.com",
+    "career_page_url": "https://friendlycaptcha.jobs.personio.com",
+    "board_token": "friendlycaptcha",
+    "domain_hint": "security/devtools",
+    "source_platforms": [
+      "whoishiring"
+    ]
+  },
+  {
+    "company_name": "Giant Swarm",
+    "website": "https://giantswarm.io",
+    "career_page_url": "https://giant-swarm.jobs.personio.com/",
+    "board_token": "giant-swarm",
+    "domain_hint": "cloud-native/Kubernetes",
+    "source_platforms": [
+      "manual-target"
+    ]
+  },
+  {
+    "company_name": "Vivid",
+    "website": "https://vivid.money",
+    "career_page_url": "https://vivid.jobs.personio.com/",
+    "board_token": "vivid",
+    "domain_hint": "fintech/banking",
+    "source_platforms": [
+      "manual-target"
+    ]
+  },
+  {
+    "company_name": "VMRay",
+    "website": "",
+    "career_page_url": "https://vmray-gmbh.jobs.personio.de/",
+    "board_token": null,
+    "domain_hint": "vmray-gmbh.jobs.personio.de",
+    "source_platforms": [
+      "chsr"
+    ]
+  }
+]

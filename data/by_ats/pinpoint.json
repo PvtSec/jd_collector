@@ -1,0 +1,23 @@
+[
+  {
+    "company_name": "Aurora Energy Research",
+    "website": "https://www.auroraer.com",
+    "career_page_url": "https://app.pinpointhq.com/rails",
+    "board_token": "rails",
+    "domain_hint": "energy/data",
+    "source_platforms": [
+      "whoishiring"
+    ]
+  },
+  {
+    "company_name": "SafetyWing",
+    "website": "https://safetywing.com",
+    "career_page_url": "https://safetywing.pinpointhq.com/",
+    "board_token": null,
+    "domain_hint": "insurtech/remote",
+    "source_platforms": [
+      "topstartups.io",
+      "yc"
+    ]
+  }
+]

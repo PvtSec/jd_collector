@@ -1,0 +1,86 @@
+# job_auto configuration — centralized job-search centre.
+# This project only discovers and filters jobs; it never submits.
+# Applying is done by you in the browser (e.g. via the Chrome extension).
+
+data:
+  companies_file: data/companies.json
+  ledger_db: data/applied.sqlite
+
+target:
+  role_keywords:
+    - penetration tester
+    - pentester
+    - penetration testing
+    - offensive security
+    - red team
+    - vulnerability researcher
+    - security researcher
+    - ethical hacker
+    - application security engineer
+    - application security
+    - appsec
+    - product security engineer
+    - product security
+    - qa engineer
+    - qa automation
+    - quality assurance
+    - quality engineer
+    - test automation
+    - automation engineer
+    - software qa
+    - sdet
+    - software development engineer in test
+    - software engineer in test
+    - engineer in test
+    - test engineer
+    - automation test engineer
+  exclude_keywords:
+    - manager
+    - director
+    - head of
+    - lead
+    - principal
+    - staff
+    - intern
+    - architect
+    - devops
+    - devsecops
+    - sre
+    - site reliability
+    - platform engineer
+    - infrastructure
+  location_pref: ["remote", "worldwide", "global", "india", "bengaluru", "bangalore",
+                 "pune", "hyderabad", "mumbai", "chennai", "kerala", "delhi",
+                 "europe", "emea", "eu", "apac", "latam"]
+  work_types: ["remote", "hybrid"]
+
+allow_companies: null
+skip_companies: ["Canonical", "Coinbase"]   # Canonical: strict AI checks; would reject. Coinbase: greenhouse board redirects to a 403-bot-walled SPA — job links don't land on a JD, 0 candidate matches (all US/finance). Surfaced as a single career-page stub instead.
+
+safety:
+  dry_run: true
+  min_delay_seconds: 45
+  max_delay_seconds: 180
+  max_applications_per_run: 120   # raised from 20 so a manual session can reach 100+ jobs
+  skip_if_captcha: true
+  skip_if_tos_anti_automation: true
+  respect_robots_txt: true
+
+ats_priority:
+  - workable
+  - greenhouse
+  - lever
+  - ashby
+  - smartrecruiters
+
+http:
+  timeout_seconds: 20
+  user_agent: "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
+  retries: 2
+
+# --- dashboard app (app/backend) — optional; env vars (JOBAUTO_*) override ---
+app:
+  tick_minutes: 5        # how often the discovery task fires
+  rotate_size: 60        # companies enumerated per tick (all ~550 covered ~hourly)
+  port: 8000
+  # jobs_db, engine_config, frontend_dist default sensibly; override via env if needed.

@@ -1,0 +1,1191 @@
+[
+  {
+    "company_name": "Altera Digital Health",
+    "career_page_url": "https://harriscomputer.wd3.myworkdayjobs.com/Altera",
+    "website": "",
+    "domain_hint": "harriscomputer.wd3.myworkdayjobs.com",
+    "ats_type": "workday",
+    "source_platform": "chsr",
+    "chsr_url": "https://harriscomputer.wd3.myworkdayjobs.com/Altera"
+  },
+  {
+    "company_name": "Aurora Innovation",
+    "career_page_url": "https://boards.greenhouse.io/aurorainnovation",
+    "website": "",
+    "domain_hint": "aurora.tech",
+    "ats_type": "greenhouse",
+    "board_token": "aurorainnovation",
+    "slug": "aurorainnovation",
+    "jobs_found": 149,
+    "source_platform": "chsr",
+    "chsr_url": "https://aurora.tech/careers/"
+  },
+  {
+    "company_name": "bill.com",
+    "career_page_url": "https://boards.greenhouse.io/billcom",
+    "website": "",
+    "domain_hint": "bill.com",
+    "ats_type": "greenhouse",
+    "board_token": "billcom",
+    "slug": "billcom",
+    "jobs_found": 46,
+    "source_platform": "chsr",
+    "chsr_url": "https://www.bill.com/jobs"
+  },
+  {
+    "company_name": "Aha! Labs",
+    "career_page_url": "https://boards.greenhouse.io/aha",
+    "website": "",
+    "domain_hint": "aha.io",
+    "ats_type": "greenhouse",
+    "board_token": "aha",
+    "slug": "aha",
+    "jobs_found": 2,
+    "source_platform": "chsr",
+    "chsr_url": "https://www.aha.io/company/careers/current-openings"
+  },
+  {
+    "company_name": "Bitdefender",
+    "career_page_url": "https://www.bitdefender.com/en-us/company/job-opportunities/",
+    "website": "",
+    "domain_hint": "bitdefender.com",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://www.bitdefender.com/en-us/company/job-opportunities/"
+  },
+  {
+    "company_name": "Astronomer",
+    "career_page_url": "https://jobs.ashbyhq.com/astronomer",
+    "website": "",
+    "domain_hint": "astronomer.io",
+    "ats_type": "ashby",
+    "board_token": "astronomer",
+    "slug": "astronomer",
+    "jobs_found": 26,
+    "source_platform": "chsr",
+    "chsr_url": "https://www.astronomer.io/careers/#openings"
+  },
+  {
+    "company_name": "Cisco Talos",
+    "career_page_url": "https://www.talosintelligence.com/careers",
+    "website": "",
+    "domain_hint": "talosintelligence.com",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://www.talosintelligence.com/careers"
+  },
+  {
+    "company_name": "AirHouse",
+    "career_page_url": "https://www.airhouse.io/careers",
+    "website": "",
+    "domain_hint": "airhouse.io",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://www.airhouse.io/careers"
+  },
+  {
+    "company_name": "Diligent Robotics",
+    "career_page_url": "https://boards.greenhouse.io/diligentrobotics",
+    "website": "",
+    "domain_hint": "boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "source_platform": "chsr",
+    "chsr_url": "https://boards.greenhouse.io/diligentrobotics"
+  },
+  {
+    "company_name": "Cimpress",
+    "career_page_url": "https://jobs.vista.com/Cimpress-Technology/go/CT/7796800/",
+    "website": "",
+    "domain_hint": "jobs.vista.com",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://jobs.vista.com/Cimpress-Technology/go/CT/7796800/"
+  },
+  {
+    "company_name": "DNSFilter",
+    "career_page_url": "https://apply.workable.com/dnsfilter/#jobs",
+    "website": "",
+    "domain_hint": "apply.workable.com",
+    "ats_type": "workable",
+    "source_platform": "chsr",
+    "chsr_url": "https://apply.workable.com/dnsfilter/#jobs"
+  },
+  {
+    "company_name": "Certego",
+    "career_page_url": "https://www.certego.net/company/careers/",
+    "website": "",
+    "domain_hint": "certego.net",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://www.certego.net/company/careers/"
+  },
+  {
+    "company_name": "Bright Security",
+    "career_page_url": "https://brightsec.com/company/careers/",
+    "website": "",
+    "domain_hint": "brightsec.com",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://brightsec.com/company/careers/"
+  },
+  {
+    "company_name": "Alation",
+    "career_page_url": "https://www.alation.com/careers/",
+    "website": "",
+    "domain_hint": "alation.com",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://www.alation.com/careers/"
+  },
+  {
+    "company_name": "Bravely",
+    "career_page_url": "https://workbravely.com/careers/",
+    "website": "",
+    "domain_hint": "workbravely.com",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://workbravely.com/careers/"
+  },
+  {
+    "company_name": "Amtrak",
+    "career_page_url": "https://careers.amtrak.com/",
+    "website": "",
+    "domain_hint": "careers.amtrak.com",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://careers.amtrak.com/"
+  },
+  {
+    "company_name": "Contrast Security",
+    "career_page_url": "https://www.contrastsecurity.com/contrast-careers",
+    "website": "",
+    "domain_hint": "contrastsecurity.com",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://www.contrastsecurity.com/contrast-careers"
+  },
+  {
+    "company_name": "Fox-IT part of NCC Group",
+    "career_page_url": "https://nccgroup.wd3.myworkdayjobs.com/NCC_Group",
+    "website": "",
+    "domain_hint": "nccgroup.wd3.myworkdayjobs.com",
+    "ats_type": "workday",
+    "source_platform": "chsr",
+    "chsr_url": "https://nccgroup.wd3.myworkdayjobs.com/NCC_Group"
+  },
+  {
+    "company_name": "CodeSignal",
+    "career_page_url": "https://codesignal.com/careers/",
+    "website": "",
+    "domain_hint": "codesignal.com",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://codesignal.com/careers/"
+  },
+  {
+    "company_name": "Coalfire Labs",
+    "career_page_url": "https://jobs.lever.co/coalfire",
+    "website": "",
+    "domain_hint": "coalfire.com",
+    "ats_type": "lever",
+    "board_token": "coalfire",
+    "slug": "coalfire",
+    "jobs_found": 1,
+    "source_platform": "chsr",
+    "chsr_url": "https://coalfire.com/about/careers"
+  },
+  {
+    "company_name": "DCSO",
+    "career_page_url": "https://dcso.de/en/talented-people/",
+    "website": "",
+    "domain_hint": "dcso.de",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://dcso.de/en/talented-people/"
+  },
+  {
+    "company_name": "Gigs",
+    "career_page_url": "https://boards.greenhouse.io/gigs",
+    "website": "",
+    "domain_hint": "gigs.com",
+    "ats_type": "greenhouse",
+    "board_token": "gigs",
+    "slug": "gigs",
+    "jobs_found": 38,
+    "source_platform": "chsr",
+    "chsr_url": "https://gigs.com/careers#positions"
+  },
+  {
+    "company_name": "Gradle",
+    "career_page_url": "https://boards.greenhouse.io/gradle/",
+    "website": "",
+    "domain_hint": "boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "source_platform": "chsr",
+    "chsr_url": "https://boards.greenhouse.io/gradle/"
+  },
+  {
+    "company_name": "Angle Health",
+    "career_page_url": "https://jobs.ashbyhq.com/anglehealth",
+    "website": "",
+    "domain_hint": "anglehealth.com",
+    "ats_type": "ashby",
+    "board_token": "anglehealth",
+    "slug": "anglehealth",
+    "jobs_found": 6,
+    "source_platform": "chsr",
+    "chsr_url": "https://www.anglehealth.com/careers"
+  },
+  {
+    "company_name": "Deepwatch",
+    "career_page_url": "https://www.deepwatch.com/jobs/",
+    "website": "",
+    "domain_hint": "deepwatch.com",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://www.deepwatch.com/jobs/"
+  },
+  {
+    "company_name": "BreakPoint Labs",
+    "career_page_url": "https://jobs.polymer.co/breakpointlabs",
+    "website": "",
+    "domain_hint": "jobs.polymer.co",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://jobs.polymer.co/breakpointlabs"
+  },
+  {
+    "company_name": "Deutsche Bahn / Systel",
+    "career_page_url": "https://karriere.deutschebahn.com/",
+    "website": "",
+    "domain_hint": "karriere.deutschebahn.com",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://karriere.deutschebahn.com/"
+  },
+  {
+    "company_name": "DirectDefense",
+    "career_page_url": "https://www.directdefense.com/about-us/careers/",
+    "website": "",
+    "domain_hint": "directdefense.com",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://www.directdefense.com/about-us/careers/"
+  },
+  {
+    "company_name": "Dow Jones",
+    "career_page_url": "https://dowjones.jobs/",
+    "website": "",
+    "domain_hint": "dowjones.jobs",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://dowjones.jobs/"
+  },
+  {
+    "company_name": "CAST AI",
+    "career_page_url": "https://cast.ai/careers/",
+    "website": "",
+    "domain_hint": "cast.ai",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://cast.ai/careers/"
+  },
+  {
+    "company_name": "Cisco",
+    "career_page_url": "https://careers.cisco.com/global/en",
+    "website": "",
+    "domain_hint": "careers.cisco.com",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://careers.cisco.com/global/en"
+  },
+  {
+    "company_name": "Enable Security",
+    "career_page_url": "https://de.linkedin.com/company/enablesecurity",
+    "website": "",
+    "domain_hint": "de.linkedin.com",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://de.linkedin.com/company/enablesecurity"
+  },
+  {
+    "company_name": "eXp World Holdings",
+    "career_page_url": "https://expworldholdings.com/careers/",
+    "website": "",
+    "domain_hint": "expworldholdings.com",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://expworldholdings.com/careers/"
+  },
+  {
+    "company_name": "Doyensec",
+    "career_page_url": "https://www.careers-page.com/doyensec-llc",
+    "website": "",
+    "domain_hint": "careers-page.com",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://www.careers-page.com/doyensec-llc"
+  },
+  {
+    "company_name": "GuidePoint",
+    "career_page_url": "https://boards.greenhouse.io/guidepoint",
+    "website": "",
+    "domain_hint": "guidepointsecurity.com",
+    "ats_type": "greenhouse",
+    "board_token": "guidepoint",
+    "slug": "guidepoint",
+    "jobs_found": 112,
+    "source_platform": "chsr",
+    "chsr_url": "https://www.guidepointsecurity.com/careers/"
+  },
+  {
+    "company_name": "Intuition Machines",
+    "career_page_url": "https://apply.workable.com/imachines/",
+    "website": "",
+    "domain_hint": "apply.workable.com",
+    "ats_type": "workable",
+    "source_platform": "chsr",
+    "chsr_url": "https://apply.workable.com/imachines/"
+  },
+  {
+    "company_name": "Fingerprint for success",
+    "career_page_url": "https://www.fingerprintforsuccess.com/careers",
+    "website": "",
+    "domain_hint": "fingerprintforsuccess.com",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://www.fingerprintforsuccess.com/careers"
+  },
+  {
+    "company_name": "Frequenz",
+    "career_page_url": "https://frequenz.com/careers/",
+    "website": "",
+    "domain_hint": "frequenz.com",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://frequenz.com/careers/"
+  },
+  {
+    "company_name": "Babylon Labs",
+    "career_page_url": "https://babylonlabs.io/jobs",
+    "website": "",
+    "domain_hint": "babylonlabs.io",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://babylonlabs.io/jobs"
+  },
+  {
+    "company_name": "Dell Secure Works",
+    "career_page_url": "https://jobs.dell.com",
+    "website": "",
+    "domain_hint": "jobs.dell.com",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://jobs.dell.com"
+  },
+  {
+    "company_name": "Category Labs",
+    "career_page_url": "https://www.category.xyz/category-careers",
+    "website": "",
+    "domain_hint": "category.xyz",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://www.category.xyz/category-careers"
+  },
+  {
+    "company_name": "ExtraHop",
+    "career_page_url": "https://www.extrahop.com/company/careers/",
+    "website": "",
+    "domain_hint": "extrahop.com",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://www.extrahop.com/company/careers/"
+  },
+  {
+    "company_name": "Ghost Security",
+    "career_page_url": "https://ghost.security/careers",
+    "website": "",
+    "domain_hint": "ghost.security",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://ghost.security/careers"
+  },
+  {
+    "company_name": "Human Rights Watch",
+    "career_page_url": "https://boards.greenhouse.io/humanrightswatch",
+    "website": "",
+    "domain_hint": "careers.hrw.org",
+    "ats_type": "greenhouse",
+    "board_token": "humanrightswatch",
+    "slug": "humanrightswatch",
+    "jobs_found": 11,
+    "source_platform": "chsr",
+    "chsr_url": "https://careers.hrw.org/"
+  },
+  {
+    "company_name": "Indeed",
+    "career_page_url": "https://boards.greenhouse.io/indeed",
+    "website": "",
+    "domain_hint": "indeed.com",
+    "ats_type": "greenhouse",
+    "board_token": "indeed",
+    "slug": "indeed",
+    "jobs_found": 0,
+    "source_platform": "chsr",
+    "chsr_url": "https://www.indeed.com/cmp/Indeed/about"
+  },
+  {
+    "company_name": "ImmersiveLabs",
+    "career_page_url": "https://boards.greenhouse.io/immersive",
+    "website": "",
+    "domain_hint": "immersivelabs.com",
+    "ats_type": "greenhouse",
+    "board_token": "immersive",
+    "slug": "immersive",
+    "jobs_found": 14,
+    "source_platform": "chsr",
+    "chsr_url": "https://www.immersivelabs.com/careers/"
+  },
+  {
+    "company_name": "Hacktive Security",
+    "career_page_url": "https://www.hacktivesecurity.com/careers/",
+    "website": "",
+    "domain_hint": "hacktivesecurity.com",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://www.hacktivesecurity.com/careers/"
+  },
+  {
+    "company_name": "Heroku",
+    "career_page_url": "https://www.heroku.com/careers/",
+    "website": "",
+    "domain_hint": "heroku.com",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://www.heroku.com/careers/"
+  },
+  {
+    "company_name": "Midi Health",
+    "career_page_url": "https://job-boards.greenhouse.io/midihealth",
+    "website": "",
+    "domain_hint": "job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "source_platform": "chsr",
+    "chsr_url": "https://job-boards.greenhouse.io/midihealth"
+  },
+  {
+    "company_name": "Human Security",
+    "career_page_url": "https://www.humansecurity.com/company/careers",
+    "website": "",
+    "domain_hint": "humansecurity.com",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://www.humansecurity.com/company/careers"
+  },
+  {
+    "company_name": "Monad Foundation",
+    "career_page_url": "https://jobs.ashbyhq.com/monad.foundation",
+    "website": "",
+    "domain_hint": "jobs.ashbyhq.com",
+    "ats_type": "ashby",
+    "source_platform": "chsr",
+    "chsr_url": "https://jobs.ashbyhq.com/monad.foundation"
+  },
+  {
+    "company_name": "Home Depot",
+    "career_page_url": "https://careers.homedepot.com/",
+    "website": "",
+    "domain_hint": "careers.homedepot.com",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://careers.homedepot.com/"
+  },
+  {
+    "company_name": "Motion",
+    "career_page_url": "https://jobs.ashbyhq.com/motion",
+    "website": "",
+    "domain_hint": "jobs.ashbyhq.com",
+    "ats_type": "ashby",
+    "source_platform": "chsr",
+    "chsr_url": "https://jobs.ashbyhq.com/motion"
+  },
+  {
+    "company_name": "Inquest",
+    "career_page_url": "https://inquest.net/company/careers/",
+    "website": "",
+    "domain_hint": "inquest.net",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://inquest.net/company/careers/"
+  },
+  {
+    "company_name": "Kivu",
+    "career_page_url": "https://www.kivuconsulting.com/careers/",
+    "website": "",
+    "domain_hint": "kivuconsulting.com",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://www.kivuconsulting.com/careers/"
+  },
+  {
+    "company_name": "Levels",
+    "career_page_url": "https://jobs.ashbyhq.com/levels",
+    "website": "",
+    "domain_hint": "notion.so",
+    "ats_type": "ashby",
+    "board_token": "levels",
+    "slug": "levels",
+    "jobs_found": 10,
+    "source_platform": "chsr",
+    "chsr_url": "https://www.notion.so/Careers-at-Levels-3616891ed02d4c0787fd64227f9bc57a"
+  },
+  {
+    "company_name": "Nomad Health",
+    "career_page_url": "https://boards.greenhouse.io/nomadhealth",
+    "website": "",
+    "domain_hint": "boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "source_platform": "chsr",
+    "chsr_url": "https://boards.greenhouse.io/nomadhealth"
+  },
+  {
+    "company_name": "Ledn",
+    "career_page_url": "https://ledn.io/careers",
+    "website": "",
+    "domain_hint": "ledn.io",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://ledn.io/careers"
+  },
+  {
+    "company_name": "Orbital Sidekick",
+    "career_page_url": "https://jobs.lever.co/orbitalsidekick",
+    "website": "",
+    "domain_hint": "jobs.lever.co",
+    "ats_type": "lever",
+    "source_platform": "chsr",
+    "chsr_url": "https://jobs.lever.co/orbitalsidekick"
+  },
+  {
+    "company_name": "LevelBlue",
+    "career_page_url": "https://levelblue.com/careers",
+    "website": "",
+    "domain_hint": "levelblue.com",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://levelblue.com/careers"
+  },
+  {
+    "company_name": "Pagos Solutions",
+    "career_page_url": "https://jobs.ashbyhq.com/Pagos/",
+    "website": "",
+    "domain_hint": "jobs.ashbyhq.com",
+    "ats_type": "ashby",
+    "source_platform": "chsr",
+    "chsr_url": "https://jobs.ashbyhq.com/Pagos/"
+  },
+  {
+    "company_name": "Intel",
+    "career_page_url": "https://jobs.intel.com/",
+    "website": "",
+    "domain_hint": "jobs.intel.com",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://jobs.intel.com/"
+  },
+  {
+    "company_name": "Paytient",
+    "career_page_url": "https://job-boards.greenhouse.io/paytient",
+    "website": "",
+    "domain_hint": "job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "source_platform": "chsr",
+    "chsr_url": "https://job-boards.greenhouse.io/paytient"
+  },
+  {
+    "company_name": "Let's Encrypt",
+    "career_page_url": "https://letsencrypt.org/jobs/",
+    "website": "",
+    "domain_hint": "letsencrypt.org",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://letsencrypt.org/jobs/"
+  },
+  {
+    "company_name": "Impel",
+    "career_page_url": "https://recruiting.paylocity.com/recruiting/jobs/All/8c8ec28a-de5e-44a4-9180-b30161bd0488/Impel",
+    "website": "",
+    "domain_hint": "recruiting.paylocity.com",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://recruiting.paylocity.com/recruiting/jobs/All/8c8ec28a-de5e-44a4-9180-b30161bd0488/Impel"
+  },
+  {
+    "company_name": "LiveKit",
+    "career_page_url": "https://jobs.ashbyhq.com/livekit",
+    "website": "",
+    "domain_hint": "livekit.io",
+    "ats_type": "ashby",
+    "board_token": "livekit",
+    "slug": "livekit",
+    "jobs_found": 41,
+    "source_platform": "chsr",
+    "chsr_url": "https://livekit.io/careers"
+  },
+  {
+    "company_name": "Marriott",
+    "career_page_url": "https://careers.marriott.com",
+    "website": "",
+    "domain_hint": "careers.marriott.com",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://careers.marriott.com"
+  },
+  {
+    "company_name": "Prelay",
+    "career_page_url": "https://jobs.lever.co/prelay",
+    "website": "",
+    "domain_hint": "jobs.lever.co",
+    "ats_type": "lever",
+    "source_platform": "chsr",
+    "chsr_url": "https://jobs.lever.co/prelay"
+  },
+  {
+    "company_name": "Google",
+    "career_page_url": "https://careers.google.com/",
+    "website": "",
+    "domain_hint": "careers.google.com",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://careers.google.com/"
+  },
+  {
+    "company_name": "Platform.sh",
+    "career_page_url": "https://boards.greenhouse.io/platformsh",
+    "website": "",
+    "domain_hint": "platform.sh",
+    "ats_type": "greenhouse",
+    "board_token": "platformsh",
+    "slug": "platformsh",
+    "jobs_found": 10,
+    "source_platform": "chsr",
+    "chsr_url": "https://platform.sh/company/careers/"
+  },
+  {
+    "company_name": "Netflix",
+    "career_page_url": "https://jobs.lever.co/netflix",
+    "website": "",
+    "domain_hint": "jobs.netflix.com",
+    "ats_type": "lever",
+    "board_token": "netflix",
+    "slug": "netflix",
+    "jobs_found": 0,
+    "source_platform": "chsr",
+    "chsr_url": "https://jobs.netflix.com/"
+  },
+  {
+    "company_name": "Project Discovery",
+    "career_page_url": "https://boards.greenhouse.io/projectdiscoveryinc",
+    "website": "",
+    "domain_hint": "boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "source_platform": "chsr",
+    "chsr_url": "https://boards.greenhouse.io/projectdiscoveryinc"
+  },
+  {
+    "company_name": "Praetorian",
+    "career_page_url": "https://boards.greenhouse.io/praetorian",
+    "website": "",
+    "domain_hint": "praetorian.com",
+    "ats_type": "greenhouse",
+    "board_token": "praetorian",
+    "slug": "praetorian",
+    "jobs_found": 5,
+    "source_platform": "chsr",
+    "chsr_url": "https://www.praetorian.com/company/careers/"
+  },
+  {
+    "company_name": "Meta",
+    "career_page_url": "https://www.metacareers.com/",
+    "website": "",
+    "domain_hint": "metacareers.com",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://www.metacareers.com/"
+  },
+  {
+    "company_name": "Quanata",
+    "career_page_url": "https://job-boards.greenhouse.io/quanata",
+    "website": "",
+    "domain_hint": "job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "source_platform": "chsr",
+    "chsr_url": "https://job-boards.greenhouse.io/quanata"
+  },
+  {
+    "company_name": "Greenomy",
+    "career_page_url": "https://careers.greenomy.io/#jobs",
+    "website": "",
+    "domain_hint": "careers.greenomy.io",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://careers.greenomy.io/#jobs"
+  },
+  {
+    "company_name": "Microsoft",
+    "career_page_url": "https://careers.microsoft.com/",
+    "website": "",
+    "domain_hint": "careers.microsoft.com",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://careers.microsoft.com/"
+  },
+  {
+    "company_name": "mlean",
+    "career_page_url": "https://www.mlean.com/careers/",
+    "website": "",
+    "domain_hint": "mlean.com",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://www.mlean.com/careers/"
+  },
+  {
+    "company_name": "ReversingLabs",
+    "career_page_url": "https://apply.workable.com/reversinglabs",
+    "website": "",
+    "domain_hint": "reversinglabs.workable.com",
+    "ats_type": "workable",
+    "board_token": "reversinglabs",
+    "slug": "reversinglabs",
+    "source_platform": "chsr",
+    "chsr_url": "https://reversinglabs.workable.com"
+  },
+  {
+    "company_name": "Kaspersky",
+    "career_page_url": "https://careers.kaspersky.com",
+    "website": "",
+    "domain_hint": "careers.kaspersky.com",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://careers.kaspersky.com"
+  },
+  {
+    "company_name": "Our Next Energy",
+    "career_page_url": "https://recruiting.ultipro.com/OUR1002ONXE/JobBoard/5c7eeefc-e61c-417a-8468-f976a704a34d/?q=&o=postedDateDesc&w=&wc=&we=&wpst=",
+    "website": "",
+    "domain_hint": "recruiting.ultipro.com",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://recruiting.ultipro.com/OUR1002ONXE/JobBoard/5c7eeefc-e61c-417a-8468-f976a704a34d/?q=&o=postedDateDesc&w=&wc=&we=&wpst="
+  },
+  {
+    "company_name": "NOCD",
+    "career_page_url": "https://www.treatmyocd.com/about-us/careers",
+    "website": "",
+    "domain_hint": "treatmyocd.com",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://www.treatmyocd.com/about-us/careers"
+  },
+  {
+    "company_name": "Panther",
+    "career_page_url": "https://panther.com/company/careers",
+    "website": "",
+    "domain_hint": "panther.com",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://panther.com/company/careers"
+  },
+  {
+    "company_name": "Leviathan Security Group",
+    "career_page_url": "https://www.leviathansecurity.com/careers",
+    "website": "",
+    "domain_hint": "leviathansecurity.com",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://www.leviathansecurity.com/careers"
+  },
+  {
+    "company_name": "Prelim",
+    "career_page_url": "https://jobs.lever.co/prelim",
+    "website": "",
+    "domain_hint": "prelim.com",
+    "ats_type": "lever",
+    "board_token": "prelim",
+    "slug": "prelim",
+    "jobs_found": 0,
+    "source_platform": "chsr",
+    "chsr_url": "https://prelim.com/careers"
+  },
+  {
+    "company_name": "phobos.io",
+    "career_page_url": "https://phobos.io/careers",
+    "website": "",
+    "domain_hint": "phobos.io",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://phobos.io/careers"
+  },
+  {
+    "company_name": "Sounding Board",
+    "career_page_url": "https://sounding-board-inc.breezy.hr/",
+    "website": "",
+    "domain_hint": "sounding-board-inc.breezy.hr",
+    "ats_type": "breezyhr",
+    "source_platform": "chsr",
+    "chsr_url": "https://sounding-board-inc.breezy.hr/"
+  },
+  {
+    "company_name": "Portside",
+    "career_page_url": "https://portside.co/about/#open_positions",
+    "website": "",
+    "domain_hint": "portside.co",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://portside.co/about/#open_positions"
+  },
+  {
+    "company_name": "Ontic",
+    "career_page_url": "https://jobs.ashbyhq.com/ontic",
+    "website": "",
+    "domain_hint": "ontic.co",
+    "ats_type": "ashby",
+    "board_token": "ontic",
+    "slug": "ontic",
+    "jobs_found": 26,
+    "source_platform": "chsr",
+    "chsr_url": "https://ontic.co/careers/#jobs"
+  },
+  {
+    "company_name": "runZero",
+    "career_page_url": "https://boards.greenhouse.io/runzero",
+    "website": "",
+    "domain_hint": "runzero.com",
+    "ats_type": "greenhouse",
+    "board_token": "runzero",
+    "slug": "runzero",
+    "jobs_found": 3,
+    "source_platform": "chsr",
+    "chsr_url": "https://www.runzero.com/about/careers/"
+  },
+  {
+    "company_name": "Prelude",
+    "career_page_url": "https://jobs.ashbyhq.com/prelude",
+    "website": "",
+    "domain_hint": "angel.co",
+    "ats_type": "ashby",
+    "board_token": "prelude",
+    "slug": "prelude",
+    "jobs_found": 19,
+    "source_platform": "chsr",
+    "chsr_url": "https://angel.co/company/prelude-1/jobs"
+  },
+  {
+    "company_name": "SmarterDx",
+    "career_page_url": "https://boards.greenhouse.io/smarterdx",
+    "website": "",
+    "domain_hint": "smarterdx.com",
+    "ats_type": "greenhouse",
+    "board_token": "smarterdx",
+    "slug": "smarterdx",
+    "jobs_found": 8,
+    "source_platform": "chsr",
+    "chsr_url": "https://www.smarterdx.com/careers"
+  },
+  {
+    "company_name": "SpecterOps",
+    "career_page_url": "https://boards.greenhouse.io/specterops",
+    "website": "",
+    "domain_hint": "specterops.io",
+    "ats_type": "greenhouse",
+    "board_token": "specterops",
+    "slug": "specterops",
+    "jobs_found": 4,
+    "source_platform": "chsr",
+    "chsr_url": "https://specterops.io/careers"
+  },
+  {
+    "company_name": "Privy",
+    "career_page_url": "https://www.privy.io/careers",
+    "website": "",
+    "domain_hint": "privy.io",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://www.privy.io/careers"
+  },
+  {
+    "company_name": "Recon Infosec",
+    "career_page_url": "https://www.reconinfosec.com/careers/",
+    "website": "",
+    "domain_hint": "reconinfosec.com",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://www.reconinfosec.com/careers/"
+  },
+  {
+    "company_name": "TwelveSec",
+    "career_page_url": "https://apply.workable.com/twelvesec",
+    "website": "",
+    "domain_hint": "twelvesec.workable.com",
+    "ats_type": "workable",
+    "board_token": "twelvesec",
+    "slug": "twelvesec",
+    "source_platform": "chsr",
+    "chsr_url": "https://twelvesec.workable.com/"
+  },
+  {
+    "company_name": "Protonmail",
+    "career_page_url": "https://careers.proton.me/#positions",
+    "website": "",
+    "domain_hint": "careers.proton.me",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://careers.proton.me/#positions"
+  },
+  {
+    "company_name": "promptfoo",
+    "career_page_url": "https://www.promptfoo.dev/careers/",
+    "website": "",
+    "domain_hint": "promptfoo.dev",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://www.promptfoo.dev/careers/"
+  },
+  {
+    "company_name": "Lightning Labs",
+    "career_page_url": "https://jobs.ashbyhq.com/lightning",
+    "website": "",
+    "domain_hint": "lightning.engineering",
+    "ats_type": "ashby",
+    "board_token": "lightning",
+    "slug": "lightning",
+    "jobs_found": 17,
+    "source_platform": "chsr",
+    "chsr_url": "https://lightning.engineering/join-us/"
+  },
+  {
+    "company_name": "VMRay",
+    "career_page_url": "https://vmray-gmbh.jobs.personio.de/",
+    "website": "",
+    "domain_hint": "vmray-gmbh.jobs.personio.de",
+    "ats_type": "personio",
+    "source_platform": "chsr",
+    "chsr_url": "https://vmray-gmbh.jobs.personio.de/"
+  },
+  {
+    "company_name": "Rill Data",
+    "career_page_url": "https://www.rilldata.com/careers",
+    "website": "",
+    "domain_hint": "rilldata.com",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://www.rilldata.com/careers"
+  },
+  {
+    "company_name": "Whym",
+    "career_page_url": "https://whym.breezy.hr/",
+    "website": "",
+    "domain_hint": "whym.breezy.hr",
+    "ats_type": "breezyhr",
+    "source_platform": "chsr",
+    "chsr_url": "https://whym.breezy.hr/"
+  },
+  {
+    "company_name": "Xpansiv",
+    "career_page_url": "https://jobs.lever.co/Xpansiv%20",
+    "website": "",
+    "domain_hint": "jobs.lever.co",
+    "ats_type": "lever",
+    "source_platform": "chsr",
+    "chsr_url": "https://jobs.lever.co/Xpansiv%20"
+  },
+  {
+    "company_name": "Nextrons Systems",
+    "career_page_url": "https://www.nextron-systems.com/jobs/",
+    "website": "",
+    "domain_hint": "nextron-systems.com",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://www.nextron-systems.com/jobs/"
+  },
+  {
+    "company_name": "Monogram Health",
+    "career_page_url": "https://jobs.ashbyhq.com/monogram",
+    "website": "",
+    "domain_hint": "recruiting2.ultipro.com",
+    "ats_type": "ashby",
+    "board_token": "monogram",
+    "slug": "monogram",
+    "jobs_found": 9,
+    "source_platform": "chsr",
+    "chsr_url": "https://recruiting2.ultipro.com/MON1026MONOH/JobBoard/bcaf2db0-50c8-4e2f-9d65-e8e00c882a25/?q=&o=postedDateDesc&f4=Ul4V2PqKgEuQizHPFQPobw"
+  },
+  {
+    "company_name": "Red Canary",
+    "career_page_url": "https://redcanary.com/job-openings/",
+    "website": "",
+    "domain_hint": "redcanary.com",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://redcanary.com/job-openings/"
+  },
+  {
+    "company_name": "Roboflow",
+    "career_page_url": "https://jobs.ashbyhq.com/roboflow",
+    "website": "",
+    "domain_hint": "roboflow.com",
+    "ats_type": "ashby",
+    "board_token": "roboflow",
+    "slug": "roboflow",
+    "jobs_found": 37,
+    "source_platform": "chsr",
+    "chsr_url": "https://roboflow.com/careers"
+  },
+  {
+    "company_name": "Roq.ad",
+    "career_page_url": "https://www.roq.ad/careers/",
+    "website": "",
+    "domain_hint": "roq.ad",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://www.roq.ad/careers/"
+  },
+  {
+    "company_name": "SimSpace",
+    "career_page_url": "https://www.simspace.com/careers",
+    "website": "",
+    "domain_hint": "simspace.com",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://www.simspace.com/careers"
+  },
+  {
+    "company_name": "SVA",
+    "career_page_url": "https://www.sva.de/de/job-portal",
+    "website": "",
+    "domain_hint": "sva.de",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://www.sva.de/de/job-portal"
+  },
+  {
+    "company_name": "Scribd",
+    "career_page_url": "https://www.scribd.com/careers",
+    "website": "",
+    "domain_hint": "scribd.com",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://www.scribd.com/careers"
+  },
+  {
+    "company_name": "Source Code",
+    "career_page_url": "https://recruitingbypaycor.com/career/CareerHome.action?clientId=8a7883c66993b6c6016997a033e50640",
+    "website": "",
+    "domain_hint": "recruitingbypaycor.com",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://recruitingbypaycor.com/career/CareerHome.action?clientId=8a7883c66993b6c6016997a033e50640"
+  },
+  {
+    "company_name": "Thinkst",
+    "career_page_url": "https://canary.tools/hiring",
+    "website": "",
+    "domain_hint": "canary.tools",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://canary.tools/hiring"
+  },
+  {
+    "company_name": "Thirdfort",
+    "career_page_url": "https://www.thirdfort.com/careers/",
+    "website": "",
+    "domain_hint": "thirdfort.com",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://www.thirdfort.com/careers/"
+  },
+  {
+    "company_name": "Tumblr",
+    "career_page_url": "https://www.tumblr.com/jobs",
+    "website": "",
+    "domain_hint": "tumblr.com",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://www.tumblr.com/jobs"
+  },
+  {
+    "company_name": "Tracebit",
+    "career_page_url": "https://jobs.ashbyhq.com/tracebit",
+    "website": "",
+    "domain_hint": "tracebit.com",
+    "ats_type": "ashby",
+    "board_token": "tracebit",
+    "slug": "tracebit",
+    "jobs_found": 8,
+    "source_platform": "chsr",
+    "chsr_url": "https://tracebit.com/careers"
+  },
+  {
+    "company_name": "Unit42 Palo Alto",
+    "career_page_url": "https://jobs.jobvite.com/paloaltonetworks/jobs/all-jobs",
+    "website": "",
+    "domain_hint": "jobs.jobvite.com",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://jobs.jobvite.com/paloaltonetworks/jobs/all-jobs"
+  },
+  {
+    "company_name": "Wells Fargo",
+    "career_page_url": "https://www.wellsfargo.com/about/careers/",
+    "website": "",
+    "domain_hint": "wellsfargo.com",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://www.wellsfargo.com/about/careers/"
+  },
+  {
+    "company_name": "Veridise",
+    "career_page_url": "https://veridise.com/careers/",
+    "website": "",
+    "domain_hint": "veridise.com",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://veridise.com/careers/"
+  },
+  {
+    "company_name": "US Bank",
+    "career_page_url": "https://careers.usbank.com/global/en/search-results",
+    "website": "",
+    "domain_hint": "careers.usbank.com",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://careers.usbank.com/global/en/search-results"
+  },
+  {
+    "company_name": "Zero Day",
+    "career_page_url": "https://zer0-day.de/project/",
+    "website": "",
+    "domain_hint": "zer0-day.de",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://zer0-day.de/project/"
+  },
+  {
+    "company_name": "ThreatMark",
+    "career_page_url": "https://www.threatmark.com/careers/",
+    "website": "",
+    "domain_hint": "threatmark.com",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://www.threatmark.com/careers/"
+  },
+  {
+    "company_name": "Razor Group",
+    "career_page_url": "https://www.razor-group.com/job-openings",
+    "website": "",
+    "domain_hint": "razor-group.com",
+    "ats_type": "unknown",
+    "source_platform": "chsr",
+    "chsr_url": "https://www.razor-group.com/job-openings"
+  }
+]

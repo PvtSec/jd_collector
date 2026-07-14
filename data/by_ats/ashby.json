@@ -1,0 +1,5261 @@
+[
+  {
+    "company_name": "1Password",
+    "website": "https://1password.com/",
+    "career_page_url": "https://jobs.ashbyhq.com/1password",
+    "board_token": "1password",
+    "domain_hint": "SaaS / Cybersecurity / Enterprise Software",
+    "source_platforms": [
+      "bulk-discovered",
+      "topstartups.io"
+    ]
+  },
+  {
+    "company_name": "80,000 Hours",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/80000hours",
+    "board_token": "80000hours",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Abridge",
+    "website": "http://abridge.com/",
+    "career_page_url": "https://jobs.ashbyhq.com/Abridge",
+    "board_token": "Abridge",
+    "domain_hint": "Healthcare / Artificial Intelligence",
+    "source_platforms": [
+      "topstartups.io"
+    ]
+  },
+  {
+    "company_name": "Abundant",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/abundant",
+    "board_token": "abundant",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Accurx",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/accurx",
+    "board_token": "accurx",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Acorns",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/acorns",
+    "board_token": "acorns",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Adaption AI",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/adaption",
+    "board_token": "adaption",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Addi",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/addi",
+    "board_token": "addi",
+    "domain_hint": "",
+    "source_platforms": [
+      "himalayas"
+    ]
+  },
+  {
+    "company_name": "AfterQuery",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/afterquery",
+    "board_token": "afterquery",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "AgentMail",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/agentmail",
+    "board_token": "agentmail",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Air Space Intelligence",
+    "website": "https://www.airspace-intelligence.com/",
+    "career_page_url": "https://jobs.ashbyhq.com/airspace-intelligence.com",
+    "board_token": "airspace-intelligence",
+    "domain_hint": "Artificial Intelligence / Space / Defense",
+    "source_platforms": [
+      "topstartups.io"
+    ]
+  },
+  {
+    "company_name": "Airgoods",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/airgoods",
+    "board_token": "airgoods",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Alan",
+    "website": "https://alan.com",
+    "career_page_url": "https://jobs.ashbyhq.com/Alan",
+    "board_token": "Alan",
+    "domain_hint": "healthtech/insurance",
+    "source_platforms": [
+      "direct-search"
+    ]
+  },
+  {
+    "company_name": "Alchemy",
+    "website": "https://www.alchemy.com/",
+    "career_page_url": "https://jobs.ashbyhq.com/alchemy",
+    "board_token": "alchemy",
+    "domain_hint": "Developer Platform / Blockchain / Crypto",
+    "source_platforms": [
+      "topstartups.io",
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Aleph Alpha",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/alephalpha",
+    "board_token": "alephalpha",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Ambience Healthcare",
+    "website": "https://www.ambiencehealthcare.com/",
+    "career_page_url": "https://jobs.ashbyhq.com/ambiencehealthcare",
+    "board_token": "ambiencehealthcare",
+    "domain_hint": "Artificial Intelligence / Healthcare",
+    "source_platforms": [
+      "topstartups.io"
+    ]
+  },
+  {
+    "company_name": "Ambral",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/ambral",
+    "board_token": "ambral",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Anara",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/anara",
+    "board_token": "anara",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Andela",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/andela",
+    "board_token": "andela",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Angle Health",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/anglehealth",
+    "board_token": "anglehealth",
+    "domain_hint": "anglehealth.com",
+    "source_platforms": [
+      "chsr"
+    ]
+  },
+  {
+    "company_name": "Ankorstore",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/ankorstore",
+    "board_token": "ankorstore",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "AnswerThis",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/answerthis",
+    "board_token": "answerthis",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Anthrogen",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/anthrogen",
+    "board_token": "anthrogen",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Apolink",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/apolink",
+    "board_token": "apolink",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Aptible",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/aptible",
+    "board_token": "aptible",
+    "domain_hint": "",
+    "source_platforms": [
+      "bulk-discovered"
+    ]
+  },
+  {
+    "company_name": "Archil",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/archil",
+    "board_token": "archil",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Are.na",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/arena",
+    "board_token": "arena",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Arini",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/arini",
+    "board_token": "arini",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Arlo Industries",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/arlo",
+    "board_token": "arlo",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Artie",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/artie",
+    "board_token": "artie",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Artisan",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/artisan",
+    "board_token": "artisan",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Ashby",
+    "website": "https://ashbyhq.com",
+    "career_page_url": "https://app.ashbyhq.com/ashby",
+    "board_token": "ashby",
+    "domain_hint": "SaaS/recruiting-tools",
+    "source_platforms": [
+      "direct-search"
+    ]
+  },
+  {
+    "company_name": "Asimov",
+    "website": "http://www.asimov.io/",
+    "career_page_url": "https://jobs.ashbyhq.com/asimov",
+    "board_token": "asimov",
+    "domain_hint": "Biotech",
+    "source_platforms": [
+      "topstartups.io",
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Assembly",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/assembly",
+    "board_token": "assembly",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Astronomer",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/astronomer",
+    "board_token": "astronomer",
+    "domain_hint": "astronomer.io",
+    "source_platforms": [
+      "chsr"
+    ]
+  },
+  {
+    "company_name": "Attention",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/attention",
+    "board_token": "attention",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Auctor",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/auctor",
+    "board_token": "auctor",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Automat",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/automat",
+    "board_token": "automat",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Avallon AI",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/avallon",
+    "board_token": "avallon",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Away",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/away",
+    "board_token": "away",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Axelera AI",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/axelera",
+    "board_token": "axelera",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Back Market",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/backmarket",
+    "board_token": "backmarket",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Backpack",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/backpack",
+    "board_token": "backpack",
+    "domain_hint": "",
+    "source_platforms": [
+      "bulk-discovered"
+    ]
+  },
+  {
+    "company_name": "Bankjoy",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/bankjoy",
+    "board_token": "bankjoy",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Baseten",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/baseten",
+    "board_token": "baseten",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Beam Impact",
+    "website": "https://www.beamimpact.com",
+    "career_page_url": "https://jobs.ashbyhq.com/beamimpact",
+    "board_token": "beamimpact",
+    "domain_hint": "fintech/nonprofit",
+    "source_platforms": [
+      "powertofly"
+    ]
+  },
+  {
+    "company_name": "Benchling",
+    "website": "https://www.benchling.com",
+    "career_page_url": "https://jobs.ashbyhq.com/benchling",
+    "board_token": "benchling",
+    "domain_hint": "healthtech/biotech SaaS",
+    "source_platforms": [
+      "builtin",
+      "topstartups.io"
+    ]
+  },
+  {
+    "company_name": "Benevity",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/benevity",
+    "board_token": "benevity",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Bento",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/bento",
+    "board_token": "bento",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Beyond Reach Labs",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/beyondreachlabs",
+    "board_token": "beyondreachlabs",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Blacksmith",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/blacksmith",
+    "board_token": "blacksmith",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Bland AI",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/bland",
+    "board_token": "bland",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Blaxel",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/blaxel",
+    "board_token": "blaxel",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "BlueDot",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/bluedot",
+    "board_token": "bluedot",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Bolna AI",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/bolna",
+    "board_token": "bolna",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Boom AI",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/boom",
+    "board_token": "boom",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Boomi",
+    "website": "https://boomi.com",
+    "career_page_url": "https://jobs.ashbyhq.com/boomi",
+    "board_token": "boomi",
+    "domain_hint": "devtools/integration",
+    "source_platforms": [
+      "builtin"
+    ]
+  },
+  {
+    "company_name": "BootLoop",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/bootloop",
+    "board_token": "bootloop",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Bounce",
+    "website": "https://bounce.com/",
+    "career_page_url": "https://jobs.ashbyhq.com/bounce",
+    "board_token": "bounce",
+    "domain_hint": "Marketplaces / Consumer / Travel",
+    "source_platforms": [
+      "bulk-discovered",
+      "topstartups.io"
+    ]
+  },
+  {
+    "company_name": "Brainbase Labs",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/brainbaselabs",
+    "board_token": "brainbaselabs",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Brainly",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/brainly",
+    "board_token": "brainly",
+    "domain_hint": "",
+    "source_platforms": [
+      "bulk-discovered"
+    ]
+  },
+  {
+    "company_name": "Bretton AI",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/brettonai",
+    "board_token": "brettonai",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Buffer",
+    "website": "https://buffer.com",
+    "career_page_url": "https://jobs.ashbyhq.com/buffer",
+    "board_token": "buffer",
+    "domain_hint": "SaaS/social media",
+    "source_platforms": [
+      "powertofly"
+    ]
+  },
+  {
+    "company_name": "BuildScience",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/build",
+    "board_token": "build",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Bumble",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/bumble",
+    "board_token": "bumble",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Butter",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/butter",
+    "board_token": "butter",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Cambly",
+    "website": "http://cambly.com",
+    "career_page_url": "https://jobs.ashbyhq.com/cambly",
+    "board_token": "cambly",
+    "domain_hint": "EdTech / Video Chat / Tutoring",
+    "source_platforms": [
+      "topstartups.io",
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Campfire",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/campfire",
+    "board_token": "campfire",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Capi Money",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/capimoney",
+    "board_token": "capimoney",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Capy",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/capy",
+    "board_token": "capy",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Cardboard",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/cardboard",
+    "board_token": "cardboard",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "CareSwift",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/careswift",
+    "board_token": "careswift",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Cartesia",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/cartesia",
+    "board_token": "cartesia",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Casca",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/casca",
+    "board_token": "casca",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Casco",
+    "website": "https://casco.com",
+    "career_page_url": "https://jobs.ashbyhq.com/cas",
+    "board_token": "cas",
+    "domain_hint": "security",
+    "source_platforms": [
+      "yc"
+    ]
+  },
+  {
+    "company_name": "Cedar",
+    "website": "http://www.cedar.com/",
+    "career_page_url": "https://jobs.ashbyhq.com/cedar",
+    "board_token": "cedar",
+    "domain_hint": "Healthcare",
+    "source_platforms": [
+      "topstartups.io",
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Cenosco",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/cenosco",
+    "board_token": "cenosco",
+    "domain_hint": "",
+    "source_platforms": [
+      "himalayas"
+    ]
+  },
+  {
+    "company_name": "Centerfield",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/centerfield",
+    "board_token": "centerfield",
+    "domain_hint": "",
+    "source_platforms": [
+      "himalayas"
+    ]
+  },
+  {
+    "company_name": "Centralize",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/centralize",
+    "board_token": "centralize",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Cerebras",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/cerebras",
+    "board_token": "cerebras",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Cerebras Systems",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/cerebras",
+    "board_token": "cerebras",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Chainalysis",
+    "website": "http://www.chainalysis.com/",
+    "career_page_url": "https://jobs.ashbyhq.com/chainalysis-careers",
+    "board_token": "chainalysis-careers",
+    "domain_hint": "Crypto / FinTech / Compliance",
+    "source_platforms": [
+      "topstartups.io"
+    ]
+  },
+  {
+    "company_name": "Chamber",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/chamber",
+    "board_token": "chamber",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Character.ai",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/character",
+    "board_token": "character",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Checkatrade",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/checkatrade",
+    "board_token": "checkatrade",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Chestnut",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/chestnut",
+    "board_token": "chestnut",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Cinder",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/cinder",
+    "board_token": "cinder",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Circleback",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/circleback",
+    "board_token": "circleback",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "CircuitHub",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/circuithub",
+    "board_token": "circuithub",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Cityblock Health",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/cityblock",
+    "board_token": "cityblock",
+    "domain_hint": "",
+    "source_platforms": [
+      "himalayas"
+    ]
+  },
+  {
+    "company_name": "ClaimSorted",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/claimsorted",
+    "board_token": "claimsorted",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "CLARION",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/clarion",
+    "board_token": "clarion",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "ClassDojo",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/classdojo",
+    "board_token": "classdojo",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Clera",
+    "website": "https://www.getclera.com",
+    "career_page_url": "https://jobs.ashbyhq.com/clera",
+    "board_token": "clera",
+    "domain_hint": "AI/SaaS",
+    "source_platforms": [
+      "startupjobs"
+    ]
+  },
+  {
+    "company_name": "Clerk",
+    "website": "https://clerk.com",
+    "career_page_url": "https://jobs.ashbyhq.com/clerk",
+    "board_token": "clerk",
+    "domain_hint": "devtools/auth",
+    "source_platforms": [
+      "topstartups.io",
+      "yc"
+    ]
+  },
+  {
+    "company_name": "Clipboard",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/clipboard",
+    "board_token": "clipboard",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Close",
+    "website": "https://close.com",
+    "career_page_url": "https://jobs.ashbyhq.com/Close",
+    "board_token": "Close",
+    "domain_hint": "SaaS/CRM",
+    "source_platforms": [
+      "powertofly",
+      "topstartups.io"
+    ]
+  },
+  {
+    "company_name": "CloudKitchens",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/cloudkitchens",
+    "board_token": "cloudkitchens",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Clubhouse",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/clubhouse",
+    "board_token": "clubhouse",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Cluely",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/cluely",
+    "board_token": "cluely",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Clueso",
+    "website": "https://clueso.io",
+    "career_page_url": "https://jobs.ashbyhq.com/clueso",
+    "board_token": "clueso",
+    "domain_hint": "YC-backed SDET (Playwright)",
+    "source_platforms": [
+      "manual-target",
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Coder",
+    "website": "https://coder.com",
+    "career_page_url": "https://jobs.ashbyhq.com/Coder",
+    "board_token": "Coder",
+    "domain_hint": "devtools/cloud IDE",
+    "source_platforms": [
+      "direct-search",
+      "topstartups.io",
+      "yc"
+    ]
+  },
+  {
+    "company_name": "Cognition",
+    "website": "https://www.cognition-labs.com/",
+    "career_page_url": "https://jobs.ashbyhq.com/cognition",
+    "board_token": "cognition",
+    "domain_hint": "Artificial Intelligence / Developer Tools",
+    "source_platforms": [
+      "topstartups.io"
+    ]
+  },
+  {
+    "company_name": "Cognition AI",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/cognition",
+    "board_token": "cognition",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Cohere Technologies",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/cohere",
+    "board_token": "cohere",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "CoinTracker",
+    "website": "http://www.cointracker.io",
+    "career_page_url": "https://jobs.ashbyhq.com/cointracker",
+    "board_token": "cointracker",
+    "domain_hint": "FinTech / Crypto",
+    "source_platforms": [
+      "topstartups.io"
+    ]
+  },
+  {
+    "company_name": "Column",
+    "website": "https://column.com",
+    "career_page_url": "https://jobs.ashbyhq.com/column",
+    "board_token": "column",
+    "domain_hint": "fintech",
+    "source_platforms": [
+      "whoishiring"
+    ]
+  },
+  {
+    "company_name": "Comena",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/comena",
+    "board_token": "comena",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "CommodityAI",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/commodityai",
+    "board_token": "commodityai",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Commure",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/commure",
+    "board_token": "commure",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Compa",
+    "website": "https://compa.ai",
+    "career_page_url": "https://jobs.ashbyhq.com/compa",
+    "board_token": "compa",
+    "domain_hint": "AI/compensation-data",
+    "source_platforms": [
+      "direct-search"
+    ]
+  },
+  {
+    "company_name": "Complir",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/complir",
+    "board_token": "complir",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Conductor",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/conductor",
+    "board_token": "conductor",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Confluent",
+    "website": "http://confluent.io",
+    "career_page_url": "https://jobs.ashbyhq.com/confluent",
+    "board_token": "confluent",
+    "domain_hint": "Enterprise Software / Data Science",
+    "source_platforms": [
+      "bulk-discovered",
+      "topstartups.io"
+    ]
+  },
+  {
+    "company_name": "Constellation Space",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/constellationspace",
+    "board_token": "constellationspace",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Context Labs",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/context",
+    "board_token": "context",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Continue",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/continue",
+    "board_token": "continue",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Conveo",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/conveo",
+    "board_token": "conveo",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Corgi",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/corgi",
+    "board_token": "corgi",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Corgi Labs",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/corgi",
+    "board_token": "corgi",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Counsel Health",
+    "website": "https://www.counselhealth.com",
+    "career_page_url": "https://jobs.ashbyhq.com/counsel",
+    "board_token": "counsel",
+    "domain_hint": "healthtech",
+    "source_platforms": [
+      "jobleads"
+    ]
+  },
+  {
+    "company_name": "Count",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/count",
+    "board_token": "count",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "CrewBloom",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/crewbloom",
+    "board_token": "crewbloom",
+    "domain_hint": "",
+    "source_platforms": [
+      "himalayas"
+    ]
+  },
+  {
+    "company_name": "Crunchbase",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/crunchbase",
+    "board_token": "crunchbase",
+    "domain_hint": "",
+    "source_platforms": [
+      "bulk-discovered"
+    ]
+  },
+  {
+    "company_name": "CTGT",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/ctgt",
+    "board_token": "ctgt",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Cube",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/cube",
+    "board_token": "cube",
+    "domain_hint": "",
+    "source_platforms": [
+      "bulk-discovered"
+    ]
+  },
+  {
+    "company_name": "Cursor (Anysphere)",
+    "website": "https://cursor.com",
+    "career_page_url": "https://jobs.ashbyhq.com/cursor",
+    "board_token": "cursor",
+    "domain_hint": "AI/devtools",
+    "source_platforms": [
+      "direct-search",
+      "yc"
+    ]
+  },
+  {
+    "company_name": "CyberConnect",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/cyberconnect",
+    "board_token": "cyberconnect",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Cyberdesk",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/cyberdesk",
+    "board_token": "cyberdesk",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Cyberhaven",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/cyberhaven",
+    "board_token": "cyberhaven",
+    "domain_hint": "",
+    "source_platforms": [
+      "bulk-discovered"
+    ]
+  },
+  {
+    "company_name": "Dataleap",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/dataleap",
+    "board_token": "dataleap",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Datalogics",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/datalogics",
+    "board_token": "datalogics",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Decagon",
+    "website": "https://decagon.ai/",
+    "career_page_url": "https://jobs.ashbyhq.com/decagon",
+    "board_token": "decagon",
+    "domain_hint": "Artificial Intelligence / Enterprise Software",
+    "source_platforms": [
+      "topstartups.io"
+    ]
+  },
+  {
+    "company_name": "Decoda Health",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/decodahealth",
+    "board_token": "decodahealth",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Deel",
+    "website": "http://www.letsdeel.com/",
+    "career_page_url": "https://jobs.ashbyhq.com/Deel",
+    "board_token": "Deel",
+    "domain_hint": "FinTech / Human Resources / Enterprise Software",
+    "source_platforms": [
+      "topstartups.io"
+    ]
+  },
+  {
+    "company_name": "Deel, Inc.",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/deel",
+    "board_token": "deel",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Deepgram",
+    "website": "http://www.deepgram.com/",
+    "career_page_url": "https://jobs.ashbyhq.com/deepgram",
+    "board_token": "deepgram",
+    "domain_hint": "API / Natural Language Processing / Speech Recognition / Artificial Intelligence",
+    "source_platforms": [
+      "topstartups.io",
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Delinea",
+    "website": "https://delinea.com",
+    "career_page_url": "https://jobs.ashbyhq.com/delinea",
+    "board_token": "delinea",
+    "domain_hint": "PAM/secrets",
+    "source_platforms": [
+      "curated"
+    ]
+  },
+  {
+    "company_name": "Deliveroo",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/deliveroo",
+    "board_token": "deliveroo",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Dex",
+    "website": "https://getdex.com",
+    "career_page_url": "https://jobs.ashbyhq.com/dex",
+    "board_token": "dex",
+    "domain_hint": "SaaS/CRM",
+    "source_platforms": [
+      "yc"
+    ]
+  },
+  {
+    "company_name": "DiligenceSquared",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/diligencesquared",
+    "board_token": "diligencesquared",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Docker",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/docker",
+    "board_token": "docker",
+    "domain_hint": "",
+    "source_platforms": [
+      "himalayas"
+    ]
+  },
+  {
+    "company_name": "Docker, Inc.",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/docker",
+    "board_token": "docker",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Docplanner",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/docplanner",
+    "board_token": "docplanner",
+    "domain_hint": "",
+    "source_platforms": [
+      "bulk-discovered"
+    ]
+  },
+  {
+    "company_name": "Doublezero",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/doublezero",
+    "board_token": "doublezero",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Dovetail",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/dovetail",
+    "board_token": "dovetail",
+    "domain_hint": "",
+    "source_platforms": [
+      "himalayas"
+    ]
+  },
+  {
+    "company_name": "Drata",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/drata",
+    "board_token": "drata",
+    "domain_hint": "",
+    "source_platforms": [
+      "bulk-discovered"
+    ]
+  },
+  {
+    "company_name": "DualEntry",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/dualentry",
+    "board_token": "dualentry",
+    "domain_hint": "",
+    "source_platforms": [
+      "himalayas"
+    ]
+  },
+  {
+    "company_name": "Dune",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/dune",
+    "board_token": "dune",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Eagle",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/eagle",
+    "board_token": "eagle",
+    "domain_hint": "",
+    "source_platforms": [
+      "bulk-discovered"
+    ]
+  },
+  {
+    "company_name": "Echo",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/echo",
+    "board_token": "echo",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Eight Sleep",
+    "website": "http://www.eightsleep.com",
+    "career_page_url": "https://jobs.ashbyhq.com/eightsleep",
+    "board_token": "eightsleep",
+    "domain_hint": "Hardware / Sleep",
+    "source_platforms": [
+      "topstartups.io"
+    ]
+  },
+  {
+    "company_name": "Electric Air",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/electricair",
+    "board_token": "electricair",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "ElevenLabs",
+    "website": "https://elevenlabs.io",
+    "career_page_url": "https://jobs.ashbyhq.com/elevenlabs",
+    "board_token": "elevenlabs",
+    "domain_hint": "AI/ML (audio)",
+    "source_platforms": [
+      "workingnomads"
+    ]
+  },
+  {
+    "company_name": "Ello",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/ello",
+    "board_token": "ello",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Eloquent AI",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/eloquentai",
+    "board_token": "eloquentai",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Ema",
+    "website": "https://www.ema.co/",
+    "career_page_url": "https://jobs.ashbyhq.com/ema",
+    "board_token": "ema",
+    "domain_hint": "Artificial Intelligence / Enterprise Software",
+    "source_platforms": [
+      "topstartups.io"
+    ]
+  },
+  {
+    "company_name": "Empirical Health",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/empirical",
+    "board_token": "empirical",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Escape",
+    "website": "https://escape.tech",
+    "career_page_url": "https://jobs.ashbyhq.com/escape",
+    "board_token": "escape",
+    "domain_hint": "API security",
+    "source_platforms": [
+      "curated"
+    ]
+  },
+  {
+    "company_name": "Espresso Systems",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/espresso",
+    "board_token": "espresso",
+    "domain_hint": "",
+    "source_platforms": [
+      "himalayas"
+    ]
+  },
+  {
+    "company_name": "Evolve",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/evolve",
+    "board_token": "evolve",
+    "domain_hint": "",
+    "source_platforms": [
+      "himalayas"
+    ]
+  },
+  {
+    "company_name": "Exa",
+    "website": "https://exa.ai",
+    "career_page_url": "https://jobs.ashbyhq.com/exa",
+    "board_token": "exa",
+    "domain_hint": "AI/search",
+    "source_platforms": [
+      "yc"
+    ]
+  },
+  {
+    "company_name": "Expensify",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/expensify",
+    "board_token": "expensify",
+    "domain_hint": "",
+    "source_platforms": [
+      "bulk-discovered"
+    ]
+  },
+  {
+    "company_name": "Faculty",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/faculty",
+    "board_token": "faculty",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Fathom",
+    "website": "https://fathomhealth.com",
+    "career_page_url": "https://jobs.ashbyhq.com/fathom",
+    "board_token": "fathom",
+    "domain_hint": "Artificial Intelligence / Healthcare",
+    "source_platforms": [
+      "bulk-discovered",
+      "topstartups.io"
+    ]
+  },
+  {
+    "company_name": "Fazeshift",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/fazeshift",
+    "board_token": "fazeshift",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Fernstone",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/fernstone",
+    "board_token": "fernstone",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Fieldguide",
+    "website": "https://www.fieldguide.io/",
+    "career_page_url": "https://jobs.ashbyhq.com/fieldguide",
+    "board_token": "fieldguide",
+    "domain_hint": "Artificial Intelligence / Enterprise Software",
+    "source_platforms": [
+      "topstartups.io"
+    ]
+  },
+  {
+    "company_name": "Fin",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/fin",
+    "board_token": "fin",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "FINNY AI",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/finny",
+    "board_token": "finny",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Finto",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/finto",
+    "board_token": "finto",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Flai",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/flai",
+    "board_token": "flai",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Fleetline",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/fleetline",
+    "board_token": "fleetline",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "FleetWorks",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/fleetworks",
+    "board_token": "fleetworks",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Flint",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/flint",
+    "board_token": "flint",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Float",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/float",
+    "board_token": "float",
+    "domain_hint": "",
+    "source_platforms": [
+      "bulk-discovered"
+    ]
+  },
+  {
+    "company_name": "Flock Safety",
+    "website": "http://www.flocksafety.com/",
+    "career_page_url": "https://jobs.ashbyhq.com/Flock%20Safety",
+    "board_token": "Flock",
+    "domain_hint": "Public Safety / Government",
+    "source_platforms": [
+      "topstartups.io"
+    ]
+  },
+  {
+    "company_name": "Flowhub",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/flowhub",
+    "board_token": "flowhub",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Flowtel",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/flowtel",
+    "board_token": "flowtel",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Fluidstack",
+    "website": "https://fluidstack.io",
+    "career_page_url": "https://jobs.ashbyhq.com/fluidstack",
+    "board_token": "fluidstack",
+    "domain_hint": "AI/infra",
+    "source_platforms": [
+      "whoishiring"
+    ]
+  },
+  {
+    "company_name": "Flux",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/flux",
+    "board_token": "flux",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Focal",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/focal",
+    "board_token": "focal",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Forerunner AI",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/forerunner",
+    "board_token": "forerunner",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Foresight",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/foresight",
+    "board_token": "foresight",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Fort",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/fort",
+    "board_token": "fort",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Foundation",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/foundation",
+    "board_token": "foundation",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Foundation Industries",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/foundation",
+    "board_token": "foundation",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Fulcrum",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/fulcrum",
+    "board_token": "fulcrum",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Fuse",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/fuse",
+    "board_token": "fuse",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "FuseAI",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/fuse",
+    "board_token": "fuse",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "FYST",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/fyst",
+    "board_token": "fyst",
+    "domain_hint": "",
+    "source_platforms": [
+      "himalayas"
+    ]
+  },
+  {
+    "company_name": "G2",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/g2",
+    "board_token": "g2",
+    "domain_hint": "",
+    "source_platforms": [
+      "bulk-discovered"
+    ]
+  },
+  {
+    "company_name": "Garage",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/garage",
+    "board_token": "garage",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Gecko Robotics",
+    "website": "http://www.geckorobotics.com/",
+    "career_page_url": "https://jobs.ashbyhq.com/gecko-robotics",
+    "board_token": "gecko-robotics",
+    "domain_hint": "Robotics / Hardware",
+    "source_platforms": [
+      "topstartups.io"
+    ]
+  },
+  {
+    "company_name": "Gelato",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/gelato",
+    "board_token": "gelato",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Glade",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/glade",
+    "board_token": "glade",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Glow25 (by Primal State Performance GmbH)",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/glow25",
+    "board_token": "glow25",
+    "domain_hint": "",
+    "source_platforms": [
+      "himalayas"
+    ]
+  },
+  {
+    "company_name": "GPTZero",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/gptzero",
+    "board_token": "gptzero",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Granola",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/granola",
+    "board_token": "granola",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "GrazeMate",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/grazemate",
+    "board_token": "grazemate",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Greenboard",
+    "website": "https://www.greenboard.com",
+    "career_page_url": "https://jobs.ashbyhq.com/greenboard",
+    "board_token": "greenboard",
+    "domain_hint": "fintech/compliance",
+    "source_platforms": [
+      "yc"
+    ]
+  },
+  {
+    "company_name": "Greptile",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/greptile",
+    "board_token": "greptile",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Gumloop",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/gumloop",
+    "board_token": "gumloop",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "HackerOne",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/hackerone",
+    "board_token": "hackerone",
+    "domain_hint": "",
+    "source_platforms": [
+      "bulk-discovered"
+    ]
+  },
+  {
+    "company_name": "Harvey",
+    "website": "https://www.harvey.ai/",
+    "career_page_url": "https://jobs.ashbyhq.com/harvey",
+    "board_token": "harvey",
+    "domain_hint": "Artificial Intelligence / Legal",
+    "source_platforms": [
+      "topstartups.io"
+    ]
+  },
+  {
+    "company_name": "Hawk-Eye Innovations (HEI)",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/hawkeyeinnovations",
+    "board_token": "hawkeyeinnovations",
+    "domain_hint": "",
+    "source_platforms": [
+      "himalayas"
+    ]
+  },
+  {
+    "company_name": "HealthSherpa",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/healthsherpa",
+    "board_token": "healthsherpa",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Help Scout",
+    "website": "https://www.helpscout.com",
+    "career_page_url": "https://jobs.ashbyhq.com/helpscout",
+    "board_token": "helpscout",
+    "domain_hint": "SaaS/customer support",
+    "source_platforms": [
+      "powertofly"
+    ]
+  },
+  {
+    "company_name": "Hercules",
+    "website": "https://hercules.app",
+    "career_page_url": "https://jobs.ashbyhq.com/hercules",
+    "board_token": "hercules",
+    "domain_hint": "AI/devtools",
+    "source_platforms": [
+      "startupjobs"
+    ]
+  },
+  {
+    "company_name": "Hex",
+    "website": "https://hex.tech/",
+    "career_page_url": "https://jobs.ashbyhq.com/hex",
+    "board_token": "hex",
+    "domain_hint": "Analytics / Data Science / SaaS",
+    "source_platforms": [
+      "curated",
+      "topstartups.io"
+    ]
+  },
+  {
+    "company_name": "HockeyStack",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/hockeystack",
+    "board_token": "hockeystack",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "HoneyBook",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/honeybook",
+    "board_token": "honeybook",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Hopper",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/hopper",
+    "board_token": "hopper",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Horizon3.ai",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/horizon3ai",
+    "board_token": "horizon3ai",
+    "domain_hint": "",
+    "source_platforms": [
+      "himalayas"
+    ]
+  },
+  {
+    "company_name": "hud",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/hud",
+    "board_token": "hud",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "HUMAN",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/human",
+    "board_token": "human",
+    "domain_hint": "",
+    "source_platforms": [
+      "bulk-discovered"
+    ]
+  },
+  {
+    "company_name": "Human Archive",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/humanarchive",
+    "board_token": "humanarchive",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Human8",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/human",
+    "board_token": "human",
+    "domain_hint": "",
+    "source_platforms": [
+      "himalayas"
+    ]
+  },
+  {
+    "company_name": "Hyperbound",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/hyperbound",
+    "board_token": "hyperbound",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Hypercubic",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/hypercubic",
+    "board_token": "hypercubic",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "HyperHug",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/hyperhug",
+    "board_token": "hyperhug",
+    "domain_hint": "",
+    "source_platforms": [
+      "himalayas"
+    ]
+  },
+  {
+    "company_name": "Hyperspell",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/hyperspell",
+    "board_token": "hyperspell",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Ideogram",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/ideogram",
+    "board_token": "ideogram",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Idler",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/idler",
+    "board_token": "idler",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Illumio",
+    "website": "http://www.illumio.com/",
+    "career_page_url": "https://jobs.ashbyhq.com/illumio",
+    "board_token": "illumio",
+    "domain_hint": "Enterprise Software / Cybersecurity",
+    "source_platforms": [
+      "bulk-discovered",
+      "topstartups.io"
+    ]
+  },
+  {
+    "company_name": "Imprint",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/imprint",
+    "board_token": "imprint",
+    "domain_hint": "",
+    "source_platforms": [
+      "himalayas"
+    ]
+  },
+  {
+    "company_name": "Infera",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/infera",
+    "board_token": "infera",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Infinite",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/infinite",
+    "board_token": "infinite",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Infisical",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/infisical",
+    "board_token": "infisical",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Infiterra",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/infiterra",
+    "board_token": "infiterra",
+    "domain_hint": "",
+    "source_platforms": [
+      "himalayas"
+    ]
+  },
+  {
+    "company_name": "InfluxData",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/influxdata",
+    "board_token": "influxdata",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Injective",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/injective",
+    "board_token": "injective",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Innate",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/innate",
+    "board_token": "innate",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Interface",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/interface",
+    "board_token": "interface",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Intrinsic",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/intrinsic",
+    "board_token": "intrinsic",
+    "domain_hint": "",
+    "source_platforms": [
+      "bulk-discovered"
+    ]
+  },
+  {
+    "company_name": "Invopop",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/invopop",
+    "board_token": "invopop",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Ironclad",
+    "website": "http://ironcladapp.com",
+    "career_page_url": "https://jobs.ashbyhq.com/ironcladhq",
+    "board_token": "ironcladhq",
+    "domain_hint": "Enterprise Software / Legal Tech",
+    "source_platforms": [
+      "topstartups.io"
+    ]
+  },
+  {
+    "company_name": "Jane",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/jane",
+    "board_token": "jane",
+    "domain_hint": "",
+    "source_platforms": [
+      "bulk-discovered"
+    ]
+  },
+  {
+    "company_name": "Jane Technologies",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/jane",
+    "board_token": "jane",
+    "domain_hint": "",
+    "source_platforms": [
+      "himalayas"
+    ]
+  },
+  {
+    "company_name": "Jeevy Fabrication",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/jeevyfabrication",
+    "board_token": "jeevyfabrication",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Juicebox",
+    "website": "https://juicebox.ai",
+    "career_page_url": "https://jobs.ashbyhq.com/juicebox",
+    "board_token": "juicebox",
+    "domain_hint": "AI/recruiting",
+    "source_platforms": [
+      "yc"
+    ]
+  },
+  {
+    "company_name": "Juniper Square",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/junipersquare",
+    "board_token": "junipersquare",
+    "domain_hint": "",
+    "source_platforms": [
+      "himalayas"
+    ]
+  },
+  {
+    "company_name": "Kaizen",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/kaizen",
+    "board_token": "kaizen",
+    "domain_hint": "",
+    "source_platforms": [
+      "himalayas"
+    ]
+  },
+  {
+    "company_name": "Kantiv (formerly Joist AI)",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/kantiv",
+    "board_token": "kantiv",
+    "domain_hint": "",
+    "source_platforms": [
+      "himalayas"
+    ]
+  },
+  {
+    "company_name": "Kastle",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/kastle",
+    "board_token": "kastle",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Keep",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/keep",
+    "board_token": "keep",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "KeepTruckin",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/keeptruckin",
+    "board_token": "keeptruckin",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Kernel",
+    "website": "http://kernel.co/",
+    "career_page_url": "https://jobs.ashbyhq.com/kernel",
+    "board_token": "kernel",
+    "domain_hint": "Biotech / Life Science",
+    "source_platforms": [
+      "topstartups.io",
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Kestra Technologies",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/kestra",
+    "board_token": "kestra",
+    "domain_hint": "",
+    "source_platforms": [
+      "himalayas"
+    ]
+  },
+  {
+    "company_name": "Kirin",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/kirin",
+    "board_token": "kirin",
+    "domain_hint": "",
+    "source_platforms": [
+      "himalayas"
+    ]
+  },
+  {
+    "company_name": "Kog",
+    "website": "https://kog.ai",
+    "career_page_url": "https://jobs.ashbyhq.com/kog",
+    "board_token": "kog",
+    "domain_hint": "AI/ML",
+    "source_platforms": [
+      "whoishiring"
+    ]
+  },
+  {
+    "company_name": "Kustomer",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/kustomer",
+    "board_token": "kustomer",
+    "domain_hint": "",
+    "source_platforms": [
+      "bulk-discovered"
+    ]
+  },
+  {
+    "company_name": "Kyra",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/kyra",
+    "board_token": "kyra",
+    "domain_hint": "",
+    "source_platforms": [
+      "himalayas"
+    ]
+  },
+  {
+    "company_name": "Lago",
+    "website": "https://www.getlago.com",
+    "career_page_url": "https://jobs.ashbyhq.com/lago",
+    "board_token": "lago",
+    "domain_hint": "fintech/SaaS",
+    "source_platforms": [
+      "whoishiring"
+    ]
+  },
+  {
+    "company_name": "Lance",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/lance",
+    "board_token": "lance",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Langdock",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/langdock",
+    "board_token": "langdock",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Lark",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/lark",
+    "board_token": "lark",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Legora",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/legora",
+    "board_token": "legora",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Levels",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/levels",
+    "board_token": "levels",
+    "domain_hint": "notion.so",
+    "source_platforms": [
+      "chsr"
+    ]
+  },
+  {
+    "company_name": "Lightning Labs",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/lightning",
+    "board_token": "lightning",
+    "domain_hint": "lightning.engineering",
+    "source_platforms": [
+      "chsr"
+    ]
+  },
+  {
+    "company_name": "Lilt",
+    "website": "http://www.lilt.com",
+    "career_page_url": "https://jobs.ashbyhq.com/lilt",
+    "board_token": "lilt",
+    "domain_hint": "Artificial Intelligence / Enterprise Software",
+    "source_platforms": [
+      "topstartups.io"
+    ]
+  },
+  {
+    "company_name": "Linear",
+    "website": "https://linear.app",
+    "career_page_url": "https://jobs.ashbyhq.com/linear",
+    "board_token": "linear",
+    "domain_hint": "devtools/SaaS",
+    "source_platforms": [
+      "builtin",
+      "direct-search",
+      "topstartups.io",
+      "yc"
+    ]
+  },
+  {
+    "company_name": "Lio (formerly askLio)",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/lio",
+    "board_token": "lio",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "LiteLLM",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/litellm",
+    "board_token": "litellm",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "LiveKit",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/livekit",
+    "board_token": "livekit",
+    "domain_hint": "livekit.io",
+    "source_platforms": [
+      "chsr"
+    ]
+  },
+  {
+    "company_name": "LocalStack",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/localstack",
+    "board_token": "localstack",
+    "domain_hint": "",
+    "source_platforms": [
+      "himalayas"
+    ]
+  },
+  {
+    "company_name": "Loft",
+    "website": "http://www.loft.com.br",
+    "career_page_url": "https://jobs.ashbyhq.com/loft",
+    "board_token": "loft",
+    "domain_hint": "Marketplace / Real Estate",
+    "source_platforms": [
+      "himalayas",
+      "topstartups.io"
+    ]
+  },
+  {
+    "company_name": "Loom",
+    "website": "http://www.loom.com/",
+    "career_page_url": "https://jobs.ashbyhq.com/loom",
+    "board_token": "loom",
+    "domain_hint": "Collaboration / Messaging / Video / SaaS",
+    "source_platforms": [
+      "bulk-discovered",
+      "topstartups.io"
+    ]
+  },
+  {
+    "company_name": "Loom, Inc.",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/loom",
+    "board_token": "loom",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Loula",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/loula",
+    "board_token": "loula",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Lucis",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/lucis",
+    "board_token": "lucis",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Lumen Technologies",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/lumen",
+    "board_token": "lumen",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Lunar",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/lunar",
+    "board_token": "lunar",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "MagicSchool",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/magicschool",
+    "board_token": "magicschool",
+    "domain_hint": "",
+    "source_platforms": [
+      "himalayas"
+    ]
+  },
+  {
+    "company_name": "MangoDesk",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/mangodesk",
+    "board_token": "mangodesk",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Mapbox",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/mapbox",
+    "board_token": "mapbox",
+    "domain_hint": "",
+    "source_platforms": [
+      "bulk-discovered"
+    ]
+  },
+  {
+    "company_name": "Marshmallow",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/marshmallow",
+    "board_token": "marshmallow",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Mastra",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/mastra",
+    "board_token": "mastra",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Materialize",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/materialize",
+    "board_token": "materialize",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Maven",
+    "website": "http://maven.com/",
+    "career_page_url": "https://jobs.ashbyhq.com/maven",
+    "board_token": "maven",
+    "domain_hint": "EdTech",
+    "source_platforms": [
+      "topstartups.io",
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Meadow",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/meadow",
+    "board_token": "meadow",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "MEGAZONE",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/megazone",
+    "board_token": "megazone",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Mem0",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/mem0",
+    "board_token": "mem0",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Menlo",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/menlo",
+    "board_token": "menlo",
+    "domain_hint": "",
+    "source_platforms": [
+      "bulk-discovered"
+    ]
+  },
+  {
+    "company_name": "Mercor",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/mercor",
+    "board_token": "mercor",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Mercura",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/mercura",
+    "board_token": "mercura",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Metal",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/metal",
+    "board_token": "metal",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Midjourney",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/midjourney",
+    "board_token": "midjourney",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Midnite",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/midnite",
+    "board_token": "midnite",
+    "domain_hint": "",
+    "source_platforms": [
+      "himalayas"
+    ]
+  },
+  {
+    "company_name": "Minerva",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/minerva",
+    "board_token": "minerva",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Miro",
+    "website": "https://miro.com/",
+    "career_page_url": "https://jobs.ashbyhq.com/miro",
+    "board_token": "miro",
+    "domain_hint": "SaaS / Design / Collaboration / Productivity Software",
+    "source_platforms": [
+      "bulk-discovered",
+      "topstartups.io"
+    ]
+  },
+  {
+    "company_name": "Miso",
+    "website": "http://getmiso.com/",
+    "career_page_url": "https://jobs.ashbyhq.com/miso",
+    "board_token": "miso",
+    "domain_hint": "Software / Apps",
+    "source_platforms": [
+      "bulk-discovered",
+      "topstartups.io"
+    ]
+  },
+  {
+    "company_name": "Miso Labs",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/miso",
+    "board_token": "miso",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Modal",
+    "website": "https://modal.com",
+    "career_page_url": "https://jobs.ashbyhq.com/modal",
+    "board_token": "modal",
+    "domain_hint": "AI/infra",
+    "source_platforms": [
+      "topstartups.io",
+      "yc"
+    ]
+  },
+  {
+    "company_name": "Modern Treasury",
+    "website": "http://www.moderntreasury.com/",
+    "career_page_url": "https://jobs.ashbyhq.com/moderntreasury",
+    "board_token": "moderntreasury",
+    "domain_hint": "FinTech / Payments",
+    "source_platforms": [
+      "topstartups.io"
+    ]
+  },
+  {
+    "company_name": "Modus",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/modus",
+    "board_token": "modus",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Mollie",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/mollie",
+    "board_token": "mollie",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Monad Foundation",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/monad.foundation",
+    "board_token": "monad",
+    "domain_hint": "jobs.ashbyhq.com",
+    "source_platforms": [
+      "chsr"
+    ]
+  },
+  {
+    "company_name": "Monogram Health",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/monogram",
+    "board_token": "monogram",
+    "domain_hint": "recruiting2.ultipro.com",
+    "source_platforms": [
+      "chsr"
+    ]
+  },
+  {
+    "company_name": "MorphoAI",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/morpho",
+    "board_token": "morpho",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Mosaic",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/mosaic",
+    "board_token": "mosaic",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Moss",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/moss",
+    "board_token": "moss",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "MotherDuck",
+    "website": "https://motherduck.com",
+    "career_page_url": "https://jobs.ashbyhq.com/motherduck",
+    "board_token": "motherduck",
+    "domain_hint": "duckdb cloud",
+    "source_platforms": [
+      "curated"
+    ]
+  },
+  {
+    "company_name": "Motion",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/motion",
+    "board_token": "motion",
+    "domain_hint": "jobs.ashbyhq.com",
+    "source_platforms": [
+      "chsr"
+    ]
+  },
+  {
+    "company_name": "Mubi",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/mubi",
+    "board_token": "mubi",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Multiply",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/multiply",
+    "board_token": "multiply",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Multiverse",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/multiverse",
+    "board_token": "multiverse",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Mural",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/mural",
+    "board_token": "mural",
+    "domain_hint": "",
+    "source_platforms": [
+      "bulk-discovered"
+    ]
+  },
+  {
+    "company_name": "Musinsa",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/musinsa",
+    "board_token": "musinsa",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Mux",
+    "website": "http://www.mux.com",
+    "career_page_url": "https://jobs.ashbyhq.com/mux",
+    "board_token": "mux",
+    "domain_hint": "Video Streaming / SaaS / Analytics",
+    "source_platforms": [
+      "topstartups.io",
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Mysten Labs",
+    "website": "https://www.mystenlabs.com",
+    "career_page_url": "https://jobs.ashbyhq.com/mystenlabs",
+    "board_token": "mystenlabs",
+    "domain_hint": "crypto/web3",
+    "source_platforms": [
+      "topstartups.io",
+      "untapped"
+    ]
+  },
+  {
+    "company_name": "Nanograb",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/nanograb",
+    "board_token": "nanograb",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Natter",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/natter",
+    "board_token": "natter",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Navi",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/navi",
+    "board_token": "navi",
+    "domain_hint": "",
+    "source_platforms": [
+      "bulk-discovered"
+    ]
+  },
+  {
+    "company_name": "Neo Financial",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/neofinancial",
+    "board_token": "neofinancial",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Newfront",
+    "website": "https://www.newfront.com/",
+    "career_page_url": "https://jobs.ashbyhq.com/newfront",
+    "board_token": "newfront",
+    "domain_hint": "FinTech / Insurance",
+    "source_platforms": [
+      "topstartups.io",
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Notion",
+    "website": "https://www.notion.com",
+    "career_page_url": "https://jobs.ashbyhq.com/notion",
+    "board_token": "notion",
+    "domain_hint": "SaaS/devtools",
+    "source_platforms": [
+      "builtin",
+      "direct-search",
+      "topstartups.io"
+    ]
+  },
+  {
+    "company_name": "Nylas",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/nylas",
+    "board_token": "nylas",
+    "domain_hint": "",
+    "source_platforms": [
+      "bulk-discovered"
+    ]
+  },
+  {
+    "company_name": "OffDeal",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/offdeal",
+    "board_token": "offdeal",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Olive",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/olive",
+    "board_token": "olive",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "OmniAI",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/omni",
+    "board_token": "omni",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "OnDeck AI",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/ondeck",
+    "board_token": "ondeck",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Oneleet",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/oneleet",
+    "board_token": "oneleet",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Ontic",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/ontic",
+    "board_token": "ontic",
+    "domain_hint": "ontic.co",
+    "source_platforms": [
+      "chsr"
+    ]
+  },
+  {
+    "company_name": "Opal",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/opal",
+    "board_token": "opal",
+    "domain_hint": "",
+    "source_platforms": [
+      "bulk-discovered"
+    ]
+  },
+  {
+    "company_name": "OpenAI",
+    "website": "https://openai.com",
+    "career_page_url": "https://jobs.ashbyhq.com/openai",
+    "board_token": "openai",
+    "domain_hint": "AI/ML",
+    "source_platforms": [
+      "direct-search",
+      "startupjobs",
+      "topstartups.io"
+    ]
+  },
+  {
+    "company_name": "Opencall",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/opencall",
+    "board_token": "opencall",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "OpenEvidence",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/openevidence",
+    "board_token": "openevidence",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Opennote",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/opennote",
+    "board_token": "opennote",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "OpenRouter",
+    "website": "https://openrouter.ai/",
+    "career_page_url": "https://jobs.ashbyhq.com/openrouter",
+    "board_token": "openrouter",
+    "domain_hint": "Artificial Intelligence",
+    "source_platforms": [
+      "topstartups.io"
+    ]
+  },
+  {
+    "company_name": "Orbit",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/orbit",
+    "board_token": "orbit",
+    "domain_hint": "",
+    "source_platforms": [
+      "bulk-discovered"
+    ]
+  },
+  {
+    "company_name": "Oscilar",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/oscilar",
+    "board_token": "oscilar",
+    "domain_hint": "",
+    "source_platforms": [
+      "himalayas"
+    ]
+  },
+  {
+    "company_name": "Oso",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/oso",
+    "board_token": "oso",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Outset",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/outset",
+    "board_token": "outset",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Outship",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/outship",
+    "board_token": "outship",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Owkin",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/owkin",
+    "board_token": "owkin",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Oxa",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/oxa",
+    "board_token": "oxa",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Pagos Solutions",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/Pagos/",
+    "board_token": "Pagos",
+    "domain_hint": "jobs.ashbyhq.com",
+    "source_platforms": [
+      "chsr"
+    ]
+  },
+  {
+    "company_name": "Panacea",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/panacea",
+    "board_token": "panacea",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Paragon",
+    "website": "http://www.useparagon.com/",
+    "career_page_url": "https://jobs.ashbyhq.com/paragon",
+    "board_token": "paragon",
+    "domain_hint": "Web Development / Developer APIs",
+    "source_platforms": [
+      "topstartups.io",
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Patreon",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/patreon",
+    "board_token": "patreon",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Pavebank",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/pavebank",
+    "board_token": "pavebank",
+    "domain_hint": "",
+    "source_platforms": [
+      "himalayas"
+    ]
+  },
+  {
+    "company_name": "Payscale",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/payscale",
+    "board_token": "payscale",
+    "domain_hint": "",
+    "source_platforms": [
+      "himalayas"
+    ]
+  },
+  {
+    "company_name": "Peec AI",
+    "website": "https://peec.ai",
+    "career_page_url": "https://jobs.ashbyhq.com/Peec",
+    "board_token": "Peec",
+    "domain_hint": "AI/SaaS",
+    "source_platforms": [
+      "jobleads"
+    ]
+  },
+  {
+    "company_name": "Perfectly",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/perfectly",
+    "board_token": "perfectly",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Permutive",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/permutive",
+    "board_token": "permutive",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Perplexity",
+    "website": "https://www.perplexity.ai",
+    "career_page_url": "https://jobs.ashbyhq.com/perplexity",
+    "board_token": "perplexity",
+    "domain_hint": "AI/search",
+    "source_platforms": [
+      "direct-search"
+    ]
+  },
+  {
+    "company_name": "Perplexity AI",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/perplexity",
+    "board_token": "perplexity",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Pharos",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/pharos",
+    "board_token": "pharos",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Phaselaw",
+    "website": "https://phase.law",
+    "career_page_url": "https://jobs.ashbyhq.com/Pear-VC",
+    "board_token": "Pear-VC",
+    "domain_hint": "legaltech",
+    "source_platforms": [
+      "whoishiring"
+    ]
+  },
+  {
+    "company_name": "Phoenix Software",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/phoenix",
+    "board_token": "phoenix",
+    "domain_hint": "",
+    "source_platforms": [
+      "himalayas"
+    ]
+  },
+  {
+    "company_name": "Phonely",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/phonely",
+    "board_token": "phonely",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Physical Intelligence Inc.",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/physicalintelligence",
+    "board_token": "physicalintelligence",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Pinecone",
+    "website": "https://www.pinecone.io",
+    "career_page_url": "https://jobs.ashbyhq.com/pinecone",
+    "board_token": "pinecone",
+    "domain_hint": "AI/infra",
+    "source_platforms": [
+      "wellfound"
+    ]
+  },
+  {
+    "company_name": "Pingo AI",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/pingo",
+    "board_token": "pingo",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Pivot",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/pivot",
+    "board_token": "pivot",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Pivot Robotics",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/pivotrobotics",
+    "board_token": "pivotrobotics",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Plane",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/plane",
+    "board_token": "plane",
+    "domain_hint": "",
+    "source_platforms": [
+      "bulk-discovered"
+    ]
+  },
+  {
+    "company_name": "Planet",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/planet",
+    "board_token": "planet",
+    "domain_hint": "",
+    "source_platforms": [
+      "himalayas"
+    ]
+  },
+  {
+    "company_name": "PlantingSpace",
+    "website": "https://planting.space",
+    "career_page_url": "https://jobs.ashbyhq.com/plantingspace",
+    "board_token": "plantingspace",
+    "domain_hint": "AI/ML",
+    "source_platforms": [
+      "whoishiring"
+    ]
+  },
+  {
+    "company_name": "Point",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/point",
+    "board_token": "point",
+    "domain_hint": "",
+    "source_platforms": [
+      "bulk-discovered"
+    ]
+  },
+  {
+    "company_name": "PointOne",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/pointone",
+    "board_token": "pointone",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Polar",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/polar",
+    "board_token": "polar",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Polymarket",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/polymarket",
+    "board_token": "polymarket",
+    "domain_hint": "",
+    "source_platforms": [
+      "himalayas"
+    ]
+  },
+  {
+    "company_name": "Polymath",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/polymath",
+    "board_token": "polymath",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Poolside",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/poolside",
+    "board_token": "poolside",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Poolside AI",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/poolside",
+    "board_token": "poolside",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Posh",
+    "website": "https://posh.vip",
+    "career_page_url": "https://jobs.ashbyhq.com/posh",
+    "board_token": "posh",
+    "domain_hint": "social/consumer",
+    "source_platforms": [
+      "wellfound"
+    ]
+  },
+  {
+    "company_name": "PostHog",
+    "website": "https://posthog.com",
+    "career_page_url": "https://posthog.com/careers",
+    "board_token": null,
+    "domain_hint": "devtools/analytics",
+    "source_platforms": [
+      "direct-search",
+      "yc"
+    ]
+  },
+  {
+    "company_name": "Pragmatike",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/pragmatike",
+    "board_token": "pragmatike",
+    "domain_hint": "",
+    "source_platforms": [
+      "himalayas"
+    ]
+  },
+  {
+    "company_name": "Prefect",
+    "website": "http://www.prefect.io/",
+    "career_page_url": "https://jobs.ashbyhq.com/prefect",
+    "board_token": "prefect",
+    "domain_hint": "Data Science / Enterprise Software",
+    "source_platforms": [
+      "bulk-discovered",
+      "topstartups.io"
+    ]
+  },
+  {
+    "company_name": "Prelude",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/prelude",
+    "board_token": "prelude",
+    "domain_hint": "angel.co",
+    "source_platforms": [
+      "chsr"
+    ]
+  },
+  {
+    "company_name": "Primer",
+    "website": "https://primer.com/",
+    "career_page_url": "https://jobs.ashbyhq.com/primer",
+    "board_token": "primer",
+    "domain_hint": "SaaS / EdTech",
+    "source_platforms": [
+      "topstartups.io",
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Prior Labs",
+    "website": "https://priorlabs.ai",
+    "career_page_url": "https://jobs.ashbyhq.com/prior-labs",
+    "board_token": "prior-labs",
+    "domain_hint": "AI/ML",
+    "source_platforms": [
+      "whoishiring"
+    ]
+  },
+  {
+    "company_name": "Protocol Labs",
+    "website": "http://protocol.ai/",
+    "career_page_url": "https://jobs.ashbyhq.com/protocol",
+    "board_token": "protocol",
+    "domain_hint": "Cybersecurity / Privacy / Crypto",
+    "source_platforms": [
+      "topstartups.io",
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Prox",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/prox",
+    "board_token": "prox",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Pure",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/pure",
+    "board_token": "pure",
+    "domain_hint": "",
+    "source_platforms": [
+      "bulk-discovered"
+    ]
+  },
+  {
+    "company_name": "Pylon",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/pylon",
+    "board_token": "pylon",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Quantexa",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/quantexa",
+    "board_token": "quantexa",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Quantstamp",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/quantstamp",
+    "board_token": "quantstamp",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Quora",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/quora",
+    "board_token": "quora",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Qventus",
+    "website": "http://www.qventus.com/",
+    "career_page_url": "https://jobs.ashbyhq.com/qventus",
+    "board_token": "qventus",
+    "domain_hint": "Predictive Analytics / Healthcare",
+    "source_platforms": [
+      "topstartups.io"
+    ]
+  },
+  {
+    "company_name": "Qwilr",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/qwilr",
+    "board_token": "qwilr",
+    "domain_hint": "",
+    "source_platforms": [
+      "bulk-discovered"
+    ]
+  },
+  {
+    "company_name": "Rad AI",
+    "website": "https://www.radai.com/",
+    "career_page_url": "https://jobs.ashbyhq.com/radai",
+    "board_token": "radai",
+    "domain_hint": "Healthcare / Artificial Intelligence",
+    "source_platforms": [
+      "topstartups.io"
+    ]
+  },
+  {
+    "company_name": "Radiant",
+    "website": "https://www.radiantnuclear.com/",
+    "career_page_url": "https://jobs.ashbyhq.com/radiant",
+    "board_token": "radiant",
+    "domain_hint": "Hardware / Sustainability",
+    "source_platforms": [
+      "bulk-discovered",
+      "topstartups.io"
+    ]
+  },
+  {
+    "company_name": "Railway",
+    "website": "https://railway.app",
+    "career_page_url": "https://jobs.ashbyhq.com/railway",
+    "board_token": "railway",
+    "domain_hint": "cloud platform",
+    "source_platforms": [
+      "curated"
+    ]
+  },
+  {
+    "company_name": "Ramp",
+    "website": "https://ramp.com",
+    "career_page_url": "https://jobs.ashbyhq.com/ramp",
+    "board_token": "ramp",
+    "domain_hint": "fintech",
+    "source_platforms": [
+      "builtin",
+      "direct-search",
+      "topstartups.io",
+      "yc"
+    ]
+  },
+  {
+    "company_name": "Reacher",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/reacher",
+    "board_token": "reacher",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "ReadMe",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/readme",
+    "board_token": "readme",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Reality Defender",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/realitydefender",
+    "board_token": "realitydefender",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Receptive",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/receptive",
+    "board_token": "receptive",
+    "domain_hint": "",
+    "source_platforms": [
+      "himalayas"
+    ]
+  },
+  {
+    "company_name": "Recharge",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/recharge",
+    "board_token": "recharge",
+    "domain_hint": "",
+    "source_platforms": [
+      "bulk-discovered"
+    ]
+  },
+  {
+    "company_name": "Recraft",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/recraft",
+    "board_token": "recraft",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Redis",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/redis",
+    "board_token": "redis",
+    "domain_hint": "",
+    "source_platforms": [
+      "bulk-discovered"
+    ]
+  },
+  {
+    "company_name": "Redis Labs",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/redis",
+    "board_token": "redis",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Reducto",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/reducto",
+    "board_token": "reducto",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Reflection AI",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/reflectionai",
+    "board_token": "reflectionai",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Relevance AI",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/relevanceai",
+    "board_token": "relevanceai",
+    "domain_hint": "",
+    "source_platforms": [
+      "himalayas"
+    ]
+  },
+  {
+    "company_name": "Render",
+    "website": "https://render.com",
+    "career_page_url": "https://jobs.ashbyhq.com/render",
+    "board_token": "render",
+    "domain_hint": "cloud platform",
+    "source_platforms": [
+      "bulk-discovered",
+      "curated"
+    ]
+  },
+  {
+    "company_name": "Replicate",
+    "website": "https://replicate.com",
+    "career_page_url": "https://jobs.ashbyhq.com/replicate",
+    "board_token": "replicate",
+    "domain_hint": "AI/infra",
+    "source_platforms": [
+      "topstartups.io",
+      "yc"
+    ]
+  },
+  {
+    "company_name": "Replit",
+    "website": "https://replit.com",
+    "career_page_url": "https://jobs.ashbyhq.com/replit",
+    "board_token": "replit",
+    "domain_hint": "devtools/IDE",
+    "source_platforms": [
+      "direct-search",
+      "startupjobs",
+      "topstartups.io",
+      "yc"
+    ]
+  },
+  {
+    "company_name": "Resend",
+    "website": "https://resend.com",
+    "career_page_url": "https://jobs.ashbyhq.com/resend",
+    "board_token": "resend",
+    "domain_hint": "devtools/email",
+    "source_platforms": [
+      "yc"
+    ]
+  },
+  {
+    "company_name": "REV1",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/rev",
+    "board_token": "rev",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Revise Robotics",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/reviserobotics",
+    "board_token": "reviserobotics",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Rivet",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/rivet",
+    "board_token": "rivet",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Roboflow",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/roboflow",
+    "board_token": "roboflow",
+    "domain_hint": "roboflow.com",
+    "source_platforms": [
+      "chsr"
+    ]
+  },
+  {
+    "company_name": "Rohlik",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/rohlik",
+    "board_token": "rohlik",
+    "domain_hint": "",
+    "source_platforms": [
+      "bulk-discovered"
+    ]
+  },
+  {
+    "company_name": "Runway",
+    "website": "https://runwayml.com",
+    "career_page_url": "https://jobs.ashbyhq.com/runway-ml",
+    "board_token": "runway-ml",
+    "domain_hint": "AI/ML",
+    "source_platforms": [
+      "whoishiring"
+    ]
+  },
+  {
+    "company_name": "Ryvn",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/ryvn",
+    "board_token": "ryvn",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "SafetyCulture",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/safetyculture",
+    "board_token": "safetyculture",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "SafetyKit",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/safetykit",
+    "board_token": "safetykit",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Sage Care",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/sagecare",
+    "board_token": "sagecare",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "SalesPatriot",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/salespatriot",
+    "board_token": "salespatriot",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "SandboxAQ",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/sandboxaq",
+    "board_token": "sandboxaq",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Sardine",
+    "website": "https://www.sardine.ai",
+    "career_page_url": "https://jobs.ashbyhq.com/sardine",
+    "board_token": "sardine",
+    "domain_hint": "FinTech",
+    "source_platforms": [
+      "topstartups.io"
+    ]
+  },
+  {
+    "company_name": "Sarvam AI",
+    "website": "https://sarvam.ai",
+    "career_page_url": "https://jobs.ashbyhq.com/sarvam",
+    "board_token": "sarvam",
+    "domain_hint": "AI/voice-LLM (India)",
+    "source_platforms": [
+      "manual-target"
+    ]
+  },
+  {
+    "company_name": "Saturn",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/saturn",
+    "board_token": "saturn",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Sazabi",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/sazabi",
+    "board_token": "sazabi",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Scaler",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/scaler",
+    "board_token": "scaler",
+    "domain_hint": "",
+    "source_platforms": [
+      "bulk-discovered"
+    ]
+  },
+  {
+    "company_name": "Scout",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/scout",
+    "board_token": "scout",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Semgrep",
+    "website": "https://semgrep.dev/",
+    "career_page_url": "https://jobs.ashbyhq.com/semgrep",
+    "board_token": "semgrep",
+    "domain_hint": "Cybersecurity / SaaS",
+    "source_platforms": [
+      "topstartups.io"
+    ]
+  },
+  {
+    "company_name": "Semperis",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/semperis",
+    "board_token": "semperis",
+    "domain_hint": "",
+    "source_platforms": [
+      "himalayas"
+    ]
+  },
+  {
+    "company_name": "Sentry",
+    "website": "http://getsentry.com",
+    "career_page_url": "https://jobs.ashbyhq.com/sentry",
+    "board_token": "sentry",
+    "domain_hint": "Enterprise Software / SaaS / Analytics",
+    "source_platforms": [
+      "bulk-discovered",
+      "topstartups.io"
+    ]
+  },
+  {
+    "company_name": "SeQuent",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/sequent",
+    "board_token": "sequent",
+    "domain_hint": "",
+    "source_platforms": [
+      "bulk-discovered"
+    ]
+  },
+  {
+    "company_name": "Shadeform",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/shadeform",
+    "board_token": "shadeform",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Shasqi",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/shasqi",
+    "board_token": "shasqi",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Sidekick",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/sidekick",
+    "board_token": "sidekick",
+    "domain_hint": "",
+    "source_platforms": [
+      "bulk-discovered"
+    ]
+  },
+  {
+    "company_name": "Siege Media",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/siegemedia",
+    "board_token": "siegemedia",
+    "domain_hint": "",
+    "source_platforms": [
+      "himalayas"
+    ]
+  },
+  {
+    "company_name": "sieve",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/sieve",
+    "board_token": "sieve",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Sift",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/sift",
+    "board_token": "sift",
+    "domain_hint": "",
+    "source_platforms": [
+      "bulk-discovered"
+    ]
+  },
+  {
+    "company_name": "Sift Stack, Inc.",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/siftstack",
+    "board_token": "siftstack",
+    "domain_hint": "",
+    "source_platforms": [
+      "himalayas"
+    ]
+  },
+  {
+    "company_name": "Sim",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/sim",
+    "board_token": "sim",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Simetrik",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/simetrik",
+    "board_token": "simetrik",
+    "domain_hint": "",
+    "source_platforms": [
+      "himalayas"
+    ]
+  },
+  {
+    "company_name": "SiteMinder",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/siteminder",
+    "board_token": "siteminder",
+    "domain_hint": "",
+    "source_platforms": [
+      "bulk-discovered"
+    ]
+  },
+  {
+    "company_name": "snapdocs",
+    "website": "http://www.snapdocs.com",
+    "career_page_url": "https://jobs.ashbyhq.com/snapdocs",
+    "board_token": "snapdocs",
+    "domain_hint": "Real Estate / FinTech",
+    "source_platforms": [
+      "topstartups.io",
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "SnapMagic",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/snapmagic",
+    "board_token": "snapmagic",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Snowflake",
+    "website": "http://www.snowflake.net",
+    "career_page_url": "https://jobs.ashbyhq.com/snowflake",
+    "board_token": "snowflake",
+    "domain_hint": "Analytics / Enterprise Software",
+    "source_platforms": [
+      "bulk-discovered",
+      "topstartups.io"
+    ]
+  },
+  {
+    "company_name": "Snowflake Inc.",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/snowflake",
+    "board_token": "snowflake",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Snyk",
+    "website": "http://snyk.io/",
+    "career_page_url": "https://jobs.ashbyhq.com/snyk",
+    "board_token": "snyk",
+    "domain_hint": "Open Source / Cybersecurity / Developer Tools",
+    "source_platforms": [
+      "bulk-discovered",
+      "topstartups.io"
+    ]
+  },
+  {
+    "company_name": "Socket",
+    "website": "https://socket.dev/",
+    "career_page_url": "https://jobs.ashbyhq.com/socket",
+    "board_token": "socket",
+    "domain_hint": "SaaS / Cybersecurity",
+    "source_platforms": [
+      "topstartups.io"
+    ]
+  },
+  {
+    "company_name": "Socure",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/socure",
+    "board_token": "socure",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Sol",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/sol",
+    "board_token": "sol",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Sola",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/sola",
+    "board_token": "sola",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Solace Health",
+    "website": "https://www.solacehealth.com",
+    "career_page_url": "https://jobs.ashbyhq.com/Solace",
+    "board_token": "Solace",
+    "domain_hint": "healthtech",
+    "source_platforms": [
+      "whoishiring"
+    ]
+  },
+  {
+    "company_name": "Solidroad",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/solidroad",
+    "board_token": "solidroad",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Solva",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/solva",
+    "board_token": "solva",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Solve Intelligence",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/solveintelligence",
+    "board_token": "solveintelligence",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Sorcerer",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/sorcerer",
+    "board_token": "sorcerer",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Spendesk",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/spendesk",
+    "board_token": "spendesk",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Spherecast",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/spherecast",
+    "board_token": "spherecast",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Sphinx",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/sphinx",
+    "board_token": "sphinx",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Spur",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/spur",
+    "board_token": "spur",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Stash",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/stash",
+    "board_token": "stash",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Stellar Science",
+    "website": "https://www.stellarscience.com",
+    "career_page_url": "https://jobs.ashbyhq.com/stellar",
+    "board_token": "stellar",
+    "domain_hint": "defense/software",
+    "source_platforms": [
+      "whoishiring"
+    ]
+  },
+  {
+    "company_name": "Stilta",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/stilta",
+    "board_token": "stilta",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Subsets",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/subsets",
+    "board_token": "subsets",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Substrate",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/substrate",
+    "board_token": "substrate",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Suno",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/suno",
+    "board_token": "suno",
+    "domain_hint": "",
+    "source_platforms": [
+      "bulk-discovered"
+    ]
+  },
+  {
+    "company_name": "Supabase",
+    "website": "https://supabase.com",
+    "career_page_url": "https://jobs.ashbyhq.com/supabase",
+    "board_token": "supabase",
+    "domain_hint": "devtools/backend",
+    "source_platforms": [
+      "topstartups.io",
+      "yc"
+    ]
+  },
+  {
+    "company_name": "Sweep",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/sweep",
+    "board_token": "sweep",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Synthetic Sciences",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/synthetic",
+    "board_token": "synthetic",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Tabs",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/tabs",
+    "board_token": "tabs",
+    "domain_hint": "",
+    "source_platforms": [
+      "bulk-discovered"
+    ]
+  },
+  {
+    "company_name": "Talkdesk",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/talkdesk",
+    "board_token": "talkdesk",
+    "domain_hint": "",
+    "source_platforms": [
+      "bulk-discovered"
+    ]
+  },
+  {
+    "company_name": "Tamarind Bio",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/tamarindbio",
+    "board_token": "tamarindbio",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Tango",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/tango",
+    "board_token": "tango",
+    "domain_hint": "",
+    "source_platforms": [
+      "himalayas"
+    ]
+  },
+  {
+    "company_name": "telli",
+    "website": "https://telli.com",
+    "career_page_url": "https://jobs.ashbyhq.com/telli",
+    "board_token": "telli",
+    "domain_hint": "AI/ML",
+    "source_platforms": [
+      "whoishiring"
+    ]
+  },
+  {
+    "company_name": "Terminal",
+    "website": "http://terminal.io",
+    "career_page_url": "https://jobs.ashbyhq.com/terminal",
+    "board_token": "terminal",
+    "domain_hint": "Recruiting / Developers",
+    "source_platforms": [
+      "topstartups.io",
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Terra",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/terra",
+    "board_token": "terra",
+    "domain_hint": "",
+    "source_platforms": [
+      "himalayas"
+    ]
+  },
+  {
+    "company_name": "Teya",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/teya",
+    "board_token": "teya",
+    "domain_hint": "",
+    "source_platforms": [
+      "himalayas"
+    ]
+  },
+  {
+    "company_name": "The Flex",
+    "website": "https://base360.ai",
+    "career_page_url": "https://jobs.ashbyhq.com/theflex",
+    "board_token": "theflex",
+    "domain_hint": "proptech/AI",
+    "source_platforms": [
+      "startupjobs"
+    ]
+  },
+  {
+    "company_name": "Thesis",
+    "website": "http://thesis.co/",
+    "career_page_url": "https://jobs.ashbyhq.com/thesis",
+    "board_token": "thesis",
+    "domain_hint": "Crypto",
+    "source_platforms": [
+      "topstartups.io",
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Thunder Compute",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/thundercompute",
+    "board_token": "thundercompute",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Toma",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/toma",
+    "board_token": "toma",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Tracebit",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/tracebit",
+    "board_token": "tracebit",
+    "domain_hint": "tracebit.com",
+    "source_platforms": [
+      "chsr"
+    ]
+  },
+  {
+    "company_name": "Tractable",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/tractable",
+    "board_token": "tractable",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Troveo AI",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/troveo",
+    "board_token": "troveo",
+    "domain_hint": "",
+    "source_platforms": [
+      "himalayas"
+    ]
+  },
+  {
+    "company_name": "Truelogic",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/truelogic",
+    "board_token": "truelogic",
+    "domain_hint": "",
+    "source_platforms": [
+      "himalayas"
+    ]
+  },
+  {
+    "company_name": "Trulioo",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/trulioo",
+    "board_token": "trulioo",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "truthsystems",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/truthsystems",
+    "board_token": "truthsystems",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Tsenta",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/tsenta",
+    "board_token": "tsenta",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Twenty",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/twenty",
+    "board_token": "twenty",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Ultra",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/ultra",
+    "board_token": "ultra",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Unit4",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/unit",
+    "board_token": "unit",
+    "domain_hint": "",
+    "source_platforms": [
+      "himalayas"
+    ]
+  },
+  {
+    "company_name": "Uplane",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/uplane",
+    "board_token": "uplane",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Upvest",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/upvest",
+    "board_token": "upvest",
+    "domain_hint": "",
+    "source_platforms": [
+      "himalayas"
+    ]
+  },
+  {
+    "company_name": "Usul",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/usul",
+    "board_token": "usul",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Vanta",
+    "website": "http://www.vanta.com/",
+    "career_page_url": "https://jobs.ashbyhq.com/vanta",
+    "board_token": "vanta",
+    "domain_hint": "Cybersecurity / Software",
+    "source_platforms": [
+      "topstartups.io"
+    ]
+  },
+  {
+    "company_name": "vCluster Labs",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/vclusterlabs",
+    "board_token": "vclusterlabs",
+    "domain_hint": "",
+    "source_platforms": [
+      "himalayas"
+    ]
+  },
+  {
+    "company_name": "Vector",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/vector",
+    "board_token": "vector",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Vela",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/vela",
+    "board_token": "vela",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Vellum",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/vellum",
+    "board_token": "vellum",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Vera Health",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/verahealth",
+    "board_token": "verahealth",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Verto",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/verto",
+    "board_token": "verto",
+    "domain_hint": "",
+    "source_platforms": [
+      "himalayas"
+    ]
+  },
+  {
+    "company_name": "Vesta",
+    "website": "https://www.usevesta.com/",
+    "career_page_url": "https://jobs.ashbyhq.com/vesta",
+    "board_token": "vesta",
+    "domain_hint": "SaaS / Mortgage",
+    "source_platforms": [
+      "himalayas",
+      "topstartups.io"
+    ]
+  },
+  {
+    "company_name": "Vibe",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/vibe",
+    "board_token": "vibe",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Viktor",
+    "website": "https://viktor.com",
+    "career_page_url": "https://jobs.ashbyhq.com/viktor",
+    "board_token": "viktor",
+    "domain_hint": "AI/agents",
+    "source_platforms": [
+      "startupjobs"
+    ]
+  },
+  {
+    "company_name": "Virta Health",
+    "website": "http://virtahealth.com",
+    "career_page_url": "https://jobs.ashbyhq.com/virtahealth",
+    "board_token": "virtahealth",
+    "domain_hint": "Healthcare / Medical",
+    "source_platforms": [
+      "topstartups.io"
+    ]
+  },
+  {
+    "company_name": "Visier",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/visier",
+    "board_token": "visier",
+    "domain_hint": "",
+    "source_platforms": [
+      "bulk-discovered"
+    ]
+  },
+  {
+    "company_name": "Vitally",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/vitally",
+    "board_token": "vitally",
+    "domain_hint": "",
+    "source_platforms": [
+      "bulk-discovered"
+    ]
+  },
+  {
+    "company_name": "Vultr",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/vultr",
+    "board_token": "vultr",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Wallbit",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/wallbit",
+    "board_token": "wallbit",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Wayflyer",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/wayflyer",
+    "board_token": "wayflyer",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Weaviate",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/weaviate",
+    "board_token": "weaviate",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "WillowTree",
+    "website": "https://www.willowtreeapps.com",
+    "career_page_url": "https://jobs.ashbyhq.com/telus-digital",
+    "board_token": "telus-digital",
+    "domain_hint": "dev agency",
+    "source_platforms": [
+      "untapped"
+    ]
+  },
+  {
+    "company_name": "Windranger Labs",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/windranger",
+    "board_token": "windranger",
+    "domain_hint": "",
+    "source_platforms": [
+      "himalayas"
+    ]
+  },
+  {
+    "company_name": "Wistia",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/wistia",
+    "board_token": "wistia",
+    "domain_hint": "",
+    "source_platforms": [
+      "bulk-discovered"
+    ]
+  },
+  {
+    "company_name": "Wiz",
+    "website": "https://wiz.io/",
+    "career_page_url": "https://jobs.ashbyhq.com/wiz",
+    "board_token": "wiz",
+    "domain_hint": "Enterprise Software / Cybersecurity",
+    "source_platforms": [
+      "bulk-discovered",
+      "topstartups.io"
+    ]
+  },
+  {
+    "company_name": "WorkOS",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/workos",
+    "board_token": "workos",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Wrapbook",
+    "website": "http://www.wrapbook.com/",
+    "career_page_url": "https://jobs.ashbyhq.com/wrapbook",
+    "board_token": "wrapbook",
+    "domain_hint": "FinTech",
+    "source_platforms": [
+      "topstartups.io"
+    ]
+  },
+  {
+    "company_name": "Writer",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/writer",
+    "board_token": "writer",
+    "domain_hint": "",
+    "source_platforms": [
+      "himalayas"
+    ]
+  },
+  {
+    "company_name": "Writer Inc.",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/writer",
+    "board_token": "writer",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "XBOW",
+    "website": "https://xbow.com/",
+    "career_page_url": "https://jobs.ashbyhq.com/xbowcareers",
+    "board_token": "xbowcareers",
+    "domain_hint": "Artificial Intelligence / Cybersecurity",
+    "source_platforms": [
+      "topstartups.io"
+    ]
+  },
+  {
+    "company_name": "Xenon7",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/xenon",
+    "board_token": "xenon",
+    "domain_hint": "",
+    "source_platforms": [
+      "himalayas"
+    ]
+  },
+  {
+    "company_name": "Xero",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/xero",
+    "board_token": "xero",
+    "domain_hint": "",
+    "source_platforms": [
+      "bulk-discovered"
+    ]
+  },
+  {
+    "company_name": "Y Combinator",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/ycombinator",
+    "board_token": "ycombinator",
+    "domain_hint": "",
+    "source_platforms": [
+      "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Zania",
+    "website": "https://zania.ai",
+    "career_page_url": "https://jobs.ashbyhq.com/Zania",
+    "board_token": "Zania",
+    "domain_hint": "AI/GRC-compliance",
+    "source_platforms": [
+      "direct-search"
+    ]
+  },
+  {
+    "company_name": "Zapier",
+    "website": "https://zapier.com",
+    "career_page_url": "https://jobs.ashbyhq.com/zapier",
+    "board_token": "zapier",
+    "domain_hint": "devtools/automation",
+    "source_platforms": [
+      "powertofly",
+      "topstartups.io"
+    ]
+  },
+  {
+    "company_name": "Zego",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/zego",
+    "board_token": "zego",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Zilch",
+    "website": "",
+    "career_page_url": "https://jobs.ashbyhq.com/zilch",
+    "board_token": "zilch",
+    "domain_hint": "",
+    "source_platforms": [
+      "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Zyphra",
+    "website": "https://zyphra.com",
+    "career_page_url": "https://jobs.ashbyhq.com/zyphra",
+    "board_token": "zyphra",
+    "domain_hint": "AI/ML",
+    "source_platforms": [
+      "startupjobs"
+    ]
+  }
+]

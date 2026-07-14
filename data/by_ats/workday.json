@@ -1,0 +1,73 @@
+[
+  {
+    "company_name": "Altera Digital Health",
+    "website": "",
+    "career_page_url": "https://harriscomputer.wd3.myworkdayjobs.com/Altera",
+    "board_token": null,
+    "domain_hint": "harriscomputer.wd3.myworkdayjobs.com",
+    "source_platforms": [
+      "chsr"
+    ]
+  },
+  {
+    "company_name": "BrowserStack",
+    "website": "http://www.browserstack.com/",
+    "career_page_url": "https://browserstack.wd3.myworkdayjobs.com/External",
+    "board_token": "External",
+    "domain_hint": "SaaS / Testing / Developer Tools / Enterprise Software",
+    "source_platforms": [
+      "topstartups.io"
+    ]
+  },
+  {
+    "company_name": "Crowdstrike",
+    "website": "http://www.crowdstrike.com",
+    "career_page_url": "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers",
+    "board_token": "crowdstrikecareers",
+    "domain_hint": "Crowdsourcing / Cybersecurity / SaaS / Enterprise Software",
+    "source_platforms": [
+      "himalayas",
+      "topstartups.io"
+    ]
+  },
+  {
+    "company_name": "Fox-IT part of NCC Group",
+    "website": "",
+    "career_page_url": "https://nccgroup.wd3.myworkdayjobs.com/NCC_Group",
+    "board_token": null,
+    "domain_hint": "nccgroup.wd3.myworkdayjobs.com",
+    "source_platforms": [
+      "chsr"
+    ]
+  },
+  {
+    "company_name": "Poshmark",
+    "website": "https://poshmark.com",
+    "career_page_url": "https://poshmark.wd5.myworkdayjobs.com/Poshmark_Careers",
+    "board_token": null,
+    "domain_hint": "ecommerce",
+    "source_platforms": [
+      "untapped"
+    ]
+  },
+  {
+    "company_name": "SciPlay",
+    "website": "https://www.sciplay.com",
+    "career_page_url": "https://lnw.wd5.myworkdayjobs.com/SciPlayExternalCareersSite",
+    "board_token": "SciPlayExternalCareersSite",
+    "domain_hint": "gaming",
+    "source_platforms": [
+      "builtin"
+    ]
+  },
+  {
+    "company_name": "Zillow",
+    "website": "https://www.zillow.com",
+    "career_page_url": "https://www.zillow.com/careers",
+    "board_token": null,
+    "domain_hint": "proptech/fintech",
+    "source_platforms": [
+      "powertofly"
+    ]
+  }
+]

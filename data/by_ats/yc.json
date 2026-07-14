@@ -1,0 +1,92 @@
+[
+  {
+    "company_name": "a0.dev",
+    "website": "https://a0.dev",
+    "career_page_url": "https://www.ycombinator.com/companies/a0-dev/jobs",
+    "board_token": null,
+    "domain_hint": "AI/mobile",
+    "source_platforms": [
+      "yc"
+    ]
+  },
+  {
+    "company_name": "Beam",
+    "website": "https://beam.cloud",
+    "career_page_url": "https://www.ycombinator.com/companies/beam/jobs",
+    "board_token": null,
+    "domain_hint": "AI/infra",
+    "source_platforms": [
+      "yc"
+    ]
+  },
+  {
+    "company_name": "Broccoli AI",
+    "website": "https://broccoli.ai",
+    "career_page_url": "https://www.ycombinator.com/companies/broccoli-ai/jobs",
+    "board_token": null,
+    "domain_hint": "AI/SaaS",
+    "source_platforms": [
+      "yc"
+    ]
+  },
+  {
+    "company_name": "Bucket Robotics",
+    "website": "https://bucket.bot",
+    "career_page_url": "https://www.ycombinator.com/companies/bucket-robotics/jobs",
+    "board_token": null,
+    "domain_hint": "robotics",
+    "source_platforms": [
+      "whoishiring"
+    ]
+  },
+  {
+    "company_name": "Fresco",
+    "website": "https://fresco-ai.com",
+    "career_page_url": "https://www.ycombinator.com/companies/fresco/jobs",
+    "board_token": null,
+    "domain_hint": "AI/construction",
+    "source_platforms": [
+      "yc"
+    ]
+  },
+  {
+    "company_name": "Keye",
+    "website": "https://keye.co",
+    "career_page_url": "https://www.ycombinator.com/companies/keye/jobs",
+    "board_token": null,
+    "domain_hint": "AI/fintech",
+    "source_platforms": [
+      "yc"
+    ]
+  },
+  {
+    "company_name": "Signadot",
+    "website": "https://www.signadot.com",
+    "career_page_url": "https://www.ycombinator.com/companies/signadot/jobs",
+    "board_token": null,
+    "domain_hint": "devtools/infra",
+    "source_platforms": [
+      "yc"
+    ]
+  },
+  {
+    "company_name": "Text Blaze",
+    "website": "https://blaze.today",
+    "career_page_url": "https://www.ycombinator.com/companies/text-blaze/jobs",
+    "board_token": null,
+    "domain_hint": "SaaS/devtools",
+    "source_platforms": [
+      "yc"
+    ]
+  },
+  {
+    "company_name": "Variant",
+    "website": "https://variant.com",
+    "career_page_url": "https://www.ycombinator.com/companies/variant/jobs",
+    "board_token": null,
+    "domain_hint": "AI/devtools",
+    "source_platforms": [
+      "yc"
+    ]
+  }
+]

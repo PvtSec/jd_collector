@@ -1,0 +1,43 @@
+# ---- Python ----
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# ---- Node / frontend build ----
+app/frontend/node_modules/
+app/frontend/dist/
+app/frontend/*.tsbuildinfo
+*.log
+
+# ---- Runtime / generated data (regenerable) ----
+# Discovery DB (built by the dashboard on first run)
+data/jobs.db
+data/jobs.db-*
+# Engine apply ledger
+data/applied.sqlite
+data/applied.sqlite-*
+# Dashboard persisted state (applied/hidden flags)
+app/state.json
+# Liveness/validation runtime markers
+app/.links*
+app/.*_done
+# Discovery-script HTML caches
+data/.cache_*/
+
+# ---- Build artifacts ----
+dist_bundle/
+job_auto_dashboard.pdf
+
+# ---- Candidate PII (must never be committed) ----
+profile.yaml
+profile.example.yaml
+resumes/
+
+# ---- OS / editor ----
+.DS_Store
+.idea/
+.vscode/
+*.swp

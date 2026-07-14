@@ -1,0 +1,93 @@
+[
+  {
+    "company_name": "All Cares",
+    "website": "https://allcares.com",
+    "career_page_url": "https://allcares.breezy.hr/",
+    "board_token": "allcares",
+    "domain_hint": "healthtech",
+    "source_platforms": [
+      "manual-target"
+    ]
+  },
+  {
+    "company_name": "Cal.com",
+    "website": "https://cal.com",
+    "career_page_url": "https://cal.com/jobs",
+    "board_token": null,
+    "domain_hint": "SaaS/scheduling",
+    "source_platforms": [
+      "yc"
+    ]
+  },
+  {
+    "company_name": "HiOperator",
+    "website": "https://www.hioperator.com",
+    "career_page_url": "https://hioperator.breezy.hr/p",
+    "board_token": "p",
+    "domain_hint": "AI/customer service",
+    "source_platforms": [
+      "powertofly",
+      "topstartups.io"
+    ]
+  },
+  {
+    "company_name": "Rule4",
+    "website": "https://rule4.com",
+    "career_page_url": "https://rule4.breezy.hr/",
+    "board_token": "rule4",
+    "domain_hint": "cybersecurity/consulting",
+    "source_platforms": [
+      "manual-target"
+    ]
+  },
+  {
+    "company_name": "Sounding Board",
+    "website": "",
+    "career_page_url": "https://sounding-board-inc.breezy.hr/",
+    "board_token": "sounding-board-inc",
+    "domain_hint": "sounding-board-inc.breezy.hr",
+    "source_platforms": [
+      "chsr"
+    ]
+  },
+  {
+    "company_name": "Teal",
+    "website": "https://tealhq.com",
+    "career_page_url": "https://teal.breezy.hr/",
+    "board_token": "teal",
+    "domain_hint": "career-tech/SaaS",
+    "source_platforms": [
+      "manual-target"
+    ]
+  },
+  {
+    "company_name": "WazirX",
+    "website": "https://wazirx.com",
+    "career_page_url": "https://wazirx.breezy.hr/",
+    "board_token": "wazirx",
+    "domain_hint": "crypto/exchange",
+    "source_platforms": [
+      "manual-target"
+    ]
+  },
+  {
+    "company_name": "Whym",
+    "website": "",
+    "career_page_url": "https://whym.breezy.hr/",
+    "board_token": "whym",
+    "domain_hint": "whym.breezy.hr",
+    "source_platforms": [
+      "chsr"
+    ]
+  },
+  {
+    "company_name": "Zinier",
+    "website": "http://zinier.com",
+    "career_page_url": "https://zinier.breezy.hr",
+    "board_token": "zinier",
+    "domain_hint": "SaaS / Enterprise Software / Market Research",
+    "source_platforms": [
+      "topstartups.io"
+    ]
+  }
+]
