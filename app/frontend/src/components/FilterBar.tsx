@@ -47,6 +47,12 @@ export default function FilterBar({
         <option value="true">Applied</option>
       </select>
 
+      <select value={filters.closed} onChange={set('closed')}>
+        <option value="exclude">Open only</option>
+        <option value="only">Closed</option>
+        <option value="any">Open + closed</option>
+      </select>
+
       <label className="chk">
         <input type="checkbox" checked={filters.matched} onChange={set('matched')} />
         Matched only

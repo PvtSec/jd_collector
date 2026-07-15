@@ -1,7 +1,7 @@
 """Task manager — single-flight gate, current-run state, SSE pub/sub.
 
-The discovery job runs in a scheduler thread (sync enumerators, incl. sync
-Playwright for breezyhr/onlyfy). The SSE endpoint lives on the asyncio loop.
+The discovery job runs in a scheduler thread (sync enumerators, incl. the
+HTML-scraping breezyhr/onlyfy boards). The SSE endpoint lives on the asyncio loop.
 ``publish`` bridges the two via ``loop.call_soon_threadsafe``.
 
 Singleton: one ``TaskManager`` per process, created in ``app.py``.

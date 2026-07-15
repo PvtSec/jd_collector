@@ -15,7 +15,7 @@ export default function App() {
   const [jobsCount, setJobsCount] = useState(0)
   const [jobsTotal, setJobsTotal] = useState(0)
   const [filters, setFilters] = useState<Filters>({
-    q: '', ats: '', matched: true, applied: '', recent: '', sort: 'recent',
+    q: '', ats: '', matched: true, applied: '', recent: '', sort: 'recent', closed: 'exclude',
   })
   const [error, setError] = useState('')
   const [runMsg, setRunMsg] = useState('')

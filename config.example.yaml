@@ -54,3 +54,10 @@ http:
   timeout_seconds: 20
   user_agent: "Mozilla/5.0 (job-auto; contact: <your-email>)"
   retries: 2
+
+# --- dashboard app (app/backend) — optional; env vars (JOBAUTO_*) override ---
+app:
+  tick_minutes: 5        # how often the discovery task fires
+  rotate_size: 60        # companies enumerated per tick
+  stale_grace_misses: 2  # consecutive absent enumerations before a job is marked closed
+  port: 8000

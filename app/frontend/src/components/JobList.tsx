@@ -21,7 +21,7 @@ export default function JobList({
         <tbody>
           {jobs.map(j => (
             <tr key={`${j.company}|${j.ats}|${j.job_id}`}
-                className={j.applied ? 'applied' : (j.matched ? 'matched' : 'other')}>
+                className={j.closed === 1 ? 'closed' : (j.applied ? 'applied' : (j.matched ? 'matched' : 'other'))}>
               <td className="co">{j.company}</td>
               <td className="title">{j.title}</td>
               <td className="loc">
@@ -31,6 +31,7 @@ export default function JobList({
               <td>
                 <span className="ats">{j.ats}</span>
                 {j.matched === 1 && <span className="match-tag">match</span>}
+                {j.closed === 1 && <span className="closed-tag">closed</span>}
               </td>
               <td className="found"
                   title={j.first_seen ? new Date(j.first_seen * 1000).toLocaleString() : ''}>

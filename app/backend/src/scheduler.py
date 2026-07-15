@@ -1,7 +1,7 @@
 """Background scheduler — APScheduler interval job + manual force/rescan.
 
 A single-worker ``ThreadPoolExecutor`` guarantees ticks never overlap (sync
-enumerators incl. Playwright can't run concurrently here). ``force_reload``
+enumerators can't run concurrently here). ``force_reload``
 and ``rescan`` are one-shot jobs added on demand.
 """
 from __future__ import annotations
@@ -65,6 +65,22 @@ def _discover_companies_job():
     discovery.run_rescan(settings, tm, kind="discover_companies")
 
 
+def _export_seed_job():
+    """Periodic discovered-jobs seed export: dump the current jobs DB to the
+    seed file on the volume so a DB wipe (volume kept) recovers from the latest
+    discovered state. Read-only w.r.t. the jobs DB; never blocks discovery."""
+    settings = _settings
+    if settings is None:
+        return
+    try:
+        from . import seed
+        from .app import db
+        res = seed.export_seed(db, settings.abs_seed_file(), settings.seed_max_rows)
+        print(f"[seed] exported {res['exported']} jobs -> {res['path']}")
+    except Exception as e:
+        print(f"[seed] export failed: {e}")
+
+
 def start(settings: AppSettings):
     global _scheduler, _settings
     _settings = settings
@@ -88,6 +104,14 @@ def start(settings: AppSettings):
         _discover_companies_job, "interval", minutes=settings.company_discovery_minutes,
         id="discover_companies", coalesce=True, max_instances=1, executor="heavy",
         next_run_time=datetime.utcnow() + timedelta(seconds=90),
+    )
+    # periodic discovered-jobs seed export (default hourly) — refreshes the
+    # volume seed so a DB wipe recovers from the latest state. Fires once
+    # shortly after startup so the seed exists before the first hour elapses.
+    _scheduler.add_job(
+        _export_seed_job, "interval", minutes=settings.seed_export_minutes,
+        id="export_seed", coalesce=True, max_instances=1, executor="prune",
+        next_run_time=datetime.utcnow() + timedelta(seconds=120),
     )
     _scheduler.start()
 

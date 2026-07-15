@@ -6,6 +6,7 @@ export default function StatsBar({ stats }: { stats: Stats | null }) {
     ['Total jobs', stats.total],
     ['Matched', stats.matched],
     ['Applied', stats.applied],
+    ['Closed', stats.closed],
     ['Found 24h', stats.last_24h],
     ['Matched 24h', stats.matched_24h],
     ['Companies', stats.companies_total ?? '—'],

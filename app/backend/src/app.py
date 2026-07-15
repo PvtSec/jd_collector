@@ -82,23 +82,34 @@ def _seed_from_flat(path: str) -> int:
     return n
 
 
-# Seed the dashboard DB from an existing flat snapshot on first boot so the UI
-# isn't empty before the first tick lands jobs.
+# Seed the dashboard DB from a snapshot on first boot so the UI isn't empty
+# before the first tick lands jobs. Prefer the discovered-jobs seed (real
+# (company,ats,job_id) keys + full state incl closed); fall back to the static
+# topstartups flat snapshot, then an explicit SEED_JSON env override.
 if db.count_jobs() == 0:
     here = os.path.dirname(__file__)
-    candidates = [
-        os.path.abspath(os.path.join(here, "..", "..", "..", "data",
-                                     "topstartups_jobs_flat.json")),
-        os.environ.get("SEED_JSON", ""),
-    ]
-    for p in candidates:
-        if p and os.path.exists(p):
-            try:
-                n = _seed_from_flat(p)
-                print(f"[seed] loaded {n} jobs from {p}")
-            except Exception as e:  # pragma: no cover
-                print(f"[seed] failed {p}: {e}")
-            break
+    try:
+        from . import seed as _seed
+        n = _seed.import_seed(db, settings.abs_seed_file())
+        if n:
+            print(f"[seed] imported {n} jobs from {settings.abs_seed_file()}")
+    except Exception as e:  # pragma: no cover
+        print(f"[seed] import failed: {e}")
+        n = 0
+    if db.count_jobs() == 0:
+        candidates = [
+            os.path.abspath(os.path.join(here, "..", "..", "..", "data",
+                                         "topstartups_jobs_flat.json")),
+            os.environ.get("SEED_JSON", ""),
+        ]
+        for p in candidates:
+            if p and os.path.exists(p):
+                try:
+                    m = _seed_from_flat(p)
+                    print(f"[seed] loaded {m} jobs from {p}")
+                except Exception as e:  # pragma: no cover
+                    print(f"[seed] failed {p}: {e}")
+                break
 
 
 @asynccontextmanager
@@ -169,13 +180,17 @@ def health():
 @app.get("/api/jobs")
 def jobs(q: str = "", ats: str = "", matched: bool = False,
          applied: str = "", recent: str = "", sort: str = "recent",
+         closed: str = "exclude",
          limit: int = Query(200, ge=1, le=1000), offset: int = Query(0, ge=0)):
     recent_seconds = _parse_recent(recent)
     applied_only = _parse_tri(applied)
+    closed_mode = (closed or "exclude").strip().lower()
+    if closed_mode not in ("exclude", "only", "any"):
+        closed_mode = "exclude"
     rows, total = db.list_jobs(
         q=q or None, ats=ats or None, matched_only=matched,
         applied_only=applied_only, recent_seconds=recent_seconds,
-        sort=sort, limit=limit, offset=offset,
+        sort=sort, limit=limit, offset=offset, closed=closed_mode,
     )
     return {"items": rows, "total": total, "count": len(rows), "limit": limit, "offset": offset}
 

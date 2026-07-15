@@ -24,6 +24,15 @@ from .db import DB
 from .settings import AppSettings
 from .tasks import TaskManager
 
+# ATS whose enumeration is known to be complete (fully paginated). The stale-job
+# reaper only runs for these — capped/scrape enumerators (workable 10/page, workday
+# 500/board, breezyhr/onlyfy DOM scrape, mailto href scrape) can return partial
+# lists and would false-close jobs that are actually still on the board.
+REAPER_ATS = {
+    "greenhouse", "lever", "ashby", "smartrecruiters",
+    "personio", "rippling", "teamtailor",
+}
+
 
 def _rotate_slice(items: list[dict], cursor: int, size: int) -> list[dict]:
     """Round-robin window wrapping end→start."""
@@ -47,7 +56,8 @@ def run_tick(settings: AppSettings, task_manager: TaskManager, cfg: Config | Non
     if not comps:
         task_manager.begin("discovery", companies_total=0)
         task_manager.finish("success", "no automatable companies found")
-        return {"jobs_new": 0, "jobs_seen": 0, "jobs_matched": 0, "companies_done": 0}
+        return {"jobs_new": 0, "jobs_seen": 0, "jobs_matched": 0,
+                "jobs_closed": 0, "companies_done": 0}
 
     cursor = db.get_cursor()
     slice_ = _rotate_slice(comps, cursor, settings.rotate_size)
@@ -56,7 +66,7 @@ def run_tick(settings: AppSettings, task_manager: TaskManager, cfg: Config | Non
 
     run_id = task_manager.begin("discovery", companies_total=len(slice_))
 
-    jobs_seen = jobs_new = jobs_matched = companies_done = 0
+    jobs_seen = jobs_new = jobs_matched = companies_done = jobs_closed = 0
     new_jobs: list[dict] = []  # newly-discovered job rows, persisted to app/state.json
     # One ledger connection for the whole tick (applied-status lookups).
     try:
@@ -107,6 +117,20 @@ def run_tick(settings: AppSettings, task_manager: TaskManager, cfg: Config | Non
                         "first_seen": time.time(),
                     })
 
+            # stale-job reaper: for fully-paginated ATS, mark previously-seen jobs
+            # that are absent from this fresh enumeration. Applied jobs are exempt.
+            if ats in REAPER_ATS:
+                try:
+                    reaped = db.reap_company(
+                        company=company, ats=ats,
+                        fresh_job_ids={j.job_id for j in jobs},
+                        grace=settings.stale_grace_misses,
+                    )
+                    jobs_closed += reaped["closed_now"]
+                except Exception:
+                    # reaper failure must never kill the tick
+                    pass
+
             companies_done += 1
             if (i + 1) % 5 == 0 or i == len(slice_) - 1:
                 task_manager.progress(
@@ -115,6 +139,7 @@ def run_tick(settings: AppSettings, task_manager: TaskManager, cfg: Config | Non
                     jobs_seen=jobs_seen,
                     jobs_new=jobs_new,
                     jobs_matched=jobs_matched,
+                    jobs_closed=jobs_closed,
                     progress=f"enumerated {companies_done}/{len(slice_)} companies",
                 )
                 db.update_run(run_id, companies_total=len(slice_),
@@ -140,6 +165,7 @@ def run_tick(settings: AppSettings, task_manager: TaskManager, cfg: Config | Non
                 "jobs_seen": jobs_seen,
                 "jobs_new": jobs_new,
                 "jobs_matched": jobs_matched,
+                "jobs_closed": jobs_closed,
             }
             persist.record_scan(settings.abs_state_file(), run_summary, new_jobs)
         except Exception:
@@ -147,14 +173,14 @@ def run_tick(settings: AppSettings, task_manager: TaskManager, cfg: Config | Non
         task_manager.finish("success")
         return {
             "jobs_new": jobs_new, "jobs_seen": jobs_seen,
-            "jobs_matched": jobs_matched, "companies_done": companies_done,
-            "companies_total": len(slice_),
+            "jobs_matched": jobs_matched, "jobs_closed": jobs_closed,
+            "companies_done": companies_done, "companies_total": len(slice_),
         }
     except Exception as e:
         task_manager.finish("failed", f"{e}\n{traceback.format_exc()[-400:]}")
         return {"jobs_new": jobs_new, "jobs_seen": jobs_seen,
-                "jobs_matched": jobs_matched, "companies_done": companies_done,
-                "error": str(e)}
+                "jobs_matched": jobs_matched, "jobs_closed": jobs_closed,
+                "companies_done": companies_done, "error": str(e)}
     finally:
         if ledger_conn is not None:
             try:

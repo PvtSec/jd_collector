@@ -37,6 +37,7 @@ export const api = {
     if (f.applied) q.set('applied', f.applied)
     if (f.recent) q.set('recent', f.recent)
     if (f.sort) q.set('sort', f.sort)
+    if (f.closed && f.closed !== 'exclude') q.set('closed', f.closed)
     return getJSON<JobsResponse>(`/api/jobs?${q.toString()}`)
   },
   taskCurrent: () => getJSON<CurrentTask>('/api/tasks/current'),

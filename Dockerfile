@@ -14,12 +14,11 @@ ENV PYTHONUNBUFFERED=1 \
     PIP_NO_CACHE_DIR=1 \
     PORT=8000
 
-# Backend + engine deps (incl. playwright for the breezyhr/onlyfy/yc scrapers)
+# Backend + engine deps (all job boards enumerate via plain requests; no browser)
 COPY app/backend/requirements.txt /tmp/requirements.backend.txt
 COPY requirements.txt /tmp/requirements.txt
 RUN pip install --upgrade pip \
-    && pip install -r /tmp/requirements.backend.txt \
-    && python -m playwright install --with-deps chromium
+    && pip install -r /tmp/requirements.backend.txt
 
 # Application code + dataset
 COPY engine/   ./engine/

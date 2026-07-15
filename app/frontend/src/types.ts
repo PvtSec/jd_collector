@@ -15,6 +15,8 @@ export interface JobRow {
   last_check: number
   matched: number  // 0 | 1
   applied: number  // 0 | 1
+  closed: number   // 0 | 1 (absent from board for >= grace misses)
+  closed_at: number | null
 }
 
 export interface JobsResponse {
@@ -29,6 +31,7 @@ export interface Stats {
   total: number
   matched: number
   applied: number
+  closed: number
   last_24h: number
   matched_24h: number
   by_ats: Record<string, number>
@@ -85,4 +88,5 @@ export interface Filters {
   applied: '' | 'true' | 'false'
   recent: string  // '' | '24h' | '7d' | '30d' | 'all'
   sort: 'recent' | 'company' | 'matched'
+  closed: 'exclude' | 'only' | 'any'  // open-only (default) | closed | all
 }

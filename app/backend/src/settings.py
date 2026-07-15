@@ -33,6 +33,18 @@ class AppSettings(BaseSettings):
     # + consolidate on this cadence so the company list grows without the manual
     # Rescan button. Default 24h (polite to topstartups.io).
     company_discovery_minutes: int = Field(default=1440, ge=60, description="Minutes between automatic new-company discovery sweeps")
+    # Stale-job reaper: consecutive successful enumerations of a company in which a
+    # previously-seen job is absent before it is marked closed. Only the fully-
+    # paginated ATS are reaped (see discovery.REAPER_ATS). Env: JOBAUTO_STALE_GRACE_MISSES.
+    stale_grace_misses: int = Field(default=2, ge=1, description="Consecutive absent enumerations before a job is marked closed")
+
+    # Discovered-jobs seed: the dashboard dumps its discovered jobs to this JSON
+    # file (on the volume) and re-imports it on an empty jobs DB so a fresh start
+    # isn't empty. On a fresh named volume Docker initializes it from the baked
+    # image copy; the export job refreshes the volume copy on this cadence.
+    seed_file: str = Field(default="data/jobs_seed.json", description="Discovered-jobs seed file (volume; baked into the image for fresh volumes)")
+    seed_export_minutes: int = Field(default=60, ge=5, description="Minutes between seed exports")
+    seed_max_rows: int = Field(default=0, ge=0, description="Max jobs kept in the seed (most-recently-seen); 0 = no cap, export every row")
 
     # Server
     # Render sets the $PORT env var (default 10000 on Render). When running
@@ -50,7 +62,7 @@ class AppSettings(BaseSettings):
         default_factory=lambda: [
             "{python} scripts/discover_companies.py",
             "{python} scripts/discover_topstartups.py",
-            "{python} scripts/discover_yc.py",         # YC Startup Directory (Playwright SPA scrape + slug probe)
+            "{python} scripts/discover_yc.py",         # YC Startup Directory (public JSON API + slug probe)
             "{python} scripts/discover_himalayas.py",   # Himalayas public API (role-targeted + full-feed sweep)
             "{python} scripts/discover_builtin.py",     # BuiltIn.com company listing (HTML scrape + slug probe)
             "{python} scripts/discover_chsr.py",        # edoardottt/companies-hiring-security-remote README (cached + slug probe)
@@ -76,6 +88,10 @@ class AppSettings(BaseSettings):
 
     def abs_state_file(self) -> str:
         p = Path(self.state_file)
+        return str(p if p.is_absolute() else REPO_ROOT / p)
+
+    def abs_seed_file(self) -> str:
+        p = Path(self.seed_file)
         return str(p if p.is_absolute() else REPO_ROOT / p)
 
 

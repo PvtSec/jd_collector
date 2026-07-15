@@ -11,6 +11,10 @@ Schema:
     last_check  epoch of the last tick that enumerated its company
     matched     1 if engine.match.matches(j, target) accepted it, else 0
     applied     1 if present in the engine ledger (applied.sqlite)
+    closed      1 if absent from its board for >= stale_grace_misses consecutive
+                enumerations (reaper); applied jobs are never auto-closed
+    miss_count  consecutive successful enumerations of its company in which this
+                job was absent (reset to 0 by upsert_job when it reappears)
   task_runs   per-task audit rows (discovery / rescan_companies)
   daily_stats per-day rollup the status bar surfaces
   discovery_cursor  round-robin offset into the automatable company list
@@ -40,12 +44,16 @@ CREATE TABLE IF NOT EXISTS jobs (
   matched INTEGER NOT NULL,
   applied INTEGER NOT NULL DEFAULT 0,
   hidden INTEGER NOT NULL DEFAULT 0,
+  closed INTEGER NOT NULL DEFAULT 0,
+  closed_at REAL,
+  miss_count INTEGER NOT NULL DEFAULT 0,
   UNIQUE(company, ats, job_id)
 );
 CREATE INDEX IF NOT EXISTS idx_jobs_first_seen ON jobs(first_seen);
 CREATE INDEX IF NOT EXISTS idx_jobs_matched ON jobs(matched, first_seen);
 CREATE INDEX IF NOT EXISTS idx_jobs_applied ON jobs(applied);
 CREATE INDEX IF NOT EXISTS idx_jobs_company ON jobs(company);
+CREATE INDEX IF NOT EXISTS idx_jobs_company_ats ON jobs(company, ats);
 
 CREATE TABLE IF NOT EXISTS task_runs (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -92,10 +100,21 @@ class DB:
         self._conn.row_factory = sqlite3.Row
         with self._lock:
             self._conn.executescript(SCHEMA)
-            # migrate pre-existing DBs: add the hidden column if absent
+            # migrate pre-existing DBs: add columns if absent
             cols = {r[1] for r in self._conn.execute("PRAGMA table_info(jobs)")}
             if "hidden" not in cols:
                 self._conn.execute("ALTER TABLE jobs ADD COLUMN hidden INTEGER NOT NULL DEFAULT 0")
+            if "closed" not in cols:
+                self._conn.execute("ALTER TABLE jobs ADD COLUMN closed INTEGER NOT NULL DEFAULT 0")
+            if "closed_at" not in cols:
+                self._conn.execute("ALTER TABLE jobs ADD COLUMN closed_at REAL")
+            if "miss_count" not in cols:
+                self._conn.execute("ALTER TABLE jobs ADD COLUMN miss_count INTEGER NOT NULL DEFAULT 0")
+            # index on the (possibly just-added) closed column — must run after the
+            # ALTER guards so pre-existing DBs have the column before indexing it.
+            self._conn.execute(
+                "CREATE INDEX IF NOT EXISTS idx_jobs_closed ON jobs(closed)"
+            )
             # seed the singleton cursor row
             self._conn.execute(
                 "INSERT OR IGNORE INTO discovery_cursor(id, company_idx) VALUES (1, 0)"
@@ -129,7 +148,8 @@ class DB:
             if existed:
                 self._conn.execute(
                     """UPDATE jobs SET title=?, location=?, work_type=?, url=?, posted_at=?,
-                       last_seen=?, last_check=?, matched=?, applied=? WHERE id=(
+                       last_seen=?, last_check=?, matched=?, applied=?,
+                       miss_count=0, closed=0, closed_at=NULL WHERE id=(
                          SELECT id FROM jobs WHERE company=? AND ats=? AND job_id=?)""",
                     (title, location, work_type, url, posted_at, now, now,
                      matched_i, applied_i, company, ats, job_id),
@@ -207,6 +227,43 @@ class DB:
             self._conn.commit()
             return cur.rowcount
 
+    def reap_company(self, *, company: str, ats: str,
+                     fresh_job_ids: set[str], grace: int) -> dict:
+        """Stale-job reaper for one ``(company, ats)`` just enumerated successfully.
+
+        Bumps ``miss_count`` for that company's jobs whose ``job_id`` is NOT in the
+        fresh enumeration, and marks ``closed=1`` once ``miss_count >= grace``.
+        ``applied=1`` jobs are never closed (preserve applied history). A reappearing
+        job is auto-reopened by ``upsert_job`` (which resets miss_count/closed).
+
+        An empty ``fresh_job_ids`` is treated as a transient/garbled response and is
+        a no-op — we never close a whole company on one empty board reply.
+
+        Returns ``{"absent": <rows bumped>, "closed_now": <rows newly closed>}``.
+        """
+        if not fresh_job_ids:
+            return {"absent": 0, "closed_now": 0}
+        now = time.time()
+        placeholders = ",".join("?" for _ in fresh_job_ids)
+        fresh = list(fresh_job_ids)
+        with self._lock:
+            cur = self._conn.execute(
+                f"UPDATE jobs SET miss_count = miss_count + 1 "
+                f"WHERE company=? AND ats=? AND applied=0 "
+                f"AND job_id NOT IN ({placeholders})",
+                [company, ats, *fresh],
+            )
+            absent = cur.rowcount
+            cur = self._conn.execute(
+                "UPDATE jobs SET closed=1, closed_at=? "
+                "WHERE company=? AND ats=? AND applied=0 AND closed=0 "
+                "AND miss_count >= ?",
+                (now, company, ats, grace),
+            )
+            closed_now = cur.rowcount
+            self._conn.commit()
+        return {"absent": absent, "closed_now": closed_now}
+
     def list_jobs(
         self,
         *,
@@ -219,11 +276,17 @@ class DB:
         limit: int = 200,
         offset: int = 0,
         include_hidden: bool = False,
+        closed: str = "exclude",
     ) -> tuple[list[dict], int]:
         sql = "SELECT * FROM jobs WHERE 1=1"
         args: list = []
         if not include_hidden:
             sql += " AND hidden=0"
+        # closed: "exclude" (default, open only) | "only" (closed) | "any" (no filter)
+        if closed == "only":
+            sql += " AND closed=1"
+        elif closed != "any":
+            sql += " AND closed=0"
         if q:
             sql += " AND (LOWER(company) LIKE ? OR LOWER(title) LIKE ? OR LOWER(location) LIKE ?)"
             p = f"%{q.lower()}%"
@@ -260,25 +323,32 @@ class DB:
     def stats(self) -> dict:
         now = time.time()
         with self._lock:
-            total = self._conn.execute("SELECT COUNT(*) FROM jobs").fetchone()[0]
-            matched = self._conn.execute("SELECT COUNT(*) FROM jobs WHERE matched=1").fetchone()[0]
-            applied = self._conn.execute("SELECT COUNT(*) FROM jobs WHERE applied=1").fetchone()[0]
+            total = self._conn.execute(
+                "SELECT COUNT(*) FROM jobs WHERE closed=0").fetchone()[0]
+            matched = self._conn.execute(
+                "SELECT COUNT(*) FROM jobs WHERE matched=1 AND closed=0").fetchone()[0]
+            applied = self._conn.execute(
+                "SELECT COUNT(*) FROM jobs WHERE applied=1 AND closed=0").fetchone()[0]
+            closed = self._conn.execute(
+                "SELECT COUNT(*) FROM jobs WHERE closed=1").fetchone()[0]
             last24 = self._conn.execute(
-                "SELECT COUNT(*) FROM jobs WHERE first_seen >= ?", (now - 86400,)
+                "SELECT COUNT(*) FROM jobs WHERE first_seen >= ? AND closed=0", (now - 86400,)
             ).fetchone()[0]
             matched24 = self._conn.execute(
-                "SELECT COUNT(*) FROM jobs WHERE matched=1 AND first_seen >= ?", (now - 86400,)
+                "SELECT COUNT(*) FROM jobs WHERE matched=1 AND first_seen >= ? AND closed=0",
+                (now - 86400,)
             ).fetchone()[0]
             by_ats = {
                 r[0]: r[1]
                 for r in self._conn.execute(
-                    "SELECT ats, COUNT(*) FROM jobs GROUP BY ats ORDER BY COUNT(*) DESC"
+                    "SELECT ats, COUNT(*) FROM jobs WHERE closed=0 GROUP BY ats ORDER BY COUNT(*) DESC"
                 )
             }
         return {
             "total": total,
             "matched": matched,
             "applied": applied,
+            "closed": closed,
             "last_24h": last24,
             "matched_24h": matched24,
             "by_ats": by_ats,

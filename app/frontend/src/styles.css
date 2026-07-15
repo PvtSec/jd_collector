@@ -84,9 +84,13 @@ td.found { color: var(--muted); font-size: 12px; white-space: nowrap; }
 .ats { font-size: 11px; padding: 2px 6px; border-radius: 4px; background: #21262d; color: var(--text); }
 .match-tag { font-size: 10px; padding: 1px 5px; border-radius: 4px; margin-left: 4px;
   background: #23863633; color: var(--green); }
+.closed-tag { font-size: 10px; padding: 1px 5px; border-radius: 4px; margin-left: 4px;
+  background: #f8514933; color: var(--red, #f85149); }
 tr.other td { opacity: .55; }
 tr.applied td { opacity: .7; }
 tr.matched td { }
+tr.closed td { opacity: .5; }
+tr.closed .apply-btn { opacity: .6; }
 .actions { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
 .apply-btn { display: inline-block; padding: 4px 10px; border-radius: 6px;
   background: #238636; color: #fff; text-decoration: none; font-size: 12px; font-weight: 600; white-space: nowrap; }

@@ -52,7 +52,7 @@ app/
 Two terminals from the repo root:
 
 ```bash
-# 1. backend (uses the project venv so engine.* + playwright import cleanly)
+# 1. backend (uses the project venv so engine.* imports cleanly)
 .venv/bin/pip install -r app/backend/requirements.txt
 .venv/bin/python -m uvicorn app.backend.src.main:app --host 127.0.0.1 --port 8000
 

@@ -127,6 +127,7 @@ def record_scan(state_path: str, run_summary: dict, new_jobs: list[dict]) -> Non
             "jobs_seen": run_summary.get("jobs_seen", 0),
             "jobs_new": run_summary.get("jobs_new", 0),
             "jobs_matched": run_summary.get("jobs_matched", 0),
+            "jobs_closed": run_summary.get("jobs_closed", 0),
             "new_jobs": capped,
             "new_jobs_total": len(new_jobs),  # true count (capped list may be shorter)
         }

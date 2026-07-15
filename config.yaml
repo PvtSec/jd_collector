@@ -82,5 +82,6 @@ http:
 app:
   tick_minutes: 5        # how often the discovery task fires
   rotate_size: 60        # companies enumerated per tick (all ~550 covered ~hourly)
+  stale_grace_misses: 2  # consecutive absent enumerations before a job is marked closed
   port: 8000
   # jobs_db, engine_config, frontend_dist default sensibly; override via env if needed.

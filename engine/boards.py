@@ -12,9 +12,11 @@ Status:
 """
 from __future__ import annotations
 import json
+import re
 import time
 from dataclasses import dataclass, asdict
 from datetime import datetime, timezone
+from html import unescape
 from typing import Iterator
 import requests
 
@@ -486,170 +488,182 @@ def list_teamtailor(company: str, token: str, *, ua: str, timeout: int = 20, ret
         )
 
 
+# ---------------- HTML-scraping helpers (BreezyHR / Onlyfy) ----------------
+# Both boards are SPAs but server-render their full job list into the initial
+# HTML (for SEO), so a plain ``_get`` + regex is enough — no headless browser.
+# A headless browser is in fact *less* reliable here: BreezyHR serves
+# bot-challenge blanks to Chromium on repeated hits (see list_mailto note), and
+# Onlyfy's classless Tailwind markup defeated the old DOM selectors' location
+# lookup (it always came back empty). requests sidesteps both problems.
+
+def _clean(s: str) -> str:
+    """Strip tags, unescape entities, collapse whitespace."""
+    if not s:
+        return ""
+    s = re.sub(r"<[^>]+>", "", s)
+    s = unescape(s)
+    return re.sub(r"\s+", " ", s).strip()
+
+
+def _breezy_worktype(raw: str) -> str:
+    """Normalize a BreezyHR position-type label to a clean lowercase string.
+
+    BreezyHR ships untranslated polyglot placeholders in the SSR HTML, e.g.
+    ``%LABEL_POSITION_TYPE_FULL_TIME%`` (a client-side lib translates them).
+    Reduce the placeholder to ``full time``; pass through any non-placeholder
+    label (localized strings) lowercased; ``""`` for empty.
+    """
+    if not raw:
+        return ""
+    m = re.match(r"%LABEL_POSITION_TYPE_([A-Z_]+)%", raw.strip())
+    if m:
+        return m.group(1).replace("_", " ").lower()
+    return raw.strip().lower()
+
+
+# BreezyHR polyglot placeholders that surface in the location span (the
+# client-side translator never runs on the SSR HTML, so they leak through).
+_BREEZY_LOCATION_LABELS = {
+    "%LABEL_MULTIPLE_LOCATIONS%": "Multiple locations",
+}
+
+
+def _breezy_location(raw: str) -> str:
+    """Clean a BreezyHR location: map known polyglot placeholders to text,
+    pass through real (possibly localized) location strings unchanged."""
+    if not raw:
+        return ""
+    return _BREEZY_LOCATION_LABELS.get(raw.strip(), raw.strip())
+
+
+def _onlyfy_posted(raw: str) -> str:
+    """Onlyfy (DACH product) renders dates as ``dd.mm.yyyy``; normalize to
+    ISO ``yyyy-mm-dd`` so parse_posted/ sorts work. Other formats pass through."""
+    if not raw:
+        return ""
+    m = re.match(r"(\d{2})\.(\d{2})\.(\d{4})$", raw.strip())
+    if m:
+        return f"{m.group(3)}-{m.group(2)}-{m.group(1)}"
+    return raw
+
+
 # ---------------- BreezyHR ----------------
-# No public API without auth. Scrape the careers page HTML for embedded JSON.
-# See research/ats_schemas/breezyhr.md for the (browser-required) submit flow.
+# No public API without auth, but the careers page server-renders the full job
+# list into the initial HTML. See research/ats_schemas/breezyhr.md for the
+# (browser-required) submit flow.
 
 BREEZYHR_CAREERS = "https://{company}.breezy.hr/"
 
 
 def list_breezyhr(company: str, token: str, *, ua: str, timeout: int = 20, retries: int = 2) -> Iterator[Job]:
-    """Enumerate BreezyHR jobs via Playwright DOM scraping.
+    """Enumerate BreezyHR jobs from the server-rendered careers HTML.
 
-    BreezyHR career pages are AngularJS SPAs with no embedded JSON in the initial
-    HTML. We use a headless browser to load the page, wait for job cards to render,
-    and extract job data from the DOM.
+    Each position renders as ``<a href="/p/{hex}-{slug}"><h2>{title}</h2>
+    <ul class="meta"><li class="location">…<span>{loc}</span></li>
+    <li class="type">…<span>{type}</span></li></ul>…</a>``. Two anchors share the
+    same href per card (details + actions); only the details one has the ``<h2>``,
+    so we dedup on the stable hex id and skip the actions anchor.
     """
-    from playwright.sync_api import sync_playwright
     url = BREEZYHR_CAREERS.format(company=token)
-    with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
-        page = browser.new_page(user_agent=ua, viewport={"width": 1280, "height": 900})
-        try:
-            page.goto(url, wait_until="domcontentloaded", timeout=30000)
-            # Wait for job listings to render (AngularJS hydration)
-            page.wait_for_timeout(5000)
-            # Try multiple selectors for job cards/links
-            jobs = page.evaluate("""() => {
-              const results = [];
-              // BreezyHR renders job cards with various class patterns
-              const selectors = [
-                'a[href*="/p/"]', '.position a', '.job-card a', '.job-listing a',
-                '.opening a', '.position-title a', '[data-position] a',
-                'a.position', 'a.job', '.job a', 'tr[data-position] a',
-                '.bzyJobCard a', '.bzyPosition a', '.bzy-opening a'
-              ];
-              const seen = new Set();
-              for (const sel of selectors) {
-                document.querySelectorAll(sel).forEach(el => {
-                  const href = el.getAttribute('href') || '';
-                  if (!href.includes('/p/') && !href.includes('/jobs/')) return;
-                  const text = (el.innerText || el.textContent || '').trim();
-                  if (!text || seen.has(href)) return;
-                  seen.add(href);
-                  // Try to find parent card for location/department
-                  const card = el.closest('tr, .position, .job-card, .job-listing, .opening, [data-position]');
-                  let location = '', department = '';
-                  if (card) {
-                    const locEl = card.querySelector('.location, .position-location, [class*="location"]');
-                    if (locEl) location = (locEl.innerText || '').trim();
-                    const deptEl = card.querySelector('.department, .position-department, [class*="department"]');
-                    if (deptEl) department = (deptEl.innerText || '').trim();
-                  }
-                  results.push({title: text.split('\\n')[0].trim(), url: href, location, department});
-                });
-                if (results.length > 0) break;
-              }
-              return results;
-            }""")
-            if not jobs:
-                raise BoardError(f"breezyhr board '{token}': no job listings found on page")
-            for j in jobs:
-                jurl = j.get("url", "")
-                # Extract position ID from URL: /p/{id}/apply or /p/{id}
-                pid = ""
-                import re as _re
-                m = _re.search(r'/p/([A-Za-z0-9_-]+)', jurl)
-                if m:
-                    pid = m.group(1)
-                if not pid:
-                    continue
-                yield Job(
-                    ats="breezyhr",
-                    company=company,
-                    job_id=pid,
-                    title=j.get("title", ""),
-                    location=j.get("location", ""),
-                    url=jurl if jurl.startswith("http") else f"https://{token}.breezy.hr{jurl}",
-                    department=j.get("department", ""),
-                    work_type="",
-                    posted_at="",
-                    raw=j,
-                )
-        finally:
-            browser.close()
+    html_text = _get(url, timeout=timeout, ua=ua, retries=retries).text
+    if "/p/" not in html_text:
+        raise BoardError(f"breezyhr board '{token}': no job links in HTML")
+    seen: set[str] = set()
+    for m in re.finditer(
+        r'<a\s+href="(/p/(?P<pid>[A-Za-z0-9_-]+))"[^>]*>(?P<body>.*?)</a>',
+        html_text, re.S,
+    ):
+        body = m.group("body")
+        if "<h2" not in body:
+            continue  # the per-card "actions" anchor (Apply button only)
+        slug_id = m.group("pid")
+        # stable job id = the hex prefix before the first '-'
+        hexm = re.match(r"[0-9a-f]+", slug_id)
+        job_id = hexm.group(0) if hexm else slug_id
+        if job_id in seen:
+            continue
+        seen.add(job_id)
+        href = m.group(1)
+        tm = re.search(r"<h2[^>]*>(.*?)</h2>", body, re.S)
+        title = _clean(tm.group(1)) if tm else ""
+        lm = re.search(r'class="location"[^>]*>.*?<span[^>]*>(.*?)</span>', body, re.S)
+        location = _breezy_location(_clean(lm.group(1))) if lm else ""
+        wm = re.search(r'class="type"[^>]*>.*?<span[^>]*>(.*?)</span>', body, re.S)
+        work_type = _breezy_worktype(_clean(wm.group(1))) if wm else ""
+        yield Job(
+            ats="breezyhr",
+            company=company,
+            job_id=job_id,
+            title=title,
+            location=location,
+            url=f"https://{token}.breezy.hr{href}",
+            department="",
+            work_type=work_type,
+            posted_at="",
+            raw={"href": href, "slug_id": slug_id},
+        )
 
 
 # ---------------- Onlyfy (formerly Prescreen) ----------------
-# No public API without auth. Scrape the careers page HTML for embedded JSON.
-# See research/ats_schemas/onlyfy.md for the (browser-required) submit flow.
+# No public API without auth, but the careers page server-renders the full job
+# list into the initial HTML. See research/ats_schemas/onlyfy.md for the
+# (browser-required) submit flow.
 
 ONLYFY_JOBS = "https://{company}.onlyfy.jobs/en"
 
 
 def list_onlyfy(company: str, token: str, *, ua: str, timeout: int = 20, retries: int = 2) -> Iterator[Job]:
-    """Enumerate Onlyfy jobs via Playwright DOM scraping.
+    """Enumerate Onlyfy jobs from the server-rendered careers HTML.
 
-    Onlyfy career pages are Next.js SPAs with no embedded JSON in the initial
-    HTML. We use a headless browser to load the page, wait for job cards to render,
-    and extract job data from the DOM.
+    Each card is ``<a data-testid="job-card" aria-label="{title}"
+    href="/{locale}/job/{id}">`` containing ``<h3 data-testid="job-title">`` and
+    a ``<div data-testid="job-more-info">`` with a pipe-separated string
+    ``{location} | {work_type} | {posted_at} | {department}``.
     """
-    from playwright.sync_api import sync_playwright
     url = ONLYFY_JOBS.format(company=token)
-    with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
-        page = browser.new_page(user_agent=ua, viewport={"width": 1280, "height": 900})
-        try:
-            page.goto(url, wait_until="domcontentloaded", timeout=30000)
-            # Wait for Next.js hydration and job cards to render
-            page.wait_for_timeout(5000)
-            jobs = page.evaluate("""() => {
-              const results = [];
-              const seen = new Set();
-              // Onlyfy renders job cards with links to /en/job/{id}
-              const selectors = [
-                'a[href*="/job/"]', '[data-testid="job-card"] a', '.job-card a',
-                '.job-listing a', '.job-item a', '[class*="JobCard"] a',
-                'a[class*="job"]', 'a[class*="Job"]'
-              ];
-              for (const sel of selectors) {
-                document.querySelectorAll(sel).forEach(el => {
-                  const href = el.getAttribute('href') || '';
-                  if (!href.includes('/job/')) return;
-                  if (seen.has(href)) return;
-                  seen.add(href);
-                  const title = (el.querySelector('h2,h3,h4,[class*="title"],[class*="Title"]') || el).innerText.trim();
-                  // Try to find parent card for location/department
-                  const card = el.closest('[class*="card"], [class*="Card"], [class*="item"], [class*="Item"], li');
-                  let location = '', department = '';
-                  if (card) {
-                    const locEl = card.querySelector('[class*="location"], [class*="Location"]');
-                    if (locEl) location = locEl.innerText.trim();
-                    const deptEl = card.querySelector('[class*="department"], [class*="Department"], [class*="category"]');
-                    if (deptEl) department = deptEl.innerText.trim();
-                  }
-                  results.push({title: title.split('\\n')[0].trim(), url: href, location, department});
-                });
-                if (results.length > 0) break;
-              }
-              return results;
-            }""")
-            if not jobs:
-                raise BoardError(f"onlyfy board '{token}': no job listings found on page")
-            for j in jobs:
-                jurl = j.get("url", "")
-                # Extract job ID from URL: /en/job/{33-char-id}
-                pid = ""
-                import re as _re
-                m = _re.search(r'/job/([A-Za-z0-9]+)', jurl)
-                if m:
-                    pid = m.group(1)
-                if not pid:
-                    continue
-                yield Job(
-                    ats="onlyfy",
-                    company=company,
-                    job_id=pid,
-                    title=j.get("title", ""),
-                    location=j.get("location", ""),
-                    url=jurl if jurl.startswith("http") else f"https://{token}.onlyfy.jobs{jurl}",
-                    department=j.get("department", ""),
-                    work_type="",
-                    posted_at="",
-                    raw=j,
-                )
-        finally:
-            browser.close()
+    html_text = _get(url, timeout=timeout, ua=ua, retries=retries).text
+    if "/job/" not in html_text:
+        raise BoardError(f"onlyfy board '{token}': no job links in HTML")
+    seen: set[str] = set()
+    for m in re.finditer(
+        r'<a\b(?P<attrs>[^>]*data-testid="job-card"[^>]*)>(?P<body>.*?)</a>',
+        html_text, re.S,
+    ):
+        attrs = m.group("attrs")
+        body = m.group("body")
+        hm = re.search(r'href="(?P<href>/[a-z]{2}/job/(?P<pid>[A-Za-z0-9]+))"', attrs)
+        if not hm:
+            continue
+        pid = hm.group("pid")
+        if pid in seen:
+            continue
+        seen.add(pid)
+        href = hm.group("href")
+        tm = re.search(r'data-testid="job-title"[^>]*>(.*?)</h3>', body, re.S)
+        title = _clean(tm.group(1)) if tm else ""
+        if not title:
+            am = re.search(r'aria-label="([^"]*)"', attrs)
+            title = unescape(am.group(1)) if am else ""
+        location = work_type = posted_at = department = ""
+        info = re.search(r'data-testid="job-more-info"[^>]*>(.*?)</div>', body, re.S)
+        if info:
+            parts = [_clean(p) for p in unescape(info.group(1)).split("|")]
+            location = parts[0] if len(parts) > 0 else ""
+            work_type = parts[1] if len(parts) > 1 else ""
+            posted_at = _onlyfy_posted(parts[2]) if len(parts) > 2 else ""
+            department = parts[3] if len(parts) > 3 else ""
+        yield Job(
+            ats="onlyfy",
+            company=company,
+            job_id=pid,
+            title=title,
+            location=location,
+            url=f"https://{token}.onlyfy.jobs{href}",
+            department=department,
+            work_type=work_type,
+            posted_at=posted_at,
+            raw={"href": href, "more_info": info.group(1) if info else ""},
+        )
 
 
 # ---------------- Mailto (email-apply) ----------------
@@ -721,9 +735,14 @@ def _mailto_hrefs_from_html(url: str, ua: str, timeout: int, retries: int) -> li
 
 
 def _mailto_hrefs_from_browser(url: str, ua: str) -> list[str]:
-    from playwright.sync_api import sync_playwright
+    # Optional Playwright fallback for sites that render mailto links
+    # client-side. Playwright is not a required dependency; if it is absent the
+    # import below raises ImportError, caught here, and we return [] — the
+    # primary requests path (_mailto_hrefs_from_html) handles the known mailto
+    # companies from static HTML.
     hrefs: list[str] = []
     try:
+        from playwright.sync_api import sync_playwright
         with sync_playwright() as p:
             browser = p.chromium.launch(headless=True)
             page = browser.new_page(user_agent=ua, viewport={"width": 1280, "height": 900})
