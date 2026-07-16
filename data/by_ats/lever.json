@@ -30,6 +30,16 @@
     ]
   },
   {
+    "company_name": "AccuRate",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/accurate",
+    "board_token": "accurate",
+    "domain_hint": "",
+    "source_platforms": [
+      "awesome-remote-companies"
+    ]
+  },
+  {
     "company_name": "Actian",
     "website": "",
     "career_page_url": "https://jobs.lever.co/actian",
@@ -70,6 +80,17 @@
     ]
   },
   {
+    "company_name": "Agile Defense",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/agile-defense/4d5254dd-8366-4983-9156-a7f989fea964/apply",
+    "board_token": "agile-defense",
+    "domain_hint": "",
+    "source_platforms": [
+      "himalayas",
+      "simplify-newgrad"
+    ]
+  },
+  {
     "company_name": "Agiloft",
     "website": "",
     "career_page_url": "https://jobs.lever.co/agiloft",
@@ -77,6 +98,16 @@
     "domain_hint": "",
     "source_platforms": [
       "seedprobe"
+    ]
+  },
+  {
+    "company_name": "AI Fund",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/AIFund/7a921322-2215-483d-a28b-8da7a815b6cf/apply",
+    "board_token": "AIFund",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-intern"
     ]
   },
   {
@@ -101,12 +132,13 @@
   },
   {
     "company_name": "Aircall",
-    "website": "",
+    "website": "https://aircall.io",
     "career_page_url": "https://jobs.lever.co/aircall",
     "board_token": "aircall",
     "domain_hint": "",
     "source_platforms": [
-      "bulk-discovered"
+      "bulk-discovered",
+      "neuronfeed"
     ]
   },
   {
@@ -116,7 +148,18 @@
     "board_token": "aledade",
     "domain_hint": "",
     "source_platforms": [
-      "himalayas"
+      "himalayas",
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "Alertus Technologies",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/alertus/fa66c3bc-1410-441b-ad01-73b2df83bbd7/apply",
+    "board_token": "alertus",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-intern"
     ]
   },
   {
@@ -210,6 +253,16 @@
     ]
   },
   {
+    "company_name": "Arc'teryx Equipment",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/arcteryx.com/b13f7612-34ac-4215-8097-a10367bbe9d9/apply",
+    "board_token": "arcteryx",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
     "company_name": "Arcadia",
     "website": "",
     "career_page_url": "https://jobs.lever.co/arcadia",
@@ -256,6 +309,7 @@
     "board_token": "atlassian",
     "domain_hint": "",
     "source_platforms": [
+      "awesome-remote-companies",
       "bulk-discovered"
     ]
   },
@@ -391,16 +445,6 @@
     ]
   },
   {
-    "company_name": "Binance",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/binance",
-    "board_token": "binance",
-    "domain_hint": "",
-    "source_platforms": [
-      "seedprobe"
-    ]
-  },
-  {
     "company_name": "BioCatch",
     "website": "",
     "career_page_url": "https://jobs.lever.co/biocatch",
@@ -447,7 +491,8 @@
     "board_token": "blueorigin",
     "domain_hint": "",
     "source_platforms": [
-      "himalayas"
+      "himalayas",
+      "simplify-newgrad"
     ]
   },
   {
@@ -552,6 +597,16 @@
     ]
   },
   {
+    "company_name": "Capricor Therapeutics",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/capricor/f29602aa-a7bb-49ef-b998-f1b8efa99c44/apply",
+    "board_token": "capricor",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
     "company_name": "CaptivateIQ",
     "website": "http://www.captivateiq.com/",
     "career_page_url": "https://jobs.lever.co/captivateiq",
@@ -588,7 +643,18 @@
     "board_token": "catalist",
     "domain_hint": "",
     "source_platforms": [
-      "himalayas"
+      "himalayas",
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "Center for AI Safety",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/aisafety/e011814b-9a80-43d6-bb0c-cc153ea4bec4/apply",
+    "board_token": "aisafety",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-intern"
     ]
   },
   {
@@ -620,6 +686,26 @@
     "domain_hint": "",
     "source_platforms": [
       "bulk-discovered"
+    ]
+  },
+  {
+    "company_name": "CesiumAstro",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/CesiumAstro/efc711ca-9f46-434f-9275-b557a3e5b108/apply",
+    "board_token": "CesiumAstro",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "CGS Federal (Contact Government Services)",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/cgsfederal/af321f10-50ca-48d6-b807-51428a5aee7a/apply",
+    "board_token": "cgsfederal",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
     ]
   },
   {
@@ -670,6 +756,16 @@
     "domain_hint": "",
     "source_platforms": [
       "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Cloudforce",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/go-cloudforce/cf2f1855-3ad7-4d4a-a100-2e627f703af4",
+    "board_token": "go-cloudforce",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-intern"
     ]
   },
   {
@@ -783,6 +879,16 @@
     ]
   },
   {
+    "company_name": "Commerce Architects",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/commercearchitects/ec4bd3b5-3219-4524-805a-d9dff354c5ec/apply",
+    "board_token": "commercearchitects",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
     "company_name": "Commonwealth Fusion",
     "website": "http://www.cfs.energy/",
     "career_page_url": "https://jobs.lever.co/cfsenergy",
@@ -814,11 +920,12 @@
   },
   {
     "company_name": "Contentsquare",
-    "website": "",
+    "website": "https://www.contentsquare.com",
     "career_page_url": "https://jobs.lever.co/contentsquare",
     "board_token": "contentsquare",
     "domain_hint": "",
     "source_platforms": [
+      "neuronfeed",
       "seedprobe"
     ]
   },
@@ -893,6 +1000,17 @@
     ]
   },
   {
+    "company_name": "CrowdGen by Appen",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/appen/bea969fc-4198-4680-b527-dae3bf67527e/apply",
+    "board_token": "appen",
+    "domain_hint": "",
+    "source_platforms": [
+      "himalayas",
+      "simplify-newgrad"
+    ]
+  },
+  {
     "company_name": "Cyara",
     "website": "",
     "career_page_url": "https://jobs.lever.co/cyara",
@@ -913,6 +1031,16 @@
     ]
   },
   {
+    "company_name": "Datalab USA",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/datalabusa/1550eada-3bd9-4699-b3da-a165295d27a1/apply",
+    "board_token": "datalabusa",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
     "company_name": "Deliverect",
     "website": "",
     "career_page_url": "https://jobs.lever.co/deliverect",
@@ -920,6 +1048,16 @@
     "domain_hint": "",
     "source_platforms": [
       "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Democratic Governors Association",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/dga/cc41da12-5af0-41b6-b85e-301af4868bca/apply",
+    "board_token": "dga",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-intern"
     ]
   },
   {
@@ -970,6 +1108,16 @@
     "domain_hint": "",
     "source_platforms": [
       "himalayas"
+    ]
+  },
+  {
+    "company_name": "Diversified Automation",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/diversified-automation/3cea02c8-9a43-4542-96bb-df69a874f146/apply",
+    "board_token": "diversified-automation",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-intern"
     ]
   },
   {
@@ -1029,7 +1177,18 @@
     "board_token": "dutch",
     "domain_hint": "",
     "source_platforms": [
-      "himalayas"
+      "himalayas",
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "Eastern Research Group",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/erg/8fbd157f-aabd-44ba-926f-db233304378a/apply",
+    "board_token": "erg",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
     ]
   },
   {
@@ -1043,6 +1202,16 @@
     ]
   },
   {
+    "company_name": "Edera",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/edera",
+    "board_token": "edera",
+    "domain_hint": "",
+    "source_platforms": [
+      "startups_gallery"
+    ]
+  },
+  {
     "company_name": "Egen",
     "website": "",
     "career_page_url": "https://jobs.lever.co/egen",
@@ -1050,6 +1219,26 @@
     "domain_hint": "",
     "source_platforms": [
       "himalayas"
+    ]
+  },
+  {
+    "company_name": "Ekimetrics",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/ekimetrics/d8f0b664-ad5b-4111-a1dc-a8143934bf24/apply",
+    "board_token": "ekimetrics",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-intern"
+    ]
+  },
+  {
+    "company_name": "Eliyan",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/eliyan/4f033f5a-65ff-413f-b8b3-c24c5aeb7e6b/apply",
+    "board_token": "eliyan",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
     ]
   },
   {
@@ -1133,6 +1322,16 @@
     ]
   },
   {
+    "company_name": "EV Realty",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/evrealty-us/0274f48f-9b19-4bed-bf6a-5e02a2b1e865/apply",
+    "board_token": "evrealty-us",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-intern"
+    ]
+  },
+  {
     "company_name": "Everbridge",
     "website": "",
     "career_page_url": "https://jobs.lever.co/everbridge",
@@ -1140,6 +1339,16 @@
     "domain_hint": "",
     "source_platforms": [
       "himalayas"
+    ]
+  },
+  {
+    "company_name": "Exowatt",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/exowatt/2623555d-8b81-4f95-8bca-de9fafd2381c/apply",
+    "board_token": "exowatt",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-intern"
     ]
   },
   {
@@ -1183,6 +1392,16 @@
     ]
   },
   {
+    "company_name": "Field AI",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/field-ai/acfba278-5f04-4639-ae26-c85e607eebce/apply",
+    "board_token": "field-ai",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
     "company_name": "Filevine",
     "website": "",
     "career_page_url": "https://jobs.lever.co/filevine",
@@ -1199,7 +1418,8 @@
     "board_token": "finquery",
     "domain_hint": "",
     "source_platforms": [
-      "himalayas"
+      "himalayas",
+      "simplify-newgrad"
     ]
   },
   {
@@ -1240,6 +1460,16 @@
     "domain_hint": "",
     "source_platforms": [
       "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Fluxergy",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/fluxergy-2/c592763e-56ba-4d20-b751-3a4574470eec/apply",
+    "board_token": "fluxergy-2",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-intern"
     ]
   },
   {
@@ -1305,6 +1535,16 @@
     ]
   },
   {
+    "company_name": "GenBio AI",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/genbio/4bdb14ae-e19f-40c8-84db-1307dbdabe74/apply",
+    "board_token": "genbio",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-intern"
+    ]
+  },
+  {
     "company_name": "Getty Images",
     "website": "",
     "career_page_url": "https://jobs.lever.co/gettyimages",
@@ -1323,6 +1563,16 @@
     "source_platforms": [
       "indeed",
       "startupjobs"
+    ]
+  },
+  {
+    "company_name": "Global Lending Services",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/glsllc/c1191357-09ab-4707-855b-a99c5cb99ac1/apply",
+    "board_token": "glsllc",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
     ]
   },
   {
@@ -1366,6 +1616,16 @@
     ]
   },
   {
+    "company_name": "Great Gray",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/great-gray-group/1b6aeb9b-b5c0-4e74-a23c-d89560e38eb3/apply",
+    "board_token": "great-gray-group",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-intern"
+    ]
+  },
+  {
     "company_name": "Greenlight",
     "website": "",
     "career_page_url": "https://jobs.lever.co/greenlight",
@@ -1373,6 +1633,16 @@
     "domain_hint": "",
     "source_platforms": [
       "himalayas"
+    ]
+  },
+  {
+    "company_name": "Gynger",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/gynger/6355791d-444f-4a38-9363-3252f38ea3bf/apply",
+    "board_token": "gynger",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
     ]
   },
   {
@@ -1386,12 +1656,23 @@
     ]
   },
   {
+    "company_name": "Hatch IT",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/hatchit/a23a592b-edc0-498a-b90e-a521a706120e/apply",
+    "board_token": "hatchit",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
     "company_name": "Hermeus",
     "website": "http://www.hermeus.com/",
     "career_page_url": "https://jobs.lever.co/hermeus",
     "board_token": "hermeus",
     "domain_hint": "Travel / Space / Hardware",
     "source_platforms": [
+      "simplify-intern",
       "topstartups.io"
     ]
   },
@@ -1432,7 +1713,8 @@
     "board_token": "hhaexchange",
     "domain_hint": "",
     "source_platforms": [
-      "himalayas"
+      "himalayas",
+      "simplify-newgrad"
     ]
   },
   {
@@ -1463,6 +1745,16 @@
     "domain_hint": "",
     "source_platforms": [
       "bulk-discovered"
+    ]
+  },
+  {
+    "company_name": "HRL Laboratories",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/dodmg/7b15c72d-b697-4354-902d-b25183e9dc5a/apply",
+    "board_token": "dodmg",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
     ]
   },
   {
@@ -1536,6 +1828,16 @@
     ]
   },
   {
+    "company_name": "Institute of Foundation Models",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/ifm-us/5342e333-61b9-406d-bfea-61a687a94d1f/apply",
+    "board_token": "ifm-us",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-intern"
+    ]
+  },
+  {
     "company_name": "Instructure",
     "website": "",
     "career_page_url": "https://jobs.lever.co/instructure",
@@ -1543,6 +1845,16 @@
     "domain_hint": "",
     "source_platforms": [
       "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Intropic",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/intropic/a4a5fb03-4a97-4f18-a680-7dd5663955a2/apply",
+    "board_token": "intropic",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-intern"
     ]
   },
   {
@@ -1563,6 +1875,16 @@
     "domain_hint": "",
     "source_platforms": [
       "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Ivo",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/ivo/3ce9dc16-90fd-4b99-b4b9-dfd48ec1a50d",
+    "board_token": "ivo",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
     ]
   },
   {
@@ -1612,7 +1934,8 @@
     "board_token": "kabam",
     "domain_hint": "",
     "source_platforms": [
-      "seedprobe"
+      "seedprobe",
+      "simplify-intern"
     ]
   },
   {
@@ -1647,6 +1970,16 @@
     ]
   },
   {
+    "company_name": "Kepler Communications",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/kepler/afe34c63-ab6d-42a6-8571-dab052ee9c41/apply",
+    "board_token": "kepler",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-intern"
+    ]
+  },
+  {
     "company_name": "Kiddom",
     "website": "http://www.kiddom.co/",
     "career_page_url": "https://jobs.lever.co/kiddom",
@@ -1667,13 +2000,13 @@
     ]
   },
   {
-    "company_name": "Kong",
-    "website": "https://konghq.com/",
-    "career_page_url": "https://jobs.lever.co/kong",
-    "board_token": "kong",
-    "domain_hint": "Enterprise Software / SaaS",
+    "company_name": "Kitware",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/kitware/0dade915-7f07-437e-8ddf-c346f70acd1d/apply",
+    "board_token": "kitware",
+    "domain_hint": "",
     "source_platforms": [
-      "topstartups.io"
+      "simplify-newgrad"
     ]
   },
   {
@@ -1758,12 +2091,13 @@
   },
   {
     "company_name": "Level AI",
-    "website": "",
+    "website": "https://thelevel.ai",
     "career_page_url": "https://jobs.lever.co/levelai",
     "board_token": "levelai",
     "domain_hint": "",
     "source_platforms": [
-      "himalayas"
+      "himalayas",
+      "neuronfeed"
     ]
   },
   {
@@ -1778,12 +2112,14 @@
   },
   {
     "company_name": "Lever",
-    "website": "",
+    "website": "https://startup.jobs/company/lever",
     "career_page_url": "https://jobs.lever.co/lever",
     "board_token": "lever",
     "domain_hint": "",
     "source_platforms": [
-      "seedprobe"
+      "awesome-remote-companies",
+      "seedprobe",
+      "simplify-newgrad"
     ]
   },
   {
@@ -1794,6 +2130,16 @@
     "domain_hint": "",
     "source_platforms": [
       "himalayas"
+    ]
+  },
+  {
+    "company_name": "Link",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/linkllc/01986263-6ad2-4a5b-aea4-e1ba8375cfa9/apply",
+    "board_token": "linkllc",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
     ]
   },
   {
@@ -1847,6 +2193,16 @@
     ]
   },
   {
+    "company_name": "Lumotive",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/lumotive/869becb2-aeb0-47fd-8fcf-576003d9a012/apply",
+    "board_token": "lumotive",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
     "company_name": "Luxury Presence",
     "website": "http://www.luxurypresence.com/",
     "career_page_url": "https://jobs.lever.co/luxurypresence",
@@ -1877,6 +2233,16 @@
     ]
   },
   {
+    "company_name": "Magnet Forensics",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/magnetforensics/d393ab82-448a-4dc2-87d0-a00981a55785/apply",
+    "board_token": "magnetforensics",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-intern"
+    ]
+  },
+  {
     "company_name": "Mainspring Energy",
     "website": "",
     "career_page_url": "https://jobs.lever.co/mainspringenergy",
@@ -1894,6 +2260,16 @@
     "domain_hint": "",
     "source_platforms": [
       "seedprobe"
+    ]
+  },
+  {
+    "company_name": "MARGO",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/margo-group/c23cae4d-bf0a-45ea-b1ba-8b201eac213c/apply",
+    "board_token": "margo-group",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
     ]
   },
   {
@@ -1979,6 +2355,16 @@
     ]
   },
   {
+    "company_name": "Metergy Solutions",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/metergysolutions/c9608025-557a-4ed7-a612-a69cd1db3ab6/apply",
+    "board_token": "metergysolutions",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
     "company_name": "Mindtickle",
     "website": "",
     "career_page_url": "https://jobs.lever.co/mindtickle",
@@ -2040,6 +2426,17 @@
     ]
   },
   {
+    "company_name": "Multiply Labs",
+    "website": "http://multiplylabs.com",
+    "career_page_url": "https://jobs.lever.co/multiplylabs/acca98ab-c206-4f71-b7a5-6977e4828586",
+    "board_token": "multiplylabs",
+    "domain_hint": "Healthcare / Pharmaceuticals / Robotics / Hardware",
+    "source_platforms": [
+      "simplify-intern",
+      "topstartups.io"
+    ]
+  },
+  {
     "company_name": "Mutt Data",
     "website": "",
     "career_page_url": "https://jobs.lever.co/muttdata",
@@ -2076,7 +2473,8 @@
     "board_token": "netflix",
     "domain_hint": "jobs.netflix.com",
     "source_platforms": [
-      "chsr"
+      "chsr",
+      "simplify-newgrad"
     ]
   },
   {
@@ -2097,6 +2495,16 @@
     "domain_hint": "",
     "source_platforms": [
       "himalayas"
+    ]
+  },
+  {
+    "company_name": "NextGen Federal Systems",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/nextgenfed/54d1576e-c3d9-454a-b1a2-dac0b2fe5920/apply",
+    "board_token": "nextgenfed",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-intern"
     ]
   },
   {
@@ -2200,6 +2608,16 @@
     ]
   },
   {
+    "company_name": "Omni Design Technologies",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/omnidesigntech/b6914c2b-2e94-49a6-a82d-928354e95c52/apply",
+    "board_token": "omnidesigntech",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
     "company_name": "Once Upon A Farm",
     "website": "",
     "career_page_url": "https://jobs.lever.co/onceuponafarm",
@@ -2227,6 +2645,16 @@
     "domain_hint": "",
     "source_platforms": [
       "himalayas"
+    ]
+  },
+  {
+    "company_name": "Orb Aerospace",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/orbaerospace/2f233c29-a4c8-490e-be99-0feaae9b75dd/apply",
+    "board_token": "orbaerospace",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
     ]
   },
   {
@@ -2280,6 +2708,16 @@
     ]
   },
   {
+    "company_name": "Palantir",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/palantir/d1ac83d0-e923-42a5-8e6d-58dd0cab25ca/apply",
+    "board_token": "palantir",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
     "company_name": "Panopto",
     "website": "",
     "career_page_url": "https://jobs.lever.co/panopto",
@@ -2287,6 +2725,26 @@
     "domain_hint": "",
     "source_platforms": [
       "himalayas"
+    ]
+  },
+  {
+    "company_name": "Parallel Wireless",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/parallelwireless/0608a395-7c6d-4e01-acfe-ade970b991dd/",
+    "board_token": "parallelwireless",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "Parkdepot",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/salesdemo-jr/b2b796b7-cc11-4456-bb00-a2a72fa11f09/apply",
+    "board_token": "salesdemo-jr",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
     ]
   },
   {
@@ -2411,12 +2869,14 @@
   },
   {
     "company_name": "Pigment",
-    "website": "",
+    "website": "https://www.pigment.com",
     "career_page_url": "https://jobs.lever.co/pigment",
     "board_token": "pigment",
     "domain_hint": "",
     "source_platforms": [
-      "himalayas"
+      "himalayas",
+      "neuronfeed",
+      "simplify-newgrad"
     ]
   },
   {
@@ -2426,17 +2886,19 @@
     "board_token": "pingwind",
     "domain_hint": "",
     "source_platforms": [
-      "himalayas"
+      "himalayas",
+      "simplify-newgrad"
     ]
   },
   {
     "company_name": "Pipedrive",
-    "website": "",
+    "website": "https://www.pipedrive.com",
     "career_page_url": "https://jobs.lever.co/pipedrive",
     "board_token": "pipedrive",
     "domain_hint": "",
     "source_platforms": [
-      "bulk-discovered"
+      "bulk-discovered",
+      "neuronfeed"
     ]
   },
   {
@@ -2500,6 +2962,16 @@
     ]
   },
   {
+    "company_name": "PlusAI",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/plus-2/30dd9b9b-48c8-4777-97f6-8edb30db12e4/apply",
+    "board_token": "plus-2",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-intern"
+    ]
+  },
+  {
     "company_name": "PointClickCare",
     "website": "",
     "career_page_url": "https://jobs.lever.co/pointclickcare",
@@ -2540,6 +3012,16 @@
     ]
   },
   {
+    "company_name": "PredictX",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/pibenchmark/67c5bdb8-d019-43ff-a6de-cca1917058d8/apply",
+    "board_token": "pibenchmark",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
     "company_name": "Prelay",
     "website": "",
     "career_page_url": "https://jobs.lever.co/prelay",
@@ -2570,6 +3052,16 @@
     ]
   },
   {
+    "company_name": "Prizeout",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/prizeout/1e3dab04-db41-4e97-9a42-7fb25e548583/apply",
+    "board_token": "prizeout",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
     "company_name": "Prosper",
     "website": "",
     "career_page_url": "https://jobs.lever.co/prosper",
@@ -2588,6 +3080,16 @@
     "domain_hint": "",
     "source_platforms": [
       "himalayas"
+    ]
+  },
+  {
+    "company_name": "Protective Life",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/protective/3c40e93e-66e3-4aeb-9a8a-ed65f826ed41/apply",
+    "board_token": "protective",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
     ]
   },
   {
@@ -2621,6 +3123,16 @@
     ]
   },
   {
+    "company_name": "QuantCo",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/quantco-/d69096fa-b673-4953-ba63-7deee08bc13c/apply",
+    "board_token": "quantco-",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-intern"
+    ]
+  },
+  {
     "company_name": "Quartzy",
     "website": "http://www.quartzy.com",
     "career_page_url": "https://jobs.lever.co/quartzy",
@@ -2629,16 +3141,6 @@
     "source_platforms": [
       "topstartups.io",
       "yc-directory"
-    ]
-  },
-  {
-    "company_name": "Quince",
-    "website": "https://www.onequince.com/",
-    "career_page_url": "https://jobs.lever.co/quince",
-    "board_token": "quince",
-    "domain_hint": "E-Commerce",
-    "source_platforms": [
-      "topstartups.io"
     ]
   },
   {
@@ -2662,6 +3164,16 @@
     ]
   },
   {
+    "company_name": "Rainmaker",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/make-rain/b45f954e-19df-45b1-8748-c8ae442a2e8b",
+    "board_token": "make-rain",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-intern"
+    ]
+  },
+  {
     "company_name": "redbee",
     "website": "",
     "career_page_url": "https://jobs.lever.co/redbee",
@@ -2678,6 +3190,7 @@
     "board_token": "redoxengine",
     "domain_hint": "healthtech/interoperability",
     "source_platforms": [
+      "awesome-remote-companies",
       "direct-search"
     ]
   },
@@ -2712,6 +3225,16 @@
     ]
   },
   {
+    "company_name": "Reply",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/reply/0fb458db-7cb9-4bfd-b9b6-c1c681316061/apply",
+    "board_token": "reply",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-intern"
+    ]
+  },
+  {
     "company_name": "Restaurant365",
     "website": "http://www.restaurant365.com/",
     "career_page_url": "https://jobs.lever.co/restaurant365",
@@ -2719,6 +3242,16 @@
     "domain_hint": "SaaS / Restaurants",
     "source_platforms": [
       "topstartups.io"
+    ]
+  },
+  {
+    "company_name": "Revenue Analytics",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/revenueanalytics/d1d069f6-be13-431b-94c9-626f5bed83c6/apply",
+    "board_token": "revenueanalytics",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
     ]
   },
   {
@@ -2742,6 +3275,16 @@
     ]
   },
   {
+    "company_name": "RWS",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/rws/edfded6a-6a93-49cd-9b50-d0f74c3a41ac/apply",
+    "board_token": "rws",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
     "company_name": "RWS Group",
     "website": "",
     "career_page_url": "https://jobs.lever.co/rws",
@@ -2762,13 +3305,13 @@
     ]
   },
   {
-    "company_name": "Saronic",
-    "website": "https://www.saronic.com/",
-    "career_page_url": "https://jobs.lever.co/saronic",
-    "board_token": "saronic",
-    "domain_hint": "Hardware / Defense",
+    "company_name": "Salvo Health",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/salvohealth/285d6b09-7961-490b-8927-3b24698affe9/apply",
+    "board_token": "salvohealth",
+    "domain_hint": "",
     "source_platforms": [
-      "topstartups.io"
+      "simplify-newgrad"
     ]
   },
   {
@@ -2789,6 +3332,16 @@
     "domain_hint": "",
     "source_platforms": [
       "seedprobe"
+    ]
+  },
+  {
+    "company_name": "Schmidt Sciences",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/schmidt-entities/c42b4c52-d92a-4bd6-bac6-6b2d94159b35/apply",
+    "board_token": "schmidt-entities",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
     ]
   },
   {
@@ -2818,7 +3371,8 @@
     "board_token": "scottlogic",
     "domain_hint": "",
     "source_platforms": [
-      "seedprobe"
+      "seedprobe",
+      "simplify-newgrad"
     ]
   },
   {
@@ -2859,7 +3413,18 @@
     "domain_hint": "defense/AI/robotics",
     "source_platforms": [
       "builtin",
+      "simplify-newgrad",
       "topstartups.io"
+    ]
+  },
+  {
+    "company_name": "ShyftLabs",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/shyftlabs/1a665cf5-1f3f-4610-be00-b46ffa13a675/apply",
+    "board_token": "shyftlabs",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
     ]
   },
   {
@@ -2880,6 +3445,26 @@
     "domain_hint": "",
     "source_platforms": [
       "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Simbe Robotics",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/SimbeRobotics/69281e17-3c49-45dc-99cb-4fab104228d5/apply",
+    "board_token": "SimbeRobotics",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "Simulmedia",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/simulmedia/52c56404-78f4-41be-a1a0-ef3ecd84993c/apply",
+    "board_token": "simulmedia",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
     ]
   },
   {
@@ -2933,6 +3518,16 @@
     ]
   },
   {
+    "company_name": "SoloPulse",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/solopulseco/418b3949-3b21-48f9-b7a0-1c036ca0ba51/apply",
+    "board_token": "solopulseco",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-intern"
+    ]
+  },
+  {
     "company_name": "SonarSource",
     "website": "",
     "career_page_url": "https://jobs.lever.co/sonarsource",
@@ -2949,6 +3544,7 @@
     "board_token": "sonatype",
     "domain_hint": "",
     "source_platforms": [
+      "awesome-remote-companies",
       "bulk-discovered"
     ]
   },
@@ -2979,7 +3575,9 @@
     "board_token": "spotify",
     "domain_hint": "",
     "source_platforms": [
-      "seedprobe"
+      "awesome-remote-companies",
+      "seedprobe",
+      "simplify-newgrad"
     ]
   },
   {
@@ -3000,6 +3598,16 @@
     "domain_hint": "compliance/GRC SaaS (India)",
     "source_platforms": [
       "manual-target"
+    ]
+  },
+  {
+    "company_name": "Spry Methods",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/sprymethods/fe9298b9-c538-42c6-b4a0-bf63fdd68f42/apply",
+    "board_token": "sprymethods",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
     ]
   },
   {
@@ -3029,7 +3637,8 @@
     "board_token": "standtogether",
     "domain_hint": "",
     "source_platforms": [
-      "himalayas"
+      "himalayas",
+      "simplify-newgrad"
     ]
   },
   {
@@ -3053,6 +3662,16 @@
     ]
   },
   {
+    "company_name": "Strada Education Foundation",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/stradaeducation/dca47da4-85fc-481f-8aa5-fa664a9d37bc/apply",
+    "board_token": "stradaeducation",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
     "company_name": "SugarCRM",
     "website": "",
     "career_page_url": "https://jobs.lever.co/sugarcrm",
@@ -3060,6 +3679,16 @@
     "domain_hint": "",
     "source_platforms": [
       "himalayas"
+    ]
+  },
+  {
+    "company_name": "Suger",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/suger",
+    "board_token": "suger",
+    "domain_hint": "",
+    "source_platforms": [
+      "startups_gallery"
     ]
   },
   {
@@ -3080,6 +3709,7 @@
     "board_token": "superside",
     "domain_hint": "",
     "source_platforms": [
+      "awesome-remote-companies",
       "himalayas"
     ]
   },
@@ -3134,6 +3764,16 @@
     ]
   },
   {
+    "company_name": "Synergy ECP",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/synergyecp/9937b3dd-fa2f-40ae-995b-3a896a0e3bd9/apply",
+    "board_token": "synergyecp",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
     "company_name": "Sysdig",
     "website": "http://www.sysdig.com",
     "career_page_url": "https://jobs.lever.co/sysdig",
@@ -3152,6 +3792,16 @@
     "domain_hint": "FinTech / Data Science",
     "source_platforms": [
       "topstartups.io"
+    ]
+  },
+  {
+    "company_name": "Tangram Interiors",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/tangraminteriors/c4999340-67da-4a68-99ec-da99f555abfc/apply",
+    "board_token": "tangraminteriors",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
     ]
   },
   {
@@ -3237,6 +3887,16 @@
     ]
   },
   {
+    "company_name": "The Information Lab",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/theinformationlab/5c48a12b-6906-43d7-bd95-947b562c8701/apply",
+    "board_token": "theinformationlab",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
     "company_name": "The Real Deal",
     "website": "",
     "career_page_url": "https://jobs.lever.co/therealdeal",
@@ -3244,6 +3904,16 @@
     "domain_hint": "",
     "source_platforms": [
       "himalayas"
+    ]
+  },
+  {
+    "company_name": "Thomas & Hutton",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/tandh/710c31c7-2c83-41b0-b44b-9edf283996d1/apply",
+    "board_token": "tandh",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
     ]
   },
   {
@@ -3263,7 +3933,9 @@
     "board_token": "toptal",
     "domain_hint": "",
     "source_platforms": [
-      "himalayas"
+      "awesome-remote-companies",
+      "himalayas",
+      "weworkremotely"
     ]
   },
   {
@@ -3278,13 +3950,24 @@
     ]
   },
   {
+    "company_name": "Toyota Research Institute",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/tri/15969a29-b217-482f-8c67-67d091b054c8/apply",
+    "board_token": "tri",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-intern"
+    ]
+  },
+  {
     "company_name": "TRAACKR",
     "website": "",
     "career_page_url": "https://jobs.lever.co/traackr",
     "board_token": "traackr",
     "domain_hint": "",
     "source_platforms": [
-      "himalayas"
+      "himalayas",
+      "simplify-intern"
     ]
   },
   {
@@ -3305,6 +3988,16 @@
     "domain_hint": "",
     "source_platforms": [
       "yc-directory"
+    ]
+  },
+  {
+    "company_name": "Trio",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/trio/21f7e6e8-1357-4c31-a04c-36f1e48853a8/apply",
+    "board_token": "trio",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
     ]
   },
   {
@@ -3345,7 +4038,8 @@
     "board_token": "tsmg",
     "domain_hint": "",
     "source_platforms": [
-      "himalayas"
+      "himalayas",
+      "simplify-newgrad"
     ]
   },
   {
@@ -3435,7 +4129,8 @@
     "board_token": "veeva",
     "domain_hint": "",
     "source_platforms": [
-      "bulk-discovered"
+      "bulk-discovered",
+      "simplify-intern"
     ]
   },
   {
@@ -3445,7 +4140,8 @@
     "board_token": "veeva",
     "domain_hint": "",
     "source_platforms": [
-      "seedprobe"
+      "seedprobe",
+      "simplify-newgrad"
     ]
   },
   {
@@ -3545,7 +4241,8 @@
     "board_token": "waabi",
     "domain_hint": "",
     "source_platforms": [
-      "seedprobe"
+      "seedprobe",
+      "simplify-intern"
     ]
   },
   {
@@ -3589,13 +4286,55 @@
     ]
   },
   {
-    "company_name": "WHOOP",
+    "company_name": "Welo Global",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/weloglobal/b26aa765-1a9d-46f7-a899-0354c3ee428d/apply",
+    "board_token": "weloglobal",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "WeRide",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/weride/c7652fd5-65d8-443d-ab4c-5b450acac77d/apply",
+    "board_token": "weride",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-intern"
+    ]
+  },
+  {
+    "company_name": "Whoop",
     "website": "https://whoop.com",
     "career_page_url": "https://jobs.lever.co/whoop",
     "board_token": "whoop",
     "domain_hint": "healthtech/wearables",
     "source_platforms": [
-      "direct-search"
+      "direct-search",
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "Wing Assistant",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/getwingapp/ed5f4d90-33e8-4d99-8625-cda2d55183f7/apply",
+    "board_token": "getwingapp",
+    "domain_hint": "",
+    "source_platforms": [
+      "himalayas",
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "Wintermute",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/wintermute-trading/8119b21c-aa47-4113-bd25-f785f8fc44c1/apply",
+    "board_token": "wintermute-trading",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
     ]
   },
   {
@@ -3619,6 +4358,26 @@
     ]
   },
   {
+    "company_name": "World Wide Professional Solutions",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/wwprosolutions/0ffd03e5-9556-41b9-8eee-85932d0fe5b9/apply",
+    "board_token": "wwprosolutions",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "Woven",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/woven-by-toyota/43bdae02-424e-48f2-9648-b5aa16abcfc3/apply",
+    "board_token": "woven-by-toyota",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
     "company_name": "Wpromote",
     "website": "",
     "career_page_url": "https://jobs.lever.co/wpromote",
@@ -3626,6 +4385,16 @@
     "domain_hint": "",
     "source_platforms": [
       "himalayas"
+    ]
+  },
+  {
+    "company_name": "Wyetech",
+    "website": "",
+    "career_page_url": "https://jobs.lever.co/wyetechllc/c1b8f940-b5ab-4647-832f-f8cdb3c360fa",
+    "board_token": "wyetechllc",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
     ]
   },
   {
@@ -3655,7 +4424,8 @@
     "board_token": "xsolla",
     "domain_hint": "",
     "source_platforms": [
-      "himalayas"
+      "himalayas",
+      "simplify-intern"
     ]
   },
   {
@@ -3725,7 +4495,8 @@
     "board_token": "zoox",
     "domain_hint": "",
     "source_platforms": [
-      "seedprobe"
+      "seedprobe",
+      "simplify-newgrad"
     ]
   },
   {

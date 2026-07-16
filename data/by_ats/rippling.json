@@ -1,5 +1,89 @@
 [
   {
+    "company_name": "Concept Plus",
+    "website": "",
+    "career_page_url": "https://ats.rippling.com/conceptplus/jobs/916978a4-fa79-4f6e-9eb6-515aa1cf3fb5",
+    "board_token": "conceptplus",
+    "domain_hint": "",
+    "source_platforms": [
+      "himalayas",
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "Edgehog Trading",
+    "website": "",
+    "career_page_url": "https://ats.rippling.com/edgehog-trading/jobs/10ba9bbf-9fbe-49ff-8f58-a88041de1438",
+    "board_token": "edgehog-trading",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "FlexAI",
+    "website": "",
+    "career_page_url": "https://ats.rippling.com/flexai/jobs/93ada67c-8527-427c-b2f6-4a5557b00674",
+    "board_token": "flexai",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "Kraken Robotics",
+    "website": "",
+    "career_page_url": "https://ats.rippling.com/kraken-robotics-inc/jobs/306b015a-6c3c-4205-b6df-6a9c7ce7b9a8",
+    "board_token": "kraken-robotics-inc",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "Momentum Engineering",
+    "website": "",
+    "career_page_url": "https://ats.rippling.com/momentumcareers/jobs/e1151761-ee74-4f66-bbc4-b676f7f7db71",
+    "board_token": "momentumcareers",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "Omnis",
+    "website": "",
+    "career_page_url": "https://ats.rippling.com/omnis-corporation/jobs/e389ff2d-5be5-4571-8cc1-f361a139b753",
+    "board_token": "omnis-corporation",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-intern"
+    ]
+  },
+  {
+    "company_name": "Rippling",
+    "website": "https://www.rippling.com",
+    "career_page_url": "https://ats.rippling.com/rippling/jobs/7efd5065-2437-4c0d-a0f6-80138e3de1a0",
+    "board_token": "rippling",
+    "domain_hint": "HR/SaaS",
+    "source_platforms": [
+      "direct-search",
+      "simplify-newgrad",
+      "topstartups.io",
+      "yc"
+    ]
+  },
+  {
+    "company_name": "Turntide",
+    "website": "",
+    "career_page_url": "https://ats.rippling.com/turntide-careers/jobs/afaa3bd8-f5f1-4f4a-a53e-13f00b7ca8fa",
+    "board_token": "turntide-careers",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
     "company_name": "Workstreet",
     "website": "https://workstreet.in",
     "career_page_url": "https://ats.rippling.com/workstreet/jobs",

@@ -24,11 +24,14 @@ def matches(job: Job, target: Target) -> tuple[bool, list[str]]:
     role_hit = (not target.role_keywords) or any(k in title for k in target.role_keywords)
     if target.role_keywords and not role_hit:
         reasons.append("title not in target roles")
-    # 2. title exclusions — but a seniority prefix (lead/senior/sr) does NOT
-    # disqualify a title that still names a real IC target role (e.g. "Lead
-    # SDET", "Senior Pentester"). Only management/role-changing excludes
-    # (manager, director, intern, architect, devops, ...) reject.
-    SENIORITY_PREFIXES = {"lead", "senior", "sr", "sr."}
+    # 2. title exclusions — but a seniority prefix (senior/sr) does NOT
+    # disqualify a title that still names a real IC target role (e.g. "Senior
+    # Pentester", "Sr Security Engineer"). "lead" is intentionally NOT here so
+    # that "Lead <role>" titles ARE rejected by the exclude_keywords "lead"
+    # entry — matches a ~6-year mid-senior IC candidate (block Lead+).
+    # Only management/role-changing excludes (manager, director, intern,
+    # architect, devops, ...) reject.
+    SENIORITY_PREFIXES = {"senior", "sr", "sr."}
     for k in target.exclude_keywords:
         if k in title:
             if role_hit and k in SENIORITY_PREFIXES:

@@ -11,12 +11,13 @@
   },
   {
     "company_name": "Airwallex",
-    "website": "http://www.airwallex.com",
+    "website": "https://www.airwallex.com",
     "career_page_url": "https://careers.airwallex.com/",
     "board_token": null,
     "domain_hint": "FinTech / Payments",
     "source_platforms": [
       "manual-target",
+      "neuronfeed",
       "topstartups.io"
     ]
   },
@@ -83,11 +84,12 @@
   },
   {
     "company_name": "DuckDuckGo",
-    "website": "https://duckduckgo.com",
+    "website": "https://duckduckgo.com/hiring",
     "career_page_url": "https://duckduckgo.com/hiring",
     "board_token": null,
     "domain_hint": "search/privacy",
     "source_platforms": [
+      "awesome-remote-companies",
       "powertofly"
     ]
   },
@@ -128,6 +130,7 @@
     "board_token": null,
     "domain_hint": "fintech/quant",
     "source_platforms": [
+      "simplify-newgrad",
       "whoishiring"
     ]
   },
@@ -142,12 +145,13 @@
     ]
   },
   {
-    "company_name": "lemon.io",
+    "company_name": "Lemon.io",
     "website": "https://lemon.io",
     "career_page_url": "https://lemon.io/for-developers/",
     "board_token": null,
     "domain_hint": "devtools/marketplace",
     "source_platforms": [
+      "weworkremotely",
       "workingnomads"
     ]
   },
@@ -269,6 +273,7 @@
     "board_token": null,
     "domain_hint": "SaaS",
     "source_platforms": [
+      "weworkremotely",
       "workingnomads"
     ]
   },

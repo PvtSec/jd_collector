@@ -1,0 +1,502 @@
+[
+  {
+    "company_name": "Isomorphic Labs",
+    "source_platform": "neuronfeed",
+    "website": "https://www.isomorphiclabs.com"
+  },
+  {
+    "company_name": "Anthropic",
+    "source_platform": "neuronfeed",
+    "website": "https://anthropic.com"
+  },
+  {
+    "company_name": "Cursor",
+    "source_platform": "neuronfeed",
+    "website": "https://cursor.com"
+  },
+  {
+    "company_name": "OpenAI",
+    "source_platform": "neuronfeed",
+    "website": "https://openai.com"
+  },
+  {
+    "company_name": "Perplexity",
+    "source_platform": "neuronfeed",
+    "website": "https://perplexity.ai"
+  },
+  {
+    "company_name": "Harvey",
+    "source_platform": "neuronfeed",
+    "website": "https://harvey.ai"
+  },
+  {
+    "company_name": "Airwallex",
+    "source_platform": "neuronfeed",
+    "website": "https://www.airwallex.com"
+  },
+  {
+    "company_name": "Contentsquare",
+    "source_platform": "neuronfeed",
+    "website": "https://www.contentsquare.com"
+  },
+  {
+    "company_name": "Mirakl",
+    "source_platform": "neuronfeed",
+    "website": "https://www.mirakl.com"
+  },
+  {
+    "company_name": "Applied Intuition",
+    "source_platform": "neuronfeed",
+    "website": "https://www.appliedintuition.com"
+  },
+  {
+    "company_name": "True Anomaly",
+    "source_platform": "neuronfeed",
+    "website": "https://www.trueanomaly.space"
+  },
+  {
+    "company_name": "Oura",
+    "source_platform": "neuronfeed",
+    "website": "https://ouraring.com"
+  },
+  {
+    "company_name": "ElevenLabs",
+    "source_platform": "neuronfeed",
+    "website": "https://elevenlabs.io"
+  },
+  {
+    "company_name": "ClickUp",
+    "source_platform": "neuronfeed",
+    "website": "https://clickup.com"
+  },
+  {
+    "company_name": "Deel",
+    "source_platform": "neuronfeed",
+    "website": "https://www.deel.com"
+  },
+  {
+    "company_name": "Miro",
+    "source_platform": "neuronfeed",
+    "website": "https://miro.com"
+  },
+  {
+    "company_name": "Webflow",
+    "source_platform": "neuronfeed",
+    "website": "https://webflow.com"
+  },
+  {
+    "company_name": "Aidoc",
+    "source_platform": "neuronfeed",
+    "website": "https://www.aidoc.com"
+  },
+  {
+    "company_name": "Uniphore",
+    "source_platform": "neuronfeed",
+    "website": "https://www.uniphore.com"
+  },
+  {
+    "company_name": "Generate:Biomedicines",
+    "source_platform": "neuronfeed",
+    "website": "https://generatebiomedicines.com"
+  },
+  {
+    "company_name": "Pudu Robotics",
+    "source_platform": "neuronfeed",
+    "website": "https://www.pudurobotics.com"
+  },
+  {
+    "company_name": "Nebius",
+    "source_platform": "neuronfeed",
+    "website": "https://nebius.com"
+  },
+  {
+    "company_name": "Gecko Robotics",
+    "source_platform": "neuronfeed",
+    "website": "https://www.geckorobotics.com/"
+  },
+  {
+    "company_name": "Pigment",
+    "source_platform": "neuronfeed",
+    "website": "https://www.pigment.com"
+  },
+  {
+    "company_name": "Feedzai",
+    "source_platform": "neuronfeed",
+    "website": "https://www.feedzai.com"
+  },
+  {
+    "company_name": "Kueski",
+    "source_platform": "neuronfeed",
+    "website": "https://www.kueski.com"
+  },
+  {
+    "company_name": "Celestial AI",
+    "source_platform": "neuronfeed",
+    "website": "https://celestial.ai"
+  },
+  {
+    "company_name": "d-Matrix",
+    "source_platform": "neuronfeed",
+    "website": "https://www.d-matrix.ai"
+  },
+  {
+    "company_name": "Mews",
+    "source_platform": "neuronfeed",
+    "website": "https://www.mews.com"
+  },
+  {
+    "company_name": "The Browser Company",
+    "source_platform": "neuronfeed",
+    "website": "https://www.diabrowser.com"
+  },
+  {
+    "company_name": "Zyphra",
+    "source_platform": "neuronfeed",
+    "website": "https://www.zyphra.com"
+  },
+  {
+    "company_name": "Aircall",
+    "source_platform": "neuronfeed",
+    "website": "https://aircall.io"
+  },
+  {
+    "company_name": "Jungle Scout",
+    "source_platform": "neuronfeed",
+    "website": "https://www.junglescout.com"
+  },
+  {
+    "company_name": "Manychat",
+    "source_platform": "neuronfeed",
+    "website": "https://manychat.com"
+  },
+  {
+    "company_name": "Sendcloud",
+    "source_platform": "neuronfeed",
+    "website": "https://www.sendcloud.com"
+  },
+  {
+    "company_name": "Quo",
+    "source_platform": "neuronfeed",
+    "website": "https://www.quo.com"
+  },
+  {
+    "company_name": "Bold",
+    "source_platform": "neuronfeed",
+    "website": "https://www.bold.com.co"
+  },
+  {
+    "company_name": "Chainguard",
+    "source_platform": "neuronfeed",
+    "website": "https://www.chainguard.dev"
+  },
+  {
+    "company_name": "Semgrep",
+    "source_platform": "neuronfeed",
+    "website": "https://semgrep.dev"
+  },
+  {
+    "company_name": "Tractable",
+    "source_platform": "neuronfeed",
+    "website": "https://tractable.ai"
+  },
+  {
+    "company_name": "Invisible Technologies",
+    "source_platform": "neuronfeed",
+    "website": "https://www.invisible.co"
+  },
+  {
+    "company_name": "Alcatraz AI",
+    "source_platform": "neuronfeed",
+    "website": "https://www.alcatraz.ai"
+  },
+  {
+    "company_name": "Aily Labs",
+    "source_platform": "neuronfeed",
+    "website": "https://www.ailylabs.com"
+  },
+  {
+    "company_name": "Orkes",
+    "source_platform": "neuronfeed",
+    "website": "https://orkes.io"
+  },
+  {
+    "company_name": "Zilliz",
+    "source_platform": "neuronfeed",
+    "website": "https://zilliz.com"
+  },
+  {
+    "company_name": "Labelbox",
+    "source_platform": "neuronfeed",
+    "website": "https://labelbox.com"
+  },
+  {
+    "company_name": "Proscia",
+    "source_platform": "neuronfeed",
+    "website": "https://www.proscia.com/"
+  },
+  {
+    "company_name": "Taktile",
+    "source_platform": "neuronfeed",
+    "website": "https://taktile.com"
+  },
+  {
+    "company_name": "Wandelbots",
+    "source_platform": "neuronfeed",
+    "website": "https://www.wandelbots.com"
+  },
+  {
+    "company_name": "Mythic",
+    "source_platform": "neuronfeed",
+    "website": "https://mythic.ai"
+  },
+  {
+    "company_name": "Soul Machines",
+    "source_platform": "neuronfeed",
+    "website": "https://www.soulmachines.com"
+  },
+  {
+    "company_name": "Moonvalley",
+    "source_platform": "neuronfeed",
+    "website": "https://www.moonvalley.com"
+  },
+  {
+    "company_name": "Ayar Labs",
+    "source_platform": "neuronfeed",
+    "website": "https://ayarlabs.com"
+  },
+  {
+    "company_name": "Loop",
+    "source_platform": "neuronfeed",
+    "website": "https://www.loop.com"
+  },
+  {
+    "company_name": "Neural Concept",
+    "source_platform": "neuronfeed",
+    "website": "https://www.neuralconcept.com"
+  },
+  {
+    "company_name": "Ricursive Intelligence",
+    "source_platform": "neuronfeed",
+    "website": "https://www.ricursive.com"
+  },
+  {
+    "company_name": "Jina AI",
+    "source_platform": "neuronfeed",
+    "website": "https://jina.ai"
+  },
+  {
+    "company_name": "Unbabel",
+    "source_platform": "neuronfeed",
+    "website": "https://unbabel.com"
+  },
+  {
+    "company_name": "The Bot Company",
+    "source_platform": "neuronfeed",
+    "website": "https://www.bot.co"
+  },
+  {
+    "company_name": "Lovable",
+    "source_platform": "neuronfeed",
+    "website": "https://lovable.dev"
+  },
+  {
+    "company_name": "Crescendo",
+    "source_platform": "neuronfeed",
+    "website": "https://www.crescendo.ai"
+  },
+  {
+    "company_name": "Drata",
+    "source_platform": "neuronfeed",
+    "website": "https://drata.com"
+  },
+  {
+    "company_name": "Upstage",
+    "source_platform": "neuronfeed",
+    "website": "https://www.upstage.ai"
+  },
+  {
+    "company_name": "Flatpay",
+    "source_platform": "neuronfeed",
+    "website": "https://flatpay.com"
+  },
+  {
+    "company_name": "CADDi",
+    "source_platform": "neuronfeed",
+    "website": "https://caddi.com/"
+  },
+  {
+    "company_name": "Listen Labs",
+    "source_platform": "neuronfeed",
+    "website": "https://listenlabs.ai"
+  },
+  {
+    "company_name": "LMArena",
+    "source_platform": "neuronfeed",
+    "website": "https://arena.ai"
+  },
+  {
+    "company_name": "Animaj",
+    "source_platform": "neuronfeed",
+    "website": "https://www.animaj.com"
+  },
+  {
+    "company_name": "Hugging Face",
+    "source_platform": "neuronfeed",
+    "website": "https://huggingface.co"
+  },
+  {
+    "company_name": "xAI",
+    "source_platform": "neuronfeed",
+    "website": "https://x.ai"
+  },
+  {
+    "company_name": "Ashby",
+    "source_platform": "neuronfeed",
+    "website": "https://www.ashbyhq.com"
+  },
+  {
+    "company_name": "Genesis Therapeutics",
+    "source_platform": "neuronfeed",
+    "website": "https://www.genesistherapeutics.ai"
+  },
+  {
+    "company_name": "AIsphere",
+    "source_platform": "neuronfeed",
+    "website": "https://pixverse.ai"
+  },
+  {
+    "company_name": "Onyx",
+    "source_platform": "neuronfeed",
+    "website": "https://onyx.app"
+  },
+  {
+    "company_name": "Sema4.ai",
+    "source_platform": "neuronfeed",
+    "website": "https://sema4.ai"
+  },
+  {
+    "company_name": "Town",
+    "source_platform": "neuronfeed",
+    "website": "https://www.town.com"
+  },
+  {
+    "company_name": "Fractile",
+    "source_platform": "neuronfeed",
+    "website": "https://www.fractile.ai"
+  },
+  {
+    "company_name": "CloudTalk",
+    "source_platform": "neuronfeed",
+    "website": "https://www.cloudtalk.io"
+  },
+  {
+    "company_name": "Pipedrive",
+    "source_platform": "neuronfeed",
+    "website": "https://www.pipedrive.com"
+  },
+  {
+    "company_name": "Printify",
+    "source_platform": "neuronfeed",
+    "website": "https://printify.com"
+  },
+  {
+    "company_name": "Firstbase",
+    "source_platform": "neuronfeed",
+    "website": "https://www.firstbase.io"
+  },
+  {
+    "company_name": "RocketReach",
+    "source_platform": "neuronfeed",
+    "website": "https://rocketreach.co"
+  },
+  {
+    "company_name": "Aira",
+    "source_platform": "neuronfeed",
+    "website": "https://aira.io"
+  },
+  {
+    "company_name": "Blink",
+    "source_platform": "neuronfeed",
+    "website": "https://www.joinblink.com"
+  },
+  {
+    "company_name": "Typecast",
+    "source_platform": "neuronfeed",
+    "website": "https://typecast.ai"
+  },
+  {
+    "company_name": "BlinkOps",
+    "source_platform": "neuronfeed",
+    "website": "https://www.blinkops.com"
+  },
+  {
+    "company_name": "Aaru",
+    "source_platform": "neuronfeed",
+    "website": "https://www.aaru.com"
+  },
+  {
+    "company_name": "Armilla AI",
+    "source_platform": "neuronfeed",
+    "website": "https://www.armilla.ai"
+  },
+  {
+    "company_name": "RoboForce",
+    "source_platform": "neuronfeed",
+    "website": "https://www.roboforce.ai"
+  },
+  {
+    "company_name": "Tigris Data",
+    "source_platform": "neuronfeed",
+    "website": "https://www.tigrisdata.com"
+  },
+  {
+    "company_name": "Instrumental",
+    "source_platform": "neuronfeed",
+    "website": "https://instrumental.com/"
+  },
+  {
+    "company_name": "V7",
+    "source_platform": "neuronfeed",
+    "website": "https://www.v7labs.com"
+  },
+  {
+    "company_name": "Atropos Health",
+    "source_platform": "neuronfeed",
+    "website": "https://www.atroposhealth.com"
+  },
+  {
+    "company_name": "Nota AI",
+    "source_platform": "neuronfeed",
+    "website": "https://www.nota.ai"
+  },
+  {
+    "company_name": "Level AI",
+    "source_platform": "neuronfeed",
+    "website": "https://thelevel.ai"
+  },
+  {
+    "company_name": "Raycast",
+    "source_platform": "neuronfeed",
+    "website": "https://www.raycast.com"
+  },
+  {
+    "company_name": "Superblocks",
+    "source_platform": "neuronfeed",
+    "website": "https://www.superblocks.com"
+  },
+  {
+    "company_name": "Swimm",
+    "source_platform": "neuronfeed",
+    "website": "https://swimm.io"
+  },
+  {
+    "company_name": "Unblocked",
+    "source_platform": "neuronfeed",
+    "website": "https://getunblocked.com"
+  },
+  {
+    "company_name": "Stainless",
+    "source_platform": "neuronfeed",
+    "website": "https://www.stainless.com"
+  }
+]

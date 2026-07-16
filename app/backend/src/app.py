@@ -124,6 +124,19 @@ async def lifespan(app: FastAPI):
             print(f"[persist] restored {n} applied flag(s) from {settings.abs_state_file()}")
     except Exception as e:
         print(f"[persist] reconcile failed: {e}")
+    # Re-stamp applied flags from the authoritative ledger (applied.sqlite).
+    # The ledger is the source of truth; the jobs DB ``applied`` column is a
+    # cache that can drift if a tick's ledger lookup ever misses. This guarantees
+    # every application in the ledger shows applied=1 in the main jobs list.
+    try:
+        _ledger_db = _get_cfg().ledger_db
+        if not os.path.isabs(_ledger_db):
+            _ledger_db = os.path.join(os.path.dirname(settings.abs_engine_config()), _ledger_db)
+        n = persist.reconcile_applied_from_ledger(_ledger_db, db)
+        if n:
+            print(f"[persist] re-stamped {n} applied flag(s) from ledger {_ledger_db}")
+    except Exception as e:
+        print(f"[persist] ledger reconcile failed: {e}")
     try:
         n = persist.reconcile_hidden(settings.abs_state_file(), db)
         if n:

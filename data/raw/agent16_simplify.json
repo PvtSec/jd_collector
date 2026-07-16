@@ -1,0 +1,5913 @@
+[
+  {
+    "company_name": "Figure",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/figureai/jobs/4590702006"
+  },
+  {
+    "company_name": "Zoom",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Parallel Wireless",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.lever.co/parallelwireless/0608a395-7c6d-4e01-acfe-ade970b991dd/"
+  },
+  {
+    "company_name": "Apple",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Cisco",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "AppLovin",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/applovin/jobs/4451556006"
+  },
+  {
+    "company_name": "Optimum",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Citizen Health",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/Citizen%20Health/ccd73294-568c-4348-a963-71c5362a5363"
+  },
+  {
+    "company_name": "Space Dynamics Laboratory",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Malvern Panalytical",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "CVS Health",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "RWS",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.lever.co/rws/edfded6a-6a93-49cd-9b50-d0f74c3a41ac/apply"
+  },
+  {
+    "company_name": "Heron Power",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "http://jobs.ashbyhq.com/heron-power/9f03d489-7fb1-48f8-9f41-70a9e64aed62/application"
+  },
+  {
+    "company_name": "The Allen Institute for AI",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/thealleninstitute/jobs/7417128"
+  },
+  {
+    "company_name": "TrueBuilt",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/applytotruebuilt/jobs/4588866004"
+  },
+  {
+    "company_name": "Uare.ai",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/uareai/jobs/4036519009"
+  },
+  {
+    "company_name": "TikTok",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Astemo",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Turntide",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://ats.rippling.com/turntide-careers/jobs/afaa3bd8-f5f1-4f4a-a53e-13f00b7ca8fa"
+  },
+  {
+    "company_name": "Fidelity Investments",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Commerce Architects",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.lever.co/commercearchitects/ec4bd3b5-3219-4524-805a-d9dff354c5ec/apply"
+  },
+  {
+    "company_name": "General Dynamics Information Technology",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Lever",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.lever.co/leverdemo/874a045c-6ecd-4e62-b682-67d095d4723f/apply"
+  },
+  {
+    "company_name": "Link",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.lever.co/linkllc/01986263-6ad2-4a5b-aea4-e1ba8375cfa9/apply"
+  },
+  {
+    "company_name": "PredictX",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.lever.co/pibenchmark/67c5bdb8-d019-43ff-a6de-cca1917058d8/apply"
+  },
+  {
+    "company_name": "Magical",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/magical/2c4734af-1ca2-423a-bb4e-29a7da894249"
+  },
+  {
+    "company_name": "AspenTech",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Samsung",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Wyetech",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.lever.co/wyetechllc/c1b8f940-b5ab-4647-832f-f8cdb3c360fa"
+  },
+  {
+    "company_name": "Hudson River Trading",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "D2L",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Twitch",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/twitch/jobs/8329910002"
+  },
+  {
+    "company_name": "Baselayer",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/baselayer/jobs/5023884008"
+  },
+  {
+    "company_name": "Boeing",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "CACI",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Disney",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Public Storage",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "BTI Solutions",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Harmonia",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "SciTec",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://apply.workable.com/scitec/j/301788B4BF/apply"
+  },
+  {
+    "company_name": "Lightfield",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/Lightfield/bb758825-5422-46c4-86c3-0be1cc89148f/application"
+  },
+  {
+    "company_name": "Sentra",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/sentra/3c9729ca-67b3-4f9f-9c64-5e1e10be1719"
+  },
+  {
+    "company_name": "Thorlabs",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://apply.workable.com/thorlabs/j/EA6A31C779/"
+  },
+  {
+    "company_name": "Charles Schwab",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Anything",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/anything/f4123aa5-855a-4b82-b762-66fb4a77f493/application"
+  },
+  {
+    "company_name": "BAE Systems",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Blue Yonder",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Qualcomm",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Marsh",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Mechanize",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/mechanize/b50c89dc-001c-4fb6-a4fc-a9f52f35b490"
+  },
+  {
+    "company_name": "Oklo",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/oklo/jobs/5739861004"
+  },
+  {
+    "company_name": "Warner Bros.",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Susquehanna",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Radian",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "ByteDance",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Five Rings Capital",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/fiveringsllc/jobs/5047415008"
+  },
+  {
+    "company_name": "General Dynamics Mission Systems",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Fanatics",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Axis Automation",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/axiscompany/jobs/8343454002"
+  },
+  {
+    "company_name": "Squarepoint Capital",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://boards.greenhouse.io/embed/job_app?token=6099883"
+  },
+  {
+    "company_name": "Baseten",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/baseten/75d7beac-0298-40fa-b206-2e0c0c08a64f/application"
+  },
+  {
+    "company_name": "Nokia",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "University of Southern California",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Blue Origin",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Ocean Optics",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Sainsbury's",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Brain Co.",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/brainco/bb6e555b-8bb1-4cd7-9813-4f82a5ebe839/application"
+  },
+  {
+    "company_name": "SpaceX",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://boards.greenhouse.io/spacex/jobs/8376990002"
+  },
+  {
+    "company_name": "Invisible Technologies AI",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.eu.greenhouse.io/agency/jobs/4754242101"
+  },
+  {
+    "company_name": "Jahnel Group",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Perpay",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/perpay/jobs/4034578007"
+  },
+  {
+    "company_name": "Vertiv",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Stifel",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "CaptiveAire Systems",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Uncountable",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/uncountable/1f8425be-cd39-4397-a9c1-6511ecfc39fc"
+  },
+  {
+    "company_name": "Amazon",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Parallel Web Systems",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/parallel/056e41f8-7d5f-41c1-99fd-bf002dc072fd/application"
+  },
+  {
+    "company_name": "Nymbus",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Finning",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "8VC",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/8vc/4fea7270-2409-4701-b147-fc961d95588d/application"
+  },
+  {
+    "company_name": "Expedia Group",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "G-Research",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "DV Trading",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/dvtrading/jobs/4656091005"
+  },
+  {
+    "company_name": "Applied Materials",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Medpace, Inc.",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "JP Morgan Chase",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "TRIC Robotics",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "ServiceNow",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/ServiceNow/744000107369741"
+  },
+  {
+    "company_name": "ElevenLabs",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/elevenlabs/5881bc5d-765a-430e-9d28-7d598a0e1a03/application"
+  },
+  {
+    "company_name": "Wintermute",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.lever.co/wintermute-trading/8119b21c-aa47-4113-bd25-f785f8fc44c1/apply"
+  },
+  {
+    "company_name": "The New York Times",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/thenewyorktimes/jobs/4636765005"
+  },
+  {
+    "company_name": "Canonical",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/canonical/jobs/7569101"
+  },
+  {
+    "company_name": "Artefact",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/artefactus/jobs/8395651002"
+  },
+  {
+    "company_name": "Google",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Dyna Robotics",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/dyna-robotics/080a2b88-f724-4585-8d16-2d4839a1d563/application"
+  },
+  {
+    "company_name": "Jefferies",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Fuse Energy",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/Fuse/4172e615-802b-4af2-bc94-18018b5b40e7/application"
+  },
+  {
+    "company_name": "Markon",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Giga AI",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/gigaml/96f0c2f8-3d97-4763-ab46-b6af6ad8b2e7/application"
+  },
+  {
+    "company_name": "Texas Capital Bank",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Major League Baseball",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "NOV",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Airtable",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/airtable/jobs/8423374002"
+  },
+  {
+    "company_name": "One Brief",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/onebrief/a88e10d4-66d8-4911-99e3-3d20351e73d9/application"
+  },
+  {
+    "company_name": "Mercor",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/mercor/982a0751-e9eb-4b96-ac93-a1fd1d2f9152/application"
+  },
+  {
+    "company_name": "Neon Health",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/neon-health/eb5b50a9-5cb6-4d1b-828e-189286f63320/application"
+  },
+  {
+    "company_name": "WSP",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Astro Mechanica",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/astro-mechanica/f25cc28c-9932-4e4d-a7e8-53a10a7fbd55/application"
+  },
+  {
+    "company_name": "RELEX Solutions",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Pure Storage",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://boards.greenhouse.io/purestorage/jobs/7258968"
+  },
+  {
+    "company_name": "3S Business Corporation",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/3SBusinessCorporationInc1/83254832"
+  },
+  {
+    "company_name": "Honeywell",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Atria Group",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/AtriaGroupLLC/72190211"
+  },
+  {
+    "company_name": "ASSYSTEM",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/ASSYSTEM/744000107736138"
+  },
+  {
+    "company_name": "Ask IT Consulting",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/AskITConsulting/103462571"
+  },
+  {
+    "company_name": "BCforward",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/BCforward3/93142765"
+  },
+  {
+    "company_name": "Arka Infotech",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/ArkaInfotechInc/85677157"
+  },
+  {
+    "company_name": "Baton Corporation",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/batoncorporation/bb3ab630-5e59-48b5-9794-00a225879a66"
+  },
+  {
+    "company_name": "NVIDIA",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Collabera",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/Collabera2/83773995"
+  },
+  {
+    "company_name": "Consultadd Public Services",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/Consultadd4/83942301"
+  },
+  {
+    "company_name": "Career Guidant",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/CareerGuidant/114050960"
+  },
+  {
+    "company_name": "DellFor Technologies",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/DellforTechnologies/102098119"
+  },
+  {
+    "company_name": "Blink",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://apply.workable.com/joinblink/j/7DA2C85A24/apply"
+  },
+  {
+    "company_name": "Salesforce",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Global Channel Management",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/GlobalChannelManagementInc/107765878"
+  },
+  {
+    "company_name": "IMC Trading",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.eu.greenhouse.io/imc/jobs/4786701101"
+  },
+  {
+    "company_name": "Jobs for Humanity",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/JobsForHumanity/744000095932795"
+  },
+  {
+    "company_name": "Integrated Resources",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/IntegratedResourcesINC/82590108"
+  },
+  {
+    "company_name": "KRG Technologies",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/KrgTechnologyInc/743999657712295"
+  },
+  {
+    "company_name": "Infojini",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/InfojiniInc1/101155705"
+  },
+  {
+    "company_name": "Kite Ping",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/KitePing/92816387"
+  },
+  {
+    "company_name": "Insilico Logix",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/InsilicoLogix/743999656055843"
+  },
+  {
+    "company_name": "Whoop",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.lever.co/whoop/3b94218d-3a5a-4dd1-91c7-5f18655c93a8/apply"
+  },
+  {
+    "company_name": "Nevada National Security",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Mindlance",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/Mindlance2/743999656707257"
+  },
+  {
+    "company_name": "Northwestern Mutual",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/NorthwesternMutual/743999658679125"
+  },
+  {
+    "company_name": "North Star Staffing Solutions",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/NorthStarStaffingSolutions1/81064849"
+  },
+  {
+    "company_name": "Procom",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/ProcomServices/88607930"
+  },
+  {
+    "company_name": "Pioneer Data Systems",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/PioneerDataSystemsInc/94743719"
+  },
+  {
+    "company_name": "Proximate Technologies",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/ProximateTechnologiesInc1/79795677"
+  },
+  {
+    "company_name": "Saxon Global",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/SaxonGlobal/743999658748942"
+  },
+  {
+    "company_name": "SA Technologies",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/SATechnologiesInc4/95546593"
+  },
+  {
+    "company_name": "Tech Tammina",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/TecTammina/82753733"
+  },
+  {
+    "company_name": "Software Quality Experts",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/SQexpetsLLC/743999653805861"
+  },
+  {
+    "company_name": "Testing Xperts",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/TestingXperts/743999655468616"
+  },
+  {
+    "company_name": "Merative",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/TruvenHealthAnalyticsanIBMCompany/93930814"
+  },
+  {
+    "company_name": "USM Business Systems",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/USM2/95343795"
+  },
+  {
+    "company_name": "Peraton",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Micron Technology",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "West Virginia University",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Socket",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/socket/a1be82e9-bbe4-44ad-b05a-c03075e47af1/application"
+  },
+  {
+    "company_name": "DMC Engineering",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Freedom Technology Solutions Group",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/freedomconsulting/jobs/5067514007"
+  },
+  {
+    "company_name": "Quantix SCS",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/Quantix/106736418"
+  },
+  {
+    "company_name": "Deliveroo",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/deliveroo/2b69d23b-30b5-46c8-95e8-48258ec05636/application"
+  },
+  {
+    "company_name": "iSoftStone",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Scout AI",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/scoutai/jobs/4958043008"
+  },
+  {
+    "company_name": "Horizon Technologies",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/HorizonTechnologiesInc/94324377"
+  },
+  {
+    "company_name": "mthree",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/mthreerecruitingportal/jobs/4628952006"
+  },
+  {
+    "company_name": "IDEXX",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Verse Medical",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/versemedical/af511a89-f716-4e51-9ad1-bf4e68dbdcaa/application"
+  },
+  {
+    "company_name": "Tangram Interiors",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.lever.co/tangraminteriors/c4999340-67da-4a68-99ec-da99f555abfc/apply"
+  },
+  {
+    "company_name": "The Information Lab",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.lever.co/theinformationlab/5c48a12b-6906-43d7-bd95-947b562c8701/apply"
+  },
+  {
+    "company_name": "Wheely",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://boards.greenhouse.io/wheely/jobs/7655292003"
+  },
+  {
+    "company_name": "Titan",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/titan-msp/6ba1f660-6436-42f6-aaab-80ca931e8339/application"
+  },
+  {
+    "company_name": "Stantec",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Integral Federal",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Citadel Securities",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Northwood Space",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/NorthwoodSpace/e29feaeb-9e18-40a7-a5b5-303865bdc084/application"
+  },
+  {
+    "company_name": "Schmidt Sciences",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.lever.co/schmidt-entities/c42b4c52-d92a-4bd6-bac6-6b2d94159b35/apply"
+  },
+  {
+    "company_name": "Maven Securities",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/mavensecuritiesholdingltd/jobs/7669839"
+  },
+  {
+    "company_name": "ASM International",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Relay",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/relaypro/jobs/7698008"
+  },
+  {
+    "company_name": "Waymo",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Roku",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Berkshire Hathaway Energy",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "SentiLink",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/sentilink/3cb2885e-7a58-4a14-94d5-b7b851053408/application"
+  },
+  {
+    "company_name": "University of Rochester",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "BRINC Drones",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/brinc/35c1686d-5066-4600-a7e9-0e9966fb5ee8/application"
+  },
+  {
+    "company_name": "Aurora Innovation",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "University of Arkansas",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Mach Industries",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/mach/76f40290-69b5-4dfa-b47c-1d5192855843/application"
+  },
+  {
+    "company_name": "Konrad Group",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://boards.greenhouse.io/embed/job_app?token=7669159003"
+  },
+  {
+    "company_name": "PingWind",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.lever.co/pingwind/c75277f4-3030-4c48-a155-fc45726a52ee/apply"
+  },
+  {
+    "company_name": "Williams-Sonoma",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Ivo",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.lever.co/ivo/3ce9dc16-90fd-4b99-b4b9-dfd48ec1a50d"
+  },
+  {
+    "company_name": "Nuro",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "GM financial",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "University of Wisconsin-Madison",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "WTW",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Blue Cross Blue Shield of Michigan",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Zello",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/Zello/2fa8cd4a-7ddb-40c6-8577-4a004c182e80/application"
+  },
+  {
+    "company_name": "Geneva Trading",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/genevatrading/jobs/5085231007"
+  },
+  {
+    "company_name": "Internet Brands",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Jabil",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Leidos",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "First National Bank",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Intertek",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "SCOR",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Fortinet",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Western & Southern Financial Group",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Keysight Technologies",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Global Lending Services",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.lever.co/glsllc/c1191357-09ab-4707-855b-a99c5cb99ac1/apply"
+  },
+  {
+    "company_name": "John Deere",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "CGS Federal (Contact Government Services)",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.lever.co/cgsfederal/af321f10-50ca-48d6-b807-51428a5aee7a/apply"
+  },
+  {
+    "company_name": "Heraeus Group",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Ellipsis Labs",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/ellipsislabs/256c2ec2-01c8-4ff6-9ad0-b926fe40472d/application"
+  },
+  {
+    "company_name": "True Anomaly",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/trueanomalyinc/jobs/5090441007"
+  },
+  {
+    "company_name": "DP World",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Kitware",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.lever.co/kitware/0dade915-7f07-437e-8ddf-c346f70acd1d/apply"
+  },
+  {
+    "company_name": "Denso",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Pattern Data",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/patterndata/jobs/5092337007"
+  },
+  {
+    "company_name": "Redwood Materials",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://boards.greenhouse.io/redwoodmaterials/jobs/5823270004"
+  },
+  {
+    "company_name": "Susquehanna International Group (SIG)",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Walmart",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Praetorian",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "PlayStation",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5840958004"
+  },
+  {
+    "company_name": "SourceDirect Talent",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/SourceDirectTalent/743999890004030"
+  },
+  {
+    "company_name": "Sensiple",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/EProInc/81109133"
+  },
+  {
+    "company_name": "Randstad",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/Randstad4/743999658413488"
+  },
+  {
+    "company_name": "Acumen Solutions",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/AcumenSolutions/83336667"
+  },
+  {
+    "company_name": "Idealforce",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/IDEALFORCELLC/82806726"
+  },
+  {
+    "company_name": "Beta Soft Systems",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/BetaSoftSystems3/112324552"
+  },
+  {
+    "company_name": "Lawrence Livermore National Laboratory (LLNL)",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/LLNL/3743990012255036"
+  },
+  {
+    "company_name": "Myriad Genetics",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/MyriadGenetics1/743999837980179"
+  },
+  {
+    "company_name": "System Canada Technologies",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/systemCanadaTechnologies/1388781"
+  },
+  {
+    "company_name": "Absolute Facility Solutions",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/AbsoluteFacilitySolutionsLLC/744000093987850"
+  },
+  {
+    "company_name": "EROS Technologies",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/EROSTechnologiesInc/96291524"
+  },
+  {
+    "company_name": "Direct Staffing",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/dstaff/80162129"
+  },
+  {
+    "company_name": "Deegit",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/DeegitInc3/743999653596726"
+  },
+  {
+    "company_name": "Accel Learning",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/AccelLearning/743999952511823"
+  },
+  {
+    "company_name": "AMERICAN SYSTEMS",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "STEM Xpert",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/StemXpert1/81928856"
+  },
+  {
+    "company_name": "CoServe Global Solutions",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/CoServeGlobalSolutions/83255650"
+  },
+  {
+    "company_name": "HSSSoft",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/HSSSoft/99156168"
+  },
+  {
+    "company_name": "KLA",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Aquatic Capital Management",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/aquaticcapitalmanagement/jobs/8489226002"
+  },
+  {
+    "company_name": "Agoda",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/agoda/jobs/7698911"
+  },
+  {
+    "company_name": "Rice University",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "FlexAI",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://ats.rippling.com/flexai/jobs/93ada67c-8527-427c-b2f6-4a5557b00674"
+  },
+  {
+    "company_name": "Observable Space",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/observable-space/5c3952b2-9533-46d7-97c2-a0c4fa1a90b1/application"
+  },
+  {
+    "company_name": "Emerson Electric",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "RaceTrac",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Robert Half",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Simulmedia",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.lever.co/simulmedia/52c56404-78f4-41be-a1a0-ef3ecd84993c/apply"
+  },
+  {
+    "company_name": "RTX",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Handshake",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/handshake/dd1fd4fc-6f6d-4a3d-8c54-dd91ed48dd70/application"
+  },
+  {
+    "company_name": "LetsGetChecked",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.eu.greenhouse.io/letsgetchecked/jobs/4833407101"
+  },
+  {
+    "company_name": "Capital One",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Motorola",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "hhaexchange",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.lever.co/hhaexchange/37711e74-f9e9-42c5-9c4f-66df2afab2e2/apply"
+  },
+  {
+    "company_name": "Zettabyte",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/zettabyte-space/50a9c6dc-7225-4ff0-a914-69d1dd325d6a/application"
+  },
+  {
+    "company_name": "Shield AI",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.lever.co/shieldai/dc29adac-fe50-41c1-a466-71b7700626ba/apply"
+  },
+  {
+    "company_name": "Ciena",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Viridien",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Tracer Cloud",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/tracer/b4877106-3d56-4fb7-9571-ac13673d03d8/application"
+  },
+  {
+    "company_name": "2U",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/2u/jobs/8502697002"
+  },
+  {
+    "company_name": "Datalab USA",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.lever.co/datalabusa/1550eada-3bd9-4699-b3da-a165295d27a1/apply"
+  },
+  {
+    "company_name": "KBR",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Realm",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/realmalliance/56d8b433-31ad-43a2-997e-b8538f5f2c9f"
+  },
+  {
+    "company_name": "Hyundai Motor Company",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "RS&H",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "MARGO",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.lever.co/margo-group/c23cae4d-bf0a-45ea-b1ba-8b201eac213c/apply"
+  },
+  {
+    "company_name": "First Quantum Minerals",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Akuna Capital University",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Trend Micro",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Liquid",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/liquid/7b47044b-4b81-44b4-8986-ea5eaaa85c27"
+  },
+  {
+    "company_name": "Rokt",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://apply.workable.com/rokt/j/783A754DDB/apply"
+  },
+  {
+    "company_name": "Cisive",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "GCI",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Databricks",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://boards.greenhouse.io/embed/job_app?token=8401114002"
+  },
+  {
+    "company_name": "Intel",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "University of Texas at Austin",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Equifax",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Catapult",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/catapultsports/jobs/7821130"
+  },
+  {
+    "company_name": "Jane Street",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/janestreet/jobs/8061059002"
+  },
+  {
+    "company_name": "CAE",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Accenture",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://boards.greenhouse.io/accenturefederalservices/jobs/4599640006"
+  },
+  {
+    "company_name": "Electronic Arts",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Notion",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/notion/a6311f97-4850-4674-a5f3-d9fe5f6f2555/application"
+  },
+  {
+    "company_name": "Radix Trading",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/radixuniversity/jobs/8521642002"
+  },
+  {
+    "company_name": "RoboForce",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/roboforce/jobs/5198791008"
+  },
+  {
+    "company_name": "Wonderschool",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/wonderschool/jobs/6359139003"
+  },
+  {
+    "company_name": "HighRadius",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Mirage",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/mirage/cbf278fd-84ec-48d9-8052-b76abb035ac7/application"
+  },
+  {
+    "company_name": "Greenheck Group",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Priceline",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "SeatGeek",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Dover",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Anduril",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://boards.greenhouse.io/andurilindustries/jobs/4802146007"
+  },
+  {
+    "company_name": "PAR Tech",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/PAR%20Technology/da5217c9-9b0e-493a-847e-96028574d107/application"
+  },
+  {
+    "company_name": "N1",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/n1/a3e25c84-0846-454a-b2fc-a356c2a713bd/application"
+  },
+  {
+    "company_name": "National Information Solutions Cooperative (NISC)",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/nisc/jobs/7871742"
+  },
+  {
+    "company_name": "Figma",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/figma/jobs/5976930004?gh_jid=5976930004"
+  },
+  {
+    "company_name": "BNY",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Wellington Management",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Slate Auto",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Cogent Security",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/cogent-security/96b36c74-096a-4ec6-a71e-84a43385cc4f/application"
+  },
+  {
+    "company_name": "Rogers Behavioral Health",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Blue Sky Innovators",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/blueskyinnovators/jobs/5210882008"
+  },
+  {
+    "company_name": "LiveFlow",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/liveflow/93a4d132-b68c-42d7-ace0-7975661130ba/application"
+  },
+  {
+    "company_name": "Cirrus Logic",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.eu.lever.co/cirrus/74bcfa31-ecdb-4f82-8f8a-f6025cfd4852/apply"
+  },
+  {
+    "company_name": "City of Philadelphia",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/CityofPhiladelphia/744000124986404"
+  },
+  {
+    "company_name": "CLEAR",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/clear/jobs/7901600"
+  },
+  {
+    "company_name": "Quadric",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://apply.workable.com/quadric-dot-i-o-inc/j/43779C9213/apply"
+  },
+  {
+    "company_name": "Anthropic",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/anthropic/jobs/5183044008"
+  },
+  {
+    "company_name": "AXQ Capital",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/axq/jobs/5575451004"
+  },
+  {
+    "company_name": "Oscar Health",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "The Federal Reserve System",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Icon",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/icon/8de569c7-814f-4ffe-9c21-a92d7b806be2/application"
+  },
+  {
+    "company_name": "onsemi",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Synergy ECP",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.lever.co/synergyecp/9937b3dd-fa2f-40ae-995b-3a896a0e3bd9/apply"
+  },
+  {
+    "company_name": "Zurn Elkay Water Solutions",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Udig",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Graphcore",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/graphcore/jobs/8540581002"
+  },
+  {
+    "company_name": "Ernst & Young",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Lawrence Berkeley National Laboratory",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Together AI",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/togetherai/jobs/5074064007"
+  },
+  {
+    "company_name": "NinjaOne",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Caesars Entertainment",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "CoStar Group",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Omni Design Technologies",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.lever.co/omnidesigntech/b6914c2b-2e94-49a6-a82d-928354e95c52/apply"
+  },
+  {
+    "company_name": "The Toro Company",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Invisible Technologies",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.eu.greenhouse.io/agency/jobs/4864006101"
+  },
+  {
+    "company_name": "Planet",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/planetlabs/jobs/7912657"
+  },
+  {
+    "company_name": "ShyftLabs",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.lever.co/shyftlabs/1a665cf5-1f3f-4610-be00-b46ffa13a675/apply"
+  },
+  {
+    "company_name": "Sonepar",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "TSC",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Veeva Systems",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.lever.co/veeva/6bcc8228-5b43-43e5-b96b-d62679b8c64a/apply"
+  },
+  {
+    "company_name": "Slice (slicelife.com)",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Microchip Technology",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Corning",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Western Digital",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/WesternDigital/744000126593979"
+  },
+  {
+    "company_name": "Field AI",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.lever.co/field-ai/acfba278-5f04-4639-ae26-c85e607eebce/apply"
+  },
+  {
+    "company_name": "DMI",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Carnegie Mellon University",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Makai Labs",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/makai-labs/a350e730-8d80-4528-9d41-497acbd01223/application"
+  },
+  {
+    "company_name": "L3Harris Technologies",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Ambarella",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Halliburton",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Environmental Defense Fund",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "William & Mary",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Boyd",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Amentum",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "TRM Labs",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/trm-labs/0b8546c0-39ba-44db-aba5-3425bcb2e68d/application"
+  },
+  {
+    "company_name": "Schroders",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "BlackRock",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Coherent",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Topsort",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/topsort/jobs/4829841008"
+  },
+  {
+    "company_name": "Scott Logic",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.lever.co/scottlogic/6df674ff-1e32-45ce-b8c2-9c0f5aa8f38d/apply"
+  },
+  {
+    "company_name": "Julius AI",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/julius/5e0b677a-f677-44de-93c6-f7848ab5a8e6/application"
+  },
+  {
+    "company_name": "Adobe",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Goldman Sachs",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Sandisk",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/Sandisk/744000127665769"
+  },
+  {
+    "company_name": "Altamira Technologies",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Eurofins",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/Eurofins/744000127725209"
+  },
+  {
+    "company_name": "RELX",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Acuity",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Appian",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/appian/jobs/7951022"
+  },
+  {
+    "company_name": "Salvo Health",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.lever.co/salvohealth/285d6b09-7961-490b-8927-3b24698affe9/apply"
+  },
+  {
+    "company_name": "Lumotive",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.lever.co/lumotive/869becb2-aeb0-47fd-8fcf-576003d9a012/apply"
+  },
+  {
+    "company_name": "loveholidays",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/loveholidays/80aef5f9-efe1-459f-aea6-2d86f5280bea/application"
+  },
+  {
+    "company_name": "Egis Group",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/EgisGroup/744000127876298"
+  },
+  {
+    "company_name": "Blackhawk Network Holdings",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Woven",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.lever.co/woven-by-toyota/43bdae02-424e-48f2-9648-b5aa16abcfc3/apply"
+  },
+  {
+    "company_name": "ExxonMobil",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Wilson Elser",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/wilsonelser/jobs/5200828008"
+  },
+  {
+    "company_name": "RXO",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "TSMG",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.lever.co/tsmg/01de5fe4-2e79-47ee-9230-55fe4631f52d/apply"
+  },
+  {
+    "company_name": "Kenco Management Services",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Armstrong World Industries",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Hive",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.lever.co/hive/8a55e4ff-ec69-4691-aa65-fc7cbd7c6ee0/apply"
+  },
+  {
+    "company_name": "University of Maryland - College Park",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Iambic Therapeutics",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/iambic-therapeutics/bccc58b8-6022-49d4-865b-931176a88b8e/application"
+  },
+  {
+    "company_name": "Worldwide TechServices",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/WorldwideTechServices/744000125159149"
+  },
+  {
+    "company_name": "Duke University",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "iHeartMedia",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Carrier Global",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Akima",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Elekta",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Sigma Computing",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/sigmacomputing/jobs/7690411003"
+  },
+  {
+    "company_name": "United Talent Agency",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/united-talent-agency/7b74232a-7818-422d-90ef-c25823603f52/application"
+  },
+  {
+    "company_name": "Triumph",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/triumph-arcade/c35ac12f-5b23-4e88-ae8a-a4633bdb292b/application"
+  },
+  {
+    "company_name": "Red Hat",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Halifax Health",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Société Générale de Surveillance (SGS)",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/SGS/744000128509637"
+  },
+  {
+    "company_name": "T-Rex Solutions",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Deloitte",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Steel Dynamics",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Torc Robotics",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/torcrobotics/jobs/8560188002"
+  },
+  {
+    "company_name": "Schonfeld",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/schonfeld/jobs/7957690"
+  },
+  {
+    "company_name": "QuEra Computing",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/queracomputinginc/jobs/5226440008"
+  },
+  {
+    "company_name": "Sysmex",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Danaher Corporation",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "AllianceBernstein",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Savannah River National Laboratory",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Netcompany",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/Netcompany1/744000128752871"
+  },
+  {
+    "company_name": "Kroll",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "TMX Group",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Truveta",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/truveta/jobs/6002807004"
+  },
+  {
+    "company_name": "Celigo",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/celigo/jobs/7590180"
+  },
+  {
+    "company_name": "Sony Pictures Imageworks",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/sonypicturesimageworks/jobs/7120254003"
+  },
+  {
+    "company_name": "Virtu Financial",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/virtu/jobs/8516902002"
+  },
+  {
+    "company_name": "Blue Cross of Idaho",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Johnson & Johnson",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "HRL Laboratories",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.lever.co/dodmg/7b15c72d-b697-4354-902d-b25183e9dc5a/apply"
+  },
+  {
+    "company_name": "Light & Wonder",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "General Motors",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Brink",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Enterprise Bank & Trust",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Harvard University",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/HarvardUniversity/3743990013391596"
+  },
+  {
+    "company_name": "Galaxy",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/galaxydigitalservices/jobs/6008319004"
+  },
+  {
+    "company_name": "Gynger",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.lever.co/gynger/6355791d-444f-4a38-9363-3252f38ea3bf/apply"
+  },
+  {
+    "company_name": "Sentry Insurance",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Hanger",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "candidate fyi",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/candidate.fyi/0448a10e-863f-437f-80bb-d65ee09f8b6e/application"
+  },
+  {
+    "company_name": "United Launch Alliance",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Relativity Space",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://boards.greenhouse.io/relativity/jobs/8560326002"
+  },
+  {
+    "company_name": "Acuren",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "InterSystems",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "TransMarket Group",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/transmarketgroup/jobs/5151574007?gh_jid=5151574007"
+  },
+  {
+    "company_name": "Epic Kids",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/epickids/jobs/7751646003"
+  },
+  {
+    "company_name": "Wing Assistant",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.lever.co/getwingapp/ed5f4d90-33e8-4d99-8625-cda2d55183f7/apply"
+  },
+  {
+    "company_name": "GE Healthcare",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Wellmark",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/WellmarkInc/744000129992389"
+  },
+  {
+    "company_name": "Black Box",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "STR",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/systemstechnologyresearch/jobs/4686234006"
+  },
+  {
+    "company_name": "Visionist",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "WGU",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Mercury Insurance",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Gensyn",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.eu.greenhouse.io/gensyn/jobs/4660248101"
+  },
+  {
+    "company_name": "EOS IT Solutions",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Veolia",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000130248314"
+  },
+  {
+    "company_name": "NexHealth",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Concept Plus",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://ats.rippling.com/conceptplus/jobs/916978a4-fa79-4f6e-9eb6-515aa1cf3fb5"
+  },
+  {
+    "company_name": "Johnson Controls",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Bot Auto",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/botauto/jobs/5248910008"
+  },
+  {
+    "company_name": "Paramount Global",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "VITAS Healthcare",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Impulse Space",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Brunswick",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Morgan Stanley",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Simbe Robotics",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.lever.co/SimbeRobotics/69281e17-3c49-45dc-99cb-4fab104228d5/apply"
+  },
+  {
+    "company_name": "Tesla",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Smithfield Foods",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Metropolitan Transportation Authority",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Strala Group",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/strala-ai/4f40b2ca-7e81-45ec-ba3a-e62136410184/application"
+  },
+  {
+    "company_name": "TTP",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/TTP1/744000130799419"
+  },
+  {
+    "company_name": "Texas Water Development Board",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/TexasWaterDevelopmentBoardTWDB/744000130827924"
+  },
+  {
+    "company_name": "Pigment",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.lever.co/pigment/15e7b82c-ebf3-477c-96b5-96a3b25e0663/apply"
+  },
+  {
+    "company_name": "Canon",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "EXL",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Origis Energy",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/origisenergy/jobs/5753532004"
+  },
+  {
+    "company_name": "EquipmentShare",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Chicago Trading Company",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/chicagotrading/jobs/4703954005"
+  },
+  {
+    "company_name": "DataVisor",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://apply.workable.com/datavisor-jobs/j/FC5ABB4A50/apply"
+  },
+  {
+    "company_name": "Eliyan",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.lever.co/eliyan/4f033f5a-65ff-413f-b8b3-c24c5aeb7e6b/apply"
+  },
+  {
+    "company_name": "908 Devices",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "University of Maine System",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "UW Health",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Bose",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Robert Bosch Venture Capital",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/BoschGroup/744000131227160"
+  },
+  {
+    "company_name": "Dutch",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.lever.co/dutch/bbbd283b-2632-4ad1-8d43-87b072e247c5/apply"
+  },
+  {
+    "company_name": "Fuze Health",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.eu.greenhouse.io/fuzehealth/jobs/4833389101"
+  },
+  {
+    "company_name": "Authorium",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/Authorium/e9384068-af40-47b2-83cf-ec76fd8b7222/application"
+  },
+  {
+    "company_name": "KLA Corporation",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Evolver",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/evolver/jobs/4092111009"
+  },
+  {
+    "company_name": "Walleye Capital",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4586185006"
+  },
+  {
+    "company_name": "Further",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/furtherearlycareer/jobs/8384017002"
+  },
+  {
+    "company_name": "National Basketball Association",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "VEGA Americas",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/vegaamericas/jobs/4688519006"
+  },
+  {
+    "company_name": "Symbotic",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Connection",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Peregrine",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/peregrinetechnologies/jobs/4704801005"
+  },
+  {
+    "company_name": "Amgen",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "iCapital Network",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/icapitalnetwork/jobs/8586138002"
+  },
+  {
+    "company_name": "Harbor",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/harborglobal/jobs/5091441007"
+  },
+  {
+    "company_name": "Fashion Nova",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/fashionnova/jobs/5497777"
+  },
+  {
+    "company_name": "Manhattan District Attorney's Office",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Stripe",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Mariana Minerals",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/marianaminerals/44c92dd6-55f2-4e44-9360-bf4676466dac/application"
+  },
+  {
+    "company_name": "Innodata",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/innodatainc/jobs/4266660009"
+  },
+  {
+    "company_name": "iboss",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "TickPick",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://apply.workable.com/tickpick/j/5840ECEB50/apply"
+  },
+  {
+    "company_name": "FinQuery",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.lever.co/finquery/8d49690f-a2fe-4f7b-8af2-434d0dbeb0e9/apply"
+  },
+  {
+    "company_name": "LexisNexis Risk Solutions",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Capricor Therapeutics",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.lever.co/capricor/f29602aa-a7bb-49ef-b998-f1b8efa99c44/apply"
+  },
+  {
+    "company_name": "Encord",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/encord/79ad6b1c-cb5b-4caa-a842-aaa12fc82d6b/application"
+  },
+  {
+    "company_name": "Snowflake",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/snowflake/c392f794-c8f9-42f9-baf1-75eb27c56574/application"
+  },
+  {
+    "company_name": "ADT",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Glide",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/glide/5ece3064-6884-43c2-923c-066d6187b25d/application"
+  },
+  {
+    "company_name": "Talos",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/Talos-Trading/c743ff13-4a80-4907-adf4-922a3bfbd30b/application"
+  },
+  {
+    "company_name": "AlphaSights",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Subaru",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Trane Technologies",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "NRG Energy",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Atlas Energy Solutions",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/atlassand/jobs/8589983002"
+  },
+  {
+    "company_name": "Inversion Space",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/inversionspace/jobs/4705511005"
+  },
+  {
+    "company_name": "D3",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/d3/jobs/4915213008"
+  },
+  {
+    "company_name": "Varsity Brands",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "MKS Instruments",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Illinois Tool Works",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Northrop Grumman",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Nidec",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "PA Consulting",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/PAConsulting/744000105679055"
+  },
+  {
+    "company_name": "Intuit",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "People Culture Talent",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/people-culture-talent/c1049c49-aea6-4862-a711-a4c78cf6e959"
+  },
+  {
+    "company_name": "Palantir",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.lever.co/palantir/d1ac83d0-e923-42a5-8e6d-58dd0cab25ca/apply"
+  },
+  {
+    "company_name": "Northside Hospital",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Voxel",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/voxel/eaed8e6e-fc6e-4d21-91b9-a722fda3997e/application"
+  },
+  {
+    "company_name": "Stewart",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Lendable",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/lendable/8d272690-aede-40e6-9d63-e7fbc779ecdc/application"
+  },
+  {
+    "company_name": "Seagate Technology",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Commonwealth of Massachusetts",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Chickasaw Nation Industries",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "SewerAI",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/sewer-ai/f9401e64-1cc5-41b8-9653-ea85c550bd94/application"
+  },
+  {
+    "company_name": "Criteo",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "The Boeing Company",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Baker Hughes",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Citizens Financial Group",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Skild AI",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/skildai-careers/jobs/5266172008"
+  },
+  {
+    "company_name": "Oracle",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Uhaul",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Q2",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Arc'teryx Equipment",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.lever.co/arcteryx.com/b13f7612-34ac-4215-8097-a10367bbe9d9/apply"
+  },
+  {
+    "company_name": "Netflix",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Bristol Myers Squibb",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "TELUS",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "American Institutes for Research",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/americaninstitutesforresearch/jobs/5263560008"
+  },
+  {
+    "company_name": "University of Chicago",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "iTradeNetwork",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Texas Instruments",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Ritchie Bros.",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Collective",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/collective/40516856-b29c-4b38-b434-68be5241bacf/application"
+  },
+  {
+    "company_name": "Zebra Technologies",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Mintlify",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/Mintlify/4b5b6945-1a80-49fe-8bcb-64b3075e7b5f/application"
+  },
+  {
+    "company_name": "GlobalFoundries",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Data Intellect",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/DataIntellect/744000132642599"
+  },
+  {
+    "company_name": "Silna Health",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/silnahealth.com/28ba5d0b-b862-4e04-995d-d5eff22d269e/application"
+  },
+  {
+    "company_name": "CoreWeave",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Buyers Edge Platform",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/buyersedgeplatformrecruiting/jobs/4706922005"
+  },
+  {
+    "company_name": "Scientific Research Corporation",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Serve Robotics",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/serverobotics/ccd73eb1-a418-40b0-8b19-cdead50420ad/application"
+  },
+  {
+    "company_name": "Cantor Fitzgerald",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Kaiser Permanente",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Alation",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Orb Aerospace",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.lever.co/orbaerospace/2f233c29-a4c8-490e-be99-0feaae9b75dd/apply"
+  },
+  {
+    "company_name": "Klaviyo",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/klaviyojobs/jobs/7764229003"
+  },
+  {
+    "company_name": "Teamworks",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/teamworks/317433d0-072d-40ac-822f-0e268fa6b4c3/application"
+  },
+  {
+    "company_name": "Lexical Intelligence",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Clinical Architecture",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/clinicalarchitecture/jobs/5168369007"
+  },
+  {
+    "company_name": "Worcester Polytechnic Institute",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Horizon Surgical Systems",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/horizonsurgicalsystems/jobs/5166527007"
+  },
+  {
+    "company_name": "Prizeout",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.lever.co/prizeout/1e3dab04-db41-4e97-9a42-7fb25e548583/apply"
+  },
+  {
+    "company_name": "Nutanix",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Hadrian",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/hadrian-automation/41472a42-c3c3-40bd-a784-8a3fbab47be3/application"
+  },
+  {
+    "company_name": "The Home Depot",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Westinghouse Electric Company",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Ping Identity",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/pingidentity/jobs/8582872002"
+  },
+  {
+    "company_name": "Aditude",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/aditude/291d58da-0601-42e6-ad0a-7bf11f14a765/application"
+  },
+  {
+    "company_name": "Medpace",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "AG Technologies",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/AGTechnologies1/85322486"
+  },
+  {
+    "company_name": "Marshall Wace",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/mw-tech-grad/jobs/8600515002"
+  },
+  {
+    "company_name": "Euronext",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Prosidian Consulting",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/prosidianconsulting/744000054185841"
+  },
+  {
+    "company_name": "Idexcel",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/Idexcel3/104328430"
+  },
+  {
+    "company_name": "CSX",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "UL Solutions",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Draper",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Quince",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/quince/jobs/5264916008"
+  },
+  {
+    "company_name": "Radiance Technologies",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "The Aerospace Corporation",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Eataly",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/Eataly/744000133451175"
+  },
+  {
+    "company_name": "Argonne National Laboratory",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Best Buy",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Cox",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "DAT Freight & Analytics",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Raymond James Financial",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Marsh & McLennan",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "PrizePicks",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "AAR",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Likewize",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "United Franchise Group",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/UnitedFranchiseGroup/744000133697159"
+  },
+  {
+    "company_name": "SS&C",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Exponent",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Sev1Tech",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Klarity",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/klarity-ai/99de9d9b-d0c6-42a6-9e4d-2df097dae008/application"
+  },
+  {
+    "company_name": "UBS",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "HumanSignal",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/humansignal/jobs/5823660004"
+  },
+  {
+    "company_name": "SRI International",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Allica Bank",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/allica-bank/e73d2e2f-4fcb-4fbf-8216-665a0a4a6c9d/application"
+  },
+  {
+    "company_name": "City and County of San Francisco",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/CityAndCountyOfSanFrancisco1/3743990013780745"
+  },
+  {
+    "company_name": "Abound",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/Abound/7ae69c2b-1dae-40c6-a5b2-8f5b42157263/application"
+  },
+  {
+    "company_name": "Shift",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/shifttechnology/jobs/5910904003"
+  },
+  {
+    "company_name": "Cresta",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/cresta/jobs/4970396008"
+  },
+  {
+    "company_name": "Ford Motor Company",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "MBDA",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Analog Devices",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Ensign-Bickford Industries",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "BlueCross BlueShield of South Carolina",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Bernhard",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Inova",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Zimmer Biomet Holdings",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Moog",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Re:Build Manufacturing",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/rebuildmanufacturing/jobs/4700747005"
+  },
+  {
+    "company_name": "Esri",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "S&P Global",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Eastern Research Group",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.lever.co/erg/8fbd157f-aabd-44ba-926f-db233304378a/apply"
+  },
+  {
+    "company_name": "Sinclair",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Intercontinental Exchange",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "GRVTY",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/grvty/jobs/4217625009"
+  },
+  {
+    "company_name": "Broadcom Limited",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "National Laboratory of the Rockies",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Verkada",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/verkada/jobs/5174431007"
+  },
+  {
+    "company_name": "RFCUNY",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Tierpoint",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Yellowbrick",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Bits",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://apply.workable.com/getbits/j/C1E552FAB5/apply"
+  },
+  {
+    "company_name": "Roblox",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Billtrust",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "AQR Capital Management",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Tracebit",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/tracebit/b15236d9-29fa-4d7c-9873-1a23ca5cc034/application"
+  },
+  {
+    "company_name": "Adtran",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Aramark",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Qorvo",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "White Cap Supply Holdings",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Arkansas Blue Cross",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "The Nuclear Company",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/thenuclearcompany/jobs/5285585008"
+  },
+  {
+    "company_name": "Saronic",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/saronic/d07819de-fc2c-4ce7-a4d9-52da1b038afb/application"
+  },
+  {
+    "company_name": "Dexcom",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Integration Innovation (i3)",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Clera",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/clera/92549653-5f67-498e-9adf-c2bacb89089f/application"
+  },
+  {
+    "company_name": "Nightwing Intelligence Solutions",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "AeroVironment",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "PIMCO",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Lyft",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "UJET",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/ujet/jobs/4707365005"
+  },
+  {
+    "company_name": "AfterQuery",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/AfterQuery/4e0d6e12-23b5-4a46-9ea5-63cbc2659ac8/application"
+  },
+  {
+    "company_name": "Flashpoint",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/flashpoint.io/84e64d83-f0b2-43db-8151-94dc75f2c705/application"
+  },
+  {
+    "company_name": "Cetera Financial Group",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Snap-on",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Vancouver Coastal Health",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Transcat",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Ontario Teachers' Pension Plan",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Steampunk",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Capy",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/capy/4619acbc-e763-453c-8364-dffdaaf19484/application"
+  },
+  {
+    "company_name": "Agile Defense",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.lever.co/agile-defense/4d5254dd-8366-4983-9156-a7f989fea964/apply"
+  },
+  {
+    "company_name": "NXP Semiconductors",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "NV5 Global",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "T.D. Williamson",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Generalist",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/generalist/fc7c7b49-248a-4849-a473-a0bd246e5486/application"
+  },
+  {
+    "company_name": "Hatch IT",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.lever.co/hatchit/a23a592b-edc0-498a-b90e-a521a706120e/apply"
+  },
+  {
+    "company_name": "Cylake",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/cylake-inc/1d1ac42e-299c-42af-bd7c-b8c5fb07f735/application"
+  },
+  {
+    "company_name": "Dewberry",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "StepStone Group",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://boards.greenhouse.io/embed/job_app?token=8024388"
+  },
+  {
+    "company_name": "NCR Voyix",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "PointOne",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/PointOne/1e312db8-6d18-4d07-af99-ed3ba165e7d9/application"
+  },
+  {
+    "company_name": "Höganäs",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Jumio",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/jumio/jobs/4709633005"
+  },
+  {
+    "company_name": "Momentum Engineering",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://ats.rippling.com/momentumcareers/jobs/e1151761-ee74-4f66-bbc4-b676f7f7db71"
+  },
+  {
+    "company_name": "Primetals Technologies",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Babel Street",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/babelstreet/jobs/8030833"
+  },
+  {
+    "company_name": "Brown Brothers Harriman",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "ServiceLink",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Lynk",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/Lynk/5ff6f792-dbe9-49ed-80df-52f0079e0189/application"
+  },
+  {
+    "company_name": "Microsoft",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Blitzy",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/blitzy/c0505f75-cb01-4b07-a29d-a7b16501ac9d/application"
+  },
+  {
+    "company_name": "Meticulous",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/meticulous/e6d1e0ab-8a28-49ee-94ed-d232886cd7d5/application"
+  },
+  {
+    "company_name": "Cooper Companies",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Hologic",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Stand Together",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.lever.co/standtogether/92015b6f-ac8b-4b60-8afc-b193c95813db/apply"
+  },
+  {
+    "company_name": "Allen Control Systems",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/allen-control-systems/1f34d2aa-5629-47dc-ba9a-9d263c315bb8/application"
+  },
+  {
+    "company_name": "Etched",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/Etched/a735c757-7d39-47de-9329-77d6362b5547/application"
+  },
+  {
+    "company_name": "Howmet Aerospace",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Sportradar",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/Sportradar/744000134957389"
+  },
+  {
+    "company_name": "Ivy Tech Community College",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Kraken Robotics",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://ats.rippling.com/kraken-robotics-inc/jobs/306b015a-6c3c-4205-b6df-6a9c7ce7b9a8"
+  },
+  {
+    "company_name": "General Dynamics",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "CesiumAstro",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.lever.co/CesiumAstro/efc711ca-9f46-434f-9275-b557a3e5b108/apply"
+  },
+  {
+    "company_name": "Censys",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/censys/jobs/8500307002"
+  },
+  {
+    "company_name": "Citadel",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Rural King",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Spry Methods",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.lever.co/sprymethods/fe9298b9-c538-42c6-b4a0-bf63fdd68f42/apply"
+  },
+  {
+    "company_name": "Gumloop",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/Gumloop/cdb897fd-bd89-4395-bbb0-d29a83c02357/application"
+  },
+  {
+    "company_name": "Fujifilm",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Gentex Corporation",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Genentech",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Path Robotics",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://boards.greenhouse.io/pathrobotics/jobs/8533161002"
+  },
+  {
+    "company_name": "Optiver",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Edgehog Trading",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://ats.rippling.com/edgehog-trading/jobs/10ba9bbf-9fbe-49ff-8f58-a88041de1438"
+  },
+  {
+    "company_name": "Palo Alto Networks",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Moab",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/moab/8ab10f9b-2a49-409d-8b20-7ecf1ed92ee4/application"
+  },
+  {
+    "company_name": "Confido",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/confido/69c0e572-b2f4-442f-beb8-1240155c629e/application"
+  },
+  {
+    "company_name": "Moder",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Teledyne",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Toyota",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Nakupuna Companies",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "CrowdGen by Appen",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.lever.co/appen/bea969fc-4198-4680-b527-dae3bf67527e/apply"
+  },
+  {
+    "company_name": "Avnet",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Fideres",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.eu.greenhouse.io/fideres/jobs/4711405101"
+  },
+  {
+    "company_name": "The Hut Group",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Rocket Lab USA",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/rocketlab/jobs/7565913003"
+  },
+  {
+    "company_name": "Amigo AI",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/amigo/77e12c0a-e623-4988-8c60-78e3017f0876/application"
+  },
+  {
+    "company_name": "Emory Healthcare",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Jones Lang LaSalle (JLL)",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Boston Consulting Group",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Pennsylvania State University",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Stryker",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Hewlett Packard (HP)",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Truist Bank",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "State Street",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Dave & Busters",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Royal Bank of Canada",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Hewlett Packard Enterprise",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Cardinal Health",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Atomic Machines",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/atomicmachines/jobs/4231211009"
+  },
+  {
+    "company_name": "Legrand North America",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "algo1",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/algo1/607dad25-2eb1-4911-8424-3d1a470c65c6/application"
+  },
+  {
+    "company_name": "Andrew Morgan",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Ancestry",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "WellSky",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Clarity Innovations",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/clarityinnovates/jobs/5167161007"
+  },
+  {
+    "company_name": "Caterpillar Inc.",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "University of Central Florida",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Catalist",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.lever.co/catalist/20b8d282-a781-4f5b-9a39-eca0baee8956/apply"
+  },
+  {
+    "company_name": "Cision",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.eu.greenhouse.io/cision/jobs/4899574101"
+  },
+  {
+    "company_name": "Freeform",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/freeformfuturecorp/jobs/7793109003"
+  },
+  {
+    "company_name": "Apptronik",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://boards.greenhouse.io/apptronik/jobs/6107171004"
+  },
+  {
+    "company_name": "IXL Learning",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "McDonald's",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Visa",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Specter",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/specter/af53e965-287d-4a18-9090-6e6302b4c78c/application"
+  },
+  {
+    "company_name": "Flexport",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://boards.greenhouse.io/flexport/jobs/8015840"
+  },
+  {
+    "company_name": "Sono Bello",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/sonobello/jobs/5290870008"
+  },
+  {
+    "company_name": "Maven Clinic",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/mavenclinic/jobs/8462839002"
+  },
+  {
+    "company_name": "Stanley Black & Decker",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "TripAdvisor",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/tripadvisor/jobs/8038210"
+  },
+  {
+    "company_name": "Latitude AI",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/latitude/jobs/8045205"
+  },
+  {
+    "company_name": "STEM Healthcare",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/stemhealthcare/jobs/8044122"
+  },
+  {
+    "company_name": "Inizio",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/ashfieldadvisory/jobs/8045336"
+  },
+  {
+    "company_name": "State of North Carolina",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Medical College of Wisconsin",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Targeted Victory",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "CGS Immersive",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/immersive/jobs/5290237008"
+  },
+  {
+    "company_name": "Arcadis",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Relation Therapeutics",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/relationrx/b5494e2f-b47d-4bd9-aeb8-964b9fdcadce/application"
+  },
+  {
+    "company_name": "KION Group",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Preference Model",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/Preference-Model/44642065-e592-44ba-810d-a019703463b6/application"
+  },
+  {
+    "company_name": "Rivet Industries",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/rivet/545349a1-139e-4119-96fd-928d3e4ac8c9/application"
+  },
+  {
+    "company_name": "Welo Global",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.lever.co/weloglobal/b26aa765-1a9d-46f7-a899-0354c3ee428d/apply"
+  },
+  {
+    "company_name": "Ramboll",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/Ramboll3/744000132475979"
+  },
+  {
+    "company_name": "Alta Resource Technologies",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/altaresourcetechnologiesinc/jobs/4225005009"
+  },
+  {
+    "company_name": "Headlands Tech Holdings",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/headlandstechnologiesllc/jobs/4227566009"
+  },
+  {
+    "company_name": "Tower Research Capital",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Celonis",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/celonis/jobs/7725788003?gh_jid=7725788003"
+  },
+  {
+    "company_name": "Change Grow Live",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Everfox",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Applied Systems, Inc.",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Beacon AI",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/beaconai/c7c05f23-554c-4679-a34f-bfbd6e1de79c/application"
+  },
+  {
+    "company_name": "HELLBENDER",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/hellbenderinc/jobs/5293169008"
+  },
+  {
+    "company_name": "Liberty University",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Spotify",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.lever.co/spotify/b4ad9572-e20f-4185-a284-99d9740d04f0/apply"
+  },
+  {
+    "company_name": "Metergy Solutions",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.lever.co/metergysolutions/c9608025-557a-4ed7-a612-a69cd1db3ab6/apply"
+  },
+  {
+    "company_name": "dunnhumby",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/dunnhumby/jobs/7787366003"
+  },
+  {
+    "company_name": "Vestmark",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/vestmark/jobs/8042636"
+  },
+  {
+    "company_name": "TD Bank",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Oklahoma State Government",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "T. Rowe Price",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Tandem Diabetes Care",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "NewsBreak",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/newsbreak/jobs/4694899006"
+  },
+  {
+    "company_name": "Parkdepot",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.lever.co/salesdemo-jr/b2b796b7-cc11-4456-bb00-a2a72fa11f09/apply"
+  },
+  {
+    "company_name": "Cerebras",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/cerebras/987d7f64-c957-4c8f-b89d-2f9d64738507/application"
+  },
+  {
+    "company_name": "Quantcast",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/quantcast/2a6d8f0e-e0f3-4114-944b-2736b26072c4/application"
+  },
+  {
+    "company_name": "Revenue Analytics",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.lever.co/revenueanalytics/d1d069f6-be13-431b-94c9-626f5bed83c6/apply"
+  },
+  {
+    "company_name": "DuCharme, McMillen & Associates",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Orennia",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://boards.greenhouse.io/orennia/jobs/5251401008"
+  },
+  {
+    "company_name": "Arista Networks",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/AristaNetworks/744000136204119"
+  },
+  {
+    "company_name": "Teza Technologies",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/teza-technologies/7319556d-40bf-442e-bb78-e658e938a7a3/application"
+  },
+  {
+    "company_name": "The Access Group",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Mark43",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Varian",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Avis Budget Group",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Montenson",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Diebold Nixdorf",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "StubHub",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.eu.greenhouse.io/stubhubinc/jobs/4921819101"
+  },
+  {
+    "company_name": "Becton Dickinson",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Jefferson Health",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "May Mobility",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/maymobility/jobs/8611992002"
+  },
+  {
+    "company_name": "SimpliSafe",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/simplisafe/jobs/8049515"
+  },
+  {
+    "company_name": "Nationwide",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "First Financial Bank",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "IMA Financial Group",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "TD Synnex",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Cambridge Associates",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "PURE Insurance",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Ferrovial",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Super Micro Computer",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Blissway",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/blissway/662f1761-5d28-421d-8b47-605cc910991d/application"
+  },
+  {
+    "company_name": "Hilbert",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/hilberts/adbe0102-fa3e-484f-98c8-bf02dd478945/application"
+  },
+  {
+    "company_name": "Commure",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/Commure/faeeff7f-b1f9-4db2-93ff-99da570f85b0/application"
+  },
+  {
+    "company_name": "Brookhaven Lab",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Keystone AI",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Adventist Health",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "LexisNexis Legal & Professional",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "PartnerRe",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "The Walt Disney Company",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Kemin",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Pine Rest",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "RoadRunner Recycling",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/roadrunner/jobs/4307451009"
+  },
+  {
+    "company_name": "Travelers",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "KeyBank",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "M&T Bank",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Facility Solutions Group",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "DTCC",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Comcast",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "University of British Columbia",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Cincinnati Children’s Hospital and Medical Center",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Sika",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/SikaAG/744000136490620"
+  },
+  {
+    "company_name": "World Wide Professional Solutions",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.lever.co/wwprosolutions/0ffd03e5-9556-41b9-8eee-85932d0fe5b9/apply"
+  },
+  {
+    "company_name": "Rocket Companies",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Zoox",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.lever.co/zoox/76845566-1870-4836-91ee-ff8e27462f8d/apply"
+  },
+  {
+    "company_name": "iA American",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Apex Service Partners",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Florida Atlantic University",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Jump Trading",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://boards.greenhouse.io/embed/job_app?token=7728630"
+  },
+  {
+    "company_name": "Metalcraft of Mayville",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Kong",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/kong/c0a091c1-46ba-4a87-93d9-45a1449ec234/application"
+  },
+  {
+    "company_name": "AcuityMD",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/acuitymd/jobs/6111981004"
+  },
+  {
+    "company_name": "Momentum",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/momentumcompany3/jobs/8606824002"
+  },
+  {
+    "company_name": "Red Ventures",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Cubic",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Genuine Parts Company",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Masco",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Lithia Motors",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Built Technologies",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/getbuilt/jobs/4713164005"
+  },
+  {
+    "company_name": "Pharo Management",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/pharomanagement/jobs/7798505003"
+  },
+  {
+    "company_name": "Generac",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "NASA Jet Propulsion Laboratory (JPL)",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Gotion",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/gotion/jobs/8282912002"
+  },
+  {
+    "company_name": "Quora",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/quora/3eb7e80e-6a0d-41b6-8ee4-f62421c486e4/application"
+  },
+  {
+    "company_name": "Abbott",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Mauser Packaging Solutions",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Trio",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.lever.co/trio/21f7e6e8-1357-4c31-a04c-36f1e48853a8/apply"
+  },
+  {
+    "company_name": "Hard Rock Digital",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Busey Bank",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Elwood Technologies",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/elwoodtechnologies/jobs/6112453004"
+  },
+  {
+    "company_name": "VF",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Regeneron Pharmaceuticals",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Sentara Health",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Pylon",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/pylon-labs/38814ce7-217b-40f2-9ba5-8a7733a5691d/application"
+  },
+  {
+    "company_name": "Strada Education Foundation",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.lever.co/stradaeducation/dca47da4-85fc-481f-8aa5-fa664a9d37bc/apply"
+  },
+  {
+    "company_name": "Yale University",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "PDF Solutions",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Alpha FMC",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/alphafmcroles/jobs/8626491002"
+  },
+  {
+    "company_name": "Edwards Lifesciences",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Garner Health",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/garnerhealth/jobs/6112552004"
+  },
+  {
+    "company_name": "Generate Biomedicines",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Fidelity National Information Services",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Cadence Design Systems",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Molina Healthcare",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Stoke Space",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Alkira",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Cerity Partners",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "American Electric Power",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Mass General Brigham",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Kustomer",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/kustomer/4037272a-7fd3-4040-906b-47fde875a817/application"
+  },
+  {
+    "company_name": "Ryan Specialty",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Glean",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/gleanwork/jobs/4713145005"
+  },
+  {
+    "company_name": "HNTB",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Globus Medical",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Exact Sciences",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Thomas & Hutton",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.lever.co/tandh/710c31c7-2c83-41b0-b44b-9edf283996d1/apply"
+  },
+  {
+    "company_name": "Alarm.com",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/alarmcom/jobs/8612482002"
+  },
+  {
+    "company_name": "American Express",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Marriott International",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Protective Life",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.lever.co/protective/3c40e93e-66e3-4aeb-9a8a-ed65f826ed41/apply"
+  },
+  {
+    "company_name": "Empower",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Brigham Young University",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Toast",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://boards.greenhouse.io/embed/job_app?token=8046879"
+  },
+  {
+    "company_name": "Tulane University",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Astronomer",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/astronomer/540c1dd1-5658-49f9-b587-37865a360cd4/application"
+  },
+  {
+    "company_name": "Gen Digital",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/gen-digital/b3ab78c4-af7c-4a95-9bbb-f6264e0c3adf/application"
+  },
+  {
+    "company_name": "Exa",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/exa/fcebd301-b473-40dc-b733-362883ac1f37/application"
+  },
+  {
+    "company_name": "Alkegen",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Hawk-Eye Innovations",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/hawkeyeinnovations/4956a424-8147-4366-b403-95b89e2ba748/application"
+  },
+  {
+    "company_name": "KCI Technologies",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Megger",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "xAI",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/xai/jobs/5173147007"
+  },
+  {
+    "company_name": "Northslope Technologies",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/northslope-technologies/80b82167-7101-4f78-9006-7755dd2ca01e/application"
+  },
+  {
+    "company_name": "Rhoda AI",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/rhoda-ai/70677a34-7232-45c1-bdcc-e12801ccfef3/application"
+  },
+  {
+    "company_name": "WhatNot",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/whatnot/bc8f8c7f-2c4c-4f43-a238-953568c101b8/application"
+  },
+  {
+    "company_name": "GHD",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "CAI",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "U.S. Bank",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "University of Ottawa",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Kimley-Horn",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Northern Trust",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Radius Limited",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/RadiusLimited/744000137481419"
+  },
+  {
+    "company_name": "Zensar",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "DoorDash",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/doordashusa/jobs/7263610"
+  },
+  {
+    "company_name": "Old Mission",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "PNC Financial Services",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "DRW",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/drweng/jobs/7980165"
+  },
+  {
+    "company_name": "Maybell Quantum Industries",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/maybellquantum/jobs/5345023008"
+  },
+  {
+    "company_name": "Hello Fresh",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "LPL Financial Holdings",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "AbbVie",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.smartrecruiters.com/AbbVie/3743990014058986"
+  },
+  {
+    "company_name": "Aledade",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.lever.co/aledade/3eafe371-4bee-492f-af5c-fd2e3f71b8da/apply"
+  },
+  {
+    "company_name": "Allstate Insurance Company",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Vishay Intertechnology",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "FOX",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "FlightHub",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/flighthub/jobs/8060355"
+  },
+  {
+    "company_name": "Milwaukee Tool",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Yes Energy",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/yesenergy/jobs/5344484008"
+  },
+  {
+    "company_name": "Abridge",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/abridge/7d6ae2be-cd53-466c-8151-2dae2e87aace/application"
+  },
+  {
+    "company_name": "Marathon Petroleum",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Sunday Robotics",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/sunday/09da6504-ef7a-454e-9232-d3d45770c5c9/application"
+  },
+  {
+    "company_name": "Humana",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "KoBold Metals",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/koboldmetals/jobs/4702493005"
+  },
+  {
+    "company_name": "Focus Financial Partners",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/focusfinancialpartners/jobs/5996236004"
+  },
+  {
+    "company_name": "Affinius Capital",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Trexquant",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://apply.workable.com/trexquant/j/974C6CE712/apply"
+  },
+  {
+    "company_name": "MGM Resorts International",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "SambaNova Systems",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "WPP Media",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/wppmedia/jobs/5112174008"
+  },
+  {
+    "company_name": "Stellant Systems",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Cincinnati Financial",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "AeroVect",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/AeroVect/0677f8a9-c7dd-4e36-ac45-685fbc28bca4/application"
+  },
+  {
+    "company_name": "Arch Capital Group",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Ralliant",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Katalyst Space Technologies",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/katalyst/jobs/6115352004"
+  },
+  {
+    "company_name": "Waste Management",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Foot Locker",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Old Republic Title",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "WuXi AppTec",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Voloridge",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/voloridgeinvestmentmanagement/jobs/4224950009"
+  },
+  {
+    "company_name": "CharterUP",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/charterup/jobs/5225364008"
+  },
+  {
+    "company_name": "Tax Relief Advocates",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/taxreliefadvocates/jobs/5277890008"
+  },
+  {
+    "company_name": "Mastercard",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Polymarket",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/polymarket/fc6fa07f-b39c-4916-b54e-1adca738c1be/application"
+  },
+  {
+    "company_name": "Medline",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Wash U",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Impiricus",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/impiricus/jobs/5349829008"
+  },
+  {
+    "company_name": "Booz Allen",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Guidewire",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Viavi Solutions",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Daimler Truck",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Great American Insurance Company",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "GE Vernova",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Atrium Health",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Ignite Digital Services",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "InstaLILY",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/instalilyai/jobs/4271757009"
+  },
+  {
+    "company_name": "Repsol",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Enbridge",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Kantar",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Sleep Doctor",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/sleepdoctor/jobs/7805274003"
+  },
+  {
+    "company_name": "BGE",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://job-boards.greenhouse.io/bgeinc/jobs/5351606008"
+  },
+  {
+    "company_name": "Fundamental Research Labs",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/fundamentalresearchlabs/8d460b28-233d-4305-a708-cf547ec3285e/application?embed=true"
+  },
+  {
+    "company_name": "X Development",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "T-Mobile",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Quantexa",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/quantexa/b835b33f-a320-48b9-bf6b-e7c59cc87466/application?embed=true"
+  },
+  {
+    "company_name": "Faros AI",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/faros-ai/622e1f1e-4a39-4e7c-8526-1189ca588066/application?embed=true"
+  },
+  {
+    "company_name": "Checkout.com",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/checkout.com/c37d4aba-998a-4266-8525-2b5fad1bfb56/application?embed=true"
+  },
+  {
+    "company_name": "Corvus Robotics",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://jobs.ashbyhq.com/corvus-robotics/e180a9e8-6611-485b-b76a-bbf995b69e7f/application?embed=true"
+  },
+  {
+    "company_name": "Standard Aero",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Rippling",
+    "source_platform": "simplify-newgrad",
+    "career_page_url": "https://ats.rippling.com/rippling/jobs/7efd5065-2437-4c0d-a0f6-80138e3de1a0"
+  },
+  {
+    "company_name": "Airbus",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "Rolls-Royce",
+    "source_platform": "simplify-newgrad"
+  },
+  {
+    "company_name": "SRI",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Skyworks",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Hunt Oil Company",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Reacher",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.ashbyhq.com/reacher/99eb7e94-ebde-41c6-acae-efef58d3babe"
+  },
+  {
+    "company_name": "OCC",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Aechelon Technology",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://job-boards.greenhouse.io/aechelontechnology/jobs/4904960008"
+  },
+  {
+    "company_name": "Advantmed",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://apply.workable.com/advantmed/j/45F5E3C394/"
+  },
+  {
+    "company_name": "Stevens Capital Management",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://job-boards.greenhouse.io/ftandinternships/jobs/1304473"
+  },
+  {
+    "company_name": "Walrus",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.ashbyhq.com/walrusfi/99c93c0e-ed9a-4e41-862a-0cdbe71d7d54"
+  },
+  {
+    "company_name": "TENEX.AI",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.ashbyhq.com/tenex/fbfefd5c-ae95-4a71-8a75-e2b61facb304"
+  },
+  {
+    "company_name": "Dandy",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.ashbyhq.com/dandy/d8491a88-fa90-4299-afb0-af3a2121663f"
+  },
+  {
+    "company_name": "Ardian",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Point72",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://boards.greenhouse.io/point72/jobs/7586061002"
+  },
+  {
+    "company_name": "Neuralink",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://boards.greenhouse.io/neuralink/jobs/6594422003"
+  },
+  {
+    "company_name": "Barclays",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Simular",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.ashbyhq.com/Simular/94cbb2c9-392a-4cea-a9bf-cb6c80be3009/application"
+  },
+  {
+    "company_name": "Institute of Foundation Models",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.lever.co/ifm-us/5342e333-61b9-406d-bfea-61a687a94d1f/apply"
+  },
+  {
+    "company_name": "PayPal",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "AccuWeather",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://job-boards.greenhouse.io/accuweather/jobs/7453001"
+  },
+  {
+    "company_name": "Etched.ai",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.ashbyhq.com/etched/605c286d-be56-4e83-83b8-436d29ce17df"
+  },
+  {
+    "company_name": "Base Power",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.ashbyhq.com/base-power/a8ee9a66-e90b-42c2-a4a2-28d997c3e8c7/application"
+  },
+  {
+    "company_name": "Westinghouse",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Meta",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Bosch",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.smartrecruiters.com/BoschGroup/c4621e0f-5c1e-4a67-adc4-0671cbcaf28c"
+  },
+  {
+    "company_name": "Capella",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "ASML",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Velera",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "LinkedIn",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.smartrecruiters.com/LinkedIn3/aa222455-47c8-492e-a445-5ccbcee7ae9b"
+  },
+  {
+    "company_name": "AstraZeneca",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Symmetry Systems",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.lever.co/SymmetrySystems/dbca271b-a99b-48ab-83f2-b596a037ad65/apply"
+  },
+  {
+    "company_name": "The Exploration Company",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.ashbyhq.com/the-exploration-company/da63221d-dd60-41fe-8dd5-bb1a565a7824"
+  },
+  {
+    "company_name": "Waabi",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.lever.co/waabi/62700386-b9db-4c78-aec3-5ef59cbe841e/apply"
+  },
+  {
+    "company_name": "Tencent",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Cadence",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Copart",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "thyssenkrupp",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "MCG Health",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://job-boards.greenhouse.io/mcghealth/jobs/8350486002"
+  },
+  {
+    "company_name": "Astranis",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://job-boards.greenhouse.io/astranis/jobs/4601135006"
+  },
+  {
+    "company_name": "Instacart",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Samsung Research America",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://job-boards.greenhouse.io/samsungresearchamericainternship/jobs/8342576002"
+  },
+  {
+    "company_name": "Intropic",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.lever.co/intropic/a4a5fb03-4a97-4f18-a680-7dd5663955a2/apply"
+  },
+  {
+    "company_name": "Faire",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://boards.greenhouse.io/faire/jobs/8376377002"
+  },
+  {
+    "company_name": "Vendelux",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.ashbyhq.com/vendelux/9d881505-f522-43fd-b99d-be71a397cb43/application"
+  },
+  {
+    "company_name": "Air Liquide",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Leggett & Platt",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Perplexity AI",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.ashbyhq.com/Perplexity/79a07e2d-6150-4929-80fe-bbe13a641763/application"
+  },
+  {
+    "company_name": "SharkNinja",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4646448006"
+  },
+  {
+    "company_name": "GE Appliances",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Ginkgo Bioworks",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://job-boards.greenhouse.io/ginkgobioworks/jobs/5033167007"
+  },
+  {
+    "company_name": "W.R. Berkley",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Sila Nanotechnologies",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://job-boards.greenhouse.io/silananotechnologies/jobs/7584168"
+  },
+  {
+    "company_name": "RESPEC",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.smartrecruiters.com/RESPECInc/744000107100902"
+  },
+  {
+    "company_name": "Medical Informatics Engineering",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://job-boards.greenhouse.io/medicalinformaticsengineering/jobs/4116759009"
+  },
+  {
+    "company_name": "Dryft",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.ashbyhq.com/dryft/3f1c261d-9b65-412b-9f17-34b8968bdd78/application"
+  },
+  {
+    "company_name": "Auctor",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.ashbyhq.com/auctor/9d67c881-3ca7-4616-a059-e94c03e19607/application"
+  },
+  {
+    "company_name": "Prior Labs",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.ashbyhq.com/prior-labs/09410424-8e94-4747-8155-bbcd0b1d4f6e/application"
+  },
+  {
+    "company_name": "Midmark",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "University of Texas - Austin",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Faculty AI",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.ashbyhq.com/faculty/b0001741-61ad-49c6-b3e1-91922f7d4026/application"
+  },
+  {
+    "company_name": "Eloquent AI",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.ashbyhq.com/eloquentai/6da20f29-5de4-4c58-9057-05d2937faca7/application"
+  },
+  {
+    "company_name": "Grant Thornton",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "BlinqLABS",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.smartrecruiters.com/Blinqlabs/743999734120603"
+  },
+  {
+    "company_name": "Barkback",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.smartrecruiters.com/barkbackLlc/90864007"
+  },
+  {
+    "company_name": "Codeage",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.smartrecruiters.com/Codeage/743999669081604"
+  },
+  {
+    "company_name": "Huxley",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.smartrecruiters.com/ComputerFutures3/101016513"
+  },
+  {
+    "company_name": "LAXIR",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.smartrecruiters.com/Laxir1/743999834183955"
+  },
+  {
+    "company_name": "University of Wyoming",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "HCompany",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.ashbyhq.com/hcompany/856b1025-791f-46ed-9ea0-a88bb2f32ce5/application"
+  },
+  {
+    "company_name": "Multiply Labs",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.lever.co/multiplylabs/acca98ab-c206-4f71-b7a5-6977e4828586"
+  },
+  {
+    "company_name": "Brookfield",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Samaya",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://job-boards.greenhouse.io/samayaai/jobs/4652765007"
+  },
+  {
+    "company_name": "Sajix",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.smartrecruiters.com/SajixSoftwareSolutionPrivateLimited/744000058603750"
+  },
+  {
+    "company_name": "Serval",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.ashbyhq.com/Serval/d7fb089c-db8a-4877-a5f3-73a09e67f54b/application"
+  },
+  {
+    "company_name": "Fundwell",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.ashbyhq.com/fundwell/2d91136d-b54d-4ed0-93de-22c7839a3982/application"
+  },
+  {
+    "company_name": "Phia",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.ashbyhq.com/phia/71c26b8b-86cd-446d-a63f-8cd8c2a3f162/application"
+  },
+  {
+    "company_name": "PennState University",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Marmon Holdings",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Nio",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Sundt",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Tilde Research",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.ashbyhq.com/tilderesearch/bc4e4071-cf64-4460-8265-b1e5a603d6b8/application"
+  },
+  {
+    "company_name": "Hermeus",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.lever.co/hermeus/51378fa0-0327-45fd-9420-b6e7d8b56440"
+  },
+  {
+    "company_name": "Monolithic Power Systems",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Internship",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.ashbyhq.com/interplay/da19ed8a-f03c-49d8-a2fd-d2988b8c3369"
+  },
+  {
+    "company_name": "Magna",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Smiths Detection",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.smartrecruiters.com/SmithsGroup2/a22945f0-59b6-4c3f-87f1-43c05b535677"
+  },
+  {
+    "company_name": "Center for AI Safety",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.lever.co/aisafety/e011814b-9a80-43d6-bb0c-cc153ea4bec4/apply"
+  },
+  {
+    "company_name": "Tenstorrent",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/4501164007"
+  },
+  {
+    "company_name": "K1",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Creatify Lab",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.ashbyhq.com/creatify/75a1f1ad-13d2-4513-952c-71b6dfcaa84f/application"
+  },
+  {
+    "company_name": "Arlo",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Digs",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://job-boards.greenhouse.io/digs/jobs/4663939006"
+  },
+  {
+    "company_name": "CalAmp",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Rivian",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Varda Space",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://job-boards.greenhouse.io/vardaspace/jobs/7676465003"
+  },
+  {
+    "company_name": "Alertus Technologies",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.lever.co/alertus/fa66c3bc-1410-441b-ad01-73b2df83bbd7/apply"
+  },
+  {
+    "company_name": "Hippocratic AI",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.ashbyhq.com/Hippocratic%20AI/0437c678-bd5a-429d-b34b-bfd3b70d1793/application"
+  },
+  {
+    "company_name": "OpenAI",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.ashbyhq.com/openai/7613aca3-9dd8-41cd-b114-06ef4de967a9/application"
+  },
+  {
+    "company_name": "NICE",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://boards.eu.greenhouse.io/nice/jobs/4822654101?gh_jid=4822654101"
+  },
+  {
+    "company_name": "VaynerMedia",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Instawork",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://job-boards.greenhouse.io/instawork/jobs/4588237006"
+  },
+  {
+    "company_name": "10a Labs",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://job-boards.greenhouse.io/10alabs/jobs/4203095009"
+  },
+  {
+    "company_name": "Doctors Without Borders",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://job-boards.greenhouse.io/msfcareers/jobs/4993728008"
+  },
+  {
+    "company_name": "Atomic Semi",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.ashbyhq.com/atomicsemi/009d0819-c688-4ab9-8816-a3c7ab002470/application"
+  },
+  {
+    "company_name": "Comtech",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.smartrecruiters.com/ComtechLLC2/743999653824310"
+  },
+  {
+    "company_name": "Kanshe Infotech",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.smartrecruiters.com/Learnkwikcom/744000065800616"
+  },
+  {
+    "company_name": "HEXAWARE",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "SoloPulse",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.lever.co/solopulseco/418b3949-3b21-48f9-b7a0-1c036ca0ba51/apply"
+  },
+  {
+    "company_name": "Physical Intelligence",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.ashbyhq.com/physicalintelligence/f83ba447-2261-4832-95db-a2f88454e0ba/application"
+  },
+  {
+    "company_name": "Interdigital",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Veeva",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Omnis",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://ats.rippling.com/omnis-corporation/jobs/e389ff2d-5be5-4571-8cc1-f361a139b753"
+  },
+  {
+    "company_name": "Eulerity",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://job-boards.greenhouse.io/eulerity/jobs/4671025006"
+  },
+  {
+    "company_name": "Cloudforce",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.lever.co/go-cloudforce/cf2f1855-3ad7-4d4a-a100-2e627f703af4"
+  },
+  {
+    "company_name": "Ekimetrics",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.lever.co/ekimetrics/d8f0b664-ad5b-4111-a1dc-a8143934bf24/apply"
+  },
+  {
+    "company_name": "Tradeweb",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Workato",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://job-boards.greenhouse.io/workato/jobs/8492935002"
+  },
+  {
+    "company_name": "Sandhills Global",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Output Biosciences",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.ashbyhq.com/output/da2723ca-a418-49f1-b7da-a4f383dd8239"
+  },
+  {
+    "company_name": "Cotiviti",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Lennox International",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Context",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.ashbyhq.com/context/1c657ebf-3842-4ca4-ab55-54ffaf1e49d8/application"
+  },
+  {
+    "company_name": "Haize Labs",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://job-boards.greenhouse.io/haizelabs/jobs/4685944008"
+  },
+  {
+    "company_name": "Pinterest",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Blockhouse",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.ashbyhq.com/blockhouse/42a3066f-683c-4b32-b097-5047e89dd12c/application"
+  },
+  {
+    "company_name": "Regal Rexnord",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "TIFIN",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Corpay",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "AI Fund",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.lever.co/AIFund/7a921322-2215-483d-a28b-8da7a815b6cf/apply"
+  },
+  {
+    "company_name": "Integra FEC",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://job-boards.greenhouse.io/integra/jobs/5134592008"
+  },
+  {
+    "company_name": "d-Matrix",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.ashbyhq.com/d-Matrix/93a6e6ee-3391-4437-8459-e28eb05eace7/application"
+  },
+  {
+    "company_name": "Axiomatic AI",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://job-boards.eu.greenhouse.io/axiomaticai/jobs/4848121101"
+  },
+  {
+    "company_name": "Rainmaker",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.lever.co/make-rain/b45f954e-19df-45b1-8748-c8ae442a2e8b"
+  },
+  {
+    "company_name": "TMEIC",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://apply.workable.com/tmeic-corporation-americas/j/FD4C9770FF/"
+  },
+  {
+    "company_name": "American Enterprise Institute",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Cohere",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.ashbyhq.com/cohere/8c035d3d-081d-4c8a-914a-72f4efaad254/application"
+  },
+  {
+    "company_name": "Gemini",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=7875125&gh_jid=7875125"
+  },
+  {
+    "company_name": "XPENG Motors",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://job-boards.greenhouse.io/xpengmotors/jobs/8535409002"
+  },
+  {
+    "company_name": "Skydio",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.ashbyhq.com/skydio/f6320e9b-4eed-408d-8d37-d509fb0406ee/application"
+  },
+  {
+    "company_name": "Magnet Forensics",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.lever.co/magnetforensics/d393ab82-448a-4dc2-87d0-a00981a55785/apply"
+  },
+  {
+    "company_name": "Cole Engineering Services",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Advanced Energy",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "SOTI",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Apogee Engineering",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Eluvio",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://apply.workable.com/eluvio/j/F70F3473E7/apply"
+  },
+  {
+    "company_name": "Super",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.ashbyhq.com/super.com/8179b5ad-9074-4d96-aa92-366cf12ab5d5/application"
+  },
+  {
+    "company_name": "Astera",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.ashbyhq.com/astera/c2a48c1b-c4c4-4333-addf-313c47e26066/application"
+  },
+  {
+    "company_name": "ATCO",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Formlabs",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Docugami",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://job-boards.greenhouse.io/docugami/jobs/4014838003"
+  },
+  {
+    "company_name": "GenScript",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://job-boards.greenhouse.io/genscript/jobs/5138842007"
+  },
+  {
+    "company_name": "Menasha Corporation",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Melotech",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.ashbyhq.com/melotech/e99207bd-8a2f-4641-a463-08a6633a7073/application"
+  },
+  {
+    "company_name": "Nuclear Promise X",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.ashbyhq.com/NPX/4a250618-dcfb-4ec9-8687-b2be9e2d6ef2/application"
+  },
+  {
+    "company_name": "Lila Sciences",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://job-boards.greenhouse.io/lilasciences/jobs/4031379009"
+  },
+  {
+    "company_name": "PlusAI",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.lever.co/plus-2/30dd9b9b-48c8-4777-97f6-8edb30db12e4/apply"
+  },
+  {
+    "company_name": "Wealth.com",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.ashbyhq.com/wealth-com/1899d513-4c4a-43b2-a307-8c8e4b877622/application"
+  },
+  {
+    "company_name": "BlueLabs Analytics",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://job-boards.greenhouse.io/bluelabsanalyticsinc/jobs/5142269007"
+  },
+  {
+    "company_name": "Kinaxis",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Nissan Global",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Great Question",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.ashbyhq.com/greatquestion/c533196c-75d5-43b8-b1c8-dedf2437d544/application"
+  },
+  {
+    "company_name": "Reply",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.lever.co/reply/0fb458db-7cb9-4bfd-b9b6-c1c681316061/apply"
+  },
+  {
+    "company_name": "EV Realty",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.lever.co/evrealty-us/0274f48f-9b19-4bed-bf6a-5e02a2b1e865/apply"
+  },
+  {
+    "company_name": "MAG Aerospace",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Southern Company",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Technergetics",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://job-boards.greenhouse.io/technergetics/jobs/4681908006"
+  },
+  {
+    "company_name": "Fussball Club Cincinnati LLC (“FC Cincinnati”)",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://job-boards.greenhouse.io/fccincinnati/jobs/7741524003"
+  },
+  {
+    "company_name": "Meshy",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.ashbyhq.com/meshy/2f33b2eb-b76d-4618-b299-497471f263b9"
+  },
+  {
+    "company_name": "Smiths Detection Group",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.smartrecruiters.com/SmithsGroup2/744000128739981"
+  },
+  {
+    "company_name": "Agilent Technologies",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Boys Town",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Apera AI",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://job-boards.greenhouse.io/aperaaiinc/jobs/5151788007"
+  },
+  {
+    "company_name": "Lambda",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.ashbyhq.com/lambda/1c764f96-966d-4560-8087-35452480d330/application"
+  },
+  {
+    "company_name": "GenBio AI",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.lever.co/genbio/4bdb14ae-e19f-40c8-84db-1307dbdabe74/apply"
+  },
+  {
+    "company_name": "Clerkie",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "American University",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Daktronics",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Fluxergy",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.lever.co/fluxergy-2/c592763e-56ba-4d20-b751-3a4574470eec/apply"
+  },
+  {
+    "company_name": "PsiQuantum",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Instead",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://job-boards.greenhouse.io/instead/jobs/7761472003"
+  },
+  {
+    "company_name": "Altom Transport",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://apply.workable.com/altom-transport/j/8536165C7B/apply"
+  },
+  {
+    "company_name": "Cummins",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "WeRide",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.lever.co/weride/c7652fd5-65d8-443d-ab4c-5b450acac77d/apply"
+  },
+  {
+    "company_name": "Solink",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.ashbyhq.com/solink/df855bdc-1d59-4af5-b7dc-5e23801aeb30/application"
+  },
+  {
+    "company_name": "Scale AI",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://job-boards.greenhouse.io/scaleai/jobs/4703343005"
+  },
+  {
+    "company_name": "Seaspan",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Four Hands",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://job-boards.greenhouse.io/fourhands/jobs/4272048009"
+  },
+  {
+    "company_name": "TribalScale",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://job-boards.greenhouse.io/tribalscale/jobs/4687337006"
+  },
+  {
+    "company_name": "Centerfield",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.ashbyhq.com/centerfield/3279e803-56ab-4e12-8168-c2fd60bc8e60/application"
+  },
+  {
+    "company_name": "Block",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "SHEIN",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Lightmatter",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://boards.greenhouse.io/lightmatter/jobs/5252538008"
+  },
+  {
+    "company_name": "Rivian and Volkswagen Group Technologies",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.ashbyhq.com/rivianvw.tech/3f314ca7-978e-4ad6-b527-0487a9a9598c/application"
+  },
+  {
+    "company_name": "AMAROK Security",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://job-boards.greenhouse.io/amarok/jobs/6018661004"
+  },
+  {
+    "company_name": "Delta Dental",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Kepler Communications",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.lever.co/kepler/afe34c63-ab6d-42a6-8571-dab052ee9c41/apply"
+  },
+  {
+    "company_name": "OfferUp",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://job-boards.greenhouse.io/offerup/jobs/8004171"
+  },
+  {
+    "company_name": "NatWest Group",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "KPH Healthcare Services",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Mercer University",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "MFS",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "SDSU Research Foundation",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "The Campbell's Company",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Definity Financial",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Periodic Labs",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.ashbyhq.com/periodic-labs/2cfb099d-42f1-4dff-93f4-1862b13f914a/application"
+  },
+  {
+    "company_name": "Synchrony Financial",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Viking Global",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://job-boards.greenhouse.io/vikingglobalinvestors/jobs/6005845004"
+  },
+  {
+    "company_name": "Adaption Labs",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.ashbyhq.com/adaption/3acd56ba-3085-441e-ba75-e6252ce3d566/application"
+  },
+  {
+    "company_name": "Flagright",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.ashbyhq.com/flagright.com/cdc0b71f-fb24-49bf-babe-de63bdaacb7e/application"
+  },
+  {
+    "company_name": "Marvell",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Sony",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Navaide",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://navaide.breezy.hr/p/3fe610df21d6/apply"
+  },
+  {
+    "company_name": "Consensus Cloud Solutions",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Beyondsoft",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "iHerb",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://job-boards.greenhouse.io/iherb/jobs/7776154003"
+  },
+  {
+    "company_name": "EPRI",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Toyota Research Institute",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.lever.co/tri/15969a29-b217-482f-8c67-67d091b054c8/apply"
+  },
+  {
+    "company_name": "Boston Properties",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Nelnet",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "ACI Worldwide",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Niural",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.ashbyhq.com/niural/d20af572-03b9-4f2a-8476-53c34203b2bc"
+  },
+  {
+    "company_name": "Muru",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "SimonComputing",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "MyEmployment",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Mindsmith",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "VetsEZ",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://vetsez.breezy.hr/p/a4010fdb3a7001-full-stack-developer-intern-remote-opportunity"
+  },
+  {
+    "company_name": "HARMAN",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Markem-Imaje",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Delta Air Lines",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Later",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://job-boards.greenhouse.io/later/jobs/8604889002"
+  },
+  {
+    "company_name": "pony.ai",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://apply.workable.com/pony-dot-ai/j/4C1F53EF5D/apply"
+  },
+  {
+    "company_name": "Hiverge",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.ashbyhq.com/hiverge/ea6edea4-5216-4cdc-b368-909ba91c78a3/application"
+  },
+  {
+    "company_name": "Phamily",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://job-boards.greenhouse.io/jobsatphamily/jobs/5281446008"
+  },
+  {
+    "company_name": "Astera Labs",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://job-boards.greenhouse.io/asteraearlycareer2026/jobs/4611422005"
+  },
+  {
+    "company_name": "Clio",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Applied Intuition",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.ashbyhq.com/applied/91e0686e-272a-4780-b33d-d7860b94a7b4/application"
+  },
+  {
+    "company_name": "Aptiv",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "KRAFTON",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://job-boards.greenhouse.io/studiokraftonboard/jobs/8613468002"
+  },
+  {
+    "company_name": "Altasciences",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Hendrick Motorsports",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Kabam",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.lever.co/kabam/28fb96f9-f044-4435-b49d-db5fd7b93857/apply"
+  },
+  {
+    "company_name": "ACLU Kentucky",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://job-boards.greenhouse.io/acluinternships/jobs/8612266002"
+  },
+  {
+    "company_name": "BSE Global",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Truland Equipment",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Intuitive Surgical",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.smartrecruiters.com/Intuitive/744000133458290"
+  },
+  {
+    "company_name": "Binance",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.ashbyhq.com/binance.us/c23e9aa3-0daa-4170-a5a7-b03aaa031895/application"
+  },
+  {
+    "company_name": "Xsolla",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.lever.co/xsolla/384e323c-5b67-4846-8943-a8e7a03fe237/apply"
+  },
+  {
+    "company_name": "Blue Cross Blue Shield of Arizona",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "F. Schumacher & Co.",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://job-boards.greenhouse.io/fschumacherco/jobs/5279316008"
+  },
+  {
+    "company_name": "University of Virginia",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Maxima",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.ashbyhq.com/maxima/c0204f04-af26-4a57-9658-64ee6d4beb74/application"
+  },
+  {
+    "company_name": "Kensington",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://job-boards.greenhouse.io/kensingtontours/jobs/5172026007"
+  },
+  {
+    "company_name": "The University of Edinburgh",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "American Heart Association",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Persistent Systems",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Diversified Automation",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.lever.co/diversified-automation/3cea02c8-9a43-4542-96bb-df69a874f146/apply"
+  },
+  {
+    "company_name": "kos.ai",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.ashbyhq.com/kos.ai/efab6ffb-9658-47f7-8b5f-a295c55957d3/application"
+  },
+  {
+    "company_name": "InfiniteQuant",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.smartrecruiters.com/InfiniteQuant/744000129235439"
+  },
+  {
+    "company_name": "The Tatitlek Corporation",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Protech Automotive Solutions",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Remarcable",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.ashbyhq.com/remarcable-inc/38e76aaf-d0b3-40c7-8055-cb7e11ed26cd/application"
+  },
+  {
+    "company_name": "Climate Corps",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://job-boards.greenhouse.io/cc/jobs/5278533008"
+  },
+  {
+    "company_name": "William Blair",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Espa AI",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.ashbyhq.com/espa/6fa2d441-971f-44c4-9a4e-3304ea041cc8/application"
+  },
+  {
+    "company_name": "The Wonderful Company",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.smartrecruiters.com/TheWonderfulCompany/744000135343439"
+  },
+  {
+    "company_name": "Seven Research",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://job-boards.greenhouse.io/sevenresearch/jobs/4895007008"
+  },
+  {
+    "company_name": "Cloudflare",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://boards.greenhouse.io/cloudflare/jobs/8015230"
+  },
+  {
+    "company_name": "Human Computer Lab",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.ashbyhq.com/human-computer-lab/7d13ae27-1f02-4d9b-8d39-e3d9d67df705/application"
+  },
+  {
+    "company_name": "Eight Sleep",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.ashbyhq.com/eightsleep/26d71b34-8a04-45e4-8c39-980688779dc3/application"
+  },
+  {
+    "company_name": "Valeo",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Citi",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Bosch Home Comfort",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.smartrecruiters.com/BoschGroup/744000134840254"
+  },
+  {
+    "company_name": "Blackstone",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "McKesson",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Integrity",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Traackr",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.lever.co/traackr/9d884d26-018c-45b2-8cfb-f17d29d4e688/apply"
+  },
+  {
+    "company_name": "Two Six Technologies",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://job-boards.greenhouse.io/twosixtechnologies/jobs/6105290004"
+  },
+  {
+    "company_name": "Moment Energy",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://job-boards.greenhouse.io/momentenergy/jobs/4257336009"
+  },
+  {
+    "company_name": "Nestle",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "ConnectPrep",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://apply.workable.com/connectprep/j/C0CA13664F/apply"
+  },
+  {
+    "company_name": "Rise8",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://job-boards.greenhouse.io/rise8/jobs/4359627007"
+  },
+  {
+    "company_name": "AtkinsRéalis",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Arlington County VA",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "McMaster-Carr",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://job-boards.greenhouse.io/mcmastercarr/jobs/4226729009"
+  },
+  {
+    "company_name": "Sezzle",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://job-boards.greenhouse.io/sezzle/jobs/6599073003"
+  },
+  {
+    "company_name": "Lovable",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.ashbyhq.com/lovable/1d226bc3-d26c-481f-8619-88b6cc9179d8/application"
+  },
+  {
+    "company_name": "CTGT",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.ashbyhq.com/ctgt/f657c2f5-125e-42b6-a68a-646bbea3d155/application"
+  },
+  {
+    "company_name": "Droyd Robotics",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.ashbyhq.com/droyd/fd533fd8-65a7-41eb-bdf0-e75f02e739e9/application"
+  },
+  {
+    "company_name": "Verne Robotics",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.ashbyhq.com/Verne%20Robotics/bb78cdd4-449b-49f0-bd10-2c62fc85f83b/application"
+  },
+  {
+    "company_name": "WindBorne Systems",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.ashbyhq.com/windborne-systems/75c5c65c-8179-4ca0-9659-39bf0f8f7b8b/application"
+  },
+  {
+    "company_name": "University of Nevada, Reno",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "American Bureau of Shipping",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "AlixPartners",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Ada",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://job-boards.greenhouse.io/ada18/jobs/5180710007"
+  },
+  {
+    "company_name": "Blue River Technology",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Hitachi",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Hitachi Energy",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Global Infrastructure",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Horizon Industries",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://job-boards.greenhouse.io/horizonindustrieslimited/jobs/5301639008"
+  },
+  {
+    "company_name": "1X",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.ashbyhq.com/1x/5b2b4c73-13b5-46ca-8467-8024741a4b57/application"
+  },
+  {
+    "company_name": "Amwins",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Bank of Montreal",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Rockwell Automation",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Democratic Governors Association",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.lever.co/dga/cc41da12-5af0-41b6-b85e-301af4868bca/apply"
+  },
+  {
+    "company_name": "OLG",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Autodesk",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Zurich Insurance",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Hone Health",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://job-boards.greenhouse.io/honehealth/jobs/5308958008"
+  },
+  {
+    "company_name": "Flow Traders",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://job-boards.greenhouse.io/flowtraders/jobs/8047166"
+  },
+  {
+    "company_name": "NAV CANADA",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Alberta Investment Management Corporation",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Uber Freight",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://job-boards.greenhouse.io/uberfreight/jobs/5194491008"
+  },
+  {
+    "company_name": "Brevium",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://job-boards.greenhouse.io/brevium/jobs/4326783006"
+  },
+  {
+    "company_name": "Vital Lyfe",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.ashbyhq.com/vital-lyfe/43a79d8f-a8bb-4c57-a411-1bac946128af/application"
+  },
+  {
+    "company_name": "Pika",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.ashbyhq.com/pika/e135acb1-2a0b-47b4-81b2-3cb0f787657a/application"
+  },
+  {
+    "company_name": "Great Gray",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.lever.co/great-gray-group/1b6aeb9b-b5c0-4e74-a23c-d89560e38eb3/apply"
+  },
+  {
+    "company_name": "Exowatt",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.lever.co/exowatt/2623555d-8b81-4f95-8bca-de9fafd2381c/apply"
+  },
+  {
+    "company_name": "Chevron Corporation",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Arrowstreet Capital",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "World Surf League",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://boards.greenhouse.io/worldsurfleague/jobs/8629100002"
+  },
+  {
+    "company_name": "DiDi Global",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://job-boards.greenhouse.io/didi/jobs/8056492"
+  },
+  {
+    "company_name": "Octaura",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://job-boards.greenhouse.io/octaura/jobs/4662934007"
+  },
+  {
+    "company_name": "Revvity",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Southern New Hampshire University",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "City of Aurora",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "GE Aerospace",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Adaptive Security",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.ashbyhq.com/adaptivesecurity/a941849b-bc2b-421d-b58c-bd76cfa31b1b/application"
+  },
+  {
+    "company_name": "BDO Canada",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Avaap",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Persona AI",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.ashbyhq.com/persona.ai/6078fafd-ba34-4c89-b260-7eb15be3cb9c/application"
+  },
+  {
+    "company_name": "Duracell",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Arizona State University",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "QuantCo",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.lever.co/quantco-/d69096fa-b673-4953-ba63-7deee08bc13c/apply"
+  },
+  {
+    "company_name": "Orbital Industries",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.ashbyhq.com/orbitalindustries/837b7e29-b89a-4ea4-b90d-48d8782f48b8/application"
+  },
+  {
+    "company_name": "Levi Strauss & Co.",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Argmax",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://job-boards.greenhouse.io/argmax/jobs/4067268009"
+  },
+  {
+    "company_name": "Procter & Gamble (P&G)",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Navy Federal",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Kulicke & Soffa",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Global Relay",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Stevens Institute of Technology",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "NextGen Federal Systems",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.lever.co/nextgenfed/54d1576e-c3d9-454a-b1a2-dac0b2fe5920/apply"
+  },
+  {
+    "company_name": "Lumentum",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Papa John's",
+    "source_platform": "simplify-intern"
+  },
+  {
+    "company_name": "Custom Computer Specialists",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://job-boards.greenhouse.io/customcomputerspecialists/jobs/4221846009"
+  },
+  {
+    "company_name": "General Atlantic",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://job-boards.greenhouse.io/generalatlantic/jobs/6115031004"
+  },
+  {
+    "company_name": "Scopely",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://job-boards.greenhouse.io/scopely/jobs/5208115008?gh_jid=5208115008"
+  },
+  {
+    "company_name": "Circleback",
+    "source_platform": "simplify-intern",
+    "career_page_url": "https://jobs.ashbyhq.com/circleback/2bb6be67-d1a8-42f7-bb1b-64ee36bf613f/application?embed=true"
+  }
+]

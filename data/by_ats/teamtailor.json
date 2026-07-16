@@ -6,8 +6,10 @@
     "board_token": "bunny-net",
     "domain_hint": "CDN/edge-compute",
     "source_platforms": [
+      "awesome-remote-companies",
       "himalayas",
-      "manual-target"
+      "manual-target",
+      "weworkremotely"
     ]
   },
   {

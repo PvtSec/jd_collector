@@ -1,5 +1,337 @@
 [
   {
+    "company_name": "3S Business Corporation",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/3SBusinessCorporationInc1/83254832",
+    "board_token": "3SBusinessCorporationInc1",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "AbbVie",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/AbbVie/3743990014058986",
+    "board_token": "AbbVie",
+    "domain_hint": "",
+    "source_platforms": [
+      "himalayas",
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "Absolute Facility Solutions",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/AbsoluteFacilitySolutionsLLC/744000093987850",
+    "board_token": "AbsoluteFacilitySolutionsLLC",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "Accel Learning",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/AccelLearning/743999952511823",
+    "board_token": "AccelLearning",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "Acumen Solutions",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/AcumenSolutions/83336667",
+    "board_token": "AcumenSolutions",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "AG Technologies",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/AGTechnologies1/85322486",
+    "board_token": "AGTechnologies1",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "Arista Networks",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/AristaNetworks/744000136204119",
+    "board_token": "AristaNetworks",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "Arka Infotech",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/ArkaInfotechInc/85677157",
+    "board_token": "ArkaInfotechInc",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "Ask IT consulting",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/AskITConsulting/103462571",
+    "board_token": "AskITConsulting",
+    "domain_hint": "",
+    "source_platforms": [
+      "himalayas",
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "ASSYSTEM",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/ASSYSTEM/744000107736138",
+    "board_token": "ASSYSTEM",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "Atria Group",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/AtriaGroupLLC/72190211",
+    "board_token": "AtriaGroupLLC",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "Barkback",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/barkbackLlc/90864007",
+    "board_token": "barkbackLlc",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-intern"
+    ]
+  },
+  {
+    "company_name": "BCforward",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/BCforward3/93142765",
+    "board_token": "BCforward3",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "Beta Soft Systems",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/BetaSoftSystems3/112324552",
+    "board_token": "BetaSoftSystems3",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "BlinqLABS",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/Blinqlabs/743999734120603",
+    "board_token": "Blinqlabs",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-intern"
+    ]
+  },
+  {
+    "company_name": "Bosch",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/BoschGroup/c4621e0f-5c1e-4a67-adc4-0671cbcaf28c",
+    "board_token": "BoschGroup",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-intern"
+    ]
+  },
+  {
+    "company_name": "Bosch Home Comfort",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/BoschGroup/744000134840254",
+    "board_token": "BoschGroup",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-intern"
+    ]
+  },
+  {
+    "company_name": "Career Guidant",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/CareerGuidant/114050960",
+    "board_token": "CareerGuidant",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "City and County of San Francisco",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/CityAndCountyOfSanFrancisco1/3743990013780745",
+    "board_token": "CityAndCountyOfSanFrancisco1",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "City of Philadelphia",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/CityofPhiladelphia/744000124986404",
+    "board_token": "CityofPhiladelphia",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "Codeage",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/Codeage/743999669081604",
+    "board_token": "Codeage",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-intern"
+    ]
+  },
+  {
+    "company_name": "Collabera",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/Collabera2/83773995",
+    "board_token": "Collabera2",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "Comtech",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/ComtechLLC2/743999653824310",
+    "board_token": "ComtechLLC2",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-intern"
+    ]
+  },
+  {
+    "company_name": "Consultadd Public Services",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/Consultadd4/83942301",
+    "board_token": "Consultadd4",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "CoServe Global Solutions",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/CoServeGlobalSolutions/83255650",
+    "board_token": "CoServeGlobalSolutions",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "Data Intellect",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/DataIntellect/744000132642599",
+    "board_token": "DataIntellect",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "Deegit",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/DeegitInc3/743999653596726",
+    "board_token": "DeegitInc3",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "DellFor Technologies",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/DellforTechnologies/102098119",
+    "board_token": "DellforTechnologies",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "Direct Staffing",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/dstaff/80162129",
+    "board_token": "dstaff",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "Eataly",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/Eataly/744000133451175",
+    "board_token": "Eataly",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "Egis Group",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/EgisGroup/744000127876298",
+    "board_token": "EgisGroup",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "EROS Technologies",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/EROSTechnologiesInc/96291524",
+    "board_token": "EROSTechnologiesInc",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "Eurofins",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/Eurofins/744000127725209",
+    "board_token": "Eurofins",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
     "company_name": "Flywire",
     "website": "https://www.flywire.com",
     "career_page_url": "https://www.flywire.com/company/careers",
@@ -8,6 +340,229 @@
     "source_platforms": [
       "builtin",
       "himalayas"
+    ]
+  },
+  {
+    "company_name": "Global Channel Management",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/GlobalChannelManagementInc/107765878",
+    "board_token": "GlobalChannelManagementInc",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "Harvard University",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/HarvardUniversity/3743990013391596",
+    "board_token": "HarvardUniversity",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "Horizon Technologies",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/HorizonTechnologiesInc/94324377",
+    "board_token": "HorizonTechnologiesInc",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "HSSSoft",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/HSSSoft/99156168",
+    "board_token": "HSSSoft",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "Huxley",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/ComputerFutures3/101016513",
+    "board_token": "ComputerFutures3",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-intern"
+    ]
+  },
+  {
+    "company_name": "Idealforce",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/IDEALFORCELLC/82806726",
+    "board_token": "IDEALFORCELLC",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "Idexcel",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/Idexcel3/104328430",
+    "board_token": "Idexcel3",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "InfiniteQuant",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/InfiniteQuant/744000129235439",
+    "board_token": "InfiniteQuant",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-intern"
+    ]
+  },
+  {
+    "company_name": "Infojini",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/InfojiniInc1/101155705",
+    "board_token": "InfojiniInc1",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "Insilico Logix",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/InsilicoLogix/743999656055843",
+    "board_token": "InsilicoLogix",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "Integrated Resources",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/IntegratedResourcesINC/82590108",
+    "board_token": "IntegratedResourcesINC",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "Intuitive Surgical",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/Intuitive/744000133458290",
+    "board_token": "Intuitive",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-intern"
+    ]
+  },
+  {
+    "company_name": "Jobs for Humanity",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/JobsForHumanity/744000095932795",
+    "board_token": "JobsForHumanity",
+    "domain_hint": "",
+    "source_platforms": [
+      "himalayas",
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "Kanshe Infotech",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/Learnkwikcom/744000065800616",
+    "board_token": "Learnkwikcom",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-intern"
+    ]
+  },
+  {
+    "company_name": "Kite Ping",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/KitePing/92816387",
+    "board_token": "KitePing",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "KRG Technologies",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/KrgTechnologyInc/743999657712295",
+    "board_token": "KrgTechnologyInc",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "Lawrence Livermore National Laboratory (LLNL)",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/LLNL/3743990012255036",
+    "board_token": "LLNL",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "LAXIR",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/Laxir1/743999834183955",
+    "board_token": "Laxir1",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-intern"
+    ]
+  },
+  {
+    "company_name": "Merative",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/TruvenHealthAnalyticsanIBMCompany/93930814",
+    "board_token": "TruvenHealthAnalyticsanIBMCompany",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "Mindlance",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/Mindlance2/743999656707257",
+    "board_token": "Mindlance2",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "Myriad Genetics",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/MyriadGenetics1/743999837980179",
+    "board_token": "MyriadGenetics1",
+    "domain_hint": "",
+    "source_platforms": [
+      "himalayas",
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "Netcompany",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/Netcompany1/744000128752871",
+    "board_token": "Netcompany1",
+    "domain_hint": "",
+    "source_platforms": [
+      "himalayas",
+      "simplify-newgrad"
     ]
   },
   {
@@ -22,6 +577,338 @@
     ]
   },
   {
+    "company_name": "North Star Staffing Solutions",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/NorthStarStaffingSolutions1/81064849",
+    "board_token": "NorthStarStaffingSolutions1",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "Northwestern Mutual",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/NorthwesternMutual/743999658679125",
+    "board_token": "NorthwesternMutual",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "PA Consulting",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/PAConsulting/744000105679055",
+    "board_token": "PAConsulting",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "Pioneer Data Systems",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/PioneerDataSystemsInc/94743719",
+    "board_token": "PioneerDataSystemsInc",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "Procom",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/ProcomServices/88607930",
+    "board_token": "ProcomServices",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "Prosidian Consulting",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/prosidianconsulting/744000054185841",
+    "board_token": "prosidianconsulting",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "Proximate Technologies",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/ProximateTechnologiesInc1/79795677",
+    "board_token": "ProximateTechnologiesInc1",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "Quantix SCS",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/Quantix/106736418",
+    "board_token": "Quantix",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "Radius Limited",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/RadiusLimited/744000137481419",
+    "board_token": "RadiusLimited",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "Ramboll",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/Ramboll3/744000132475979",
+    "board_token": "Ramboll3",
+    "domain_hint": "",
+    "source_platforms": [
+      "himalayas",
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "Randstad",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/Randstad4/743999658413488",
+    "board_token": "Randstad4",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "RESPEC",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/RESPECInc/744000107100902",
+    "board_token": "RESPECInc",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-intern"
+    ]
+  },
+  {
+    "company_name": "Robert Bosch Venture Capital",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/BoschGroup/744000131227160",
+    "board_token": "BoschGroup",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "SA Technologies",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/SATechnologiesInc4/95546593",
+    "board_token": "SATechnologiesInc4",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "Sajix",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/SajixSoftwareSolutionPrivateLimited/744000058603750",
+    "board_token": "SajixSoftwareSolutionPrivateLimited",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-intern"
+    ]
+  },
+  {
+    "company_name": "Sandisk",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/Sandisk/744000127665769",
+    "board_token": "Sandisk",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "Saxon Global",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/SaxonGlobal/743999658748942",
+    "board_token": "SaxonGlobal",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "Sensiple",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/EProInc/81109133",
+    "board_token": "EProInc",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "ServiceNow",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/ServiceNow/744000107369741",
+    "board_token": "ServiceNow",
+    "domain_hint": "",
+    "source_platforms": [
+      "himalayas",
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "Sika",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/SikaAG/744000136490620",
+    "board_token": "SikaAG",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "Smiths Detection",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/SmithsGroup2/a22945f0-59b6-4c3f-87f1-43c05b535677",
+    "board_token": "SmithsGroup2",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-intern"
+    ]
+  },
+  {
+    "company_name": "Smiths Detection Group",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/SmithsGroup2/744000128739981",
+    "board_token": "SmithsGroup2",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-intern"
+    ]
+  },
+  {
+    "company_name": "Société Générale de Surveillance (SGS)",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/SGS/744000128509637",
+    "board_token": "SGS",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "Software Quality Experts",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/SQexpetsLLC/743999653805861",
+    "board_token": "SQexpetsLLC",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "SourceDirect Talent",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/SourceDirectTalent/743999890004030",
+    "board_token": "SourceDirectTalent",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "Sportradar",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/Sportradar/744000134957389",
+    "board_token": "Sportradar",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "STEM Xpert",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/StemXpert1/81928856",
+    "board_token": "StemXpert1",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "System Canada Technologies",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/systemCanadaTechnologies/1388781",
+    "board_token": "systemCanadaTechnologies",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "Tech Tammina",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/TecTammina/82753733",
+    "board_token": "TecTammina",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "Testing Xperts",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/TestingXperts/743999655468616",
+    "board_token": "TestingXperts",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "Texas Water Development Board",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/TexasWaterDevelopmentBoardTWDB/744000130827924",
+    "board_token": "TexasWaterDevelopmentBoardTWDB",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "The Wonderful Company",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/TheWonderfulCompany/744000135343439",
+    "board_token": "TheWonderfulCompany",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-intern"
+    ]
+  },
+  {
+    "company_name": "TTP",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/TTP1/744000130799419",
+    "board_token": "TTP1",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
     "company_name": "Tufin",
     "website": "https://www.tufin.com",
     "career_page_url": "https://www.tufin.com/careers",
@@ -29,6 +916,66 @@
     "domain_hint": "security",
     "source_platforms": [
       "builtin"
+    ]
+  },
+  {
+    "company_name": "United Franchise Group",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/UnitedFranchiseGroup/744000133697159",
+    "board_token": "UnitedFranchiseGroup",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "USM Business Systems",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/USM2/95343795",
+    "board_token": "USM2",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "Veolia",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000130248314",
+    "board_token": "VeoliaEnvironnementSA",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "Wellmark",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/WellmarkInc/744000129992389",
+    "board_token": "WellmarkInc",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "Western Digital",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/WesternDigital/744000126593979",
+    "board_token": "WesternDigital",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "Worldwide TechServices",
+    "website": "",
+    "career_page_url": "https://jobs.smartrecruiters.com/WorldwideTechServices/744000125159149",
+    "board_token": "WorldwideTechServices",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
     ]
   }
 ]

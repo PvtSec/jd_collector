@@ -67,6 +67,25 @@ CURATED = [
     "Baseten", "Bento", "Hex", "Count", "Briefer", "Evidence", "Pivot",
     "ElevenLabs", "Resemble", "PlayHT", "WellSaid", "Descript", "AssemblyAI",
     "Deepgram", "Whisper", "Cartesia", "Sun", "Suno",
+    # --- cybersecurity-focused companies (modern security startups/scale-ups +
+    #     established vendors) added to widen security-board discovery. Probing
+    #     only hits greenhouse/lever/ashby, so big vendors on Workday/custom
+    #     sites simply won't match — harmless (deduped, skipped if listed). ---
+    "Cado Security", "Vectra AI", "ExtraHop", "Fidelis Cybersecurity",
+    "Recorded Future", "SecurityScorecard", "BitSight", "Mandiant",
+    "Arctic Wolf", "Huntress", "ReliaQuest", "Expel", "Blumira", "SpearTip",
+    "Blackpanda", "Kroll", "GuidePoint Security", "Pondurance", "BlueVoyant",
+    "Deepwatch", "Optiv", "Presidio", "Secureworks", "Trustwave", "NCC Group",
+    "Coalfire", "Schellman", "A-LIGN", "Bishop Fox", "Synack", "Cobalt",
+    "Pentera", "Imperva", "Radware", "Fastly", "Sumo Logic", "LogRhythm",
+    "Exabeam", "Securonix", "Qualys", "Ivanti", "SonicWall", "Delinea",
+    "Semperis", "CyberArk", "BeyondTrust", "Varonis", "Mimecast", "Proofpoint",
+    "Zscaler", "Splunk", "Elastic", "Darktrace", "Aikido Security", "Cycode",
+    "Socket", "Pixee", "DryRun Security", "Corgea", "Apiiro", "Legit Security",
+    "Kontext", "Sweet Security", "Escape", "Sygnia", "Oligo Security",
+    "Apono", "Astrix Security", "Spera Security", "DoControl", "Sentnl",
+    "HackerOne", "Bugcrowd", "Intigriti", "YesWeHack", "Synopsys",
+    "Trellix", "Fortinet", "Palo Alto Networks", "Check Point",
 ]
 
 
@@ -199,6 +218,17 @@ WIKI_LISTS = [
     "List of artificial intelligence companies",
     "List of social networking services",
     "List of video game companies",
+    "List of computer security companies",   # direct cybersecurity relevance
+    # --- country "List of companies" pages (broaden APAC + EU coverage) ---
+    "List of companies of Singapore",
+    "List of companies of India",
+    "List of companies of Japan",
+    "List of companies of Germany",
+    "List of companies of South Korea",
+    "List of companies of Israel",
+    "List of largest Australian companies",   # AU has no "List of companies of Australia"
+    "List of Indian IT companies",
+    "List of public listed software companies of India",
 ]
 
 # Wikipedia categories — high-yield article-title pulls. Cybersecurity is
@@ -209,6 +239,23 @@ WIKI_CATEGORIES = [
     "Category:Software companies of India",
     "Category:Artificial intelligence companies",
     "Category:Cloud computing providers",
+    "Category:Cybersecurity companies",
+    "Category:Information security companies",
+    "Category:Network security companies",
+    "Category:Firewall companies",
+    "Category:Antivirus software companies",
+    # --- country-specific software / tech / cybersecurity categories ---
+    "Category:Software companies of Singapore",
+    "Category:Technology companies of Singapore",
+    "Category:Software companies of Australia",
+    "Category:Technology companies of Australia",
+    "Category:Software companies of Germany",
+    "Category:Software companies of Japan",
+    "Category:Software companies of South Korea",
+    "Category:Software companies of the Netherlands",
+    "Category:Software companies of Ireland",
+    "Category:Cybersecurity companies of Singapore",
+    "Category:Cybersecurity companies of Israel",
 ]
 
 

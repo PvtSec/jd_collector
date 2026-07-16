@@ -148,7 +148,7 @@ class DB:
             if existed:
                 self._conn.execute(
                     """UPDATE jobs SET title=?, location=?, work_type=?, url=?, posted_at=?,
-                       last_seen=?, last_check=?, matched=?, applied=?,
+                       last_seen=?, last_check=?, matched=?, applied=MAX(applied, ?),
                        miss_count=0, closed=0, closed_at=NULL WHERE id=(
                          SELECT id FROM jobs WHERE company=? AND ats=? AND job_id=?)""",
                     (title, location, work_type, url, posted_at, now, now,

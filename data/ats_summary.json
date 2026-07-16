@@ -1,17 +1,18 @@
 {
-  "total_companies": 4041,
+  "total_companies": 5948,
   "by_ats": {
-    "unknown": 2098,
-    "greenhouse": 959,
-    "ashby": 520,
-    "lever": 373,
+    "unknown": 3466,
+    "greenhouse": 1141,
+    "ashby": 683,
+    "lever": 446,
+    "smartrecruiters": 97,
     "custom": 31,
-    "workable": 13,
-    "breezyhr": 9,
+    "workable": 29,
+    "breezyhr": 12,
+    "rippling": 9,
     "yc": 9,
     "workday": 7,
     "personio": 4,
-    "smartrecruiters": 3,
     "teamtailor": 3,
     "onlyfy": 2,
     "pinpoint": 2,
@@ -19,16 +20,21 @@
     "bamboohr": 1,
     "trinethire": 1,
     "keka": 1,
-    "rippling": 1,
     "attrax": 1,
     "applytojob": 1
   },
   "ats_conflicts": [
     "Envoy",
     "Plaid",
+    "Planet",
     "Podium",
+    "Quince",
     "Strava",
-    "Temporal"
+    "Temporal",
+    "Binance",
+    "Kong",
+    "Saronic",
+    "Rippling"
   ],
-  "automatable_count": 1901
+  "automatable_count": 2440
 }

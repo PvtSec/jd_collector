@@ -1,5 +1,15 @@
 [
   {
+    "company_name": "Advantmed",
+    "website": "",
+    "career_page_url": "https://apply.workable.com/advantmed/j/45F5E3C394/",
+    "board_token": "advantmed",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-intern"
+    ]
+  },
+  {
     "company_name": "Ajaib",
     "website": "http://www.ajaib.co.id",
     "career_page_url": "https://apply.workable.com/ajaib",
@@ -8,6 +18,37 @@
     "source_platforms": [
       "manual-target",
       "topstartups.io"
+    ]
+  },
+  {
+    "company_name": "Altom Transport",
+    "website": "",
+    "career_page_url": "https://apply.workable.com/altom-transport/j/8536165C7B/apply",
+    "board_token": "altom-transport",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-intern"
+    ]
+  },
+  {
+    "company_name": "Bits",
+    "website": "",
+    "career_page_url": "https://apply.workable.com/getbits/j/C1E552FAB5/apply",
+    "board_token": "getbits",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "Blink",
+    "website": "https://www.joinblink.com",
+    "career_page_url": "https://apply.workable.com/joinblink/j/7DA2C85A24/apply",
+    "board_token": "joinblink",
+    "domain_hint": "",
+    "source_platforms": [
+      "neuronfeed",
+      "simplify-newgrad"
     ]
   },
   {
@@ -31,6 +72,26 @@
     ]
   },
   {
+    "company_name": "ConnectPrep",
+    "website": "",
+    "career_page_url": "https://apply.workable.com/connectprep/j/C0CA13664F/apply",
+    "board_token": "connectprep",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-intern"
+    ]
+  },
+  {
+    "company_name": "DataVisor",
+    "website": "",
+    "career_page_url": "https://apply.workable.com/datavisor-jobs/j/FC5ABB4A50/apply",
+    "board_token": "datavisor-jobs",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
     "company_name": "DNSFilter",
     "website": "",
     "career_page_url": "https://apply.workable.com/dnsfilter/#jobs",
@@ -38,6 +99,16 @@
     "domain_hint": "apply.workable.com",
     "source_platforms": [
       "chsr"
+    ]
+  },
+  {
+    "company_name": "Eluvio",
+    "website": "",
+    "career_page_url": "https://apply.workable.com/eluvio/j/F70F3473E7/apply",
+    "board_token": "eluvio",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-intern"
     ]
   },
   {
@@ -58,6 +129,7 @@
     "domain_hint": "AI/ML",
     "source_platforms": [
       "direct-search",
+      "neuronfeed",
       "wellfound"
     ]
   },
@@ -93,6 +165,27 @@
     ]
   },
   {
+    "company_name": "pony.ai",
+    "website": "http://www.pony.ai/",
+    "career_page_url": "https://apply.workable.com/pony-dot-ai/j/4C1F53EF5D/apply",
+    "board_token": "pony-dot-ai",
+    "domain_hint": "Robotics / Artificial Intelligence / Autonomous Vehicles",
+    "source_platforms": [
+      "simplify-intern",
+      "topstartups.io"
+    ]
+  },
+  {
+    "company_name": "Quadric",
+    "website": "",
+    "career_page_url": "https://apply.workable.com/quadric-dot-i-o-inc/j/43779C9213/apply",
+    "board_token": "quadric-dot-i-o-inc",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
     "company_name": "ReversingLabs",
     "website": "",
     "career_page_url": "https://apply.workable.com/reversinglabs",
@@ -100,6 +193,36 @@
     "domain_hint": "reversinglabs.workable.com",
     "source_platforms": [
       "chsr"
+    ]
+  },
+  {
+    "company_name": "Rokt",
+    "website": "",
+    "career_page_url": "https://apply.workable.com/rokt/j/783A754DDB/apply",
+    "board_token": "rokt",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "Rollbar",
+    "website": "",
+    "career_page_url": "https://apply.workable.com/rollbar/",
+    "board_token": "rollbar",
+    "domain_hint": "",
+    "source_platforms": [
+      "awesome-remote-companies"
+    ]
+  },
+  {
+    "company_name": "SciTec",
+    "website": "",
+    "career_page_url": "https://apply.workable.com/scitec/j/301788B4BF/apply",
+    "board_token": "scitec",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
     ]
   },
   {
@@ -113,6 +236,36 @@
     ]
   },
   {
+    "company_name": "Thorlabs",
+    "website": "",
+    "career_page_url": "https://apply.workable.com/thorlabs/j/EA6A31C779/",
+    "board_token": "thorlabs",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "TickPick",
+    "website": "",
+    "career_page_url": "https://apply.workable.com/tickpick/j/5840ECEB50/apply",
+    "board_token": "tickpick",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "TMEIC",
+    "website": "",
+    "career_page_url": "https://apply.workable.com/tmeic-corporation-americas/j/FD4C9770FF/",
+    "board_token": "tmeic-corporation-americas",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-intern"
+    ]
+  },
+  {
     "company_name": "Trail of Bits",
     "website": "https://www.trailofbits.com",
     "career_page_url": "https://apply.workable.com/trailofbits",
@@ -121,6 +274,16 @@
     "source_platforms": [
       "himalayas",
       "manual-target"
+    ]
+  },
+  {
+    "company_name": "Trexquant",
+    "website": "",
+    "career_page_url": "https://apply.workable.com/trexquant/j/974C6CE712/apply",
+    "board_token": "trexquant",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-newgrad"
     ]
   },
   {

@@ -66,6 +66,11 @@ class AppSettings(BaseSettings):
             "{python} scripts/discover_himalayas.py",   # Himalayas public API (role-targeted + full-feed sweep)
             "{python} scripts/discover_builtin.py",     # BuiltIn.com company listing (HTML scrape + slug probe)
             "{python} scripts/discover_chsr.py",        # edoardottt/companies-hiring-security-remote README (cached + slug probe)
+            "{python} scripts/discover_awesome.py",     # GitHub awesome-lists (remote/security companies) -> names
+            "{python} scripts/discover_remote_boards.py", # RemoteOK/WWR/Remotive employer names (+ ATS apply URLs)
+            "{python} scripts/discover_startup_dirs.py", # NeuronFeed no-auth startup directory -> names
+            "{python} scripts/discover_simplify.py",   # Simplify listings.json (New-Grad + Internships) -> companies + ATS URLs
+            "{python} scripts/discover_startups_gallery.py", # startups.gallery country pages (SG/APAC/EU early-stage) -> companies + ATS URLs
             "{python} scripts/consolidate.py",
             "{python} scripts/discover_slugs.py",       # slow (probes unknowns) — last so a timeout doesn't block the merge
         ]

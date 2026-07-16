@@ -66,6 +66,34 @@ EXCLUDE_RE = re.compile(
     r"\b(manager|director|head of|vp|intern|principal|chief|internship)\b", re.I
 )
 
+# Country-targeted sweeps (ISO alpha-2 codes work in the Himalayas `country`
+# param). These surface companies HQ'd/hiring in regions underrepresented in
+# the global role sweep — Singapore first, then SE Asia / India / AU / EU / JP.
+# Each country runs the full ROLE_QUERIES list so we only collect companies
+# actively hiring for our target roles IN that country.
+COUNTRY_QUERIES = [
+    "SG",   # Singapore
+    "IN",   # India
+    "AU",   # Australia
+    "NZ",   # New Zealand
+    "DE",   # Germany
+    "NL",   # Netherlands
+    "IE",   # Ireland
+    "JP",   # Japan
+    "KR",   # South Korea
+    "MY",   # Malaysia
+    "ID",   # Indonesia
+    "VN",   # Vietnam
+    "PH",   # Philippines
+    "TH",   # Thailand
+    "HK",   # Hong Kong
+    "TW",   # Taiwan
+    "IL",   # Israel
+    "ES",   # Spain
+    "PL",   # Poland
+    "CZ",   # Czechia
+]
+
 
 def _norm(name: str) -> str:
     return "".join(ch for ch in (name or "").lower() if ch.isalnum())
@@ -94,12 +122,20 @@ def existing_seed_names(seed_path: str) -> set[str]:
         return set()
 
 
-def fetch_jobs(session: requests.Session, query: str, page: int = 1, limit: int = 20) -> tuple[list[dict], int]:
-    """Fetch jobs from the Himalayas search API. Returns (jobs, total_count)."""
+def fetch_jobs(session: requests.Session, query: str, page: int = 1, limit: int = 20,
+               country: str | None = None) -> tuple[list[dict], int]:
+    """Fetch jobs from the Himalayas search API. Returns (jobs, total_count).
+
+    `country` (ISO alpha-2, full name, or slug) restricts results to a country —
+    used by sweep_countries to surface SG/APAC/EU companies specifically.
+    """
     try:
+        params: dict = {"q": query, "page": page, "limit": limit}
+        if country:
+            params["country"] = country
         r = session.get(
             HIMALAYAS_API,
-            params={"q": query, "page": page, "limit": limit},
+            params=params,
             headers={"User-Agent": UA},
             timeout=20,
         )
@@ -107,7 +143,8 @@ def fetch_jobs(session: requests.Session, query: str, page: int = 1, limit: int 
         data = r.json()
         return data.get("jobs", []), data.get("totalCount", 0)
     except Exception as e:
-        print(f"  [himalayas] search API error (q={query!r}, page={page}): {e}", file=sys.stderr)
+        ctry = f", country={country!r}" if country else ""
+        print(f"  [himalayas] search API error (q={query!r}{ctry}, page={page}): {e}", file=sys.stderr)
         return [], 0
 
 
@@ -178,6 +215,60 @@ def sweep_target_roles(session: requests.Session) -> dict[str, dict]:
         print(f"  [himalayas] role={role!r}: {total_seen} total jobs", flush=True)
 
     # Convert sets to lists for JSON serialization
+    for v in companies.values():
+        v["locations"] = sorted(v["locations"])
+        v["roles"] = sorted(v["roles"])
+    return companies
+
+
+def sweep_countries(session: requests.Session) -> dict[str, dict]:
+    """Country-targeted role searches: for each country in COUNTRY_QUERIES, run
+    the ROLE_QUERIES list filtered to that country. Collects companies actively
+    hiring for target roles in SG/APAC/EU — regions under-collected by the
+    global role sweep. Returns its own fresh dict (merged by the caller).
+    """
+    companies: dict[str, dict] = {}
+    for country in COUNTRY_QUERIES:
+        country_hits = 0
+        for tier, role in ROLE_QUERIES:
+            page = 1
+            while True:
+                jobs, total = fetch_jobs(session, role, page=page, country=country)
+                if not jobs:
+                    break
+                for j in jobs:
+                    title = (j.get("title") or "").strip()
+                    company = (j.get("companyName") or "").strip()
+                    if not company:
+                        continue
+                    low = title.lower()
+                    q = role.lower().replace(" ", "")
+                    if role.lower() not in low and q not in low.replace(" ", ""):
+                        continue
+                    if EXCLUDE_RE.search(low):
+                        continue
+                    key = _norm(company)
+                    locs = j.get("locationRestrictions") or []
+                    if key not in companies:
+                        companies[key] = {
+                            "name": company,
+                            "slug": j.get("companySlug", ""),
+                            "locations": set(locs),
+                            "tier": tier,
+                            "roles": {role},
+                        }
+                        country_hits += 1
+                    else:
+                        companies[key]["locations"].update(locs)
+                        companies[key]["roles"].add(role)
+                        if tier == "core" and companies[key]["tier"] != "core":
+                            companies[key]["tier"] = "core"
+                if page * 20 >= total or not jobs:
+                    break
+                page += 1
+                time.sleep(0.3)
+        print(f"  [himalayas] country={country}: +{country_hits} new companies", flush=True)
+    # Convert sets to lists for JSON serialization (role sweep does this too)
     for v in companies.values():
         v["locations"] = sorted(v["locations"])
         v["roles"] = sorted(v["roles"])
@@ -293,10 +384,16 @@ def main() -> int:
     print("[himalayas] Phase 2: sweeping full jobs feed …", flush=True)
     feed_companies = sweep_full_feed(session, max_pages=500)
 
-    # Merge: role companies take priority (they have tier/role info)
+    # Phase 3: Country-targeted role sweep (SG/APAC/EU — under-collected globally)
+    print("[himalayas] Phase 3: sweeping target roles by country …", flush=True)
+    country_companies = sweep_countries(session)
+    print(f"[himalayas] country sweep found {len(country_companies)} unique companies", flush=True)
+
+    # Merge: role + country companies take priority over feed (they have tier/role/loc info)
     all_companies: dict[str, dict] = {}
     all_companies.update(feed_companies)
-    all_companies.update(role_companies)  # role data overwrites feed data
+    all_companies.update(country_companies)  # country data overwrites feed data
+    all_companies.update(role_companies)     # role data overwrites both
 
     print(f"[himalayas] total unique companies: {len(all_companies)}", flush=True)
 

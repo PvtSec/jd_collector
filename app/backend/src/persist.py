@@ -155,6 +155,33 @@ def reconcile_applied(state_path: str, db) -> int:
     return n
 
 
+def reconcile_applied_from_ledger(ledger_db: str, db) -> int:
+    """On startup, restore applied flags from the authoritative ledger
+    (applied.sqlite) into the jobs DB.
+
+    The jobs DB ``applied`` column is a denormalised cache that is refreshed on
+    each enumeration via ``ledger.already_applied``. If a tick's ledger lookup
+    ever misses (transient open failure / name drift), the cache flag can flip
+    back to 0 even though the application is still recorded in the ledger. The
+    ledger is the source of truth, so on every startup we re-stamp applied=1
+    for every job present in it. Only flips 0->1; never clears an applied flag.
+    """
+    import sqlite3
+    try:
+        conn = sqlite3.connect(ledger_db)
+    except Exception:
+        return 0
+    n = 0
+    try:
+        for company, ats, job_id in conn.execute(
+            "SELECT company, ats, job_id FROM applications"
+        ).fetchall():
+            n += db.mark_applied_by_key(company=company, ats=ats, job_id=str(job_id))
+    finally:
+        conn.close()
+    return n
+
+
 def load(state_path: str) -> dict:
     """Read-only access to the persisted state (for /api/state)."""
     return _read(state_path)

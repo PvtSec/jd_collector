@@ -6,21 +6,89 @@ data:
   companies_file: data/companies.json
   ledger_db: data/applied.sqlite
 
+# Candidate profile: ~6 years total experience (mid-senior IC). Seniority is
+# controlled by title excludes below + engine/match.py SENIORITY_PREFIXES:
+#   - Senior / Sr titles are KEPT (allowed)
+#   - Lead / Staff / Principal / Manager / Director / Head / Architect are BLOCKED
+# The matcher cannot parse years-of-experience from JDs, so seniority is
+# enforced via title keywords, not a numeric filter.
 target:
   role_keywords:
+    # --- offensive security / application security ---
     - penetration tester
     - pentester
     - penetration testing
+    - pentest
     - offensive security
     - red team
+    - red teaming
     - vulnerability researcher
+    - vulnerability research
+    - exploit developer
+    - exploit development
     - security researcher
+    - security research
     - ethical hacker
+    - ethical hacking
     - application security engineer
     - application security
     - appsec
     - product security engineer
     - product security
+    - prodsec
+    - software security engineer
+    - software security
+    # --- detection / SOC / IR / DFIR ---
+    - soc analyst
+    - security operations
+    - security operations center
+    - threat intelligence
+    - threat analyst
+    - threat hunter
+    - threat hunting
+    - detection engineer
+    - detection engineering
+    - incident response
+    - incident responder
+    - digital forensics
+    - forensic analyst
+    - dfir
+    - malware analyst
+    - malware analysis
+    - reverse engineer
+    - reverse engineering
+    # --- cloud / platform / infrastructure security ---
+    - cloud security engineer
+    - cloud security
+    - infrastructure security
+    - platform security engineer
+    - platform security
+    - security platform engineer
+    # --- GRC / compliance / risk / IAM ---
+    - grc
+    - governance risk compliance
+    - governance risk and compliance
+    - risk analyst
+    - security risk
+    - compliance analyst
+    - compliance engineer
+    - security compliance
+    - identity and access management
+    - iam engineer
+    - zero trust engineer
+    - access management
+    # --- security automation ---
+    - security automation
+    - security automation engineer
+    # --- general security ---
+    - security engineer
+    - security analyst
+    - security consultant
+    - information security
+    - infosec
+    - cybersecurity
+    - cyber security
+    # --- QA / SDET (kept: candidate is also open to these) ---
     - qa engineer
     - qa automation
     - quality assurance
@@ -35,6 +103,7 @@ target:
     - test engineer
     - automation test engineer
   exclude_keywords:
+    # management / too-senior for a 6-year IC
     - manager
     - director
     - head of
@@ -43,15 +112,34 @@ target:
     - staff
     - intern
     - architect
+    # pure infra roles (NOT security) — devsecops kept excluded by choice
     - devops
     - devsecops
     - sre
     - site reliability
-    - platform engineer
-    - infrastructure
+    # NOTE: "infrastructure" and "platform engineer" were removed from this
+    # list because they are substrings of valid security titles
+    # ("infrastructure security engineer", "security platform engineer").
+    # Pure-infra roles carry no security role keyword, so role_keywords alone
+    # rejects them — the excludes are no longer needed and were over-matching.
   location_pref: ["remote", "worldwide", "global", "india", "bengaluru", "bangalore",
                  "pune", "hyderabad", "mumbai", "chennai", "kerala", "delhi",
-                 "europe", "emea", "eu", "apac", "latam"]
+                 "europe", "emea", "eu", "apac", "latam",
+                 # Singapore + SE Asia (was missing — onsite SG jobs were rejected by match.py)
+                 "singapore", "sg", "asia", "southeast asia", "sea",
+                 "malaysia", "kuala lumpur", "indonesia", "jakarta",
+                 "vietnam", "hanoi", "philippines", "manila",
+                 "thailand", "bangkok", "hong kong", "taiwan",
+                 # Australia + New Zealand
+                 "australia", "sydney", "melbourne", "brisbane",
+                 "new zealand", "auckland",
+                 # Japan + Korea
+                 "japan", "tokyo", "south korea", "korea", "seoul",
+                 # EU/Germany + other underrepresented hubs
+                 "germany", "berlin", "munich", "frankfurt",
+                 "netherlands", "amsterdam", "ireland", "dublin",
+                 "spain", "barcelona", "madrid", "poland", "warsaw", "krakow",
+                 "czech", "prague", "tel aviv"]
   work_types: ["remote", "hybrid"]
 
 allow_companies: null
@@ -81,7 +169,9 @@ http:
 # --- dashboard app (app/backend) — optional; env vars (JOBAUTO_*) override ---
 app:
   tick_minutes: 5        # how often the discovery task fires
-  rotate_size: 60        # companies enumerated per tick (all ~550 covered ~hourly)
+  rotate_size: 120       # companies enumerated per tick (~1900 automatable covered ~1.5h)
+  company_discovery_minutes: 360  # grow the company list every 6h (was 24h) so new
+                                  # security-company ATS boards surface faster
   stale_grace_misses: 2  # consecutive absent enumerations before a job is marked closed
   port: 8000
   # jobs_db, engine_config, frontend_dist default sensibly; override via env if needed.

@@ -31,6 +31,26 @@
     ]
   },
   {
+    "company_name": "Milu health",
+    "website": "",
+    "career_page_url": "https://milu-health.breezy.hr/?#positions",
+    "board_token": "milu-health",
+    "domain_hint": "",
+    "source_platforms": [
+      "awesome-remote-companies"
+    ]
+  },
+  {
+    "company_name": "Navaide",
+    "website": "",
+    "career_page_url": "https://navaide.breezy.hr/p/3fe610df21d6/apply",
+    "board_token": "navaide",
+    "domain_hint": "",
+    "source_platforms": [
+      "simplify-intern"
+    ]
+  },
+  {
     "company_name": "Rule4",
     "website": "https://rule4.com",
     "career_page_url": "https://rule4.breezy.hr/",
@@ -58,6 +78,17 @@
     "domain_hint": "career-tech/SaaS",
     "source_platforms": [
       "manual-target"
+    ]
+  },
+  {
+    "company_name": "VetsEZ",
+    "website": "",
+    "career_page_url": "https://vetsez.breezy.hr/p/a4010fdb3a7001-full-stack-developer-intern-remote-opportunity",
+    "board_token": "vetsez",
+    "domain_hint": "",
+    "source_platforms": [
+      "himalayas",
+      "simplify-intern"
     ]
   },
   {
