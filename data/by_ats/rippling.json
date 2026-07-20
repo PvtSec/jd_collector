@@ -62,12 +62,13 @@
   },
   {
     "company_name": "Rippling",
-    "website": "https://www.rippling.com",
+    "website": "https://rippling.com/",
     "career_page_url": "https://ats.rippling.com/rippling/jobs/7efd5065-2437-4c0d-a0f6-80138e3de1a0",
     "board_token": "rippling",
-    "domain_hint": "HR/SaaS",
+    "domain_hint": "rippling.com",
     "source_platforms": [
       "direct-search",
+      "sequoia",
       "simplify-newgrad",
       "topstartups.io",
       "yc"

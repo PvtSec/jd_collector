@@ -375,19 +375,24 @@ def probe_one(co: dict) -> dict | None:
 def main() -> int:
     session = requests.Session()
 
-    # Phase 1: Collect companies from target-role searches
-    print("[himalayas] Phase 1: sweeping target-role searches …", flush=True)
+    # Phase 1: Country-targeted role sweep — SG/APAC/EU companies that are
+    # under-collected by the global sweeps below. Run FIRST so it always
+    # completes within the rescan step's 1200s budget (the full-feed sweep
+    # that follows is the time sink and can time out without losing this).
+    print("[himalayas] Phase 1: sweeping target roles by country (SG/APAC/EU) …", flush=True)
+    country_companies = sweep_countries(session)
+    print(f"[himalayas] country sweep found {len(country_companies)} unique companies", flush=True)
+
+    # Phase 2: Collect companies from target-role searches (global)
+    print("[himalayas] Phase 2: sweeping target-role searches …", flush=True)
     role_companies = sweep_target_roles(session)
     print(f"[himalayas] role search found {len(role_companies)} unique companies", flush=True)
 
-    # Phase 2: Sweep the full feed for additional companies (breadth)
-    print("[himalayas] Phase 2: sweeping full jobs feed …", flush=True)
-    feed_companies = sweep_full_feed(session, max_pages=500)
-
-    # Phase 3: Country-targeted role sweep (SG/APAC/EU — under-collected globally)
-    print("[himalayas] Phase 3: sweeping target roles by country …", flush=True)
-    country_companies = sweep_countries(session)
-    print(f"[himalayas] country sweep found {len(country_companies)} unique companies", flush=True)
+    # Phase 3: Sweep the full feed for breadth (capped — 500 pages alone blows
+    # the 1200s step budget and starves everything else; 80 pages still gives
+    # ~1600 breadth companies while leaving time to probe + persist).
+    print("[himalayas] Phase 3: sweeping full jobs feed (capped) …", flush=True)
+    feed_companies = sweep_full_feed(session, max_pages=80)
 
     # Merge: role + country companies take priority over feed (they have tier/role/loc info)
     all_companies: dict[str, dict] = {}
@@ -417,6 +422,29 @@ def main() -> int:
     def write_seed():
         with open(RAW_OUT, "w") as fh:
             json.dump(list(by_name.values()), fh, indent=2, ensure_ascii=False)
+
+    # Persist all newly-collected companies as unknown-ATS entries BEFORE the
+    # (slow) probe phase, so a rescan-step timeout during probing cannot lose
+    # them — discover_slugs resolves unknowns into real boards next cycle, and
+    # probing below upgrades any it finds a board for. This guarantees the
+    # country-sweep companies land even if the step is later killed.
+    persisted = 0
+    for key, co in all_companies.items():
+        if key not in by_name and key not in skip and co.get("name"):
+            by_name[key] = {
+                "company_name": co["name"],
+                "career_page_url": f"https://himalayas.app/companies/{co['slug']}" if co.get("slug") else "",
+                "website": "",
+                "domain_hint": "",
+                "ats_type": "unknown",
+                "source_platform": "himalayas",
+                "himalayas_slug": co.get("slug", ""),
+                "himalayas_tier": co.get("tier", ""),
+                "location": ", ".join(co.get("locations", [])[:5]) if co.get("locations") else "",
+            }
+            persisted += 1
+    write_seed()
+    print(f"[himalayas] persisted {persisted} new companies as unknown-ATS (pre-probe safety write)", flush=True)
 
     found = 0
     try:

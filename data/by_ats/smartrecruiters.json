@@ -102,16 +102,6 @@
     ]
   },
   {
-    "company_name": "Atria Group",
-    "website": "",
-    "career_page_url": "https://jobs.smartrecruiters.com/AtriaGroupLLC/72190211",
-    "board_token": "AtriaGroupLLC",
-    "domain_hint": "",
-    "source_platforms": [
-      "simplify-newgrad"
-    ]
-  },
-  {
     "company_name": "Barkback",
     "website": "",
     "career_page_url": "https://jobs.smartrecruiters.com/barkbackLlc/90864007",
@@ -179,6 +169,16 @@
     "domain_hint": "",
     "source_platforms": [
       "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "CD Projekt Red",
+    "website": "https://cdprojektred.com",
+    "career_page_url": "https://careers.smartrecruiters.com/CDPROJEKTRED",
+    "board_token": "CDPROJEKTRED",
+    "domain_hint": "",
+    "source_platforms": [
+      "atsprobe-ats-slug-repo"
     ]
   },
   {
@@ -252,6 +252,16 @@
     ]
   },
   {
+    "company_name": "Dashlabs.ai",
+    "website": "https://dashlabs.ai",
+    "career_page_url": "https://careers.smartrecruiters.com/Dashlabsai",
+    "board_token": "Dashlabsai",
+    "domain_hint": "",
+    "source_platforms": [
+      "atsprobe-ats-slug-repo"
+    ]
+  },
+  {
     "company_name": "Data Intellect",
     "website": "",
     "career_page_url": "https://jobs.smartrecruiters.com/DataIntellect/744000132642599",
@@ -279,6 +289,16 @@
     "domain_hint": "",
     "source_platforms": [
       "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "Device42",
+    "website": "https://device42.com",
+    "career_page_url": "https://careers.smartrecruiters.com/Freshworks",
+    "board_token": "Freshworks",
+    "domain_hint": "",
+    "source_platforms": [
+      "atsprobe-ats-slug-repo"
     ]
   },
   {
@@ -323,11 +343,12 @@
   },
   {
     "company_name": "Eurofins",
-    "website": "",
-    "career_page_url": "https://jobs.smartrecruiters.com/Eurofins/744000127725209",
+    "website": "https://eurofins.com",
+    "career_page_url": "https://careers.smartrecruiters.com/Eurofins",
     "board_token": "Eurofins",
     "domain_hint": "",
     "source_platforms": [
+      "atsprobe-ats-slug-repo",
       "simplify-newgrad"
     ]
   },
@@ -340,6 +361,16 @@
     "source_platforms": [
       "builtin",
       "himalayas"
+    ]
+  },
+  {
+    "company_name": "Gerresheimer",
+    "website": "https://gerresheimer.com",
+    "career_page_url": "https://careers.smartrecruiters.com/Gerresheimer",
+    "board_token": "Gerresheimer",
+    "domain_hint": "",
+    "source_platforms": [
+      "atsprobe-ats-slug-repo"
     ]
   },
   {
@@ -357,16 +388,6 @@
     "website": "",
     "career_page_url": "https://jobs.smartrecruiters.com/HarvardUniversity/3743990013391596",
     "board_token": "HarvardUniversity",
-    "domain_hint": "",
-    "source_platforms": [
-      "simplify-newgrad"
-    ]
-  },
-  {
-    "company_name": "Horizon Technologies",
-    "website": "",
-    "career_page_url": "https://jobs.smartrecruiters.com/HorizonTechnologiesInc/94324377",
-    "board_token": "HorizonTechnologiesInc",
     "domain_hint": "",
     "source_platforms": [
       "simplify-newgrad"
@@ -430,6 +451,16 @@
     "domain_hint": "",
     "source_platforms": [
       "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "Informa",
+    "website": "https://informa.com",
+    "career_page_url": "https://careers.smartrecruiters.com/InformaGroupPlc",
+    "board_token": "InformaGroupPlc",
+    "domain_hint": "",
+    "source_platforms": [
+      "atsprobe-ats-slug-repo"
     ]
   },
   {
@@ -561,6 +592,7 @@
     "board_token": "Netcompany1",
     "domain_hint": "",
     "source_platforms": [
+      "cloudsecurity_jobs",
       "himalayas",
       "simplify-newgrad"
     ]
@@ -573,7 +605,8 @@
     "domain_hint": "digital-experience/IT SaaS",
     "source_platforms": [
       "builtin",
-      "himalayas"
+      "himalayas",
+      "index_ventures"
     ]
   },
   {
@@ -604,6 +637,26 @@
     "domain_hint": "",
     "source_platforms": [
       "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "Peacock",
+    "website": "https://peacocktv.com",
+    "career_page_url": "https://careers.smartrecruiters.com/my-applications",
+    "board_token": "my-applications",
+    "domain_hint": "",
+    "source_platforms": [
+      "atsprobe-ats-slug-repo"
+    ]
+  },
+  {
+    "company_name": "People Can Fly",
+    "website": "https://peoplecanfly.com",
+    "career_page_url": "https://careers.smartrecruiters.com/PeopleCanFly",
+    "board_token": "PeopleCanFly",
+    "domain_hint": "",
+    "source_platforms": [
+      "atsprobe-ats-slug-repo"
     ]
   },
   {
@@ -764,8 +817,19 @@
     "board_token": "ServiceNow",
     "domain_hint": "",
     "source_platforms": [
+      "cloudsecurity_jobs",
       "himalayas",
       "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "Shippeo",
+    "website": "https://shippeo.com",
+    "career_page_url": "https://careers.smartrecruiters.com/Shippeo",
+    "board_token": "Shippeo",
+    "domain_hint": "",
+    "source_platforms": [
+      "atsprobe-ats-slug-repo"
     ]
   },
   {
@@ -776,6 +840,17 @@
     "domain_hint": "",
     "source_platforms": [
       "simplify-newgrad"
+    ]
+  },
+  {
+    "company_name": "Silvaco",
+    "website": "https://silvaco.com",
+    "career_page_url": "https://careers.smartrecruiters.com/Silvaco1",
+    "board_token": "Silvaco1",
+    "domain_hint": "",
+    "source_platforms": [
+      "atsprobe-ats-slug-repo",
+      "himalayas"
     ]
   },
   {
@@ -896,6 +971,16 @@
     "domain_hint": "",
     "source_platforms": [
       "simplify-intern"
+    ]
+  },
+  {
+    "company_name": "TransTech",
+    "website": "https://transtech.com",
+    "career_page_url": "https://careers.smartrecruiters.com/my-applications",
+    "board_token": "my-applications",
+    "domain_hint": "",
+    "source_platforms": [
+      "atsprobe-ats-slug-repo"
     ]
   },
   {

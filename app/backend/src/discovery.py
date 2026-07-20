@@ -208,11 +208,15 @@ def run_rescan(settings: AppSettings, task_manager: TaskManager, cfg: Config | N
         for i, cmd in enumerate(settings.rescan_commands):
             argv = cmd.replace("{python}", py).split()
             task_manager.progress(companies_done=i, progress=f"running {argv[-1]}")
+            # per-script timeout override (e.g. tighter caps on the slow himalayas/slugs
+            # steps so the rescan — which blocks the 5-min tick — doesn't stall the
+            # dashboard for an hour); falls back to the global rescan_step_timeout.
+            import os as _os
+            step_timeout = (settings.rescan_step_timeouts or {}).get(
+                _os.path.basename(argv[-1]), getattr(settings, "rescan_step_timeout", 1200))
             try:
-                # per-step timeout — discover_slugs can be slow; don't let one
-                # step's timeout abort the rest of the chain.
                 subprocess.run(argv, check=False, cwd=cwd,
-                               capture_output=True, timeout=getattr(settings, "rescan_step_timeout", 1200))
+                               capture_output=True, timeout=step_timeout)
                 done += 1
             except subprocess.TimeoutExpired as e:
                 per_cmd_errors.append(f"{argv[-1]}: timed out after {e.timeout}s (continuing)")

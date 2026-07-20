@@ -10,12 +10,13 @@
     ]
   },
   {
-    "company_name": "BrowserStack",
+    "company_name": "Browserstack",
     "website": "http://www.browserstack.com/",
     "career_page_url": "https://browserstack.wd3.myworkdayjobs.com/External",
     "board_token": "External",
     "domain_hint": "SaaS / Testing / Developer Tools / Enterprise Software",
     "source_platforms": [
+      "insight_partners",
       "topstartups.io"
     ]
   },
@@ -41,16 +42,6 @@
     ]
   },
   {
-    "company_name": "Poshmark",
-    "website": "https://poshmark.com",
-    "career_page_url": "https://poshmark.wd5.myworkdayjobs.com/Poshmark_Careers",
-    "board_token": null,
-    "domain_hint": "ecommerce",
-    "source_platforms": [
-      "untapped"
-    ]
-  },
-  {
     "company_name": "SciPlay",
     "website": "https://www.sciplay.com",
     "career_page_url": "https://lnw.wd5.myworkdayjobs.com/SciPlayExternalCareersSite",
@@ -58,6 +49,16 @@
     "domain_hint": "gaming",
     "source_platforms": [
       "builtin"
+    ]
+  },
+  {
+    "company_name": "Tricentis",
+    "website": "",
+    "career_page_url": "https://tricentis.wd1.myworkdayjobs.com/Tricentis_Careers",
+    "board_token": "Tricentis_Careers",
+    "domain_hint": "",
+    "source_platforms": [
+      "insight_partners"
     ]
   },
   {

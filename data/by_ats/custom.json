@@ -1,15 +1,5 @@
 [
   {
-    "company_name": "Agave",
-    "website": "https://useagave.com",
-    "career_page_url": "https://useagave.com/careers",
-    "board_token": null,
-    "domain_hint": "fintech/construction",
-    "source_platforms": [
-      "yc"
-    ]
-  },
-  {
     "company_name": "Airwallex",
     "website": "https://www.airwallex.com",
     "career_page_url": "https://careers.airwallex.com/",
@@ -59,6 +49,7 @@
     "domain_hint": "SaaS/productivity",
     "source_platforms": [
       "direct-search",
+      "insight_partners",
       "topstartups.io"
     ]
   },
@@ -90,6 +81,7 @@
     "domain_hint": "search/privacy",
     "source_platforms": [
       "awesome-remote-companies",
+      "insight_partners",
       "powertofly"
     ]
   },
@@ -110,6 +102,7 @@
     "board_token": null,
     "domain_hint": "HR/payroll SaaS (APAC)",
     "source_platforms": [
+      "insight_partners",
       "manual-target"
     ]
   },
@@ -263,6 +256,7 @@
     "board_token": null,
     "domain_hint": "devtools/infra",
     "source_platforms": [
+      "insight_partners",
       "whoishiring"
     ]
   },

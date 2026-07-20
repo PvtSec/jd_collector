@@ -26,6 +26,12 @@ app/.links*
 app/.*_done
 # Discovery-script HTML caches
 data/.cache_*/
+# Wikidata-harvest scratch (regenerable SPARQL output that feeds the ATS-probe
+# resolver; the resolved hits are folded into the tracked data/raw/agent19_atsprobe.json
+# consolidate input, so the raw harvest JSONL + per-run state files need not be committed)
+data/harvest/
+# Per-run resolver/pipeline log written into the repo root (regenerable, not data)
+LOG.md
 
 # ---- Build artifacts ----
 dist_bundle/

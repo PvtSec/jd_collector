@@ -6,7 +6,8 @@
     "board_token": null,
     "domain_hint": "fintech/payments",
     "source_platforms": [
-      "builtin"
+      "builtin",
+      "index_ventures"
     ]
   }
 ]

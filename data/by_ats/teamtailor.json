@@ -19,6 +19,7 @@
     "board_token": "spiko",
     "domain_hint": "fintech/crypto",
     "source_platforms": [
+      "index_ventures",
       "manual-target"
     ]
   },

@@ -10,26 +10,6 @@
     ]
   },
   {
-    "company_name": "Beam",
-    "website": "https://beam.cloud",
-    "career_page_url": "https://www.ycombinator.com/companies/beam/jobs",
-    "board_token": null,
-    "domain_hint": "AI/infra",
-    "source_platforms": [
-      "yc"
-    ]
-  },
-  {
-    "company_name": "Broccoli AI",
-    "website": "https://broccoli.ai",
-    "career_page_url": "https://www.ycombinator.com/companies/broccoli-ai/jobs",
-    "board_token": null,
-    "domain_hint": "AI/SaaS",
-    "source_platforms": [
-      "yc"
-    ]
-  },
-  {
     "company_name": "Bucket Robotics",
     "website": "https://bucket.bot",
     "career_page_url": "https://www.ycombinator.com/companies/bucket-robotics/jobs",

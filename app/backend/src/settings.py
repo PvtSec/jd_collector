@@ -71,11 +71,21 @@ class AppSettings(BaseSettings):
             "{python} scripts/discover_startup_dirs.py", # NeuronFeed no-auth startup directory -> names
             "{python} scripts/discover_simplify.py",   # Simplify listings.json (New-Grad + Internships) -> companies + ATS URLs
             "{python} scripts/discover_startups_gallery.py", # startups.gallery country pages (SG/APAC/EU early-stage) -> companies + ATS URLs
+            "{python} scripts/discover_vc_boards.py",  # VC/aggregator boards: Getro(Insight) + Consider(Sequoia/Lightspeed) + Index Ventures(ES) + Wiz/cloudsecurity.jobs(Algolia) -> employer names (+ website/domain)
             "{python} scripts/consolidate.py",
             "{python} scripts/discover_slugs.py",       # slow (probes unknowns) — last so a timeout doesn't block the merge
         ]
     )
     rescan_step_timeout: int = Field(default=1200, ge=60, description="Per-step subprocess timeout for the rescan chain")
+    # Per-script timeout overrides (seconds), keyed by script basename. The rescan runs as a
+    # single task that BLOCKS the 5-min enumeration tick, so capping the two known-slow steps
+    # (himalayas full-feed + country sweep, discover_slugs slug probing) keeps the dashboard
+    # from going stale for ~1h. Both steps are safe to cut: himalayas does a safety write of
+    # collected companies before its slow probe phase (a timeout can't lose data); discover_slugs
+    # is idempotent and resumes probing next cycle. Unlisted scripts use rescan_step_timeout.
+    rescan_step_timeouts: dict = Field(
+        default_factory=lambda: {"discover_himalayas.py": 600, "discover_slugs.py": 900}
+    )
 
     model_config = {"env_prefix": "JOBAUTO_", "env_file": None, "extra": "ignore"}
 

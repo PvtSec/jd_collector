@@ -143,7 +143,7 @@ target:
   work_types: ["remote", "hybrid"]
 
 allow_companies: null
-skip_companies: ["Canonical", "Coinbase"]   # Canonical: strict AI checks; would reject. Coinbase: greenhouse board redirects to a 403-bot-walled SPA — job links don't land on a JD, 0 candidate matches (all US/finance). Surfaced as a single career-page stub instead.
+skip_companies: ["Canonical", "Coinbase", "Jobgether"]   # Canonical: strict AI checks; would reject. Coinbase: greenhouse board redirects to a 403-bot-walled SPA — job links don't land on a JD, 0 candidate matches (all US/finance). Surfaced as a single career-page stub instead. Jobgether: a remote-job MATCHING PLATFORM (domain_hint 'remote/jobs platform'), not an employer — its lever board hosts postings from many companies but enumeration loses the real employer (all 4603 rows show company=Jobgether). Apply links go to Jobgether, not the hiring company, so these aren't real employer openings.
 
 safety:
   dry_run: true
@@ -169,7 +169,7 @@ http:
 # --- dashboard app (app/backend) — optional; env vars (JOBAUTO_*) override ---
 app:
   tick_minutes: 5        # how often the discovery task fires
-  rotate_size: 120       # companies enumerated per tick (~1900 automatable covered ~1.5h)
+  rotate_size: 200       # companies enumerated per tick (~2700 automatable covered ~1.1h; was 120/~1.8h)
   company_discovery_minutes: 360  # grow the company list every 6h (was 24h) so new
                                   # security-company ATS boards surface faster
   stale_grace_misses: 2  # consecutive absent enumerations before a job is marked closed
