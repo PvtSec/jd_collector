@@ -260,6 +260,109 @@ for key, entries in groups.items():
         "is_mnc_flagged": is_mnc,
     })
 
+# ---- board-collision dedup ----
+# Multiple companies can resolve to the SAME ATS-hosted board URL. Two cases,
+# both produced by name-derived slug probing (notably the Wikidata harvest pass):
+#   (a) generic-slug false positives: e.g. 396 "National ..." orgs all stamped with
+#       boards.greenhouse.io/national — one unrelated company's real board. These
+#       are wrong-company attributions and would enumerate the same jobs hundreds
+#       of times under unrelated employers.
+#   (b) true aliases: acquired brands / name variants on the parent's board, e.g.
+#       Perforce + OpenLogic + Puppet + "Perforce Software" all on
+#       jobs.lever.co/perforce. Same jobs enumerated 4x.
+# Heuristic: the real owner of a board is the claimant whose website bare-domain
+# or exact normalized name matches the board slug. Keep that one (deduping its
+# name-variants to a canonical entry); revert every non-owner claimant to
+# name-only (ats_type=unknown, not automatable). If no claimant matches the slug
+# (all false positives), or several claimants with different domains match
+# (ambiguous), keep the best-matching owner and revert the rest. This runs every
+# consolidate, so the scheduler's rescan can't re-pollute the dataset.
+SLUG_ATS = (SUBDOMAIN_TOKEN_ATS | PATH_TOKEN_ATS)  # ATS whose board URL carries a company slug
+
+def board_url_key(url):
+    return (url or "").lower().replace("https://", "").replace("http://", "").rstrip("/")
+
+def board_slug(url, ats_type):
+    """Company-identifying token from an ATS board URL (reuses the SUBDOMAIN/PATH split)."""
+    if ats_type in SUBDOMAIN_TOKEN_ATS:
+        parts = (urlparse(url).hostname or "").lower().split(".")
+        return parts[0] if len(parts) >= 3 else ""
+    m = re.search(r"https?://[^/]+/([A-Za-z0-9_\-]+)", url or "")
+    return m.group(1) if m else ""
+
+def owns_board(c, slug):
+    t = norm_name(slug)
+    if not t:
+        return False
+    if norm_name(c.get("company_name", "")) == t:
+        return True
+    bd = c.get("website") and bare_domain(c["website"])
+    if bd:
+        first = norm_name(bd.split(".")[0])
+        # exact domain-label match, slug contained in the domain, or the domain
+        # label is a >=4-char prefix of the slug (e.g. ExtraHop / extrahop.com
+        # owns boards.greenhouse.io/extrahopnetworks).
+        if t == first or t in bd or (len(first) >= 4 and t.startswith(first)):
+            return True
+    return False
+
+_board_groups = defaultdict(list)
+for _i, _c in enumerate(merged):
+    if (_c.get("ats_type") in SLUG_ATS and _c.get("career_page_url")
+            and _c.get("ats_source") in ("url", "verified", "discovered")):
+        _k = board_url_key(_c["career_page_url"])
+        if _k:
+            _board_groups[_k].append(_i)
+
+_dedup_drop = set()
+_dedup_stripped = 0
+
+def _strip_ats(idx):
+    """Revert a false-positive/alias entry to name-only (not automatable)."""
+    global _dedup_stripped
+    c = merged[idx]
+    c["career_page_url"] = c.get("website") or ""
+    c["alternate_career_urls"] = []
+    c["ats_type"] = "unknown"
+    c["ats_source"] = "guess"
+    c["ats_conflict"] = False
+    c["board_token"] = None
+    _dedup_stripped += 1
+
+for _k, _idxs in _board_groups.items():
+    if len(_idxs) < 2:
+        continue
+    _slug = board_slug(merged[_idxs[0]]["career_page_url"], merged[_idxs[0]]["ats_type"])
+    _owners = [_i for _i in _idxs if owns_board(merged[_i], _slug)]
+    if not _owners:
+        # no claimant matches the board slug -> all false positives
+        for _i in _idxs:
+            _strip_ats(_i)
+        continue
+    _keep = min(_owners, key=lambda i: (0 if merged[i].get("website") else 1,
+                                        len(merged[i]["company_name"]), i))
+    # non-owners are always false positives -> revert to name-only
+    for _i in _idxs:
+        if _i not in _owners:
+            _strip_ats(_i)
+    _doms = {bare_domain(merged[_i].get("website") or "") for _i in _owners}
+    _doms.discard("")
+    if len(_doms) <= 1:
+        # one real entity (possibly several name variants) -> drop the dup variants
+        for _i in _owners:
+            if _i != _keep:
+                _dedup_drop.add(_i)
+    else:
+        # several different companies plausibly own this slug -> keep the best
+        # match, revert the other distinct companies to name-only (not dropped:
+        # they're real companies, just not this board's owner)
+        for _i in _owners:
+            if _i != _keep:
+                _strip_ats(_i)
+
+if _dedup_drop:
+    merged = [c for i, c in enumerate(merged) if i not in _dedup_drop]
+
 # sort: automatable ATS first, then by name
 ATS_ORDER = {"greenhouse":0, "lever":1, "ashby":2, "smartrecruiters":3, "workable":4,
              "personio":5, "workday":6, "bamboohr":7, "trinethire":8, "onlyfy":9,
@@ -309,6 +412,8 @@ for ats, rows in by_ats.items():
 # ---- console report ----
 print(f"Total raw entries : {len(raw)}")
 print(f"Unique companies  : {len(merged)}")
+print(f"Board-collision dedup: dropped {len(_dedup_drop)} alias-dup entr(ies), "
+      f"reverted {_dedup_stripped} false-positive/alias entr(ies) to unknown")
 print(f"ATS conflicts     : {len(conflicts)} -> {conflicts}")
 print("By ATS:")
 for ats, n in sorted(summary.items(), key=lambda kv: -kv[1]):

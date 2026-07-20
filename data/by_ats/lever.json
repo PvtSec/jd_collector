@@ -11,16 +11,6 @@
     ]
   },
   {
-    "company_name": "15Five Inc.",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/15five",
-    "board_token": "15five",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r1"
-    ]
-  },
-  {
     "company_name": "2brains",
     "website": "",
     "career_page_url": "https://jobs.lever.co/2brains",
@@ -104,16 +94,6 @@
     ]
   },
   {
-    "company_name": "Achievers  http://www.achievers.com",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/achievers",
-    "board_token": "achievers",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r0"
-    ]
-  },
-  {
     "company_name": "Actian",
     "website": "",
     "career_page_url": "https://jobs.lever.co/actian",
@@ -184,26 +164,6 @@
     "domain_hint": "",
     "source_platforms": [
       "himalayas"
-    ]
-  },
-  {
-    "company_name": "Aero Contractors",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/aero",
-    "board_token": "aero",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-rwd-1"
-    ]
-  },
-  {
-    "company_name": "Aero Corporation (United States)",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/aero",
-    "board_token": "aero",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r2"
     ]
   },
   {
@@ -364,16 +324,6 @@
     ]
   },
   {
-    "company_name": "Aleph Solutions (Alephee)",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/aleph",
-    "board_token": "aleph",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r2"
-    ]
-  },
-  {
     "company_name": "Alertus Technologies",
     "website": "",
     "career_page_url": "https://jobs.lever.co/alertus/fa66c3bc-1410-441b-ad01-73b2df83bbd7/apply",
@@ -464,17 +414,6 @@
     "source_platforms": [
       "atsprobe-r1",
       "topstartups.io"
-    ]
-  },
-  {
-    "company_name": "Anchorage Digital",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/anchorage",
-    "board_token": "anchorage",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r0",
-      "himalayas"
     ]
   },
   {
@@ -593,16 +532,6 @@
     ]
   },
   {
-    "company_name": "Arbitrum (Offchain Labs)",
-    "website": "https://offchainlabs.com",
-    "career_page_url": "https://jobs.lever.co/offchainlabs",
-    "board_token": "offchainlabs",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-ats-slug-repo"
-    ]
-  },
-  {
     "company_name": "Arc Technologies",
     "website": "https://arc.tech",
     "career_page_url": "https://jobs.lever.co/ArcTechnologies",
@@ -631,36 +560,6 @@
     "source_platforms": [
       "atsprobe-r0",
       "himalayas"
-    ]
-  },
-  {
-    "company_name": "Arcadia Books",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/arcadia",
-    "board_token": "arcadia",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-rwd-1"
-    ]
-  },
-  {
-    "company_name": "Arcadia Science",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/arcadia",
-    "board_token": "arcadia",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r3"
-    ]
-  },
-  {
-    "company_name": "Arcadia, Inc. (Japan)",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/arcadia",
-    "board_token": "arcadia",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r1"
     ]
   },
   {
@@ -790,26 +689,6 @@
     ]
   },
   {
-    "company_name": "Autonomous Solutions (United States)",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/autonomous",
-    "board_token": "autonomous",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r3"
-    ]
-  },
-  {
-    "company_name": "Autonomous Technologies Group",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/autonomous",
-    "board_token": "autonomous",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r3"
-    ]
-  },
-  {
     "company_name": "Azul",
     "website": "",
     "career_page_url": "https://jobs.lever.co/azul",
@@ -818,16 +697,6 @@
     "source_platforms": [
       "atsprobe-r1",
       "himalayas"
-    ]
-  },
-  {
-    "company_name": "Azul Systems",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/azul",
-    "board_token": "azul",
-    "domain_hint": "",
-    "source_platforms": [
-      "seedprobe"
     ]
   },
   {
@@ -852,16 +721,6 @@
     ]
   },
   {
-    "company_name": "Balbix Inc.",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/balbix",
-    "board_token": "balbix",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r2"
-    ]
-  },
-  {
     "company_name": "BAMKO (BAMKO, LLC)",
     "website": "",
     "career_page_url": "https://jobs.lever.co/bamko",
@@ -881,26 +740,6 @@
       "atsprobe-r1",
       "bulk-discovered",
       "topstartups.io"
-    ]
-  },
-  {
-    "company_name": "Basis AI",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/basis",
-    "board_token": "basis",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r2"
-    ]
-  },
-  {
-    "company_name": "BASIS International (United States)",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/basis",
-    "board_token": "basis",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r3"
     ]
   },
   {
@@ -1057,27 +896,6 @@
     ]
   },
   {
-    "company_name": "Bloom Energy",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/bloom",
-    "board_token": "bloom",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r3",
-      "cloudsecurity_jobs"
-    ]
-  },
-  {
-    "company_name": "Bloom Technologies",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/bloom",
-    "board_token": "bloom",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r1"
-    ]
-  },
-  {
     "company_name": "Bloomon",
     "website": "",
     "career_page_url": "https://jobs.lever.co/bloomon",
@@ -1099,16 +917,6 @@
     ]
   },
   {
-    "company_name": "Blue Bear (United Kingdom)",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/blue",
-    "board_token": "blue",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r3"
-    ]
-  },
-  {
     "company_name": "Blue Bottle Coffee",
     "website": "",
     "career_page_url": "https://jobs.lever.co/bluebottlecoffee",
@@ -1119,26 +927,6 @@
     ]
   },
   {
-    "company_name": "Blue Canvas",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/blue",
-    "board_token": "blue",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r3"
-    ]
-  },
-  {
-    "company_name": "Blue Code",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/blue",
-    "board_token": "blue",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r3"
-    ]
-  },
-  {
     "company_name": "Blue Coding",
     "website": "",
     "career_page_url": "https://jobs.lever.co/bluecoding",
@@ -1146,140 +934,6 @@
     "domain_hint": "",
     "source_platforms": [
       "himalayas"
-    ]
-  },
-  {
-    "company_name": "Blue Mantis",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/blue",
-    "board_token": "blue",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r3",
-      "himalayas"
-    ]
-  },
-  {
-    "company_name": "Blue Mobile Systems (Sweden)",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/blue",
-    "board_token": "blue",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r3"
-    ]
-  },
-  {
-    "company_name": "Blue Origin",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/blue",
-    "board_token": "blue",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r0",
-      "himalayas",
-      "simplify-newgrad"
-    ]
-  },
-  {
-    "company_name": "Blue Pictures Entertainment",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/blue",
-    "board_token": "blue",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-rwd-3"
-    ]
-  },
-  {
-    "company_name": "Blue Ray (Czechia)",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/blue",
-    "board_token": "blue",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r3"
-    ]
-  },
-  {
-    "company_name": "Blue Sky Aviation Services",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/blue",
-    "board_token": "blue",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-rwd-3"
-    ]
-  },
-  {
-    "company_name": "Blue Sun (United States)",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/blue",
-    "board_token": "blue",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r3"
-    ]
-  },
-  {
-    "company_name": "Blue Vision Labs",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/blue",
-    "board_token": "blue",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r0"
-    ]
-  },
-  {
-    "company_name": "Blue Yonder",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/blue",
-    "board_token": "blue",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-rwd-1",
-      "simplify-newgrad"
-    ]
-  },
-  {
-    "company_name": "Blue Zoo Animation Studio",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/blue",
-    "board_token": "blue",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-rwd-2"
-    ]
-  },
-  {
-    "company_name": "Blue-Tomato",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/blue",
-    "board_token": "blue",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r3"
-    ]
-  },
-  {
-    "company_name": "Blue-Zoo Productions",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/blue",
-    "board_token": "blue",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-rwd-2"
-    ]
-  },
-  {
-    "company_name": "Blue1",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/blue",
-    "board_token": "blue",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-rwd-2"
     ]
   },
   {
@@ -1385,36 +1039,6 @@
     ]
   },
   {
-    "company_name": "Brilliant Animation Studios",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/brilliant",
-    "board_token": "brilliant",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r3"
-    ]
-  },
-  {
-    "company_name": "Brilliant Code Inc.",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/brilliant",
-    "board_token": "brilliant",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r3"
-    ]
-  },
-  {
-    "company_name": "Brilliant Labs",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/brilliant",
-    "board_token": "brilliant",
-    "domain_hint": "",
-    "source_platforms": [
-      "seedprobe"
-    ]
-  },
-  {
     "company_name": "BriteCore",
     "website": "",
     "career_page_url": "https://jobs.lever.co/britecore",
@@ -1475,107 +1099,6 @@
     "source_platforms": [
       "bulk-discovered",
       "topstartups.io"
-    ]
-  },
-  {
-    "company_name": "Capital & Regional",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/capital",
-    "board_token": "capital",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r3"
-    ]
-  },
-  {
-    "company_name": "Capital Airlines",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/capital",
-    "board_token": "capital",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-rwd-2"
-    ]
-  },
-  {
-    "company_name": "Capital Consulting Corporation (United States)",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/capital",
-    "board_token": "capital",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r3"
-    ]
-  },
-  {
-    "company_name": "Capital Foncier",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/capital",
-    "board_token": "capital",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-rwd-1"
-    ]
-  },
-  {
-    "company_name": "Capital Group (United States)",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/capital",
-    "board_token": "capital",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r2"
-    ]
-  },
-  {
-    "company_name": "Capital Match",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/capital",
-    "board_token": "capital",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r0"
-    ]
-  },
-  {
-    "company_name": "Capital One",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/capital",
-    "board_token": "capital",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r3",
-      "simplify-newgrad"
-    ]
-  },
-  {
-    "company_name": "Capital Power (Canada)",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/capital",
-    "board_token": "capital",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r3"
-    ]
-  },
-  {
-    "company_name": "Capital Power Corporation",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/capital",
-    "board_token": "capital",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r3"
-    ]
-  },
-  {
-    "company_name": "Capital Technology Group",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/capital",
-    "board_token": "capital",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r0"
     ]
   },
   {
@@ -1821,16 +1344,6 @@
     ]
   },
   {
-    "company_name": "Clari5",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/clari",
-    "board_token": "clari",
-    "domain_hint": "",
-    "source_platforms": [
-      "seedprobe"
-    ]
-  },
-  {
     "company_name": "CleanSpark",
     "website": "",
     "career_page_url": "https://jobs.lever.co/cleanspark",
@@ -1903,16 +1416,6 @@
     ]
   },
   {
-    "company_name": "CloudWalk Technology",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/cloudwalk",
-    "board_token": "cloudwalk",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-rwd-2"
-    ]
-  },
-  {
     "company_name": "Coalfire",
     "website": "",
     "career_page_url": "https://jobs.lever.co/coalfire",
@@ -1921,17 +1424,6 @@
     "source_platforms": [
       "atsprobe-r3",
       "bulk-discovered"
-    ]
-  },
-  {
-    "company_name": "Coalfire Labs",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/coalfire",
-    "board_token": "coalfire",
-    "domain_hint": "coalfire.com",
-    "source_platforms": [
-      "atsprobe-r3",
-      "chsr"
     ]
   },
   {
@@ -2185,27 +1677,6 @@
     ]
   },
   {
-    "company_name": "Coupa Software",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/coupa",
-    "board_token": "coupa",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r2"
-    ]
-  },
-  {
-    "company_name": "Coupa Software, Inc.",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/coupa",
-    "board_token": "coupa",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r3",
-      "himalayas"
-    ]
-  },
-  {
     "company_name": "Cprime",
     "website": "",
     "career_page_url": "https://jobs.lever.co/cprime",
@@ -2296,16 +1767,6 @@
     "domain_hint": "",
     "source_platforms": [
       "atsprobe-ats-slug-repo"
-    ]
-  },
-  {
-    "company_name": "Crytek UK",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/crytek",
-    "board_token": "crytek",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-rwd-2"
     ]
   },
   {
@@ -2951,26 +2412,6 @@
     ]
   },
   {
-    "company_name": "Eternal Asia",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/eternal",
-    "board_token": "eternal",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r3"
-    ]
-  },
-  {
-    "company_name": "Eternal East Group (China)",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/eternal",
-    "board_token": "eternal",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r3"
-    ]
-  },
-  {
     "company_name": "Ethena Labs",
     "website": "",
     "career_page_url": "https://jobs.lever.co/ethenalabs",
@@ -3050,16 +2491,6 @@
     "domain_hint": "",
     "source_platforms": [
       "atsprobe-r0"
-    ]
-  },
-  {
-    "company_name": "FamPay",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/fampay",
-    "board_token": "fampay",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r3"
     ]
   },
   {
@@ -3156,16 +2587,6 @@
     ]
   },
   {
-    "company_name": "Finch Therapeutics",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/finch",
-    "board_token": "finch",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r0"
-    ]
-  },
-  {
     "company_name": "Find AI",
     "website": "",
     "career_page_url": "https://jobs.lever.co/find",
@@ -3205,26 +2626,6 @@
     "domain_hint": "",
     "source_platforms": [
       "atsprobe-r2"
-    ]
-  },
-  {
-    "company_name": "Finn Partners (United States)",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/finn",
-    "board_token": "finn",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r3"
-    ]
-  },
-  {
-    "company_name": "Finn.ai",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/finn",
-    "board_token": "finn",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r1"
     ]
   },
   {
@@ -3430,16 +2831,6 @@
     ]
   },
   {
-    "company_name": "Galatea Associates",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/galatea-associates",
-    "board_token": "galatea-associates",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r2"
-    ]
-  },
-  {
     "company_name": "Galatea Associates, LLC",
     "website": "https://galatea-associates.com",
     "career_page_url": "https://jobs.lever.co/galatea-associates",
@@ -3583,16 +2974,6 @@
     ]
   },
   {
-    "company_name": "GMO DesignOne",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/gmo",
-    "board_token": "gmo",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r3"
-    ]
-  },
-  {
     "company_name": "Go RH",
     "website": "",
     "career_page_url": "https://jobs.lever.co/gorh",
@@ -3655,26 +3036,6 @@
     ]
   },
   {
-    "company_name": "Grand Cloud",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/grand",
-    "board_token": "grand",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r1"
-    ]
-  },
-  {
-    "company_name": "Grand Rounds",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/grand",
-    "board_token": "grand",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r0"
-    ]
-  },
-  {
     "company_name": "Graylog",
     "website": "",
     "career_page_url": "https://jobs.lever.co/graylog",
@@ -3734,16 +3095,6 @@
     "source_platforms": [
       "atsprobe-r0",
       "topstartups.io"
-    ]
-  },
-  {
-    "company_name": "H1 Insights",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/h1",
-    "board_token": "h1",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r0"
     ]
   },
   {
@@ -3881,16 +3232,6 @@
     ]
   },
   {
-    "company_name": "Hint",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/hint",
-    "board_token": "hint",
-    "domain_hint": "",
-    "source_platforms": [
-      "seedprobe"
-    ]
-  },
-  {
     "company_name": "Hint Inc",
     "website": "https://hint.com",
     "career_page_url": "https://jobs.lever.co/hint",
@@ -3908,37 +3249,6 @@
     "domain_hint": "",
     "source_platforms": [
       "atsprobe-r2"
-    ]
-  },
-  {
-    "company_name": "Horizon Communications (United States)",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/horizon",
-    "board_token": "horizon",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r3"
-    ]
-  },
-  {
-    "company_name": "Horizon Technologies",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/horizon",
-    "board_token": "horizon",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r2",
-      "simplify-newgrad"
-    ]
-  },
-  {
-    "company_name": "Hospital IQ",
-    "website": "https://hospital-iq.com",
-    "career_page_url": "https://jobs.lever.co/leantaas",
-    "board_token": "leantaas",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-ats-slug-repo"
     ]
   },
   {
@@ -4024,26 +3334,6 @@
     ]
   },
   {
-    "company_name": "IDT Corporation",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/idt",
-    "board_token": "idt",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r3"
-    ]
-  },
-  {
-    "company_name": "IDT International",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/idt",
-    "board_token": "idt",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r3"
-    ]
-  },
-  {
     "company_name": "iManage",
     "website": "https://imanage.com",
     "career_page_url": "https://imanage.com/about/the-company/careers/",
@@ -4106,16 +3396,6 @@
     ]
   },
   {
-    "company_name": "Instapage",
-    "website": "https://instapage.com",
-    "career_page_url": "https://jobs.lever.co/airslate",
-    "board_token": "airslate",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-ats-slug-repo"
-    ]
-  },
-  {
     "company_name": "Institute of Foundation Models",
     "website": "",
     "career_page_url": "https://jobs.lever.co/ifm-us/5342e333-61b9-406d-bfea-61a687a94d1f/apply",
@@ -4147,26 +3427,6 @@
     ]
   },
   {
-    "company_name": "Intersect Labs",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/intersect",
-    "board_token": "intersect",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r1"
-    ]
-  },
-  {
-    "company_name": "Intersect Power",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/intersect",
-    "board_token": "intersect",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r3"
-    ]
-  },
-  {
     "company_name": "Intropic",
     "website": "",
     "career_page_url": "https://jobs.lever.co/intropic/a4a5fb03-4a97-4f18-a680-7dd5663955a2/apply",
@@ -4184,36 +3444,6 @@
     "domain_hint": "",
     "source_platforms": [
       "himalayas"
-    ]
-  },
-  {
-    "company_name": "ION Geophysical",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/ion",
-    "board_token": "ion",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r3"
-    ]
-  },
-  {
-    "company_name": "ION Group",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/ion",
-    "board_token": "ion",
-    "domain_hint": "",
-    "source_platforms": [
-      "seedprobe"
-    ]
-  },
-  {
-    "company_name": "ION360",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/ion",
-    "board_token": "ion",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r3"
     ]
   },
   {
@@ -4537,16 +3767,6 @@
     ]
   },
   {
-    "company_name": "Ladders, Inc. (theladders.com)",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/ladders",
-    "board_token": "ladders",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r3"
-    ]
-  },
-  {
     "company_name": "Lalamove",
     "website": "",
     "career_page_url": "https://jobs.lever.co/lalamove",
@@ -4595,16 +3815,6 @@
     "domain_hint": "",
     "source_platforms": [
       "himalayas"
-    ]
-  },
-  {
-    "company_name": "Layup",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/layup",
-    "board_token": "layup",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r3"
     ]
   },
   {
@@ -4684,86 +3894,6 @@
       "index_ventures",
       "seedprobe",
       "simplify-newgrad"
-    ]
-  },
-  {
-    "company_name": "Life Corporation",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/life",
-    "board_token": "life",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r2"
-    ]
-  },
-  {
-    "company_name": "Life Length (Spain)",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/life",
-    "board_token": "life",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r3"
-    ]
-  },
-  {
-    "company_name": "Life Services (United States)",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/life",
-    "board_token": "life",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r3"
-    ]
-  },
-  {
-    "company_name": "Life Storage",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/life",
-    "board_token": "life",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r3"
-    ]
-  },
-  {
-    "company_name": "Life Systems (United States)",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/life",
-    "board_token": "life",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r2"
-    ]
-  },
-  {
-    "company_name": "Life Technologies",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/life",
-    "board_token": "life",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r1"
-    ]
-  },
-  {
-    "company_name": "Life Time",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/life",
-    "board_token": "life",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r3"
-    ]
-  },
-  {
-    "company_name": "LIFE360 INC.",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/life",
-    "board_token": "life",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r1"
     ]
   },
   {
@@ -4850,16 +3980,6 @@
     ]
   },
   {
-    "company_name": "Loft Orbital Solutions",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/loftorbital",
-    "board_token": "loftorbital",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r0"
-    ]
-  },
-  {
     "company_name": "LogRocket",
     "website": "",
     "career_page_url": "https://jobs.lever.co/logrocket",
@@ -4928,16 +4048,6 @@
     "domain_hint": "fintech/digital-banking",
     "source_platforms": [
       "direct-search"
-    ]
-  },
-  {
-    "company_name": "Luminar",
-    "website": "https://luminartech.com",
-    "career_page_url": "https://jobs.lever.co/microvision",
-    "board_token": "microvision",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-ats-slug-repo"
     ]
   },
   {
@@ -5115,16 +4225,6 @@
     ]
   },
   {
-    "company_name": "Mashgin Inc. (YC W15)",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/mashgin",
-    "board_token": "mashgin",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r0"
-    ]
-  },
-  {
     "company_name": "Massive Rocket",
     "website": "",
     "career_page_url": "https://jobs.lever.co/massive-rocket",
@@ -5197,36 +4297,6 @@
     ]
   },
   {
-    "company_name": "Mega Electronics (Finland)",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/mega",
-    "board_token": "mega",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r3"
-    ]
-  },
-  {
-    "company_name": "Mega Lifesciences",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/mega",
-    "board_token": "mega",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r3"
-    ]
-  },
-  {
-    "company_name": "Mega Perintis",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/mega",
-    "board_token": "mega",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r3"
-    ]
-  },
-  {
     "company_name": "Megaport",
     "website": "",
     "career_page_url": "https://jobs.lever.co/megaport",
@@ -5235,16 +4305,6 @@
     "source_platforms": [
       "atsprobe-r1",
       "himalayas"
-    ]
-  },
-  {
-    "company_name": "MEGAPORT LIMITED",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/megaport",
-    "board_token": "megaport",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r3"
     ]
   },
   {
@@ -5359,18 +4419,6 @@
     "domain_hint": "",
     "source_platforms": [
       "atsprobe-ats-slug-repo"
-    ]
-  },
-  {
-    "company_name": "Mistral AI",
-    "website": "https://mistral.ai/",
-    "career_page_url": "https://jobs.lever.co/mistral",
-    "board_token": "mistral",
-    "domain_hint": "mistral.ai",
-    "source_platforms": [
-      "direct-search",
-      "lightspeed",
-      "topstartups.io"
     ]
   },
   {
@@ -5498,16 +4546,6 @@
     ]
   },
   {
-    "company_name": "Neon Century (United Kingdom)",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/neon",
-    "board_token": "neon",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r3"
-    ]
-  },
-  {
     "company_name": "Netflix",
     "website": "https://netflix.com",
     "career_page_url": "https://jobs.lever.co/netflix",
@@ -5528,36 +4566,6 @@
     "source_platforms": [
       "atsprobe-r2",
       "himalayas"
-    ]
-  },
-  {
-    "company_name": "Newton Labs (United States)",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/newton",
-    "board_token": "newton",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r3"
-    ]
-  },
-  {
-    "company_name": "Newton Media (Czechia)",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/newton",
-    "board_token": "newton",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r3"
-    ]
-  },
-  {
-    "company_name": "Newton Technologies (Czechia)",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/newton",
-    "board_token": "newton",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r1"
     ]
   },
   {
@@ -5789,16 +4797,6 @@
     ]
   },
   {
-    "company_name": "OpenLogic",
-    "website": "https://openlogic.com",
-    "career_page_url": "https://jobs.lever.co/perforce",
-    "board_token": "perforce",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-ats-slug-repo"
-    ]
-  },
-  {
     "company_name": "OpenX",
     "website": "",
     "career_page_url": "https://jobs.lever.co/openx",
@@ -5807,16 +4805,6 @@
     "source_platforms": [
       "atsprobe-r2",
       "index_ventures"
-    ]
-  },
-  {
-    "company_name": "OpenX Technologies",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/openx",
-    "board_token": "openx",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r2"
     ]
   },
   {
@@ -5859,16 +4847,6 @@
     "source_platforms": [
       "atsprobe-r0",
       "topstartups.io"
-    ]
-  },
-  {
-    "company_name": "OSARO INC",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/osaro",
-    "board_token": "osaro",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r2"
     ]
   },
   {
@@ -5965,16 +4943,6 @@
     ]
   },
   {
-    "company_name": "Palantir Technologies",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/palantir",
-    "board_token": "palantir",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r3"
-    ]
-  },
-  {
     "company_name": "Panopto",
     "website": "",
     "career_page_url": "https://jobs.lever.co/panopto",
@@ -6048,16 +5016,6 @@
     ]
   },
   {
-    "company_name": "Paytm Labs",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/paytm",
-    "board_token": "paytm",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r0"
-    ]
-  },
-  {
     "company_name": "Peerspace",
     "website": "",
     "career_page_url": "https://jobs.lever.co/peerspace",
@@ -6119,16 +5077,6 @@
     "source_platforms": [
       "atsprobe-ats-slug-repo",
       "seedprobe"
-    ]
-  },
-  {
-    "company_name": "Perforce Software",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/perforce",
-    "board_token": "perforce",
-    "domain_hint": "",
-    "source_platforms": [
-      "himalayas"
     ]
   },
   {
@@ -6242,27 +5190,6 @@
     ]
   },
   {
-    "company_name": "Pivotal Labs",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/pivotal",
-    "board_token": "pivotal",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r3"
-    ]
-  },
-  {
-    "company_name": "Pivotal Software",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/pivotal",
-    "board_token": "pivotal",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r0",
-      "seedprobe"
-    ]
-  },
-  {
     "company_name": "Placemakr",
     "website": "",
     "career_page_url": "https://jobs.lever.co/placemakr",
@@ -6305,16 +5232,6 @@
   },
   {
     "company_name": "Plexus",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/plexus",
-    "board_token": "plexus",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r3"
-    ]
-  },
-  {
-    "company_name": "Plexus Corporation",
     "website": "",
     "career_page_url": "https://jobs.lever.co/plexus",
     "board_token": "plexus",
@@ -6499,38 +5416,6 @@
     ]
   },
   {
-    "company_name": "Proper AI",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/proper",
-    "board_token": "proper",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r1"
-    ]
-  },
-  {
-    "company_name": "Proper Labs (Redesign Health)",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/proper",
-    "board_token": "proper",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r0"
-    ]
-  },
-  {
-    "company_name": "Prosper",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/prosper",
-    "board_token": "prosper",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r1",
-      "himalayas",
-      "yc-directory"
-    ]
-  },
-  {
     "company_name": "Prosper Marketplace",
     "website": "https://prosper.com",
     "career_page_url": "https://jobs.lever.co/prosper",
@@ -6569,16 +5454,6 @@
     "domain_hint": "",
     "source_platforms": [
       "atsprobe-r2"
-    ]
-  },
-  {
-    "company_name": "Puppet",
-    "website": "https://puppet.com",
-    "career_page_url": "https://jobs.lever.co/perforce",
-    "board_token": "perforce",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-ats-slug-repo"
     ]
   },
   {
@@ -6838,26 +5713,6 @@
     ]
   },
   {
-    "company_name": "Relay Health",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/relay",
-    "board_token": "relay",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r0"
-    ]
-  },
-  {
-    "company_name": "Relay Platform",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/relay",
-    "board_token": "relay",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r3"
-    ]
-  },
-  {
     "company_name": "Remofirst",
     "website": "",
     "career_page_url": "https://jobs.lever.co/remofirst",
@@ -6947,16 +5802,6 @@
     "website": "",
     "career_page_url": "https://jobs.lever.co/revinate",
     "board_token": "revinate",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r2"
-    ]
-  },
-  {
-    "company_name": "Rigetti",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/rigetti",
-    "board_token": "rigetti",
     "domain_hint": "",
     "source_platforms": [
       "atsprobe-r2"
@@ -7053,16 +5898,6 @@
     "domain_hint": "",
     "source_platforms": [
       "atsprobe-r1"
-    ]
-  },
-  {
-    "company_name": "SafeSecurity",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/safe",
-    "board_token": "safe",
-    "domain_hint": "",
-    "source_platforms": [
-      "bulk-discovered"
     ]
   },
   {
@@ -7207,16 +6042,6 @@
     "domain_hint": "",
     "source_platforms": [
       "himalayas"
-    ]
-  },
-  {
-    "company_name": "Semble AI",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/semble",
-    "board_token": "semble",
-    "domain_hint": "",
-    "source_platforms": [
-      "yc-directory"
     ]
   },
   {
@@ -7371,16 +6196,6 @@
     ]
   },
   {
-    "company_name": "Slate Magazine",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/slate",
-    "board_token": "slate",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r0"
-    ]
-  },
-  {
     "company_name": "Smarsh",
     "website": "",
     "career_page_url": "https://jobs.lever.co/smarsh",
@@ -7388,16 +6203,6 @@
     "domain_hint": "",
     "source_platforms": [
       "himalayas"
-    ]
-  },
-  {
-    "company_name": "Smartrr",
-    "website": "https://smartrr.com",
-    "career_page_url": "https://jobs.lever.co/relay-commerce",
-    "board_token": "relay-commerce",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-ats-slug-repo"
     ]
   },
   {
@@ -7451,18 +6256,6 @@
     ]
   },
   {
-    "company_name": "SonarSource",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/sonarsource",
-    "board_token": "sonarsource",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-rwd-3",
-      "bulk-discovered",
-      "insight_partners"
-    ]
-  },
-  {
     "company_name": "Sonatype",
     "website": "",
     "career_page_url": "https://jobs.lever.co/sonatype",
@@ -7486,16 +6279,6 @@
     ]
   },
   {
-    "company_name": "Sophos Group (United Kingdom)",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/sophos",
-    "board_token": "sophos",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r1"
-    ]
-  },
-  {
     "company_name": "Soum",
     "website": "",
     "career_page_url": "https://jobs.lever.co/soum",
@@ -7508,26 +6291,6 @@
   },
   {
     "company_name": "Source",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/source",
-    "board_token": "source",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r3"
-    ]
-  },
-  {
-    "company_name": "Source 1 Media",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/source",
-    "board_token": "source",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-rwd-2"
-    ]
-  },
-  {
-    "company_name": "Source BioScience (United Kingdom)",
     "website": "",
     "career_page_url": "https://jobs.lever.co/source",
     "board_token": "source",
@@ -7560,16 +6323,6 @@
     ]
   },
   {
-    "company_name": "Spotify Technology",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/spotify",
-    "board_token": "spotify",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r1"
-    ]
-  },
-  {
     "company_name": "Spreedly",
     "website": "https://spreedly.com",
     "career_page_url": "https://jobs.lever.co/spreedly",
@@ -7587,17 +6340,6 @@
     "domain_hint": "",
     "source_platforms": [
       "atsprobe-r1"
-    ]
-  },
-  {
-    "company_name": "Spreetail Inc.",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/spreetail",
-    "board_token": "spreetail",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r2",
-      "himalayas"
     ]
   },
   {
@@ -7744,26 +6486,6 @@
     ]
   },
   {
-    "company_name": "Super Pulse (United States)",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/super",
-    "board_token": "super",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r3"
-    ]
-  },
-  {
-    "company_name": "Super Tool",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/super",
-    "board_token": "super",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r3"
-    ]
-  },
-  {
     "company_name": "SuperAnnotate",
     "website": "https://superannotate.com",
     "career_page_url": "https://jobs.lever.co/superannotate",
@@ -7805,16 +6527,6 @@
     "source_platforms": [
       "atsprobe-r3",
       "bulk-discovered"
-    ]
-  },
-  {
-    "company_name": "Sure, Inc",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/sure",
-    "board_token": "sure",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r3"
     ]
   },
   {
@@ -8101,16 +6813,6 @@
     ]
   },
   {
-    "company_name": "Text.ai",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/text",
-    "board_token": "text",
-    "domain_hint": "",
-    "source_platforms": [
-      "yc-directory"
-    ]
-  },
-  {
     "company_name": "The Athletic",
     "website": "",
     "career_page_url": "https://jobs.lever.co/theathletic",
@@ -8190,16 +6892,6 @@
     "domain_hint": "",
     "source_platforms": [
       "atsprobe-r2"
-    ]
-  },
-  {
-    "company_name": "Toku Pte Ltd",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/toku",
-    "board_token": "toku",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r0"
     ]
   },
   {
@@ -8289,27 +6981,6 @@
     "source_platforms": [
       "atsprobe-r0",
       "yc-directory"
-    ]
-  },
-  {
-    "company_name": "Trellis AI",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/trellis",
-    "board_token": "trellis",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r1",
-      "yc-directory"
-    ]
-  },
-  {
-    "company_name": "Trellis Growing Systems",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/trellis",
-    "board_token": "trellis",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r3"
     ]
   },
   {
@@ -8525,18 +7196,6 @@
     ]
   },
   {
-    "company_name": "Veeva Systems",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/veeva",
-    "board_token": "veeva",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r2",
-      "seedprobe",
-      "simplify-newgrad"
-    ]
-  },
-  {
     "company_name": "Velo3D",
     "website": "http://www.velo3d.com/",
     "career_page_url": "https://jobs.lever.co/velo3d",
@@ -8559,16 +7218,6 @@
   },
   {
     "company_name": "Verdigris",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/verdigris",
-    "board_token": "verdigris",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r1"
-    ]
-  },
-  {
-    "company_name": "Verdigris.co",
     "website": "",
     "career_page_url": "https://jobs.lever.co/verdigris",
     "board_token": "verdigris",
@@ -8648,26 +7297,6 @@
     "domain_hint": "",
     "source_platforms": [
       "atsprobe-r3"
-    ]
-  },
-  {
-    "company_name": "VIDA & Co.",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/vida",
-    "board_token": "vida",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r1"
-    ]
-  },
-  {
-    "company_name": "Vida Health",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/vida",
-    "board_token": "vida",
-    "domain_hint": "",
-    "source_platforms": [
-      "himalayas"
     ]
   },
   {
@@ -8751,17 +7380,6 @@
     "source_platforms": [
       "atsprobe-r1",
       "himalayas"
-    ]
-  },
-  {
-    "company_name": "Voodoo",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/voodoo",
-    "board_token": "voodoo",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-rwd-0",
-      "seedprobe"
     ]
   },
   {
@@ -9099,16 +7717,6 @@
     "domain_hint": "B2B SaaS/food-tech",
     "source_platforms": [
       "direct-search"
-    ]
-  },
-  {
-    "company_name": "ZeroDev",
-    "website": "https://zerodev.app",
-    "career_page_url": "https://jobs.lever.co/offchainlabs",
-    "board_token": "offchainlabs",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-ats-slug-repo"
     ]
   },
   {

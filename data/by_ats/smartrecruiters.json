@@ -640,16 +640,6 @@
     ]
   },
   {
-    "company_name": "Peacock",
-    "website": "https://peacocktv.com",
-    "career_page_url": "https://careers.smartrecruiters.com/my-applications",
-    "board_token": "my-applications",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-ats-slug-repo"
-    ]
-  },
-  {
     "company_name": "People Can Fly",
     "website": "https://peoplecanfly.com",
     "career_page_url": "https://careers.smartrecruiters.com/PeopleCanFly",
@@ -971,16 +961,6 @@
     "domain_hint": "",
     "source_platforms": [
       "simplify-intern"
-    ]
-  },
-  {
-    "company_name": "TransTech",
-    "website": "https://transtech.com",
-    "career_page_url": "https://careers.smartrecruiters.com/my-applications",
-    "board_token": "my-applications",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-ats-slug-repo"
     ]
   },
   {

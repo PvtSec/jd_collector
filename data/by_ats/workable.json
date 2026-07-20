@@ -225,16 +225,6 @@
     ]
   },
   {
-    "company_name": "CDC Software",
-    "website": "https://cdc.com",
-    "career_page_url": "https://apply.workable.com/j",
-    "board_token": "j",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-ats-slug-repo"
-    ]
-  },
-  {
     "company_name": "ClearSlide",
     "website": "https://clearslide.com",
     "career_page_url": "https://apply.workable.com/bigtincan",
@@ -503,17 +493,6 @@
     ]
   },
   {
-    "company_name": "Mindera",
-    "website": "https://mindera.com",
-    "career_page_url": "https://apply.workable.com/j",
-    "board_token": "j",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-ats-slug-repo",
-      "himalayas"
-    ]
-  },
-  {
     "company_name": "MLabs",
     "website": "https://mlabs.city",
     "career_page_url": "https://apply.workable.com/mlabs",
@@ -569,26 +548,6 @@
     "website": "https://onmed.com",
     "career_page_url": "https://apply.workable.com/onmed",
     "board_token": "onmed",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-ats-slug-repo"
-    ]
-  },
-  {
-    "company_name": "Orfium",
-    "website": "https://orfium.com",
-    "career_page_url": "https://apply.workable.com/j",
-    "board_token": "j",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-ats-slug-repo"
-    ]
-  },
-  {
-    "company_name": "Ossia",
-    "website": "https://ossia.com",
-    "career_page_url": "https://apply.workable.com/j",
-    "board_token": "j",
     "domain_hint": "",
     "source_platforms": [
       "atsprobe-ats-slug-repo"
@@ -700,27 +659,6 @@
     ]
   },
   {
-    "company_name": "Resin.io",
-    "website": "https://resin.io",
-    "career_page_url": "https://apply.workable.com/balena",
-    "board_token": "balena",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-ats-slug-repo"
-    ]
-  },
-  {
-    "company_name": "ReversingLabs",
-    "website": "https://reversinglabs.com",
-    "career_page_url": "https://apply.workable.com/j",
-    "board_token": "j",
-    "domain_hint": "reversinglabs.workable.com",
-    "source_platforms": [
-      "atsprobe-ats-slug-repo",
-      "chsr"
-    ]
-  },
-  {
     "company_name": "Rokt",
     "website": "",
     "career_page_url": "https://apply.workable.com/rokt/j/783A754DDB/apply",
@@ -759,16 +697,6 @@
     "source_platforms": [
       "cloudsecurity_jobs",
       "simplify-newgrad"
-    ]
-  },
-  {
-    "company_name": "Scrapinghub",
-    "website": "https://scrapinghub.com",
-    "career_page_url": "https://apply.workable.com/j",
-    "board_token": "j",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-ats-slug-repo"
     ]
   },
   {
