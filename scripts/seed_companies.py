@@ -1,29 +1,4 @@
 #!/usr/bin/env python3
-"""Seed the dataset with additional tech companies not in the original 201.
-
-Emits raw entries (shape matching data/raw/agent*.json) to data/raw/seed_external.json,
-which scripts/consolidate.py picks up on its next run. Each curated company emits TWO
-raw entries (website/careers and website/jobs); consolidate dedups by normalized name
-and merges the URLs into career_page_url + alternate_career_urls, so the resolver
-(scripts/resolve_ats.py) can try both when detecting the real ATS.
-
-Discovery approach (honest):
-  Dynamic scraping of YC (ycombinator.com/companies), Built In (builtin.com/companies)
-  and Wellfound (wellfound.com/company_list) was probed live (2026-07):
-    - YC:       Inertia app; the company directory is client-rendered via XHR with no
-                extractable anchor cards and no JSON data island -> not scrapable via
-                static HTTP or a light Playwright pass.
-    - Built In: client-rendered Next.js; the company list is loaded via XHR to an
-                internal api.builtin.com endpoint (POST, auth-gated) -> not scrapable.
-    - Wellfound: 403 bot-blocked.
-  So the reliable seed is a CURATED list of real tech companies (security / QA / dev-
-  tools / AI / India-tech) known to hire for the candidate's target roles and likely to
-  use a standard ATS. The resolver validates the real ATS for each. Re-runnable: dedups
-  against the existing companies.json by normalized name, so only NEW companies are
-  added.
-
-Read-only: no network calls (the curated list is static). The resolver does the fetches.
-"""
 import json, os, re
 
 DATA = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data")

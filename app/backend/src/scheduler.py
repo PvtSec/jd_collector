@@ -1,9 +1,3 @@
-"""Background scheduler — APScheduler interval job + manual force/rescan.
-
-A single-worker ``ThreadPoolExecutor`` guarantees ticks never overlap (sync
-enumerators can't run concurrently here). ``force_reload``
-and ``rescan`` are one-shot jobs added on demand.
-"""
 from __future__ import annotations
 
 import time
@@ -30,7 +24,6 @@ def _tick_job():
 
 
 def _force_tick_job():
-    """One-shot job added by force_reload — just calls run_tick."""
     settings = _settings
     tm = get_manager()
     discovery.run_tick(settings, tm)
@@ -43,8 +36,7 @@ def _rescan_job():
 
 
 def _prune_links_job():
-    """Periodic dead-link prune: drop non-ATS URLs that 404/410. Real-ATS URLs
-    are trusted. Runs on a separate executor so it never blocks discovery."""
+    # Runs on a separate executor so it never blocks discovery.
     from . import liveness
     from .app import db, ATS_CLIENTS
     try:
@@ -54,10 +46,7 @@ def _prune_links_job():
 
 
 def _discover_companies_job():
-    """Automatic new-company discovery: re-runs the heavy discovery scripts
-    (discover_slugs + discover_topstartups + consolidate) so the company list
-    grows without the manual Rescan button. On its own executor so the 5-min
-    job-rotation tick keeps running."""
+    # On its own executor so the 5-min job-rotation tick keeps running.
     settings = _settings
     tm = get_manager()
     if tm.is_running:
@@ -66,9 +55,7 @@ def _discover_companies_job():
 
 
 def _export_seed_job():
-    """Periodic discovered-jobs seed export: dump the current jobs DB to the
-    seed file on the volume so a DB wipe (volume kept) recovers from the latest
-    discovered state. Read-only w.r.t. the jobs DB; never blocks discovery."""
+    # Read-only w.r.t. the jobs DB; never blocks discovery.
     settings = _settings
     if settings is None:
         return
@@ -124,7 +111,6 @@ def stop():
 
 
 def force_reload(tm: TaskManager) -> bool:
-    """If idle, kick a discovery tick immediately. Returns True if accepted."""
     if tm.is_running:
         return False
     # one-shot, run now
@@ -134,7 +120,6 @@ def force_reload(tm: TaskManager) -> bool:
 
 
 def rescan(tm: TaskManager) -> bool:
-    """If idle, kick the heavy rescan job immediately."""
     if tm.is_running:
         return False
     _scheduler.add_job(_rescan_job, "date", id="rescan",

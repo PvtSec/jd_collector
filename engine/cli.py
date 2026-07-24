@@ -1,13 +1,3 @@
-"""job_auto CLI — centralized job-search centre (read-only discovery + filtering).
-
-Subcommands (all read-only):
-  list-companies [--ats ATS]          show companies in the dataset
-  jobs [--ats ATS] [--company NAME]   enumerate + filter open jobs across boards
-  stats                               dataset + ledger stats
-
-This project only discovers and filters jobs. Applying is done by you in the
-browser (e.g. via the Chrome extension); no apply/submit path lives here.
-"""
 from __future__ import annotations
 import argparse
 import json
@@ -36,7 +26,6 @@ def _companies_filtered(cfg: Config, ats: str | None) -> list[dict]:
     if cfg.skip_companies:
         skip = {s.lower() for s in cfg.skip_companies}
         comps = [c for c in comps if c["company_name"].lower() not in skip]
-    # only keep ones we can enumerate
     out = []
     for c in comps:
         if c["ats_type"] not in CLIENTS:
@@ -82,7 +71,6 @@ def cmd_jobs(cfg: Config, args):
     total_seen = 0
     total_matched = 0
     per_ats: dict[str, int] = {}
-    # collected matched jobs across companies for sorting/filtering
     rows: list[tuple[Job, dict]] = []  # (job, company_dict)
     for c in comps:
         ats = c["ats_type"]
@@ -112,7 +100,6 @@ def cmd_jobs(cfg: Config, args):
             break
 
     def _posted_key(j: Job) -> float:
-        """Comparable epoch seconds; missing dates sort last (return -inf)."""
         pd = parse_posted(j.posted_at)
         if pd is None:
             return float("-inf")

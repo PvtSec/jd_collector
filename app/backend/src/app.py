@@ -1,19 +1,3 @@
-"""FastAPI app — dashboard API, SSE event stream, and frontend static serving.
-
-Routes:
-  GET  /api/health
-  GET  /api/jobs?recent=&sort=&ats=&q=&matched=&applied=&limit=&offset=  filtered job list
-  GET  /api/jobs/{id}                                                single job (JD link = url)
-  GET  /api/stats                                                    count tiles + by-ats
-  GET  /api/daily?days=14                                            per-day rollup for status bar
-  GET  /api/tasks/current                                            current-run snapshot
-  GET  /api/tasks/history                                            recent task_runs
-  POST /api/tasks/force-reload                                       kick discovery now (409 if running)
-  POST /api/tasks/rescan-companies                                   kick heavy rescan (409 if running)
-  POST /api/jobs/{id}/mark-applied                                   write to engine ledger + flip flag
-  GET  /api/applied                                                  recent engine-ledger rows
-  GET  /api/events                                                   SSE stream (task_started/progress/completed/failed)
-"""
 from __future__ import annotations
 
 import asyncio
@@ -36,12 +20,11 @@ from .settings import settings
 from .tasks import TaskManager, set_manager
 from . import repository
 
-# ---- singletons ----
 db = DB(settings.abs_jobs_db())
 tm = TaskManager(db)
 set_manager(tm)
 
-# Cache the engine Config; reloaded by rescan via /api/tasks/rescan-companies.
+# Cached so rescan (via /api/tasks/rescan-companies) can reload it.
 _cfg: Config | None = None
 
 
@@ -82,10 +65,9 @@ def _seed_from_flat(path: str) -> int:
     return n
 
 
-# Seed the dashboard DB from a snapshot on first boot so the UI isn't empty
-# before the first tick lands jobs. Prefer the discovered-jobs seed (real
-# (company,ats,job_id) keys + full state incl closed); fall back to the static
-# topstartups flat snapshot, then an explicit SEED_JSON env override.
+# Seed on first boot so the UI isn't empty before the first tick. Prefer the
+# discovered-jobs seed (real (company,ats,job_id) keys + full state incl closed);
+# fall back to the static topstartups flat snapshot, then an explicit SEED_JSON.
 if db.count_jobs() == 0:
     here = os.path.dirname(__file__)
     try:
@@ -184,7 +166,6 @@ def _migrate_links() -> None:
 app = FastAPI(title="job_auto dashboard", lifespan=lifespan)
 
 
-# ---------- API ----------
 @app.get("/api/health")
 def health():
     return {"ok": True, "jobs": db.count_jobs()}
@@ -226,8 +207,6 @@ def mark_applied(job_id: int):
 
 @app.post("/api/jobs/{job_id}/hide")
 def hide_job(job_id: int):
-    """Hide a dead/stale link from the dashboard. Persisted in app/state.json so
-    it stays hidden across restarts and is re-hidden after a DB wipe."""
     job = db.get_job(job_id)
     if not job:
         raise HTTPException(404, "job not found")
@@ -241,11 +220,9 @@ def hide_job(job_id: int):
 
 @app.get("/api/state")
 def state():
-    """Return the persisted state file (applied states + recent scans)."""
     return persist.load(settings.abs_state_file())
 
 
-# ---- company/ATS detection for embedded-ATS pages ---------------------------
 from urllib.parse import urlparse as _urlparse  # noqa: E402
 
 _companies_cache: list[dict] | None = None
@@ -253,9 +230,8 @@ _companies_cache_mtime: float = 0.0
 
 
 def _companies_for_detect() -> list[dict]:
-    """mtime-aware cache — re-reads companies.json after consolidate.py rewrites it
-    (manual rescan or the 24h discover_companies job), so /api/stats + /api/detect
-    see the new companies without a restart."""
+    # mtime-aware: re-reads companies.json after consolidate.py rewrites it so
+    # /api/stats + /api/detect see new companies without a restart.
     global _companies_cache, _companies_cache_mtime
     try:
         mtime = os.path.getmtime(_get_cfg().companies_file)
@@ -284,13 +260,6 @@ def _slug(name: str) -> str:
 
 @app.get("/api/detect")
 def detect(url: str = Query(..., description="page URL to identify")):
-    """Identify which ATS a company page uses (handles vanity/embedded pages).
-
-    Matches the URL against companies.json: career_page_url, alternate_career_urls,
-    website host, domain_hint, and company-name slug. Returns the ATS + company
-    + board_token so the extension can run the right filler even when the form
-    is embedded inline/iframe on the company's own domain.
-    """
     try:
         target_host = (_urlparse(url).hostname or "").lower()
         target_path = (_urlparse(url).path or "").lower()
@@ -316,15 +285,12 @@ def detect(url: str = Query(..., description="page URL to identify")):
             if u and _host_of(u) == target_host and _urlparse(u).path.rstrip("/").lower() == target_path.rstrip("/"):
                 score = 100; mtype = "url"; break
         if not score:
-            # host match against career_page_url / website
             for u in [cpu, website]:
                 h = _host_of(u)
                 if h and (h == target_host or target_host.endswith("." + h) or h.endswith("." + target_host)):
                     score = 60; mtype = "host"
-            # domain_hint substring in the target host
             if domain and domain in target_host:
                 score = max(score, 45); mtype = "domain"
-            # company-name slug in the target host
             s = _slug(name)
             if s and len(s) >= 4 and s in target_host:
                 score = max(score, 35); mtype = "name"
@@ -356,8 +322,6 @@ def detect(url: str = Query(..., description="page URL to identify")):
 
 @app.post("/api/links/validate")
 def validate_links():
-    """Liveness-check non-ATS job URLs and delete the genuinely dead (404/410)
-    ones. Real-ATS URLs are trusted (live by construction). Returns counts."""
     return liveness.prune_dead_unknown(db, ats_whitelist=list(ATS_CLIENTS.keys()))
 
 
@@ -366,8 +330,8 @@ def stats():
     s = db.stats()
     s["last_run"] = db.last_run()
     s["applied_ledger"] = repository.applied_summary(_get_cfg())
-    # company-list growth: total known + automatable (so the UI shows new
-    # companies being discovered by the automatic discover_companies job)
+    # company-list growth: total known + automatable, so the UI shows new
+    # companies being discovered by the automatic discover_companies job
     try:
         comps = _companies_for_detect()
         automatable = sum(1 for c in comps if c.get("board_token"))
@@ -421,7 +385,6 @@ def applied(limit: int = Query(200, ge=1, le=1000)):
     return {"items": repository.applied_rows(_get_cfg(), limit)}
 
 
-# ---------- SSE ----------
 @app.get("/api/events")
 async def events():
     q = tm.subscribe()
@@ -446,7 +409,6 @@ async def events():
                                       "X-Accel-Buffering": "no"})
 
 
-# ---------- helpers ----------
 def _parse_recent(s: str) -> float | None:
     s = (s or "").strip().lower()
     if not s or s == "all":
@@ -472,7 +434,6 @@ def _parse_tri(s: str) -> bool | None:
     return None
 
 
-# ---------- frontend static serving ----------
 FRONTEND_DIST = settings.abs_frontend_dist()
 if os.path.isdir(FRONTEND_DIST):
     assets = os.path.join(FRONTEND_DIST, "assets")

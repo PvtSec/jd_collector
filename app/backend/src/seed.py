@@ -1,19 +1,3 @@
-"""Discovered-jobs seed — persist the dashboard's discovered jobs to a JSON file
-and re-import them on a fresh start (empty jobs DB) so the UI isn't empty.
-
-The seed file (``data/jobs_seed.json``) lives on the Docker volume at runtime.
-On a **fresh** named volume, Docker initializes it from the image's baked
-``data/`` contents, so a brand-new machine / empty volume pre-seeds from the
-last-built snapshot. The scheduler's export job refreshes the volume copy
-(default hourly) so a DB wipe with the volume kept recovers from the latest
-discovered state. To refresh the baked snapshot, run ``./run.sh export-seed``
-then rebuild.
-
-Seed payload: ``{"version": 1, "exported_at": <epoch>, "count": N,
-"jobs": [<row>, ...]}``. Each row carries the full set of columns needed to
-restore the row verbatim, including closed/miss_count so closed jobs stay
-closed on a fresh start.
-"""
 from __future__ import annotations
 
 import json
@@ -33,10 +17,6 @@ _INT_COLS = {"matched", "applied", "hidden", "closed", "miss_count"}
 
 
 def export_seed(db, path: str, max_rows: int) -> dict:
-    """Dump up to ``max_rows`` most-recently-seen jobs to ``path`` (atomic write).
-
-    Returns ``{"exported": <n>, "path": path}``.
-    """
     cols_csv = ",".join(_COLS)
     with db._lock:
         if max_rows and int(max_rows) > 0:
@@ -81,10 +61,7 @@ def export_seed(db, path: str, max_rows: int) -> dict:
 
 
 def import_seed(db, path: str) -> int:
-    """Import jobs from a seed file into the jobs DB. No-op if the file is
-    missing/empty. Uses ``INSERT OR IGNORE`` so it is safe even if the DB is
-    not fully empty. Returns the number of rows actually inserted.
-    """
+    # Uses INSERT OR IGNORE so it is safe even if the DB is not fully empty.
     if not path or not os.path.exists(path):
         return 0
     with open(path, "r", encoding="utf-8") as f:

@@ -1,9 +1,6 @@
 import type { CurrentTask, DailyStat, TaskRun } from '../types'
 import { fmtAgo } from '../api'
 
-// Top-right status: shows whether the backend is running a task, the last run,
-// and a per-day discovery rollup. Includes the force-reload button (disabled
-// while a task is running) per the spec, plus a manual rescan button.
 export default function StatusBar({
   task, daily, lastRun, onForceRun, onRescan, runMsg,
 }: {

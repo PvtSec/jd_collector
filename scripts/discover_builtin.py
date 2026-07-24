@@ -1,22 +1,4 @@
 #!/usr/bin/env python3
-"""Discover companies from BuiltIn.com (https://builtin.com/companies).
-
-BuiltIn lists ~10k+ tech companies across multiple location hubs (US cities + global).
-Each page of /companies?page=N is server-rendered HTML with ~20 company slugs in
-href="/company/{slug}" links. Company names aren't directly in the listing HTML
-(they're in JS-rendered cards), but each slug maps to a /company/{slug} page that
-contains the company name and website.
-
-Strategy:
-  1. Paginate through /companies?page=N to collect ALL company slugs (static HTML).
-  2. For each slug, fetch the /company/{slug} page and extract:
-     - Company name (from the page title or heading)
-     - Website URL (external link on the profile)
-  3. Probe each company for GH/Lever/Ashby boards.
-
-Output: data/raw/agent11_builtin.json — picked up by scripts/consolidate.py.
-Re-runnable, polite (rate-limited), skips names already in companies.json.
-"""
 from __future__ import annotations
 
 import json
@@ -84,7 +66,6 @@ def existing_seed_names(seed_path: str) -> set[str]:
 
 
 def fetch_cached(url: str, cache_key: str | None = None) -> str:
-    """Fetch a URL with disk caching. Returns HTML text."""
     if cache_key:
         os.makedirs(CACHE_DIR, exist_ok=True)
         path = os.path.join(CACHE_DIR, re.sub(r"[^a-z0-9]", "_", cache_key) + ".html")
@@ -111,10 +92,8 @@ def fetch_cached(url: str, cache_key: str | None = None) -> str:
 
 
 def extract_slugs_from_listing(html: str) -> list[str]:
-    """Extract company slugs from a BuiltIn /companies listing page."""
     # BuiltIn listing pages have href="/company/{slug}" links
     slugs = re.findall(r'href="/company/([a-z0-9-]+)"', html)
-    # Dedupe while preserving order
     seen = set()
     result = []
     for s in slugs:
@@ -125,36 +104,29 @@ def extract_slugs_from_listing(html: str) -> list[str]:
 
 
 def extract_company_from_profile(html: str, slug: str) -> dict | None:
-    """Extract company name and website from a BuiltIn /company/{slug} page."""
     if not html:
         return None
 
     # Company name: look for <title>Built In | CompanyName</title> or og:title
     name = ""
-    # Pattern: "Built In | CompanyName" or "CompanyName | Built In"
     m = re.search(r"<title>(?:Built In\s*\|\s*)?([^|<]+?)(?:\s*\|\s*Built In)?</title>", html, re.I)
     if m:
         name = m.group(1).strip()
     if not name:
-        # Try og:title
         m = re.search(r'<meta\s+property="og:title"\s+content="([^"]+)"', html, re.I)
         if m:
             raw = m.group(1).strip()
-            # Strip " | Built In" suffix
             name = re.sub(r"\s*\|\s*Built In\s*$", "", raw, flags=re.I).strip()
 
-    # If still no name, try h1 or data-company-name
     if not name:
         m = re.search(r'<h1[^>]*>([^<]+)</h1>', html)
         if m:
             name = m.group(1).strip()
 
-    # Clean up name
     name = re.sub(r"\s*-\s*(Jobs|Careers|Company Profile|Overview)\s*$", "", name, flags=re.I).strip()
 
     # Website URL: look for external links that aren't builtin.com or social media
     website = ""
-    # Pattern: find links with the company's actual website
     for m in re.finditer(r'href="(https?://([^"]+))"', html):
         url = m.group(1)
         host = m.group(2).lower()
@@ -172,7 +144,6 @@ def extract_company_from_profile(html: str, slug: str) -> dict | None:
         break
 
     if not name:
-        # Fallback: derive name from slug
         name = slug.replace("-", " ").title()
 
     return {
@@ -183,7 +154,6 @@ def extract_company_from_profile(html: str, slug: str) -> dict | None:
 
 
 def collect_all_slugs() -> list[str]:
-    """Paginate through all BuiltIn /companies pages to collect company slugs."""
     all_slugs: list[str] = []
     seen_slugs: set[str] = set()
 
@@ -226,7 +196,6 @@ def collect_all_slugs() -> list[str]:
 
 
 def fetch_company_details(slug: str) -> dict | None:
-    """Fetch a /company/{slug} page and extract company name + website."""
     url = f"{BUILTIN_BASE}/company/{slug}"
     html = fetch_cached(url, f"company_{slug}")
     if not html:
@@ -236,7 +205,6 @@ def fetch_company_details(slug: str) -> dict | None:
 
 
 def probe_one(co: dict) -> dict | None:
-    """Probe greenhouse/lever/ashby for this company; return merge record on hit."""
     name = co["name"]
     cands = [c for c in candidates(name)[:5] if c]
     if not cands:
@@ -278,7 +246,6 @@ def main() -> int:
         print("[builtin] no slugs found; aborting", file=sys.stderr)
         return 1
 
-    # Phase 2: Fetch company details for each slug
     print(f"\n[builtin] Phase 2: fetching details for {len(all_slugs)} companies …", flush=True)
     companies: dict[str, dict] = {}  # norm_name -> {name, slug, website}
 
@@ -295,7 +262,6 @@ def main() -> int:
 
     print(f"[builtin] fetched details for {len(companies)} unique companies", flush=True)
 
-    # Filter to NEW companies
     have_slugs = existing_slugged_names()
     have_seed = existing_seed_names(RAW_OUT)
     skip = have_slugs | have_seed

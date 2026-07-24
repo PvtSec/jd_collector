@@ -1,15 +1,3 @@
-"""Per-ATS job-board clients (read-only enumeration).
-
-Each client yields normalized `Job` objects from a company's public board.
-
-Status:
-- greenhouse: VERIFIED against live API (boards-api.greenhouse.io).
-- lever:      VERIFIED against live API (api.lever.co).
-- ashby:      STUB — public POST endpoint returns 401; awaiting schema research
-              for the correct enumeration path (likely board-page scraping).
-- workable:   STUB — v3 endpoint 404s; awaiting schema research.
-- smartrecruiters: STUB — awaiting schema research.
-"""
 from __future__ import annotations
 import json
 import re
@@ -48,7 +36,6 @@ class BoardError(Exception):
 
 
 def _ms_to_iso(ms) -> str:
-    """Epoch milliseconds (Lever createdAt) -> ISO 8601 UTC string, '' if unparseable."""
     try:
         return datetime.fromtimestamp(int(ms) / 1000, tz=timezone.utc).isoformat()
     except (TypeError, ValueError, OSError, OverflowError):
@@ -56,11 +43,6 @@ def _ms_to_iso(ms) -> str:
 
 
 def parse_posted(s: str):
-    """Parse a posted_at string to a timezone-aware datetime, or None.
-
-    Handles ISO 8601 with offset (replacing a trailing 'Z' for Py3.10),
-    date-only 'YYYY-MM-DD', and empty input.
-    """
     if not s:
         return None
     try:
@@ -87,8 +69,6 @@ def _get(url: str, *, timeout: int = 20, ua: str, retries: int = 2) -> requests.
     raise BoardError(f"request failed: {url} -> {last}")
 
 
-# ---------------- Greenhouse ----------------
-
 def list_greenhouse(company: str, token: str, *, ua: str, timeout: int = 20, retries: int = 2) -> Iterator[Job]:
     r = _get(GH_API.format(token=token), timeout=timeout, ua=ua, retries=retries)
     data = r.json()
@@ -110,7 +90,6 @@ def list_greenhouse(company: str, token: str, *, ua: str, timeout: int = 20, ret
 
 
 def _infer_worktype(metadata) -> str:
-    """Greenhouse sometimes encodes Remote/Hybrid in metadata fields."""
     if not isinstance(metadata, list):
         return ""
     for m in metadata:
@@ -123,8 +102,6 @@ def _infer_worktype(metadata) -> str:
                 return "hybrid"
     return ""
 
-
-# ---------------- Lever ----------------
 
 def list_lever(company: str, token: str, *, ua: str, timeout: int = 20, retries: int = 2) -> Iterator[Job]:
     r = _get(LEVER_API.format(token=token), timeout=timeout, ua=ua, retries=retries)
@@ -147,7 +124,6 @@ def list_lever(company: str, token: str, *, ua: str, timeout: int = 20, retries:
         )
 
 
-# ---------------- Ashby ----------------
 # Ashby's posting-api is authed (401). The public path is the SSR board page at
 # jobs.ashbyhq.com/{slug}, whose HTML embeds `window.__appData` JSON containing
 # jobBoard.jobPostings. Verified live (replit = 98 postings). See
@@ -157,7 +133,6 @@ ASHBY_BOARD = "https://jobs.ashbyhq.com/{slug}"
 
 
 def _extract_json_assignment(html: str, var: str) -> dict:
-    """Balance-parse a `window.<var> = {...}` JS assignment from HTML."""
     import json as _json
     marker = f"window.{var} = "
     start = html.find(marker)
@@ -249,7 +224,6 @@ def list_ashby(company: str, token: str, *, ua: str, timeout: int = 20, retries:
         )
 
 
-# ---------------- Workable ----------------
 # Workable is the one ATS with NO captcha — full HTTP auto-apply is possible.
 # Enumeration: POST /api/v3/accounts/{token}/jobs with body {} (GET 404s).
 # See research/ats_schemas/workable.md for the form + submit flow.
@@ -295,7 +269,6 @@ def list_workable(company: str, token: str, *, ua: str, timeout: int = 20, retri
         )
 
 
-# ---------------- SmartRecruiters ----------------
 # Enumeration is open: GET /v1/companies/{slug}/postings. Public apply is
 # Arkose FunCAPTCHA + Cloudflare gated (needs browser + solver); the captcha-free
 # Customer API needs a per-company X-SmartToken the applicant won't have.
@@ -328,7 +301,6 @@ def list_smartrecruiters(company: str, token: str, *, ua: str, timeout: int = 20
         )
 
 
-# ---------------- Personio ----------------
 # Public XML feed at {company}.jobs.personio.de/xml — no auth required.
 # See research/ats_schemas/personio.md for the (browser-required) submit flow.
 
@@ -374,7 +346,6 @@ def list_personio(company: str, token: str, *, ua: str, timeout: int = 20, retri
         )
 
 
-# ---------------- Rippling ----------------
 # Public REST API at api.rippling.com/platform/api/ats/v1/board/{slug}/jobs — no auth.
 # See research/ats_schemas/rippling.md for the (browser-required) submit flow.
 
@@ -421,7 +392,6 @@ def list_rippling(company: str, token: str, *, ua: str, timeout: int = 20, retri
         )
 
 
-# ---------------- Teamtailor ----------------
 # No public API without auth. Scrape the careers page HTML for embedded JSON
 # (similar to Ashby's window.__appData pattern).
 # See research/ats_schemas/teamtailor.md for the (browser-required) submit flow.
@@ -430,12 +400,6 @@ TEAMTAILOR_RSS = "https://{company}.teamtailor.com/jobs.rss"
 
 
 def list_teamtailor(company: str, token: str, *, ua: str, timeout: int = 20, retries: int = 2) -> Iterator[Job]:
-    """Enumerate Teamtailor jobs via the public RSS feed.
-
-    Teamtailor career pages are SPAs with no embedded JSON in the initial HTML.
-    The RSS feed at {company}.teamtailor.com/jobs.rss is public and contains
-    all published jobs with title, description, location, and link.
-    """
     import xml.etree.ElementTree as ET
     url = TEAMTAILOR_RSS.format(company=token)
     last = None
@@ -463,13 +427,11 @@ def list_teamtailor(company: str, token: str, *, ua: str, timeout: int = 20, ret
         jid = ""
         if "/jobs/" in link:
             jid = link.rsplit("/jobs/", 1)[-1].split("?")[0]
-        # Try to extract location from description HTML
         loc_str = ""
         import re as _re
         loc_m = _re.search(r'<span[^>]*class="[^"]*location[^"]*"[^>]*>(.*?)</span>', desc, _re.IGNORECASE)
         if loc_m:
             loc_str = _re.sub(r'<[^>]+>', '', loc_m.group(1)).strip()
-        # Extract department if present
         dept_str = ""
         dept_m = _re.search(r'<span[^>]*class="[^"]*department[^"]*"[^>]*>(.*?)</span>', desc, _re.IGNORECASE)
         if dept_m:
@@ -488,7 +450,6 @@ def list_teamtailor(company: str, token: str, *, ua: str, timeout: int = 20, ret
         )
 
 
-# ---------------- HTML-scraping helpers (BreezyHR / Onlyfy) ----------------
 # Both boards are SPAs but server-render their full job list into the initial
 # HTML (for SEO), so a plain ``_get`` + regex is enough — no headless browser.
 # A headless browser is in fact *less* reliable here: BreezyHR serves
@@ -497,7 +458,6 @@ def list_teamtailor(company: str, token: str, *, ua: str, timeout: int = 20, ret
 # lookup (it always came back empty). requests sidesteps both problems.
 
 def _clean(s: str) -> str:
-    """Strip tags, unescape entities, collapse whitespace."""
     if not s:
         return ""
     s = re.sub(r"<[^>]+>", "", s)
@@ -506,13 +466,6 @@ def _clean(s: str) -> str:
 
 
 def _breezy_worktype(raw: str) -> str:
-    """Normalize a BreezyHR position-type label to a clean lowercase string.
-
-    BreezyHR ships untranslated polyglot placeholders in the SSR HTML, e.g.
-    ``%LABEL_POSITION_TYPE_FULL_TIME%`` (a client-side lib translates them).
-    Reduce the placeholder to ``full time``; pass through any non-placeholder
-    label (localized strings) lowercased; ``""`` for empty.
-    """
     if not raw:
         return ""
     m = re.match(r"%LABEL_POSITION_TYPE_([A-Z_]+)%", raw.strip())
@@ -529,16 +482,12 @@ _BREEZY_LOCATION_LABELS = {
 
 
 def _breezy_location(raw: str) -> str:
-    """Clean a BreezyHR location: map known polyglot placeholders to text,
-    pass through real (possibly localized) location strings unchanged."""
     if not raw:
         return ""
     return _BREEZY_LOCATION_LABELS.get(raw.strip(), raw.strip())
 
 
 def _onlyfy_posted(raw: str) -> str:
-    """Onlyfy (DACH product) renders dates as ``dd.mm.yyyy``; normalize to
-    ISO ``yyyy-mm-dd`` so parse_posted/ sorts work. Other formats pass through."""
     if not raw:
         return ""
     m = re.match(r"(\d{2})\.(\d{2})\.(\d{4})$", raw.strip())
@@ -547,7 +496,6 @@ def _onlyfy_posted(raw: str) -> str:
     return raw
 
 
-# ---------------- BreezyHR ----------------
 # No public API without auth, but the careers page server-renders the full job
 # list into the initial HTML. See research/ats_schemas/breezyhr.md for the
 # (browser-required) submit flow.
@@ -556,14 +504,6 @@ BREEZYHR_CAREERS = "https://{company}.breezy.hr/"
 
 
 def list_breezyhr(company: str, token: str, *, ua: str, timeout: int = 20, retries: int = 2) -> Iterator[Job]:
-    """Enumerate BreezyHR jobs from the server-rendered careers HTML.
-
-    Each position renders as ``<a href="/p/{hex}-{slug}"><h2>{title}</h2>
-    <ul class="meta"><li class="location">…<span>{loc}</span></li>
-    <li class="type">…<span>{type}</span></li></ul>…</a>``. Two anchors share the
-    same href per card (details + actions); only the details one has the ``<h2>``,
-    so we dedup on the stable hex id and skip the actions anchor.
-    """
     url = BREEZYHR_CAREERS.format(company=token)
     html_text = _get(url, timeout=timeout, ua=ua, retries=retries).text
     if "/p/" not in html_text:
@@ -604,7 +544,6 @@ def list_breezyhr(company: str, token: str, *, ua: str, timeout: int = 20, retri
         )
 
 
-# ---------------- Onlyfy (formerly Prescreen) ----------------
 # No public API without auth, but the careers page server-renders the full job
 # list into the initial HTML. See research/ats_schemas/onlyfy.md for the
 # (browser-required) submit flow.
@@ -613,13 +552,6 @@ ONLYFY_JOBS = "https://{company}.onlyfy.jobs/en"
 
 
 def list_onlyfy(company: str, token: str, *, ua: str, timeout: int = 20, retries: int = 2) -> Iterator[Job]:
-    """Enumerate Onlyfy jobs from the server-rendered careers HTML.
-
-    Each card is ``<a data-testid="job-card" aria-label="{title}"
-    href="/{locale}/job/{id}">`` containing ``<h3 data-testid="job-title">`` and
-    a ``<div data-testid="job-more-info">`` with a pipe-separated string
-    ``{location} | {work_type} | {posted_at} | {department}``.
-    """
     url = ONLYFY_JOBS.format(company=token)
     html_text = _get(url, timeout=timeout, ua=ua, retries=retries).text
     if "/job/" not in html_text:
@@ -666,7 +598,6 @@ def list_onlyfy(company: str, token: str, *, ua: str, timeout: int = 20, retries
         )
 
 
-# ---------------- Mailto (email-apply) ----------------
 # Some companies (e.g. PentStark) list roles as `mailto:careers@…?subject=…`
 # links on a custom careers page — no form, no ATS. We scrape those links and
 # synthesize Jobs whose `url` is the mailto href; the mailto submitter drafts the
@@ -675,13 +606,6 @@ def list_onlyfy(company: str, token: str, *, ua: str, timeout: int = 20, retries
 # candidate's tier info (remote India) since the pages don't state it.
 
 def list_mailto(company: str, token: str, *, ua: str, timeout: int = 20, retries: int = 2) -> Iterator[Job]:
-    """Scrape `mailto:` role links from a careers page (token = careers URL).
-
-    The mailto role links are in the static HTML on known mailto sites
-    (e.g. PentStark), so a plain requests fetch is preferred — it avoids
-    headless-browser bot-challenges that blank the page on repeated hits.
-    Playwright is the fallback for sites that render the links client-side.
-    """
     import urllib.parse as _urlparse
     import re as _re
     career_url = token
@@ -763,13 +687,6 @@ def _mailto_hrefs_from_browser(url: str, ua: str) -> list[str]:
 
 
 def list_workday(company: str, token: str, *, ua: str, timeout: int = 20, retries: int = 2) -> Iterator[Job]:
-    """Workday public careers — POST to the cxs jobs endpoint.
-
-    ``token`` is the full careers URL, e.g.
-    ``https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers``. Workday
-    exposes a public JSON endpoint at ``/wday/cxs/{tenant}/{site}/jobs`` (POST)
-    used by the careers SPA. Paginated via offset; capped at 500 jobs/board.
-    """
     try:
         from urllib.parse import urlparse
         p = urlparse(token)

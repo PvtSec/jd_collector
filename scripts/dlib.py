@@ -1,21 +1,4 @@
 #!/usr/bin/env python3
-"""dlib — shared discovery library for the 50k-company scaling effort.
-
-Single writer of state for all discovery workers (durable Python scripts AND
-live LLM web-search agents). Provides:
-  - norm_key / infer_ats_from_url  (mirror consolidate.py exactly so dedup keys match)
-  - http_check                      (mirror app/backend/src/liveness.py check_url)
-  - record_company                  (sqlite WAL, UNIQUE norm_key -> safe concurrent dedup)
-  - append_log                      (atomic append -> 32-way safe single log.md)
-  - snapshot / bump_progress         (progress.json authoritative status)
-
-All workers call into this module; no worker writes discovery.db / log.md /
-progress.json directly.
-
-Paths live under data/discovery/ (overridable via $JOBAUTO_DISCOVERY_DIR for
-container use). The DB is opened per call so it is safe across processes and
-threads (sqlite handles concurrent writers via WAL + busy_timeout).
-"""
 from __future__ import annotations
 
 import json
@@ -28,9 +11,6 @@ from urllib.parse import urlparse
 
 import requests
 
-# --------------------------------------------------------------------------- #
-# Paths
-# --------------------------------------------------------------------------- #
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent
 DEFAULT_DISCOVERY_DIR = ROOT / "data" / "discovery"
@@ -47,10 +27,8 @@ UA = ("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
 HEADERS = {"User-Agent": UA}
 HTTP_TIMEOUT = 8
 
-# --------------------------------------------------------------------------- #
 # Dedup helpers — MUST mirror scripts/consolidate.py (norm_name, domain_key,
 # bare_domain, infer_ats_from_url, ATS_HOST_RULES). Kept in sync manually.
-# --------------------------------------------------------------------------- #
 ATS_HOST_RULES = [
     ("greenhouse", ["boards.greenhouse.io", "job-boards.greenhouse.io"]),
     ("lever",      ["jobs.lever.co"]),
@@ -116,7 +94,6 @@ def domain_key(entry: dict) -> str:
 
 
 def norm_key(entry: dict) -> str:
-    """Stable dedup key — same logic as consolidate.py grouping."""
     return norm_name(entry.get("company_name", "")) or domain_key(entry)
 
 
@@ -129,11 +106,8 @@ def infer_ats_from_url(url: str) -> str | None:
     return None
 
 
-# --------------------------------------------------------------------------- #
 # HTTP liveness — mirror app/backend/src/liveness.py check_url
-# --------------------------------------------------------------------------- #
 def http_check(url: str, timeout: int = HTTP_TIMEOUT) -> str:
-    """Return 'live' | 'dead' | 'unknown' for a careers URL."""
     if not url or not url.startswith("http"):
         return "dead"
     try:
@@ -169,11 +143,6 @@ def is_ats_host_url(url: str) -> bool:
 
 
 def is_reliable(rec: dict) -> tuple[bool, str]:
-    """A company is reliable if it has a career_page_url that is an ATS-host
-    board URL (live by construction) OR an HTTP-200 /careers page.
-    Returns (reliable, http_status). http_status is one of:
-    'ats-host' | 'live' | 'dead' | 'unknown' | 'none'.
-    Does NOT perform an HTTP request for ATS-host URLs (trusted)."""
     url = (rec.get("career_page_url") or "").strip()
     if not url:
         return False, "none"
@@ -183,9 +152,6 @@ def is_reliable(rec: dict) -> tuple[bool, str]:
     return (v == "live"), v
 
 
-# --------------------------------------------------------------------------- #
-# sqlite state (discovery.db)
-# --------------------------------------------------------------------------- #
 def _connect() -> sqlite3.Connection:
     DISCOVERY_DIR.mkdir(parents=True, exist_ok=True)
     conn = sqlite3.connect(str(DB_PATH), timeout=30, isolation_level=None)
@@ -219,16 +185,6 @@ def init_db() -> None:
 def record_company(rec: dict, *, source: str | None = None,
                    force_http: bool = True, recheck: bool = True
                    ) -> tuple[bool, bool, str, bool]:
-    """Insert/refresh a company. Returns (is_new, is_reliable, http_status, became_reliable).
-
-    On a new norm_key: computes reliability (HTTP-checks unless ATS-host),
-    inserts, and the caller is responsible for append_log/bump_progress.
-    On an existing key: if the new record is reliable and the old one wasn't,
-    upgrades it (became_reliable=True so the caller can log the upgrade).
-
-    If `recheck` is False and the row already exists AND is already reliable,
-    skip the HTTP check entirely (idempotent re-runs don't re-validate good rows).
-    """
     init_db()
     key = norm_key(rec)
     if not key:
@@ -280,9 +236,7 @@ def record_company(rec: dict, *, source: str | None = None,
         conn.close()
 
 
-# --------------------------------------------------------------------------- #
 # log.md (atomic append) + progress.json
-# --------------------------------------------------------------------------- #
 def format_log_line(worker: str, rec: dict, hstatus: str) -> str:
     name = (rec.get("company_name") or "").replace("|", "/").strip()
     url = (rec.get("career_page_url") or "").replace("|", "/").strip()
@@ -292,8 +246,6 @@ def format_log_line(worker: str, rec: dict, hstatus: str) -> str:
 
 
 def append_log(worker: str, rec: dict, hstatus: str) -> None:
-    """Atomic append of one discovery line to log.md (line < 4096 bytes =>
-    atomic on Linux, safe under 32-way concurrency)."""
     DISCOVERY_DIR.mkdir(parents=True, exist_ok=True)
     line = format_log_line(worker, rec, hstatus)
     # Cap at 1000 chars to stay well under PIPE_BUF.
@@ -314,7 +266,6 @@ def _read_progress() -> dict:
 
 
 def snapshot() -> dict:
-    """Authoritative counts from discovery.db, merged into progress.json."""
     init_db()
     conn = _connect()
     try:
@@ -337,7 +288,6 @@ def save_progress(prog: dict) -> None:
 
 
 def bump_progress(worker_state: dict | None = None) -> dict:
-    """Refresh counts + optionally merge worker state, then persist."""
     prog = snapshot()
     if worker_state:
         prog.setdefault("workers", {}).update(worker_state)
@@ -370,10 +320,8 @@ def ensure_log() -> None:
         LOG_PATH.write_text(log_header())
 
 
-# --------------------------------------------------------------------------- #
 # Seed existing companies.json so dedup starts from the current 13,637.
 # ATS-host rows count as reliable; others are recorded (seen) but not reliable.
-# --------------------------------------------------------------------------- #
 def seed_from_companies_json() -> int:
     if not COMPANIES_JSON.exists():
         return 0

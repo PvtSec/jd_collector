@@ -1,14 +1,4 @@
 #!/usr/bin/env python3
-"""Discover real ATS board slugs for companies whose ATS is known but slug unknown.
-
-For each `ats_source:guess` row with ats in {greenhouse, lever, ashby} (and unknown
-rows), generate candidate slugs from the company name and probe the public board API.
-On a hit (board exists / jobs > 0), record (ats, slug, board_url) to
-data/discovered_slugs.json, which consolidate.py then merges into companies.json.
-
-Read-only: only GETs board APIs, never submits anything. Be polite: small delay,
-descriptive UA, bounded candidates.
-"""
 import json, re, time, os
 import requests
 
@@ -50,11 +40,6 @@ def _norm_name(name: str) -> str:
 
 
 def save_discovered(found: list[dict], out: str) -> int:
-    """Merge `found` into discovered_slugs.json keyed by normalized company name.
-
-    Idempotent: re-running never erases prior discoveries (fixes the old 'w' overwrite
-    that would have wiped the 35 existing entries on a standalone re-run).
-    """
     existing = {}
     if os.path.exists(out):
         for r in json.load(open(out)):

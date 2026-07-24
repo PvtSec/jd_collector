@@ -21,7 +21,6 @@ export default function App() {
   const [runMsg, setRunMsg] = useState('')
   const [tick, setTick] = useState(0)  // bump to refetch jobs after a task completes
 
-  // initial load: status + stats + daily + ats
   const refreshAll = useCallback(async () => {
     try {
       const [t, s, d, a] = await Promise.all([
@@ -42,7 +41,7 @@ export default function App() {
       if (e.type === 'task_completed' || e.type === 'task_failed') {
         api.stats().then(setStats).catch(() => {})
         api.daily(14).then(setDaily).catch(() => {})
-        setTick(n => n + 1)  // refetch jobs
+        setTick(n => n + 1)
       }
     })
     const poll = setInterval(refreshAll, 10000)

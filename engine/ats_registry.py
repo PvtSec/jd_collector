@@ -1,14 +1,3 @@
-"""Shared ATS host-pattern registry.
-
-Single source of truth for "which ATS does this URL/host belong to?" Used by:
-  - app/backend /api/detect (host-pattern fallback when the company isn't in
-    companies.json)
-  - scripts/discover_companies.py (infer ATS from a career-page URL)
-  - anything else that needs to label a URL by ATS
-
-Keep in sync with the extension's HOST_PATTERNS (extension/content.js) — the
-patterns here are the app-side mirror.
-"""
 from __future__ import annotations
 
 import re
@@ -48,7 +37,6 @@ ATS_HOST_PATTERNS: list[tuple[str, re.Pattern]] = [
 
 
 def detect_ats_by_host(url: str) -> str | None:
-    """Return the ATS id for a URL by hostname, or None."""
     try:
         from urllib.parse import urlparse
         host = (urlparse(url).hostname or "").lower()

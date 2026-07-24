@@ -1,15 +1,3 @@
-"""Automatable-company selection for the dashboard discovery loop.
-
-Re-implements ``engine/cli.py:_companies_filtered`` here instead of importing the
-CLI's private helper, so the engine CLI stays untouched and the dashboard can
-evolve its selection independently. Same rules:
-  - apply ``allow_companies`` / ``skip_companies`` from config
-  - keep only ``ats_type`` values present in ``engine.boards.CLIENTS``
-  - derive the smartrecruiters slug from the company name (guess rows carry a
-    junk path-segment token)
-The returned list is sorted by ``(ats_type, company_name)`` so the round-robin
-cursor is deterministic across ticks.
-"""
 from __future__ import annotations
 
 import json

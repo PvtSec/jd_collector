@@ -1,24 +1,3 @@
-"""SQLite store for discovered jobs + discovery run history.
-
-Mirrors the pattern of ``engine.ledger`` (idempotent schema, sqlite3.Row). The
-dashboard's jobs DB is separate from the engine's ``applied.sqlite`` ledger,
-which remains the source of truth for applications.
-
-Schema:
-  jobs(company, ats, job_id) UNIQUE — one row per discovered posting.
-    first_seen  epoch the backend first saw this job ("recently found" signal)
-    last_seen   epoch of the last tick that still saw it
-    last_check  epoch of the last tick that enumerated its company
-    matched     1 if engine.match.matches(j, target) accepted it, else 0
-    applied     1 if present in the engine ledger (applied.sqlite)
-    closed      1 if absent from its board for >= stale_grace_misses consecutive
-                enumerations (reaper); applied jobs are never auto-closed
-    miss_count  consecutive successful enumerations of its company in which this
-                job was absent (reset to 0 by upsert_job when it reappears)
-  task_runs   per-task audit rows (discovery / rescan_companies)
-  daily_stats per-day rollup the status bar surfaces
-  discovery_cursor  round-robin offset into the automatable company list
-"""
 from __future__ import annotations
 
 import os
@@ -86,11 +65,9 @@ CREATE TABLE IF NOT EXISTS discovery_cursor (
 
 
 class DB:
-    """Thread-safe wrapper around a single shared sqlite3 connection.
-
-    The discovery job runs in a scheduler thread while FastAPI handlers run on
-    the asyncio loop's threads, so every access is guarded by ``self._lock``.
-    """
+    # Thread-safe wrapper around a single shared sqlite3 connection: the
+    # discovery job runs in a scheduler thread while FastAPI handlers run on
+    # the asyncio loop's threads, so every access is guarded by self._lock.
 
     def __init__(self, path: str):
         self.path = path
@@ -110,18 +87,16 @@ class DB:
                 self._conn.execute("ALTER TABLE jobs ADD COLUMN closed_at REAL")
             if "miss_count" not in cols:
                 self._conn.execute("ALTER TABLE jobs ADD COLUMN miss_count INTEGER NOT NULL DEFAULT 0")
-            # index on the (possibly just-added) closed column — must run after the
-            # ALTER guards so pre-existing DBs have the column before indexing it.
+            # must run after the ALTER guards so pre-existing DBs have the column
+            # before indexing it.
             self._conn.execute(
                 "CREATE INDEX IF NOT EXISTS idx_jobs_closed ON jobs(closed)"
             )
-            # seed the singleton cursor row
             self._conn.execute(
                 "INSERT OR IGNORE INTO discovery_cursor(id, company_idx) VALUES (1, 0)"
             )
             self._conn.commit()
 
-    # ---- jobs ----
     def upsert_job(
         self,
         *,
@@ -136,7 +111,6 @@ class DB:
         matched: bool,
         applied: bool = False,
     ) -> bool:
-        """Insert if new (returns True) or refresh existing (returns False)."""
         now = time.time()
         matched_i = 1 if matched else 0
         applied_i = 1 if applied else 0
@@ -174,8 +148,6 @@ class DB:
             return cur.rowcount > 0
 
     def mark_applied_by_key(self, *, company: str, ats: str, job_id: str) -> int:
-        """Set applied=1 for a job matched by the UNIQUE (company,ats,job_id) key.
-        Used by persist.reconcile_applied to restore applied flags into a fresh DB."""
         if not (company and ats and job_id):
             return 0
         with self._lock:
@@ -195,7 +167,6 @@ class DB:
             return cur.rowcount > 0
 
     def mark_hidden_by_key(self, *, company: str, ats: str, job_id: str) -> int:
-        """Restore hidden flags into a fresh DB from the persisted state file."""
         if not (company and ats and job_id):
             return 0
         with self._lock:
@@ -212,10 +183,9 @@ class DB:
             return dict(r) if r else None
 
     def purge_non_ats(self, ats_whitelist: list[str]) -> int:
-        """Delete jobs whose ``ats`` is not a real ATS (e.g. 'unknown'/'custom'
-        third-party-scraped career-page links that 404). The engine enumerators
-        only ever emit real ATS rows; the only source of non-ATS rows is the
-        topstartups seed. Returns the number of rows deleted."""
+        # Delete rows whose `ats` is not a real ATS ('unknown'/'custom' third-party
+        # scraped career-page links that 404). The engine enumerators only ever
+        # emit real ATS rows; the only source of non-ATS rows is the topstartups seed.
         if not ats_whitelist:
             return 0
         placeholders = ",".join("?" for _ in ats_whitelist)
@@ -229,18 +199,13 @@ class DB:
 
     def reap_company(self, *, company: str, ats: str,
                      fresh_job_ids: set[str], grace: int) -> dict:
-        """Stale-job reaper for one ``(company, ats)`` just enumerated successfully.
-
-        Bumps ``miss_count`` for that company's jobs whose ``job_id`` is NOT in the
-        fresh enumeration, and marks ``closed=1`` once ``miss_count >= grace``.
-        ``applied=1`` jobs are never closed (preserve applied history). A reappearing
-        job is auto-reopened by ``upsert_job`` (which resets miss_count/closed).
-
-        An empty ``fresh_job_ids`` is treated as a transient/garbled response and is
-        a no-op — we never close a whole company on one empty board reply.
-
-        Returns ``{"absent": <rows bumped>, "closed_now": <rows newly closed>}``.
-        """
+        # Stale-job reaper for one (company, ats) just enumerated successfully.
+        # Bumps miss_count for that company's jobs whose job_id is NOT in the fresh
+        # enumeration, and marks closed=1 once miss_count >= grace. applied=1 jobs
+        # are never closed (preserve applied history). A reappearing job is
+        # auto-reopened by upsert_job (which resets miss_count/closed).
+        # An empty fresh_job_ids is treated as a transient/garbled response and is
+        # a no-op — we never close a whole company on one empty board reply.
         if not fresh_job_ids:
             return {"absent": 0, "closed_now": 0}
         now = time.time()
@@ -359,7 +324,6 @@ class DB:
             return [r[0] for r in self._conn.execute(
                 "SELECT DISTINCT ats FROM jobs WHERE ats IS NOT NULL ORDER BY ats")]
 
-    # ---- task_runs ----
     def start_run(self, kind: str) -> int:
         now = time.time()
         with self._lock:
@@ -442,7 +406,6 @@ class DB:
             ).fetchall()
         return [dict(r) for r in rows]
 
-    # ---- cursor ----
     def get_cursor(self) -> int:
         with self._lock:
             r = self._conn.execute(
@@ -460,7 +423,6 @@ class DB:
 
 @contextmanager
 def raw_connect(path: str):
-    """Plain connection for one-off callers (e.g. reading the engine ledger)."""
     conn = sqlite3.connect(path)
     conn.row_factory = sqlite3.Row
     try:

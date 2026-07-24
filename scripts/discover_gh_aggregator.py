@@ -1,21 +1,4 @@
 #!/usr/bin/env python3
-"""discover_gh_aggregator.py — bulk importer for the Feashliaa/job-board-aggregator
-GitHub repo, which publishes flat slug arrays scraped from public ATS board APIs
-(greenhouse ~8.3k, workday ~23k, bamboohr ~10k, lever ~3.9k, ashby ~2.7k slugs).
-
-For each ATS-host slug we build the canonical board URL and record it via dlib.
-All five hosts (greenhouse/lever/ashby/bamboohr/workday) are in dlib's ATS-host
-trust list -> auto-reliable, NO HTTP check -> very fast. icims/paylocity are NOT
-trusted/engine-supported and are skipped here.
-
-Idempotent: dlib dedups by norm_key (normalized name + domain), so re-runs only
-add slugs that are new since the last run. Every NEW reliable company is appended
-to data/discovery/log.md with worker tag `gh-agg-<ats>`.
-
-Usage:
-    python scripts/discover_gh_aggregator.py            # all 5 ATS hosts
-    python scripts/discover_gh_aggregator.py greenhouse # just one
-"""
 from __future__ import annotations
 import json
 import sys
@@ -41,7 +24,6 @@ SOURCES: dict[str, tuple[str, callable]] = {
 
 
 def pretty_name(slug: str) -> str:
-    """Turn a slug into a display-ish company name."""
     s = slug.replace("-", " ").replace("_", " ").strip()
     # title-case but keep all-caps tokens (e.g. 'io', 'ai') readable
     return " ".join(w.capitalize() if w.islower() else w for w in s.split()) or slug

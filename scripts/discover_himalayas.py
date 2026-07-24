@@ -1,25 +1,4 @@
 #!/usr/bin/env python3
-"""Discover companies from the Himalayas public jobs API (https://himalayas.app).
-
-The Himalayas API exposes two endpoints:
-  - /jobs/api          — full unfiltered jobs feed (paginated, max 20/page)
-  - /jobs/api/search   — filtered search by query, country, seniority, etc.
-
-Strategy:
-  1. Search for target-role jobs (pentest, SDET, QA, security) across multiple
-     role queries to surface companies that are actively hiring for our roles.
-  2. Also sweep the full jobs feed (offset-based pagination) to collect ALL
-     companies with remote jobs — even if they're not currently hiring for
-     target roles, their ATS board slug may match what we need.
-  3. For each NEW company (not already in companies.json with a board token),
-     derive slug candidates and probe greenhouse/lever/ashby.
-
-The job listings also include locationRestrictions (country array), so we can
-tag India/EU/APAC/worldwide-friendly companies right in the seed data.
-
-Output: data/raw/agent10_himalayas.json — picked up by scripts/consolidate.py.
-Re-runnable, concurrent, skips names already in companies.json or in prior seed.
-"""
 from __future__ import annotations
 
 import json
@@ -100,7 +79,6 @@ def _norm(name: str) -> str:
 
 
 def existing_slugged_names() -> set[str]:
-    """Names already in companies.json WITH a confirmed board token — skip these."""
     names: set[str] = set()
     if not os.path.exists(COMPANIES_JSON):
         return names
@@ -124,11 +102,6 @@ def existing_seed_names(seed_path: str) -> set[str]:
 
 def fetch_jobs(session: requests.Session, query: str, page: int = 1, limit: int = 20,
                country: str | None = None) -> tuple[list[dict], int]:
-    """Fetch jobs from the Himalayas search API. Returns (jobs, total_count).
-
-    `country` (ISO alpha-2, full name, or slug) restricts results to a country —
-    used by sweep_countries to surface SG/APAC/EU companies specifically.
-    """
     try:
         params: dict = {"q": query, "page": page, "limit": limit}
         if country:
@@ -149,7 +122,6 @@ def fetch_jobs(session: requests.Session, query: str, page: int = 1, limit: int 
 
 
 def fetch_feed_page(session: requests.Session, offset: int = 0, limit: int = 20) -> tuple[list[dict], int]:
-    """Fetch a page from the full jobs feed. Returns (jobs, total_count)."""
     try:
         r = session.get(
             HIMALAYAS_FEED,
@@ -166,7 +138,6 @@ def fetch_feed_page(session: requests.Session, offset: int = 0, limit: int = 20)
 
 
 def sweep_target_roles(session: requests.Session) -> dict[str, dict]:
-    """Search for target-role jobs and collect unique companies with location info."""
     companies: dict[str, dict] = {}  # norm_name -> {name, slug, locations, tier, roles}
 
     for tier, role in ROLE_QUERIES:
@@ -222,11 +193,6 @@ def sweep_target_roles(session: requests.Session) -> dict[str, dict]:
 
 
 def sweep_countries(session: requests.Session) -> dict[str, dict]:
-    """Country-targeted role searches: for each country in COUNTRY_QUERIES, run
-    the ROLE_QUERIES list filtered to that country. Collects companies actively
-    hiring for target roles in SG/APAC/EU — regions under-collected by the
-    global role sweep. Returns its own fresh dict (merged by the caller).
-    """
     companies: dict[str, dict] = {}
     for country in COUNTRY_QUERIES:
         country_hits = 0
@@ -276,13 +242,6 @@ def sweep_countries(session: requests.Session) -> dict[str, dict]:
 
 
 def sweep_full_feed(session: requests.Session, max_pages: int = 500) -> dict[str, dict]:
-    """Sweep the full jobs feed to collect ALL companies with remote jobs.
-
-    This is a breadth-first sweep — we don't filter by role, we just collect
-    every unique company name and slug. This discovers companies even if they
-    don't currently have target-role openings (their ATS board may still be
-    useful for future runs).
-    """
     companies: dict[str, dict] = {}
     offset = 0
     limit = 20
@@ -334,7 +293,6 @@ def sweep_full_feed(session: requests.Session, max_pages: int = 500) -> dict[str
 
 
 def probe_one(co: dict) -> dict | None:
-    """Probe greenhouse/lever/ashby for this company; return merge record on hit."""
     name = co["name"]
     cands = [c for c in candidates(name)[:5] if c]
     if not cands:

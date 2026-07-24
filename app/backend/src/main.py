@@ -1,10 +1,3 @@
-"""Entrypoint: uvicorn serve the dashboard backend.
-
-Run from the repo root so both ``app.backend.src`` and ``engine`` are
-importable:
-
-    .venv/bin/python -m uvicorn app.backend.src.main:app --host 0.0.0.0 --port 8000
-"""
 from __future__ import annotations
 
 import uvicorn

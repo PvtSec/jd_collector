@@ -1,20 +1,4 @@
 #!/usr/bin/env python3
-"""Validate pass — bridge raw data/raw/*.json -> discovery.db + log.md.
-
-Reads every company record produced by the gather workers (existing
-discover_*.py + new discoverN_*.py), and for each one:
-  - records it in discovery.db via dlib.record_company (dedup by norm_key,
-    HTTP-checks /careers URLs, trusts ATS-host URLs)
-  - if it is NEW and reliable, appends one line to data/discovery/log.md
-
-This is the single point that turns gathered raw records into the
-authoritative reliable_count that gates the 50k goal. Safe to re-run
-(idempotent: already-seen norm_keys are not re-counted or re-logged; already
-reliable rows skip the HTTP re-check via recheck=False).
-
-Concurrency: HTTP checks are the bottleneck, so records are validated in a
-ThreadPoolExecutor. sqlite WAL + busy_timeout handle concurrent writers.
-"""
 from __future__ import annotations
 
 import json

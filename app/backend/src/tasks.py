@@ -1,11 +1,3 @@
-"""Task manager — single-flight gate, current-run state, SSE pub/sub.
-
-The discovery job runs in a scheduler thread (sync enumerators, incl. the
-HTML-scraping breezyhr/onlyfy boards). The SSE endpoint lives on the asyncio loop.
-``publish`` bridges the two via ``loop.call_soon_threadsafe``.
-
-Singleton: one ``TaskManager`` per process, created in ``app.py``.
-"""
 from __future__ import annotations
 
 import asyncio
@@ -16,7 +8,7 @@ from .db import DB
 
 
 class TaskRunning(Exception):
-    """Raised when a task is requested while another is already running."""
+    pass
 
 
 class TaskManager:
@@ -28,11 +20,9 @@ class TaskManager:
         self._subscribers: list[asyncio.Queue] = []
         self._loop: asyncio.AbstractEventLoop | None = None
 
-    # ---- loop wiring (called from lifespan) ----
     def bind_loop(self, loop: asyncio.AbstractEventLoop):
         self._loop = loop
 
-    # ---- state ----
     @property
     def is_running(self) -> bool:
         with self._state_lock:
@@ -48,7 +38,6 @@ class TaskManager:
         return self.db.recent_runs(limit)
 
     def begin(self, kind: str, companies_total: int = 0) -> int:
-        """Called by the worker thread at task start. Returns the task_run id."""
         run_id = self.db.start_run(kind)
         with self._state_lock:
             self._current = {
@@ -82,7 +71,6 @@ class TaskManager:
             self.publish({"type": "task_completed" if status == "success" else "task_failed",
                           "status": status, "error": error, **cur})
 
-    # ---- SSE pub/sub ----
     def subscribe(self) -> asyncio.Queue:
         q: asyncio.Queue = asyncio.Queue(maxsize=256)
         self._subscribers.append(q)
@@ -95,7 +83,6 @@ class TaskManager:
             pass
 
     def publish(self, event: dict[str, Any]):
-        """Thread-safe publish: hop to the asyncio loop if called from a worker."""
         if self._loop is None:
             return  # no loop yet (e.g. called before lifespan); drop event
         for q in list(self._subscribers):

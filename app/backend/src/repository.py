@@ -1,11 +1,3 @@
-"""Read-side helpers over the dashboard DB + the engine ledger.
-
-The dashboard DB (``data/jobs.db``) is the discovery store; the engine ledger
-(``data/applied.sqlite``) is the source of truth for applications. This module
-bridges the two: ``mark_applied`` writes through ``engine.ledger.record`` and
-flips the local ``applied`` flag, so the ledger stays honest even when the user
-applies outside the bot and just marks the row here.
-"""
 from __future__ import annotations
 
 import time
@@ -17,8 +9,6 @@ from . import persist
 
 
 def mark_applied(db: DB, cfg, settings, job_db_id: int) -> dict:
-    """Mark a discovered job as applied: write to the engine ledger + flip local
-    flag + record in the persisted state file."""
     job = db.get_job(job_db_id)
     if not job:
         return {"ok": False, "error": "job not found"}
@@ -43,7 +33,6 @@ def mark_applied(db: DB, cfg, settings, job_db_id: int) -> dict:
 
 
 def applied_summary(cfg) -> dict:
-    """Aggregate counts from the engine ledger (mode:status -> count)."""
     try:
         with ledger.connect(cfg.ledger_db) as conn:
             return ledger.stats(conn)

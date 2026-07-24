@@ -1,9 +1,3 @@
-"""Load job_auto config (discovery + filtering only — no candidate profile).
-
-This project is a centralized job-search centre: it enumerates boards, filters
-jobs by the target roles in config.yaml, and lists them. It does not apply or
-submit anything; applying is done by you in the browser.
-"""
 from __future__ import annotations
 from dataclasses import dataclass, field
 from typing import Any

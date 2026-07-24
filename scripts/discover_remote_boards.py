@@ -1,24 +1,4 @@
 #!/usr/bin/env python3
-"""Discover companies from public remote-job board feeds (RemoteOK / WWR / Remotive).
-
-These boards list thousands of remote jobs. Each listing names an employer and
-often links to the employer's ATS apply URL. We extract employer names (and,
-where the apply URL is an ATS-hosted board — greenhouse/lever/ashby/... — keep
-that URL) so consolidate.py can either detect the ATS directly (automatable,
-correct board_token from the first path segment) or fall back to slug probing
-via discover_slugs.py.
-
-Output: data/raw/agent14_remote.json — picked up by scripts/consolidate.py.
-
-Read-only. Polite:
-  - RemoteOK JSON API: 1 request/run, cached 6h.
-  - WeWorkRemotely RSS: 1 request/run, cached 6h.
-  - Remotive API: rate-limited (<=2 req/min, advised <=4 req/day) -> 1 request
-    at most every 24h (cache), graceful skip on 429/error. Attribution: links
-    back to the boards are preserved only as company names here; we emit no
-    job listings.
-Re-runnable/idempotent (merges by normalized company name).
-"""
 from __future__ import annotations
 
 import json
@@ -84,7 +64,6 @@ def _get(url: str, timeout: int = 25) -> str:
 
 
 def _company_from_title(title: str) -> str:
-    """WWR titles look like 'Company Name: Job Title' -> return the company."""
     if not title:
         return ""
     # split on the FIRST strong separator

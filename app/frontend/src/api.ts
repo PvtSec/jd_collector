@@ -48,15 +48,12 @@ export const api = {
   hide: (id: number) => postJSON<{ ok: boolean; hidden: boolean }>(`/api/jobs/${id}/hide`),
 }
 
-/** Subscribe to the backend SSE stream. Returns an unsubscribe function. */
 export function subscribe(onEvent: (e: SSEEvent) => void): () => void {
   const es = new EventSource(base + '/api/events')
   es.onmessage = (msg) => {
     try {
       onEvent(JSON.parse(msg.data))
-    } catch {
-      /* ignore malformed */
-    }
+    } catch {}
   }
   return () => es.close()
 }

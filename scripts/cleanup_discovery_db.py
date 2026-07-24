@@ -1,19 +1,4 @@
 #!/usr/bin/env python3
-"""cleanup_discovery_db.py — data-quality cleanup of discovery.db.
-
-Run AFTER scripts/validate_boards.py (which marks dead boards reliable=0).
-Three cleanups:
-  1. Aggregator/portal URLs (not employer endpoints): himalayas.app, wellfound.com,
-     angel.co -> DELETE (they're job-portal profile pages, not careers endpoints).
-     ycombinator.com is KEPT (real YC startup job pages).
-  2. Junk/test slugs (pure-digit >=6 chars, consonant-only gibberish >=7 chars,
-     or repeated-char slugs) -> DELETE.
-  3. Duplicates: same (ats_type, board-slug) under multiple names. Keep the
-     "best" name (a real name beats a slug-derived placeholder), DELETE the rest.
-
-All deletes are from discovery.db; re-run export_discovery_db.py + consolidate.py
-afterward to bake the cleaned set into companies.json. Idempotent.
-"""
 from __future__ import annotations
 import re
 import sqlite3

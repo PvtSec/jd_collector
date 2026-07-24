@@ -1,19 +1,3 @@
-"""Discover NEW companies by probing public ATS boards from a seed list.
-
-Grows companies.json beyond topstartups.io + the existing unknowns. Sources:
-  1. Wikipedia "List of unicorn startup companies" (~1,000+ startups w/ websites)
-  2. a built-in curated list of notable tech / security / devops companies
-  3. data/seed_companies.txt (one company name or domain per line — user-extensible)
-
-For each seed name, derive slug candidates (scripts.discover_slugs.candidates)
-and probe the public Greenhouse / Lever / Ashby board APIs. On a hit, emit a
-merge-ready record (career_page_url = the authoritative ATS-host board URL, so
-consolidate.py sets ats_source='url' + derives board_token). Output:
-data/raw/agent8_seedprobe.json — picked up by scripts/consolidate.py.
-
-Re-runnable, polite (bounded candidates, concurrent, skips names already in
-companies.json). Read-only except for writing the raw file.
-"""
 from __future__ import annotations
 
 import concurrent.futures
@@ -94,7 +78,6 @@ def _norm(name: str) -> str:
 
 
 def existing_names(path: str) -> set[str]:
-    """Names already in companies.json — skip to focus probing on NEW cos."""
     try:
         comps = json.load(open(path, encoding="utf-8"))
     except FileNotFoundError:
@@ -103,7 +86,6 @@ def existing_names(path: str) -> set[str]:
 
 
 def _names_from_wikitables(html: str, name_headers=("company", "name", "service", "product", "organization", "firm")) -> list[str]:
-    """Header-based extraction of company names from sortable wikitables."""
     out = []
     META = ("list of", "startup company", "unicorn", "category:", "wikipedia:", "template:")
     for tbl in re.findall(r'<table[^>]*class="[^"]*wikitable[^"]*"[^>]*>(.*?)</table>', html, re.S):
@@ -140,7 +122,6 @@ def _names_from_wikitables(html: str, name_headers=("company", "name", "service"
 
 
 def _names_from_bullets(html: str) -> list[str]:
-    """Company names from bulleted lists: the first wiki link in each <li>."""
     out = []
     META = ("list of", "category:", "wikipedia:", "template:", "company", "startup")
     for li in re.findall(r"<li[^>]*>(.*?)</li>", html, re.S):
@@ -158,7 +139,6 @@ def _names_from_bullets(html: str) -> list[str]:
 
 
 def fetch_wikipedia_page_names(page: str) -> list[str]:
-    """Fetch a Wikipedia list page and extract company names (tables + bullets)."""
     try:
         r = requests.get(
             "https://en.wikipedia.org/w/api.php",
@@ -180,7 +160,6 @@ def fetch_wikipedia_page_names(page: str) -> list[str]:
 
 
 def fetch_wikipedia_category(category: str, limit: int = 500) -> list[str]:
-    """Pull article titles (company names) from a Wikipedia category."""
     out: list[str] = []
     cont = {}
     while len(out) < limit:
@@ -260,7 +239,6 @@ WIKI_CATEGORIES = [
 
 
 def fetch_wikipedia_companies() -> list[tuple[str, str]]:
-    """Aggregate company names from Wikipedia lists + categories → (name, "")."""
     out: list[tuple[str, str]] = []
     for page in WIKI_LISTS:
         names = fetch_wikipedia_page_names(page)
@@ -310,7 +288,6 @@ GENERIC_SLUGS = {"company", "inc", "labs", "lab", "ai", "app", "the", "group",
 
 
 def probe_one(name: str, website: str) -> dict | None:
-    """Probe greenhouse/lever/ashby for this name; return a merge record on hit."""
     cands = [c for c in candidates(name)[:4] if c not in GENERIC_SLUGS]
     for ats in ATS_ORDER:
         probe = PROBES[ats]

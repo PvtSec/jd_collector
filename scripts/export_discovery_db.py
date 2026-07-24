@@ -1,21 +1,4 @@
 #!/usr/bin/env python3
-"""export_discovery_db.py — bridge discovery.db -> data/raw/agent_discoverydb.json.
-
-The 50k-gate reliable companies live in data/discovery/discovery.db, but the app
-reads data/companies.json, which scripts/consolidate.py builds ONLY from
-data/raw/*.json. The bulk importers (discover_gh_aggregator.py,
-discover_ats_scrapers.py) and the LLM agents recorded straight to discovery.db,
-NOT to data/raw/. This exporter writes all reliable rows to a single raw file so
-consolidate.py picks them up.
-
-Output format matches consolidate.py's expectation: a JSON list of
-{company_name, career_page_url, ats_type, website}.
-
-Idempotent: re-writes the file from the current DB state each run. Run AFTER
-discovery, BEFORE consolidate.py:
-    python scripts/export_discovery_db.py
-    python scripts/consolidate.py
-"""
 from __future__ import annotations
 import json
 import sqlite3

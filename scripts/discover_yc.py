@@ -1,22 +1,4 @@
 #!/usr/bin/env python3
-"""Discover Y Combinator companies and probe for greenhouse/lever/ashby boards.
-
-The YC Startup Directory (https://www.ycombinator.com/companies) lists ~6000+
-companies. We pull them from YC's public JSON API
-(``https://api.ycombinator.com/v0.1/companies?per_page=N&page=P`` — paged via
-``nextPage`` / ``totalPages``) — no Playwright/browser needed, so this script
-runs cleanly on a slim server (Render free tier, etc.).
-
-For each NEW name (not already in data/companies.json with a confirmed board
-slug), derive greenhouse/lever/ashby slug candidates and probe the three public
-board APIs (reusing scripts.discover_slugs.candidates / PROBES). On a hit,
-write a seed entry (career_page_url = the ATS board URL) to
-data/raw/agent9_yc.json so scripts/consolidate.py infers ats_type + board_token
-directly from the URL.
-
-Read-only except writing the raw file. Re-runnable, concurrent, skips names
-already in companies.json or already in this seed file.
-"""
 import json
 import os
 import sys
@@ -53,8 +35,6 @@ def _norm(name: str) -> str:
 
 
 def existing_slugged_names() -> set[str]:
-    """Names already in companies.json WITH a confirmed greenhouse/lever/ashby
-    board token — skip probing these (we already have them)."""
     names: set[str] = set()
     if not os.path.exists(COMPANIES_JSON):
         return names
@@ -94,8 +74,6 @@ YC_INDUSTRY_FILTERS = [
 
 
 def _fetch_page(page: int, industries: str | None = None) -> dict | None:
-    """GET one page of the YC companies API. Returns the parsed JSON body or
-    None on transport error. ``industries`` is an optional filter."""
     params: list[tuple[str, str]] = [("per_page", str(YC_API_PER_PAGE))]
     if page > 1:
         params.append(("page", str(page)))
@@ -113,8 +91,6 @@ def _fetch_page(page: int, industries: str | None = None) -> dict | None:
 
 
 def _ingest(body: dict, companies: dict[str, dict]) -> int:
-    """Pull companies from one API response into the dedup-by-slug map.
-    Returns the number of NEW entries added this call."""
     if not body or not isinstance(body.get("companies"), list):
         return 0
     before = len(companies)
@@ -136,12 +112,6 @@ def _ingest(body: dict, companies: dict[str, dict]) -> int:
 
 
 def scrape_yc_companies() -> list[dict]:
-    """Pull every YC company from the public JSON API, deduped by slug.
-
-    Two-pass strategy:
-      1. Unfiltered paged GET to capture the bulk of companies.
-      2. Filtered views by industry to surface companies the main pass missed.
-    """
     companies: dict[str, dict] = {}
 
     # Pass 1: unfiltered paged pull

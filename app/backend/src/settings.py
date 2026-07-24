@@ -1,8 +1,3 @@
-"""Application settings for the dashboard backend.
-
-Reads sane defaults, overridable by environment variables. An optional ``app:``
-block in the engine ``config.yaml`` may also set any field (env wins on conflict).
-"""
 from __future__ import annotations
 
 import os
@@ -17,7 +12,6 @@ DEFAULT_FRONTEND_DIST = REPO_ROOT / "app" / "frontend" / "dist"
 
 
 class AppSettings(BaseSettings):
-    # Engine integration
     engine_config: str = Field(default="config.yaml", description="Path to job_auto config.yaml")
     jobs_db: str = Field(default="data/jobs.db", description="Path to the dashboard jobs/task DB")
 
@@ -25,7 +19,6 @@ class AppSettings(BaseSettings):
     # states and per-scan newly-found jobs.
     state_file: str = Field(default="app/state.json", description="Path to the persisted state file")
 
-    # Scheduler
     tick_minutes: int = Field(default=5, ge=1, description="Minutes between discovery ticks")
     rotate_size: int = Field(default=60, ge=1, description="Companies enumerated per tick")
     link_check_minutes: int = Field(default=720, ge=30, description="Minutes between dead-link prune sweeps")
@@ -46,14 +39,12 @@ class AppSettings(BaseSettings):
     seed_export_minutes: int = Field(default=60, ge=5, description="Minutes between seed exports")
     seed_max_rows: int = Field(default=0, ge=0, description="Max jobs kept in the seed (most-recently-seen); 0 = no cap, export every row")
 
-    # Server
     # Render sets the $PORT env var (default 10000 on Render). When running
     # locally without that env var we fall back to 8000 to match the venv dev
     # experience (`uvicorn app.backend.src.main:app --port 8000`).
     host: str = "0.0.0.0"
     port: int = Field(default_factory=lambda: int(os.environ.get("PORT", "8000")))
 
-    # Frontend static assets (served at / in production)
     frontend_dist: str = Field(default=str(DEFAULT_FRONTEND_DIST))
 
     # Heavy company-discovery scripts (subprocess; consolidate is NOT import-safe).
@@ -111,7 +102,6 @@ class AppSettings(BaseSettings):
 
 
 def _load_yaml_app_block(engine_config_path: str) -> dict:
-    """Return the ``app:`` block of the engine config if present, else {}."""
     try:
         import yaml  # PyYAML is an engine dep
     except Exception:  # pragma: no cover
@@ -126,7 +116,6 @@ def _load_yaml_app_block(engine_config_path: str) -> dict:
 
 
 def load_settings() -> AppSettings:
-    """Build AppSettings: defaults <- env <- engine config ``app:`` block (env wins)."""
     # First read env-only settings so we know the engine_config path to look at.
     base = AppSettings()
     app_block = _load_yaml_app_block(base.abs_engine_config())

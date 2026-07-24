@@ -1,19 +1,4 @@
 #!/usr/bin/env python3
-"""Discover companies from free, no-auth startup-directory APIs.
-
-Sources (all keyless / anonymous):
-  - NeuronFeed  GET https://neuronfeed.com/api/v1/startups  (60 req/min)
-  - FundedAPI   GET https://fundedapi.com/v1/startups       (anonymous, 60 req/hr)
-
-Both expose company name + website (homepage) for funded / hiring startups. We
-emit those as records (website set, ats_type unknown) so discover_slugs.py can
-probe greenhouse/lever/ashby boards for each name on the next rescan step.
-
-Output: data/raw/agent15_startupdirs.json — picked up by scripts/consolidate.py.
-
-Read-only, polite (small page counts, descriptive UA, cache 6h, graceful skip
-on error/rate-limit). Re-runnable/idempotent (merges by normalized company name).
-"""
 from __future__ import annotations
 
 import json
@@ -63,7 +48,6 @@ def _first(*vals):
 
 
 def _iter_items(data):
-    """Defensively locate the list of startup objects in a JSON response."""
     if isinstance(data, list):
         return data
     if isinstance(data, dict):
@@ -93,7 +77,6 @@ def _website_of(obj: dict) -> str:
 
 def _fetch_paginated(base_url: str, source_platform: str, cache_file: str,
                      extra_params: dict | None = None) -> list[dict]:
-    """Page through a directory API (defensive), emit company records."""
     out: list[dict] = []
     cp = os.path.join(CACHE, cache_file)
     cached = _cache_get(cp, 6 * 3600)

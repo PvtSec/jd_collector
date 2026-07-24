@@ -1,36 +1,4 @@
 #!/usr/bin/env python3
-"""Discover companies from VC / aggregator job boards.
-
-Sources (all read-only, public, no auth beyond CSRF / public search-only keys):
-  - Insight Partners  (jobs.insightpartners.com)        Getro      -> sitemap_companies.xml
-  - Sequoia Capital   (jobs.sequoiacap.com)              Consider   -> /api-boards/search-companies
-  - Lightspeed        (jobs.lsvp.com)                    Consider   -> /api-boards/search-companies
-  - Index Ventures     (indexventures.com/startup-jobs)  AWS ES     -> company-name terms aggregation
-  - cloudsecurity.jobs (-> wiz.io/cloud-security-job-board) Algolia  -> one-shot query (security vertical)
-
-These boards aggregate jobs across their portfolio / vertical and link listings to LinkedIn or
-external apply URLs (rarely an ATS host), so most records are name-only. name-only companies are
-reconciled later by discover_slugs.py (probes greenhouse/lever/ashby by name) — the same path the
-existing remote-board aggregator (discover_remote_boards.py) uses. Consider records also carry
-the employer's own website/domain (consolidate.py reads both), which helps dedup/domain-keying.
-
-Output: data/raw/agent18_vc_boards.json — picked up by scripts/consolidate.py.
-
-Read-only. Polite:
-  - Getro sitemap:        1 request/run, cached 24h.
-  - Consider /jobs page:  1 request/board/run, cached 24h (for the CSRF token + board id),
-    + 1 search-companies request/board (size large enough to fetch the whole portfolio).
-  - Index Ventures page:  1 request/run, cached 24h (for the ES endpoint + public search-only
-    creds embedded in the page's ES_GLOBALS), + 1 ES _search request.
-  - Wiz board page:        1 request/run, cached 24h, + a few JS-chunk fetches (cached) to find
-    the Algolia app id + search-only key, + 1 Algolia query (hitsPerPage=1000).
-Re-runnable/idempotent (merges by normalized company name).
-
-Limitation: Getro's JSON API is Datadog-protected and its SSR company pages do not render the
-company name, so Insight Partners names are approximated from the company slug in
-sitemap_companies.xml. The curated ~4k-company dataset + discover_slugs.py reconcile the long
-tail, the same way name-only aggregator records already work.
-"""
 from __future__ import annotations
 
 import base64
@@ -96,17 +64,6 @@ def _get(url: str, timeout: int = 30, headers=None) -> str:
 
 
 def _humanize_slug(slug: str) -> str:
-    """Approximate a company name from a Getro company slug.
-
-    Getro disambiguates duplicate names with a trailing ``-<N>`` and sometimes an
-    extra ``-<uuid>``: strip both, then title-case words.
-      'snappt' -> 'Snappt'
-      'gamma-technologies' -> 'Gamma Technologies'
-      'motorq-2' -> 'Motorq'
-      '1047-games-2-92c343de-b252-4c7d-ae4f-69a04fb62ef0' -> '1047 Games'
-    The disambiguator is always ``-<digits>`` (leading dash), so real digit-suffixed
-    names like 'form3' (no dash) are preserved.
-    """
     s = (slug or "").strip().lower()
     s = re.sub(r"-[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$", "", s)  # trailing uuid
     s = re.sub(r"-\d+$", "", s)          # trailing disambiguator -2
@@ -120,8 +77,6 @@ def _humanize_slug(slug: str) -> str:
     return " ".join(words)
 
 
-# --------------------------------------------------------------------------- Getro
-
 GETRO_SITEMAP = "https://jobs.insightpartners.com/sitemap_companies.xml"
 GETRO_JOBS_SITEMAPS = [
     "https://jobs.insightpartners.com/sitemap_jobs1.xml",
@@ -132,7 +87,6 @@ GETRO_BACKFILL_BATCH = 30  # job pages fetched per run; ~534 slugs -> fully reso
 
 
 def _getro_company_slugs() -> list[str]:
-    """Slugs from sitemap_companies.xml (cached 24h)."""
     cp = os.path.join(CACHE, "getro_companies.xml")
     txt = _cache_get(cp, 24 * 3600)
     if txt is None:
@@ -149,12 +103,6 @@ def _getro_company_slugs() -> list[str]:
 
 
 def _getro_job_url_by_slug() -> dict:
-    """One representative job URL per company slug, from the jobs sitemaps (cached 24h).
-
-    Getro's SSR job pages render the real employer name (currentJob.organization.name) and the
-    URL carries the company slug, giving a direct slug -> name map — unlike the companies
-    sitemap (slug-only) or the client-rendered company pages (empty SSR).
-    """
     by_slug: dict[str, str] = {}
     for sitemap in GETRO_JOBS_SITEMAPS:
         cp = os.path.join(CACHE, os.path.basename(sitemap))
@@ -173,15 +121,6 @@ def _getro_job_url_by_slug() -> dict:
 
 
 def _getro_backfill(job_url_by_slug: dict) -> dict:
-    """Resolve company slug -> real employer name by fetching a bounded batch of SSR job pages.
-
-    State (data/.cache_vc/getro_backfill.json) persists across runs:
-      resolved: {slug: name}    slug successfully resolved to its real name
-      tried:    {slug: job_url}  slug fetched but yielded no name for THAT url (retry if the
-                                sitemap rotates in a new job url later)
-    Each run fetches at most GETRO_BACKFILL_BATCH job pages for as-yet-unresolved slugs, so the
-    board is covered gradually over cycles (idempotent, polite).
-    """
     try:
         state = json.load(open(GETRO_BACKFILL_STATE, encoding="utf-8"))
     except Exception:
@@ -255,10 +194,7 @@ def from_getro() -> list[dict]:
     return out
 
 
-# --------------------------------------------------------------------------- Consider
-
 def _consider_initial(board_url: str) -> tuple[str, str]:
-    """Fetch a Consider board's /jobs page, return (csrf_token, board_id)."""
     txt = _get(board_url.rstrip("/") + "/jobs")
     m = re.search(r"window\.serverInitialData\s*=\s*(\{)", txt)
     if not m:
@@ -355,8 +291,6 @@ def from_consider(board_url: str, board_id_hint: str, label: str, source_platfor
     return out
 
 
-# --------------------------------------------------------------------------- Index Ventures (AWS ES)
-
 INDEX_PAGE = "https://www.indexventures.com/startup-jobs"
 ES_INDEX = "wagtail__startup_jobs_jobmodel"
 
@@ -410,8 +344,6 @@ def from_index_ventures() -> list[dict]:
     return out
 
 
-# --------------------------------------------------------------------------- cloudsecurity.jobs (Wiz / Algolia)
-
 WIZ_BOARD = "https://www.wiz.io/cloud-security-job-board"
 WIZ_INDEX = "cloud-job-board"
 # Public search-only Algolia key shipped in the board's client JS (fallback if runtime extraction fails).
@@ -420,7 +352,6 @@ _APPKEY_RE = re.compile(r'([A-Z0-9]{6,12})","([0-9a-f]{32})"')
 
 
 def _wiz_algolia_keys(page_html: str) -> tuple[str, str]:
-    """Extract (app_id, search_key) from the board's JS chunks; fall back to the known pair."""
     srcs = list(dict.fromkeys(re.findall(r'<script[^>]*src="([^"]+)"', page_html)))
     srcs = [s for s in srcs if "/vc-ap-" in s]
     # the chunk URLs carry a ?dpl= query; fetch and scan for the appid/key pair
@@ -476,8 +407,6 @@ def from_cloudsecurity_jobs() -> list[dict]:
     print(f"[vc] cloudsecurity_jobs (wiz): {len(out)} companies (nbHits {data.get('nbHits')})")
     return out
 
-
-# --------------------------------------------------------------------------- main
 
 def main():
     records: list[dict] = []

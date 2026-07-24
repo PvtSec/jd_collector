@@ -1,26 +1,4 @@
 #!/usr/bin/env python3
-"""Discover companies from Simplify's public job-listing datasets.
-
-Simplify (simplify.jobs) is an AI job board. Its job data is published as
-auto-updated ``listings.json`` files in two GitHub repos (maintained by
-SimplifyJobs), each entry naming an employer plus the job's apply URL:
-
-  - SimplifyJobs/New-Grad-Positions        (.github/scripts/listings.json)
-  - SimplifyJobs/Summer2026-Internships    (.github/scripts/listings.json)
-
-For every active employer we emit a record. When the apply URL is hosted on a
-clean ATS board (greenhouse/lever/ashby/smartrecruiters/workable/personio/
-teamtailor/rippling) we set ``career_page_url`` so consolidate.py detects the
-ATS directly and derives the correct board_token from the first URL path
-segment -> automatable with no probing. (Workday is intentionally NOT included
-here: its enumerator needs the careers-root URL, which a job-URL cannot yield.)
-
-Output: data/raw/agent16_simplify.json — picked up by scripts/consolidate.py.
-
-Read-only (GETs raw.githubusercontent.com). Polite: 24h cache (the datasets
-are ~11 MB each; one refresh/day is enough since Simplify updates them daily).
-Re-runnable/idempotent (merges by normalized company name).
-"""
 from __future__ import annotations
 
 import json
@@ -78,7 +56,6 @@ def _cache_put(path: str, text: str):
 
 
 def _fetch_listings(repo: str, branch: str, path: str, source_platform: str) -> list[dict]:
-    """Fetch + parse one listings.json; return per-company records (active only)."""
     cp = os.path.join(CACHE, repo.replace("/", "__") + ".json")
     txt = _cache_get(cp, 24 * 3600)
     if txt is None:

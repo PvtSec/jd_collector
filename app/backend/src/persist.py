@@ -1,20 +1,3 @@
-"""Persisted plain-file state for the dashboard.
-
-A single human-readable JSON file (default ``app/state.json``) that survives
-restarts and even a SQLite wipe. It holds two things the user asked to persist:
-
-  1. ``applied`` — jobs marked applied via the dashboard (deduped by
-     company/ats/job_id). This is a mirror of the engine ledger's
-     dashboard-marked rows, kept here so the applied state can be restored into
-     a fresh ``jobs.db``.
-  2. ``scans`` — a rolling log of recent discovery scans, each with its newly-
-     found jobs (capped: last ``MAX_SCANS`` scans, ``MAX_NEW_PER_SCAN`` jobs each).
-
-The engine ledger (``data/applied.sqlite``) and the dashboard DB
-(``data/jobs.db``) remain the live stores; this file is an inspectable,
-portable, restart-proof companion written on every mark-applied and every
-completed scan tick.
-"""
 from __future__ import annotations
 
 import json
@@ -56,7 +39,6 @@ def _applied_key(rec: dict) -> tuple:
 
 
 def record_applied(state_path: str, job: dict) -> None:
-    """Append/refresh a dashboard-marked-applied job in the persisted file."""
     with _lock:
         state = _read(state_path)
         applied = state.get("applied", [])
@@ -79,7 +61,6 @@ def record_applied(state_path: str, job: dict) -> None:
 
 
 def record_hidden(state_path: str, job: dict) -> None:
-    """Record a user-hidden (dead) job so it stays hidden across restarts / DB wipes."""
     with _lock:
         state = _read(state_path)
         hidden = state.get("hidden", [])
@@ -98,7 +79,6 @@ def record_hidden(state_path: str, job: dict) -> None:
 
 
 def reconcile_hidden(state_path: str, db) -> int:
-    """Restore hidden flags into a (possibly fresh) jobs DB from the persisted file."""
     state = _read(state_path)
     n = 0
     for rec in state.get("hidden", []):
@@ -111,7 +91,6 @@ def reconcile_hidden(state_path: str, db) -> int:
 
 
 def record_scan(state_path: str, run_summary: dict, new_jobs: list[dict]) -> None:
-    """Record a completed discovery scan + its newly-found jobs (capped)."""
     with _lock:
         state = _read(state_path)
         scans = state.get("scans", [])
@@ -139,10 +118,6 @@ def record_scan(state_path: str, run_summary: dict, new_jobs: list[dict]) -> Non
 
 
 def reconcile_applied(state_path: str, db) -> int:
-    """On startup, restore applied flags into a (possibly fresh) jobs DB.
-
-    Returns the number of rows flipped to applied=1.
-    """
     state = _read(state_path)
     applied = state.get("applied", [])
     n = 0
@@ -156,16 +131,12 @@ def reconcile_applied(state_path: str, db) -> int:
 
 
 def reconcile_applied_from_ledger(ledger_db: str, db) -> int:
-    """On startup, restore applied flags from the authoritative ledger
-    (applied.sqlite) into the jobs DB.
-
-    The jobs DB ``applied`` column is a denormalised cache that is refreshed on
-    each enumeration via ``ledger.already_applied``. If a tick's ledger lookup
-    ever misses (transient open failure / name drift), the cache flag can flip
-    back to 0 even though the application is still recorded in the ledger. The
-    ledger is the source of truth, so on every startup we re-stamp applied=1
-    for every job present in it. Only flips 0->1; never clears an applied flag.
-    """
+    # The jobs DB `applied` column is a denormalised cache refreshed on each
+    # enumeration via ledger.already_applied. If a tick's ledger lookup ever
+    # misses (transient open failure / name drift), the cache flag can flip
+    # back to 0 even though the application is still in the ledger. The ledger
+    # is the source of truth, so on every startup we re-stamp applied=1 for
+    # every job present in it. Only flips 0->1; never clears an applied flag.
     import sqlite3
     try:
         conn = sqlite3.connect(ledger_db)
@@ -183,5 +154,4 @@ def reconcile_applied_from_ledger(ledger_db: str, db) -> int:
 
 
 def load(state_path: str) -> dict:
-    """Read-only access to the persisted state (for /api/state)."""
     return _read(state_path)

@@ -1,14 +1,3 @@
-"""The periodic discovery task.
-
-Each tick enumerates a rotating slice (~60) of the automatable companies via
-``engine.boards.CLIENTS[ats]``, filters with ``engine.match.matches``, upserts
-into the dashboard DB, and writes a ``task_runs`` row. All enumerators are
-read-only/public (so this is safe to run unattended).
-
-Heavy company-discovery scripts (discover_topstartups / discover_slugs /
-consolidate) are NOT here — those run only via the manual "Rescan companies"
-button in ``scheduler.rescan_companies``.
-"""
 from __future__ import annotations
 
 import time
@@ -25,9 +14,9 @@ from .settings import AppSettings
 from .tasks import TaskManager
 
 # ATS whose enumeration is known to be complete (fully paginated). The stale-job
-# reaper only runs for these — capped/scrape enumerators (workable 10/page, workday
-# 500/board, breezyhr/onlyfy DOM scrape, mailto href scrape) can return partial
-# lists and would false-close jobs that are actually still on the board.
+# reaper only runs for these — capped/scrape enumerators (workable 10/page,
+# workday 500/board, breezyhr/onlyfy DOM scrape, mailto href scrape) can return
+# partial lists and would false-close jobs that are actually still on the board.
 REAPER_ATS = {
     "greenhouse", "lever", "ashby", "smartrecruiters",
     "personio", "rippling", "teamtailor",
@@ -35,7 +24,6 @@ REAPER_ATS = {
 
 
 def _rotate_slice(items: list[dict], cursor: int, size: int) -> list[dict]:
-    """Round-robin window wrapping end→start."""
     n = len(items)
     if n == 0:
         return []
@@ -48,7 +36,6 @@ def _rotate_slice(items: list[dict], cursor: int, size: int) -> list[dict]:
 
 def run_tick(settings: AppSettings, task_manager: TaskManager, cfg: Config | None = None
              ) -> dict:
-    """Enumerate one rotating slice and upsert. Returns a summary dict."""
     cfg = cfg or Config.load(settings.abs_engine_config())
     db: DB = task_manager.db
 
@@ -191,9 +178,6 @@ def run_tick(settings: AppSettings, task_manager: TaskManager, cfg: Config | Non
 
 def run_rescan(settings: AppSettings, task_manager: TaskManager, cfg: Config | None = None,
                kind: str = "rescan_companies") -> dict:
-    """Shell out the heavy discovery scripts (not import-safe: consolidate runs
-    on import). Updates companies.json/slugs/topstartups data; caller should
-    invalidate the cached Config afterward. ``kind`` labels the task run."""
     import subprocess
     import sys
 

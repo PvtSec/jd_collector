@@ -1,25 +1,4 @@
 #!/usr/bin/env python3
-"""Discover companies + matching jobs from https://topstartups.io (read-only).
-
-Sweeps:
-  1. Startup list (https://topstartups.io/?page=N)  -> every company card:
-     name, website, "View Jobs" URL (often an ATS board URL), industry tags.
-  2. Jobs board per target-role query (?role=...) -> ALL jobs whose title matches
-     the candidate's target roles, walked page-by-page until stale.
-     Core targets: Penetration Tester / QA Automation / SDET.
-     Adjacent (pentest background): Security Engineer / AppSec / DevSecOps.
-
-End detection: server returns page-1 content past the last page, so we stop when
-a page adds nothing new. Pages are cached under data/.cache_topstartups/ so
-re-runs are cheap.
-
-Outputs:
-  data/raw/agent6_topstartups.json   merge-ready company records (consolidate.py ingests)
-  data/topstartups_matches.json      companies with open target-role jobs (actionable),
-                                     each job tagged tier: core | adjacent
-
-Re-run: .venv/bin/python scripts/discover_topstartups.py
-"""
 import json, os, re, time, sys
 from urllib.parse import urlparse, urlunparse, quote_plus
 import requests
@@ -74,8 +53,6 @@ def clean_url(u):
     return u
 
 def anchor_hrefs(card, id_val):
-    """All href values from <a> tags carrying id=id_val (order-independent,
-    quoted or unquoted href)."""
     out = []
     for m in re.finditer(r'<a\b([^>]*)>', card):
         tag = m.group(1)
@@ -137,7 +114,6 @@ def fetch(url):
         time.sleep(1.5)
     return ""
 
-# ---- startup list parsing ----
 def parse_startup_page(html):
     out = []
     for c in re.split(r'infinite-item', html)[1:]:
@@ -152,7 +128,6 @@ def parse_startup_page(html):
                     "industries": [i for i in inds if i]})
     return out
 
-# ---- jobs board parsing ----
 def parse_jobs_page(html):
     out = []
     for c in re.split(r'infinite-item', html)[1:]:
@@ -171,7 +146,6 @@ def parse_jobs_page(html):
                     "title": title, "location": location})
     return out
 
-# ---------------- main ----------------
 def main():
     companies = {}
 

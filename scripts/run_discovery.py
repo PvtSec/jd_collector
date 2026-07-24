@@ -1,21 +1,4 @@
 #!/usr/bin/env python3
-"""run_discovery.py — launcher for the 50k-company scaling effort.
-
-Commands:
-  status    print reliable_count vs 50000 + total_unique + last validate
-  gather    run the durable discover_*.py source-workers concurrently (cohort A)
-  validate  run discover_validate.py (raw -> discovery.db + log.md)
-  run       gather + validate (one wave); repeat-safe, idempotent
-  process   once reliable_count >= 50000: consolidate.py + ./run.sh up
-
-Cohort B (live LLM web-search agents) are launched from the Claude session
-via the Agent tool, NOT here — they record finds directly through dlib. This
-launcher handles the durable side + the final processing step.
-
-Resumable: all state lives in data/discovery/ (discovery.db, progress.json,
-log.md). A fresh session: `python scripts/run_discovery.py status` then
-`... run`, and relaunch cohort B agents over remaining partitions.
-"""
 from __future__ import annotations
 
 import json

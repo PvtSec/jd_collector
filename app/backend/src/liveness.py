@@ -1,12 +1,3 @@
-"""URL liveness checks — drop genuinely dead links, keep valid ones.
-
-The dashboard's real-ATS rows come from the boards' own APIs and are live by
-construction, so we never validate those. The only rows that can 404 are the
-non-ATS (``unknown``/``custom``) third-party-scraped career-page links carried
-by the topstartups seed. This module checks those and deletes only the ones
-that return a definitive 404/410 — transient errors (5xx, timeouts, HEAD-405)
-are treated as "unknown" and left alone, so flaky-but-valid pages aren't dropped.
-"""
 from __future__ import annotations
 
 import concurrent.futures
@@ -42,7 +33,6 @@ def _body_snippet(text: str, limit: int = 32768) -> str:
 
 
 def _looks_dead_200(html: str) -> bool:
-    """A 200 response whose body indicates a not-found page (SPA 404)."""
     if not html:
         return False
     m = TITLE_RE.search(html)
@@ -78,11 +68,6 @@ def check_url(url: str, timeout: int = TIMEOUT) -> Verdict:
 
 def prune_dead_unknown(db, *, ats_whitelist: list[str] | None = None,
                        concurrency: int = 8, limit: int = 500) -> dict:
-    """Liveness-check non-ATS rows and delete the definitively dead ones.
-
-    ``ats_whitelist`` is the set of real ATS whose URLs are trusted (never
-    checked). Rows whose ``ats`` is not in it are checked. Returns counts.
-    """
     with db._lock:
         rows = db._conn.execute(
             "SELECT id, url FROM jobs WHERE ats NOT IN "

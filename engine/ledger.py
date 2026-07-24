@@ -1,8 +1,3 @@
-"""Applied-jobs ledger — SQLite store of every application (and dry-run match).
-
-Prevents duplicate submissions and gives a history. Read/written by the engine;
-safe to inspect manually with `sqlite3 data/applied.sqlite`.
-"""
 from __future__ import annotations
 import os
 import sqlite3
@@ -60,7 +55,6 @@ def record(
     mode: str = "dry_run",
     note: str = "",
 ) -> bool:
-    """Insert a row. Returns True if inserted, False if it was a duplicate."""
     try:
         conn.execute(
             "INSERT INTO applications(company,ats,job_id,title,url,status,mode,note,applied_at) "

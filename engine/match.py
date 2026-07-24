@@ -1,4 +1,3 @@
-"""Job matching — filter enumerated jobs against the candidate target config."""
 from __future__ import annotations
 from .config import Target
 from .boards import Job
@@ -9,12 +8,6 @@ def _norm(s: str) -> str:
 
 
 def matches(job: Job, target: Target) -> tuple[bool, list[str]]:
-    """Return (matches, reasons_if_rejected). Empty reasons => accepted.
-
-    Location policy: a role is location-eligible if work_type == 'remote' (and the
-    location is not US/CA-only), OR the location names a preferred place (India cities,
-    worldwide, EMEA, APAC, etc.). Hybrid/onsite must name a preferred location.
-    """
     title = _norm(job.title)
     loc = _norm(job.location)
     wt = _norm(job.work_type)

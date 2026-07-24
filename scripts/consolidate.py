@@ -1,17 +1,4 @@
 #!/usr/bin/env python3
-"""Consolidate raw per-agent company JSON into a deduplicated dataset grouped by ATS.
-
-Strategy:
-- Read all data/raw/agent*.json
-- Normalize company name + website domain as the dedup key
-- For each company, merge all career_page_urls and ats labels seen across agents
-- Determine an AUTHORITATIVE ats_type by inspecting the career_page_url domain
-  (an ATS-hosted URL beats an agent's guess for a company-domain /careers page)
-- Pick a primary career_page_url: prefer an ATS-hosted board URL (directly automatable),
-  else the company-domain careers page
-- Flag ATS conflicts (multiple distinct non-unknown ats labels)
-- Emit: data/companies.json, data/companies.csv, data/ats_summary.json, data/by_ats/*.json
-"""
 import json, csv, os, re
 from collections import defaultdict, Counter
 from urllib.parse import urlparse
@@ -99,7 +86,6 @@ def norm_name(name):
     return n
 
 def domain_key(entry):
-    """Best-effort stable key: bare domain of website, else of career url."""
     for url in (entry.get("website"), entry.get("career_page_url")):
         if url:
             d = bare_domain(url)
@@ -107,7 +93,6 @@ def domain_key(entry):
                 return d
     return norm_name(entry.get("company_name", ""))
 
-# ---- load ----
 raw = []
 for fn in sorted(os.listdir(RAW_DIR)):
     if fn.endswith(".json"):
@@ -123,14 +108,12 @@ if os.path.exists(_ds_path):
         for _r in json.load(_f):
             DISCOVERED[norm_name(_r["company_name"])] = (_r["ats"], _r["career_page_url"], _r["slug"])
 
-# ---- group ----
 groups = defaultdict(list)
 for e in raw:
     key = norm_name(e["company_name"]) or domain_key(e)
     groups[key].append(e)
 
 def primary_url_sort_key(url):
-    """Lower is better. ATS-hosted board URLs rank first."""
     ats = infer_ats_from_url(url)
     # rank: 0 = standard automatable ATS, 1 = yc, 2 = company-domain careers, 3 = board profile, 4 = homepage
     if ats in ("greenhouse", "lever", "ashby", "smartrecruiters", "workable",
@@ -264,7 +247,6 @@ for key, entries in groups.items():
         "is_mnc_flagged": is_mnc,
     })
 
-# ---- board-collision dedup ----
 # Multiple companies can resolve to the SAME ATS-hosted board URL. Two cases,
 # both produced by name-derived slug probing (notably the Wikidata harvest pass):
 #   (a) generic-slug false positives: e.g. 396 "National ..." orgs all stamped with
@@ -287,7 +269,6 @@ def board_url_key(url):
     return (url or "").lower().replace("https://", "").replace("http://", "").rstrip("/")
 
 def board_slug(url, ats_type):
-    """Company-identifying token from an ATS board URL (reuses the SUBDOMAIN/PATH split)."""
     if ats_type in SUBDOMAIN_TOKEN_ATS:
         parts = (urlparse(url).hostname or "").lower().split(".")
         return parts[0] if len(parts) >= 3 else ""
@@ -322,7 +303,6 @@ _dedup_drop = set()
 _dedup_stripped = 0
 
 def _strip_ats(idx):
-    """Revert a false-positive/alias entry to name-only (not automatable)."""
     global _dedup_stripped
     c = merged[idx]
     c["career_page_url"] = c.get("website") or ""
@@ -375,7 +355,6 @@ ATS_ORDER = {"greenhouse":0, "lever":1, "ashby":2, "smartrecruiters":3, "workabl
              "custom":17, "yc":18, "unknown":19}
 merged.sort(key=lambda c: (ATS_ORDER.get(c["ats_type"], 99), c["company_name"].lower()))
 
-# ---- write companies.json + csv ----
 with open(os.path.join(OUT_DIR, "companies.json"), "w") as f:
     json.dump(merged, f, indent=2, ensure_ascii=False)
 
@@ -388,7 +367,6 @@ with open(os.path.join(OUT_DIR, "companies.csv"), "w", newline="") as f:
                     c["ats_source"], c["ats_conflict"], c["board_token"] or "",
                     c["domain_hint"], "|".join(c["source_platforms"]), c["is_mnc_flagged"]])
 
-# ---- ats summary ----
 summary = Counter(c["ats_type"] for c in merged)
 conflicts = [c["company_name"] for c in merged if c["ats_conflict"]]
 with open(os.path.join(OUT_DIR, "ats_summary.json"), "w") as f:
@@ -403,7 +381,6 @@ with open(os.path.join(OUT_DIR, "ats_summary.json"), "w") as f:
                                   "attrax","applytojob")),
     }, f, indent=2)
 
-# ---- by_ats split ----
 os.makedirs(BY_ATS_DIR, exist_ok=True)
 by_ats = defaultdict(list)
 for c in merged:
@@ -413,7 +390,6 @@ for ats, rows in by_ats.items():
     with open(os.path.join(BY_ATS_DIR, f"{ats}.json"), "w") as f:
         json.dump(rows, f, indent=2, ensure_ascii=False)
 
-# ---- console report ----
 print(f"Total raw entries : {len(raw)}")
 print(f"Unique companies  : {len(merged)}")
 print(f"Board-collision dedup: dropped {len(_dedup_drop)} alias-dup entr(ies), "

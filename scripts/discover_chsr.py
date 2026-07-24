@@ -1,27 +1,3 @@
-"""Discover companies from the public list
-https://github.com/edoardottt/companies-hiring-security-remote
-("companies hiring security people full remote").
-
-The list lives entirely in that repo's README.md as a Markdown table:
-    | Company | Areas hiring remote | Full/Regional Remote | Job Postings | Open for contractors |
-where "Job Postings" is a `[Link](url)` to the company's careers/jobs page.
-
-This script:
-  1. Fetches the README (cached under data/.cache_chsr/ so re-runs are cheap).
-  2. Parses every table row -> (company_name, career_page_url).
-  3. If the careers URL is already on a known ATS host (lever/workable/personio/
-     breezy/hr/workday/ashby/greenhouse/...) -> record it with that ats_type
-     (consolidate.py will derive the board_token from the URL).
-  4. Otherwise probe greenhouse/lever/ashby for slug candidates derived from the
-     company name (reuses scripts.discover_slugs.candidates / PROBES). On a hit,
-     record the ATS board URL; on a miss, record the company as `unknown` with the
-     original careers URL (the 24h discover_companies rescan can resolve it later).
-  5. Skips names already in companies.json. Writes data/raw/agent12_chsr.json
-     (idempotent by normalized name; merges with prior runs).
-
-Read-only except for writing the raw file. Re-runnable, concurrent, polite.
-Run `scripts/consolidate.py` after this to merge into companies.json.
-"""
 from __future__ import annotations
 import concurrent.futures
 import json
@@ -100,7 +76,6 @@ def infer_ats_from_url(url: str) -> str | None:
 
 
 def workable_slug(url: str) -> str | None:
-    """For <slug>.workable.com boards, return the slug (first subdomain label)."""
     h = (urlparse(url).hostname or "").lower()
     if h.endswith(".workable.com") and h not in ("apply.workable.com", "workable.com"):
         return h.split(".")[0]
@@ -108,7 +83,6 @@ def workable_slug(url: str) -> str | None:
 
 
 def fetch_readme() -> str:
-    """Fetch the README, caching it locally so re-runs are free."""
     os.makedirs(CACHE_DIR, exist_ok=True)
     cache = os.path.join(CACHE_DIR, "README.md")
     use_cache = os.path.exists(cache)
@@ -134,7 +108,6 @@ ROW_RE = re.compile(
 
 
 def parse_table(md: str) -> list[tuple[str, str]]:
-    """Return [(company_name, career_page_url), ...] from the README table."""
     out: list[tuple[str, str]] = []
     seen = set()
     for line in md.splitlines():
@@ -166,7 +139,6 @@ def existing_names(path: str) -> set[str]:
 
 
 def probe_one(name: str, careers_url: str) -> dict:
-    """Build a merge record for one company."""
     ats = infer_ats_from_url(careers_url)
     if ats == "workable":
         # <slug>.workable.com -> rewrite to apply.workable.com/{slug} so

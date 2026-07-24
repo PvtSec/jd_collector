@@ -1,22 +1,3 @@
-"""Discover companies from startups.gallery country pages (HTML scrape).
-
-startups.gallery is a curated gallery of ~1,300 early-stage companies, browsable
-by country at /categories/locations/countries/<slug>. There is no public API;
-company cards are server-rendered as <a href=".../companies/<slug>">…<h3>NAME</h3>…</a>.
-
-For each country page we extract (slug, name) pairs, then probe greenhouse /
-lever / ashby for each NEW company (reusing the proven discover_slugs machinery).
-A company becomes automatable when its probed ATS board exists. Companies without
-a probeable board are still emitted as `ats_type: "unknown"` so consolidate.py
-knows about them (discover_slugs.py may resolve them later).
-
-Low-yield per country (a handful of curated startups), but the names are genuine
-early-stage APAC/EU companies not present in the Wikipedia lists — widening the
-discovery funnel for Singapore / India / Australia / Germany / Japan / etc.
-
-Output: data/raw/agent17_startups_gallery.json — picked up by scripts/consolidate.py.
-Re-runnable, polite, idempotent, merges with prior runs. Read-only except raw file.
-"""
 from __future__ import annotations
 
 import json
@@ -71,7 +52,6 @@ def _norm(name: str) -> str:
 
 
 def existing_slugged_names() -> set[str]:
-    """Names already in companies.json WITH a confirmed board token — skip these."""
     names: set[str] = set()
     if not os.path.exists(COMPANIES_JSON):
         return names
@@ -85,11 +65,6 @@ def existing_slugged_names() -> set[str]:
 
 
 def parse_country_page(html: str) -> list[tuple[str, str]]:
-    """Extract (gallery_slug, company_name) pairs from a country page.
-
-    Each company card is an <a href=".../companies/<slug>">…<h3>NAME</h3>…</a>.
-    We capture the slug from the href and the first <h3> text inside the anchor.
-    """
     out: list[tuple[str, str]] = []
     # match the anchor that links to a /companies/<slug> page, capture its inner HTML
     for m in re.finditer(
@@ -133,11 +108,6 @@ GENERIC_SLUGS = {"company", "inc", "labs", "lab", "ai", "app", "the", "group",
 
 
 def probe_one(name: str, gallery_slug: str) -> dict | None:
-    """Probe greenhouse/lever/ashby; return a merge record on hit.
-
-    Try name-derived slug candidates first, then the gallery slug itself (it
-    occasionally matches the ATS board slug).
-    """
     cands = [c for c in candidates(name)[:4] if c not in GENERIC_SLUGS]
     if gallery_slug and gallery_slug not in cands and gallery_slug not in GENERIC_SLUGS:
         cands.append(gallery_slug)

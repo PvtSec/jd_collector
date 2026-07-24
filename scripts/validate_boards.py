@@ -1,24 +1,4 @@
 #!/usr/bin/env python3
-"""validate_boards.py — live liveness validation of automatable ATS boards.
-
-The bulk importers (discover_gh_aggregator.py, discover_ats_scrapers.py) marked
-ATS-host URLs reliable by URL pattern WITHOUT an HTTP check. Live sampling showed
-~33-43% are dead (404). The engine's own liveness.py never validates ATS-host
-boards, so dead ones would persist as 0-job companies forever. This script
-validates each board via the engine's own enumerators (engine.boards.CLIENTS),
-which raise BoardError on 404, and marks dead boards reliable=0 in discovery.db.
-
-Validatable ATS (enumerator raises BoardError on 404):
-  greenhouse, lever, ashby, workable, smartrecruiters, rippling, teamtailor
-Direct HTTP (404 detectable): personio (.com XML feed), breezyhr.
-NOT validatable here (enumerator returns empty on 404, or not in CLIENTS):
-  workday, bamboohr, pinpoint — left as-is (note as limitation).
-
-Idempotent: skips rows already marked dead (http_status LIKE 'dead%'). Re-run safe.
-Usage:
-  python scripts/validate_boards.py              # validate all
-  python scripts/validate_boards.py --sample 50  # 50 per ATS (smoke test)
-"""
 from __future__ import annotations
 import argparse
 import concurrent.futures

@@ -1,27 +1,4 @@
 #!/usr/bin/env python3
-"""discover_ats_scrapers.py — bulk importer for kalil0321/ats-scrapers CSV slug
-lists (ats-companies/*.csv), which contain name,slug,url rows for many ATS.
-
-We import only ENGINE-SUPPORTED ATS (the dlib trust list): greenhouse, lever,
-ashby, bamboohr, smartrecruiters, personio, rippling, pinpoint, breezy. Other
-CSVs in that repo (icims, paylocity, recruitee, jazzhr, oracle, cornerstone,
-successfactors, avature, eightfold, gem, gupy, join_com, etc.) are NOT engine-
-supported and are skipped.
-
-IMPORTANT dedup discipline: dlib's norm_key is norm_name(company_name) — for
-ATS-host URLs bare_domain is just the ATS domain, so dedup is by NAME. To stay
-consistent with discover_gh_aggregator.py (which used slug-derived names) and
-avoid creating duplicate rows for overlapping slugs, we record name as
-pretty_name(slug), NOT the CSV's human name. Overlapping slugs then dedup
-correctly; only genuinely new slugs add rows.
-
-Idempotent (norm_key UNIQUE). Each NEW reliable company is appended to
-data/discovery/log.md with worker tag `ats-scrapers-<ats>`.
-
-Usage:
-    python scripts/discover_ats_scrapers.py            # all engine-supported ATS
-    python scripts/discover_ats_scrapers.py personio   # just one
-"""
 from __future__ import annotations
 import csv
 import io

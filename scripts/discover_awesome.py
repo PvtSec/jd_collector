@@ -1,21 +1,4 @@
 #!/usr/bin/env python3
-"""Discover companies from GitHub "awesome-list" READMEs (remote / security).
-
-These community-maintained lists name hundreds of remote-friendly and
-security-focused companies, usually with a link to the company homepage or
-careers page. We fetch each list's raw README, extract markdown-link company
-names (+ their URL), and emit merge-ready records to
-data/raw/agent13_awesome.json — picked up by scripts/consolidate.py.
-
-If a linked URL is an ATS-hosted board (greenhouse/lever/ashby/...) or a
-/careers /jobs page, we set career_page_url so consolidate.py can detect the
-ATS directly (automatable without slug probing). Otherwise we set website and
-let discover_slugs.py probe greenhouse/lever/ashby later.
-
-Read-only (GETs raw.githubusercontent.com). Re-runnable/idempotent: merges with
-the existing raw file by normalized company name. Polite: one fetch per list,
-descriptive UA, small cache so a re-run within the cadence doesn't re-download.
-"""
 from __future__ import annotations
 
 import json
@@ -118,7 +101,6 @@ def _looks_like_careers(url: str) -> bool:
 
 
 def _extract(readme: str, source_platform: str) -> list[dict]:
-    """Pull markdown-link [Text](url) company candidates from a README."""
     out = []
     seen = set()
     # match [Text](url)  — Text may contain one space/word; url http(s) or www
