@@ -6542,6 +6542,32 @@
     "source_platform": "cloudsecurity_jobs"
   },
   {
+    "company_name": "CuspAI",
+    "source_platform": "lightspeed",
+    "website": "https://cusp.ai/",
+    "domain_hint": "cusp.ai"
+  },
+  {
+    "company_name": "Judgment Labs",
+    "source_platform": "lightspeed",
+    "website": "https://judgmentlabs.ai/",
+    "domain_hint": "judgmentlabs.ai"
+  },
+  {
+    "company_name": "Unsloth AI",
+    "source_platform": "lightspeed",
+    "website": "https://unsloth.ai/",
+    "domain_hint": "unsloth.ai"
+  },
+  {
+    "company_name": "Big Health",
+    "source_platform": "index_ventures"
+  },
+  {
+    "company_name": "Roboflow",
+    "source_platform": "cloudsecurity_jobs"
+  },
+  {
     "company_name": "Portside",
     "source_platform": "insight_partners"
   },
@@ -6636,7 +6662,7 @@
     "source_platform": "insight_partners"
   },
   {
-    "company_name": "Certik",
+    "company_name": "CertiK",
     "source_platform": "insight_partners",
     "website": "https://certik.org/",
     "domain_hint": "certik.org"
@@ -6658,7 +6684,7 @@
     "source_platform": "insight_partners"
   },
   {
-    "company_name": "Aily Labs",
+    "company_name": "AILY LABS",
     "source_platform": "insight_partners"
   },
   {
@@ -6674,7 +6700,7 @@
     "source_platform": "insight_partners"
   },
   {
-    "company_name": "Unlearn Ai",
+    "company_name": "Unlearn.AI",
     "source_platform": "insight_partners"
   },
   {
@@ -7008,7 +7034,7 @@
     "source_platform": "insight_partners"
   },
   {
-    "company_name": "Singlestore",
+    "company_name": "SingleStore",
     "source_platform": "insight_partners"
   },
   {
@@ -7124,7 +7150,7 @@
     "source_platform": "insight_partners"
   },
   {
-    "company_name": "Safetyculture",
+    "company_name": "SafetyCulture",
     "source_platform": "insight_partners"
   },
   {
@@ -7226,7 +7252,7 @@
     "source_platform": "insight_partners"
   },
   {
-    "company_name": "Apollo Graphql",
+    "company_name": "Apollo GraphQL",
     "source_platform": "insight_partners"
   },
   {
@@ -7250,7 +7276,7 @@
     "source_platform": "insight_partners"
   },
   {
-    "company_name": "Sparetech",
+    "company_name": "SPARETECH",
     "source_platform": "insight_partners"
   },
   {
@@ -7448,7 +7474,7 @@
     "domain_hint": "ezcater.com"
   },
   {
-    "company_name": "Firemon",
+    "company_name": "FireMon",
     "source_platform": "insight_partners"
   },
   {
@@ -7516,7 +7542,7 @@
     "source_platform": "insight_partners"
   },
   {
-    "company_name": "Salesloft",
+    "company_name": "SalesLoft",
     "source_platform": "insight_partners"
   },
   {
@@ -7930,7 +7956,7 @@
     "source_platform": "insight_partners"
   },
   {
-    "company_name": "Viz Ai",
+    "company_name": "Viz.ai",
     "source_platform": "insight_partners"
   },
   {
@@ -8106,7 +8132,7 @@
     "domain_hint": "sourcegraph.com"
   },
   {
-    "company_name": "Acceldata",
+    "company_name": "acceldata",
     "source_platform": "insight_partners",
     "website": "https://acceldata.io/",
     "domain_hint": "acceldata.io"
@@ -8196,7 +8222,7 @@
     "source_platform": "insight_partners"
   },
   {
-    "company_name": "Tonic Ai",
+    "company_name": "Tonic.ai",
     "source_platform": "insight_partners"
   },
   {
@@ -8216,7 +8242,7 @@
     "source_platform": "insight_partners"
   },
   {
-    "company_name": "Honeycomb Io",
+    "company_name": "Honeycomb.io",
     "source_platform": "insight_partners"
   },
   {
@@ -8242,7 +8268,7 @@
     "source_platform": "insight_partners"
   },
   {
-    "company_name": "Colab Software",
+    "company_name": "CoLab Software",
     "source_platform": "insight_partners"
   },
   {
@@ -8266,7 +8292,7 @@
     "source_platform": "insight_partners"
   },
   {
-    "company_name": "Landing Ai",
+    "company_name": "Landing AI",
     "source_platform": "insight_partners"
   },
   {
@@ -8516,7 +8542,7 @@
     "source_platform": "insight_partners"
   },
   {
-    "company_name": "Specterops",
+    "company_name": "SpecterOps",
     "source_platform": "insight_partners"
   },
   {

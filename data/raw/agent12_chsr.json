@@ -1187,5 +1187,17 @@
     "ats_type": "unknown",
     "source_platform": "chsr",
     "chsr_url": "https://www.razor-group.com/job-openings"
+  },
+  {
+    "company_name": "Horizon3.ai",
+    "career_page_url": "https://jobs.ashbyhq.com/horizon3ai",
+    "website": "",
+    "domain_hint": "horizon3.ai",
+    "ats_type": "ashby",
+    "board_token": "horizon3ai",
+    "slug": "horizon3ai",
+    "jobs_found": 103,
+    "source_platform": "chsr",
+    "chsr_url": "https://www.horizon3.ai/join-our-team/"
   }
 ]

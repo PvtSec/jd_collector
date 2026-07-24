@@ -498,5 +498,10 @@
     "company_name": "Stainless",
     "source_platform": "neuronfeed",
     "website": "https://www.stainless.com"
+  },
+  {
+    "company_name": "Moonshot AI",
+    "source_platform": "neuronfeed",
+    "website": "https://moonshot.cn"
   }
 ]

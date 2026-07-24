@@ -8,46 +8,6 @@
     "source_platform": "topstartups.io"
   },
   {
-    "company_name": "Oliimpe",
-    "career_page_url": "",
-    "website": "https://oliimpe.com/",
-    "domain_hint": "Artificial Intelligence / LegalTech",
-    "ats_type": "unknown",
-    "source_platform": "topstartups.io"
-  },
-  {
-    "company_name": "Opal Security",
-    "career_page_url": "",
-    "website": "https://opal.dev/",
-    "domain_hint": "Enterprise Software / Cybersecurity",
-    "ats_type": "unknown",
-    "source_platform": "topstartups.io"
-  },
-  {
-    "company_name": "Joy",
-    "career_page_url": "",
-    "website": "https://sasjoy.com/",
-    "domain_hint": "Artificial Intelligence / SaaS",
-    "ats_type": "unknown",
-    "source_platform": "topstartups.io"
-  },
-  {
-    "company_name": "Agentplace",
-    "career_page_url": "",
-    "website": "https://agentplace.io/",
-    "domain_hint": "Artificial Intelligence / SaaS",
-    "ats_type": "unknown",
-    "source_platform": "topstartups.io"
-  },
-  {
-    "company_name": "Doppel",
-    "career_page_url": "",
-    "website": "https://www.doppel.com/",
-    "domain_hint": "Artificial Intelligence / Cybersecurity",
-    "ats_type": "unknown",
-    "source_platform": "topstartups.io"
-  },
-  {
     "company_name": "Lorikeet",
     "career_page_url": "",
     "website": "https://www.lorikeetcx.ai/",
@@ -64,10 +24,26 @@
     "source_platform": "topstartups.io"
   },
   {
-    "company_name": "Omnea",
+    "company_name": "Opal Security",
     "career_page_url": "",
-    "website": "https://www.omnea.co/",
-    "domain_hint": "Artificial Intelligence / Enterprise Software",
+    "website": "https://opal.dev/",
+    "domain_hint": "Enterprise Software / Cybersecurity",
+    "ats_type": "unknown",
+    "source_platform": "topstartups.io"
+  },
+  {
+    "company_name": "Traba",
+    "career_page_url": "",
+    "website": "https://traba.work/",
+    "domain_hint": "Marketplace / Supply Chain / Artificial Intelligence",
+    "ats_type": "unknown",
+    "source_platform": "topstartups.io"
+  },
+  {
+    "company_name": "Capconvert",
+    "career_page_url": "",
+    "website": "https://www.capconvert.com/",
+    "domain_hint": "Artificial Intelligence",
     "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
@@ -76,6 +52,30 @@
     "career_page_url": "",
     "website": "https://www.adaptivesecurity.com/",
     "domain_hint": "Artificial Intelligence / Cybersecurity / Enterprise Software",
+    "ats_type": "unknown",
+    "source_platform": "topstartups.io"
+  },
+  {
+    "company_name": "Amigo",
+    "career_page_url": "",
+    "website": "https://www.amigo.ai/",
+    "domain_hint": "Artificial Intelligence / Enterprise Software / Healthcare",
+    "ats_type": "unknown",
+    "source_platform": "topstartups.io"
+  },
+  {
+    "company_name": "Omnea",
+    "career_page_url": "",
+    "website": "https://www.omnea.co/",
+    "domain_hint": "Artificial Intelligence / Enterprise Software",
+    "ats_type": "unknown",
+    "source_platform": "topstartups.io"
+  },
+  {
+    "company_name": "Doppel",
+    "career_page_url": "",
+    "website": "https://www.doppel.com/",
+    "domain_hint": "Artificial Intelligence / Cybersecurity",
     "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
@@ -97,10 +97,10 @@
   },
   {
     "company_name": "Ambience Healthcare",
-    "career_page_url": "https://jobs.ashbyhq.com/ambiencehealthcare",
+    "career_page_url": "",
     "website": "https://www.ambiencehealthcare.com/",
     "domain_hint": "Artificial Intelligence / Healthcare",
-    "ats_type": "ashby",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -137,10 +137,10 @@
   },
   {
     "company_name": "OpenRouter",
-    "career_page_url": "https://jobs.ashbyhq.com/openrouter",
+    "career_page_url": "",
     "website": "https://openrouter.ai/",
     "domain_hint": "Artificial Intelligence",
-    "ats_type": "ashby",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -161,10 +161,10 @@
   },
   {
     "company_name": "Anduril Industries",
-    "career_page_url": "https://boards.greenhouse.io/andurilindustries",
+    "career_page_url": "",
     "website": "http://www.anduril.com/",
     "domain_hint": "Hardware / Space / Military",
-    "ats_type": "greenhouse",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -185,10 +185,10 @@
   },
   {
     "company_name": "ClickHouse",
-    "career_page_url": "https://boards.greenhouse.io/clickhouse",
+    "career_page_url": "",
     "website": "https://clickhouse.com/",
     "domain_hint": "SaaS / Analytics / Enterprise Software",
-    "ats_type": "greenhouse",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -209,10 +209,10 @@
   },
   {
     "company_name": "Applied Intuition",
-    "career_page_url": "https://boards.greenhouse.io/appliedintuition",
+    "career_page_url": "",
     "website": "https://www.appliedintuition.com/",
     "domain_hint": "Enterprise Software / Autonomous Vehicles",
-    "ats_type": "greenhouse",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -241,18 +241,18 @@
   },
   {
     "company_name": "Chainguard",
-    "career_page_url": "https://boards.greenhouse.io/chainguard",
+    "career_page_url": "",
     "website": "https://www.chainguard.dev/",
     "domain_hint": "Cybersecurity / Enterprise Software",
-    "ats_type": "greenhouse",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
     "company_name": "Glean",
-    "career_page_url": "https://boards.greenhouse.io/gleanwork",
+    "career_page_url": "",
     "website": "https://www.glean.com/",
     "domain_hint": "Enterprise Software / SaaS / Artificial Intelligence",
-    "ats_type": "greenhouse",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -273,10 +273,10 @@
   },
   {
     "company_name": "Base Power",
-    "career_page_url": "https://boards.greenhouse.io/basepowercompany",
+    "career_page_url": "",
     "website": "https://www.basepowercompany.com/",
     "domain_hint": "Hardware",
-    "ats_type": "greenhouse",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -313,17 +313,9 @@
   },
   {
     "company_name": "BuildOps",
-    "career_page_url": "https://buildops.com/careers/job-application",
+    "career_page_url": "",
     "website": "https://buildops.com/",
     "domain_hint": "SaaS / Enterprise Software",
-    "ats_type": "unknown",
-    "source_platform": "topstartups.io"
-  },
-  {
-    "company_name": "Graphite",
-    "career_page_url": "",
-    "website": "https://graphite.dev/",
-    "domain_hint": "Artificial Intelligence / SaaS / Enterprise Software",
     "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
@@ -345,7 +337,7 @@
   },
   {
     "company_name": "Aura",
-    "career_page_url": "https://ats.comparably.com/api/v2/aura-protects/post/5474562004",
+    "career_page_url": "",
     "website": "http://www.aura.com/",
     "domain_hint": "Cybersecurity / SaaS",
     "ats_type": "unknown",
@@ -369,18 +361,18 @@
   },
   {
     "company_name": "Sardine",
-    "career_page_url": "https://jobs.ashbyhq.com/sardine",
+    "career_page_url": "",
     "website": "https://www.sardine.ai",
     "domain_hint": "FinTech",
-    "ats_type": "ashby",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
     "company_name": "Saronic",
-    "career_page_url": "https://jobs.lever.co/saronic",
+    "career_page_url": "",
     "website": "https://www.saronic.com/",
     "domain_hint": "Hardware / Defense",
-    "ats_type": "lever",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -409,18 +401,18 @@
   },
   {
     "company_name": "Clay",
-    "career_page_url": "",
+    "career_page_url": "https://jobs.ashbyhq.com/claylabs",
     "website": "https://www.clay.com/",
     "domain_hint": "Artificial Intelligence / SaaS / Enterprise Software",
-    "ats_type": "unknown",
+    "ats_type": "ashby",
     "source_platform": "topstartups.io"
   },
   {
     "company_name": "Rad AI",
-    "career_page_url": "https://jobs.ashbyhq.com/radai",
+    "career_page_url": "",
     "website": "https://www.radai.com/",
     "domain_hint": "Healthcare / Artificial Intelligence",
-    "ats_type": "ashby",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -433,18 +425,18 @@
   },
   {
     "company_name": "HighTouch.io",
-    "career_page_url": "https://boards.greenhouse.io/hightouch",
+    "career_page_url": "",
     "website": "http://www.hightouch.io/",
     "domain_hint": "Marketing / Enterprise Software / SaaS / Sales",
-    "ats_type": "greenhouse",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
     "company_name": "Qventus",
-    "career_page_url": "https://jobs.ashbyhq.com/qventus",
+    "career_page_url": "",
     "website": "http://www.qventus.com/",
     "domain_hint": "Predictive Analytics / Healthcare",
-    "ats_type": "ashby",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -457,10 +449,10 @@
   },
   {
     "company_name": "Persona",
-    "career_page_url": "https://jobs.lever.co/persona",
+    "career_page_url": "",
     "website": "http://withpersona.com/",
     "domain_hint": "SaaS / Compliance / Fraud Detection / Enterprise Software",
-    "ats_type": "lever",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -481,15 +473,15 @@
   },
   {
     "company_name": "Speak",
-    "career_page_url": "",
+    "career_page_url": "https://jobs.ashbyhq.com/speak",
     "website": "https://www.speak.com/",
     "domain_hint": "SaaS / Consumer / Artificial Intelligence",
-    "ats_type": "unknown",
+    "ats_type": "ashby",
     "source_platform": "topstartups.io"
   },
   {
     "company_name": "Databricks",
-    "career_page_url": "https://databricks.com/company/careers/open-positions/job",
+    "career_page_url": "",
     "website": "http://databricks.com/",
     "domain_hint": "Artificial Intelligence / SaaS / Analytics / Data Science",
     "ats_type": "unknown",
@@ -521,10 +513,10 @@
   },
   {
     "company_name": "Kong",
-    "career_page_url": "https://jobs.lever.co/kong",
+    "career_page_url": "",
     "website": "https://konghq.com/",
     "domain_hint": "Enterprise Software / SaaS",
-    "ats_type": "lever",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -681,10 +673,10 @@
   },
   {
     "company_name": "Story Protocol",
-    "career_page_url": "https://jobs.lever.co/storyprotocol",
+    "career_page_url": "",
     "website": "https://www.story.foundation/",
     "domain_hint": "Crypto",
-    "ats_type": "lever",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -705,10 +697,10 @@
   },
   {
     "company_name": "Ema",
-    "career_page_url": "https://jobs.ashbyhq.com/ema",
+    "career_page_url": "",
     "website": "https://www.ema.co/",
     "domain_hint": "Artificial Intelligence / Enterprise Software",
-    "ats_type": "ashby",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -745,10 +737,10 @@
   },
   {
     "company_name": "Coast",
-    "career_page_url": "https://boards.greenhouse.io/coast",
+    "career_page_url": "",
     "website": "https://coastpay.com/",
     "domain_hint": "FinTech",
-    "ats_type": "greenhouse",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -769,10 +761,10 @@
   },
   {
     "company_name": "Huntress",
-    "career_page_url": "https://boards.greenhouse.io/huntress",
+    "career_page_url": "",
     "website": "https://www.huntress.com/",
     "domain_hint": "Cybersecurity / Enterprise Software / SaaS",
-    "ats_type": "greenhouse",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -785,10 +777,10 @@
   },
   {
     "company_name": "xAI",
-    "career_page_url": "https://boards.greenhouse.io/xai",
+    "career_page_url": "",
     "website": "https://x.ai/",
     "domain_hint": "Artificial Intelligence",
-    "ats_type": "greenhouse",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -801,18 +793,18 @@
   },
   {
     "company_name": "Fieldguide",
-    "career_page_url": "https://jobs.ashbyhq.com/fieldguide",
+    "career_page_url": "",
     "website": "https://www.fieldguide.io/",
     "domain_hint": "Artificial Intelligence / Enterprise Software",
-    "ats_type": "ashby",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
     "company_name": "Together",
-    "career_page_url": "https://boards.greenhouse.io/togetherai",
+    "career_page_url": "",
     "website": "https://www.together.ai/",
     "domain_hint": "Artificial Intelligence",
-    "ats_type": "greenhouse",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -881,10 +873,10 @@
   },
   {
     "company_name": "Corelight",
-    "career_page_url": "https://boards.greenhouse.io/corelight",
+    "career_page_url": "",
     "website": "http://www.corelight.com/",
     "domain_hint": "Cybersecurity / Enterprise Software",
-    "ats_type": "greenhouse",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -929,15 +921,15 @@
   },
   {
     "company_name": "Watershed",
-    "career_page_url": "https://boards.greenhouse.io/watershedclimate",
+    "career_page_url": "",
     "website": "https://watershedclimate.com",
     "domain_hint": "Sustainability / Enterprise Software",
-    "ats_type": "greenhouse",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
     "company_name": "Instawork",
-    "career_page_url": "https://info.instawork.com/careers",
+    "career_page_url": "",
     "website": "http://www.instawork.com",
     "domain_hint": "Recruiting / Artificial Intelligence",
     "ats_type": "unknown",
@@ -969,10 +961,10 @@
   },
   {
     "company_name": "Zum",
-    "career_page_url": "https://jobs.lever.co/ridezum",
+    "career_page_url": "",
     "website": "http://ridezum.com",
     "domain_hint": "Transportation / Ride Sharing / Child Care",
-    "ats_type": "lever",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -1001,18 +993,18 @@
   },
   {
     "company_name": "Air Space Intelligence",
-    "career_page_url": "https://jobs.ashbyhq.com/airspace-intelligence.com",
+    "career_page_url": "",
     "website": "https://www.airspace-intelligence.com/",
     "domain_hint": "Artificial Intelligence / Space / Defense",
-    "ats_type": "ashby",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
     "company_name": "Mistral AI",
-    "career_page_url": "https://jobs.lever.co/mistral",
+    "career_page_url": "",
     "website": "https://mistral.ai/",
     "domain_hint": "Artificial Intelligence",
-    "ats_type": "lever",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -1057,7 +1049,7 @@
   },
   {
     "company_name": "Synthesia",
-    "career_page_url": "https://boards.eu.greenhouse.io/synthesia/jobs/4346036101",
+    "career_page_url": "",
     "website": "http://www.synthesia.io/",
     "domain_hint": "SaaS / Artificial Intelligence / Videos",
     "ats_type": "unknown",
@@ -1129,10 +1121,10 @@
   },
   {
     "company_name": "Clerk",
-    "career_page_url": "https://jobs.ashbyhq.com/clerk",
+    "career_page_url": "",
     "website": "https://clerk.dev",
     "domain_hint": "SaaS / Developer Tools / Enterprise Software",
-    "ats_type": "ashby",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -1161,7 +1153,7 @@
   },
   {
     "company_name": "Skydio",
-    "career_page_url": "https://www.skydio.com/jobs/6126108003",
+    "career_page_url": "",
     "website": "http://www.skydio.com/",
     "domain_hint": "Space / Drones / Hardware",
     "ats_type": "unknown",
@@ -1169,7 +1161,7 @@
   },
   {
     "company_name": "Wiz",
-    "career_page_url": "https://www.wiz.io/careers/job/4650182006/:title",
+    "career_page_url": "https://www.wiz.io/careers/job/4645081006/:title",
     "website": "https://wiz.io/",
     "domain_hint": "Enterprise Software / Cybersecurity",
     "ats_type": "unknown",
@@ -1337,10 +1329,10 @@
   },
   {
     "company_name": "Second Front Systems",
-    "career_page_url": "https://jobs.lever.co/secondfrontsystems",
+    "career_page_url": "",
     "website": "https://www.secondfront.com/",
     "domain_hint": "SaaS / National Security",
-    "ats_type": "lever",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -1433,7 +1425,7 @@
   },
   {
     "company_name": "TRM Labs",
-    "career_page_url": "https://www.trmlabs.com/careers-list",
+    "career_page_url": "",
     "website": "http://trmlabs.com/",
     "domain_hint": "Cybersecurity / Fraud Detection / FinTech / Crypto",
     "ats_type": "unknown",
@@ -1481,7 +1473,7 @@
   },
   {
     "company_name": "TripActions",
-    "career_page_url": "https://navan.com/careers/openings",
+    "career_page_url": "",
     "website": "http://tripactions.com/",
     "domain_hint": "Business Travel / Enterprise Software",
     "ats_type": "unknown",
@@ -1521,10 +1513,10 @@
   },
   {
     "company_name": "Workstream",
-    "career_page_url": "https://boards.greenhouse.io/workstream",
+    "career_page_url": "",
     "website": "http://www.workstream.us/",
     "domain_hint": "SaaS / Recruiting",
-    "ats_type": "greenhouse",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -1537,10 +1529,10 @@
   },
   {
     "company_name": "GlossGenius",
-    "career_page_url": "https://boards.greenhouse.io/glossgenius",
+    "career_page_url": "",
     "website": "https://www.glossgenius.com/",
     "domain_hint": "SaaS / SMB",
-    "ats_type": "greenhouse",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -1593,10 +1585,10 @@
   },
   {
     "company_name": "Carbyne",
-    "career_page_url": "https://apply.workable.com/carbyne-1",
+    "career_page_url": "",
     "website": "https://carbyne.com/",
     "domain_hint": "Software / Public Safety / Communication",
-    "ats_type": "workable",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -1633,7 +1625,7 @@
   },
   {
     "company_name": "Alloy",
-    "career_page_url": "https://www.alloy.com/about/jobs/detail",
+    "career_page_url": "",
     "website": "https://www.alloy.com/",
     "domain_hint": "SaaS / Identity / Fraud Detection / FinTech",
     "ats_type": "unknown",
@@ -1649,10 +1641,10 @@
   },
   {
     "company_name": "Celonis",
-    "career_page_url": "https://boards.greenhouse.io/celonis",
+    "career_page_url": "",
     "website": "https://www.celonis.com/",
     "domain_hint": "Analytics / Business Intelligence / SaaS / Enterprise Software",
-    "ats_type": "greenhouse",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -1697,10 +1689,10 @@
   },
   {
     "company_name": "Aisera",
-    "career_page_url": "https://boards.greenhouse.io/aiserajobs",
+    "career_page_url": "",
     "website": "http://aisera.com/",
     "domain_hint": "Artificial Intelligence / Sales Automation",
-    "ats_type": "greenhouse",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -1721,10 +1713,10 @@
   },
   {
     "company_name": "Retool",
-    "career_page_url": "https://boards.greenhouse.io/retool",
+    "career_page_url": "",
     "website": "http://retool.com/",
     "domain_hint": "SaaS / Developer Tools / Enterprise Software",
-    "ats_type": "greenhouse",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -1737,10 +1729,10 @@
   },
   {
     "company_name": "Whatnot",
-    "career_page_url": "https://boards.greenhouse.io/whatnot",
+    "career_page_url": "",
     "website": "http://www.whatnot.com/",
     "domain_hint": "E-Commerce / Marketplaces / Consumer",
-    "ats_type": "greenhouse",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -1793,10 +1785,10 @@
   },
   {
     "company_name": "Pave",
-    "career_page_url": "https://boards.greenhouse.io/paveakatroveinformationtechnologies",
+    "career_page_url": "",
     "website": "http://pave.com",
     "domain_hint": "Human Resources / Compensation / Enterprise Software",
-    "ats_type": "greenhouse",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -1841,7 +1833,7 @@
   },
   {
     "company_name": "Invoca",
-    "career_page_url": "https://www.invoca.com/company/job-listings/",
+    "career_page_url": "",
     "website": "http://www.Invoca.com/",
     "domain_hint": "Advertising / Marketing Automation / Enterprise Software",
     "ats_type": "unknown",
@@ -1921,7 +1913,7 @@
   },
   {
     "company_name": "Cribl",
-    "career_page_url": "https://cribl.io/job-detail/",
+    "career_page_url": "",
     "website": "http://cribl.io/",
     "domain_hint": "Analytics / Data Science / Enterprise Software",
     "ats_type": "unknown",
@@ -1929,10 +1921,10 @@
   },
   {
     "company_name": "Nomagic",
-    "career_page_url": "",
+    "career_page_url": "https://jobs.lever.co/Nomagic",
     "website": "http://nomagic.ai/",
     "domain_hint": "Hardware / Robotics / Logistics",
-    "ats_type": "unknown",
+    "ats_type": "lever",
     "source_platform": "topstartups.io"
   },
   {
@@ -1945,10 +1937,10 @@
   },
   {
     "company_name": "SpotOn",
-    "career_page_url": "https://boards.greenhouse.io/spotonproduct",
+    "career_page_url": "",
     "website": "http://www.spoton.com/",
     "domain_hint": "FinTech / Payments / Point of Sale",
-    "ats_type": "greenhouse",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -2057,26 +2049,26 @@
   },
   {
     "company_name": "Fictiv",
-    "career_page_url": "https://boards.greenhouse.io/fictiv",
+    "career_page_url": "",
     "website": "http://www.fictiv.com",
     "domain_hint": "Hardware / Manufacturing / Printing / 3D Tech",
-    "ats_type": "greenhouse",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
     "company_name": "Sentry",
-    "career_page_url": "https://boards.greenhouse.io/sentry",
+    "career_page_url": "",
     "website": "http://getsentry.com",
     "domain_hint": "Enterprise Software / SaaS / Analytics",
-    "ats_type": "greenhouse",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
     "company_name": "Teleport",
-    "career_page_url": "https://jobs.lever.co/teleport",
+    "career_page_url": "",
     "website": "https://goteleport.com/",
     "domain_hint": "Cloud Infrastructure / Developer Tools / Cybersecurity",
-    "ats_type": "lever",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -2209,7 +2201,7 @@
   },
   {
     "company_name": "Viz",
-    "career_page_url": "https://www.viz.ai/jobs/",
+    "career_page_url": "",
     "website": "https://www.viz.ai/",
     "domain_hint": "Artificial Intelligence / Healthcare",
     "ats_type": "unknown",
@@ -2225,18 +2217,18 @@
   },
   {
     "company_name": "Lilt",
-    "career_page_url": "https://jobs.ashbyhq.com/lilt",
+    "career_page_url": "",
     "website": "http://www.lilt.com",
     "domain_hint": "Artificial Intelligence / Enterprise Software",
-    "ats_type": "ashby",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
     "company_name": "Sky Mavis",
-    "career_page_url": "https://apply.workable.com/sky-mavis",
+    "career_page_url": "",
     "website": "http://www.skymavis.com/",
     "domain_hint": "Gaming / Crypto / Blockchain",
-    "ats_type": "workable",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -2321,10 +2313,10 @@
   },
   {
     "company_name": "Jeeves",
-    "career_page_url": "https://jobs.lever.co/tryjeeves",
+    "career_page_url": "",
     "website": "https://www.tryjeeves.com/",
     "domain_hint": "FinTech / Enterprise Software",
-    "ats_type": "lever",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -2345,7 +2337,7 @@
   },
   {
     "company_name": "CAPITOLIS",
-    "career_page_url": "https://capitolis.com/careers/job/",
+    "career_page_url": "",
     "website": "http://www.capitolis.com/",
     "domain_hint": "FinTech",
     "ats_type": "unknown",
@@ -2369,7 +2361,7 @@
   },
   {
     "company_name": "Getir",
-    "career_page_url": "https://boards.eu.greenhouse.io/getir/jobs/4250368101",
+    "career_page_url": "",
     "website": "http://getir.com",
     "domain_hint": "Delivery / Grocery",
     "ats_type": "unknown",
@@ -2377,10 +2369,10 @@
   },
   {
     "company_name": "Webflow",
-    "career_page_url": "https://boards.greenhouse.io/webflow",
+    "career_page_url": "",
     "website": "http://webflow.com",
     "domain_hint": "Consumer / Web Development / SaaS",
-    "ats_type": "greenhouse",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -2401,10 +2393,10 @@
   },
   {
     "company_name": "SmithRx",
-    "career_page_url": "https://boards.greenhouse.io/smithrx",
+    "career_page_url": "",
     "website": "http://smithrx.com",
     "domain_hint": "Healthcare",
-    "ats_type": "greenhouse",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -2417,10 +2409,10 @@
   },
   {
     "company_name": "Hermeus",
-    "career_page_url": "https://jobs.lever.co/hermeus",
+    "career_page_url": "",
     "website": "http://www.hermeus.com/",
     "domain_hint": "Travel / Space / Hardware",
-    "ats_type": "lever",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -2457,10 +2449,10 @@
   },
   {
     "company_name": "BillionToOne",
-    "career_page_url": "https://boards.greenhouse.io/billiontoone",
+    "career_page_url": "",
     "website": "http://www.billiontoone.com/",
     "domain_hint": "Healthcare / Medical / Biotech",
-    "ats_type": "greenhouse",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -2521,10 +2513,10 @@
   },
   {
     "company_name": "dbt Labs",
-    "career_page_url": "https://boards.greenhouse.io/dbtlabsinc",
+    "career_page_url": "",
     "website": "https://www.getdbt.com/",
     "domain_hint": "Software / Analytics / Data Science",
-    "ats_type": "greenhouse",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -2593,10 +2585,10 @@
   },
   {
     "company_name": "Branch",
-    "career_page_url": "https://boards.greenhouse.io/branch",
+    "career_page_url": "",
     "website": "https://branch.io/",
     "domain_hint": "SaaS / Mobile App Marketing",
-    "ats_type": "greenhouse",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -2617,10 +2609,10 @@
   },
   {
     "company_name": "Starburst Data",
-    "career_page_url": "https://jobs.lever.co/starburstdata",
+    "career_page_url": "",
     "website": "http://www.starburstdata.com/",
     "domain_hint": "Software / Analytics / Data Science",
-    "ats_type": "lever",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -2633,10 +2625,10 @@
   },
   {
     "company_name": "Flexport",
-    "career_page_url": "https://boards.greenhouse.io/flexport",
+    "career_page_url": "",
     "website": "http://Flexport.com",
     "domain_hint": "Logistics / E-Commerce / Freight / Supply Chain",
-    "ats_type": "greenhouse",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -2705,10 +2697,10 @@
   },
   {
     "company_name": "Phantom",
-    "career_page_url": "https://boards.greenhouse.io/phantom45",
+    "career_page_url": "",
     "website": "https://phantom.app/",
     "domain_hint": "Crypto",
-    "ats_type": "greenhouse",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -2729,10 +2721,10 @@
   },
   {
     "company_name": "CoinTracker",
-    "career_page_url": "https://jobs.ashbyhq.com/cointracker",
+    "career_page_url": "",
     "website": "http://www.cointracker.io",
     "domain_hint": "FinTech / Crypto",
-    "ats_type": "ashby",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -2753,7 +2745,7 @@
   },
   {
     "company_name": "Veriff",
-    "career_page_url": "https://www.veriff.com/careers/position/8469476002",
+    "career_page_url": "",
     "website": "http://veriff.me/",
     "domain_hint": "Artificial Intelligence / Cybersecurity / Identity",
     "ats_type": "unknown",
@@ -2769,10 +2761,10 @@
   },
   {
     "company_name": "CaptivateIQ",
-    "career_page_url": "https://jobs.lever.co/captivateiq",
+    "career_page_url": "",
     "website": "http://www.captivateiq.com/",
     "domain_hint": "Sales / Enterprise Software",
-    "ats_type": "lever",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -2801,10 +2793,10 @@
   },
   {
     "company_name": "1Password",
-    "career_page_url": "https://jobs.lever.co/1password",
+    "career_page_url": "",
     "website": "https://1password.com/",
     "domain_hint": "SaaS / Cybersecurity / Enterprise Software",
-    "ats_type": "lever",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -2857,7 +2849,7 @@
   },
   {
     "company_name": "Lattice",
-    "career_page_url": "https://lattice.com/job",
+    "career_page_url": "",
     "website": "http://lattice.com",
     "domain_hint": "SaaS / Enterprise Software",
     "ats_type": "unknown",
@@ -2865,10 +2857,10 @@
   },
   {
     "company_name": "Clari",
-    "career_page_url": "https://jobs.lever.co/clari",
+    "career_page_url": "",
     "website": "http://www.clari.com/",
     "domain_hint": "Enterprise Software / Analytics / Sales Tools",
-    "ats_type": "lever",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -2921,10 +2913,10 @@
   },
   {
     "company_name": "Envoy",
-    "career_page_url": "https://boards.greenhouse.io/envoy",
+    "career_page_url": "",
     "website": "http://envoy.com",
     "domain_hint": "SaaS / Enterprise Software / Office Administration",
-    "ats_type": "greenhouse",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -2985,7 +2977,7 @@
   },
   {
     "company_name": "BigPanda",
-    "career_page_url": "https://www.bigpanda.io/jobs/",
+    "career_page_url": "",
     "website": "http://www.bigpanda.io",
     "domain_hint": "SaaS / IT / Developer Tools",
     "ats_type": "unknown",
@@ -3001,10 +2993,10 @@
   },
   {
     "company_name": "HyperScience",
-    "career_page_url": "https://jobs.lever.co/hyperscience",
+    "career_page_url": "",
     "website": "http://www.hyperscience.com/",
     "domain_hint": "Artificial Intelligence / Enterprise Software",
-    "ats_type": "lever",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -3057,15 +3049,15 @@
   },
   {
     "company_name": "Nansen",
-    "career_page_url": "https://boards.greenhouse.io/nansen",
+    "career_page_url": "",
     "website": "http://www.nansen.ai/",
     "domain_hint": "Analytics / Crypto / Blockchain",
-    "ats_type": "greenhouse",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
     "company_name": "Cockroach Labs",
-    "career_page_url": "https://www.cockroachlabs.com/careers/job/",
+    "career_page_url": "",
     "website": "http://www.cockroachlabs.com",
     "domain_hint": "Enterprise Software / Databases",
     "ats_type": "unknown",
@@ -3089,10 +3081,10 @@
   },
   {
     "company_name": "Sysdig",
-    "career_page_url": "https://jobs.lever.co/sysdig",
+    "career_page_url": "",
     "website": "http://www.sysdig.com",
     "domain_hint": "Cloud Computing / Software / Open Source",
-    "ats_type": "lever",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -3201,10 +3193,10 @@
   },
   {
     "company_name": "Monzo",
-    "career_page_url": "https://boards.greenhouse.io/monzo",
+    "career_page_url": "",
     "website": "http://www.monzo.com",
     "domain_hint": "FinTech / Banking",
-    "ats_type": "greenhouse",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -3217,10 +3209,10 @@
   },
   {
     "company_name": "Torq",
-    "career_page_url": "https://boards.greenhouse.io/torq",
+    "career_page_url": "",
     "website": "https://torq.io/",
     "domain_hint": "Cybersecurity / No-Code / SaaS",
-    "ats_type": "greenhouse",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -3241,10 +3233,10 @@
   },
   {
     "company_name": "Mezmo (fka LogDNA)",
-    "career_page_url": "https://boards.greenhouse.io/mezmo",
+    "career_page_url": "",
     "website": "https://www.mezmo.com/",
     "domain_hint": "Cloud Computing / Enterprise Software",
-    "ats_type": "greenhouse",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -3265,18 +3257,18 @@
   },
   {
     "company_name": "SnapLogic",
-    "career_page_url": "https://jobs.lever.co/snaplogic",
+    "career_page_url": "",
     "website": "http://www.snaplogic.com",
     "domain_hint": "Enterprise Software / SaaS",
-    "ats_type": "lever",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
     "company_name": "Commonwealth Fusion",
-    "career_page_url": "https://jobs.lever.co/cfsenergy",
+    "career_page_url": "",
     "website": "http://www.cfs.energy/",
     "domain_hint": "Sustainability / Renewable Energies",
-    "ats_type": "lever",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -3305,10 +3297,10 @@
   },
   {
     "company_name": "Quince",
-    "career_page_url": "https://jobs.lever.co/quince",
+    "career_page_url": "",
     "website": "https://www.onequince.com/",
     "domain_hint": "E-Commerce",
-    "ats_type": "lever",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -3377,10 +3369,10 @@
   },
   {
     "company_name": "Conduktor",
-    "career_page_url": "https://jobs.lever.co/conduktor",
+    "career_page_url": "",
     "website": "https://www.conduktor.io/",
     "domain_hint": "SaaS / Enterprise Software / Developer Tools",
-    "ats_type": "lever",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -3393,10 +3385,10 @@
   },
   {
     "company_name": "SWORD Health",
-    "career_page_url": "https://jobs.lever.co/swordhealth",
+    "career_page_url": "",
     "website": "http://www.swordhealth.com/",
     "domain_hint": "Healthcare / Medical",
-    "ats_type": "lever",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -3465,10 +3457,10 @@
   },
   {
     "company_name": "Benchling",
-    "career_page_url": "https://boards.greenhouse.io/benchling",
+    "career_page_url": "",
     "website": "http://www.benchling.com",
     "domain_hint": "Healthcare / Biotech",
-    "ats_type": "greenhouse",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -3489,10 +3481,10 @@
   },
   {
     "company_name": "Luxury Presence",
-    "career_page_url": "https://jobs.lever.co/luxurypresence",
+    "career_page_url": "",
     "website": "http://www.luxurypresence.com/",
     "domain_hint": "Sales and Marketing / Real Estate",
-    "ats_type": "lever",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -3505,10 +3497,10 @@
   },
   {
     "company_name": "Podium",
-    "career_page_url": "https://boards.greenhouse.io/podium81",
+    "career_page_url": "",
     "website": "http://www.podium.com/",
     "domain_hint": "Messaging / Customer Service / Enterprise Software",
-    "ats_type": "greenhouse",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -3537,18 +3529,18 @@
   },
   {
     "company_name": "Density",
-    "career_page_url": "https://boards.greenhouse.io/density",
+    "career_page_url": "",
     "website": "http://www.density.io/",
     "domain_hint": "Analytics / Sensor / Enterprise Software",
-    "ats_type": "greenhouse",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
     "company_name": "Wrapbook",
-    "career_page_url": "https://jobs.ashbyhq.com/wrapbook",
+    "career_page_url": "",
     "website": "http://www.wrapbook.com/",
     "domain_hint": "FinTech",
-    "ats_type": "ashby",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -3745,10 +3737,10 @@
   },
   {
     "company_name": "Deel",
-    "career_page_url": "https://jobs.ashbyhq.com/Deel",
+    "career_page_url": "",
     "website": "http://www.letsdeel.com/",
     "domain_hint": "FinTech / Human Resources / Enterprise Software",
-    "ats_type": "ashby",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -3889,10 +3881,10 @@
   },
   {
     "company_name": "GoCardless",
-    "career_page_url": "https://boards.greenhouse.io/gocardless",
+    "career_page_url": "",
     "website": "http://www.gocardless.com",
     "domain_hint": "Payments / FinTech",
-    "ats_type": "greenhouse",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -3905,10 +3897,10 @@
   },
   {
     "company_name": "WorkRamp",
-    "career_page_url": "https://jobs.lever.co/workramp",
+    "career_page_url": "",
     "website": "http://www.workramp.com",
     "domain_hint": "EdTech / Training / Enterprise Software",
-    "ats_type": "lever",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -3937,10 +3929,10 @@
   },
   {
     "company_name": "May Mobility",
-    "career_page_url": "",
+    "career_page_url": "https://boards.greenhouse.io/maymobility",
     "website": "http://maymobility.com",
     "domain_hint": "Transportation / Hardware / Autonomous Vehicles",
-    "ats_type": "unknown",
+    "ats_type": "greenhouse",
     "source_platform": "topstartups.io"
   },
   {
@@ -4001,10 +3993,10 @@
   },
   {
     "company_name": "Notion",
-    "career_page_url": "https://boards.greenhouse.io/notion",
+    "career_page_url": "",
     "website": "http://www.notion.so/",
     "domain_hint": "SaaS / Enterprise Software / Collaboration",
-    "ats_type": "greenhouse",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -4329,7 +4321,7 @@
   },
   {
     "company_name": "PicsArt",
-    "career_page_url": "https://picsart.com/job/5403593004",
+    "career_page_url": "",
     "website": "http://www.picsart.com",
     "domain_hint": "Consumer Social / Photography / Media",
     "ats_type": "unknown",
@@ -4401,10 +4393,10 @@
   },
   {
     "company_name": "Carta",
-    "career_page_url": "https://boards.greenhouse.io/carta",
+    "career_page_url": "",
     "website": "http://carta.com/",
     "domain_hint": "FinTech / Equity / Enterprise Software / SaaS",
-    "ats_type": "greenhouse",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -4425,7 +4417,7 @@
   },
   {
     "company_name": "Moveworks",
-    "career_page_url": "https://www.moveworks.com/us/en/company/careers/position",
+    "career_page_url": "",
     "website": "http://www.moveworks.com/",
     "domain_hint": "Cloud Computing / Artificial Intelligence",
     "ats_type": "unknown",
@@ -4633,10 +4625,10 @@
   },
   {
     "company_name": "Circle",
-    "career_page_url": "https://boards.greenhouse.io/circle",
+    "career_page_url": "",
     "website": "http://circle.com",
     "domain_hint": "FinTech / Crypto / Banking",
-    "ats_type": "greenhouse",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -4809,10 +4801,10 @@
   },
   {
     "company_name": "Checkr",
-    "career_page_url": "https://boards.greenhouse.io/checkr",
+    "career_page_url": "",
     "website": "http://www.checkr.io",
     "domain_hint": "Legal / Compliance / Enterprise Software / SaaS",
-    "ats_type": "greenhouse",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -4881,10 +4873,10 @@
   },
   {
     "company_name": "Roofr",
-    "career_page_url": "https://boards.greenhouse.io/roofr",
+    "career_page_url": "",
     "website": "http://roofr.com/",
     "domain_hint": "Renovation / Construction",
-    "ats_type": "greenhouse",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -4945,10 +4937,10 @@
   },
   {
     "company_name": "Squire",
-    "career_page_url": "https://jobs.lever.co/getsquire",
+    "career_page_url": "",
     "website": "http://getsquire.com",
     "domain_hint": "FinTech / Retail / Point of Sale / Booking",
-    "ats_type": "lever",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -5049,10 +5041,10 @@
   },
   {
     "company_name": "H1",
-    "career_page_url": "https://jobs.lever.co/h1",
+    "career_page_url": "",
     "website": "http://www.h1insights.com/",
     "domain_hint": "Healthcare / Collaboration",
-    "ats_type": "lever",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -5113,10 +5105,10 @@
   },
   {
     "company_name": "Gridware",
-    "career_page_url": "https://apply.workable.com/gridware",
+    "career_page_url": "",
     "website": "https://gridware.io/",
     "domain_hint": "Predictive Analytics / Energy",
-    "ats_type": "workable",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -5305,7 +5297,7 @@
   },
   {
     "company_name": "Circles.Life",
-    "career_page_url": "https://circles.co/careers",
+    "career_page_url": "",
     "website": "http://www.circles.life/",
     "domain_hint": "Telecommunications",
     "ats_type": "unknown",
@@ -5361,10 +5353,10 @@
   },
   {
     "company_name": "Scale AI",
-    "career_page_url": "https://boards.greenhouse.io/scaleai",
+    "career_page_url": "",
     "website": "http://scale.com",
     "domain_hint": "Developer APIs / Artificial Intelligence / Developer Tools",
-    "ats_type": "greenhouse",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -5481,7 +5473,7 @@
   },
   {
     "company_name": "HashiCorp",
-    "career_page_url": "https://www.hashicorp.com/career/7131939",
+    "career_page_url": "",
     "website": "http://www.hashicorp.com",
     "domain_hint": "Enterprise Software / Cloud Infrastructure",
     "ats_type": "unknown",
@@ -5553,7 +5545,7 @@
   },
   {
     "company_name": "Toast",
-    "career_page_url": "https://careers.toasttab.com/jobs",
+    "career_page_url": "",
     "website": "http://pos.toasttab.com",
     "domain_hint": "Software / Point of Sale / Restaurants",
     "ats_type": "unknown",
@@ -5561,10 +5553,10 @@
   },
   {
     "company_name": "Ada",
-    "career_page_url": "https://boards.greenhouse.io/ada18",
+    "career_page_url": "",
     "website": "http://www.ada.cx/",
     "domain_hint": "Artificial Intelligence / Customer Support / Chat",
-    "ats_type": "greenhouse",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -5593,10 +5585,10 @@
   },
   {
     "company_name": "BigID",
-    "career_page_url": "https://boards.greenhouse.io/bigid",
+    "career_page_url": "",
     "website": "http://www.bigid.com",
     "domain_hint": "Cybersecurity / Enterprise Software",
-    "ats_type": "greenhouse",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -5609,10 +5601,10 @@
   },
   {
     "company_name": "Melio",
-    "career_page_url": "https://boards.greenhouse.io/melio",
+    "career_page_url": "",
     "website": "http://www.meliopayments.com/",
     "domain_hint": "FinTech / Payments",
-    "ats_type": "greenhouse",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -5625,10 +5617,10 @@
   },
   {
     "company_name": "DroneDeploy",
-    "career_page_url": "https://jobs.lever.co/dronedeploy",
+    "career_page_url": "",
     "website": "http://www.dronedeploy.com",
     "domain_hint": "SaaS / Drones",
-    "ats_type": "lever",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -5689,10 +5681,10 @@
   },
   {
     "company_name": "MaintainX",
-    "career_page_url": "https://boards.greenhouse.io/maintainx",
+    "career_page_url": "",
     "website": "https://www.getmaintainx.com/",
     "domain_hint": "Software / Manufacturing",
-    "ats_type": "greenhouse",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -5729,7 +5721,7 @@
   },
   {
     "company_name": "Contentful",
-    "career_page_url": "https://www.contentful.com/careers/",
+    "career_page_url": "",
     "website": "http://www.contentful.com",
     "domain_hint": "SaaS / Content / Develop Tools",
     "ats_type": "unknown",
@@ -5745,10 +5737,10 @@
   },
   {
     "company_name": "Modern Treasury",
-    "career_page_url": "https://jobs.ashbyhq.com/moderntreasury",
+    "career_page_url": "",
     "website": "http://www.moderntreasury.com/",
     "domain_hint": "FinTech / Payments",
-    "ats_type": "ashby",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -5825,10 +5817,10 @@
   },
   {
     "company_name": "Gusto",
-    "career_page_url": "https://boards.greenhouse.io/gusto",
+    "career_page_url": "",
     "website": "http://www.gusto.com",
     "domain_hint": "SaaS / Enterprise Software / Human Resources",
-    "ats_type": "greenhouse",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -5921,10 +5913,10 @@
   },
   {
     "company_name": "Descript",
-    "career_page_url": "https://boards.greenhouse.io/descript",
+    "career_page_url": "",
     "website": "http://www.descript.com",
     "domain_hint": "Audio Editor / SaaS",
-    "ats_type": "greenhouse",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -6009,10 +6001,10 @@
   },
   {
     "company_name": "Komodo Health",
-    "career_page_url": "https://boards.greenhouse.io/komodohealth",
+    "career_page_url": "",
     "website": "http://www.komodohealth.com/",
     "domain_hint": "Healthcare / Analytics",
-    "ats_type": "greenhouse",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -6201,18 +6193,18 @@
   },
   {
     "company_name": "Blockstream",
-    "career_page_url": "https://boards.greenhouse.io/blockstream",
+    "career_page_url": "",
     "website": "http://www.blockstream.com",
     "domain_hint": "FinTech / Crypto",
-    "ats_type": "greenhouse",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
     "company_name": "SingleStore",
-    "career_page_url": "https://boards.greenhouse.io/singlestore",
+    "career_page_url": "",
     "website": "http://www.singlestore.com/",
     "domain_hint": "Enterprise Software / SaaS / Analytics",
-    "ats_type": "greenhouse",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -6265,10 +6257,10 @@
   },
   {
     "company_name": "Kiddom",
-    "career_page_url": "https://jobs.lever.co/kiddom",
+    "career_page_url": "",
     "website": "http://www.kiddom.co/",
     "domain_hint": "EdTech / Software",
-    "ats_type": "lever",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -6313,10 +6305,10 @@
   },
   {
     "company_name": "Vectra AI",
-    "career_page_url": "https://boards.greenhouse.io/vectranetworks",
+    "career_page_url": "",
     "website": "http://vectra.ai/",
     "domain_hint": "Cybersecurity / Artificial Intelligence",
-    "ats_type": "greenhouse",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -6337,10 +6329,10 @@
   },
   {
     "company_name": "Eight Sleep",
-    "career_page_url": "https://jobs.ashbyhq.com/eightsleep",
+    "career_page_url": "",
     "website": "http://www.eightsleep.com",
     "domain_hint": "Hardware / Sleep",
-    "ats_type": "ashby",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -6481,7 +6473,7 @@
   },
   {
     "company_name": "Zipline",
-    "career_page_url": "https://www.flyzipline.com/careers/open-roles",
+    "career_page_url": "",
     "website": "http://flyzipline.com",
     "domain_hint": "Robotics / Hardware / Healthcare",
     "ats_type": "unknown",
@@ -6537,7 +6529,7 @@
   },
   {
     "company_name": "Druva",
-    "career_page_url": "https://www.druva.com/about/careers/jobs/7699307002/",
+    "career_page_url": "https://www.druva.com/why-druva/explore/careers/jobs/8408012002/",
     "website": "http://www.druva.com/",
     "domain_hint": "Data Science / Storage / Enterprise Software / SaaS",
     "ats_type": "unknown",
@@ -6553,7 +6545,7 @@
   },
   {
     "company_name": "SecurityScorecard",
-    "career_page_url": "https://securityscorecard.com/company/careers-list/",
+    "career_page_url": "",
     "website": "http://www.securityscorecard.com",
     "domain_hint": "Cybersecurity / Enterprise Software",
     "ats_type": "unknown",
@@ -6609,10 +6601,10 @@
   },
   {
     "company_name": "PatSnap",
-    "career_page_url": "https://jobs.lever.co/patsnap",
+    "career_page_url": "",
     "website": "http://www.patsnap.com",
     "domain_hint": "Analytics",
-    "ats_type": "lever",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -6665,10 +6657,10 @@
   },
   {
     "company_name": "Pendulum Therapeutics",
-    "career_page_url": "https://jobs.lever.co/pendulum",
+    "career_page_url": "",
     "website": "http://www.wholebiome.com/",
     "domain_hint": "Biotech / Healthcare",
-    "ats_type": "lever",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -6769,10 +6761,10 @@
   },
   {
     "company_name": "Robinhood",
-    "career_page_url": "https://boards.greenhouse.io/robinhood",
+    "career_page_url": "",
     "website": "http://www.robinhood.com",
     "domain_hint": "FinTech / Trading",
-    "ats_type": "greenhouse",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -6841,10 +6833,10 @@
   },
   {
     "company_name": "Thumbtack",
-    "career_page_url": "https://boards.greenhouse.io/thumbtack",
+    "career_page_url": "",
     "website": "https://www.thumbtack.com",
     "domain_hint": "Home Services / Marketplaces",
-    "ats_type": "greenhouse",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -6857,7 +6849,7 @@
   },
   {
     "company_name": "Physna",
-    "career_page_url": "https://physna.com/careers/",
+    "career_page_url": "",
     "website": "https://physna.com/",
     "domain_hint": "3DTech / Artificial Intelligence",
     "ats_type": "unknown",
@@ -6905,10 +6897,10 @@
   },
   {
     "company_name": "Hudl",
-    "career_page_url": "https://boards.greenhouse.io/hudl",
+    "career_page_url": "",
     "website": "http://www.hudl.com",
     "domain_hint": "Analytics / Video Coaching / Sports",
-    "ats_type": "greenhouse",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -6921,10 +6913,10 @@
   },
   {
     "company_name": "Callsign",
-    "career_page_url": "https://apply.workable.com/callsign",
+    "career_page_url": "",
     "website": "http://www.callsign.com",
     "domain_hint": "Enterprise Software / Cybersecurity / Artificial Intelligence",
-    "ats_type": "workable",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -6937,7 +6929,7 @@
   },
   {
     "company_name": "BetterCloud",
-    "career_page_url": "https://www.bettercloud.com/job-board/6418609",
+    "career_page_url": "",
     "website": "http://www.bettercloud.com",
     "domain_hint": "Enterprise Software / SaaS / Cloud Cybersecurity",
     "ats_type": "unknown",
@@ -6945,10 +6937,10 @@
   },
   {
     "company_name": "Snyk",
-    "career_page_url": "https://boards.greenhouse.io/snyk",
+    "career_page_url": "",
     "website": "http://snyk.io/",
     "domain_hint": "Open Source / Cybersecurity / Developer Tools",
-    "ats_type": "greenhouse",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -7617,7 +7609,7 @@
   },
   {
     "company_name": "SiSense",
-    "career_page_url": "https://www.sisense.com/about/careers/7135330",
+    "career_page_url": "",
     "website": "http://www.sisense.com",
     "domain_hint": "SaaS / Analytics / Artificial Intelligence",
     "ats_type": "unknown",
@@ -7721,10 +7713,10 @@
   },
   {
     "company_name": "Wildlife Studios",
-    "career_page_url": "https://boards.greenhouse.io/wildlifestudios",
+    "career_page_url": "",
     "website": "http://www.wildlifestudios.com/",
     "domain_hint": "Gaming / Mobile Gaming",
-    "ats_type": "greenhouse",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -7921,10 +7913,10 @@
   },
   {
     "company_name": "Very Good Security",
-    "career_page_url": "https://jobs.lever.co/verygoodsecurity",
+    "career_page_url": "",
     "website": "http://www.verygoodsecurity.com/",
     "domain_hint": "FinTech / Cybersecurity",
-    "ats_type": "lever",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -7985,7 +7977,7 @@
   },
   {
     "company_name": "Fivetran",
-    "career_page_url": "https://www.fivetran.com/careers/job",
+    "career_page_url": "",
     "website": "http://fivetran.com",
     "domain_hint": "Analytics / Data Integration",
     "ats_type": "unknown",
@@ -8001,10 +7993,10 @@
   },
   {
     "company_name": "Plaid",
-    "career_page_url": "https://jobs.lever.co/plaid",
+    "career_page_url": "",
     "website": "http://www.plaid.com",
     "domain_hint": "FinTech / API",
-    "ats_type": "lever",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -8049,10 +8041,10 @@
   },
   {
     "company_name": "Affirm",
-    "career_page_url": "https://boards.greenhouse.io/affirm",
+    "career_page_url": "",
     "website": "http://www.affirm.com",
     "domain_hint": "FinTech / Lending",
-    "ats_type": "greenhouse",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -8097,18 +8089,18 @@
   },
   {
     "company_name": "Q.bio",
-    "career_page_url": "https://jobs.lever.co/qbio",
+    "career_page_url": "",
     "website": "http://www.q.bio/",
     "domain_hint": "Biotech",
-    "ats_type": "lever",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
     "company_name": "Karius",
-    "career_page_url": "https://jobs.lever.co/kariusdx",
+    "career_page_url": "",
     "website": "http://kariusdx.com",
     "domain_hint": "Biotech / Genetics / Healthcare",
-    "ats_type": "lever",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -8257,15 +8249,15 @@
   },
   {
     "company_name": "Strava",
-    "career_page_url": "https://boards.greenhouse.io/strava",
+    "career_page_url": "",
     "website": "http://www.strava.com",
     "domain_hint": "Consumer Social / Healthcare / Fitness",
-    "ats_type": "greenhouse",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
     "company_name": "Instacart",
-    "career_page_url": "https://instacart.careers/job/",
+    "career_page_url": "",
     "website": "http://www.instacart.com",
     "domain_hint": "E-Commerce / Groceries / Delivery",
     "ats_type": "unknown",
@@ -8361,10 +8353,10 @@
   },
   {
     "company_name": "epiFi",
-    "career_page_url": "https://jobs.lever.co/epifi",
+    "career_page_url": "",
     "website": "http://epifi.com/",
     "domain_hint": "FinTech",
-    "ats_type": "lever",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -8433,10 +8425,10 @@
   },
   {
     "company_name": "Amplitude",
-    "career_page_url": "https://boards.greenhouse.io/amplitude",
+    "career_page_url": "",
     "website": "http://www.amplitude.com",
     "domain_hint": "SaaS / Business Intelligence / Analytics",
-    "ats_type": "greenhouse",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -8473,10 +8465,10 @@
   },
   {
     "company_name": "Attentive",
-    "career_page_url": "https://jobs.lever.co/attentive",
+    "career_page_url": "",
     "website": "http://attentivemobile.com/",
     "domain_hint": "Sales / Marketing / Enterprise Software",
-    "ats_type": "lever",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -8697,10 +8689,10 @@
   },
   {
     "company_name": "Restaurant365",
-    "career_page_url": "https://jobs.lever.co/restaurant365",
+    "career_page_url": "",
     "website": "http://www.restaurant365.com/",
     "domain_hint": "SaaS / Restaurants",
-    "ats_type": "lever",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -8745,10 +8737,10 @@
   },
   {
     "company_name": "Duffel",
-    "career_page_url": "https://jobs.lever.co/duffel",
+    "career_page_url": "",
     "website": "http://duffel.com",
     "domain_hint": "Travel",
-    "ats_type": "lever",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -8801,10 +8793,10 @@
   },
   {
     "company_name": "PagerDuty",
-    "career_page_url": "https://boards.greenhouse.io/pagerduty",
+    "career_page_url": "",
     "website": "http://pagerduty.com",
     "domain_hint": "SaaS",
-    "ats_type": "greenhouse",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -8817,10 +8809,10 @@
   },
   {
     "company_name": "DFINITY",
-    "career_page_url": "https://boards.greenhouse.io/dfinity",
+    "career_page_url": "",
     "website": "http://dfinity.org",
     "domain_hint": "Crypto / Blockchain",
-    "ats_type": "greenhouse",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -8841,10 +8833,10 @@
   },
   {
     "company_name": "GitLab",
-    "career_page_url": "https://boards.greenhouse.io/gitlab",
+    "career_page_url": "",
     "website": "http://gitlab.com",
     "domain_hint": "SaaS / Developer Tools",
-    "ats_type": "greenhouse",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -8857,7 +8849,7 @@
   },
   {
     "company_name": "Opendoor",
-    "career_page_url": "https://www.opendoor.com/careers/open-positions",
+    "career_page_url": "",
     "website": "http://www.opendoor.com",
     "domain_hint": "Real Estate / Marketplaces",
     "ats_type": "unknown",
@@ -8905,10 +8897,10 @@
   },
   {
     "company_name": "Sumo Logic",
-    "career_page_url": "https://boards.greenhouse.io/sumologic",
+    "career_page_url": "",
     "website": "http://www.sumologic.com/free",
     "domain_hint": "Enterprise Software / SaaS / Analytics",
-    "ats_type": "greenhouse",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -8961,10 +8953,10 @@
   },
   {
     "company_name": "Dashlane",
-    "career_page_url": "https://boards.greenhouse.io/dashlane",
+    "career_page_url": "",
     "website": "http://www.dashlane.com",
     "domain_hint": "SaaS / Cybersecurity / Identity",
-    "ats_type": "greenhouse",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -9025,7 +9017,7 @@
   },
   {
     "company_name": "Digital.ai",
-    "career_page_url": "https://digital.ai/current-job-openings",
+    "career_page_url": "",
     "website": "http://www.xebialabs.com",
     "domain_hint": "Enterprise Software / Developer Tools",
     "ats_type": "unknown",
@@ -9073,10 +9065,10 @@
   },
   {
     "company_name": "Narvar",
-    "career_page_url": "https://boards.greenhouse.io/narvar",
+    "career_page_url": "",
     "website": "http://www.narvar.com",
     "domain_hint": "E-Commerce / SaaS / Logistics / Shipping",
-    "ats_type": "greenhouse",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -9241,7 +9233,7 @@
   },
   {
     "company_name": "Asana",
-    "career_page_url": "https://www.asana.com/jobs/apply/7493926",
+    "career_page_url": "",
     "website": "http://www.asana.com",
     "domain_hint": "SaaS / Collaboration / Enterprise Software",
     "ats_type": "unknown",
@@ -9297,10 +9289,10 @@
   },
   {
     "company_name": "SoundHound",
-    "career_page_url": "https://boards.greenhouse.io/soundhoundinc",
+    "career_page_url": "",
     "website": "http://soundhound.com",
     "domain_hint": "Artificial Intelligence / Speech Recognition / NLP",
-    "ats_type": "greenhouse",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -9313,7 +9305,7 @@
   },
   {
     "company_name": "Peloton",
-    "career_page_url": "https://careers.onepeloton.com/en/all-jobs/",
+    "career_page_url": "",
     "website": "http://onepeloton.com",
     "domain_hint": "Hardware / Healthcare / Fitness",
     "ats_type": "unknown",
@@ -9321,10 +9313,10 @@
   },
   {
     "company_name": "Foursquare",
-    "career_page_url": "https://boards.greenhouse.io/foursquare26",
+    "career_page_url": "",
     "website": "http://www.foursquare.com",
     "domain_hint": "Consumer / Location Based Services",
-    "ats_type": "greenhouse",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -9337,7 +9329,7 @@
   },
   {
     "company_name": "Samsara",
-    "career_page_url": "https://www.samsara.com/company/careers/roles/7857926",
+    "career_page_url": "https://www.samsara.com/company/careers/roles/8038153",
     "website": "http://www.samsara.com",
     "domain_hint": "SaaS / Sensors",
     "ats_type": "unknown",
@@ -9369,7 +9361,7 @@
   },
   {
     "company_name": "Coinbase",
-    "career_page_url": "https://www.coinbase.com/careers/positions/7411772",
+    "career_page_url": "",
     "website": "http://www.coinbase.com",
     "domain_hint": "FinTech / Trading / Crypto",
     "ats_type": "unknown",
@@ -9393,10 +9385,10 @@
   },
   {
     "company_name": "Rocket Lab",
-    "career_page_url": "https://boards.greenhouse.io/rocketlab",
+    "career_page_url": "",
     "website": "http://www.rocketlabusa.com/",
     "domain_hint": "Manufacturing / Space / Hardware",
-    "ats_type": "greenhouse",
+    "ats_type": "unknown",
     "source_platform": "topstartups.io"
   },
   {
@@ -9449,7 +9441,7 @@
   },
   {
     "company_name": "Qualtrics",
-    "career_page_url": "https://www.qualtrics.com/careers/us/en/job/7288559",
+    "career_page_url": "",
     "website": "http://www.qualtrics.com/",
     "domain_hint": "SaaS / Enterprise Software",
     "ats_type": "unknown",
@@ -10041,7 +10033,7 @@
   },
   {
     "company_name": "Clover Health",
-    "career_page_url": "https://www.cloverhealth.com/en/about-us/job-opening",
+    "career_page_url": "",
     "website": "http://www.cloverhealth.com/",
     "domain_hint": "Healthcare / Insurance",
     "ats_type": "unknown",
@@ -10069,14 +10061,6 @@
     "website": "https://www.close.com/",
     "domain_hint": "SaaS / Sales / Enterprise Software",
     "ats_type": "unknown",
-    "source_platform": "topstartups.io"
-  },
-  {
-    "company_name": "Alloy  Automation",
-    "career_page_url": "https://jobs.lever.co/run-alloy",
-    "website": "https://runalloy.com",
-    "domain_hint": "",
-    "ats_type": "lever",
     "source_platform": "topstartups.io"
   },
   {

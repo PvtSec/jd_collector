@@ -502,5 +502,761 @@
     "ats_type": "unknown",
     "source_platform": "startups_gallery",
     "location": "armenia"
+  },
+  {
+    "company_name": "Nomba",
+    "career_page_url": "https://startups.gallery/companies/nomba",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "unknown",
+    "source_platform": "startups_gallery",
+    "location": "nigeria"
+  },
+  {
+    "company_name": "Passionfroot",
+    "career_page_url": "https://jobs.ashbyhq.com/passionfroot",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "ashby",
+    "board_token": "passionfroot",
+    "source_platform": "startups_gallery"
+  },
+  {
+    "company_name": "Pliant",
+    "career_page_url": "https://jobs.ashbyhq.com/pliant",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "ashby",
+    "board_token": "pliant",
+    "source_platform": "startups_gallery"
+  },
+  {
+    "company_name": "Adora",
+    "career_page_url": "https://jobs.lever.co/adora",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "lever",
+    "board_token": "adora",
+    "source_platform": "startups_gallery"
+  },
+  {
+    "company_name": "Buena",
+    "career_page_url": "https://jobs.ashbyhq.com/buena",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "ashby",
+    "board_token": "buena",
+    "source_platform": "startups_gallery"
+  },
+  {
+    "company_name": "n8n",
+    "career_page_url": "https://jobs.ashbyhq.com/n8n",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "ashby",
+    "board_token": "n8n",
+    "source_platform": "startups_gallery"
+  },
+  {
+    "company_name": "doinstruct",
+    "career_page_url": "https://jobs.ashbyhq.com/doinstruct",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "ashby",
+    "board_token": "doinstruct",
+    "source_platform": "startups_gallery"
+  },
+  {
+    "company_name": "Evervault",
+    "career_page_url": "https://jobs.ashbyhq.com/evervault",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "ashby",
+    "board_token": "evervault",
+    "source_platform": "startups_gallery"
+  },
+  {
+    "company_name": "Choco",
+    "career_page_url": "https://jobs.ashbyhq.com/choco",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "ashby",
+    "board_token": "choco",
+    "source_platform": "startups_gallery"
+  },
+  {
+    "company_name": "Lorikeet",
+    "career_page_url": "https://jobs.ashbyhq.com/lorikeet",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "ashby",
+    "board_token": "lorikeet",
+    "source_platform": "startups_gallery"
+  },
+  {
+    "company_name": "Light",
+    "career_page_url": "https://jobs.ashbyhq.com/light",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "ashby",
+    "board_token": "light",
+    "source_platform": "startups_gallery"
+  },
+  {
+    "company_name": "DeepJudge",
+    "career_page_url": "https://jobs.ashbyhq.com/deepjudge",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "ashby",
+    "board_token": "deepjudge",
+    "source_platform": "startups_gallery"
+  },
+  {
+    "company_name": "Volta",
+    "career_page_url": "https://jobs.ashbyhq.com/volta",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "ashby",
+    "board_token": "volta",
+    "source_platform": "startups_gallery"
+  },
+  {
+    "company_name": "Upflow",
+    "career_page_url": "https://jobs.ashbyhq.com/upflow",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "ashby",
+    "board_token": "upflow",
+    "source_platform": "startups_gallery"
+  },
+  {
+    "company_name": "PhysicsX",
+    "career_page_url": "https://boards.greenhouse.io/physicsx",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "greenhouse",
+    "board_token": "physicsx",
+    "source_platform": "startups_gallery"
+  },
+  {
+    "company_name": "Conduct",
+    "career_page_url": "https://jobs.ashbyhq.com/conduct",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "ashby",
+    "board_token": "conduct",
+    "source_platform": "startups_gallery"
+  },
+  {
+    "company_name": "Apron",
+    "career_page_url": "https://jobs.ashbyhq.com/apron",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "ashby",
+    "board_token": "apron",
+    "source_platform": "startups_gallery"
+  },
+  {
+    "company_name": "Lithosquare",
+    "career_page_url": "https://jobs.ashbyhq.com/lithosquare",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "ashby",
+    "board_token": "lithosquare",
+    "source_platform": "startups_gallery"
+  },
+  {
+    "company_name": "Alice &amp; Bob",
+    "career_page_url": "https://jobs.lever.co/alice-bob",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "lever",
+    "board_token": "alice-bob",
+    "source_platform": "startups_gallery"
+  },
+  {
+    "company_name": "Humanoid",
+    "career_page_url": "https://jobs.ashbyhq.com/humanoid",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "ashby",
+    "board_token": "humanoid",
+    "source_platform": "startups_gallery"
+  },
+  {
+    "company_name": "Latent Labs",
+    "career_page_url": "https://boards.greenhouse.io/latent",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "greenhouse",
+    "board_token": "latent",
+    "source_platform": "startups_gallery"
+  },
+  {
+    "company_name": "Ambrook",
+    "career_page_url": "https://jobs.ashbyhq.com/ambrook",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "ashby",
+    "board_token": "ambrook",
+    "source_platform": "startups_gallery"
+  },
+  {
+    "company_name": "Mantle",
+    "career_page_url": "https://jobs.ashbyhq.com/mantle",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "ashby",
+    "board_token": "mantle",
+    "source_platform": "startups_gallery"
+  },
+  {
+    "company_name": "Atoms",
+    "career_page_url": "https://boards.greenhouse.io/atoms",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "greenhouse",
+    "board_token": "atoms",
+    "source_platform": "startups_gallery"
+  },
+  {
+    "company_name": "Flare",
+    "career_page_url": "https://jobs.lever.co/flare",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "lever",
+    "board_token": "flare",
+    "source_platform": "startups_gallery"
+  },
+  {
+    "company_name": "Gradient Labs",
+    "career_page_url": "https://jobs.ashbyhq.com/gradient-labs",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "ashby",
+    "board_token": "gradient-labs",
+    "source_platform": "startups_gallery"
+  },
+  {
+    "company_name": "Leona",
+    "career_page_url": "https://jobs.ashbyhq.com/leona",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "ashby",
+    "board_token": "leona",
+    "source_platform": "startups_gallery"
+  },
+  {
+    "company_name": "CuspAI",
+    "career_page_url": "https://jobs.ashbyhq.com/cuspai",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "ashby",
+    "board_token": "cuspai",
+    "source_platform": "startups_gallery"
+  },
+  {
+    "company_name": "Rogo",
+    "career_page_url": "https://jobs.ashbyhq.com/rogo",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "ashby",
+    "board_token": "rogo",
+    "source_platform": "startups_gallery"
+  },
+  {
+    "company_name": "Planned",
+    "career_page_url": "https://jobs.lever.co/planned",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "lever",
+    "board_token": "planned",
+    "source_platform": "startups_gallery"
+  },
+  {
+    "company_name": "Inherent",
+    "career_page_url": "https://jobs.ashbyhq.com/inherent",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "ashby",
+    "board_token": "inherent",
+    "source_platform": "startups_gallery"
+  },
+  {
+    "company_name": "Eli Health",
+    "career_page_url": "https://jobs.ashbyhq.com/eli",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "ashby",
+    "board_token": "eli",
+    "source_platform": "startups_gallery"
+  },
+  {
+    "company_name": "Heidi Health",
+    "career_page_url": "https://startups.gallery/companies/heidi-health",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "unknown",
+    "source_platform": "startups_gallery",
+    "location": "australia"
+  },
+  {
+    "company_name": "Pyn",
+    "career_page_url": "https://startups.gallery/companies/pyn",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "unknown",
+    "source_platform": "startups_gallery",
+    "location": "australia"
+  },
+  {
+    "company_name": "Index",
+    "career_page_url": "https://startups.gallery/companies/index-planning",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "unknown",
+    "source_platform": "startups_gallery",
+    "location": "australia"
+  },
+  {
+    "company_name": "Syenta",
+    "career_page_url": "https://startups.gallery/companies/syenta",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "unknown",
+    "source_platform": "startups_gallery",
+    "location": "australia"
+  },
+  {
+    "company_name": "Relume",
+    "career_page_url": "https://startups.gallery/companies/relume",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "unknown",
+    "source_platform": "startups_gallery",
+    "location": "australia"
+  },
+  {
+    "company_name": "Instant",
+    "career_page_url": "https://startups.gallery/companies/instant-ecommerce",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "unknown",
+    "source_platform": "startups_gallery",
+    "location": "australia"
+  },
+  {
+    "company_name": "Cake Equity",
+    "career_page_url": "https://startups.gallery/companies/cake-equity",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "unknown",
+    "source_platform": "startups_gallery",
+    "location": "australia"
+  },
+  {
+    "company_name": "Cortical Labs",
+    "career_page_url": "https://startups.gallery/companies/cortical-labs",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "unknown",
+    "source_platform": "startups_gallery",
+    "location": "australia"
+  },
+  {
+    "company_name": "Wrtn",
+    "career_page_url": "https://startups.gallery/companies/wrtn",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "unknown",
+    "source_platform": "startups_gallery",
+    "location": "south-korea"
+  },
+  {
+    "company_name": "Aniva",
+    "career_page_url": "https://startups.gallery/companies/aniva",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "unknown",
+    "source_platform": "startups_gallery",
+    "location": "germany"
+  },
+  {
+    "company_name": "Pitch",
+    "career_page_url": "https://startups.gallery/companies/pitch",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "unknown",
+    "source_platform": "startups_gallery",
+    "location": "germany"
+  },
+  {
+    "company_name": "Finmid",
+    "career_page_url": "https://startups.gallery/companies/finmid",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "unknown",
+    "source_platform": "startups_gallery",
+    "location": "germany"
+  },
+  {
+    "company_name": "Superlist",
+    "career_page_url": "https://startups.gallery/companies/superlist",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "unknown",
+    "source_platform": "startups_gallery",
+    "location": "germany"
+  },
+  {
+    "company_name": "Flank",
+    "career_page_url": "https://startups.gallery/companies/flank-ai",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "unknown",
+    "source_platform": "startups_gallery",
+    "location": "germany"
+  },
+  {
+    "company_name": "&amp;Open",
+    "career_page_url": "https://startups.gallery/companies/andopen",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "unknown",
+    "source_platform": "startups_gallery",
+    "location": "ireland"
+  },
+  {
+    "company_name": "Format",
+    "career_page_url": "https://startups.gallery/companies/format-ai",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "unknown",
+    "source_platform": "startups_gallery",
+    "location": "ireland"
+  },
+  {
+    "company_name": "Supersonik",
+    "career_page_url": "https://startups.gallery/companies/supersonik",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "unknown",
+    "source_platform": "startups_gallery",
+    "location": "spain"
+  },
+  {
+    "company_name": "Orbio",
+    "career_page_url": "https://startups.gallery/companies/orbio-ai",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "unknown",
+    "source_platform": "startups_gallery",
+    "location": "spain"
+  },
+  {
+    "company_name": "Altan",
+    "career_page_url": "https://startups.gallery/companies/altan-labs",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "unknown",
+    "source_platform": "startups_gallery",
+    "location": "spain"
+  },
+  {
+    "company_name": "Interhuman",
+    "career_page_url": "https://startups.gallery/companies/interhuman",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "unknown",
+    "source_platform": "startups_gallery",
+    "location": "denmark"
+  },
+  {
+    "company_name": "Worksome",
+    "career_page_url": "https://startups.gallery/companies/worksome",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "unknown",
+    "source_platform": "startups_gallery",
+    "location": "denmark"
+  },
+  {
+    "company_name": "Podimo",
+    "career_page_url": "https://startups.gallery/companies/podimo",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "unknown",
+    "source_platform": "startups_gallery",
+    "location": "denmark"
+  },
+  {
+    "company_name": "Medusa",
+    "career_page_url": "https://startups.gallery/companies/medusa",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "unknown",
+    "source_platform": "startups_gallery",
+    "location": "denmark"
+  },
+  {
+    "company_name": "Flow Computing",
+    "career_page_url": "https://startups.gallery/companies/flow-computing",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "unknown",
+    "source_platform": "startups_gallery",
+    "location": "finland"
+  },
+  {
+    "company_name": "Flexion Robotics",
+    "career_page_url": "https://startups.gallery/companies/flexion-robotics",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "unknown",
+    "source_platform": "startups_gallery",
+    "location": "switzerland"
+  },
+  {
+    "company_name": "Sunflower Labs",
+    "career_page_url": "https://startups.gallery/companies/sunflower-labs",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "unknown",
+    "source_platform": "startups_gallery",
+    "location": "switzerland"
+  },
+  {
+    "company_name": "Clone",
+    "career_page_url": "https://startups.gallery/companies/clone",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "unknown",
+    "source_platform": "startups_gallery",
+    "location": "poland"
+  },
+  {
+    "company_name": "Better Stack",
+    "career_page_url": "https://startups.gallery/companies/better-stack",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "unknown",
+    "source_platform": "startups_gallery",
+    "location": "czech-republic"
+  },
+  {
+    "company_name": "Gradium",
+    "career_page_url": "https://startups.gallery/companies/gradium",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "unknown",
+    "source_platform": "startups_gallery",
+    "location": "france"
+  },
+  {
+    "company_name": "Slite",
+    "career_page_url": "https://startups.gallery/companies/slite",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "unknown",
+    "source_platform": "startups_gallery",
+    "location": "france"
+  },
+  {
+    "company_name": "Liveblocks",
+    "career_page_url": "https://startups.gallery/companies/liveblocks",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "unknown",
+    "source_platform": "startups_gallery",
+    "location": "france"
+  },
+  {
+    "company_name": "Davis",
+    "career_page_url": "https://startups.gallery/companies/davis-ai",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "unknown",
+    "source_platform": "startups_gallery",
+    "location": "france"
+  },
+  {
+    "company_name": "Greenly",
+    "career_page_url": "https://startups.gallery/companies/greenly",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "unknown",
+    "source_platform": "startups_gallery",
+    "location": "france"
+  },
+  {
+    "company_name": "Swan",
+    "career_page_url": "https://startups.gallery/companies/swan",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "unknown",
+    "source_platform": "startups_gallery",
+    "location": "france"
+  },
+  {
+    "company_name": "Mangrove",
+    "career_page_url": "https://startups.gallery/companies/mangrove-dao",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "unknown",
+    "source_platform": "startups_gallery",
+    "location": "france"
+  },
+  {
+    "company_name": "Hyperline",
+    "career_page_url": "https://startups.gallery/companies/hyperline",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "unknown",
+    "source_platform": "startups_gallery",
+    "location": "france"
+  },
+  {
+    "company_name": "Folk",
+    "career_page_url": "https://startups.gallery/companies/folk",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "unknown",
+    "source_platform": "startups_gallery",
+    "location": "france"
+  },
+  {
+    "company_name": "Adfin",
+    "career_page_url": "https://startups.gallery/companies/adfin",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "unknown",
+    "source_platform": "startups_gallery",
+    "location": "united-kingdom"
+  },
+  {
+    "company_name": "Ineffable Intelligence",
+    "career_page_url": "https://startups.gallery/companies/ineffable-intelligence",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "unknown",
+    "source_platform": "startups_gallery",
+    "location": "united-kingdom"
+  },
+  {
+    "company_name": "Layercode",
+    "career_page_url": "https://startups.gallery/companies/layercode",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "unknown",
+    "source_platform": "startups_gallery",
+    "location": "united-kingdom"
+  },
+  {
+    "company_name": "Helcim",
+    "career_page_url": "https://startups.gallery/companies/helcim",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "unknown",
+    "source_platform": "startups_gallery",
+    "location": "canada"
+  },
+  {
+    "company_name": "The Nmbr Company",
+    "career_page_url": "https://startups.gallery/companies/the-nmbr-company",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "unknown",
+    "source_platform": "startups_gallery",
+    "location": "canada"
+  },
+  {
+    "company_name": "Finofo",
+    "career_page_url": "https://startups.gallery/companies/finofo",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "unknown",
+    "source_platform": "startups_gallery",
+    "location": "canada"
+  },
+  {
+    "company_name": "Wiza",
+    "career_page_url": "https://startups.gallery/companies/wiza",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "unknown",
+    "source_platform": "startups_gallery",
+    "location": "canada"
+  },
+  {
+    "company_name": "Othership",
+    "career_page_url": "https://startups.gallery/companies/othership",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "unknown",
+    "source_platform": "startups_gallery",
+    "location": "canada"
+  },
+  {
+    "company_name": "Andera",
+    "career_page_url": "https://startups.gallery/companies/andera-ai",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "unknown",
+    "source_platform": "startups_gallery",
+    "location": "united-states"
+  },
+  {
+    "company_name": "Aegis AI",
+    "career_page_url": "https://startups.gallery/companies/aegisai",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "unknown",
+    "source_platform": "startups_gallery",
+    "location": "united-states"
+  },
+  {
+    "company_name": "Paper",
+    "career_page_url": "https://startups.gallery/companies/paper",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "unknown",
+    "source_platform": "startups_gallery",
+    "location": "united-states"
+  },
+  {
+    "company_name": "Flower Computer Co.",
+    "career_page_url": "https://startups.gallery/companies/flower-computer-co",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "unknown",
+    "source_platform": "startups_gallery",
+    "location": "united-states"
+  },
+  {
+    "company_name": "Natural",
+    "career_page_url": "https://startups.gallery/companies/natural",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "unknown",
+    "source_platform": "startups_gallery",
+    "location": "united-states"
+  },
+  {
+    "company_name": "Colossal",
+    "career_page_url": "https://startups.gallery/companies/colossal",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "unknown",
+    "source_platform": "startups_gallery",
+    "location": "united-states"
+  },
+  {
+    "company_name": "Wander",
+    "career_page_url": "https://startups.gallery/companies/wander",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "unknown",
+    "source_platform": "startups_gallery",
+    "location": "united-states"
   }
 ]
