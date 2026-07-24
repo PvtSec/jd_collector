@@ -47,3 +47,8 @@ resumes/
 .idea/
 .vscode/
 *.swp
+# Hefty data files ship compressed (.gz) for GitHub; raw forms are regenerable
+# (jobs_seed via ./run.sh export-seed; companies.json via scripts/consolidate.py)
+# and are decompressed from .gz by docker-entrypoint.sh on container start.
+data/jobs_seed.json
+data/companies.json

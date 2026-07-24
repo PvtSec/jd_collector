@@ -1,0 +1,104 @@
+{
+  "goal": 50000,
+  "reliable_count": 37797,
+  "total_unique": 41677,
+  "phase": "running",
+  "workers": {
+    "cohort_a_last_gather": {
+      "secs": 1200.1,
+      "results": [
+        {
+          "script": "discover_startup_dirs.py",
+          "ok": true,
+          "secs": 0.5,
+          "out": "[startupdirs] 0 new + 101 existing -> 101 records -> /mnt/380/Projects/job_auto/repo/data/raw/agent15_startupdirs.json\n",
+          "err": ""
+        },
+        {
+          "script": "discover_remote_boards.py",
+          "ok": true,
+          "secs": 0.5,
+          "out": "[remote] remoteok: 100 companies\n[remote] wwr: 100 companies\n[remote] remotive: 35 companies\n[remote] 0 new + 311 existing -> 311 records -> /mnt/380/Projects/job_auto/repo/data/raw/agent14_remote.json\n",
+          "err": ""
+        },
+        {
+          "script": "discover_simplify.py",
+          "ok": true,
+          "secs": 1.9,
+          "out": "[simplify] SimplifyJobs/New-Grad-Positions: 2839 active listings -> 1198 companies (526 with ATS URL)\n[simplify] SimplifyJobs/Summer2026-Internships: 1402 active listings -> 580 companies (288 with ATS URL)\n[simplify] 0 new + 1775 existing -> 1775 records (827 with ATS URL) -> /mnt/380/Projects/job_auto/repo/data/raw/agent16_simplify.json\n",
+          "err": ""
+        },
+        {
+          "script": "discover_awesome.py",
+          "ok": true,
+          "secs": 28.1,
+          "out": "[awesome] Nic-Sevic/remote-jobs: 0 company candidates\n[awesome] fireball787b/awesome-remote-companies: 122 company candidates\n[awesome] adherb/remote-tech-companies: 23 company candidates\n[awesome] sbilly/awesome-security: 143 company candidates\n[awesome] enaqx/awesome-pentest: 266 company candidates\n[awesome] paragonie/awesome-appsec: 90 company candidates\n[awesome] 0 new + 628 existing -> 628 records -> /mnt/380/Projects/job_auto/repo/data/raw/agent13_awesome.json\n",
+          "err": ""
+        },
+        {
+          "script": "discover_chsr.py",
+          "ok": true,
+          "secs": 29.5,
+          "out": "[chsr] fetching companies-hiring-security-remote README...\n[chsr] parsed 191 companies from the list\n[chsr] 2 NEW to probe (skipped 189 already listed)\n  greenhouse       1\n  ashby            1\n[chsr] merged 0 new + 124 existing -> 124 records -> /mnt/380/Projects/job_auto/repo/data/raw/agent12_chsr.json\n[chsr] next: run scripts/consolidate.py to merge into companies.json\n",
+          "err": ""
+        },
+        {
+          "script": "discover_topstartups.py",
+          "ok": true,
+          "secs": 53.3,
+          "out": "ecurity Engineer'          page 6: 12 cards, 9 new, role-total 61\n  role='Security Engineer'          page 7: 12 cards, 10 new, role-total 71\n  role='Security Engineer'          page 8: 8 cards, 7 new, role-total 78\n  role='Security Engineer'          page 9: 12 cards, 0 new, role-total 78\n  role='Security Engineer'          page 10: 12 cards, 0 new, role-total 78\n  role='Security Engineer'          page 11: 12 cards, 0 new, role-total 78\n  role='Security Engineer'          page 12: 12 cards, 0 new, role-total 78\n  role='Application Security'       page 1: 12 cards, 2 new, role-total 2\n  role='Application Security'       page 2: 4 cards, 1 new, role-total 3\n  role='Application Security'       page 3: 12 cards, 0 new, role-total 3\n  role='Application Security'       page 4: 12 cards, 0 new, role-total 3\n  role='Application Security'       page 5: 12 cards, 0 new, role-total 3\n  role='Application Security'       page 6: 12 cards, 0 new, role-total 3\n  role='Product Security'           page 1: 12 cards, 5 new, role-total 5\n  role='Product Security'           page 2: 10 cards, 3 new, role-total 8\n  role='Product Security'           page 3: 12 cards, 0 new, role-total 8\n  role='Product Security'           page 4: 12 cards, 0 new, role-total 8\n  role='Product Security'           page 5: 12 cards, 0 new, role-total 8\n  role='Product Security'           page 6: 12 cards, 0 new, role-total 8\n  role='DevSecOps'                  page 1: 1 cards, 1 new, role-total 1\n  role='DevSecOps'                  page 2: 1 cards, 0 new, role-total 1\n  role='DevSecOps'                  page 3: 1 cards, 0 new, role-total 1\n  role='DevSecOps'                  page 4: 1 cards, 0 new, role-total 1\n  role='DevSecOps'                  page 5: 1 cards, 0 new, role-total 1\n\nwrote data/raw/agent6_topstartups.json  (1259 companies)\nwrote data/topstartups_matches.json  (66 companies, 15 core, 113 matching jobs)\nATS breakdown: {'unknown': 1210, 'ashby': 18, 'greenhouse': 25, 'lever': 5, 'breezyhr': 1}\n",
+          "err": ""
+        },
+        {
+          "script": "discover_startups_gallery.py",
+          "ok": true,
+          "secs": 160.8,
+          "out": "by      slug=light                 \n  FOUND  DeepJudge                  -> ashby      slug=deepjudge             \n  FOUND  Volta                      -> ashby      slug=volta                 \n  FOUND  Upflow                     -> ashby      slug=upflow                \n  ...40/83 probed, 13 boards (checkpointed)\n  FOUND  PhysicsX                   -> greenhouse slug=physicsx              \n  FOUND  Conduct                    -> ashby      slug=conduct               \n  FOUND  Apron                      -> ashby      slug=apron                 \n  FOUND  Lithosquare                -> ashby      slug=lithosquare           \n  FOUND  Alice &amp; Bob            -> lever      slug=alice-bob             \n  FOUND  Humanoid                   -> ashby      slug=humanoid              \n  FOUND  Latent Labs                -> greenhouse slug=latent                \n  ...60/83 probed, 20 boards (checkpointed)\n  FOUND  Ambrook                    -> ashby      slug=ambrook               \n  FOUND  Mantle                     -> ashby      slug=mantle                \n  FOUND  Atoms                      -> greenhouse slug=atoms                 \n  FOUND  Flare                      -> lever      slug=flare                 \n  FOUND  Gradient Labs              -> ashby      slug=gradient-labs         \n  FOUND  Leona                      -> ashby      slug=leona                 \n  FOUND  CuspAI                     -> ashby      slug=cuspai                \n  FOUND  Rogo                       -> ashby      slug=rogo                  \n  FOUND  Planned                    -> lever      slug=planned               \n  FOUND  Inherent                   -> ashby      slug=inherent              \n  ...80/83 probed, 30 boards (checkpointed)\n  FOUND  Eli Health                 -> ashby      slug=eli                   \n\n[gallery] 31 new ATS boards; 52 unknown-ATS entries; 140 total in /mnt/380/Projects/job_auto/repo/data/raw/agent17_startups_gallery.json\n[gallery] next: .venv/bin/python scripts/consolidate.py\n",
+          "err": ""
+        },
+        {
+          "script": "discover_vc_boards.py",
+          "ok": true,
+          "secs": 276.7,
+          "out": "[vc] getro backfill scaleops-2 fetch failed (will retry): HTTPSConnectionPool(host='jobs.insightpartners.com', port=443): Read timed out. (read timeout=25)\n[vc] getro backfill: 148 resolved, 0 tried-no-name, 30 fetched this run\n[vc] getro (insight_partners): 534 companies (148 with accurate job-page names, rest slug-humanized)\n[vc] consider sequoia (sequoia): 254 companies (total 254)\n[vc] consider lightspeed (lightspeed): 513 companies (total 513)\n[vc] index ventures: 232 companies\n[vc] cloudsecurity_jobs (wiz): 376 companies (nbHits 543)\n[vc] 534 new + 1282 existing -> 1816 records -> /mnt/380/Projects/job_auto/repo/data/raw/agent18_vc_boards.json\n",
+          "err": ""
+        },
+        {
+          "script": "discover_himalayas.py",
+          "ok": true,
+          "timeout": true,
+          "secs": 1200,
+          "out": "timed out (partial ok)"
+        },
+        {
+          "script": "discover_companies.py",
+          "ok": true,
+          "timeout": true,
+          "secs": 1200,
+          "out": "timed out (partial ok)"
+        },
+        {
+          "script": "discover_yc.py",
+          "ok": true,
+          "timeout": true,
+          "secs": 1200,
+          "out": "timed out (partial ok)"
+        },
+        {
+          "script": "discover_builtin.py",
+          "ok": true,
+          "timeout": true,
+          "secs": 1200,
+          "out": "timed out (partial ok)"
+        }
+      ]
+    }
+  },
+  "last_updated": 1784901958.4404883,
+  "last_validate": {
+    "new": 890,
+    "new_reliable": 145,
+    "upgraded": 17,
+    "secs": 489.6
+  }
+}

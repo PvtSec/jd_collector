@@ -55,9 +55,14 @@ print(f"exported {r['exported']} jobs -> {r['path']}")
 PY
     # 2. copy the volume seed out to the host repo so it can be committed + baked
     docker compose cp job-auto:/app/data/jobs_seed.json ./data/jobs_seed.json
-    echo "→ wrote ./data/jobs_seed.json"
-    echo "  commit it (git add data/jobs_seed.json) then ./run.sh up to bake into the image"
-    echo "  (a fresh volume / new machine will then pre-seed from this snapshot)" ;;
+    # 3. compress it (the raw file is gitignored + dockerignored; only the .gz
+    #    is committed + baked — keeps the repo under GitHub's 100 MB file limit;
+    #    docker-entrypoint.sh decompresses it into the volume on start)
+    gzip -kf ./data/jobs_seed.json
+    echo "→ wrote ./data/jobs_seed.json + .gz (raw is gitignored; commit data/jobs_seed.json.gz)"
+    echo "  also compress the curated dataset if regenerated: gzip -kf data/companies.json"
+    echo "  then: git add data/jobs_seed.json.gz data/companies.json.gz && ./run.sh up"
+    echo "  (a fresh volume / new machine pre-seeds from this snapshot)" ;;
   *)
     echo "unknown command: $cmd" >&2
     sed -n '2,12p' "$0"

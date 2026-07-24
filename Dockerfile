@@ -28,9 +28,16 @@ COPY config.yaml config.example.yaml ./
 COPY data/     ./data/
 COPY research/ ./research/
 
+# Entrypoint: decompress baked *.gz data files (jobs_seed.json, companies.json)
+# into the volume on start, then exec the app. Hefty files ship compressed to
+# stay under GitHub's 100 MB limit and keep the image small.
+COPY docker-entrypoint.sh ./docker-entrypoint.sh
+RUN chmod +x docker-entrypoint.sh
+
 # Built frontend (served by FastAPI at /)
 COPY --from=frontend /build/dist ./app/frontend/dist
 
 EXPOSE 8000
 # Persist the discovery DB + caches across container recreations via a volume on /app/data.
+ENTRYPOINT ["./docker-entrypoint.sh"]
 CMD ["python", "-m", "uvicorn", "app.backend.src.main:app", "--host", "0.0.0.0", "--port", "8000"]

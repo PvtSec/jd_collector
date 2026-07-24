@@ -117,6 +117,32 @@ target:
     - devsecops
     - sre
     - site reliability
+    # hardware / physical / material test roles — NOT software-stack test/automation.
+    # A test/QA/automation title that names a hardware/robotics/physical/material
+    # domain is non-software testing and is rejected. Substrings chosen to avoid
+    # false positives on real software titles (e.g. "electronics" plural, not
+    # "electronic" which appears in "electronic trading"; "physical test", not
+    # "physical" which appears in "physical security").
+    - hardware
+    - robotics
+    - robot
+    - mechanical
+    - electrical
+    - electronics
+    - semiconductor
+    - materials
+    - material test
+    - material testing
+    - physical test
+    - physical testing
+    - embedded test
+    - hardware-in-the-loop
+    - hardware in the loop
+    - destructive test
+    - tensile
+    - fatigue test
+    - vibration test
+    - environmental test
     # NOTE: "infrastructure" and "platform engineer" were removed from this
     # list because they are substrings of valid security titles
     # ("infrastructure security engineer", "security platform engineer").
@@ -167,7 +193,7 @@ target:
   work_types: ["remote", "hybrid"]
 
 allow_companies: null
-skip_companies: ["Canonical", "Coinbase", "Jobgether", "PentStark"]   # PentStark: discarded at user request (18 jobs, 8 matched). Canonical: strict AI checks; would reject. Coinbase: greenhouse board redirects to a 403-bot-walled SPA — job links don't land on a JD, 0 candidate matches (all US/finance). Surfaced as a single career-page stub instead. Jobgether: a remote-job MATCHING PLATFORM (domain_hint 'remote/jobs platform'), not an employer — its lever board hosts postings from many companies but enumeration loses the real employer (all 4603 rows show company=Jobgether). Apply links go to Jobgether, not the hiring company, so these aren't real employer openings.
+skip_companies: ["Canonical", "Coinbase", "Jobgether", "PentStark", "ZynoSec"]   # PentStark: discarded at user request (18 jobs, 8 matched). ZynoSec: discarded at user request (15 jobs, 6 matched) — manual-target mailto board, kept re-surfacing after row deletion because it's still in data/raw/target_companies.json → companies.json → scheduler re-enumerates; skip_companies is the durable exclusion. Canonical: strict AI checks; would reject. Coinbase: greenhouse board redirects to a 403-bot-walled SPA — job links don't land on a JD, 0 candidate matches (all US/finance). Surfaced as a single career-page stub instead. Jobgether: a remote-job MATCHING PLATFORM (domain_hint 'remote/jobs platform'), not an employer — its lever board hosts postings from many companies but enumeration loses the real employer (all 4603 rows show company=Jobgether). Apply links go to Jobgether, not the hiring company, so these aren't real employer openings.
 
 safety:
   dry_run: true

@@ -105,10 +105,6 @@ export default function App() {
   return (
     <div className="app">
       <header className="topbar">
-        <div className="brand">
-          <h1>Job Auto</h1>
-          <span className="tag">discovery dashboard</span>
-        </div>
         <StatusBar task={task} daily={daily} onForceRun={forceRun} onRescan={rescan}
                    runMsg={runMsg} lastRun={stats?.last_run} />
       </header>

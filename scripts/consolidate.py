@@ -219,6 +219,10 @@ for key, entries in groups.items():
         # mailto companies (e.g. PentStark) have no ATS slug; the enumerator
         # scrapes the careers page, so board_token IS the careers page URL.
         board_token = primary_url
+    elif ats_type == "workday" and ats_source in ("url", "verified"):
+        # list_workday takes the full careers URL as its token
+        # (https://<tenant>.<cluster>.myworkdayjobs.com/<site>); no slug extract.
+        board_token = primary_url
 
     is_mnc = norm_name(name) in {norm_name(x) for x in MNC_FLAG}
 

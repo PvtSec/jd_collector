@@ -22,6 +22,10 @@ data/*.bak
 app/state.json
 app/.links*
 app/.*_done
+# Hefty data files ship COMPRESSED (.gz); the entrypoint decompresses on start.
+# Exclude the raw forms from the build so only the small .gz is baked.
+data/jobs_seed.json
+data/companies.json
 
 # Candidate PII (never in the image)
 profile.yaml
