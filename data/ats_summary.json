@@ -1,5 +1,5 @@
 {
-  "total_companies": 13638,
+  "total_companies": 13637,
   "by_ats": {
     "unknown": 8907,
     "greenhouse": 2262,
@@ -17,11 +17,11 @@
     "teamtailor": 3,
     "onlyfy": 2,
     "pinpoint": 2,
-    "mailto": 2,
     "trinethire": 1,
     "keka": 1,
     "attrax": 1,
-    "applytojob": 1
+    "applytojob": 1,
+    "mailto": 1
   },
   "ats_conflicts": [
     "Applied Intuition",

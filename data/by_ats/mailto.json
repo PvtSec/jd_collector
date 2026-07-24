@@ -8,15 +8,5 @@
     "source_platforms": [
       "manual-target"
     ]
-  },
-  {
-    "company_name": "ZynoSec",
-    "website": "https://zynosec.com",
-    "career_page_url": "https://zynosec.com/careers/",
-    "board_token": "https://zynosec.com/careers/",
-    "domain_hint": "pentest (India remote)",
-    "source_platforms": [
-      "manual-target"
-    ]
   }
 ]

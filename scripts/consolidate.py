@@ -216,7 +216,7 @@ for key, entries in groups.items():
             if m:
                 board_token = m.group(1)
     elif ats_type == "mailto":
-        # mailto companies (ZynoSec, PentStark) have no ATS slug; the enumerator
+        # mailto companies (e.g. PentStark) have no ATS slug; the enumerator
         # scrapes the careers page, so board_token IS the careers page URL.
         board_token = primary_url
 

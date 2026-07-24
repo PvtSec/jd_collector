@@ -667,7 +667,7 @@ def list_onlyfy(company: str, token: str, *, ua: str, timeout: int = 20, retries
 
 
 # ---------------- Mailto (email-apply) ----------------
-# Some companies (ZynoSec, PentStark) list roles as `mailto:careers@…?subject=…`
+# Some companies (e.g. PentStark) list roles as `mailto:careers@…?subject=…`
 # links on a custom careers page — no form, no ATS. We scrape those links and
 # synthesize Jobs whose `url` is the mailto href; the mailto submitter drafts the
 # email body. `token` here is the careers page URL (set as board_token by
@@ -678,7 +678,7 @@ def list_mailto(company: str, token: str, *, ua: str, timeout: int = 20, retries
     """Scrape `mailto:` role links from a careers page (token = careers URL).
 
     The mailto role links are in the static HTML on known mailto sites
-    (ZynoSec, PentStark), so a plain requests fetch is preferred — it avoids
+    (e.g. PentStark), so a plain requests fetch is preferred — it avoids
     headless-browser bot-challenges that blank the page on repeated hits.
     Playwright is the fallback for sites that render the links client-side.
     """

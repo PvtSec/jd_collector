@@ -18,7 +18,6 @@
   {"company_name":"Ajaib","career_page_url":"https://apply.workable.com/ajaib","website":"https://ajaib.id","domain_hint":"brokerage/fintech (Indonesia)","ats_type":"workable","source_platform":"manual-target"},
   {"company_name":"Pepperstone","career_page_url":"https://apply.workable.com/pepperstone","website":"https://pepperstone.com","domain_hint":"fintech/brokerage","ats_type":"workable","source_platform":"manual-target"},
 
-  {"company_name":"ZynoSec","career_page_url":"https://zynosec.com/careers/","website":"https://zynosec.com","domain_hint":"pentest (India remote)","ats_type":"mailto","source_platform":"manual-target"},
   {"company_name":"PentStark","career_page_url":"https://pentstark.com/careers/","website":"https://pentstark.com","domain_hint":"offensive security/AI security (India/EU remote)","ats_type":"mailto","source_platform":"manual-target"},
   {"company_name":"Security Brigade","career_page_url":"https://securitybrigade.com/careers/","website":"https://securitybrigade.com","domain_hint":"pentest firm (Mumbai)","ats_type":"custom","source_platform":"manual-target"},
   {"company_name":"Delta6Labs","career_page_url":"https://delta6labs.com/careers/","website":"https://delta6labs.com","domain_hint":"fintech/crypto pentest (Noida)","ats_type":"custom","source_platform":"manual-target"},

@@ -139,11 +139,35 @@ target:
                  "germany", "berlin", "munich", "frankfurt",
                  "netherlands", "amsterdam", "ireland", "dublin",
                  "spain", "barcelona", "madrid", "poland", "warsaw", "krakow",
-                 "czech", "prague", "tel aviv"]
+                 "czech", "prague", "tel aviv",
+                 # --- UK + Ireland (was missing — London cyber roles rejected) ---
+                 "london", "uk", "united kingdom", "england", "britain",
+                 "belfast", "manchester", "edinburgh", "dublin",
+                 # --- Latin America (LATAM token didn't match country/city names) ---
+                 "brazil", "sao paulo", "são paulo", "belo horizonte",
+                 "rio de janeiro", "mexico", "mexico city", "cdmx",
+                 "argentina", "buenos aires",
+                 # --- rest of Western Europe ---
+                 "france", "paris", "portugal", "lisbon",
+                 "switzerland", "zurich", "geneva", "austria", "vienna",
+                 "italy", "milan", "rome", "greece", "athens",
+                 # --- Nordics + Eastern Europe ---
+                 "sweden", "stockholm", "norway", "oslo", "finland", "helsinki",
+                 "denmark", "copenhagen", "romania", "bucharest", "hungary",
+                 "budapest", "bulgaria", "sofia", "ukraine", "kyiv",
+                 # --- Asia hubs not already covered ---
+                 "taipei", "china", "shanghai", "beijing", "shenzhen",
+                 # --- India cities/states that list city+state instead of "India" ---
+                 "noida", "uttar pradesh", "gurgaon", "gurugram", "karnataka",
+                 "telangana", "maharashtra",
+                 # --- Africa ---
+                 "south africa", "cape town", "johannesburg",
+                 # --- small island hubs ---
+                 "malta"]
   work_types: ["remote", "hybrid"]
 
 allow_companies: null
-skip_companies: ["Canonical", "Coinbase", "Jobgether"]   # Canonical: strict AI checks; would reject. Coinbase: greenhouse board redirects to a 403-bot-walled SPA — job links don't land on a JD, 0 candidate matches (all US/finance). Surfaced as a single career-page stub instead. Jobgether: a remote-job MATCHING PLATFORM (domain_hint 'remote/jobs platform'), not an employer — its lever board hosts postings from many companies but enumeration loses the real employer (all 4603 rows show company=Jobgether). Apply links go to Jobgether, not the hiring company, so these aren't real employer openings.
+skip_companies: ["Canonical", "Coinbase", "Jobgether", "PentStark"]   # PentStark: discarded at user request (18 jobs, 8 matched). Canonical: strict AI checks; would reject. Coinbase: greenhouse board redirects to a 403-bot-walled SPA — job links don't land on a JD, 0 candidate matches (all US/finance). Surfaced as a single career-page stub instead. Jobgether: a remote-job MATCHING PLATFORM (domain_hint 'remote/jobs platform'), not an employer — its lever board hosts postings from many companies but enumeration loses the real employer (all 4603 rows show company=Jobgether). Apply links go to Jobgether, not the hiring company, so these aren't real employer openings.
 
 safety:
   dry_run: true
