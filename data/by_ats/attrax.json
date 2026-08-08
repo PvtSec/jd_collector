@@ -1,0 +1,13 @@
+[
+  {
+    "company_name": "Wise",
+    "website": "https://wise.com",
+    "career_page_url": "https://wise.jobs/",
+    "board_token": null,
+    "domain_hint": "fintech/payments",
+    "source_platforms": [
+      "builtin",
+      "index_ventures"
+    ]
+  }
+]

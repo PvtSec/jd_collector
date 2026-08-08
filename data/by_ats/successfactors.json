@@ -1,0 +1,32 @@
+[
+  {
+    "company_name": "Carhartt",
+    "website": "",
+    "career_page_url": "https://career4.successfactors.com/career?career_ns=job_listing&company=C0004832834P&career_job_req_id=10622",
+    "board_token": null,
+    "domain_hint": "",
+    "source_platforms": [
+      "niche_datasets"
+    ]
+  },
+  {
+    "company_name": "Stericycle",
+    "website": "",
+    "career_page_url": "https://career4.successfactors.com/sfcareer/jobreqcareer?jobId=7269&company=stericycle",
+    "board_token": null,
+    "domain_hint": "",
+    "source_platforms": [
+      "niche_datasets"
+    ]
+  },
+  {
+    "company_name": "YP's Platform Data Services",
+    "website": "",
+    "career_page_url": "https://career4.successfactors.com/sfcareer/jobreqcareer?jobId=17081&company=YP&username",
+    "board_token": null,
+    "domain_hint": "",
+    "source_platforms": [
+      "niche_datasets"
+    ]
+  }
+]

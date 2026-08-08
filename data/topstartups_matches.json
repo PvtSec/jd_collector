@@ -1,0 +1,1208 @@
+[
+  {
+    "company": "Cognition",
+    "ats": "ashby",
+    "board_url": "https://jobs.ashbyhq.com/cognition",
+    "tier": "core",
+    "jobs": [
+      {
+        "title": "QA Engineer",
+        "location": "India",
+        "url": "https://jobs.ashbyhq.com/cognition/e6f55fdf-151d-4282-a600-b92e4124732f",
+        "tier": "core"
+      },
+      {
+        "title": "Security Engineer",
+        "location": "San Francisco",
+        "url": "https://jobs.ashbyhq.com/cognition/71165bb4-9bc8-49df-9eca-49c4232f72ff",
+        "tier": "adjacent"
+      }
+    ]
+  },
+  {
+    "company": "Collective Health",
+    "ats": "unknown",
+    "board_url": "https://jobs.collectivehealth.com/apply/",
+    "tier": "core",
+    "jobs": [
+      {
+        "title": "Senior Software Engineer in Test (AI Agentic Systems)",
+        "location": "Lehi, UT | Plano, TX",
+        "url": "https://jobs.collectivehealth.com/apply/",
+        "tier": "core"
+      }
+    ]
+  },
+  {
+    "company": "Cresta",
+    "ats": "greenhouse",
+    "board_url": "https://boards.greenhouse.io/cresta",
+    "tier": "core",
+    "jobs": [
+      {
+        "title": "Software Engineer in Test (Berlin) tags.new",
+        "location": "Berlin, Germany",
+        "url": "https://job-boards.greenhouse.io/cresta/jobs/5030433008",
+        "tier": "core"
+      }
+    ]
+  },
+  {
+    "company": "Cross River Bank",
+    "ats": "unknown",
+    "board_url": "https://www.crossriver.com/greenhouse",
+    "tier": "core",
+    "jobs": [
+      {
+        "title": "Senior QA EngineerNew",
+        "location": "Barcelona, Spain",
+        "url": "https://www.crossriver.com/greenhouse",
+        "tier": "core"
+      }
+    ]
+  },
+  {
+    "company": "Dialpad",
+    "ats": "greenhouse",
+    "board_url": "https://boards.greenhouse.io/dialpad",
+    "tier": "core",
+    "jobs": [
+      {
+        "title": "Sr. SDETNew",
+        "location": "Kitchener, Canada",
+        "url": "https://job-boards.greenhouse.io/dialpad/jobs/8495374002",
+        "tier": "core"
+      },
+      {
+        "title": "Sr. SDETtags.new",
+        "location": "Vancouver, Canada",
+        "url": "https://job-boards.greenhouse.io/dialpad/jobs/8475155002",
+        "tier": "core"
+      },
+      {
+        "title": "Security EngineerNew",
+        "location": "Bengaluru, India",
+        "url": "https://job-boards.greenhouse.io/dialpad/jobs/8561223002",
+        "tier": "adjacent"
+      }
+    ]
+  },
+  {
+    "company": "Druva",
+    "ats": "unknown",
+    "board_url": "https://www.druva.com/why-druva/explore/careers/jobs/8408012002/",
+    "tier": "core",
+    "jobs": [
+      {
+        "title": "Senior Staff Software Engineer in Test",
+        "location": "Pune, Maharashtra, India",
+        "url": "https://www.druva.com/why-druva/explore/careers/jobs/8408012002/",
+        "tier": "core"
+      },
+      {
+        "title": "Staff Software Engineer in Test",
+        "location": "Pune, Maharashtra, India",
+        "url": "https://www.druva.com/why-druva/explore/careers/jobs/8308808002/",
+        "tier": "core"
+      }
+    ]
+  },
+  {
+    "company": "Earnin",
+    "ats": "greenhouse",
+    "board_url": "https://boards.greenhouse.io/earnin",
+    "tier": "core",
+    "jobs": [
+      {
+        "title": "Senior Software Quality Engineer (SDET)New",
+        "location": "Mountain View, US",
+        "url": "https://job-boards.greenhouse.io/earnin/jobs/7403324",
+        "tier": "core"
+      },
+      {
+        "title": "Senior Security EngineerNew",
+        "location": "Remote, Mexico",
+        "url": "https://job-boards.greenhouse.io/earnin/jobs/8067780",
+        "tier": "adjacent"
+      }
+    ]
+  },
+  {
+    "company": "Ethos Life",
+    "ats": "greenhouse",
+    "board_url": "https://boards.greenhouse.io/ethoslife",
+    "tier": "core",
+    "jobs": [
+      {
+        "title": "AI Red Team Security Engineertags.new",
+        "location": "Remote US",
+        "url": "https://job-boards.greenhouse.io/ethoslife/jobs/8591178002",
+        "tier": "core"
+      }
+    ]
+  },
+  {
+    "company": "Flock Safety",
+    "ats": "ashby",
+    "board_url": "https://jobs.ashbyhq.com/Flock%20Safety",
+    "tier": "core",
+    "jobs": [
+      {
+        "title": "Senior Software QA Engineer, Aviation",
+        "location": "Atlanta, GA",
+        "url": "https://jobs.ashbyhq.com/Flock%20Safety/f42893c4-390c-40b6-b47e-0932c9a3822f",
+        "tier": "core"
+      },
+      {
+        "title": "Staff Security Engineer, PSIRT",
+        "location": "Remote - USA",
+        "url": "https://jobs.ashbyhq.com/Flock%20Safety/b8b6417e-d481-490a-a71c-5f86345f2740",
+        "tier": "adjacent"
+      }
+    ]
+  },
+  {
+    "company": "OpenAI",
+    "ats": "ashby",
+    "board_url": "https://jobs.ashbyhq.com/openai",
+    "tier": "core",
+    "jobs": [
+      {
+        "title": "Biosafety Red Teaming Specialist",
+        "location": "San Francisco",
+        "url": "https://jobs.ashbyhq.com/openai/811eaa16-7a8e-48e6-8cfd-194330f1341d",
+        "tier": "core"
+      },
+      {
+        "title": "Researcher, Automated Red Teaming",
+        "location": "San Francisco",
+        "url": "https://jobs.ashbyhq.com/openai/bf7d2623-7846-410c-87f8-c628915ec16c",
+        "tier": "core"
+      },
+      {
+        "title": "Offensive Security Agent Engineer",
+        "location": "Remote - US",
+        "url": "https://jobs.ashbyhq.com/openai/dd7443fe-a7b8-4794-8dd5-cb7d14c00c64",
+        "tier": "core"
+      },
+      {
+        "title": "Offensive Security Engineer, Agent Security",
+        "location": "San Francisco",
+        "url": "https://jobs.ashbyhq.com/openai/bb97fffc-cdda-43a3-a6bc-234f9c031720",
+        "tier": "core"
+      },
+      {
+        "title": "Forward Deployed Security Engineer",
+        "location": "Washington, DC",
+        "url": "https://jobs.ashbyhq.com/openai/89d61ae8-1ce1-4187-9edd-da8029979e41",
+        "tier": "adjacent"
+      },
+      {
+        "title": "Security Engineer, Host Assurance",
+        "location": "San Francisco",
+        "url": "https://jobs.ashbyhq.com/openai/3de4718b-8f4c-4b63-8637-02077a0113aa",
+        "tier": "adjacent"
+      },
+      {
+        "title": "Security Engineer, Insider Threat Detection & Response",
+        "location": "San Francisco",
+        "url": "https://jobs.ashbyhq.com/openai/f84dbb5c-6008-40f1-b388-1434d159d4a4",
+        "tier": "adjacent"
+      },
+      {
+        "title": "Security Engineer, Infrastructure Security",
+        "location": "Remote - US",
+        "url": "https://jobs.ashbyhq.com/openai/f51f750f-a737-4441-8f96-30133a2a8049",
+        "tier": "adjacent"
+      },
+      {
+        "title": "Security Engineer, Detection and Response",
+        "location": "Sydney, Australia",
+        "url": "https://jobs.ashbyhq.com/openai/3728b144-f640-42be-84af-94f6b0743d7c",
+        "tier": "adjacent"
+      },
+      {
+        "title": "Security Engineer, Agent Security",
+        "location": "San Francisco",
+        "url": "https://jobs.ashbyhq.com/openai/e9bea775-7eb6-438a-ab96-27d5f941e69d",
+        "tier": "adjacent"
+      },
+      {
+        "title": "Security Engineer, Detection and Response",
+        "location": "London, UK",
+        "url": "https://jobs.ashbyhq.com/openai/2d8b30c7-afa3-42ca-b315-ead35e8457ab",
+        "tier": "adjacent"
+      },
+      {
+        "title": "Security Engineer, Application Security",
+        "location": "Seattle",
+        "url": "https://jobs.ashbyhq.com/openai/1e110226-448a-4c0b-b0e4-d0f5df579fbf",
+        "tier": "adjacent"
+      },
+      {
+        "title": "Security Engineer, Application Security",
+        "location": "New York City",
+        "url": "https://jobs.ashbyhq.com/openai/ec5a5d98-6314-44d9-9466-8d4d7ee866f6",
+        "tier": "adjacent"
+      },
+      {
+        "title": "Security Engineer, Application Security",
+        "location": "San Francisco",
+        "url": "https://jobs.ashbyhq.com/openai/0322d6d8-6588-4209-a304-83e768063a25",
+        "tier": "adjacent"
+      }
+    ]
+  },
+  {
+    "company": "Pindrop Security",
+    "ats": "unknown",
+    "board_url": "https://www.pindrop.com/careers/job-title/",
+    "tier": "core",
+    "jobs": [
+      {
+        "title": "Senior Security Engineer (Red Team)New",
+        "location": "US - Remote; US-Remote",
+        "url": "https://www.pindrop.com/careers/job-title/",
+        "tier": "core"
+      }
+    ]
+  },
+  {
+    "company": "Shift Technology",
+    "ats": "greenhouse",
+    "board_url": "https://boards.greenhouse.io/shifttechnology",
+    "tier": "core",
+    "jobs": [
+      {
+        "title": "QA Engineer - ISTQB foundation certifiedNew",
+        "location": "France - Paris",
+        "url": "https://job-boards.greenhouse.io/shifttechnology/jobs/7676860003",
+        "tier": "core"
+      }
+    ]
+  },
+  {
+    "company": "Speak",
+    "ats": "ashby",
+    "board_url": "https://jobs.ashbyhq.com/speak",
+    "tier": "core",
+    "jobs": [
+      {
+        "title": "QA Engineer",
+        "location": "San Francisco",
+        "url": "https://jobs.ashbyhq.com/speak/b05cda50-a4f8-4c74-aafe-5b4ad57bba0e",
+        "tier": "core"
+      }
+    ]
+  },
+  {
+    "company": "Tala",
+    "ats": "lever",
+    "board_url": "https://jobs.lever.co/tala",
+    "tier": "core",
+    "jobs": [
+      {
+        "title": "Senior SDET",
+        "location": "Mexico",
+        "url": "https://jobs.lever.co/tala/3f5a4c31-92c2-4cec-8b52-4ab7b8aba8c2",
+        "tier": "core"
+      },
+      {
+        "title": "SDET II",
+        "location": "IN - Remote",
+        "url": "https://jobs.lever.co/tala/ad2121e6-4421-4858-a3b3-5e5bc36e6bc9",
+        "tier": "core"
+      }
+    ]
+  },
+  {
+    "company": "Zinier",
+    "ats": "breezyhr",
+    "board_url": "https://zinier.breezy.hr",
+    "tier": "core",
+    "jobs": [
+      {
+        "title": "SDET-Mobile",
+        "location": "Bangalore, IN%LABEL_POSITION_TYPE_FULL_TIME%Engineering-Mobile",
+        "url": "https://zinier.breezy.hr/p/12729115a11b-sdet-mobile",
+        "tier": "core"
+      },
+      {
+        "title": "SDET Lead",
+        "location": "Bangalore, INSolutions",
+        "url": "https://zinier.breezy.hr/p/d4f938cb9ba4-sdet-lead",
+        "tier": "core"
+      },
+      {
+        "title": "SDET-2",
+        "location": "Bangalore, INEngineering",
+        "url": "https://zinier.breezy.hr/p/895a2237d56c-sdet-2",
+        "tier": "core"
+      }
+    ]
+  },
+  {
+    "company": "Abridge",
+    "ats": "ashby",
+    "board_url": "https://jobs.ashbyhq.com/Abridge",
+    "tier": "adjacent",
+    "jobs": [
+      {
+        "title": "Staff Application Security Engineer",
+        "location": "SF Office",
+        "url": "https://jobs.ashbyhq.com/Abridge/b8206fdb-4d85-472c-bd8f-7c7a2dcbfa69",
+        "tier": "adjacent"
+      },
+      {
+        "title": "Senior/Staff Enterprise Security Engineer",
+        "location": "San Francisco-Hybrid",
+        "url": "https://jobs.ashbyhq.com/Abridge/fe4bb4c9-9834-48a6-8f02-8f0ce03db78c",
+        "tier": "adjacent"
+      },
+      {
+        "title": "Senior Security Engineer",
+        "location": "New York City-Hybrid",
+        "url": "https://jobs.ashbyhq.com/Abridge/57967034-08cb-4cfe-8243-4e9564acc32e",
+        "tier": "adjacent"
+      }
+    ]
+  },
+  {
+    "company": "Airtable",
+    "ats": "greenhouse",
+    "board_url": "https://boards.greenhouse.io/airtable",
+    "tier": "adjacent",
+    "jobs": [
+      {
+        "title": "Product Security EngineerNew",
+        "location": "San Francisco, CA; New York, NY; Remote (Seattle, WA only)",
+        "url": "https://job-boards.greenhouse.io/airtable/jobs/8533547002",
+        "tier": "adjacent"
+      }
+    ]
+  },
+  {
+    "company": "Algolia",
+    "ats": "greenhouse",
+    "board_url": "https://boards.greenhouse.io/algolia",
+    "tier": "adjacent",
+    "jobs": [
+      {
+        "title": "Information Security EngineerNew",
+        "location": "Remote - United Kingdom",
+        "url": "https://job-boards.greenhouse.io/algolia/jobs/6112872004",
+        "tier": "adjacent"
+      }
+    ]
+  },
+  {
+    "company": "Anchorage",
+    "ats": "lever",
+    "board_url": "https://jobs.lever.co/anchorage",
+    "tier": "adjacent",
+    "jobs": [
+      {
+        "title": "Member of the Technical Staff, Security Engineering, Cryptography",
+        "location": "United States",
+        "url": "https://jobs.lever.co/anchorage/e5d0f1ac-3126-481e-857f-db6ae8eb67e9",
+        "tier": "adjacent"
+      }
+    ]
+  },
+  {
+    "company": "Apollo.io",
+    "ats": "greenhouse",
+    "board_url": "https://boards.greenhouse.io/apolloio",
+    "tier": "adjacent",
+    "jobs": [
+      {
+        "title": "Senior Application Security Engineer",
+        "location": "Remote, Canada; Remote, United States",
+        "url": "https://job-boards.greenhouse.io/apolloio/jobs/6020809004",
+        "tier": "adjacent"
+      }
+    ]
+  },
+  {
+    "company": "Astranis",
+    "ats": "greenhouse",
+    "board_url": "https://boards.greenhouse.io/astranis",
+    "tier": "adjacent",
+    "jobs": [
+      {
+        "title": "Senior Product Security EngineerNew",
+        "location": "San Francisco",
+        "url": "https://job-boards.greenhouse.io/astranis/jobs/4667349006",
+        "tier": "adjacent"
+      },
+      {
+        "title": "Product Security Engineer New",
+        "location": "San Francisco",
+        "url": "https://job-boards.greenhouse.io/astranis/jobs/4667335006",
+        "tier": "adjacent"
+      }
+    ]
+  },
+  {
+    "company": "Axonius",
+    "ats": "unknown",
+    "board_url": "https://www.axonius.com/company/careers/open-jobs",
+    "tier": "adjacent",
+    "jobs": [
+      {
+        "title": "Senior Product Security Architecttags.new",
+        "location": "Tel Aviv, Israel",
+        "url": "https://www.axonius.com/company/careers/open-jobs",
+        "tier": "adjacent"
+      }
+    ]
+  },
+  {
+    "company": "Betterment",
+    "ats": "unknown",
+    "board_url": "https://www.betterment.com/careers/current-openings/job",
+    "tier": "adjacent",
+    "jobs": [
+      {
+        "title": "Sr. Security Engineer, Corporate Information Security",
+        "location": "Betterment HQ - New York City",
+        "url": "https://www.betterment.com/careers/current-openings/job",
+        "tier": "adjacent"
+      }
+    ]
+  },
+  {
+    "company": "Brex",
+    "ats": "unknown",
+    "board_url": "https://www.brex.com/careers/8590025002",
+    "tier": "adjacent",
+    "jobs": [
+      {
+        "title": "Senior Application Security Engineer (Remote)New",
+        "location": "United States",
+        "url": "https://www.brex.com/careers/8590025002",
+        "tier": "adjacent"
+      },
+      {
+        "title": "Senior Application Security Engineer",
+        "location": "Remote",
+        "url": "https://www.brex.com/careers/8426273002",
+        "tier": "adjacent"
+      }
+    ]
+  },
+  {
+    "company": "Cedar",
+    "ats": "unknown",
+    "board_url": "https://www.cedar.com/careers/open-roles",
+    "tier": "adjacent",
+    "jobs": [
+      {
+        "title": "Product Security EngineerNew",
+        "location": "USA",
+        "url": "https://www.cedar.com/careers/open-roles",
+        "tier": "adjacent"
+      }
+    ]
+  },
+  {
+    "company": "Chainalysis",
+    "ats": "ashby",
+    "board_url": "https://jobs.ashbyhq.com/chainalysis-careers",
+    "tier": "adjacent",
+    "jobs": [
+      {
+        "title": "Staff Security Engineer, Product Security",
+        "location": "United Kingdom",
+        "url": "https://jobs.ashbyhq.com/chainalysis-careers/59319ac8-2eba-4b86-9d34-3ecc082e98d1",
+        "tier": "adjacent"
+      }
+    ]
+  },
+  {
+    "company": "Clay",
+    "ats": "ashby",
+    "board_url": "https://jobs.ashbyhq.com/claylabs",
+    "tier": "adjacent",
+    "jobs": [
+      {
+        "title": "Security Engineer",
+        "location": "New York",
+        "url": "https://jobs.ashbyhq.com/claylabs/235c38ee-4c08-462d-b9b3-eadc156b1810",
+        "tier": "adjacent"
+      }
+    ]
+  },
+  {
+    "company": "Clearco",
+    "ats": "greenhouse",
+    "board_url": "https://boards.greenhouse.io/clear",
+    "tier": "adjacent",
+    "jobs": [
+      {
+        "title": "Senior Product Security EngineerNew",
+        "location": "New York, New York, United States",
+        "url": "https://job-boards.greenhouse.io/clear/jobs/8042362",
+        "tier": "adjacent"
+      }
+    ]
+  },
+  {
+    "company": "Coder",
+    "ats": "ashby",
+    "board_url": "https://jobs.ashbyhq.com/Coder",
+    "tier": "adjacent",
+    "jobs": [
+      {
+        "title": "Security Engineer (Infrastructure)",
+        "location": "United States",
+        "url": "https://jobs.ashbyhq.com/Coder/aef33306-d7fa-437e-9e81-b53c42f37f2b",
+        "tier": "adjacent"
+      },
+      {
+        "title": "Senior Security Engineer (IT)",
+        "location": "United Kingdom",
+        "url": "https://jobs.ashbyhq.com/Coder/63c11ed9-58e1-45fb-8fcd-ca49a09ba2a4",
+        "tier": "adjacent"
+      }
+    ]
+  },
+  {
+    "company": "Decagon",
+    "ats": "ashby",
+    "board_url": "https://jobs.ashbyhq.com/decagon",
+    "tier": "adjacent",
+    "jobs": [
+      {
+        "title": "Security Engineer",
+        "location": "San Francisco",
+        "url": "https://jobs.ashbyhq.com/decagon/3998068a-4ce9-4a70-b9c0-7e89ef531331",
+        "tier": "adjacent"
+      },
+      {
+        "title": "Senior Security Engineer",
+        "location": "San Francisco",
+        "url": "https://jobs.ashbyhq.com/decagon/a365149d-2cad-4dbb-974e-d3556b550259",
+        "tier": "adjacent"
+      }
+    ]
+  },
+  {
+    "company": "DevRev",
+    "ats": "greenhouse",
+    "board_url": "https://boards.greenhouse.io/devrev",
+    "tier": "adjacent",
+    "jobs": [
+      {
+        "title": "Product Security Engineer",
+        "location": "Bangalore, India",
+        "url": "https://job-boards.greenhouse.io/devrev/jobs/5820458004",
+        "tier": "adjacent"
+      }
+    ]
+  },
+  {
+    "company": "Discord",
+    "ats": "greenhouse",
+    "board_url": "https://boards.greenhouse.io/discord",
+    "tier": "adjacent",
+    "jobs": [
+      {
+        "title": "Senior Security Engineer, Enterprise Securitytags.new",
+        "location": "San Francisco Bay Area",
+        "url": "https://job-boards.greenhouse.io/discord/jobs/8447477002",
+        "tier": "adjacent"
+      }
+    ]
+  },
+  {
+    "company": "EO Solutions",
+    "ats": "unknown",
+    "board_url": "https://docs.google.com/document/d/1UfgOf2JJn8DUVRdk8byTr2uoZx4DlQDT/edit",
+    "tier": "adjacent",
+    "jobs": [
+      {
+        "title": "Senior DevSecOps Engineer",
+        "location": "Las Vegas, NV",
+        "url": "https://docs.google.com/document/d/1UfgOf2JJn8DUVRdk8byTr2uoZx4DlQDT/edit",
+        "tier": "adjacent"
+      }
+    ]
+  },
+  {
+    "company": "Everlaw",
+    "ats": "greenhouse",
+    "board_url": "https://boards.greenhouse.io/everlaw",
+    "tier": "adjacent",
+    "jobs": [
+      {
+        "title": "Senior Software Security EngineerNew",
+        "location": "Oakland, California, United States",
+        "url": "https://job-boards.greenhouse.io/everlaw/jobs/4691763006",
+        "tier": "adjacent"
+      },
+      {
+        "title": "Security Engineer (Security Operations) New",
+        "location": "Oakland, California, United States",
+        "url": "https://job-boards.greenhouse.io/everlaw/jobs/4679241006",
+        "tier": "adjacent"
+      }
+    ]
+  },
+  {
+    "company": "Faire",
+    "ats": "greenhouse",
+    "board_url": "https://boards.greenhouse.io/faire",
+    "tier": "adjacent",
+    "jobs": [
+      {
+        "title": "Staff Engineer - Product SecurityNew",
+        "location": "San Francisco, CA",
+        "url": "https://boards.greenhouse.io/faire/jobs/8552826002",
+        "tier": "adjacent"
+      },
+      {
+        "title": "Staff Engineer - Product SecurityNew",
+        "location": "Toronto, ON",
+        "url": "https://boards.greenhouse.io/faire/jobs/8552817002",
+        "tier": "adjacent"
+      },
+      {
+        "title": "Senior Staff Engineer - Product Security",
+        "location": "Toronto, ON",
+        "url": "https://boards.greenhouse.io/faire/jobs/8462925002",
+        "tier": "adjacent"
+      },
+      {
+        "title": "Senior Staff Engineer - Product Security",
+        "location": "San Francisco, CA",
+        "url": "https://boards.greenhouse.io/faire/jobs/8462924002",
+        "tier": "adjacent"
+      }
+    ]
+  },
+  {
+    "company": "FamPay India",
+    "ats": "lever",
+    "board_url": "https://jobs.lever.co/fampay",
+    "tier": "adjacent",
+    "jobs": [
+      {
+        "title": "Security Engineer 2",
+        "location": "Bengaluru",
+        "url": "https://jobs.lever.co/fampay/df8548ac-a0e4-4cd6-a97c-427231b4b3e9",
+        "tier": "adjacent"
+      }
+    ]
+  },
+  {
+    "company": "Gecko Robotics",
+    "ats": "ashby",
+    "board_url": "https://jobs.ashbyhq.com/gecko-robotics",
+    "tier": "adjacent",
+    "jobs": [
+      {
+        "title": "Product Security Engineer",
+        "location": "New York City",
+        "url": "https://jobs.ashbyhq.com/gecko-robotics/4f9d2891-9017-4578-aaf9-3435c87d3375",
+        "tier": "adjacent"
+      }
+    ]
+  },
+  {
+    "company": "Gong.io",
+    "ats": "greenhouse",
+    "board_url": "https://boards.greenhouse.io/gongio",
+    "tier": "adjacent",
+    "jobs": [
+      {
+        "title": "Application Security Team LeadNew",
+        "location": "Tel Aviv",
+        "url": "https://job-boards.greenhouse.io/gongio/jobs/4668069006",
+        "tier": "adjacent"
+      },
+      {
+        "title": "Product Security Architect",
+        "location": "Dublin",
+        "url": "https://job-boards.greenhouse.io/gongio/jobs/4395203006",
+        "tier": "adjacent"
+      }
+    ]
+  },
+  {
+    "company": "Guild Education",
+    "ats": "unknown",
+    "board_url": "https://www.guild.com/open-positions-at-guild",
+    "tier": "adjacent",
+    "jobs": [
+      {
+        "title": "Senior Information Security Engineer",
+        "location": "United States",
+        "url": "https://www.guild.com/open-positions-at-guild",
+        "tier": "adjacent"
+      }
+    ]
+  },
+  {
+    "company": "Harvey",
+    "ats": "ashby",
+    "board_url": "https://jobs.ashbyhq.com/harvey",
+    "tier": "adjacent",
+    "jobs": [
+      {
+        "title": "Detection & Response Security Engineer",
+        "location": "New York",
+        "url": "https://jobs.ashbyhq.com/harvey/a69d1923-89dc-499c-ad87-5597ea1b9b10",
+        "tier": "adjacent"
+      },
+      {
+        "title": "Staff Product Security Engineer",
+        "location": "New York",
+        "url": "https://jobs.ashbyhq.com/harvey/ca25e4fd-45bc-48ef-9089-0a160e1845f8",
+        "tier": "adjacent"
+      },
+      {
+        "title": "Detection & Response Security Engineer",
+        "location": "San Francisco",
+        "url": "https://jobs.ashbyhq.com/harvey/bca707ed-5c96-44d2-8430-8b6fafc35f45",
+        "tier": "adjacent"
+      },
+      {
+        "title": "Product Security Engineer",
+        "location": "San Francisco",
+        "url": "https://jobs.ashbyhq.com/harvey/50a8df2a-c50e-4326-ae90-0c9f8ee0cf1d",
+        "tier": "adjacent"
+      },
+      {
+        "title": "Staff Product Security Engineer",
+        "location": "San Francisco",
+        "url": "https://jobs.ashbyhq.com/harvey/d2aaaa58-eb59-42ba-9a62-ca6ce4cdf206",
+        "tier": "adjacent"
+      }
+    ]
+  },
+  {
+    "company": "Human Interest",
+    "ats": "greenhouse",
+    "board_url": "https://boards.greenhouse.io/humaninterest",
+    "tier": "adjacent",
+    "jobs": [
+      {
+        "title": "Security Engineer IINew",
+        "location": "United States, Remote",
+        "url": "https://job-boards.greenhouse.io/humaninterest/jobs/7565471",
+        "tier": "adjacent"
+      }
+    ]
+  },
+  {
+    "company": "Ironclad",
+    "ats": "ashby",
+    "board_url": "https://jobs.ashbyhq.com/ironcladhq",
+    "tier": "adjacent",
+    "jobs": [
+      {
+        "title": "Staff Application Security Engineer",
+        "location": "San Francisco",
+        "url": "https://jobs.ashbyhq.com/ironcladhq/b5d4466f-ffe3-4b31-9463-22a926206ece",
+        "tier": "adjacent"
+      }
+    ]
+  },
+  {
+    "company": "LaunchDarkly",
+    "ats": "greenhouse",
+    "board_url": "https://boards.greenhouse.io/launchdarkly",
+    "tier": "adjacent",
+    "jobs": [
+      {
+        "title": "Product Security Engineer",
+        "location": "Remote - US West",
+        "url": "https://job-boards.greenhouse.io/launchdarkly/jobs/7736270003",
+        "tier": "adjacent"
+      }
+    ]
+  },
+  {
+    "company": "ManyChat",
+    "ats": "greenhouse",
+    "board_url": "https://boards.greenhouse.io/manychat",
+    "tier": "adjacent",
+    "jobs": [
+      {
+        "title": "Security EngineerNew",
+        "location": "Honduras",
+        "url": "https://boards.greenhouse.io/manychat/jobs/8638906002",
+        "tier": "adjacent"
+      }
+    ]
+  },
+  {
+    "company": "Maven Clinic",
+    "ats": "greenhouse",
+    "board_url": "https://boards.greenhouse.io/mavenclinic",
+    "tier": "adjacent",
+    "jobs": [
+      {
+        "title": "Staff Security Engineertags.new",
+        "location": "New York, NY; Remote, US (Hub cities)",
+        "url": "https://job-boards.greenhouse.io/mavenclinic/jobs/8330458002",
+        "tier": "adjacent"
+      }
+    ]
+  },
+  {
+    "company": "May Mobility",
+    "ats": "greenhouse",
+    "board_url": "https://boards.greenhouse.io/maymobility",
+    "tier": "adjacent",
+    "jobs": [
+      {
+        "title": "Product Cybersecurity Engineertags.new",
+        "location": "Remote, USA",
+        "url": "https://job-boards.greenhouse.io/maymobility/jobs/8497183002",
+        "tier": "adjacent"
+      }
+    ]
+  },
+  {
+    "company": "Modern Health",
+    "ats": "greenhouse",
+    "board_url": "https://boards.greenhouse.io/modernhealth",
+    "tier": "adjacent",
+    "jobs": [
+      {
+        "title": "Product Security EngineerNew",
+        "location": "Remote - US",
+        "url": "https://job-boards.greenhouse.io/modernhealth/jobs/8451922002",
+        "tier": "adjacent"
+      }
+    ]
+  },
+  {
+    "company": "Netskope",
+    "ats": "unknown",
+    "board_url": "https://www.netskope.com/company/careers/open-positions/",
+    "tier": "adjacent",
+    "jobs": [
+      {
+        "title": "Sr. AI Security Engineer",
+        "location": "Bengaluru, Karnataka, India",
+        "url": "https://www.netskope.com/company/careers/open-positions/",
+        "tier": "adjacent"
+      }
+    ]
+  },
+  {
+    "company": "Nomagic",
+    "ats": "lever",
+    "board_url": "https://jobs.lever.co/Nomagic",
+    "tier": "adjacent",
+    "jobs": [
+      {
+        "title": "IT & Security Engineer",
+        "location": "Warsaw, Poland",
+        "url": "https://jobs.lever.co/Nomagic/1ae7be9e-054b-456b-b539-e7ecbf1c76b6",
+        "tier": "adjacent"
+      }
+    ]
+  },
+  {
+    "company": "Nubank",
+    "ats": "greenhouse",
+    "board_url": "https://boards.greenhouse.io/nubank",
+    "tier": "adjacent",
+    "jobs": [
+      {
+        "title": "Senior Security Engineer (Blockchain Security) - BR - 2026New",
+        "location": "Brazil, Belo Horizonte; Brazil, Campinas; Brazil, Rio de Janeiro; Brazil, Sao Paulo",
+        "url": "https://job-boards.greenhouse.io/nubank/jobs/8073188",
+        "tier": "adjacent"
+      }
+    ]
+  },
+  {
+    "company": "Pair Team",
+    "ats": "greenhouse",
+    "board_url": "https://boards.greenhouse.io/pairteam",
+    "tier": "adjacent",
+    "jobs": [
+      {
+        "title": "Senior Security Engineer",
+        "location": "Remote (United States)",
+        "url": "https://job-boards.greenhouse.io/pairteam/jobs/8580695002",
+        "tier": "adjacent"
+      }
+    ]
+  },
+  {
+    "company": "Ramp",
+    "ats": "ashby",
+    "board_url": "https://jobs.ashbyhq.com/ramp",
+    "tier": "adjacent",
+    "jobs": [
+      {
+        "title": "Senior Security Engineer, Endpoint",
+        "location": "New York, NY (HQ)",
+        "url": "https://jobs.ashbyhq.com/ramp/e5232cce-a23a-4f03-b12e-dac510d08cd3",
+        "tier": "adjacent"
+      },
+      {
+        "title": "Security Engineer, Privacy",
+        "location": "New York, NY (HQ)",
+        "url": "https://jobs.ashbyhq.com/ramp/95f450a1-0d38-4d58-9aac-9d7e655adc36",
+        "tier": "adjacent"
+      },
+      {
+        "title": "Security Engineer | Product",
+        "location": "New York, NY (HQ)",
+        "url": "https://jobs.ashbyhq.com/ramp/7c26780b-7923-42d5-8111-9825ff996966",
+        "tier": "adjacent"
+      }
+    ]
+  },
+  {
+    "company": "Replit",
+    "ats": "ashby",
+    "board_url": "https://jobs.ashbyhq.com/replit",
+    "tier": "adjacent",
+    "jobs": [
+      {
+        "title": "Security Engineer - Vuln Management (Infra)",
+        "location": "Foster City, CA",
+        "url": "https://jobs.ashbyhq.com/replit/4b290489-9ce6-45f9-bbc8-e1baa4bd8b6f",
+        "tier": "adjacent"
+      },
+      {
+        "title": "Security Engineer - Vuln Management (Code)",
+        "location": "Foster City, CA",
+        "url": "https://jobs.ashbyhq.com/replit/e2e3345e-251c-49c4-821b-6748d73efaeb",
+        "tier": "adjacent"
+      },
+      {
+        "title": "Product Security Engineer (PSIRT - Product Security Incident Response Team)",
+        "location": "Foster City, CA",
+        "url": "https://jobs.ashbyhq.com/replit/1634b879-80c7-4064-be0a-8a4aecc81923",
+        "tier": "adjacent"
+      },
+      {
+        "title": "Product Security Architect",
+        "location": "Foster City, CA",
+        "url": "https://jobs.ashbyhq.com/replit/16f1c784-449b-4c84-bee7-b2bf18768977",
+        "tier": "adjacent"
+      }
+    ]
+  },
+  {
+    "company": "Samsara",
+    "ats": "unknown",
+    "board_url": "https://www.samsara.com/company/careers/roles/8038153",
+    "tier": "adjacent",
+    "jobs": [
+      {
+        "title": "Senior Security EngineerNew",
+        "location": "Remote - UK",
+        "url": "https://www.samsara.com/company/careers/roles/8038153",
+        "tier": "adjacent"
+      },
+      {
+        "title": "Sr. Security Engineer - Enterprise SecurityNew",
+        "location": "Remote - Vancouver",
+        "url": "https://www.samsara.com/company/careers/roles/7834975",
+        "tier": "adjacent"
+      },
+      {
+        "title": "Sr. Security Engineer I - Enterprise SecurityNew",
+        "location": "Remote - Austin",
+        "url": "https://www.samsara.com/company/careers/roles/7752492",
+        "tier": "adjacent"
+      }
+    ]
+  },
+  {
+    "company": "SendBird",
+    "ats": "unknown",
+    "board_url": "https://sendbird.com/careers",
+    "tier": "adjacent",
+    "jobs": [
+      {
+        "title": "Security EngineerNew",
+        "location": "Seoul, South Korea",
+        "url": "https://sendbird.com/careers",
+        "tier": "adjacent"
+      }
+    ]
+  },
+  {
+    "company": "Shield AI",
+    "ats": "lever",
+    "board_url": "https://jobs.lever.co/shieldai",
+    "tier": "adjacent",
+    "jobs": [
+      {
+        "title": "Sr. Staff System Security Engineer (R5357)",
+        "location": "Dallas, Texas / San Diego, California",
+        "url": "https://jobs.lever.co/shieldai/d4a81e6f-0c0e-4dc4-be2c-97af694c5684",
+        "tier": "adjacent"
+      },
+      {
+        "title": "Senior Staff Cybersecurity Engineer, Platform Security (R5219)",
+        "location": "San Diego, California",
+        "url": "https://jobs.lever.co/shieldai/6504c787-5aff-41ad-9104-2d251bf9eb12",
+        "tier": "adjacent"
+      }
+    ]
+  },
+  {
+    "company": "Socket",
+    "ats": "ashby",
+    "board_url": "https://jobs.ashbyhq.com/socket",
+    "tier": "adjacent",
+    "jobs": [
+      {
+        "title": "Staff Security Engineer",
+        "location": "United States",
+        "url": "https://jobs.ashbyhq.com/socket/e30baac3-a97b-4e09-84af-d406801c04ae",
+        "tier": "adjacent"
+      }
+    ]
+  },
+  {
+    "company": "Sourcegraph",
+    "ats": "greenhouse",
+    "board_url": "https://boards.greenhouse.io/sourcegraph91",
+    "tier": "adjacent",
+    "jobs": [
+      {
+        "title": "Security Engineer [IC3]New",
+        "location": "Remote",
+        "url": "https://job-boards.greenhouse.io/sourcegraph91/jobs/6007621004",
+        "tier": "adjacent"
+      }
+    ]
+  },
+  {
+    "company": "Stoke Space",
+    "ats": "unknown",
+    "board_url": "https://stokespace.com/careers/current-openings",
+    "tier": "adjacent",
+    "jobs": [
+      {
+        "title": "Information Systems Security Engineer",
+        "location": "Kent, Washington, United States",
+        "url": "https://stokespace.com/careers/current-openings",
+        "tier": "adjacent"
+      }
+    ]
+  },
+  {
+    "company": "Stripe",
+    "ats": "unknown",
+    "board_url": "https://stripe.com/jobs/search",
+    "tier": "adjacent",
+    "jobs": [
+      {
+        "title": "Security Engineer IC-03New",
+        "location": "South San Francisco, CA and US-Remote",
+        "url": "https://stripe.com/jobs/search",
+        "tier": "adjacent"
+      }
+    ]
+  },
+  {
+    "company": "Temporal",
+    "ats": "greenhouse",
+    "board_url": "https://boards.greenhouse.io/temporaltechnologies",
+    "tier": "adjacent",
+    "jobs": [
+      {
+        "title": "Senior Security Engineer, GRCNew",
+        "location": "United States and Canada - Remote Opportunity",
+        "url": "https://job-boards.greenhouse.io/temporaltechnologies/jobs/5167911007",
+        "tier": "adjacent"
+      },
+      {
+        "title": "Staff Cloud Security Engineertags.new",
+        "location": "United States - Remote Opportunity",
+        "url": "https://job-boards.greenhouse.io/temporaltechnologies/jobs/5151694007",
+        "tier": "adjacent"
+      },
+      {
+        "title": "Senior Application Security EngineerNew",
+        "location": "United States - Remote Opportunity",
+        "url": "https://job-boards.greenhouse.io/temporaltechnologies/jobs/5101118007",
+        "tier": "adjacent"
+      }
+    ]
+  },
+  {
+    "company": "Upstart",
+    "ats": "unknown",
+    "board_url": "https://careers.upstart.com/jobs",
+    "tier": "adjacent",
+    "jobs": [
+      {
+        "title": "Senior Security Engineer, Data Security",
+        "location": "United States | Remote",
+        "url": "https://careers.upstart.com/jobs",
+        "tier": "adjacent"
+      }
+    ]
+  },
+  {
+    "company": "Vanta",
+    "ats": "ashby",
+    "board_url": "https://jobs.ashbyhq.com/vanta",
+    "tier": "adjacent",
+    "jobs": [
+      {
+        "title": "Senior Security Engineer",
+        "location": "Remote U.S.",
+        "url": "https://jobs.ashbyhq.com/vanta/9787c187-a03f-491b-a852-30452bbf5a3c",
+        "tier": "adjacent"
+      }
+    ]
+  },
+  {
+    "company": "Virta Health",
+    "ats": "ashby",
+    "board_url": "https://jobs.ashbyhq.com/virtahealth",
+    "tier": "adjacent",
+    "jobs": [
+      {
+        "title": "Cloud Security Engineer",
+        "location": "Remote",
+        "url": "https://jobs.ashbyhq.com/virtahealth/fa511be9-9186-44ef-9b56-ef39a33e8ae4",
+        "tier": "adjacent"
+      }
+    ]
+  },
+  {
+    "company": "Wiz",
+    "ats": "unknown",
+    "board_url": "https://www.wiz.io/careers/job/4645081006/:title",
+    "tier": "adjacent",
+    "jobs": [
+      {
+        "title": "Application Security Product Analyst",
+        "location": "Tel Aviv",
+        "url": "https://www.wiz.io/careers/job/4645081006/:title",
+        "tier": "adjacent"
+      }
+    ]
+  },
+  {
+    "company": "XBOW",
+    "ats": "ashby",
+    "board_url": "https://jobs.ashbyhq.com/xbowcareers",
+    "tier": "adjacent",
+    "jobs": [
+      {
+        "title": "Field Engineer - Offensive/Application Security",
+        "location": "Remote Australia",
+        "url": "https://jobs.ashbyhq.com/xbowcareers/09439fdb-a556-4d34-9043-eb9928bece8d",
+        "tier": "adjacent"
+      }
+    ]
+  }
+]

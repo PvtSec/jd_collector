@@ -1,0 +1,12 @@
+[
+  {
+    "company_name": "PentStark",
+    "website": "https://pentstark.com",
+    "career_page_url": "https://pentstark.com/careers/",
+    "board_token": "https://pentstark.com/careers/",
+    "domain_hint": "offensive security/AI security (India/EU remote)",
+    "source_platforms": [
+      "manual-target"
+    ]
+  }
+]

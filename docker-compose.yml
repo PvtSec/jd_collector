@@ -1,0 +1,13 @@
+services:
+  job-auto:
+    build: .
+    image: job-auto
+    container_name: job-auto
+    ports:
+      - "8000:8000"
+    volumes:
+      - jobauto-data:/app/data
+    restart: unless-stopped
+
+volumes:
+  jobauto-data:

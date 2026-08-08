@@ -1,0 +1,65 @@
+# ---- Python ----
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# ---- Node / frontend build ----
+app/frontend/node_modules/
+app/frontend/dist/
+app/frontend/*.tsbuildinfo
+*.log
+
+# ---- Runtime / generated data (regenerable) ----
+# Discovery DB (built by the dashboard on first run)
+data/jobs.db
+data/jobs.db-*
+# Engine apply ledger
+data/applied.sqlite
+data/applied.sqlite-*
+# Dashboard persisted state (applied/hidden flags)
+app/state.json
+# Liveness/validation runtime markers
+app/.links*
+app/.*_done
+# Discovery-script HTML caches
+data/.cache_*/
+# Wikidata-harvest scratch (regenerable SPARQL output that feeds the ATS-probe
+# resolver; the resolved hits are folded into the tracked data/raw/agent19_atsprobe.json
+# consolidate input, so the raw harvest JSONL + per-run state files need not be committed)
+data/harvest/
+# Per-run resolver/pipeline log written into the repo root (regenerable, not data)
+LOG.md
+
+# ---- Build artifacts ----
+dist_bundle/
+job_auto_dashboard.pdf
+
+# ---- Candidate PII (must never be committed) ----
+profile.yaml
+profile.example.yaml
+resumes/
+
+# ---- Per-user config (each user customizes their own roles; not shared) ----
+# config.example.yaml IS committed as the template. config.yaml is created from
+# it on first run (docker-entrypoint.sh) and holds YOUR role keywords / location
+# prefs / skip_companies — never commit it.
+config.yaml
+
+# ---- Fanout tooling: machine-specific cache + per-run markers (regenerable) ----
+data/raw/_fanout/existing_index.json
+data/raw/_fanout/done/
+data/raw/_fanout/fixable_scheme.json
+
+# ---- OS / editor ----
+.DS_Store
+.idea/
+.vscode/
+*.swp
+# Hefty data files ship compressed (.gz) for GitHub; raw forms are regenerable
+# (jobs_seed via ./run.sh export-seed; companies.json via scripts/consolidate.py)
+# and are decompressed from .gz by docker-entrypoint.sh on container start.
+data/jobs_seed.json
+data/companies.json

@@ -1,0 +1,348 @@
+[
+  {
+    "company_name": "Amplify Education Inc",
+    "website": "",
+    "career_page_url": "http://ch.tbe.taleo.net/CH14/ats/careers/searchResults.jsp?org=WIRELESSGENERATION&cws=1",
+    "board_token": null,
+    "domain_hint": "",
+    "source_platforms": [
+      "niche_datasets"
+    ]
+  },
+  {
+    "company_name": "Angie's List",
+    "website": "angieslist.com",
+    "career_page_url": "https://chm.tbe.taleo.net/chm01/ats/careers/searchResults.jsp?org=ANGIESLIST&cws=38",
+    "board_token": null,
+    "domain_hint": "",
+    "source_platforms": [
+      "niche_datasets",
+      "wd_na"
+    ]
+  },
+  {
+    "company_name": "Banff, Alberta Canada",
+    "website": "",
+    "career_page_url": "https://chj.tbe.taleo.net/chj05/ats/careers/v2/viewRequisition?org=BANFFCENTRE&cws=39&rid=2655",
+    "board_token": null,
+    "domain_hint": "",
+    "source_platforms": [
+      "niche_datasets"
+    ]
+  },
+  {
+    "company_name": "Barco",
+    "website": "barco.com",
+    "career_page_url": "https://barco.taleo.net/careersection/jobs/jobdetail.ftl?job=1601018",
+    "board_token": null,
+    "domain_hint": "",
+    "source_platforms": [
+      "niche_datasets",
+      "wd_benelux_fr",
+      "wiki_lists"
+    ]
+  },
+  {
+    "company_name": "CliMA (California Institute of Technology)",
+    "website": "",
+    "career_page_url": "https://phf.tbe.taleo.net/phf03/ats/careers/v2/applyRequisition?org=CALTECH&cws=37&rid=9594",
+    "board_token": null,
+    "domain_hint": "",
+    "source_platforms": [
+      "niche_datasets"
+    ]
+  },
+  {
+    "company_name": "CollabraLink Technologies",
+    "website": "",
+    "career_page_url": "https://phg.tbe.taleo.net/phg02/ats/careers/v2/jobSearch?org=COLLABRALINK&cws=37",
+    "board_token": null,
+    "domain_hint": "",
+    "source_platforms": [
+      "niche_datasets"
+    ]
+  },
+  {
+    "company_name": "Comverge",
+    "website": "",
+    "career_page_url": "http://chc.tbe.taleo.net/chc06/ats/careers/requisition.jsp?org=COMVERGE&cws=1&rid=664",
+    "board_token": null,
+    "domain_hint": "",
+    "source_platforms": [
+      "niche_datasets"
+    ]
+  },
+  {
+    "company_name": "Digital River",
+    "website": "digitalriver.com",
+    "career_page_url": "http://chc.tbe.taleo.net/chc02/ats/careers/requisition.jsp?org=DIGIRIVE&cws=1&rid=1568",
+    "board_token": null,
+    "domain_hint": "",
+    "source_platforms": [
+      "niche_datasets",
+      "wd_na"
+    ]
+  },
+  {
+    "company_name": "ESnet",
+    "website": "",
+    "career_page_url": "https://lbl.taleo.net/careersection/2/jobdetail.ftl?lang=en&job=81239",
+    "board_token": null,
+    "domain_hint": "",
+    "source_platforms": [
+      "niche_datasets"
+    ]
+  },
+  {
+    "company_name": "Federal Reserve Bank of Dallas",
+    "website": "",
+    "career_page_url": "https://frb.taleo.net/careersection/jobdetail.ftl?job=265211&lang=en",
+    "board_token": null,
+    "domain_hint": "",
+    "source_platforms": [
+      "niche_datasets"
+    ]
+  },
+  {
+    "company_name": "GetThere / Sabre",
+    "website": "",
+    "career_page_url": "https://sabre.taleo.net/careersection/2/jobdetail.ftl?job=011HL",
+    "board_token": null,
+    "domain_hint": "",
+    "source_platforms": [
+      "niche_datasets"
+    ]
+  },
+  {
+    "company_name": "Jacobs Technology",
+    "website": "",
+    "career_page_url": "https://jacobs.taleo.net/careersection/ex/jobdetail.ftl?job=ADV0002ZT",
+    "board_token": null,
+    "domain_hint": "",
+    "source_platforms": [
+      "niche_datasets"
+    ]
+  },
+  {
+    "company_name": "Jetsetter",
+    "website": "",
+    "career_page_url": "https://tripadvisor.taleo.net/careersection/2/jobdetail.ftl?job=46262",
+    "board_token": null,
+    "domain_hint": "",
+    "source_platforms": [
+      "niche_datasets"
+    ]
+  },
+  {
+    "company_name": "KCG",
+    "website": "",
+    "career_page_url": "http://chk.tbe.taleo.net/chk06/ats/careers/requisition.jsp?org=KCG&cws=1&rid=1762",
+    "board_token": null,
+    "domain_hint": "",
+    "source_platforms": [
+      "niche_datasets"
+    ]
+  },
+  {
+    "company_name": "Manulife Asset Management",
+    "website": "",
+    "career_page_url": "http://manulife.taleo.net/careersection/2/jobdetail.ftl?lang=en&job=1305420",
+    "board_token": null,
+    "domain_hint": "",
+    "source_platforms": [
+      "niche_datasets"
+    ]
+  },
+  {
+    "company_name": "Massachusetts General Hospital",
+    "website": "",
+    "career_page_url": "https://partners.taleo.net/careersection/ghc/jobdetail.ftl?job=3005234",
+    "board_token": null,
+    "domain_hint": "",
+    "source_platforms": [
+      "niche_datasets"
+    ]
+  },
+  {
+    "company_name": "MTD Products",
+    "website": "",
+    "career_page_url": "http://ch.tbe.taleo.net/CH05/ats/careers/requisition.jsp?org=MTDPRODUCTS&cws=1&rid=877",
+    "board_token": null,
+    "domain_hint": "",
+    "source_platforms": [
+      "niche_datasets"
+    ]
+  },
+  {
+    "company_name": "MTD Products, Inc",
+    "website": "",
+    "career_page_url": "http://chc.tbe.taleo.net/chc02/ats/careers/requisition.jsp?org=MTDPRODUCTS&cws=1&rid=1277",
+    "board_token": null,
+    "domain_hint": "",
+    "source_platforms": [
+      "niche_datasets"
+    ]
+  },
+  {
+    "company_name": "Nationstar Mortgage",
+    "website": "",
+    "career_page_url": "https://chj.tbe.taleo.net/chj05/ats/careers/requisition.jsp?org=NATIONSTAR&cws=39&rid=7758",
+    "board_token": null,
+    "domain_hint": "",
+    "source_platforms": [
+      "niche_datasets"
+    ]
+  },
+  {
+    "company_name": "Northrop Grumman Aerospace Systems",
+    "website": "",
+    "career_page_url": "https://ngc.taleo.net/careersection/ngc_pro/jobdetail.ftl?job=764010&src=JB-10200",
+    "board_token": null,
+    "domain_hint": "",
+    "source_platforms": [
+      "niche_datasets"
+    ]
+  },
+  {
+    "company_name": "Northrop Grumman Corporation",
+    "website": "northropgrumman.com",
+    "career_page_url": "https://ngc.taleo.net/careersection/ngc_pro/jobsearch.ftl?lang=en&_ga=1.234134172.327981793.1490831244",
+    "board_token": null,
+    "domain_hint": "",
+    "source_platforms": [
+      "niche_datasets",
+      "wd_deeptech",
+      "wd_na"
+    ]
+  },
+  {
+    "company_name": "Oracle Data Cloud",
+    "website": "",
+    "career_page_url": "https://oracle.taleo.net/careersection/2/jobdetail.ftl?job=15000IOC&lang=en&sns_id=google",
+    "board_token": null,
+    "domain_hint": "",
+    "source_platforms": [
+      "niche_datasets"
+    ]
+  },
+  {
+    "company_name": "Progressive Insurance",
+    "website": "",
+    "career_page_url": "https://progressive.taleo.net/careersection/2/jobdetail.ftl?job=176422",
+    "board_token": null,
+    "domain_hint": "",
+    "source_platforms": [
+      "niche_datasets"
+    ]
+  },
+  {
+    "company_name": "Questrade Inc., QTG",
+    "website": "",
+    "career_page_url": "https://chm.tbe.taleo.net/chm01/ats/careers/requisition.jsp?org=QUESTRADE&cws=41&rid=858",
+    "board_token": null,
+    "domain_hint": "",
+    "source_platforms": [
+      "niche_datasets"
+    ]
+  },
+  {
+    "company_name": "Ritchie Bros Auctioneers",
+    "website": "",
+    "career_page_url": "https://rbauction.taleo.net/careersection/rb_ex/jobdetail.ftl?job=1600009C&lang=en",
+    "board_token": null,
+    "domain_hint": "",
+    "source_platforms": [
+      "niche_datasets"
+    ]
+  },
+  {
+    "company_name": "Rockland Trust",
+    "website": "",
+    "career_page_url": "https://rocklandtrust.taleo.net/careersection/jobdetail.ftl?job=1800004S&lang=en",
+    "board_token": null,
+    "domain_hint": "",
+    "source_platforms": [
+      "niche_datasets"
+    ]
+  },
+  {
+    "company_name": "Rockland Trust Bank",
+    "website": "",
+    "career_page_url": "https://rocklandtrust.taleo.net/careersection/jobdetail.ftl?job=2000008P&lang=en",
+    "board_token": null,
+    "domain_hint": "",
+    "source_platforms": [
+      "niche_datasets"
+    ]
+  },
+  {
+    "company_name": "Stony Brook University",
+    "website": "",
+    "career_page_url": "https://stonybrooku.taleo.net/careersection/2/jobdetail.ftl?job=1900771",
+    "board_token": null,
+    "domain_hint": "",
+    "source_platforms": [
+      "niche_datasets"
+    ]
+  },
+  {
+    "company_name": "TaxAct",
+    "website": "",
+    "career_page_url": "http://chm.tbe.taleo.net/chm03/ats/careers/requisition.jsp?org=INFOSPACE&cws=39&rid=413",
+    "board_token": null,
+    "domain_hint": "",
+    "source_platforms": [
+      "niche_datasets"
+    ]
+  },
+  {
+    "company_name": "Tracerco",
+    "website": "",
+    "career_page_url": "https://phh.tbe.taleo.net/phh01/ats/careers/v2/viewRequisition?cws=45&rid=11647",
+    "board_token": null,
+    "domain_hint": "",
+    "source_platforms": [
+      "niche_datasets"
+    ]
+  },
+  {
+    "company_name": "TransUnion Consumer Interactive",
+    "website": "",
+    "career_page_url": "https://transunion.taleo.net/careersection/tuext/jobdetail.ftl?job=15000946",
+    "board_token": null,
+    "domain_hint": "",
+    "source_platforms": [
+      "niche_datasets"
+    ]
+  },
+  {
+    "company_name": "Tucson Electric Power",
+    "website": "",
+    "career_page_url": "https://chm.tbe.taleo.net/chm04/ats/careers/v2/viewRequisiti",
+    "board_token": null,
+    "domain_hint": "",
+    "source_platforms": [
+      "niche_datasets"
+    ]
+  },
+  {
+    "company_name": "Weill Cornell Medicine (Cornell University's Medical College)",
+    "website": "",
+    "career_page_url": "https://cornellu.taleo.net/careersection/2000/jobdetail.ftl?job=31597",
+    "board_token": null,
+    "domain_hint": "",
+    "source_platforms": [
+      "niche_datasets"
+    ]
+  },
+  {
+    "company_name": "Weyerhaeuser",
+    "website": "",
+    "career_page_url": "https://weyerhaeuser.taleo.net/careersection/10000/jobsearch.ftl?lang=en&alt=1#",
+    "board_token": null,
+    "domain_hint": "",
+    "source_platforms": [
+      "niche_datasets"
+    ]
+  }
+]

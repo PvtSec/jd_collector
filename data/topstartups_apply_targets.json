@@ -1,0 +1,949 @@
+[
+  {
+    "company": "Affirm",
+    "ats": "greenhouse",
+    "board": "https://boards.greenhouse.io/affirm",
+    "jobs": [
+      {
+        "title": "Senior Software Development Engineer In Test (SDET) (Test infra - Mobile)",
+        "location": "Remote Spain",
+        "url": "https://job-boards.greenhouse.io/affirm/jobs/6291735003"
+      }
+    ]
+  },
+  {
+    "company": "Aisera",
+    "ats": "greenhouse",
+    "board": "https://boards.greenhouse.io/aiserajobs",
+    "jobs": [
+      {
+        "title": "SDET",
+        "location": "Hyderabad",
+        "url": "https://job-boards.greenhouse.io/aiserajobs/jobs/5032129004"
+      },
+      {
+        "title": "QA Engineer, Automation Specialist",
+        "location": "Athens, Greece (Remote)",
+        "url": "https://job-boards.greenhouse.io/aiserajobs/jobs/4725202004"
+      }
+    ]
+  },
+  {
+    "company": "Apollo.io",
+    "ats": "greenhouse",
+    "board": "https://boards.greenhouse.io/apolloio",
+    "jobs": [
+      {
+        "title": "SDET",
+        "location": "Remote, Poland",
+        "url": "https://job-boards.greenhouse.io/apolloio/jobs/5480727004"
+      },
+      {
+        "title": "Senior SDET",
+        "location": "Remote, Poland",
+        "url": "https://job-boards.greenhouse.io/apolloio/jobs/5366169004"
+      },
+      {
+        "title": "Software QA Engineer",
+        "location": "Remote, India",
+        "url": "https://job-boards.greenhouse.io/apolloio/jobs/5113147004"
+      }
+    ]
+  },
+  {
+    "company": "Asana",
+    "ats": "greenhouse",
+    "board": "https://boards.greenhouse.io/asana",
+    "jobs": [
+      {
+        "title": "Salesforce QA Engineer",
+        "location": "Warsaw",
+        "url": "https://www.asana.com/jobs/apply/6201583"
+      }
+    ]
+  },
+  {
+    "company": "BigID",
+    "ats": "greenhouse",
+    "board": "https://boards.greenhouse.io/bigid",
+    "jobs": [
+      {
+        "title": "QA Engineer Hyderabad",
+        "location": "Hyderabad",
+        "url": "https://job-boards.greenhouse.io/bigid/jobs/7946991002"
+      },
+      {
+        "title": "QA Engineer",
+        "location": "Chennai",
+        "url": "https://job-boards.greenhouse.io/bigid/jobs/7799165002"
+      },
+      {
+        "title": "Senior QA Engineer",
+        "location": "Chennai",
+        "url": "https://boards.greenhouse.io/bigid/jobs/7724190002"
+      }
+    ]
+  },
+  {
+    "company": "Blockstream",
+    "ats": "greenhouse",
+    "board": "https://boards.greenhouse.io/blockstream",
+    "jobs": [
+      {
+        "title": "QA Engineering Manager",
+        "location": "Turin, Italy (Onsite)",
+        "url": "https://job-boards.greenhouse.io/blockstream/jobs/6679295"
+      },
+      {
+        "title": "QA Engineer",
+        "location": "Turin, Italy (Onsite)",
+        "url": "https://job-boards.greenhouse.io/blockstream/jobs/6647101"
+      }
+    ]
+  },
+  {
+    "company": "Circle",
+    "ats": "greenhouse",
+    "board": "https://boards.greenhouse.io/circle",
+    "jobs": [
+      {
+        "title": "Senior or Staff Software Engineer in Test",
+        "location": "Taipei City - will consider remote in TW",
+        "url": "https://boards.greenhouse.io/circle/jobs/7636846002"
+      }
+    ]
+  },
+  {
+    "company": "Clari",
+    "ats": "lever",
+    "board": "https://jobs.lever.co/clari",
+    "jobs": [
+      {
+        "title": "Software Engineer in Test - Remote, Poland",
+        "location": "Krak\u00f3w, Poland",
+        "url": "https://jobs.lever.co/clari/e7a6b720-92ae-400f-af46-6f8767377660"
+      }
+    ]
+  },
+  {
+    "company": "ClickHouse",
+    "ats": "greenhouse",
+    "board": "https://boards.greenhouse.io/clickhouse",
+    "jobs": [
+      {
+        "title": "QA Engineer - Core Database (remote)",
+        "location": "Germany (remote)",
+        "url": "https://job-boards.greenhouse.io/clickhouse/jobs/5654023004"
+      },
+      {
+        "title": "QA Engineer- Control Plane",
+        "location": "Germany (remote)",
+        "url": "https://job-boards.greenhouse.io/clickhouse/jobs/5503649004"
+      }
+    ]
+  },
+  {
+    "company": "Cognition",
+    "ats": "ashby",
+    "board": "https://jobs.ashbyhq.com/cognition",
+    "jobs": [
+      {
+        "title": "QA Engineer",
+        "location": "India",
+        "url": "https://jobs.ashbyhq.com/cognition/e6f55fdf-151d-4282-a600-b92e4124732f"
+      }
+    ]
+  },
+  {
+    "company": "Conduktor",
+    "ats": "lever",
+    "board": "https://jobs.lever.co/conduktor",
+    "jobs": [
+      {
+        "title": "QA Engineer",
+        "location": "London",
+        "url": "https://jobs.lever.co/conduktor/1fc4ab5e-f676-46ea-980c-96b6eec6a438"
+      }
+    ]
+  },
+  {
+    "company": "Corelight",
+    "ats": "greenhouse",
+    "board": "https://boards.greenhouse.io/corelight",
+    "jobs": [
+      {
+        "title": "Software Development in Test - SDET",
+        "location": "Remote",
+        "url": "https://boards.greenhouse.io/corelight/jobs/5945271"
+      }
+    ]
+  },
+  {
+    "company": "Cresta",
+    "ats": "greenhouse",
+    "board": "https://boards.greenhouse.io/cresta",
+    "jobs": [
+      {
+        "title": "Software Engineer in Test (Berlin)",
+        "location": "Berlin, Germany",
+        "url": "https://job-boards.greenhouse.io/cresta/jobs/5030433008"
+      },
+      {
+        "title": "Software Engineer in Test",
+        "location": "Berlin, Germany",
+        "url": "https://job-boards.greenhouse.io/cresta/jobs/4250044008"
+      }
+    ]
+  },
+  {
+    "company": "Databricks",
+    "ats": "greenhouse",
+    "board": "https://boards.greenhouse.io/databricks",
+    "jobs": [
+      {
+        "title": "Senior Security Engineer, Red Team",
+        "location": "Berlin, Germany",
+        "url": "https://databricks.com/company/careers/open-positions/job"
+      }
+    ]
+  },
+  {
+    "company": "Deel",
+    "ats": "ashby",
+    "board": "https://jobs.ashbyhq.com/Deel",
+    "jobs": [
+      {
+        "title": "Offensive Security Specialist (Red Team)",
+        "location": "EMEA",
+        "url": "https://jobs.ashbyhq.com/Deel/41a53f93-1828-43b5-a14e-771d62dcbc11"
+      },
+      {
+        "title": "Senior QA Automation Engineer | LATAM",
+        "location": "Anywhere (LATAM)",
+        "url": "https://jobs.ashbyhq.com/Deel/902d9221-d4c0-4756-ab99-c62fe62a6ef1"
+      },
+      {
+        "title": "Senior QA Automation Engineer | EMEA",
+        "location": "EMEA",
+        "url": "https://jobs.ashbyhq.com/Deel/40300abf-f7bb-4f2b-a1dc-c3ba209f76df"
+      },
+      {
+        "title": "QA Automation Engineer | EMEA",
+        "location": "Croatia",
+        "url": "https://jobs.ashbyhq.com/Deel/586e7b86-d889-4e83-9abf-7264a367c30b"
+      },
+      {
+        "title": "QA Automation Engineer | LATAM",
+        "location": "Anywhere (LATAM)",
+        "url": "https://jobs.ashbyhq.com/Deel/cbebed24-2219-4ab3-a5df-794eaf1c3260"
+      },
+      {
+        "title": "QA Automation Engineer (EMEA)",
+        "location": "Anywhere (EMEA)",
+        "url": "https://jobs.ashbyhq.com/Deel/2f26a4ac-ac9f-4b08-a21d-702524931190"
+      },
+      {
+        "title": "Manual QA Engineer",
+        "location": "Anywhere (EMEA)",
+        "url": "https://jobs.ashbyhq.com/Deel/930d4ade-cc30-4b1c-a390-9f8aeacd7164"
+      }
+    ]
+  },
+  {
+    "company": "DevRev",
+    "ats": "greenhouse",
+    "board": "https://boards.greenhouse.io/devrev",
+    "jobs": [
+      {
+        "title": "QA Automation Lead",
+        "location": "Ljubljana, Ljubljana, Slovenia",
+        "url": "https://job-boards.greenhouse.io/devrev/jobs/5544989004"
+      },
+      {
+        "title": "Senior Test Automation Specialist",
+        "location": "Bengaluru, Karnataka, India",
+        "url": "https://job-boards.greenhouse.io/devrev/jobs/5753126004"
+      },
+      {
+        "title": "Lead Test Automation Specialist",
+        "location": "Cebu, Philippines",
+        "url": "https://job-boards.greenhouse.io/devrev/jobs/5775225004"
+      }
+    ]
+  },
+  {
+    "company": "Dialpad",
+    "ats": "greenhouse",
+    "board": "https://boards.greenhouse.io/dialpad",
+    "jobs": [
+      {
+        "title": "Sr. SDET",
+        "location": "Bangalore, India",
+        "url": "https://job-boards.greenhouse.io/dialpad/jobs/7803042002"
+      },
+      {
+        "title": "Sr SDET",
+        "location": "Bangalore, India",
+        "url": "https://job-boards.greenhouse.io/dialpad/jobs/7688530002"
+      },
+      {
+        "title": "QA Engineer",
+        "location": "Bengaluru, India",
+        "url": "https://job-boards.greenhouse.io/dialpad/jobs/8534957002"
+      },
+      {
+        "title": "QA Engineer, Intern",
+        "location": "Bangalore, India",
+        "url": "https://job-boards.greenhouse.io/dialpad/jobs/8215545002"
+      },
+      {
+        "title": "Associate QA engineer",
+        "location": "Bengaluru, India",
+        "url": "https://job-boards.greenhouse.io/dialpad/jobs/7802863002"
+      },
+      {
+        "title": "Sr. QA Engineer",
+        "location": "Bangalore, India",
+        "url": "https://job-boards.greenhouse.io/dialpad/jobs/7607380002"
+      },
+      {
+        "title": "Senior QA Engineer",
+        "location": "Bangalore, India",
+        "url": "https://job-boards.greenhouse.io/dialpad/jobs/7615667002"
+      },
+      {
+        "title": "Associate QA Engineer",
+        "location": "Bangalore, India",
+        "url": "https://job-boards.greenhouse.io/dialpad/jobs/7590611002"
+      }
+    ]
+  },
+  {
+    "company": "Druva",
+    "ats": "greenhouse",
+    "board": "https://boards.greenhouse.io/druva",
+    "jobs": [
+      {
+        "title": "Test Automation Engineer (QA)",
+        "location": "Letterkenny, County Donegal, Ireland",
+        "url": "https://www.druva.com/about/careers/jobs/7699307002/"
+      },
+      {
+        "title": "Staff Software Engineer in Test",
+        "location": "Pune, Maharashtra, India",
+        "url": "https://www.druva.com/why-druva/explore/careers/jobs/8308808002/"
+      },
+      {
+        "title": "Senior Staff Software Engineer in Test (DCP)",
+        "location": "Pune, Maharashtra, India",
+        "url": "https://www.druva.com/why-druva/explore/careers/jobs/8370075002/"
+      },
+      {
+        "title": "Senior Staff Software Engineer in Test",
+        "location": "Pune, Maharashtra, India",
+        "url": "https://www.druva.com/about/careers/jobs/8408012002/"
+      },
+      {
+        "title": "Senior Staff Software Engineer in Test (Platform)",
+        "location": "Pune, Maharashtra, India",
+        "url": "https://www.druva.com/about/careers/jobs/8308810002/"
+      }
+    ]
+  },
+  {
+    "company": "epiFi",
+    "ats": "lever",
+    "board": "https://jobs.lever.co/epifi",
+    "jobs": [
+      {
+        "title": "QA Engineer (Consultant)",
+        "location": "Bangalore",
+        "url": "https://jobs.lever.co/epifi/b830f87b-0506-4418-9e6d-bbfa33739ee5"
+      }
+    ]
+  },
+  {
+    "company": "FamPay India",
+    "ats": "lever",
+    "board": "https://jobs.lever.co/fampay",
+    "jobs": [
+      {
+        "title": "QA Automation Engineer",
+        "location": "Bengaluru",
+        "url": "https://jobs.lever.co/fampay/50e9df1b-b26a-4abc-a3b7-606064871b25"
+      },
+      {
+        "title": "QA Engineer- 1",
+        "location": "Bengaluru",
+        "url": "https://jobs.lever.co/fampay/8b4517b2-b038-4f57-b7ef-d2cc8ee588f7"
+      },
+      {
+        "title": "QA Engineer- 2",
+        "location": "Bengaluru",
+        "url": "https://jobs.lever.co/fampay/f34b8b3b-02fe-432c-898c-df94dc2b1c89"
+      }
+    ]
+  },
+  {
+    "company": "Fictiv",
+    "ats": "greenhouse",
+    "board": "https://boards.greenhouse.io/fictiv",
+    "jobs": [
+      {
+        "title": "QA- SDET (Cypress)",
+        "location": "Pune, India Office",
+        "url": "https://job-boards.greenhouse.io/fictiv/jobs/8035342002"
+      },
+      {
+        "title": "QA- SDET (Playwright)",
+        "location": "Pune, India Office",
+        "url": "https://job-boards.greenhouse.io/fictiv/jobs/7992325002"
+      },
+      {
+        "title": "QA- SDET (Playwrite)",
+        "location": "Pune, India Office",
+        "url": "https://job-boards.greenhouse.io/fictiv/jobs/7991909002"
+      }
+    ]
+  },
+  {
+    "company": "Fivetran",
+    "ats": "greenhouse",
+    "board": "https://boards.greenhouse.io/fivetran",
+    "jobs": [
+      {
+        "title": "Senior SDET Engineer",
+        "location": "Bengaluru, Karnataka, India, APAC",
+        "url": "https://www.fivetran.com/careers/job"
+      }
+    ]
+  },
+  {
+    "company": "GitLab",
+    "ats": "greenhouse",
+    "board": "https://boards.greenhouse.io/gitlab",
+    "jobs": [
+      {
+        "title": "Enterprise Applications QA Engineer (Salesforce)",
+        "location": "Remote, APAC; Remote, India",
+        "url": "https://job-boards.greenhouse.io/gitlab/jobs/7971268002"
+      },
+      {
+        "title": "Software Engineer in Test",
+        "location": "Remote",
+        "url": "https://job-boards.greenhouse.io/gitlab/jobs/7703988002"
+      },
+      {
+        "title": "Software Engineer in Test, Test Platform (APAC)",
+        "location": "Remote, APAC",
+        "url": "https://job-boards.greenhouse.io/gitlab/jobs/7648658002"
+      }
+    ]
+  },
+  {
+    "company": "H1",
+    "ats": "lever",
+    "board": "https://jobs.lever.co/h1",
+    "jobs": [
+      {
+        "title": "SDET",
+        "location": "India Remote",
+        "url": "https://jobs.lever.co/h1/4d31a9f2-d961-489d-b6d4-f5ea5602e031"
+      },
+      {
+        "title": "SDET II",
+        "location": "India Remote",
+        "url": "https://jobs.lever.co/h1/3e5141c5-ce25-4308-ae59-f138a3d586ac"
+      },
+      {
+        "title": "SDET I",
+        "location": "India Remote",
+        "url": "https://jobs.lever.co/h1/70c5c8d9-f372-45ec-b6ff-5d88a34a1cdb"
+      }
+    ]
+  },
+  {
+    "company": "Hudl",
+    "ats": "greenhouse",
+    "board": "https://boards.greenhouse.io/hudl",
+    "jobs": [
+      {
+        "title": "QA Engineer II",
+        "location": "Mumbai - India",
+        "url": "https://job-boards.greenhouse.io/hudl/jobs/7461393"
+      }
+    ]
+  },
+  {
+    "company": "HyperScience",
+    "ats": "lever",
+    "board": "https://jobs.lever.co/hyperscience",
+    "jobs": [
+      {
+        "title": "Software QA Engineer",
+        "location": "Sofia, Bulgaria",
+        "url": "https://jobs.lever.co/hyperscience/94f1c60e-2cbd-404e-a13f-4c08b480c738"
+      }
+    ]
+  },
+  {
+    "company": "Jeeves",
+    "ats": "lever",
+    "board": "https://jobs.lever.co/tryjeeves",
+    "jobs": [
+      {
+        "title": "Senior QA Engineer",
+        "location": "India",
+        "url": "https://jobs.lever.co/tryjeeves/960e21fb-c959-4e31-bc0e-d601ffcce643"
+      }
+    ]
+  },
+  {
+    "company": "Kong",
+    "ats": "lever",
+    "board": "https://jobs.lever.co/kong",
+    "jobs": [
+      {
+        "title": "Senior Software Engineer in Test - Konnect Cloud (Bangalore)",
+        "location": "India",
+        "url": "https://jobs.lever.co/kong/42e29773-9449-41eb-ad0c-2e93d0017bf3"
+      }
+    ]
+  },
+  {
+    "company": "Lilt",
+    "ats": "ashby",
+    "board": "https://jobs.ashbyhq.com/lilt",
+    "jobs": [
+      {
+        "title": "AI Red Team Engineer - Indonesian",
+        "location": "Indonesia (Remote)",
+        "url": "https://jobs.ashbyhq.com/lilt/0a35451d-75af-4d1e-aadb-9be8da02c09a"
+      },
+      {
+        "title": "AI Red Team Engineer - Spanish (Spain)",
+        "location": "Spain (Remote)",
+        "url": "https://jobs.ashbyhq.com/lilt/b183655a-5fec-48ce-ae09-02dadf2ed75b"
+      },
+      {
+        "title": "AI Red Team Engineer - Dutch",
+        "location": "Netherlands (Remote)",
+        "url": "https://jobs.ashbyhq.com/lilt/c1b49868-c4ae-475e-87dc-45ef1831cde1"
+      },
+      {
+        "title": "AI Red Team Engineer - German",
+        "location": "Germany (Remote)",
+        "url": "https://jobs.ashbyhq.com/lilt/7df71726-b98c-4aaa-bb66-be4a84ecf046"
+      },
+      {
+        "title": "AI Red Team Engineer - Traditional Chinese",
+        "location": "Taiwan (Remote)",
+        "url": "https://jobs.ashbyhq.com/lilt/597db97a-a987-429a-83cb-5a34b137e6b6"
+      },
+      {
+        "title": "AI Red Team Engineer - Japanese",
+        "location": "Japan",
+        "url": "https://jobs.ashbyhq.com/lilt/9cdf38a1-9804-4440-a677-29e84d909c79"
+      },
+      {
+        "title": "AI Red Team Engineer - Hindi",
+        "location": "India (Remote)",
+        "url": "https://jobs.ashbyhq.com/lilt/ee9e6ddf-6764-4a7c-a195-c42712f16edd"
+      },
+      {
+        "title": "AI Red Team Engineer - Korean",
+        "location": "Korea (Remote)",
+        "url": "https://jobs.ashbyhq.com/lilt/966b2ea4-0022-409c-aeae-04d2cf9286db"
+      },
+      {
+        "title": "AI Red Team Engineer - French",
+        "location": "France (Remote)",
+        "url": "https://jobs.ashbyhq.com/lilt/ea0a26ca-c851-4be8-b7c8-604d4044cfe9"
+      },
+      {
+        "title": "AI Red Team Engineer - Russian",
+        "location": "Germany (Remote)",
+        "url": "https://jobs.ashbyhq.com/lilt/99c0cd94-7c77-4289-8340-fdbe8cc6de6f"
+      },
+      {
+        "title": "AI Red Team Engineer - Ukrainian",
+        "location": "Ukraine (Remote)",
+        "url": "https://jobs.ashbyhq.com/lilt/67c9a41f-a933-4f23-ba73-47391279cd75"
+      },
+      {
+        "title": "AI Red Team Engineer - Simplified Chinese",
+        "location": "Taiwan (Remote)",
+        "url": "https://jobs.ashbyhq.com/lilt/1d3cf284-22e1-443b-8699-ad872a978e00"
+      },
+      {
+        "title": "AI Red Team Engineer - Arabic",
+        "location": "Egypt (Remote)",
+        "url": "https://jobs.ashbyhq.com/lilt/59802a6b-ec6e-49df-b3ff-c570710f754d"
+      },
+      {
+        "title": "AI Red Team Engineer - English",
+        "location": "UK (Remote)",
+        "url": "https://jobs.ashbyhq.com/lilt/7a75b62d-9bd5-47f8-bdb5-39ff1af60dd4"
+      },
+      {
+        "title": "AI Red Team Engineer - Vietnamese",
+        "location": "Vietnam (Remote)",
+        "url": "https://jobs.ashbyhq.com/lilt/5269e052-47ae-4e07-8306-037da6a2eb1b"
+      },
+      {
+        "title": "AI Red Team Engineer - Italian",
+        "location": "Italy (Remote)",
+        "url": "https://jobs.ashbyhq.com/lilt/5113c231-34d6-4134-961a-b2c949957c70"
+      },
+      {
+        "title": "AI Red Team Engineer - Polish",
+        "location": "Poland (Remote)",
+        "url": "https://jobs.ashbyhq.com/lilt/ccba8792-aef3-41d8-bcfe-96eb14eaa8fc"
+      },
+      {
+        "title": "AI Red Team Engineer - Portuguese",
+        "location": "Portugal (Remote)",
+        "url": "https://jobs.ashbyhq.com/lilt/83869db8-5d8a-4198-aa36-760d347e039c"
+      }
+    ]
+  },
+  {
+    "company": "Mistral AI",
+    "ats": "lever",
+    "board": "https://jobs.lever.co/mistral",
+    "jobs": [
+      {
+        "title": "QA Engineer - Paris",
+        "location": "France",
+        "url": "https://jobs.lever.co/mistral/03918386-cb56-4e4d-afa8-1f8b7676a4a6"
+      }
+    ]
+  },
+  {
+    "company": "Monzo",
+    "ats": "greenhouse",
+    "board": "https://boards.greenhouse.io/monzo",
+    "jobs": [
+      {
+        "title": "Offensive Security Manager",
+        "location": "Cardiff, London or Remote (UK)",
+        "url": "https://job-boards.greenhouse.io/monzo/jobs/7096816"
+      },
+      {
+        "title": "Offensive Security Engineer",
+        "location": "Cardiff, London or Remote (UK)",
+        "url": "https://job-boards.greenhouse.io/monzo/jobs/6312092"
+      }
+    ]
+  },
+  {
+    "company": "Narvar",
+    "ats": "greenhouse",
+    "board": "https://boards.greenhouse.io/narvar",
+    "jobs": [
+      {
+        "title": "Sr. QA Engineer",
+        "location": "Hybrid - Bangalore",
+        "url": "https://job-boards.greenhouse.io/narvar/jobs/6925170"
+      }
+    ]
+  },
+  {
+    "company": "Notion",
+    "ats": "ashby",
+    "board": "https://jobs.ashbyhq.com/notion",
+    "jobs": [
+      {
+        "title": "QA Engineer, Automation",
+        "location": "Hyderabad, India",
+        "url": "https://job-boards.greenhouse.io/notion/jobs/5516285003"
+      }
+    ]
+  },
+  {
+    "company": "PatSnap",
+    "ats": "lever",
+    "board": "https://jobs.lever.co/patsnap",
+    "jobs": [
+      {
+        "title": "QA Engineer",
+        "location": "Singapore",
+        "url": "https://jobs.lever.co/patsnap/65ec6078-f2b2-4fa7-be57-e64f8aea76d1"
+      }
+    ]
+  },
+  {
+    "company": "Pendulum Therapeutics",
+    "ats": "lever",
+    "board": "https://jobs.lever.co/pendulum",
+    "jobs": [
+      {
+        "title": "QA Engineer, Data and Systems",
+        "location": "Remote",
+        "url": "https://jobs.lever.co/pendulum/462c8292-b5c4-4890-8173-b2148bb67f83"
+      }
+    ]
+  },
+  {
+    "company": "Qventus",
+    "ats": "ashby",
+    "board": "https://jobs.ashbyhq.com/qventus",
+    "jobs": [
+      {
+        "title": "QA Automation Engineer",
+        "location": "NCR/Noida,  India",
+        "url": "https://jobs.ashbyhq.com/qventus/173cf084-badc-4284-87a1-00050a740ff4"
+      }
+    ]
+  },
+  {
+    "company": "Restaurant365",
+    "ats": "lever",
+    "board": "https://jobs.lever.co/restaurant365",
+    "jobs": [
+      {
+        "title": "QA Engineer I",
+        "location": "Remote",
+        "url": "https://jobs.lever.co/restaurant365/f0fb001e-8040-45e9-8adb-8730ed44855f"
+      }
+    ]
+  },
+  {
+    "company": "Rocket Lab",
+    "ats": "greenhouse",
+    "board": "https://boards.greenhouse.io/rocketlab",
+    "jobs": [
+      {
+        "title": "Lead Test Automation Engineer - Neutron",
+        "location": "Auckland, New Zealand",
+        "url": "https://job-boards.greenhouse.io/rocketlab/jobs/6288485003"
+      }
+    ]
+  },
+  {
+    "company": "Sardine",
+    "ats": "ashby",
+    "board": "https://jobs.ashbyhq.com/sardine",
+    "jobs": [
+      {
+        "title": "Manual QA Engineer",
+        "location": "India - Remote",
+        "url": "https://jobs.ashbyhq.com/sardine/8eba2ccd-cc60-4046-a5f8-75d9290215af"
+      }
+    ]
+  },
+  {
+    "company": "Shift Technology",
+    "ats": "greenhouse",
+    "board": "https://boards.greenhouse.io/shifttechnology",
+    "jobs": [
+      {
+        "title": "QA Engineer - functional testing",
+        "location": "France - Paris",
+        "url": "https://job-boards.greenhouse.io/shifttechnology/jobs/7698097003"
+      },
+      {
+        "title": "QA Engineer - ISTQB foundation certified",
+        "location": "France - Paris",
+        "url": "https://job-boards.greenhouse.io/shifttechnology/jobs/7676860003"
+      },
+      {
+        "title": "QA Engineer - 6-month CDD",
+        "location": "France - Paris",
+        "url": "https://www.shift-technology.com/careers"
+      }
+    ]
+  },
+  {
+    "company": "SingleStore",
+    "ats": "greenhouse",
+    "board": "https://boards.greenhouse.io/singlestore",
+    "jobs": [
+      {
+        "title": "SDET",
+        "location": "Bengaluru",
+        "url": "https://job-boards.greenhouse.io/singlestore/jobs/6911714"
+      },
+      {
+        "title": "QA Engineer",
+        "location": "Hyderabad, India",
+        "url": "https://boards.greenhouse.io/singlestore/jobs/6304131"
+      }
+    ]
+  },
+  {
+    "company": "Sky Mavis",
+    "ats": "workable",
+    "board": "https://apply.workable.com/sky-mavis",
+    "jobs": [
+      {
+        "title": "QA Engineer",
+        "location": "Ho Chi Minh City, Ho Chi Minh City, Vietnam",
+        "url": "https://apply.workable.com/sky-mavis/j/97BE97C5FF"
+      }
+    ]
+  },
+  {
+    "company": "SoundHound",
+    "ats": "greenhouse",
+    "board": "https://boards.greenhouse.io/soundhoundinc",
+    "jobs": [
+      {
+        "title": "QA Automation Engineer II, AIOps",
+        "location": "Bengaluru, India",
+        "url": "https://job-boards.greenhouse.io/soundhoundinc/jobs/7807674002"
+      },
+      {
+        "title": "QA Engineer II",
+        "location": "Bengaluru, India",
+        "url": "https://job-boards.greenhouse.io/soundhoundinc/jobs/7883272002"
+      },
+      {
+        "title": "QA Engineer, Smart Answering",
+        "location": "Ukraine",
+        "url": "https://job-boards.greenhouse.io/soundhoundinc/jobs/7669726002"
+      }
+    ]
+  },
+  {
+    "company": "SpotOn",
+    "ats": "greenhouse",
+    "board": "https://boards.greenhouse.io/spotonproduct",
+    "jobs": [
+      {
+        "title": "Sr. QA Engineer",
+        "location": "Bengaluru, India",
+        "url": "https://job-boards.greenhouse.io/spotonproduct/jobs/6271712003"
+      }
+    ]
+  },
+  {
+    "company": "Sumo Logic",
+    "ats": "greenhouse",
+    "board": "https://boards.greenhouse.io/sumologic",
+    "jobs": [
+      {
+        "title": "Software Engineer I -SDET",
+        "location": "Noida, Uttar Pradesh, India",
+        "url": "https://job-boards.greenhouse.io/sumologic/jobs/7382415"
+      }
+    ]
+  },
+  {
+    "company": "Tala",
+    "ats": "lever",
+    "board": "https://jobs.lever.co/tala",
+    "jobs": [
+      {
+        "title": "Senior SDET",
+        "location": "Remote-India",
+        "url": "https://jobs.lever.co/tala/ad2121e6-4421-4858-a3b3-5e5bc36e6bc9"
+      }
+    ]
+  },
+  {
+    "company": "Toast",
+    "ats": "greenhouse",
+    "board": "https://boards.greenhouse.io/toast",
+    "jobs": [
+      {
+        "title": "Senior QA Automation Engineer",
+        "location": "Bangalore, India",
+        "url": "https://careers.toasttab.com/jobs"
+      }
+    ]
+  },
+  {
+    "company": "Vectra AI",
+    "ats": "greenhouse",
+    "board": "https://boards.greenhouse.io/vectranetworks",
+    "jobs": [
+      {
+        "title": "QA Engineer",
+        "location": "Bangalore, India",
+        "url": "https://boards.greenhouse.io/vectranetworks/jobs/6495854"
+      },
+      {
+        "title": "Sr. QA Engineer",
+        "location": "Bangalore, India",
+        "url": "https://boards.greenhouse.io/vectranetworks/jobs/6495849"
+      }
+    ]
+  },
+  {
+    "company": "Virta Health",
+    "ats": "ashby",
+    "board": "https://jobs.ashbyhq.com/virtahealth",
+    "jobs": [
+      {
+        "title": "Lead QA Automation Engineer",
+        "location": "Remote",
+        "url": "https://jobs.ashbyhq.com/virtahealth/a52f1aea-e481-484e-8b23-682423acbf9e"
+      }
+    ]
+  },
+  {
+    "company": "XBOW",
+    "ats": "ashby",
+    "board": "https://jobs.ashbyhq.com/xbowcareers",
+    "jobs": [
+      {
+        "title": "Pentester (South Korea)",
+        "location": "South Korea",
+        "url": "https://jobs.ashbyhq.com/xbowcareers/fb6382fa-3ffe-436f-8da1-7e789750574b"
+      },
+      {
+        "title": "Pentester",
+        "location": "Europe remote",
+        "url": "https://jobs.ashbyhq.com/xbowcareers/f57467c4-f2e5-4ab9-adf0-66fc9d2761e2"
+      },
+      {
+        "title": "Pentest Automation Engineer",
+        "location": "Europe remote",
+        "url": "https://jobs.ashbyhq.com/xbowcareers/c40944df-c15c-4b89-9064-9d7ad8072624"
+      }
+    ]
+  },
+  {
+    "company": "Zinier",
+    "ats": "breezyhr",
+    "board": "https://zinier.breezy.hr",
+    "jobs": [
+      {
+        "title": "SDET-1 (Security)",
+        "location": "Bangalore, IN",
+        "url": "https://zinier.breezy.hr/p/240557dab140-sdet-1-security"
+      },
+      {
+        "title": "SDET-1",
+        "location": "Bangalore, IN",
+        "url": "https://zinier.breezy.hr/p/2a8e0ae16635-sdet-1/apply"
+      },
+      {
+        "title": "SDET Lead",
+        "location": "Bangalore, INSolutions",
+        "url": "https://zinier.breezy.hr/p/d4f938cb9ba4-sdet-lead"
+      },
+      {
+        "title": "SDET-2",
+        "location": "Bangalore, INEngineering",
+        "url": "https://zinier.breezy.hr/p/895a2237d56c-sdet-2"
+      },
+      {
+        "title": "SDET-2(Product)",
+        "location": "Bangalore, IN",
+        "url": "https://zinier.breezy.hr/p/895a2237d56c-sdet-2-product"
+      },
+      {
+        "title": "Senior QA Engineer-Solutions",
+        "location": "Bangalore, IN",
+        "url": "https://zinier.breezy.hr/p/3e02b89c17d2-senior-qa-engineer-solutions/apply"
+      },
+      {
+        "title": "QA Engineer- Solutions",
+        "location": "Bangalore, IN",
+        "url": "https://zinier.breezy.hr/p/36b5d01699aa-qa-engineer-solutions"
+      }
+    ]
+  }
+]

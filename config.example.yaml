@@ -1,0 +1,57 @@
+data:
+  companies_file: data/companies.json
+  ledger_db: data/applied.sqlite
+
+target:
+
+  role_keywords:
+    - software engineer
+    - backend engineer
+    - frontend engineer
+    - fullstack engineer
+    - platform engineer
+    - site reliability engineer
+    - sre
+    - devops engineer
+    - security engineer
+    - data engineer
+    - machine learning engineer
+    - qa engineer
+    - sdet
+
+  exclude_keywords:
+    - manager
+    - director
+    - head of
+    - lead
+    - principal
+    - staff
+    - architect
+    - intern
+
+  location_pref:
+    - remote
+    - worldwide
+    - global
+
+  work_types: ["remote", "hybrid", "onsite"]
+
+allow_companies: null
+
+skip_companies: []
+
+http:
+  timeout_seconds: 15
+  user_agent: "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
+  retries: 2
+
+app:
+  tick_minutes: 5
+  rotate_size: 1500
+  tick_concurrency: 32
+  ats_concurrency: 8
+  dead_skip_threshold: 2
+  dead_skip_minutes: 720
+  company_discovery_minutes: 360
+  stale_grace_misses: 2
+  port: 8000
