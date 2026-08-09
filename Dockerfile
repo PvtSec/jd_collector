@@ -19,10 +19,13 @@ ENV PYTHONUNBUFFERED=1 \
 # extra + fonts (charter, paracol, titlesec, eso-pic, enumitem, lastpage, hyperref…).
 # fontawesome was stripped from the template so we avoid the heavy texlive-fonts-extra.
 # Compiled PDFs are written to /tmp and removed immediately — nothing hits the volume.
+# pigz: parallel gzip — decompresses the baked data/*.gz (multi-hundred-MB seed)
+# on start far faster than single-threaded zcat.
 RUN apt-get update && apt-get install -y --no-install-recommends \
         texlive-latex-base texlive-latex-recommended texlive-latex-extra \
         texlive-fonts-recommended \
         latexmk \
+        pigz \
     && rm -rf /var/lib/apt/lists/*
 
 # Backend + engine deps (all job boards enumerate via plain requests; no browser)

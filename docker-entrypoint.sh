@@ -16,12 +16,22 @@
 # growth the scheduler discovered.
 set -e
 
+# Decompress with pigz (parallel, 8 threads) — the seed is hundreds of MB and
+# single-threaded zcat dominates startup. Falls back to zcat if pigz is absent.
+gz_cat() {
+  if command -v pigz >/dev/null 2>&1; then
+    pigz -dc -p8 "$1"
+  else
+    zcat "$1"
+  fi
+}
+
 # Recursively decompress any *.gz under /app/data whose target is absent.
 find /app/data -name '*.gz' -type f 2>/dev/null | while read -r gz; do
   out="${gz%.gz}"
   if [ ! -f "$out" ]; then
     echo "[entrypoint] decompressing ${gz#/app/data/} -> ${out#/app/data/}"
-    zcat "$gz" > "$out"
+    gz_cat "$gz" > "$out"
   fi
 done
 
@@ -36,11 +46,11 @@ if [ -d /app/data.baked ] && [ -f /app/data.baked/companies.json.gz ]; then
 
   # Upgrade companies.json only if the volume copy is missing or smaller than
   # the baked one (never downgrade runtime growth).
-  baked_n=$(zcat /app/data.baked/companies.json.gz | python -c 'import sys,json;print(len(json.load(sys.stdin)))' 2>/dev/null || echo 0)
+  baked_n=$(gz_cat /app/data.baked/companies.json.gz | python -c 'import sys,json;print(len(json.load(sys.stdin)))' 2>/dev/null || echo 0)
   vol_n=$(python -c 'import json;print(len(json.load(open("/app/data/companies.json"))))' 2>/dev/null || echo 0)
   if [ "${vol_n:-0}" -lt "${baked_n:-0}" ]; then
     echo "[entrypoint] companies.json ${vol_n} < baked ${baked_n} -> refreshing from baked"
-    zcat /app/data.baked/companies.json.gz > /app/data/companies.json
+    gz_cat /app/data.baked/companies.json.gz > /app/data/companies.json
   fi
 fi
 

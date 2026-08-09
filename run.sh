@@ -81,13 +81,22 @@ PY
     #    hidden is a personal action; matched is role-specific (re-derived by each
     #    user's config + matcher on enumeration). Zeroing them keeps a fresh clone
     #    state-free. closed (job liveness) is kept.
-    sed -i 's/"applied": 1/"applied": 0/g; s/"hidden": 1/"hidden": 0/g; s/"matched": 1/"matched": 0/g' ./data/jobs_seed.json
-    # 4. compress it (the raw file is gitignored + dockerignored; only the .gz
-    #    is committed + baked — keeps the repo under GitHub's 100 MB file limit;
-    #    docker-entrypoint.sh decompresses it into the volume on start)
-    gzip -kf ./data/jobs_seed.json
+    #    The exporter writes minified JSON ("applied":1); the optional space keeps
+    #    this working on seeds produced before minification ("applied": 1).
+    sed -Ei 's/"(applied|hidden|matched)": ?1/"\1":0/g' ./data/jobs_seed.json
+    # 4. compress it with pigz -11 (zopfli, smallest gzip-compatible output) across
+    #    8 threads (the raw file is gitignored + dockerignored; only the .gz is
+    #    committed + baked — keeps the repo under GitHub's 100 MB file limit;
+    #    docker-entrypoint.sh decompresses it into the volume on start).
+    #    -11 is slow by design: it buys a permanently smaller committed snapshot.
+    if command -v pigz >/dev/null 2>&1; then
+      pigz -11 -p8 -kf ./data/jobs_seed.json
+    else
+      echo "! pigz not found — falling back to gzip -9 (install pigz for a smaller seed)" >&2
+      gzip -9 -kf ./data/jobs_seed.json
+    fi
     echo "→ wrote ./data/jobs_seed.json + .gz (raw is gitignored; commit data/jobs_seed.json.gz)"
-    echo "  also compress the curated dataset if regenerated: gzip -kf data/companies.json"
+    echo "  also compress the curated dataset if regenerated: pigz -11 -p8 -kf data/companies.json"
     echo "  then: git add data/jobs_seed.json.gz data/companies.json.gz && ./run.sh up"
     echo "  (a fresh volume / new machine pre-seeds from this snapshot)" ;;
   *)

@@ -47,7 +47,9 @@ def export_seed(db, path: str, max_rows: int) -> dict:
     fd, tmp = tempfile.mkstemp(dir=parent, suffix=".tmp")
     try:
         with os.fdopen(fd, "w", encoding="utf-8") as f:
-            json.dump(payload, f)
+            # minified: no whitespace, raw UTF-8 (not \uXXXX escapes) — the seed is
+            # machine-read only, and a smaller file compresses/decompresses faster.
+            json.dump(payload, f, separators=(",", ":"), ensure_ascii=False)
         os.replace(tmp, path)
     except Exception:
         try:
