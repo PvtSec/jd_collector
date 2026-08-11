@@ -171,6 +171,7 @@ def health():
 def jobs(q: str = "", ats_exclude: str = "", matched: bool = False,
          applied: str = "", recent: str = "", sort: str = "recent",
          closed: str = "exclude", skill: str = "",
+         company_q: str = "", title_q: str = "", location_q: str = "", ats_q: str = "",
          limit: int = Query(200, ge=1, le=1000), offset: int = Query(0, ge=0)):
     recent_seconds = _parse_recent(recent)
     applied_only = _parse_tri(applied)
@@ -183,6 +184,8 @@ def jobs(q: str = "", ats_exclude: str = "", matched: bool = False,
         applied_only=applied_only, recent_seconds=recent_seconds,
         sort=sort, limit=limit, offset=offset, closed=closed_mode,
         skill=skill or None,
+        company_q=company_q or None, title_q=title_q or None,
+        location_q=location_q or None, ats_q=ats_q or None,
     )
     return {"items": rows, "total": total, "count": len(rows), "limit": limit, "offset": offset}
 

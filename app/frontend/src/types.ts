@@ -114,6 +114,11 @@ export interface Filters {
   sort: 'recent' | 'company' | 'matched'
   closed: 'exclude' | 'only' | 'any'  // open-only (default) | closed | all
   skill: string   // demand skill filter ('' = none)
+  // per-column free-text filters ('' = none). AND together with q.
+  company: string
+  title: string
+  location: string
+  ats_q: string   // text filter on ats (independent of the `ats` exclude checkboxes)
 }
 
 // ---- Resume builder -----------------------------------------------------

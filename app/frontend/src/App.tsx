@@ -19,6 +19,7 @@ export default function App() {
   const [jobsTotal, setJobsTotal] = useState(0)
   const [filters, setFilters] = useState<Filters>({
     q: '', ats: [], matched: true, applied: '', recent: '', sort: 'recent', closed: 'exclude', skill: '',
+    company: '', title: '', location: '', ats_q: '',
   })
   const [page, setPage] = useState(1)
   const [pageSize, setPageSize] = useState(50)
@@ -38,12 +39,19 @@ export default function App() {
     window.history.pushState({}, '', v === 'demand' ? '/demand' : '/')
     setView(v)
   }
-  // debounced free-text search so typing doesn't fire a query per keystroke
-  const [debouncedQ, setDebouncedQ] = useState(filters.q)
+  // debounced free-text search so typing doesn't fire a query per keystroke.
+  // Covers the global box (q) and each per-column box.
+  const [debouncedText, setDebouncedText] = useState({
+    q: filters.q, company: filters.company, title: filters.title,
+    location: filters.location, ats_q: filters.ats_q,
+  })
   useEffect(() => {
-    const id = setTimeout(() => setDebouncedQ(filters.q), 300)
+    const id = setTimeout(() => setDebouncedText({
+      q: filters.q, company: filters.company, title: filters.title,
+      location: filters.location, ats_q: filters.ats_q,
+    }), 300)
     return () => clearTimeout(id)
-  }, [filters.q])
+  }, [filters.q, filters.company, filters.title, filters.location, filters.ats_q])
 
   const refreshAll = useCallback(async () => {
     try {
@@ -90,15 +98,20 @@ export default function App() {
     return () => clearInterval(id)
   }, [])
 
-  // reload jobs when the non-q filters / page / page-size change, the debounced
-  // search settles, a task finishes, or the 15s auto-refresh bumps `tick`.
-  // `filters.q` is intentionally NOT a dep — it's applied via debouncedQ so
-  // typing doesn't fire a query per keystroke.
+  // reload jobs when the dropdown filters / page / page-size change, the debounced
+  // free-text search settles, a task finishes, or the 15s auto-refresh bumps `tick`.
+  // The raw text fields (q/company/title/location/ats_q) are intentionally NOT
+  // deps — they're applied via debouncedText so typing doesn't fire a query per
+  // keystroke.
   const { matched, ats, applied, recent, sort, closed, skill } = filters
   useEffect(() => {
     let cancelled = false
     const offset = (page - 1) * pageSize
-    api.jobs({ q: debouncedQ, matched, ats, applied, recent, sort, closed, skill }, pageSize, offset)
+    api.jobs({
+      q: debouncedText.q, company: debouncedText.company, title: debouncedText.title,
+      location: debouncedText.location, ats_q: debouncedText.ats_q,
+      matched, ats, applied, recent, sort, closed, skill,
+    }, pageSize, offset)
       .then(d => {
         if (cancelled) return
         setJobs(d.items); setJobsCount(d.count); setJobsTotal(d.total)
@@ -108,7 +121,7 @@ export default function App() {
       })
       .catch(e => !cancelled && setError(String(e)))
     return () => { cancelled = true }
-  }, [debouncedQ, matched, ats, applied, recent, sort, closed, skill, tick, page, pageSize])
+  }, [debouncedText, matched, ats, applied, recent, sort, closed, skill, tick, page, pageSize])
 
   const forceRun = useCallback(async () => {
     setRunMsg(''); setError('')
@@ -185,7 +198,12 @@ export default function App() {
         <JobList jobs={jobs} onMarkApplied={onMarkApplied} onHide={onHide}
                  onBuildResume={onBuildResume}
                  page={page} pageSize={pageSize} total={jobsTotal} count={jobsCount}
-                 onPageChange={onPageChange} onPageSizeChange={onPageSizeChange} />
+                 onPageChange={onPageChange} onPageSizeChange={onPageSizeChange}
+                 columnFilters={{
+                   company: filters.company, title: filters.title,
+                   location: filters.location, ats_q: filters.ats_q,
+                 }}
+                 onColumnFilter={onFilter} />
       </main>
 
       {resumeJob && <ResumeDialog job={resumeJob} onClose={() => setResumeJob(null)} />}

@@ -362,6 +362,10 @@ class DB:
         include_hidden: bool = False,
         closed: str = "exclude",
         skill: str | None = None,
+        company_q: str | None = None,
+        title_q: str | None = None,
+        location_q: str | None = None,
+        ats_q: str | None = None,
     ) -> tuple[list[dict], int]:
         sql = "SELECT * FROM jobs WHERE 1=1"
         args: list = []
@@ -375,6 +379,12 @@ class DB:
             sql += " AND (LOWER(company) LIKE ? OR LOWER(title) LIKE ? OR LOWER(location) LIKE ?)"
             p = f"%{q.lower()}%"
             args += [p, p, p]
+        # per-column free-text filters (AND together; column names are literals, not user input)
+        for col, val in (("company", company_q), ("title", title_q),
+                         ("location", location_q), ("ats", ats_q)):
+            if val:
+                sql += f" AND LOWER({col}) LIKE ?"
+                args.append(f"%{val.lower()}%")
         if ats:
             ats_list = [ats] if isinstance(ats, str) else [a for a in ats if a]
             if ats_list:

@@ -36,6 +36,11 @@ export const api = {
     if (f.q) q.set('q', f.q)
     // f.ats = the EXCLUDED (avoided) ATS set from the checkbox filter
     if (f.ats && f.ats.length) q.set('ats_exclude', f.ats.join(','))
+    // per-column free-text filters
+    if (f.company) q.set('company_q', f.company)
+    if (f.title) q.set('title_q', f.title)
+    if (f.location) q.set('location_q', f.location)
+    if (f.ats_q) q.set('ats_q', f.ats_q)
     if (f.matched) q.set('matched', 'true')
     if (f.applied) q.set('applied', f.applied)
     if (f.recent) q.set('recent', f.recent)

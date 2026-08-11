@@ -17,9 +17,12 @@ function pageList(page: number, pages: number): (number | '…')[] {
   return out
 }
 
+type ColumnFilters = { company: string; title: string; location: string; ats_q: string }
+
 export default function JobList({
   jobs, onMarkApplied, onHide, onBuildResume,
   page, pageSize, total, count, onPageChange, onPageSizeChange,
+  columnFilters, onColumnFilter,
 }: {
   jobs: JobRow[]
   onMarkApplied: (job: JobRow) => void
@@ -31,6 +34,8 @@ export default function JobList({
   count: number
   onPageChange: (p: number) => void
   onPageSizeChange: (n: number) => void
+  columnFilters: ColumnFilters
+  onColumnFilter: (patch: Partial<ColumnFilters>) => void
 }) {
   // id of the row highlighted by clicking "Apply now"; stays highlighted until
   // the user clicks anywhere outside that row.
@@ -85,6 +90,17 @@ export default function JobList({
           <tr>
             <th>Company</th><th>Role</th><th>Location</th>
             <th>ATS</th><th>Found</th><th></th>
+          </tr>
+          <tr className="col-filters">
+            <th><input type="search" placeholder="Filter company" value={columnFilters.company}
+                       onChange={e => onColumnFilter({ company: e.target.value })} /></th>
+            <th><input type="search" placeholder="Filter role" value={columnFilters.title}
+                       onChange={e => onColumnFilter({ title: e.target.value })} /></th>
+            <th><input type="search" placeholder="Filter location" value={columnFilters.location}
+                       onChange={e => onColumnFilter({ location: e.target.value })} /></th>
+            <th><input type="search" placeholder="Filter ATS" value={columnFilters.ats_q}
+                       onChange={e => onColumnFilter({ ats_q: e.target.value })} /></th>
+            <th></th><th></th>
           </tr>
         </thead>
         <tbody>

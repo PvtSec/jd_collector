@@ -1,3 +1,4 @@
+import { useEffect, useRef } from 'react'
 import type { Filters } from '../types'
 
 // Filters: free-text search, ATS (checkbox "avoid some"), matched-only, applied,
@@ -14,6 +15,25 @@ export default function FilterBar({
   byAts: Record<string, number>
   totalCount: number
 }) {
+  // the ATS filter is a native <details>, which doesn't close on outside click
+  // or Escape — handle that manually so it behaves like the <select> dropdowns.
+  const atsRef = useRef<HTMLDetailsElement>(null)
+  useEffect(() => {
+    const onDown = (e: MouseEvent) => {
+      const el = atsRef.current
+      if (el?.open && !el.contains(e.target as Node)) el.open = false
+    }
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === 'Escape' && atsRef.current?.open) atsRef.current.open = false
+    }
+    document.addEventListener('mousedown', onDown)
+    document.addEventListener('keydown', onKey)
+    return () => {
+      document.removeEventListener('mousedown', onDown)
+      document.removeEventListener('keydown', onKey)
+    }
+  }, [])
+
   const set = (k: keyof Filters) => (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
     const v = e.target.type === 'checkbox'
       ? (e.target as HTMLInputElement).checked
@@ -52,7 +72,7 @@ export default function FilterBar({
       <input type="search" placeholder="Search company / role / location…"
              value={filters.q} onChange={set('q')} />
 
-      <details className="ats-dropdown">
+      <details className="ats-dropdown" ref={atsRef}>
         <summary>{headerLabel}</summary>
         <div className="ats-panel">
           <div className="ats-actions">
