@@ -1,0 +1,114 @@
+[
+  {
+    "company_name": "Unacademy",
+    "website": "unacademy.com",
+    "career_page_url": "https://jobs.smartrecruiters.com/unacademy",
+    "domain_hint": "edtech",
+    "ats_type": "smartrecruiters",
+    "source_platform": "g04_consumer_in"
+  },
+  {
+    "company_name": "InterviewBit",
+    "website": "interviewbit.com",
+    "career_page_url": "https://jobs.smartrecruiters.com/interviewbit",
+    "domain_hint": "edtech",
+    "ats_type": "smartrecruiters",
+    "source_platform": "g04_consumer_in"
+  },
+  {
+    "company_name": "Swiggy",
+    "website": "swiggy.com",
+    "career_page_url": "https://jobs.smartrecruiters.com/swiggy",
+    "domain_hint": "ecommerce",
+    "ats_type": "smartrecruiters",
+    "source_platform": "g04_consumer_in"
+  },
+  {
+    "company_name": "Grip Invest",
+    "website": "gripinvest.in",
+    "career_page_url": "https://jobs.smartrecruiters.com/gripinvest",
+    "domain_hint": "fintech",
+    "ats_type": "smartrecruiters",
+    "source_platform": "g04_consumer_in"
+  },
+  {
+    "company_name": "Kodo",
+    "website": "getkodo.com",
+    "career_page_url": "https://jobs.smartrecruiters.com/kodo",
+    "domain_hint": "fintech",
+    "ats_type": "smartrecruiters",
+    "source_platform": "g04_consumer_in"
+  },
+  {
+    "company_name": "Lendingkart",
+    "website": "lendingkart.com",
+    "career_page_url": "https://jobs.smartrecruiters.com/lendingkart",
+    "domain_hint": "fintech",
+    "ats_type": "smartrecruiters",
+    "source_platform": "g04_consumer_in"
+  },
+  {
+    "company_name": "Loop Health",
+    "website": "loophealth.com",
+    "career_page_url": "https://jobs.smartrecruiters.com/loophealth",
+    "domain_hint": "healthtech",
+    "ats_type": "smartrecruiters",
+    "source_platform": "g04_consumer_in"
+  },
+  {
+    "company_name": "Rebel Foods",
+    "website": "rebelfoods.com",
+    "career_page_url": "https://jobs.smartrecruiters.com/rebelfoods",
+    "domain_hint": "ecommerce",
+    "ats_type": "smartrecruiters",
+    "source_platform": "g04_consumer_in"
+  },
+  {
+    "company_name": "Turtlemint",
+    "website": "turtlemint.com",
+    "career_page_url": "https://jobs.smartrecruiters.com/turtlemint",
+    "domain_hint": "fintech",
+    "ats_type": "smartrecruiters",
+    "source_platform": "g04_consumer_in"
+  },
+  {
+    "company_name": "Upstox",
+    "website": "upstox.com",
+    "career_page_url": "https://jobs.smartrecruiters.com/upstox",
+    "domain_hint": "fintech",
+    "ats_type": "smartrecruiters",
+    "source_platform": "g04_consumer_in"
+  },
+  {
+    "company_name": "BigBasket",
+    "website": "bigbasket.com",
+    "career_page_url": "https://careers.bigbasket.com/",
+    "domain_hint": "ecommerce",
+    "ats_type": "unknown",
+    "source_platform": "g04_consumer_in"
+  },
+  {
+    "company_name": "Digit Insurance",
+    "website": "godigit.com",
+    "career_page_url": "https://www.godigit.com/careers",
+    "domain_hint": "fintech",
+    "ats_type": "unknown",
+    "source_platform": "g04_consumer_in"
+  },
+  {
+    "company_name": "Licious",
+    "website": "licious.in",
+    "career_page_url": "https://careers.licious.com/",
+    "domain_hint": "ecommerce",
+    "ats_type": "unknown",
+    "source_platform": "g04_consumer_in"
+  },
+  {
+    "company_name": "InsuranceDekho",
+    "website": "insurancedekho.com",
+    "career_page_url": "https://careers.insurancedekho.com/",
+    "domain_hint": "fintech",
+    "ats_type": "unknown",
+    "source_platform": "g04_consumer_in"
+  }
+]

@@ -37,8 +37,7 @@ export default function JobList({
   columnFilters: ColumnFilters
   onColumnFilter: (patch: Partial<ColumnFilters>) => void
 }) {
-  // id of the row highlighted by clicking "Apply now"; stays highlighted until
-  // the user clicks anywhere outside that row.
+  // "Apply now" row stays highlighted until a click outside that row
   const [hlId, setHlId] = useState<number | null>(null)
 
   useEffect(() => {

@@ -29,7 +29,7 @@ class AppSettings(BaseSettings):
     job_liveness_batch: int = Field(default=500, ge=10, description="Matched+open jobs whose endpoint is URL-checked per liveness sweep")
 
     seed_file: str = Field(default="data/jobs_seed.json", description="Discovered-jobs seed file (volume; baked into the image for fresh volumes)")
-    seed_export_minutes: int = Field(default=60, ge=5, description="Minutes between seed exports")
+    seed_export_minutes: int = Field(default=360, ge=5, description="Minutes between seed exports")
     seed_max_rows: int = Field(default=0, ge=0, description="Max jobs kept in the seed (most-recently-seen); 0 = no cap, export every row")
 
     host: str = "0.0.0.0"

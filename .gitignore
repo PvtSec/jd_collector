@@ -63,3 +63,6 @@ data/raw/_fanout/fixable_scheme.json
 # and are decompressed from .gz by docker-entrypoint.sh on container start.
 data/jobs_seed.json
 data/companies.json
+
+# ---- Persistent user state (bind-mounted; applied/hidden restore records) ----
+/state/

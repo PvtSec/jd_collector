@@ -766,6 +766,16 @@
     ]
   },
   {
+    "company_name": "100x",
+    "website": "100x.bot?utm_source=inbound&utm_medium=bookface&utm_campaign=yc&utm_id=122",
+    "career_page_url": "https://100x.bot/careers",
+    "board_token": null,
+    "domain_hint": "ai",
+    "source_platforms": [
+      "g05_yc_in"
+    ]
+  },
+  {
     "company_name": "101 Mobility",
     "website": "101mobility.com",
     "career_page_url": "101mobility.com",
@@ -2127,14 +2137,6 @@
     "company_name": "2021 FIFA Club World Cup",
     "website": "http://www.fifa.com/tournaments/mens/clubworldcup/uae2021",
     "career_page_url": "http://www.fifa.com/tournaments/mens/clubworldcup/uae2021",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "2021 FIFA Club World Cup Final",
-    "website": "https://www.fifa.com/tournaments/mens/clubworldcup/uae2021",
-    "career_page_url": "https://www.fifa.com/tournaments/mens/clubworldcup/uae2021",
     "board_token": null,
     "domain_hint": "",
     "source_platforms": []
@@ -6151,14 +6153,6 @@
   },
   {
     "company_name": "A Plus",
-    "website": "https://apluslaundry.2gis.biz/",
-    "career_page_url": "https://apluslaundry.2gis.biz/",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "A Pluss Laundry",
     "website": "https://apluslaundry.2gis.biz/",
     "career_page_url": "https://apluslaundry.2gis.biz/",
     "board_token": null,
@@ -10628,6 +10622,16 @@
     "domain_hint": "",
     "source_platforms": [
       "wd_mena_africa"
+    ]
+  },
+  {
+    "company_name": "ACCELQ",
+    "website": "accelq.com",
+    "career_page_url": "https://accelq.com/company/careers",
+    "board_token": null,
+    "domain_hint": "devtools",
+    "source_platforms": [
+      "g07_remote_first"
     ]
   },
   {
@@ -15267,24 +15271,8 @@
   },
   {
     "company_name": "ADNOC",
-    "website": "https://www.adnocdistribution.ae",
+    "website": "https://www.adnocdistribution.ae/",
     "career_page_url": "https://www.adnocdistribution.ae",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "ADNOC Distribution Head Office",
-    "website": "https://www.adnocdistribution.ae/",
-    "career_page_url": "https://www.adnocdistribution.ae/",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "ADNOC Gas Station",
-    "website": "https://www.adnocdistribution.ae/",
-    "career_page_url": "https://www.adnocdistribution.ae/",
     "board_token": null,
     "domain_hint": "",
     "source_platforms": []
@@ -18118,14 +18106,6 @@
   },
   {
     "company_name": "Aerosoft",
-    "website": "https://www.aerosoft.ae/",
-    "career_page_url": "https://www.aerosoft.ae/",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "Aerosoft by Sylvia & Jangjoo",
     "website": "https://www.aerosoft.ae/",
     "career_page_url": "https://www.aerosoft.ae/",
     "board_token": null,
@@ -30412,14 +30392,6 @@
     "source_platforms": []
   },
   {
-    "company_name": "Al Maya Supermarket",
-    "website": "https://almaya.ae",
-    "career_page_url": "https://almaya.ae",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
     "company_name": "Al Meera",
     "website": "http://www.almeera.com/our-stores/al-meera-supermarkets-and-hypermarkets",
     "career_page_url": "http://www.almeera.com/our-stores/al-meera-supermarkets-and-hypermarkets",
@@ -30846,14 +30818,6 @@
     "source_platforms": []
   },
   {
-    "company_name": "Al Saqer Property Management LLC - Head Office",
-    "website": "https://www.aspm.ae/",
-    "career_page_url": "https://www.aspm.ae/",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
     "company_name": "Al Saqr Travel & Tourism LLC",
     "website": "https://alsaqrtravels.com/",
     "career_page_url": "https://alsaqrtravels.com/",
@@ -30879,14 +30843,6 @@
   },
   {
     "company_name": "Al Seef",
-    "website": "https://alseef.ae/",
-    "career_page_url": "https://alseef.ae/",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "Al Seef Dubai",
     "website": "https://alseef.ae/",
     "career_page_url": "https://alseef.ae/",
     "board_token": null,
@@ -32212,14 +32168,6 @@
     "source_platforms": [
       "wd_na"
     ]
-  },
-  {
-    "company_name": "Albayan newspaper",
-    "website": "https://www.albayan.ae/",
-    "career_page_url": "https://www.albayan.ae/",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
   },
   {
     "company_name": "Albayrak Group",
@@ -37080,7 +37028,7 @@
   },
   {
     "company_name": "Almaya",
-    "website": "https://almaya.ae/",
+    "website": "https://almaya.ae",
     "career_page_url": "https://almaya.ae/",
     "board_token": null,
     "domain_hint": "",
@@ -46955,14 +46903,6 @@
     "source_platforms": []
   },
   {
-    "company_name": "Anton Automobile Repairs LLC",
-    "website": "https://anton.ae/",
-    "career_page_url": "https://anton.ae/",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
     "company_name": "Anton Schick",
     "website": "schick-bau.de",
     "career_page_url": "schick-bau.de",
@@ -49309,6 +49249,16 @@
     ]
   },
   {
+    "company_name": "Appknox",
+    "website": "appknox.com",
+    "career_page_url": "https://www.appknox.com/careers",
+    "board_token": null,
+    "domain_hint": "cybersecurity",
+    "source_platforms": [
+      "g01_cyber_in"
+    ]
+  },
+  {
     "company_name": "Appland",
     "website": "applandinc.com",
     "career_page_url": "applandinc.com",
@@ -49736,6 +49686,16 @@
     "domain_hint": "",
     "source_platforms": [
       "wd_devtools"
+    ]
+  },
+  {
+    "company_name": "Applied Materials India",
+    "website": "appliedmaterials.com",
+    "career_page_url": "https://careers.appliedmaterials.com/",
+    "board_token": null,
+    "domain_hint": "semis",
+    "source_platforms": [
+      "g06_gcc_in"
     ]
   },
   {
@@ -57106,6 +57066,16 @@
     ]
   },
   {
+    "company_name": "Arya.ai",
+    "website": "arya.ai",
+    "career_page_url": "https://arya.zohorecruit.com/jobs/Careers",
+    "board_token": null,
+    "domain_hint": "ai",
+    "source_platforms": [
+      "g08_lists_in"
+    ]
+  },
+  {
     "company_name": "Aryaka",
     "website": "https://www.aryaka.com",
     "career_page_url": "https://www.aryaka.com/careers",
@@ -62911,16 +62881,6 @@
     ]
   },
   {
-    "company_name": "Atlan",
-    "website": "",
-    "career_page_url": "",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": [
-      "insight_partners"
-    ]
-  },
-  {
     "company_name": "Atlan Holdings Bhd",
     "website": "atlan.com.my",
     "career_page_url": "atlan.com.my",
@@ -63052,14 +63012,6 @@
   },
   {
     "company_name": "Atlantis The Royal",
-    "website": "https://www.atlantis.com/atlantis-the-royal",
-    "career_page_url": "https://www.atlantis.com/atlantis-the-royal",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "Atlantis The Royal, Dubai",
     "website": "https://www.atlantis.com/atlantis-the-royal",
     "career_page_url": "https://www.atlantis.com/atlantis-the-royal",
     "board_token": null,
@@ -68121,70 +68073,6 @@
   },
   {
     "company_name": "Autostrad Rent A Car",
-    "website": "https://www.autostrad.com/",
-    "career_page_url": "https://www.autostrad.com/",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "Autostrad Rent A Car, Abu Dhabi Airport Meet & Greet",
-    "website": "https://www.autostrad.com",
-    "career_page_url": "https://www.autostrad.com",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "Autostrad Rent A Car, Al Ain",
-    "website": "https://www.autostrad.com/",
-    "career_page_url": "https://www.autostrad.com/",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "Autostrad Rent A Car, Al Quoz",
-    "website": "https://www.autostrad.com/",
-    "career_page_url": "https://www.autostrad.com/",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "Autostrad Rent A Car, Fujairah",
-    "website": "https://www.autostrad.com/",
-    "career_page_url": "https://www.autostrad.com/",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "Autostrad Rent A Car, Musaffah",
-    "website": "https://www.autostrad.com/",
-    "career_page_url": "https://www.autostrad.com/",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "Autostrad Rent A Car, Ras Al Khaimah",
-    "website": "https://www.autostrad.com",
-    "career_page_url": "https://www.autostrad.com",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "Autostrad Rent A Car, Sharjah",
-    "website": "https://www.autostrad.com/",
-    "career_page_url": "https://www.autostrad.com/",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "Autostrad Rent A Car, Sheikh Zayed Road",
     "website": "https://www.autostrad.com/",
     "career_page_url": "https://www.autostrad.com/",
     "board_token": null,
@@ -81449,14 +81337,6 @@
     "source_platforms": []
   },
   {
-    "company_name": "Bay Central West",
-    "website": "https://select-group.ae/development/bay-central/",
-    "career_page_url": "https://select-group.ae/development/bay-central/",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
     "company_name": "Bay Laundry",
     "website": "https://www.baylaundry.ae/",
     "career_page_url": "https://www.baylaundry.ae/",
@@ -87397,14 +87277,6 @@
     "source_platforms": []
   },
   {
-    "company_name": "Best Mix for Sweets L.L.C",
-    "website": "https://www.bestmix.ae/",
-    "career_page_url": "https://www.bestmix.ae/",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
     "company_name": "Best Oil",
     "website": "bestoil.com.tr",
     "career_page_url": "bestoil.com.tr",
@@ -90278,6 +90150,16 @@
     "domain_hint": "",
     "source_platforms": [
       "wiki_lists"
+    ]
+  },
+  {
+    "company_name": "BigBasket",
+    "website": "bigbasket.com",
+    "career_page_url": "https://careers.bigbasket.com/",
+    "board_token": null,
+    "domain_hint": "ecommerce",
+    "source_platforms": [
+      "g04_consumer_in"
     ]
   },
   {
@@ -99353,14 +99235,6 @@
   },
   {
     "company_name": "Blush N Curls",
-    "website": "https://blushncurls.com/",
-    "career_page_url": "https://blushncurls.com/",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "Blush N Curls Ladies Salon & Spa",
     "website": "https://blushncurls.com/",
     "career_page_url": "https://blushncurls.com/",
     "board_token": null,
@@ -113537,14 +113411,6 @@
   },
   {
     "company_name": "Burjex Corporate Services Provider",
-    "website": "https://www.burjex.com/",
-    "career_page_url": "https://www.burjex.com/",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "Burjex Corporate Services Providers",
     "website": "https://www.burjex.com/",
     "career_page_url": "https://www.burjex.com/",
     "board_token": null,
@@ -143042,14 +142908,6 @@
     "source_platforms": []
   },
   {
-    "company_name": "City Gym Mansoura Ladies",
-    "website": "https://citygymdoha.com/",
-    "career_page_url": "https://citygymdoha.com/",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
     "company_name": "City Gym Wakrah - Gents",
     "website": "https://citygymdoha.com/",
     "career_page_url": "https://citygymdoha.com/",
@@ -149153,14 +149011,6 @@
     "source_platforms": []
   },
   {
-    "company_name": "Coca-Cola Arena Complex",
-    "website": "https://www.coca-cola-arena.com/",
-    "career_page_url": "https://www.coca-cola-arena.com/",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
     "company_name": "Coca-Cola Europacific Aboitiz Philippines",
     "website": "coca-cola.com.ph",
     "career_page_url": "coca-cola.com.ph",
@@ -152514,6 +152364,16 @@
     "domain_hint": "",
     "source_platforms": [
       "wd_india"
+    ]
+  },
+  {
+    "company_name": "ColorTokens",
+    "website": "colortokens.com",
+    "career_page_url": "https://www.colortokens.com/careers/",
+    "board_token": null,
+    "domain_hint": "cybersecurity",
+    "source_platforms": [
+      "g01_cyber_in"
     ]
   },
   {
@@ -157666,6 +157526,16 @@
     "source_platforms": [
       "wd_devtools",
       "wd_na"
+    ]
+  },
+  {
+    "company_name": "ConnectSecure",
+    "website": "connectsecure.com",
+    "career_page_url": "https://www.connectsecure.com/careers",
+    "board_token": null,
+    "domain_hint": "devtools",
+    "source_platforms": [
+      "g07_remote_first"
     ]
   },
   {
@@ -162826,14 +162696,6 @@
   },
   {
     "company_name": "Costa",
-    "website": "https://www.costacoffee.ae/",
-    "career_page_url": "https://www.costacoffee.ae/",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "Costa coffee",
     "website": "https://www.costacoffee.ae/",
     "career_page_url": "https://www.costacoffee.ae/",
     "board_token": null,
@@ -173170,6 +173032,16 @@
     ]
   },
   {
+    "company_name": "Cyfirma",
+    "website": "cyfirma.com",
+    "career_page_url": "https://www.cyfirma.com/careers/",
+    "board_token": null,
+    "domain_hint": "cybersecurity",
+    "source_platforms": [
+      "g01_cyber_in"
+    ]
+  },
+  {
     "company_name": "Cyfrowy Polsat",
     "website": "cyfrowypolsat.pl",
     "career_page_url": "cyfrowypolsat.pl",
@@ -178009,6 +177881,16 @@
     "domain_hint": "",
     "source_platforms": [
       "wd_benelux_fr"
+    ]
+  },
+  {
+    "company_name": "Data Resolve Technologies",
+    "website": "dataresolve.com",
+    "career_page_url": "https://www.dataresolve.com/careers.php",
+    "board_token": null,
+    "domain_hint": "cybersecurity",
+    "source_platforms": [
+      "g01_cyber_in"
     ]
   },
   {
@@ -190997,6 +190879,16 @@
     ]
   },
   {
+    "company_name": "Digit Insurance",
+    "website": "godigit.com",
+    "career_page_url": "https://www.godigit.com/careers",
+    "board_token": null,
+    "domain_hint": "fintech",
+    "source_platforms": [
+      "g04_consumer_in"
+    ]
+  },
+  {
     "company_name": "Digita",
     "website": "digita.fi",
     "career_page_url": "digita.fi",
@@ -194488,14 +194380,6 @@
     "source_platforms": [
       "wiki_lists"
     ]
-  },
-  {
-    "company_name": "Dish-Dash Cafe & Restaurant",
-    "website": "https://dishdashuae.com/",
-    "career_page_url": "https://dishdashuae.com/",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
   },
   {
     "company_name": "Dishpatch",
@@ -202743,14 +202627,6 @@
     "source_platforms": []
   },
   {
-    "company_name": "Dubai Airports Corporation",
-    "website": "http://www.dubaiairports.ae/",
-    "career_page_url": "http://www.dubaiairports.ae/",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
     "company_name": "Dubai Airshow",
     "website": "http://dubaiairshow.aero/",
     "career_page_url": "http://dubaiairshow.aero/",
@@ -202810,14 +202686,6 @@
   },
   {
     "company_name": "Dubai British School Emirates Hills",
-    "website": "https://www.dubaibritishschool.ae/",
-    "career_page_url": "https://www.dubaibritishschool.ae/",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "Dubai British School Emirates Hills - Islands Campus",
     "website": "https://www.dubaibritishschool.ae/",
     "career_page_url": "https://www.dubaibritishschool.ae/",
     "board_token": null,
@@ -203433,14 +203301,6 @@
     "source_platforms": []
   },
   {
-    "company_name": "Dubai Municipality",
-    "website": "https://www.dm.gov.ae/",
-    "career_page_url": "https://www.dm.gov.ae/",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
     "company_name": "Dubai Music Week",
     "website": "http://www.dubaimusicweek.com/",
     "career_page_url": "http://www.dubaimusicweek.com/",
@@ -203514,14 +203374,6 @@
   },
   {
     "company_name": "Dubai Opera",
-    "website": "https://www.dubaiopera.com/",
-    "career_page_url": "https://www.dubaiopera.com/",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "Dubai Opera House",
     "website": "https://www.dubaiopera.com/",
     "career_page_url": "https://www.dubaiopera.com/",
     "board_token": null,
@@ -206044,16 +205896,6 @@
       "wd_devtools",
       "wd_na",
       "wd_saas_cloud"
-    ]
-  },
-  {
-    "company_name": "Dyson",
-    "website": "",
-    "career_page_url": "",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r0"
     ]
   },
   {
@@ -208763,14 +208605,6 @@
   },
   {
     "company_name": "Eastern Rose",
-    "website": "https://www.easternroselaundry.com/",
-    "career_page_url": "https://www.easternroselaundry.com/",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "Eastern Rose Laundry",
     "website": "https://www.easternroselaundry.com/",
     "career_page_url": "https://www.easternroselaundry.com/",
     "board_token": null,
@@ -218650,14 +218484,6 @@
     "source_platforms": []
   },
   {
-    "company_name": "Elmadrasah.com",
-    "website": "https://elmadrasah.com/",
-    "career_page_url": "https://elmadrasah.com/",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
     "company_name": "Elmar Reizen",
     "website": "",
     "career_page_url": "",
@@ -219580,7 +219406,7 @@
   },
   {
     "company_name": "Emarat",
-    "website": "https://www.emarat.ae/",
+    "website": "https://www.emarat.ae",
     "career_page_url": "https://www.emarat.ae/",
     "board_token": null,
     "domain_hint": "",
@@ -219590,14 +219416,6 @@
     "company_name": "Emarat Al Youm",
     "website": "https://zahracleaning.com/",
     "career_page_url": "https://zahracleaning.com/",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "Emarat E2",
-    "website": "https://www.emarat.ae",
-    "career_page_url": "https://www.emarat.ae",
     "board_token": null,
     "domain_hint": "",
     "source_platforms": []
@@ -219791,14 +219609,6 @@
     "source_platforms": []
   },
   {
-    "company_name": "embassy of Brazil in the United Arab Emirates",
-    "website": "http://abudhabi.itamaraty.gov.br",
-    "career_page_url": "http://abudhabi.itamaraty.gov.br",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
     "company_name": "Embassy of Canada",
     "website": "https://www.canadainternational.gc.ca/qatar/",
     "career_page_url": "https://www.canadainternational.gc.ca/qatar/",
@@ -219831,23 +219641,7 @@
     "source_platforms": []
   },
   {
-    "company_name": "embassy of Costa Rica in the United Arab Emirates",
-    "website": "http://embcr-uae.org",
-    "career_page_url": "http://embcr-uae.org",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
     "company_name": "Embassy of Cyprus",
-    "website": "http://www.mfa.gov.cy/mfa/embassies/embassy_abuDhabi.nsf",
-    "career_page_url": "http://www.mfa.gov.cy/mfa/embassies/embassy_abuDhabi.nsf",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "embassy of Cyprus in the United Arab Emirates",
     "website": "http://www.mfa.gov.cy/mfa/embassies/embassy_abuDhabi.nsf",
     "career_page_url": "http://www.mfa.gov.cy/mfa/embassies/embassy_abuDhabi.nsf",
     "board_token": null,
@@ -219864,14 +219658,6 @@
   },
   {
     "company_name": "Embassy of Estonia",
-    "website": "https://abudhabi.mfa.ee/",
-    "career_page_url": "https://abudhabi.mfa.ee/",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "embassy of Estonia in Abu Dhabi",
     "website": "https://abudhabi.mfa.ee/",
     "career_page_url": "https://abudhabi.mfa.ee/",
     "board_token": null,
@@ -220008,16 +219794,8 @@
   },
   {
     "company_name": "Embassy of Iran",
-    "website": "https://abudhabi.mfa.gov.ir/",
-    "career_page_url": "https://abudhabi.mfa.gov.ir/",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "Embassy of Iran, Abu Dhabi",
     "website": "http://abudhabi.mfa.gov.ir/",
-    "career_page_url": "http://abudhabi.mfa.gov.ir/",
+    "career_page_url": "https://abudhabi.mfa.gov.ir/",
     "board_token": null,
     "domain_hint": "",
     "source_platforms": []
@@ -220031,23 +219809,7 @@
     "source_platforms": []
   },
   {
-    "company_name": "Embassy of Iraq, Abu Dhabi",
-    "website": "https://www.mofa.gov.iq/abudhabi/",
-    "career_page_url": "https://www.mofa.gov.iq/abudhabi/",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
     "company_name": "Embassy of Ireland",
-    "website": "https://www.ireland.ie/en/uae/abudhabi/",
-    "career_page_url": "https://www.ireland.ie/en/uae/abudhabi/",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "embassy of Ireland in the United Arab Emirates",
     "website": "https://www.ireland.ie/en/uae/abudhabi/",
     "career_page_url": "https://www.ireland.ie/en/uae/abudhabi/",
     "board_token": null,
@@ -220103,14 +219865,6 @@
     "source_platforms": []
   },
   {
-    "company_name": "embassy of Latvia in the United Arab Emirates",
-    "website": "https://www.mfa.gov.lv/aae",
-    "career_page_url": "https://www.mfa.gov.lv/aae",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
     "company_name": "Embassy of Lebanon",
     "website": "https://www.lebaneseembassyqatar.com",
     "career_page_url": "https://www.lebaneseembassyqatar.com",
@@ -220127,25 +219881,9 @@
     "source_platforms": []
   },
   {
-    "company_name": "embassy of Lithuania in the United Arab Emirates",
-    "website": "https://uae.mfa.lt",
-    "career_page_url": "https://uae.mfa.lt",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
     "company_name": "Embassy of Luxembourg",
-    "website": "https://abudhabi.mae.lu/",
-    "career_page_url": "https://abudhabi.mae.lu/",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "embassy of Luxembourg in the United Arab Emirates",
     "website": "https://abudhabi.mae.lu",
-    "career_page_url": "https://abudhabi.mae.lu",
+    "career_page_url": "https://abudhabi.mae.lu/",
     "board_token": null,
     "domain_hint": "",
     "source_platforms": []
@@ -220199,14 +219937,6 @@
     "source_platforms": []
   },
   {
-    "company_name": "embassy of Moldova in the United Arab Emirates",
-    "website": "https://uae.mfa.gov.md",
-    "career_page_url": "https://uae.mfa.gov.md",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
     "company_name": "embassy of Nepal in the United Arab Emirates",
     "website": "https://ae.nepalembassy.gov.np",
     "career_page_url": "https://ae.nepalembassy.gov.np",
@@ -220223,14 +219953,6 @@
     "source_platforms": []
   },
   {
-    "company_name": "Embassy of New Zealand, Abu Dhabi",
-    "website": "https://www.mfat.govt.nz/en/countries-and-regions/middle-east/dubai/new-zealand-embassy/",
-    "career_page_url": "https://www.mfat.govt.nz/en/countries-and-regions/middle-east/dubai/new-zealand-embassy/",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
     "company_name": "embassy of North Macedonia in the United Arab Emirates",
     "website": "https://abudabi.mfa.gov.mk",
     "career_page_url": "https://abudabi.mfa.gov.mk",
@@ -220240,14 +219962,6 @@
   },
   {
     "company_name": "Embassy of Norway",
-    "website": "https://www.norway.no/en/united-arab-emirates",
-    "career_page_url": "https://www.norway.no/en/united-arab-emirates",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "Embassy of Norway in the United Arab Emirates",
     "website": "https://www.norway.no/en/united-arab-emirates",
     "career_page_url": "https://www.norway.no/en/united-arab-emirates",
     "board_token": null,
@@ -220319,14 +220033,6 @@
     "source_platforms": []
   },
   {
-    "company_name": "Embassy of Saudi Arabia, Abu Dhabi",
-    "website": "https://embassies.mofa.gov.sa/sites/uae",
-    "career_page_url": "https://embassies.mofa.gov.sa/sites/uae",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
     "company_name": "embassy of Serbia in the United Arab Emirates",
     "website": "http://www.abudhabi.mfa.gov.rs",
     "career_page_url": "http://www.abudhabi.mfa.gov.rs",
@@ -220368,16 +220074,8 @@
   },
   {
     "company_name": "Embassy of South Africa",
-    "website": "https://www.dirco.gov.za/abudhabi",
-    "career_page_url": "https://www.dirco.gov.za/abudhabi",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "embassy of South Africa in the United Arab Emirates",
     "website": "http://www.dirco.gov.za/abudhabi",
-    "career_page_url": "http://www.dirco.gov.za/abudhabi",
+    "career_page_url": "https://www.dirco.gov.za/abudhabi",
     "board_token": null,
     "domain_hint": "",
     "source_platforms": []
@@ -220386,14 +220084,6 @@
     "company_name": "Embassy of Spain",
     "website": "http://www.exteriores.gob.es/Embajadas/ABUDHABI",
     "career_page_url": "http://www.exteriores.gob.es/Embajadas/ABUDHABI",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "Embassy of Spain, Abu Dhabi",
-    "website": "http://www.exteriores.gob.es/Embajadas/AbuDhabi",
-    "career_page_url": "http://www.exteriores.gob.es/Embajadas/AbuDhabi",
     "board_token": null,
     "domain_hint": "",
     "source_platforms": []
@@ -220415,14 +220105,6 @@
     "source_platforms": []
   },
   {
-    "company_name": "embassy of Switzerland in United Arab Emirates",
-    "website": "https://www.eda.admin.ch/uae",
-    "career_page_url": "https://www.eda.admin.ch/uae",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
     "company_name": "Embassy of Thailand",
     "website": "http://www.thaiembassy.org/doha/",
     "career_page_url": "http://www.thaiembassy.org/doha/",
@@ -220432,14 +220114,6 @@
   },
   {
     "company_name": "Embassy of the Czech Republic",
-    "website": "https://www.mzv.cz/abudhabi",
-    "career_page_url": "https://www.mzv.cz/abudhabi",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "embassy of the Czech republic in the United Arab Emirates",
     "website": "https://www.mzv.cz/abudhabi",
     "career_page_url": "https://www.mzv.cz/abudhabi",
     "board_token": null,
@@ -221170,16 +220844,8 @@
   },
   {
     "company_name": "Embassy of the United States",
-    "website": "https://ae.usembassy.gov/",
-    "career_page_url": "https://ae.usembassy.gov/",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "embassy of the United States in the United Arab Emirates",
     "website": "https://ae.usembassy.gov",
-    "career_page_url": "https://ae.usembassy.gov",
+    "career_page_url": "https://ae.usembassy.gov/",
     "board_token": null,
     "domain_hint": "",
     "source_platforms": []
@@ -222402,16 +222068,8 @@
   },
   {
     "company_name": "Emirates International School",
-    "website": "https://www.eischools.ae/meadows",
-    "career_page_url": "https://www.eischools.ae/meadows",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "Emirates International School - Meadows",
     "website": "http://www.eischools.ae/Meadows/",
-    "career_page_url": "http://www.eischools.ae/Meadows/",
+    "career_page_url": "https://www.eischools.ae/meadows",
     "board_token": null,
     "domain_hint": "",
     "source_platforms": []
@@ -222505,14 +222163,6 @@
     "source_platforms": []
   },
   {
-    "company_name": "Emirates NBD Bank Al Muroor",
-    "website": "https://www.emiratesnbd.com/",
-    "career_page_url": "https://www.emiratesnbd.com/",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
     "company_name": "Emirates News Agency",
     "website": "http://www.wam.ae/en/home.html",
     "career_page_url": "http://www.wam.ae/en/home.html",
@@ -222546,14 +222196,6 @@
   },
   {
     "company_name": "Emirates Red Crescent",
-    "website": "https://www.emiratesrc.ae/",
-    "career_page_url": "https://www.emiratesrc.ae/",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "Emirates Red Crescent Warehouse",
     "website": "https://www.emiratesrc.ae/",
     "career_page_url": "https://www.emiratesrc.ae/",
     "board_token": null,
@@ -233316,22 +232958,6 @@
   },
   {
     "company_name": "Etisalat (e&)",
-    "website": "https://www.etisalat.ae/",
-    "career_page_url": "https://www.etisalat.ae/",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "etisalat by e&",
-    "website": "https://www.etisalat.ae",
-    "career_page_url": "https://www.etisalat.ae",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "ETISALAT Technical department MUSAFAH 1",
     "website": "https://www.etisalat.ae/",
     "career_page_url": "https://www.etisalat.ae/",
     "board_token": null,
@@ -252962,6 +252588,16 @@
     ]
   },
   {
+    "company_name": "FireCompass",
+    "website": "firecompass.com",
+    "career_page_url": "https://firecompass.com/careers/",
+    "board_token": null,
+    "domain_hint": "cybersecurity",
+    "source_platforms": [
+      "g01_cyber_in"
+    ]
+  },
+  {
     "company_name": "Firecraft Studios",
     "website": "firecraftstudios.com",
     "career_page_url": "firecraftstudios.com",
@@ -257651,14 +257287,6 @@
     "source_platforms": []
   },
   {
-    "company_name": "flydubai Campus",
-    "website": "https://www.flydubai.com/",
-    "career_page_url": "https://www.flydubai.com/",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
     "company_name": "flydubai sales office",
     "website": "https://www.flydubai.com/ar-ae/",
     "career_page_url": "https://www.flydubai.com/ar-ae/",
@@ -259906,6 +259534,16 @@
     ]
   },
   {
+    "company_name": "Foresiet",
+    "website": "foresiet.com",
+    "career_page_url": "https://foresiet.com/resources/careers/",
+    "board_token": null,
+    "domain_hint": "cybersecurity",
+    "source_platforms": [
+      "g01_cyber_in"
+    ]
+  },
+  {
     "company_name": "foresight automotive LTD",
     "website": "foresightauto.com",
     "career_page_url": "foresightauto.com",
@@ -261820,14 +261458,6 @@
   },
   {
     "company_name": "Fotokad Advertising Service",
-    "website": "https://www.fotokad.ae/",
-    "career_page_url": "https://www.fotokad.ae/",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "Fotokad Advertising Services LLC",
     "website": "https://www.fotokad.ae/",
     "career_page_url": "https://www.fotokad.ae/",
     "board_token": null,
@@ -264621,14 +264251,6 @@
   },
   {
     "company_name": "Freestyle Divers",
-    "website": "http://freestyledivers.com/",
-    "career_page_url": "http://freestyledivers.com/",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "Freestyle Divers Equipment Storage",
     "website": "http://freestyledivers.com/",
     "career_page_url": "http://freestyledivers.com/",
     "board_token": null,
@@ -277260,12 +276882,13 @@
   },
   {
     "company_name": "General Mills",
-    "website": "",
-    "career_page_url": "",
+    "website": "generalmills.com",
+    "career_page_url": "generalmills.com",
     "board_token": null,
-    "domain_hint": "",
+    "domain_hint": "retail",
     "source_platforms": [
-      "atsprobe-r0"
+      "atsprobe-r0",
+      "g06_gcc_in"
     ]
   },
   {
@@ -288436,6 +288059,16 @@
     ]
   },
   {
+    "company_name": "Goldman Sachs India",
+    "website": "goldmansachs.com",
+    "career_page_url": "https://www.goldmansachs.com/careers/",
+    "board_token": null,
+    "domain_hint": "banking",
+    "source_platforms": [
+      "g06_gcc_in"
+    ]
+  },
+  {
     "company_name": "Goldmaster",
     "website": "goldmaster.com.tr",
     "career_page_url": "goldmaster.com.tr",
@@ -289144,14 +288777,6 @@
   },
   {
     "company_name": "Goodfellas Vintage Barber Shop",
-    "website": "https://www.goodfellasdubai.com/",
-    "career_page_url": "https://www.goodfellasdubai.com/",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "GoodFellas Vintage Barbershop & Gent’s Salon",
     "website": "https://www.goodfellasdubai.com/",
     "career_page_url": "https://www.goodfellasdubai.com/",
     "board_token": null,
@@ -291486,14 +291111,6 @@
   },
   {
     "company_name": "Grandiose",
-    "website": "https://www.grandiose.ae/",
-    "career_page_url": "https://www.grandiose.ae/",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "Grandiose Supermarket",
     "website": "https://www.grandiose.ae/",
     "career_page_url": "https://www.grandiose.ae/",
     "board_token": null,
@@ -318648,16 +318265,6 @@
     ]
   },
   {
-    "company_name": "hotjar.com/careers",
-    "website": "",
-    "career_page_url": "https://www.hotjar.com/careers",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": [
-      "remote-tech-companies"
-    ]
-  },
-  {
     "company_name": "Hotline",
     "website": "hotline.style",
     "career_page_url": "hotline.style",
@@ -325802,6 +325409,16 @@
     ]
   },
   {
+    "company_name": "Icertis",
+    "website": "icertis.com",
+    "career_page_url": "https://www.icertis.com/company/careers/",
+    "board_token": null,
+    "domain_hint": "saas",
+    "source_platforms": [
+      "g03_saas_in"
+    ]
+  },
+  {
     "company_name": "Icetesy SPRL",
     "website": "icetesy.be",
     "career_page_url": "icetesy.be",
@@ -328906,14 +328523,6 @@
   },
   {
     "company_name": "IL Forno",
-    "website": "https://ilforno.me",
-    "career_page_url": "https://ilforno.me",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "Il Forno Restaurant",
     "website": "https://ilforno.me",
     "career_page_url": "https://ilforno.me",
     "board_token": null,
@@ -334718,6 +334327,16 @@
     ]
   },
   {
+    "company_name": "Indusface",
+    "website": "indusface.com",
+    "career_page_url": "https://www.indusface.com/careers/",
+    "board_token": null,
+    "domain_hint": "cybersecurity",
+    "source_platforms": [
+      "g01_cyber_in"
+    ]
+  },
+  {
     "company_name": "IndusInd Bank",
     "website": "indusind.bank.in",
     "career_page_url": "indusind.bank.in",
@@ -337700,6 +337319,16 @@
     "domain_hint": "",
     "source_platforms": [
       "wd_asean"
+    ]
+  },
+  {
+    "company_name": "Innefu Labs",
+    "website": "innefu.com",
+    "career_page_url": "https://innefu.com/careers/",
+    "board_token": null,
+    "domain_hint": "cybersecurity",
+    "source_platforms": [
+      "g01_cyber_in"
     ]
   },
   {
@@ -341915,6 +341544,16 @@
     "domain_hint": "",
     "source_platforms": [
       "wd_fintech"
+    ]
+  },
+  {
+    "company_name": "InsuranceDekho",
+    "website": "insurancedekho.com",
+    "career_page_url": "https://careers.insurancedekho.com/",
+    "board_token": null,
+    "domain_hint": "fintech",
+    "source_platforms": [
+      "g04_consumer_in"
     ]
   },
   {
@@ -355931,14 +355570,6 @@
     "source_platforms": []
   },
   {
-    "company_name": "Ittihad House & garden Abu Dhabi Cultural Site",
-    "website": "https://www.ittihadhouse.ae",
-    "career_page_url": "https://www.ittihadhouse.ae",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
     "company_name": "Ittihad University",
     "website": "http://www.iu.ae/",
     "career_page_url": "http://www.iu.ae/",
@@ -363603,6 +363234,16 @@
     ]
   },
   {
+    "company_name": "John Deere India",
+    "website": "deere.com",
+    "career_page_url": "https://careers.deere.com/",
+    "board_token": null,
+    "domain_hint": "gcc",
+    "source_platforms": [
+      "g06_gcc_in"
+    ]
+  },
+  {
     "company_name": "John Galt Solutions, Inc.",
     "website": "johngalt.com",
     "career_page_url": "johngalt.com",
@@ -365691,6 +365332,16 @@
     ]
   },
   {
+    "company_name": "JPMorgan Chase India",
+    "website": "jpmorganchase.com",
+    "career_page_url": "https://careers.jpmorgan.com/",
+    "board_token": null,
+    "domain_hint": "banking",
+    "source_platforms": [
+      "g06_gcc_in"
+    ]
+  },
+  {
     "company_name": "JPMorgan India Growth & Income",
     "website": "am.jpmorgan.com",
     "career_page_url": "am.jpmorgan.com",
@@ -367207,14 +366858,6 @@
     "source_platforms": []
   },
   {
-    "company_name": "Junk Removal service dudai",
-    "website": "http://TakeMyJunck.com",
-    "career_page_url": "http://TakeMyJunck.com",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
     "company_name": "Junkee Media",
     "website": "junkeemedia.com",
     "career_page_url": "junkeemedia.com",
@@ -367313,16 +366956,6 @@
     "domain_hint": "",
     "source_platforms": [
       "wiki_lists"
-    ]
-  },
-  {
-    "company_name": "Jupiter Money",
-    "website": "http://jupiter.money/",
-    "career_page_url": "http://jupiter.money/",
-    "board_token": null,
-    "domain_hint": "FinTech / Banking",
-    "source_platforms": [
-      "topstartups.io"
     ]
   },
   {
@@ -367534,14 +367167,6 @@
   },
   {
     "company_name": "Just Glow Event Management",
-    "website": "https://www.justglow.net/",
-    "career_page_url": "https://www.justglow.net/",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "Just Glow Event Management FZ",
     "website": "https://www.justglow.net/",
     "career_page_url": "https://www.justglow.net/",
     "board_token": null,
@@ -371868,14 +371493,6 @@
   },
   {
     "company_name": "Katara",
-    "website": "https://www.katara.net/",
-    "career_page_url": "https://www.katara.net/",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "Katara Amphitheatre",
     "website": "https://www.katara.net/",
     "career_page_url": "https://www.katara.net/",
     "board_token": null,
@@ -381699,16 +381316,6 @@
     ]
   },
   {
-    "company_name": "Kodo",
-    "website": "kodo.com",
-    "career_page_url": "kodo.com",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": [
-      "dir_yc"
-    ]
-  },
-  {
     "company_name": "Kodo Linija",
     "website": "kodolinija.com",
     "career_page_url": "kodolinija.com",
@@ -385827,6 +385434,16 @@
     ]
   },
   {
+    "company_name": "Kratikal Tech",
+    "website": "kratikal.com",
+    "career_page_url": "https://kratikal.zohorecruit.com/jobs/Careers",
+    "board_token": null,
+    "domain_hint": "cybersecurity",
+    "source_platforms": [
+      "g01_cyber_in"
+    ]
+  },
+  {
     "company_name": "Kratos 3D Technologies",
     "website": "kratos3d.com",
     "career_page_url": "kratos3d.com",
@@ -387698,17 +387315,8 @@
     "board_token": null,
     "domain_hint": "SaaS / Artificial Intelligence / Enterprise Software",
     "source_platforms": [
+      "sequoia",
       "topstartups.io"
-    ]
-  },
-  {
-    "company_name": "Kumo AI",
-    "website": "https://kumo.ai/",
-    "career_page_url": "https://kumo.ai/",
-    "board_token": null,
-    "domain_hint": "kumo.ai",
-    "source_platforms": [
-      "sequoia"
     ]
   },
   {
@@ -389851,6 +389459,16 @@
     ]
   },
   {
+    "company_name": "L'Oreal India",
+    "website": "loreal.com",
+    "career_page_url": "https://careers.loreal.com/",
+    "board_token": null,
+    "domain_hint": "retail",
+    "source_platforms": [
+      "g06_gcc_in"
+    ]
+  },
+  {
     "company_name": "L'Oréal",
     "website": "loreal.co.in",
     "career_page_url": "loreal.co.in",
@@ -390208,14 +389826,6 @@
   },
   {
     "company_name": "La Fontana",
-    "website": "https://www.jaresortshotels.com/Properties/JAGR/Dining/Restaurants/lafontana.aspx",
-    "career_page_url": "https://www.jaresortshotels.com/Properties/JAGR/Dining/Restaurants/lafontana.aspx",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "La Fontana Pool Bar",
     "website": "https://www.jaresortshotels.com/Properties/JAGR/Dining/Restaurants/lafontana.aspx",
     "career_page_url": "https://www.jaresortshotels.com/Properties/JAGR/Dining/Restaurants/lafontana.aspx",
     "board_token": null,
@@ -392714,6 +392324,16 @@
     "domain_hint": "",
     "source_platforms": [
       "wd_asean"
+    ]
+  },
+  {
+    "company_name": "Lam Research India",
+    "website": "lamresearch.com",
+    "career_page_url": "https://www.lamresearch.com/careers/",
+    "board_token": null,
+    "domain_hint": "semis",
+    "source_platforms": [
+      "g06_gcc_in"
     ]
   },
   {
@@ -400273,6 +399893,16 @@
     ]
   },
   {
+    "company_name": "Lepide",
+    "website": "lepide.com",
+    "career_page_url": "https://www.lepide.com/careers/",
+    "board_token": null,
+    "domain_hint": "cybersecurity",
+    "source_platforms": [
+      "g01_cyber_in"
+    ]
+  },
+  {
     "company_name": "Lepra",
     "website": "lepra.org.uk",
     "career_page_url": "lepra.org.uk",
@@ -401129,14 +400759,6 @@
   },
   {
     "company_name": "Levant Auto Trading",
-    "website": "https://levant-auto.com/",
-    "career_page_url": "https://levant-auto.com/",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "Levant Auto Trading - Sheikh Zayed Road",
     "website": "https://levant-auto.com/",
     "career_page_url": "https://levant-auto.com/",
     "board_token": null,
@@ -402799,6 +402421,16 @@
     "domain_hint": "",
     "source_platforms": [
       "wiki_lists"
+    ]
+  },
+  {
+    "company_name": "Licious",
+    "website": "licious.in",
+    "career_page_url": "https://careers.licious.com/",
+    "board_token": null,
+    "domain_hint": "ecommerce",
+    "source_platforms": [
+      "g04_consumer_in"
     ]
   },
   {
@@ -409836,16 +409468,6 @@
     ]
   },
   {
-    "company_name": "Lokal",
-    "website": "http://getlokalapp.com/",
-    "career_page_url": "http://getlokalapp.com/",
-    "board_token": null,
-    "domain_hint": "Consumer / Apps / Social Media",
-    "source_platforms": [
-      "topstartups.io"
-    ]
-  },
-  {
     "company_name": "lokalhistoriewiki.no",
     "website": "lokalhistoriewiki.no",
     "career_page_url": "lokalhistoriewiki.no",
@@ -411028,16 +410650,6 @@
     "domain_hint": "",
     "source_platforms": [
       "dir_yc"
-    ]
-  },
-  {
-    "company_name": "Loop Health",
-    "website": "http://www.loophealth.com/",
-    "career_page_url": "http://www.loophealth.com/",
-    "board_token": null,
-    "domain_hint": "Healthcare / Medical",
-    "source_platforms": [
-      "topstartups.io"
     ]
   },
   {
@@ -419363,16 +418975,6 @@
     ]
   },
   {
-    "company_name": "Magna International",
-    "website": "magna.com",
-    "career_page_url": "magna.com",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": [
-      "wiki_lists"
-    ]
-  },
-  {
     "company_name": "Magna Prima Berhad",
     "website": "magnaprima.com.my",
     "career_page_url": "magnaprima.com.my",
@@ -426540,14 +426142,6 @@
     "source_platforms": []
   },
   {
-    "company_name": "Marriott Executive Apartments Dubai Creek Tower 1",
-    "website": "http://www.marriott.com/hotels/travel/dxber-marriott-executive-apartments-dubai-creek/",
-    "career_page_url": "http://www.marriott.com/hotels/travel/dxber-marriott-executive-apartments-dubai-creek/",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
     "company_name": "Marriott International",
     "website": "",
     "career_page_url": "",
@@ -431398,14 +430992,6 @@
   },
   {
     "company_name": "McDermott",
-    "website": "https://www.mcdermott.com/",
-    "career_page_url": "https://www.mcdermott.com/",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "McDermott Middle East",
     "website": "https://www.mcdermott.com/",
     "career_page_url": "https://www.mcdermott.com/",
     "board_token": null,
@@ -451184,6 +450770,16 @@
     ]
   },
   {
+    "company_name": "MoEngage",
+    "website": "moengage.com",
+    "career_page_url": "https://www.moengage.com/careers/",
+    "board_token": null,
+    "domain_hint": "saas",
+    "source_platforms": [
+      "g03_saas_in"
+    ]
+  },
+  {
     "company_name": "Moepedia",
     "website": "moepedia.net",
     "career_page_url": "moepedia.net",
@@ -452064,14 +451660,6 @@
     "source_platforms": [
       "wd_iberia_it"
     ]
-  },
-  {
-    "company_name": "Molto care Disinfection services",
-    "website": "https://www.moltocare.ae/",
-    "career_page_url": "https://www.moltocare.ae/",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
   },
   {
     "company_name": "Moltocare",
@@ -459763,14 +459351,6 @@
     "source_platforms": []
   },
   {
-    "company_name": "Mumuso Al Furjan",
-    "website": "https://www.mumuso.ae",
-    "career_page_url": "https://www.mumuso.ae",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
     "company_name": "Mun Oulu",
     "website": "munoulu.fi",
     "career_page_url": "munoulu.fi",
@@ -460644,14 +460224,6 @@
   },
   {
     "company_name": "Mushayrib",
-    "website": "https://www.msheireb.com/ar/",
-    "career_page_url": "https://www.msheireb.com/ar/",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "Mushayrib Properties",
     "website": "https://www.msheireb.com/ar/",
     "career_page_url": "https://www.msheireb.com/ar/",
     "board_token": null,
@@ -463803,6 +463375,16 @@
     "domain_hint": "",
     "source_platforms": [
       "wd_na"
+    ]
+  },
+  {
+    "company_name": "N-able",
+    "website": "n-able.com",
+    "career_page_url": "https://careers.n-able.com/",
+    "board_token": null,
+    "domain_hint": "cybersecurity",
+    "source_platforms": [
+      "g02_cyber_global_in"
     ]
   },
   {
@@ -477463,6 +477045,16 @@
     "domain_hint": "",
     "source_platforms": [
       "wd_mena_africa"
+    ]
+  },
+  {
+    "company_name": "Netenrich",
+    "website": "netenrich.com",
+    "career_page_url": "https://netenrich.com/careers",
+    "board_token": null,
+    "domain_hint": "cybersecurity",
+    "source_platforms": [
+      "g01_cyber_in"
     ]
   },
   {
@@ -516769,14 +516361,6 @@
     "source_platforms": []
   },
   {
-    "company_name": "Pak Darbar Restaurant",
-    "website": "https://pak-darbar.business.site/",
-    "career_page_url": "https://pak-darbar.business.site/",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
     "company_name": "Pak-Arab Refinery",
     "website": "parco.com.pk",
     "career_page_url": "parco.com.pk",
@@ -517229,16 +516813,8 @@
   },
   {
     "company_name": "Palazzo Versace",
-    "website": "https://www.palazzoversace.ae/",
-    "career_page_url": "https://www.palazzoversace.ae/",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "Palazzo Versace Dubai",
     "website": "https://www.palazzoversace.ae",
-    "career_page_url": "https://www.palazzoversace.ae",
+    "career_page_url": "https://www.palazzoversace.ae/",
     "board_token": null,
     "domain_hint": "",
     "source_platforms": []
@@ -517824,14 +517400,6 @@
   },
   {
     "company_name": "PAN Home",
-    "website": "https://www.panhomestores.com",
-    "career_page_url": "https://www.panhomestores.com",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "Pan Home Furnitures",
     "website": "https://www.panhomestores.com",
     "career_page_url": "https://www.panhomestores.com",
     "board_token": null,
@@ -522413,14 +521981,6 @@
   },
   {
     "company_name": "Patiala House",
-    "website": "https://www.patialahouse.ae/",
-    "career_page_url": "https://www.patialahouse.ae/",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "Patiala House Restaurant",
     "website": "https://www.patialahouse.ae/",
     "career_page_url": "https://www.patialahouse.ae/",
     "board_token": null,
@@ -528736,14 +528296,6 @@
     "source_platforms": []
   },
   {
-    "company_name": "PetCare For Pets Trading",
-    "website": "https://www.petcare.ae/",
-    "career_page_url": "https://www.petcare.ae/",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
     "company_name": "Petcetera",
     "website": "petcetera.ca",
     "career_page_url": "petcetera.ca",
@@ -529604,14 +529156,6 @@
     "source_platforms": [
       "a16z"
     ]
-  },
-  {
-    "company_name": "Peugeot (Omeir Bin Youssef L.L.C branch)",
-    "website": "https://abudhabi.peugeot.com",
-    "career_page_url": "https://abudhabi.peugeot.com",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
   },
   {
     "company_name": "Peugeot 9X8",
@@ -553205,14 +552749,6 @@
     "source_platforms": []
   },
   {
-    "company_name": "PTC GROUP L.L.C - DUBAI branch",
-    "website": "https://ptctyre.com/",
-    "career_page_url": "https://ptctyre.com/",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
     "company_name": "PTC Punjabi",
     "website": "ptcpunjabi.co.in",
     "career_page_url": "ptcpunjabi.co.in",
@@ -573866,16 +573402,6 @@
     ]
   },
   {
-    "company_name": "Rebel Foods",
-    "website": "http://www.faasos.com/",
-    "career_page_url": "http://www.faasos.com/",
-    "board_token": null,
-    "domain_hint": "Food & Drinks / Delivery",
-    "source_platforms": [
-      "topstartups.io"
-    ]
-  },
-  {
     "company_name": "Rebel Media",
     "website": "rebelmedia.com.au",
     "career_page_url": "rebelmedia.com.au",
@@ -577850,7 +577376,8 @@
     "board_token": null,
     "domain_hint": "releasehub.com",
     "source_platforms": [
-      "sequoia"
+      "sequoia",
+      "topstartups.io"
     ]
   },
   {
@@ -577871,16 +577398,6 @@
     "domain_hint": "",
     "source_platforms": [
       "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "Releasehub",
-    "website": "https://releasehub.com/",
-    "career_page_url": "https://releasehub.com/",
-    "board_token": null,
-    "domain_hint": "Developer Tools / Enterprise Software",
-    "source_platforms": [
-      "topstartups.io"
     ]
   },
   {
@@ -578916,16 +578433,6 @@
     ]
   },
   {
-    "company_name": "remoteonly.io",
-    "website": "https://remoteonly.io",
-    "career_page_url": "https://remoteonly.io",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": [
-      "remote-tech-companies"
-    ]
-  },
-  {
     "company_name": "RemoteWorks.pro",
     "website": "",
     "career_page_url": "",
@@ -579669,24 +579176,8 @@
   },
   {
     "company_name": "Rental Cars UAE",
-    "website": "https://RentalCarsUAE.com",
+    "website": "https://rentalcarsuae.com",
     "career_page_url": "https://RentalCarsUAE.com",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "Rental Cars UAE - Business Bay",
-    "website": "https://rentalcarsuae.com",
-    "career_page_url": "https://rentalcarsuae.com",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "Rental Cars UAE - Dubai",
-    "website": "https://rentalcarsuae.com",
-    "career_page_url": "https://rentalcarsuae.com",
     "board_token": null,
     "domain_hint": "",
     "source_platforms": []
@@ -588594,14 +588085,6 @@
   },
   {
     "company_name": "Rochester Institute of Technology",
-    "website": "https://www.rit.edu/dubai/",
-    "career_page_url": "https://www.rit.edu/dubai/",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "Rochester Institute of Technology of Dubai",
     "website": "https://www.rit.edu/dubai/",
     "career_page_url": "https://www.rit.edu/dubai/",
     "board_token": null,
@@ -598299,14 +597782,6 @@
     ]
   },
   {
-    "company_name": "Sah El Nom Express",
-    "website": "https://sahelnom.com/",
-    "career_page_url": "https://sahelnom.com/",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
     "company_name": "Saham insurance",
     "website": "sahamassurance.com",
     "career_page_url": "sahamassurance.com",
@@ -603968,14 +603443,6 @@
   },
   {
     "company_name": "Sasan",
-    "website": "https://sasanperfumes.ae/",
-    "career_page_url": "https://sasanperfumes.ae/",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "Sasan Boutique",
     "website": "https://sasanperfumes.ae/",
     "career_page_url": "https://sasanperfumes.ae/",
     "board_token": null,
@@ -609841,16 +609308,6 @@
     "domain_hint": "",
     "source_platforms": [
       "wd_devtools"
-    ]
-  },
-  {
-    "company_name": "Scrut Automation",
-    "website": "https://scrut.io/",
-    "career_page_url": "https://scrut.io/",
-    "board_token": null,
-    "domain_hint": "scrut.io",
-    "source_platforms": [
-      "lightspeed"
     ]
   },
   {
@@ -616114,6 +615571,16 @@
     ]
   },
   {
+    "company_name": "Sequretek",
+    "website": "sequretek.com",
+    "career_page_url": "https://www.sequretek.com/careers/",
+    "board_token": null,
+    "domain_hint": "cybersecurity",
+    "source_platforms": [
+      "g01_cyber_in"
+    ]
+  },
+  {
     "company_name": "Serafin Unternehmensgruppe",
     "website": "serafin-gruppe.de",
     "career_page_url": "serafin-gruppe.de",
@@ -619414,23 +618881,7 @@
     "source_platforms": []
   },
   {
-    "company_name": "Sharjah Co-op Society",
-    "website": "https://www.sharjahcoop.ae",
-    "career_page_url": "https://www.sharjahcoop.ae",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
     "company_name": "Sharjah Coop",
-    "website": "https://www.sharjahcoop.ae",
-    "career_page_url": "https://www.sharjahcoop.ae",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "Sharjah Cooperative Society",
     "website": "https://www.sharjahcoop.ae",
     "career_page_url": "https://www.sharjahcoop.ae",
     "board_token": null,
@@ -619567,14 +619018,6 @@
   },
   {
     "company_name": "Sharjah Islamic Bank",
-    "website": "https://www.sib.ae/",
-    "career_page_url": "https://www.sib.ae/",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "Sharjah Islamic Bank, Economic Department Branch",
     "website": "https://www.sib.ae/",
     "career_page_url": "https://www.sib.ae/",
     "board_token": null,
@@ -630741,16 +630184,6 @@
     "domain_hint": "skild.com",
     "source_platforms": [
       "lightspeed"
-    ]
-  },
-  {
-    "company_name": "Skill-lync",
-    "website": "skill-lync.com",
-    "career_page_url": "skill-lync.com",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": [
-      "dir_yc"
     ]
   },
   {
@@ -646717,14 +646150,6 @@
     "source_platforms": []
   },
   {
-    "company_name": "Spinneys Supermarket",
-    "website": "https://www.spinneys.com",
-    "career_page_url": "https://www.spinneys.com",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
     "company_name": "Spinnup",
     "website": "spinnup.com",
     "career_page_url": "spinnup.com",
@@ -648220,6 +647645,16 @@
     "domain_hint": "",
     "source_platforms": [
       "dir_yc"
+    ]
+  },
+  {
+    "company_name": "Springworks",
+    "website": "springworks.in",
+    "career_page_url": "https://jobs.goodfit.so/jobs/springworks",
+    "board_token": null,
+    "domain_hint": "remote",
+    "source_platforms": [
+      "g07_remote_first"
     ]
   },
   {
@@ -652006,16 +651441,8 @@
   },
   {
     "company_name": "Star Body Gym",
-    "website": "https://starbodygym.com/",
-    "career_page_url": "https://starbodygym.com/",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "Star Body Gym Nad Al Hamar",
     "website": "https://starbodygym.com",
-    "career_page_url": "https://starbodygym.com",
+    "career_page_url": "https://starbodygym.com/",
     "board_token": null,
     "domain_hint": "",
     "source_platforms": []
@@ -652553,14 +651980,6 @@
   },
   {
     "company_name": "Starlight Advertising",
-    "website": "https://www.starlightadv.com/",
-    "career_page_url": "https://www.starlightadv.com/",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "Starlight Advertising LLC",
     "website": "https://www.starlightadv.com/",
     "career_page_url": "https://www.starlightadv.com/",
     "board_token": null,
@@ -653496,16 +652915,6 @@
     "board_token": null,
     "domain_hint": "",
     "source_platforms": []
-  },
-  {
-    "company_name": "Statiq.",
-    "website": "statiq.in",
-    "career_page_url": "statiq.in",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": [
-      "dir_yc"
-    ]
   },
   {
     "company_name": "Statistical and Social Inquiry Society of Ireland",
@@ -663820,14 +663229,6 @@
     ]
   },
   {
-    "company_name": "Supercare Pharmacy",
-    "website": "https://www.super-care.ae/",
-    "career_page_url": "https://www.super-care.ae/",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
     "company_name": "Supercat Fast Ferry Corporation",
     "website": "chelseatravel.ph",
     "career_page_url": "chelseatravel.ph",
@@ -666397,16 +665798,8 @@
   },
   {
     "company_name": "Swades Vegetarian",
-    "website": "https://swades.ae/",
-    "career_page_url": "https://swades.ae/",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "Swades Vegetarian Restaurant",
     "website": "https://swades.ae",
-    "career_page_url": "https://swades.ae",
+    "career_page_url": "https://swades.ae/",
     "board_token": null,
     "domain_hint": "",
     "source_platforms": []
@@ -667444,16 +666837,6 @@
     "source_platforms": [
       "a16z",
       "dir_yc"
-    ]
-  },
-  {
-    "company_name": "Swiggy",
-    "website": "http://www.swiggy.com",
-    "career_page_url": "http://www.swiggy.com",
-    "board_token": null,
-    "domain_hint": "Food & Drinks / Delivery",
-    "source_platforms": [
-      "topstartups.io"
     ]
   },
   {
@@ -671815,6 +671198,16 @@
     ]
   },
   {
+    "company_name": "TAC Security",
+    "website": "tacsecurity.com",
+    "career_page_url": "https://tacsecurity.com/careers/",
+    "board_token": null,
+    "domain_hint": "cybersecurity",
+    "source_platforms": [
+      "g01_cyber_in"
+    ]
+  },
+  {
     "company_name": "TACHIAU Electronics",
     "website": "tach-pa.com.tw",
     "career_page_url": "tach-pa.com.tw",
@@ -672468,16 +671861,7 @@
     "board_token": null,
     "domain_hint": "",
     "source_platforms": [
-      "awesome-pentest"
-    ]
-  },
-  {
-    "company_name": "Tails OS",
-    "website": "https://tails.boum.org/",
-    "career_page_url": "https://tails.boum.org/",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": [
+      "awesome-pentest",
       "awesome-security"
     ]
   },
@@ -681344,16 +680728,8 @@
   },
   {
     "company_name": "Tek Signals",
-    "website": "https://teksignals.com/",
-    "career_page_url": "https://teksignals.com/",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "Tek Signals Abu Dhabi Br.",
     "website": "https://teksignals.com",
-    "career_page_url": "https://teksignals.com",
+    "career_page_url": "https://teksignals.com/",
     "board_token": null,
     "domain_hint": "",
     "source_platforms": []
@@ -688291,17 +687667,8 @@
     "board_token": null,
     "domain_hint": "",
     "source_platforms": [
+      "awesome-pentest",
       "awesome-security"
-    ]
-  },
-  {
-    "company_name": "The Art of Network Penetration Testing, 2020",
-    "website": "https://www.manning.com/books/the-art-of-network-penetration-testing",
-    "career_page_url": "https://www.manning.com/books/the-art-of-network-penetration-testing",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": [
-      "awesome-pentest"
     ]
   },
   {
@@ -692170,22 +691537,6 @@
   },
   {
     "company_name": "The Lime Tree Cafe",
-    "website": "https://www.thelimetreecafe.com/",
-    "career_page_url": "https://www.thelimetreecafe.com/",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "The Lime Tree Cafe - Al Quoz",
-    "website": "https://www.thelimetreecafe.com/",
-    "career_page_url": "https://www.thelimetreecafe.com/",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "The Lime Tree Cafe - Sheikh Zayed Road",
     "website": "https://www.thelimetreecafe.com/",
     "career_page_url": "https://www.thelimetreecafe.com/",
     "board_token": null,
@@ -710411,6 +709762,16 @@
     ]
   },
   {
+    "company_name": "Tricog",
+    "website": "tricog.com",
+    "career_page_url": "https://tricog.zohorecruit.com/jobs/Careers",
+    "board_token": null,
+    "domain_hint": "healthtech",
+    "source_platforms": [
+      "g08_lists_in"
+    ]
+  },
+  {
     "company_name": "Tricrest, Inc.",
     "website": "tricrest.co.jp",
     "career_page_url": "tricrest.co.jp",
@@ -715293,16 +714654,6 @@
     "domain_hint": "",
     "source_platforms": [
       "wd_gaming_xr"
-    ]
-  },
-  {
-    "company_name": "Turtlemint",
-    "website": "http://www.turtlemint.com",
-    "career_page_url": "http://www.turtlemint.com",
-    "board_token": null,
-    "domain_hint": "FinTech / Healthcare Insurance",
-    "source_platforms": [
-      "topstartups.io"
     ]
   },
   {
@@ -720990,16 +720341,6 @@
     ]
   },
   {
-    "company_name": "Unacademy",
-    "website": "http://www.unacademy.in",
-    "career_page_url": "http://www.unacademy.in",
-    "board_token": null,
-    "domain_hint": "EdTech",
-    "source_platforms": [
-      "topstartups.io"
-    ]
-  },
-  {
     "company_name": "Unafilm",
     "website": "unafilm.de",
     "career_page_url": "unafilm.de",
@@ -722466,14 +721807,6 @@
   },
   {
     "company_name": "Union Coop",
-    "website": "https://www.unioncoop.ae",
-    "career_page_url": "https://www.unioncoop.ae",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "Union Cooperative Society",
     "website": "https://www.unioncoop.ae",
     "career_page_url": "https://www.unioncoop.ae",
     "board_token": null,
@@ -726238,24 +725571,8 @@
   },
   {
     "company_name": "University of Wollongong in Dubai",
-    "website": "http://www.uowdubai.ac.ae/",
+    "website": "https://www.uowdubai.ac.ae/",
     "career_page_url": "http://www.uowdubai.ac.ae/",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "University of Wollongong in Dubai - Block 14",
-    "website": "https://www.uowdubai.ac.ae/",
-    "career_page_url": "https://www.uowdubai.ac.ae/",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "University of Wollongong in Dubai - Block 15",
-    "website": "https://www.uowdubai.ac.ae/",
-    "career_page_url": "https://www.uowdubai.ac.ae/",
     "board_token": null,
     "domain_hint": "",
     "source_platforms": []
@@ -726823,16 +726140,6 @@
     "company_name": "Unsaddl",
     "website": "unsaddl.com",
     "career_page_url": "unsaddl.com",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": [
-      "dir_yc"
-    ]
-  },
-  {
-    "company_name": "Unschool",
-    "website": "unschool.in",
-    "career_page_url": "unschool.in",
     "board_token": null,
     "domain_hint": "",
     "source_platforms": [
@@ -734401,6 +733708,16 @@
     "domain_hint": "vegrow.in",
     "source_platforms": [
       "lightspeed"
+    ]
+  },
+  {
+    "company_name": "Vehere",
+    "website": "vehere.com",
+    "career_page_url": "https://www.vehere.com/careers/",
+    "board_token": null,
+    "domain_hint": "cybersecurity",
+    "source_platforms": [
+      "g01_cyber_in"
     ]
   },
   {
@@ -749586,6 +748903,16 @@
     ]
   },
   {
+    "company_name": "Walmart Global Tech India",
+    "website": "walmartglobaltech.com",
+    "career_page_url": "https://careers.walmart.com/",
+    "board_token": null,
+    "domain_hint": "retail",
+    "source_platforms": [
+      "g06_gcc_in"
+    ]
+  },
+  {
     "company_name": "Walmart Labs India",
     "website": "",
     "career_page_url": "",
@@ -762254,14 +761581,6 @@
     "source_platforms": []
   },
   {
-    "company_name": "Woqod Petrol Station #xx Al Wukair",
-    "website": "https://www.woqod.com/EN/Pages/default.aspx",
-    "career_page_url": "https://www.woqod.com/EN/Pages/default.aspx",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
     "company_name": "Woqod Tower",
     "website": "https://www.youtube.com/watch?v=4j5roZepgo0",
     "career_page_url": "https://www.youtube.com/watch?v=4j5roZepgo0",
@@ -768408,14 +767727,6 @@
     "source_platforms": []
   },
   {
-    "company_name": "Yateem Optician",
-    "website": "https://www.yateemgroup.com/",
-    "career_page_url": "https://www.yateemgroup.com/",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
     "company_name": "Yateem Optics",
     "website": "https://yateemgroup.com",
     "career_page_url": "https://yateemgroup.com",
@@ -769873,14 +769184,6 @@
   },
   {
     "company_name": "Yoko Sizzler",
-    "website": "https://www.yokosizzlers.com/",
-    "career_page_url": "https://www.yokosizzlers.com/",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "Yoko Sizzlers Restaurant",
     "website": "https://www.yokosizzlers.com/",
     "career_page_url": "https://www.yokosizzlers.com/",
     "board_token": null,
@@ -773117,32 +772420,8 @@
   },
   {
     "company_name": "Zayed University",
-    "website": "http://www.zu.ac.ae",
+    "website": "https://www.zu.ac.ae/",
     "career_page_url": "http://www.zu.ac.ae",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "Zayed University - Abu Dhabi Campus",
-    "website": "https://www.zu.ac.ae/",
-    "career_page_url": "https://www.zu.ac.ae/",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "Zayed University - Dubai Campus",
-    "website": "https://www.zu.ac.ae/",
-    "career_page_url": "https://www.zu.ac.ae/",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "Zayed University - Knowledge Village Campus",
-    "website": "https://www.zu.ac.ae/",
-    "career_page_url": "https://www.zu.ac.ae/",
     "board_token": null,
     "domain_hint": "",
     "source_platforms": []
@@ -776886,16 +776165,6 @@
     ]
   },
   {
-    "company_name": "Zluri",
-    "website": "https://www.zluri.com/",
-    "career_page_url": "https://www.zluri.com/",
-    "board_token": null,
-    "domain_hint": "zluri.com",
-    "source_platforms": [
-      "lightspeed"
-    ]
-  },
-  {
     "company_name": "zmap",
     "website": "https://zmap.io/",
     "career_page_url": "https://zmap.io/",
@@ -778117,16 +777386,6 @@
     ]
   },
   {
-    "company_name": "Zuddl",
-    "website": "zuddl.com",
-    "career_page_url": "zuddl.com",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": [
-      "dir_yc"
-    ]
-  },
-  {
     "company_name": "Zudio",
     "website": "zudio.com",
     "career_page_url": "zudio.com",
@@ -778334,16 +777593,6 @@
     "domain_hint": "",
     "source_platforms": [
       "wd_deeptech"
-    ]
-  },
-  {
-    "company_name": "Zuper",
-    "website": "",
-    "career_page_url": "",
-    "board_token": null,
-    "domain_hint": "",
-    "source_platforms": [
-      "niche_datasets"
     ]
   },
   {

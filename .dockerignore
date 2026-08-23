@@ -35,3 +35,5 @@ resumes/
 *.log
 .DS_Store
 job_auto_dashboard.pdf
+# Persistent user state (bind-mounted host dir)
+state/

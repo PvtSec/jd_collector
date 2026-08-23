@@ -1,11 +1,8 @@
 import { useEffect, useRef } from 'react'
 import type { Filters } from '../types'
 
-// Filters: free-text search, ATS (checkbox "avoid some"), matched-only, applied,
-// time-of-listing (the "recently found by backend" filter maps to first_seen
-// window), sort. The ATS control is a checkbox dropdown: every ATS is checked
-// (included) by default; unchecking one AVOIDS (excludes) it. `filters.ats`
-// holds the EXCLUDED set ([] = all, no filter).
+// Filters: search, ATS-avoid checkboxes (filters.ats = the EXCLUDED set),
+// matched-only, applied, first_seen window, sort.
 export default function FilterBar({
   filters, onChange, atsList, byAts, totalCount,
 }: {
@@ -15,8 +12,7 @@ export default function FilterBar({
   byAts: Record<string, number>
   totalCount: number
 }) {
-  // the ATS filter is a native <details>, which doesn't close on outside click
-  // or Escape — handle that manually so it behaves like the <select> dropdowns.
+  // native <details> doesn't close on outside click/Escape — handle manually
   const atsRef = useRef<HTMLDetailsElement>(null)
   useEffect(() => {
     const onDown = (e: MouseEvent) => {

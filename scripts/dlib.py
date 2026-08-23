@@ -293,10 +293,8 @@ def log_header() -> str:
 
 RESUME IN A NEW SESSION:
   1. cd /mnt/380/Projects/job_auto/repo
-  2. python scripts/run_discovery.py status      # reliable_count vs 50000 + worker state
-  3. python scripts/run_discovery.py run          # relaunch 32-way workers over unfinished partitions
-  4. Repeat step 3 in fresh sessions until reliable_count >= 50000
-  5. When done: python scripts/consolidate.py && ./run.sh up   # bake into the app
+  2. Re-run the discover_* pipeline + consolidate.py until reliable_count >= 50000
+  3. When done: python scripts/consolidate.py && ./run.sh up   # bake into the app
 
 FORMAT: each line = <iso8601> | <worker> | NEW | <company> | <ats|custom> | <url> | <http-status>
 A company counts toward 50k only if it has a resolvable careers URL
@@ -355,7 +353,7 @@ if __name__ == "__main__":
     ac.add_argument("--name", required=True)
     ac.add_argument("--url", required=True, help="career_page_url")
     ac.add_argument("--website", default="")
-    ac.add_argument("--source", default="llm-agent")
+    ac.add_argument("--source", default="agent")
     a = ap.parse_args()
     if a.cmd == "init":
         init_db(); ensure_log()

@@ -77,7 +77,12 @@ def _export_seed_job():
     try:
         from . import seed
         from .app import db
-        res = seed.export_seed(db, settings.abs_seed_file(), settings.seed_max_rows)
+        path = settings.abs_seed_file()
+        sig = db.export_signature()
+        if sig == seed.read_sig(path):
+            return  # nothing changed since the last export
+        res = seed.export_seed(db, path, settings.seed_max_rows)
+        seed.write_sig(path, sig)
         print(f"[seed] exported {res['exported']} jobs -> {res['path']}")
     except Exception as e:
         print(f"[seed] export failed: {e}")

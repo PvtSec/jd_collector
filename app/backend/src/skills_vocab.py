@@ -20,12 +20,9 @@ SKILLS: dict[str, list[str]] = {
     "Collaboration & Tools": ["Git", "GitHub", "GitLab", "Bitbucket", "Jira", "Confluence", "Slack", "Agile", "Scrum", "Kanban"],
 }
 
-# Curated: SPECIFIC NAMED tools/technologies only (products, languages, frameworks,
-# platforms, services, security tools). Generic concepts/activities/domains
-# (Automation, Compliance, QA, Audit, IAM, ML, Cloud Security, Networking, …) are
-# deliberately excluded — they match as common words and pollute demand counts.
-# Each entry: (display, category, [variant forms incl. synonyms]) — variants fold
-# synonyms into one canonical count (Postgres→PostgreSQL, K8s→Kubernetes, …).
+# Curated: specific NAMED tools only — generic concepts (Automation, Compliance,
+# QA, IAM, …) match as common words and pollute demand counts.
+# Entry: (display, category, [variants]) — variants fold synonyms into one count.
 CANON = [
     ("Python", "Languages", ["python"]),
     ("Java", "Languages", ["java"]),

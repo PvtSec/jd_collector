@@ -65,6 +65,7 @@ def run_tick(settings: AppSettings, task_manager: TaskManager, cfg: Config | Non
     run_id = task_manager.begin("discovery", companies_total=len(work))
 
     jobs_seen = jobs_new = jobs_matched = companies_done = jobs_closed = 0
+    boards_failed = 0
     new_jobs: list[dict] = []
     alive_keys: list[str] = []
     dead_pairs: list[tuple[str, str]] = []
@@ -103,6 +104,9 @@ def run_tick(settings: AppSettings, task_manager: TaskManager, cfg: Config | Non
 
                 alive_keys.append(key)
 
+                # match + ledger lookup + skill extraction stay outside the DB
+                # write lock; the whole board then lands in one transaction
+                board_rows = []
                 for j in jobs:
                     jobs_seen += 1
                     ok, _reasons = matches(j, cfg.target)
@@ -114,38 +118,29 @@ def run_tick(settings: AppSettings, task_manager: TaskManager, cfg: Config | Non
                             applied = ledger.already_applied(ledger_conn, j.company, j.ats, j.job_id)
                         except Exception:
                             applied = False
-                    is_new = db.upsert_job(
-                        company=j.company, ats=j.ats, job_id=j.job_id,
-                        title=j.title, location=j.location, work_type=j.work_type,
-                        url=j.url, posted_at=j.posted_at, matched=ok, applied=applied,
+                    try:
+                        skills = extract_skills(job_text(j))
+                    except Exception:
+                        skills = None
+                    board_rows.append({
+                        "company": j.company, "ats": j.ats, "job_id": j.job_id,
+                        "title": j.title, "location": j.location,
+                        "work_type": j.work_type, "url": j.url,
+                        "posted_at": j.posted_at, "matched": ok,
+                        "applied": applied, "skills": skills,
+                    })
+                try:
+                    res = db.ingest_board(
+                        company=company, ats=ats, rows=board_rows,
+                        reap=ats in REAPER_ATS, grace=settings.stale_grace_misses,
                     )
-                    try:
-                        db.count_skills_once(
-                            company=j.company, ats=j.ats, job_id=j.job_id,
-                            skills=extract_skills(job_text(j)),
-                        )
-                    except Exception:
-                        pass
-                    if is_new:
-                        jobs_new += 1
-                        new_jobs.append({
-                            "company": j.company, "ats": j.ats, "job_id": j.job_id,
-                            "title": j.title, "location": j.location,
-                            "work_type": j.work_type, "url": j.url,
-                            "posted_at": j.posted_at, "matched": ok,
-                            "first_seen": time.time(),
-                        })
-
-                if ats in REAPER_ATS:
-                    try:
-                        reaped = db.reap_company(
-                            company=company, ats=ats,
-                            fresh_job_ids={j.job_id for j in jobs},
-                            grace=settings.stale_grace_misses,
-                        )
-                        jobs_closed += reaped["closed_now"]
-                    except Exception:
-                        pass
+                except Exception:
+                    boards_failed += 1
+                    print(f"[tick] ingest failed for {company} ({ats}); board skipped")
+                    res = {"jobs_new": 0, "new_rows": [], "closed_now": 0}
+                jobs_new += res["jobs_new"]
+                jobs_closed += res["closed_now"]
+                new_jobs.extend(res["new_rows"])
 
                 companies_done += 1
                 if companies_done % 5 == 0 or i == len(work) - 1:
@@ -214,11 +209,14 @@ def run_tick(settings: AppSettings, task_manager: TaskManager, cfg: Config | Non
             persist.record_scan(settings.abs_state_file(), run_summary, new_jobs)
         except Exception:
             pass
-        task_manager.finish("success")
+        task_manager.finish(
+            "success",
+            f"{boards_failed} board ingest(s) failed" if boards_failed else "")
         return {
             "jobs_new": jobs_new, "jobs_seen": jobs_seen,
             "jobs_matched": jobs_matched, "jobs_closed": jobs_closed,
             "companies_done": companies_done, "companies_total": len(slice_),
+            "boards_failed": boards_failed,
         }
     except Exception as e:
         task_manager.finish("failed", f"{e}\n{traceback.format_exc()[-400:]}")

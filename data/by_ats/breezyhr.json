@@ -12288,16 +12288,6 @@
     ]
   },
   {
-    "company_name": "Detective.io",
-    "website": "",
-    "career_page_url": "https://detective-labs.breezy.hr/p/da041b2db095-software-engineer?source=201803-hn",
-    "board_token": "detective-labs",
-    "domain_hint": "",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "Deutsch Financial Group",
     "website": "",
     "career_page_url": "https://deutsch-financial-group.breezy.hr",
@@ -20367,16 +20357,6 @@
     ]
   },
   {
-    "company_name": "Icebreaker.video",
-    "website": "",
-    "career_page_url": "https://icebreaker-video.breezy.hr/p/57a01c86e9b9",
-    "board_token": "icebreaker-video",
-    "domain_hint": "",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "Iclanz INC",
     "website": "",
     "career_page_url": "https://iclanz-inc.breezy.hr",
@@ -27517,7 +27497,9 @@
     "career_page_url": "https://recrue.breezy.hr",
     "board_token": "recrue",
     "domain_hint": "",
-    "source_platforms": []
+    "source_platforms": [
+      "niche_datasets"
+    ]
   },
   {
     "company_name": "Recruiter At Law",
@@ -33127,16 +33109,6 @@
     "source_platforms": []
   },
   {
-    "company_name": "Superfans",
-    "website": "",
-    "career_page_url": "https://recrue.breezy.hr/p/868c8342e2fe01-senior-full-stack-engineer?state=published",
-    "board_token": "recrue",
-    "domain_hint": "",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "Superior Driver Placement",
     "website": "",
     "career_page_url": "https://superior-driver-placement.breezy.hr",
@@ -36279,14 +36251,6 @@
     "source_platforms": [
       "niche_datasets"
     ]
-  },
-  {
-    "company_name": "Transact Campus",
-    "website": "",
-    "career_page_url": "https://transact-campus.breezy.hr",
-    "board_token": "transact-campus",
-    "domain_hint": "",
-    "source_platforms": []
   },
   {
     "company_name": "Transak INC",

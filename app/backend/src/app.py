@@ -125,9 +125,8 @@ async def lifespan(app: FastAPI):
 
 
 def _migrate_links() -> None:
-    # Marker lives on the data volume (not the container layer) so it survives
-    # container recreations; otherwise this one-time migration re-runs every
-    # restart, re-seeding the flat file and resurrecting closed jobs.
+    # marker lives on the data volume so this one-time migration survives
+    # container recreations (re-running would resurrect closed jobs)
     marker = os.path.join(os.path.dirname(settings.abs_jobs_db()), ".links_v2_done")
     if os.path.exists(marker):
         return
@@ -145,9 +144,8 @@ def _migrate_links() -> None:
               f"deleted={res['deleted']} live={res['live']} unknown={res['unknown']}")
     except Exception as e:
         print(f"[migrate] prune failed: {e}")
-    # This migration is one-time: re-seeding the flat file on every restart
-    # resurrects jobs (upsert_job resets closed=0/miss_count=0), undoing the
-    # reaper and the liveness sweep for any job present in the flat seed.
+    # re-seeding the flat file resurrects jobs (upsert resets closed/miss_count)
+    # — hence the one-time marker above
     try:
         with open(marker, "w", encoding="utf-8") as f:
             f.write("1")
@@ -377,12 +375,8 @@ def validate_links():
 
 @app.post("/api/jobs/prune-dead")
 def prune_dead_jobs(limit: int = Query(0, ge=0, le=10000)):
-    """Check open jobs' own endpoints; close any that no longer exist.
-
-    Catch-all for dead jobs the board-reaper misses — rows orphaned by
-    company-name churn or job_id format drift that never get re-enumerated.
-    Never touches applied jobs.
-    """
+    """Close open jobs whose own endpoints no longer exist — catch-all for rows
+    orphaned by company/job_id drift; never touches applied jobs."""
     batch = limit if limit > 0 else settings.job_liveness_batch
     return liveness.prune_dead_jobs(db, ats_whitelist=list(ATS_CLIENTS.keys()),
                                     limit=batch)

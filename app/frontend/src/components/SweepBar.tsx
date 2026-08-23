@@ -2,10 +2,8 @@ import { useEffect, useState } from 'react'
 import type { SweepInfo } from '../types'
 import { fmtAgo } from '../api'
 
-// Discovery-sweep progress bar: shows how far the current full-rotation pass
-// over the automatable companies has gotten, with an ETA. When the sweep
-// completes (cursor wraps) the backend starts the next sweep and the bar
-// resets — "reset and run discovery for new listings".
+// Discovery-sweep progress with ETA; resets when the cursor wraps and the
+// next full-rotation sweep starts.
 export default function SweepBar({ sweep, notice }: { sweep?: SweepInfo; notice?: string }) {
   const [, setTick] = useState(0)  // re-render every 5s so ETA / "ago" stay live
   useEffect(() => {

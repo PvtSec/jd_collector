@@ -108,21 +108,10 @@ def prune_dead_unknown(db, *, ats_whitelist: list[str] | None = None,
 def prune_dead_jobs(db, *, ats_whitelist: list[str] | None = None,
                     concurrency: int = 8, limit: int = 300,
                     matched_only: bool = True) -> dict:
-    """Per-URL existence check for OPEN, listed jobs (the catch-all the reaper needs).
-
-    The board-reaper (`db.reap_company`) closes jobs absent from a company's
-    enumeration, but it can only reach rows whose (company, ats, job_id) still
-    match what the enumerator emits — rows orphaned by company-name churn or
-    job_id format drift are invisible to it and stay `closed=0` forever.
-
-    This sweep checks each listed job's own endpoint directly and closes
-    whatever is genuinely gone (HTTP 404/410, or a soft "not found" page). By
-    default it checks only matched+open jobs — the ones actually shown in the
-    listing, and a small enough set (~thousands) to re-cover roughly daily; set
-    `matched_only=False` to also sweep the non-matched long tail. It rotates by
-    oldest `last_check` first so every job is re-checked over time. Applied jobs
-    are never touched.
-    """
+    """Close open jobs whose own URL no longer exists (HTTP 404/410 or soft
+    not-found). Catch-all for rows the board-reaper can't see — orphaned by
+    company/job_id drift. Default: matched+open only, oldest last_check first;
+    matched_only=False also sweeps the non-matched tail. Never touches applied."""
     now = time.time()
     where = "closed=0 AND applied=0 AND url LIKE 'http%'"
     if matched_only:

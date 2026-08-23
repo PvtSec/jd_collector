@@ -612,16 +612,6 @@
     ]
   },
   {
-    "company_name": "42reports GmbH",
-    "website": "42reports.com",
-    "career_page_url": "https://42reports.com",
-    "board_token": null,
-    "domain_hint": "42reports.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "4degere.es",
     "website": "4degre.es",
     "career_page_url": "http://4degre.es/",
@@ -784,16 +774,6 @@
   },
   {
     "company_name": "7Park Data",
-    "website": "7parkdata.com",
-    "career_page_url": "http://7parkdata.com/connect/",
-    "board_token": null,
-    "domain_hint": "7parkdata.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "7Park Data, Inc",
     "website": "7parkdata.com",
     "career_page_url": "http://7parkdata.com/connect/",
     "board_token": null,
@@ -1553,16 +1533,6 @@
     "domain_hint": "myradar.com",
     "source_platforms": [
       "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "Acompany Co., Ltd.",
-    "website": "en.acompany.tech",
-    "career_page_url": "https://recruit.acompany.tech",
-    "board_token": null,
-    "domain_hint": "acompany.tech",
-    "source_platforms": [
-      "gh_awesome"
     ]
   },
   {
@@ -3790,16 +3760,6 @@
     ]
   },
   {
-    "company_name": "Aiven.io",
-    "website": "aiven.io",
-    "career_page_url": "https://aiven.io/careers/",
-    "board_token": null,
-    "domain_hint": "aiven.io",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "AIVITEX",
     "website": "aivitex.com",
     "career_page_url": "https://iuhhoo.workwise.io/",
@@ -3845,16 +3805,6 @@
   },
   {
     "company_name": "akeno",
-    "website": "akeno.ai",
-    "career_page_url": "https://www.akeno.ai/careers",
-    "board_token": null,
-    "domain_hint": "akeno.ai",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "akeno.ai",
     "website": "akeno.ai",
     "career_page_url": "https://www.akeno.ai/careers",
     "board_token": null,
@@ -3935,16 +3885,6 @@
     "source_platforms": [
       "niche_datasets",
       "wd_benelux_fr"
-    ]
-  },
-  {
-    "company_name": "Akvo.org",
-    "website": "akvo.org",
-    "career_page_url": "http://akvo.org",
-    "board_token": null,
-    "domain_hint": "akvo.org",
-    "source_platforms": [
-      "niche_datasets"
     ]
   },
   {
@@ -4041,16 +3981,6 @@
   },
   {
     "company_name": "Alcove",
-    "website": "alcoverooms.com",
-    "career_page_url": "https://alcoverooms.com",
-    "board_token": null,
-    "domain_hint": "alcoverooms.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "Alcove Rooms",
     "website": "alcoverooms.com",
     "career_page_url": "https://alcoverooms.com",
     "board_token": null,
@@ -4170,16 +4100,6 @@
       "gh_awesome",
       "gh_remote_lists",
       "gh_remoteintech"
-    ]
-  },
-  {
-    "company_name": "AlgorandEurope",
-    "website": "algorand.com",
-    "career_page_url": "https://www.algorand.com/about/careers/our-jobs",
-    "board_token": null,
-    "domain_hint": "algorand.com",
-    "source_platforms": [
-      "gh_remote_lists"
     ]
   },
   {
@@ -4469,16 +4389,6 @@
   },
   {
     "company_name": "AllTheRooms",
-    "website": "alltherooms.com",
-    "career_page_url": "http://AllTheRooms.com",
-    "board_token": null,
-    "domain_hint": "alltherooms.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "AllTheRooms.com",
     "website": "alltherooms.com",
     "career_page_url": "http://AllTheRooms.com",
     "board_token": null,
@@ -7076,26 +6986,6 @@
     ]
   },
   {
-    "company_name": "Arabesque AI",
-    "website": "arabesque.com",
-    "career_page_url": "https://www.arabesque.com/",
-    "board_token": null,
-    "domain_hint": "arabesque.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "Arabesque S-Ray",
-    "website": "arabesque.com",
-    "career_page_url": "https://www.arabesque.com/",
-    "board_token": null,
-    "domain_hint": "arabesque.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "Arachnys",
     "website": "arachnys.com",
     "career_page_url": "https://www.arachnys.com",
@@ -7318,16 +7208,6 @@
   },
   {
     "company_name": "Architizer",
-    "website": "architizer.com",
-    "career_page_url": "http://architizer.com",
-    "board_token": null,
-    "domain_hint": "architizer.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "Architizer Inc",
     "website": "architizer.com",
     "career_page_url": "http://architizer.com",
     "board_token": null,
@@ -8380,16 +8260,6 @@
     ]
   },
   {
-    "company_name": "Asteria/Playa",
-    "website": "getasteria.com",
-    "career_page_url": "http://getasteria.com/",
-    "board_token": null,
-    "domain_hint": "getasteria.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "Asteris, Inc",
     "website": "indeedjobs.com",
     "career_page_url": "https://www.indeedjobs.com/asteris-inc/jobs",
@@ -8492,27 +8362,7 @@
     ]
   },
   {
-    "company_name": "ASYMPTOTA.COM",
-    "website": "asymptota.com",
-    "career_page_url": "https://www.asymptota.com/open-positions",
-    "board_token": null,
-    "domain_hint": "asymptota.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "Asyncy",
-    "website": "asyncy.com",
-    "career_page_url": "https://asyncy.com",
-    "board_token": null,
-    "domain_hint": "asyncy.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "Asyncy.com",
     "website": "asyncy.com",
     "career_page_url": "https://asyncy.com",
     "board_token": null,
@@ -8604,16 +8454,6 @@
   },
   {
     "company_name": "Athom",
-    "website": "athom.com",
-    "career_page_url": "https://www.athom.com",
-    "board_token": null,
-    "domain_hint": "athom.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "Athom B.V",
     "website": "athom.com",
     "career_page_url": "https://www.athom.com",
     "board_token": null,
@@ -9707,16 +9547,6 @@
     ]
   },
   {
-    "company_name": "Awarded Software",
-    "website": "awardedsoftware.com",
-    "career_page_url": "https://www.awardedsoftware.com",
-    "board_token": null,
-    "domain_hint": "awardedsoftware.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "Aware Health",
     "website": "https://www.awarehealth.io",
     "career_page_url": "https://www.awarehealth.io/careers",
@@ -10135,26 +9965,6 @@
     ]
   },
   {
-    "company_name": "BackNine Insurance",
-    "website": "back9ins.com",
-    "career_page_url": "https://back9ins.com",
-    "board_token": null,
-    "domain_hint": "back9ins.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "BackNine Insurance and Financial Services",
-    "website": "back9ins.com",
-    "career_page_url": "http://back9ins.com",
-    "board_token": null,
-    "domain_hint": "back9ins.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "BackOffice Associates, LLC",
     "website": "boaweb.com",
     "career_page_url": "http://www.boaweb.com/company/careers/infrastructure-engineer-remote-us-seattle-wa/",
@@ -10206,16 +10016,6 @@
   },
   {
     "company_name": "Bad Gateway",
-    "website": "badgateway.net",
-    "career_page_url": "https://badgateway.net/",
-    "board_token": null,
-    "domain_hint": "badgateway.net",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "Bad Gateway Inc",
     "website": "badgateway.net",
     "career_page_url": "https://badgateway.net/",
     "board_token": null,
@@ -11020,16 +10820,6 @@
     ]
   },
   {
-    "company_name": "Beaconhome.io",
-    "website": "beaconhome.io",
-    "career_page_url": "http://beaconhome.io/",
-    "board_token": null,
-    "domain_hint": "beaconhome.io",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "Bead AI",
     "website": "usebead.ai",
     "career_page_url": "https://usebead.ai/careers",
@@ -11428,16 +11218,6 @@
   },
   {
     "company_name": "Bell Curve",
-    "website": "bellcurve.com",
-    "career_page_url": "http://BellCurve.com",
-    "board_token": null,
-    "domain_hint": "bellcurve.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "BellCurve.com",
     "website": "bellcurve.com",
     "career_page_url": "http://BellCurve.com",
     "board_token": null,
@@ -12155,16 +11935,6 @@
     ]
   },
   {
-    "company_name": "BigchainDB GmbH / ascribe GmbH",
-    "website": "bigchaindb.com",
-    "career_page_url": "https://www.bigchaindb.com/",
-    "board_token": null,
-    "domain_hint": "bigchaindb.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "BigData Boutique",
     "website": "bigdataboutique.com",
     "career_page_url": "https://bigdataboutique.com/careers",
@@ -12664,16 +12434,6 @@
     "company_name": "BitTorrent",
     "website": "bittorrent.com",
     "career_page_url": "http://www.bittorrent.com/company/about/jobs",
-    "board_token": null,
-    "domain_hint": "bittorrent.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "BitTorrent Inc",
-    "website": "bittorrent.com",
-    "career_page_url": "http://www.bittorrent.com/company/about/jobs/",
     "board_token": null,
     "domain_hint": "bittorrent.com",
     "source_platforms": [
@@ -14062,16 +13822,6 @@
     ]
   },
   {
-    "company_name": "Bonanza.com",
-    "website": "bonanza.com",
-    "career_page_url": "http://www.bonanza.com",
-    "board_token": null,
-    "domain_hint": "bonanza.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "Bonativo",
     "website": "bonativo.co.uk",
     "career_page_url": "http://www.bonativo.co.uk",
@@ -15098,16 +14848,6 @@
     ]
   },
   {
-    "company_name": "brandTURBO GmbH",
-    "website": "brandturbo.vip",
-    "career_page_url": "https://brandturbo.vip",
-    "board_token": null,
-    "domain_hint": "brandturbo.vip",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "BrandVerity",
     "website": "brandverity.com",
     "career_page_url": "https://www.brandverity.com/careers/job?gh_jid=4307457002",
@@ -15143,16 +14883,6 @@
     "career_page_url": "https://share.hsforms.com/1ct8q7WjjSueKNDyXGHxGBw2ncu1",
     "board_token": null,
     "domain_hint": "hsforms.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "Bravahome",
-    "website": "bravahome.com",
-    "career_page_url": "http://bravahome.com",
-    "board_token": null,
-    "domain_hint": "bravahome.com",
     "source_platforms": [
       "niche_datasets"
     ]
@@ -15584,16 +15314,6 @@
     ]
   },
   {
-    "company_name": "Brightwork.io",
-    "website": "brightwork.io",
-    "career_page_url": "http://brightwork.io",
-    "board_token": null,
-    "domain_hint": "brightwork.io",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "BRIKA",
     "website": "brika.com",
     "career_page_url": "http://www.brika.com",
@@ -15768,16 +15488,6 @@
   },
   {
     "company_name": "Broadway Lab",
-    "website": "broadwaylab.com",
-    "career_page_url": "https://broadwaylab.com",
-    "board_token": null,
-    "domain_hint": "broadwaylab.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "Broadway Lab, Inc",
     "website": "broadwaylab.com",
     "career_page_url": "https://broadwaylab.com",
     "board_token": null,
@@ -19200,16 +18910,6 @@
     ]
   },
   {
-    "company_name": "Ceramic Network",
-    "website": "developers.ceramic.network",
-    "career_page_url": "https://developers.ceramic.network/learn/overview/",
-    "board_token": null,
-    "domain_hint": "ceramic.network",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "Cerbos",
     "website": "cerbos.dev",
     "career_page_url": "https://cerbos.dev/join-us",
@@ -20015,16 +19715,6 @@
     ]
   },
   {
-    "company_name": "Chengbao Ltd",
-    "website": "chengbao.com.hk",
-    "career_page_url": "http://chengbao.com.hk/",
-    "board_token": null,
-    "domain_hint": "chengbao.com.hk",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "Cheqout",
     "website": "cheqout.com",
     "career_page_url": "https://www.cheqout.co",
@@ -20075,16 +19765,6 @@
       "niche_datasets",
       "wd_na",
       "wiki_lists"
-    ]
-  },
-  {
-    "company_name": "Chewy.com",
-    "website": "chewy.com",
-    "career_page_url": "https://www.chewy.com/jobs/position/967514?gh_jid=967514",
-    "board_token": null,
-    "domain_hint": "chewy.com",
-    "source_platforms": [
-      "niche_datasets"
     ]
   },
   {
@@ -20201,16 +19881,6 @@
     "company_name": "Chipper",
     "website": "chippercash.com",
     "career_page_url": "https://chippercash.com/",
-    "board_token": null,
-    "domain_hint": "chippercash.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "Chipper Cash",
-    "website": "chippercash.com",
-    "career_page_url": "https://chippercash.com",
     "board_token": null,
     "domain_hint": "chippercash.com",
     "source_platforms": [
@@ -20385,16 +20055,6 @@
   },
   {
     "company_name": "Cielo24",
-    "website": "cielo24.com",
-    "career_page_url": "http://www.cielo24.com",
-    "board_token": null,
-    "domain_hint": "cielo24.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "Cielo24 Inc",
     "website": "cielo24.com",
     "career_page_url": "http://www.cielo24.com",
     "board_token": null,
@@ -20910,16 +20570,6 @@
     "company_name": "CJ Affiliate",
     "website": "engineering.cj.com",
     "career_page_url": "http://engineering.cj.com/",
-    "board_token": null,
-    "domain_hint": "cj.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "CJ Affiliate by Conversant",
-    "website": "engineering.cj.com",
-    "career_page_url": "https://engineering.cj.com",
     "board_token": null,
     "domain_hint": "cj.com",
     "source_platforms": [
@@ -21479,16 +21129,6 @@
     "company_name": "ClimaCell",
     "website": "climacell.co",
     "career_page_url": "https://www.climacell.co/careers",
-    "board_token": null,
-    "domain_hint": "climacell.co",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "ClimaCell Inc",
-    "website": "climacell.co",
-    "career_page_url": "https://www.climacell.co/careers/",
     "board_token": null,
     "domain_hint": "climacell.co",
     "source_platforms": [
@@ -23488,16 +23128,6 @@
     ]
   },
   {
-    "company_name": "Colony.io",
-    "website": "colony.io",
-    "career_page_url": "https://colony.io",
-    "board_token": null,
-    "domain_hint": "colony.io",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "Color Genomics",
     "website": "getcolor.com",
     "career_page_url": "https://getcolor.com/#/blog/2015/04/cancer-touches-everyone",
@@ -23688,16 +23318,6 @@
     ]
   },
   {
-    "company_name": "Common Crawl Foundation",
-    "website": "commoncrawl.org",
-    "career_page_url": "https://commoncrawl.org/",
-    "board_token": null,
-    "domain_hint": "commoncrawl.org",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "Common Interests",
     "website": "fitzii.com",
     "career_page_url": "https://www.fitzii.com/apply/5841",
@@ -23749,16 +23369,6 @@
   },
   {
     "company_name": "Commonwealth Crypto",
-    "website": "commonwealthcrypto.com",
-    "career_page_url": "https://www.commonwealthcrypto.com/",
-    "board_token": null,
-    "domain_hint": "commonwealthcrypto.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "Commonwealth Crypto, Inc",
     "website": "commonwealthcrypto.com",
     "career_page_url": "https://www.commonwealthcrypto.com/",
     "board_token": null,
@@ -23950,16 +23560,6 @@
     ]
   },
   {
-    "company_name": "Compile Inc",
-    "website": "compile.com",
-    "career_page_url": "https://www.compile.com/",
-    "board_token": null,
-    "domain_hint": "compile.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "Compile India",
     "website": "compile.com",
     "career_page_url": "https://www.compile.com/careers/software-engineer-web/",
@@ -24081,16 +23681,6 @@
   },
   {
     "company_name": "Composable",
-    "website": "composable.ai",
-    "career_page_url": "https://composable.ai",
-    "board_token": null,
-    "domain_hint": "composable.ai",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "Composable Analytics",
     "website": "composable.ai",
     "career_page_url": "https://composable.ai",
     "board_token": null,
@@ -25661,16 +25251,6 @@
     ]
   },
   {
-    "company_name": "Countly Analytics",
-    "website": "count.ly",
-    "career_page_url": "https://count.ly/full-stack-node-js-developer/",
-    "board_token": null,
-    "domain_hint": "count.ly",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "County of San Juan",
     "website": "sanjuanco.com",
     "career_page_url": "http://sanjuanco.com/administration/employment.aspx",
@@ -26015,16 +25595,6 @@
     ]
   },
   {
-    "company_name": "craftworks GmbH",
-    "website": "craftworks.at",
-    "career_page_url": "https://craftworks.at",
-    "board_token": null,
-    "domain_hint": "craftworks.at",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "Cram Fighter",
     "website": "cramfighter.com",
     "career_page_url": "http://cramfighter.com/careers/senior-software-developer/",
@@ -26106,16 +25676,6 @@
       "gh_awesome",
       "gh_remote_lists",
       "gh_remoteintech",
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "CrazyGames.com",
-    "website": "crazygames.com",
-    "career_page_url": "https://www.crazygames.com/jobs",
-    "board_token": null,
-    "domain_hint": "crazygames.com",
-    "source_platforms": [
       "niche_datasets"
     ]
   },
@@ -27401,16 +26961,6 @@
     ]
   },
   {
-    "company_name": "Customice GmbH",
-    "website": "customice.de",
-    "career_page_url": "https://customice.de",
-    "board_token": null,
-    "domain_hint": "customice.de",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "Custora",
     "website": "custora.com",
     "career_page_url": "http://www.custora.com",
@@ -27490,16 +27040,6 @@
   },
   {
     "company_name": "Cyanogen",
-    "website": "cyngn.com",
-    "career_page_url": "http://cyngn.com",
-    "board_token": null,
-    "domain_hint": "cyngn.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "Cyanogen Inc",
     "website": "cyngn.com",
     "career_page_url": "http://cyngn.com",
     "board_token": null,
@@ -27940,16 +27480,6 @@
     "company_name": "Dalia Research",
     "website": "daliaresearch.com",
     "career_page_url": "https://daliaresearch.com",
-    "board_token": null,
-    "domain_hint": "daliaresearch.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "Dalia Research GmbH",
-    "website": "daliaresearch.com",
-    "career_page_url": "https://daliaresearch.com/",
     "board_token": null,
     "domain_hint": "daliaresearch.com",
     "source_platforms": [
@@ -28615,16 +28145,6 @@
     ]
   },
   {
-    "company_name": "Datawallet GmbH",
-    "website": "datawallet.com",
-    "career_page_url": "https://datawallet.com",
-    "board_token": null,
-    "domain_hint": "datawallet.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "Dataware Ventures",
     "website": "datawareventures.com",
     "career_page_url": "http://www.datawareventures.com/#!careers/cc1r",
@@ -28656,16 +28176,6 @@
   },
   {
     "company_name": "Datawire",
-    "website": "datawire.io",
-    "career_page_url": "https://www.datawire.io/careers/",
-    "board_token": null,
-    "domain_hint": "datawire.io",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "Datawire.io",
     "website": "datawire.io",
     "career_page_url": "https://www.datawire.io/careers/",
     "board_token": null,
@@ -28740,16 +28250,6 @@
     "company_name": "Datometry",
     "website": "datometry.com",
     "career_page_url": "https://datometry.com",
-    "board_token": null,
-    "domain_hint": "datometry.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "Datometry Inc",
-    "website": "datometry.com",
-    "career_page_url": "https://datometry.com/",
     "board_token": null,
     "domain_hint": "datometry.com",
     "source_platforms": [
@@ -29268,16 +28768,6 @@
     "career_page_url": "https://deepstreamhub.com/careers/server-developer/",
     "board_token": null,
     "domain_hint": "deepstreamhub.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "deepstreamHub",
-    "website": "deepstream.io",
-    "career_page_url": "https://deepstream.io/",
-    "board_token": null,
-    "domain_hint": "deepstream.io",
     "source_platforms": [
       "niche_datasets"
     ]
@@ -31536,16 +31026,6 @@
     ]
   },
   {
-    "company_name": "DocNav Labs",
-    "website": "docnavapp.com",
-    "career_page_url": "https://www.docnavapp.com/",
-    "board_token": null,
-    "domain_hint": "docnavapp.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "DocSend",
     "website": "docsend.com",
     "career_page_url": "https://docsend.com/view/7vf3288",
@@ -32181,16 +31661,6 @@
     ]
   },
   {
-    "company_name": "Doubleup.com",
-    "website": "doubleup.com",
-    "career_page_url": "http://www.doubleup.com",
-    "board_token": null,
-    "domain_hint": "doubleup.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "Douglas Connect GmbH",
     "website": "douglasconnect.com",
     "career_page_url": "https://douglasconnect.com/join-us",
@@ -32481,16 +31951,6 @@
     "company_name": "DreamList",
     "website": "dreamlist.com",
     "career_page_url": "https://www.dreamlist.com",
-    "board_token": null,
-    "domain_hint": "dreamlist.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "DreamList.com",
-    "website": "dreamlist.com",
-    "career_page_url": "https://www.DreamList.com",
     "board_token": null,
     "domain_hint": "dreamlist.com",
     "source_platforms": [
@@ -34093,16 +33553,6 @@
     ]
   },
   {
-    "company_name": "Edition (edition(dot)io)",
-    "website": "codewords.io",
-    "career_page_url": "http://codewords.io",
-    "board_token": null,
-    "domain_hint": "codewords.io",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "Edition (edition.io)",
     "website": "codewords.io",
     "career_page_url": "http://codewords.io",
@@ -34705,16 +34155,6 @@
       "niche_datasets",
       "wd_nordics",
       "wiki_lists"
-    ]
-  },
-  {
-    "company_name": "Elektron Music Machines",
-    "website": "elektron.se",
-    "career_page_url": "https://www.elektron.se",
-    "board_token": null,
-    "domain_hint": "elektron.se",
-    "source_platforms": [
-      "niche_datasets"
     ]
   },
   {
@@ -35460,16 +34900,6 @@
     ]
   },
   {
-    "company_name": "Enclave Networks",
-    "website": "enclave.io",
-    "career_page_url": "https://enclave.io",
-    "board_token": null,
-    "domain_hint": "enclave.io",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "Encompaas",
     "website": "encompaas.homerun.co",
     "career_page_url": "https://encompaas.homerun.co/senior-web-developer/en",
@@ -36177,16 +35607,6 @@
     ]
   },
   {
-    "company_name": "Episerver + Optimizely",
-    "website": "episerver.com",
-    "career_page_url": "https://www.episerver.com/",
-    "board_token": null,
-    "domain_hint": "episerver.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "Episource",
     "website": "episource.com",
     "career_page_url": "https://www.episource.com/careers/",
@@ -36285,16 +35705,6 @@
   },
   {
     "company_name": "Equilibrium",
-    "website": "equilibrium.co",
-    "career_page_url": "https://equilibrium.co",
-    "board_token": null,
-    "domain_hint": "equilibrium.co",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "equilibrium.co",
     "website": "equilibrium.co",
     "career_page_url": "https://equilibrium.co",
     "board_token": null,
@@ -36671,26 +36081,6 @@
     "company_name": "Euclid",
     "website": "euclidanalytics.com",
     "career_page_url": "http://euclidanalytics.com/about/careers",
-    "board_token": null,
-    "domain_hint": "euclidanalytics.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "Euclid Analytics",
-    "website": "euclidanalytics.com",
-    "career_page_url": "http://euclidanalytics.com/about/careers/",
-    "board_token": null,
-    "domain_hint": "euclidanalytics.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "Euclid Inc",
-    "website": "euclidanalytics.com",
-    "career_page_url": "http://euclidanalytics.com/about/careers/",
     "board_token": null,
     "domain_hint": "euclidanalytics.com",
     "source_platforms": [
@@ -37092,16 +36482,6 @@
     ]
   },
   {
-    "company_name": "everyone codes gGmbH",
-    "website": "everyonecodes.io",
-    "career_page_url": "https://everyonecodes.io/job-sd-mentor-en",
-    "board_token": null,
-    "domain_hint": "everyonecodes.io",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "eVestment (owned by Nasdaq)",
     "website": "evestment.com",
     "career_page_url": "https://www.evestment.com/about/careers/be-a-developer-with-us/",
@@ -37358,16 +36738,6 @@
     "career_page_url": "http://exocortex.com/blog/exocortex_hiring_job_summer_developer",
     "board_token": null,
     "domain_hint": "exocortex.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "Exocortex/Clara.io/ThreeKit",
-    "website": "clara.io",
-    "career_page_url": "http://clara.io",
-    "board_token": null,
-    "domain_hint": "clara.io",
     "source_platforms": [
       "niche_datasets"
     ]
@@ -38070,16 +37440,6 @@
     "company_name": "Fair Financial",
     "website": "fair.com",
     "career_page_url": "https://www.fair.com/",
-    "board_token": null,
-    "domain_hint": "fair.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "Fair.com",
-    "website": "fair.com",
-    "career_page_url": "https://www.fair.com/careers",
     "board_token": null,
     "domain_hint": "fair.com",
     "source_platforms": [
@@ -38958,16 +38318,6 @@
     ]
   },
   {
-    "company_name": "Fennel.ai",
-    "website": "fennel.ai",
-    "career_page_url": "https://fennel.ai/",
-    "board_token": null,
-    "domain_hint": "fennel.ai",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "Fenrir Inc.",
     "website": "fenrir-inc.com",
     "career_page_url": "https://recruit.fenrir-inc.com",
@@ -39188,16 +38538,6 @@
     ]
   },
   {
-    "company_name": "FiftyThree, Inc",
-    "website": "fiftythree.com",
-    "career_page_url": "http://fiftythree.com",
-    "board_token": null,
-    "domain_hint": "fiftythree.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "Fight for the Future",
     "website": "fftf.link",
     "career_page_url": "https://fftf.link/pm-job",
@@ -39301,16 +38641,6 @@
     "company_name": "FilmLight",
     "website": "filmlight.ltd.uk",
     "career_page_url": "https://www.filmlight.ltd.uk",
-    "board_token": null,
-    "domain_hint": "filmlight.ltd.uk",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "FilmLight Ltd",
-    "website": "filmlight.ltd.uk",
-    "career_page_url": "https://www.filmlight.ltd.uk/",
     "board_token": null,
     "domain_hint": "filmlight.ltd.uk",
     "source_platforms": [
@@ -40416,16 +39746,6 @@
     ]
   },
   {
-    "company_name": "Flipboard, Inc",
-    "website": "flipboard.com",
-    "career_page_url": "http://flipboard.com",
-    "board_token": null,
-    "domain_hint": "flipboard.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "FlipKey",
     "website": "flipkey.com",
     "career_page_url": "http://www.flipkey.com/Pages/careers/",
@@ -40979,16 +40299,6 @@
   },
   {
     "company_name": "Flyp Homes",
-    "website": "flyp.co",
-    "career_page_url": "https://flyp.co",
-    "board_token": null,
-    "domain_hint": "flyp.co",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "Flyp Homes Ltd",
     "website": "flyp.co",
     "career_page_url": "https://flyp.co",
     "board_token": null,
@@ -41690,16 +41000,6 @@
     ]
   },
   {
-    "company_name": "Formaviva.com",
-    "website": "formaviva.com",
-    "career_page_url": "https://formaviva.com/jobs/backend-developer",
-    "board_token": null,
-    "domain_hint": "formaviva.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "Formical",
     "website": "careers.formical.bio",
     "career_page_url": "https://careers.formical.bio",
@@ -42234,16 +41534,6 @@
     "career_page_url": "http://iobio.io",
     "board_token": null,
     "domain_hint": "iobio.io",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "Frameshift Genomics and University of Utah",
-    "website": "frameshift.io",
-    "career_page_url": "http://frameshift.io",
-    "board_token": null,
-    "domain_hint": "frameshift.io",
     "source_platforms": [
       "niche_datasets"
     ]
@@ -43430,16 +42720,6 @@
     ]
   },
   {
-    "company_name": "Gamaroff Digital",
-    "website": "jobs.gamaroff.com",
-    "career_page_url": "http://jobs.gamaroff.com/",
-    "board_token": null,
-    "domain_hint": "gamaroff.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "Gambit Research Ltd",
     "website": "gambitresearch.com",
     "career_page_url": "http://gambitresearch.com",
@@ -44049,16 +43329,6 @@
     ]
   },
   {
-    "company_name": "GenoPharmix",
-    "website": "genopharmix.com",
-    "career_page_url": "http://genopharmix.com",
-    "board_token": null,
-    "domain_hint": "genopharmix.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "GenoPharm©",
     "website": "genopharmix.com",
     "career_page_url": "http://genopharmix.com",
@@ -44202,16 +43472,6 @@
   },
   {
     "company_name": "Geocaching",
-    "website": "geocaching.com",
-    "career_page_url": "https://www.geocaching.com/jobs/",
-    "board_token": null,
-    "domain_hint": "geocaching.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "Geocaching HQ",
     "website": "geocaching.com",
     "career_page_url": "https://www.geocaching.com/jobs/",
     "board_token": null,
@@ -44408,16 +43668,6 @@
     "career_page_url": "http://www.getjohn.co.uk/dev-ops-job-lancashire-north-west/",
     "board_token": null,
     "domain_hint": "getjohn.co.uk",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "GetLighthouse.com",
-    "website": "getlighthouse.com",
-    "career_page_url": "http://GetLighthouse.com",
-    "board_token": null,
-    "domain_hint": "getlighthouse.com",
     "source_platforms": [
       "niche_datasets"
     ]
@@ -46442,26 +45692,6 @@
     ]
   },
   {
-    "company_name": "Gravitational Inc",
-    "website": "gravitational.com",
-    "career_page_url": "https://gravitational.com",
-    "board_token": null,
-    "domain_hint": "gravitational.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "Gravitational.com",
-    "website": "mailgun.com",
-    "career_page_url": "http://mailgun.com",
-    "board_token": null,
-    "domain_hint": "mailgun.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "Gravity Payments",
     "website": "gravitypayments.com",
     "career_page_url": "https://gravitypayments.com/careers/",
@@ -46992,16 +46222,6 @@
     ]
   },
   {
-    "company_name": "Groktor Ltd",
-    "website": "groktor.com",
-    "career_page_url": "https://groktor.com",
-    "board_token": null,
-    "domain_hint": "groktor.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "groktor.com",
     "website": "groktor.com",
     "career_page_url": "https://groktor.com",
@@ -47459,16 +46679,6 @@
   },
   {
     "company_name": "Gurock",
-    "website": "gurock.com",
-    "career_page_url": "http://www.gurock.com/",
-    "board_token": null,
-    "domain_hint": "gurock.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "Gurock Software",
     "website": "gurock.com",
     "career_page_url": "http://www.gurock.com/",
     "board_token": null,
@@ -49201,16 +48411,6 @@
     ]
   },
   {
-    "company_name": "HelloSign.com",
-    "website": "hellosign.com",
-    "career_page_url": "https://www.hellosign.com/info/jobs",
-    "board_token": null,
-    "domain_hint": "hellosign.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "HelloText",
     "website": "hellotext.com",
     "career_page_url": "https://www.hellotext.com",
@@ -49335,16 +48535,6 @@
   },
   {
     "company_name": "Herakles",
-    "website": "herakles-defense.com",
-    "career_page_url": "https://www.herakles-defense.com/founding-engineer",
-    "board_token": null,
-    "domain_hint": "herakles-defense.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "Herakles Defense",
     "website": "herakles-defense.com",
     "career_page_url": "https://www.herakles-defense.com/founding-engineer",
     "board_token": null,
@@ -50011,16 +49201,6 @@
   },
   {
     "company_name": "Hitmeister",
-    "website": "hitmeister.de",
-    "career_page_url": "http://www.hitmeister.de/",
-    "board_token": null,
-    "domain_hint": "hitmeister.de",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "Hitmeister.de",
     "website": "hitmeister.de",
     "career_page_url": "http://www.hitmeister.de/",
     "board_token": null,
@@ -51662,16 +50842,6 @@
     ]
   },
   {
-    "company_name": "Hypernode by Byte",
-    "website": "hypernode.com",
-    "career_page_url": "https://www.hypernode.com",
-    "board_token": null,
-    "domain_hint": "hypernode.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "Hypertherm Robotic Software Inc",
     "website": "robotmaster.com",
     "career_page_url": "http://www.robotmaster.com",
@@ -51785,16 +50955,6 @@
   },
   {
     "company_name": "i-Logs",
-    "website": "i-logs.com",
-    "career_page_url": "https://www.i-logs.com",
-    "board_token": null,
-    "domain_hint": "i-logs.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "i-Logs SRL",
     "website": "i-logs.com",
     "career_page_url": "https://www.i-logs.com",
     "board_token": null,
@@ -51948,16 +51108,6 @@
   },
   {
     "company_name": "IBH SYSTEMS",
-    "website": "ibh-systems.com",
-    "career_page_url": "http://www.ibh-systems.com",
-    "board_token": null,
-    "domain_hint": "ibh-systems.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "IBH SYSTEMS GmbH",
     "website": "ibh-systems.com",
     "career_page_url": "http://www.ibh-systems.com",
     "board_token": null,
@@ -52213,26 +51363,6 @@
     "source_platforms": [
       "a16z",
       "dir_yc",
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "iCracked Inc",
-    "website": "icracked.com",
-    "career_page_url": "https://www.icracked.com/careers",
-    "board_token": null,
-    "domain_hint": "icracked.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "iCracked.com",
-    "website": "icracked.com",
-    "career_page_url": "https://www.icracked.com/careers",
-    "board_token": null,
-    "domain_hint": "icracked.com",
-    "source_platforms": [
       "niche_datasets"
     ]
   },
@@ -53175,16 +52305,6 @@
     ]
   },
   {
-    "company_name": "In-depth inc",
-    "website": "indepth.io",
-    "career_page_url": "http://indepth.io",
-    "board_token": null,
-    "domain_hint": "indepth.io",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "IN-PART",
     "website": "in-part.com",
     "career_page_url": "https://in-part.com",
@@ -53343,16 +52463,6 @@
     "domain_hint": "getinconvo.com",
     "source_platforms": [
       "dir_yc",
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "Inconvo, YouGov",
-    "website": "getinconvo.com",
-    "career_page_url": "https://www.getinconvo.com",
-    "board_token": null,
-    "domain_hint": "getinconvo.com",
-    "source_platforms": [
       "niche_datasets"
     ]
   },
@@ -54206,16 +53316,6 @@
     ]
   },
   {
-    "company_name": "Insight Data Engineering",
-    "website": "insightdatascience.com",
-    "career_page_url": "http://insightdatascience.com/jobs?gh_jid=248141",
-    "board_token": null,
-    "domain_hint": "insightdatascience.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "Insight Health",
     "website": "hlth.li",
     "career_page_url": "https://hlth.li/iOS-eng",
@@ -54795,16 +53895,6 @@
   },
   {
     "company_name": "Intello",
-    "website": "intello.io",
-    "career_page_url": "https://www.intello.io",
-    "board_token": null,
-    "domain_hint": "intello.io",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "Intello.io",
     "website": "intello.io",
     "career_page_url": "https://www.intello.io",
     "board_token": null,
@@ -55521,16 +54611,6 @@
     ]
   },
   {
-    "company_name": "iomed.es",
-    "website": "iomed.es",
-    "career_page_url": "http://iomed.es",
-    "board_token": null,
-    "domain_hint": "iomed.es",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "ioni.solarz.me",
     "website": "ioni.solarz.me",
     "career_page_url": "http://ioni.solarz.me/cv_js.pdf",
@@ -56133,16 +55213,6 @@
     ]
   },
   {
-    "company_name": "ivivacloud.com",
-    "website": "ivivacloud.com",
-    "career_page_url": "http://www.ivivacloud.com",
-    "board_token": null,
-    "domain_hint": "ivivacloud.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "IVPN",
     "website": "ivpn.net",
     "career_page_url": "https://www.ivpn.net",
@@ -56510,16 +55580,6 @@
   },
   {
     "company_name": "Jaunt",
-    "website": "jauntvr.com",
-    "career_page_url": "https://jauntvr.com/",
-    "board_token": null,
-    "domain_hint": "jauntvr.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "Jaunt, Inc",
     "website": "jauntvr.com",
     "career_page_url": "https://jauntvr.com/",
     "board_token": null,
@@ -57413,16 +56473,6 @@
     ]
   },
   {
-    "company_name": "Judson Company",
-    "website": "judson.biz",
-    "career_page_url": "https://judson.biz",
-    "board_token": null,
-    "domain_hint": "judson.biz",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "Juicero",
     "website": "juicero.com",
     "career_page_url": "https://www.juicero.com/jobs/",
@@ -57431,16 +56481,6 @@
     "source_platforms": [
       "niche_datasets",
       "wd_na"
-    ]
-  },
-  {
-    "company_name": "Juicero, Inc",
-    "website": "juicero.com",
-    "career_page_url": "https://www.juicero.com/jobs/",
-    "board_token": null,
-    "domain_hint": "juicero.com",
-    "source_platforms": [
-      "niche_datasets"
     ]
   },
   {
@@ -57464,16 +56504,6 @@
     ]
   },
   {
-    "company_name": "Juji Inc",
-    "website": "juji.io",
-    "career_page_url": "https://juji.io/fullstack",
-    "board_token": null,
-    "domain_hint": "juji.io",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "Jules",
     "website": "julesdocs.com",
     "career_page_url": "https://julesdocs.com",
@@ -57487,16 +56517,6 @@
     "company_name": "Julia Computing",
     "website": "juliacomputing.com",
     "career_page_url": "https://juliacomputing.com",
-    "board_token": null,
-    "domain_hint": "juliacomputing.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "Julia Computing Inc",
-    "website": "juliacomputing.com",
-    "career_page_url": "http://juliacomputing.com",
     "board_token": null,
     "domain_hint": "juliacomputing.com",
     "source_platforms": [
@@ -58202,16 +57222,6 @@
     ]
   },
   {
-    "company_name": "Karmic Labs, Inc",
-    "website": "karmiclabs.com",
-    "career_page_url": "https://karmiclabs.com",
-    "board_token": null,
-    "domain_hint": "karmiclabs.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "KarmicLabs",
     "website": "karmiclabs.com",
     "career_page_url": "https://karmiclabs.com/",
@@ -58233,16 +57243,6 @@
   },
   {
     "company_name": "Karr Lab (http://www.karrlab.org) @ Mount Sinai Medical School",
-    "website": "karrlab.org",
-    "career_page_url": "http://www.karrlab.org",
-    "board_token": null,
-    "domain_hint": "karrlab.org",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "Karr Lab (Institute for Genomics & Multiscale Biology at the Icahn School of Medicine at Mount Sinai)",
     "website": "karrlab.org",
     "career_page_url": "http://www.karrlab.org",
     "board_token": null,
@@ -58356,16 +57356,6 @@
   },
   {
     "company_name": "Kausa",
-    "website": "kausa.ai",
-    "career_page_url": "http://kausa.ai",
-    "board_token": null,
-    "domain_hint": "kausa.ai",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "Kausa.ai",
     "website": "kausa.ai",
     "career_page_url": "http://kausa.ai",
     "board_token": null,
@@ -58585,19 +57575,10 @@
     "board_token": null,
     "domain_hint": "kentik.com",
     "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "Kentik Technologies Inc.",
-    "website": "kentik.com",
-    "career_page_url": "https://www.kentik.com/careers",
-    "board_token": null,
-    "domain_hint": "kentik.com",
-    "source_platforms": [
       "gh_awesome",
       "gh_remote_lists",
-      "gh_remoteintech"
+      "gh_remoteintech",
+      "niche_datasets"
     ]
   },
   {
@@ -59667,16 +58648,6 @@
     ]
   },
   {
-    "company_name": "knowd.ai",
-    "website": "knowd.ai",
-    "career_page_url": "https://www.knowd.ai/",
-    "board_token": null,
-    "domain_hint": "knowd.ai",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "KnowItOwl",
     "website": "knowitowl.theresumator.com",
     "career_page_url": "http://knowitowl.theresumator.com/apply/",
@@ -60201,16 +59172,6 @@
   },
   {
     "company_name": "krypt.co",
-    "website": "krypt.co",
-    "career_page_url": "https://krypt.co/jobs",
-    "board_token": null,
-    "domain_hint": "krypt.co",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "kryptco.co",
     "website": "krypt.co",
     "career_page_url": "https://krypt.co/jobs",
     "board_token": null,
@@ -61865,16 +60826,6 @@
     ]
   },
   {
-    "company_name": "Lellan, Inc",
-    "website": "lellan.recruiterbox.com",
-    "career_page_url": "https://lellan.recruiterbox.com/jobs/fk08ds/",
-    "board_token": null,
-    "domain_hint": "recruiterbox.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "Lemon AI",
     "website": "getlemon.ai",
     "career_page_url": "https://getlemon.ai",
@@ -62054,16 +61005,6 @@
   },
   {
     "company_name": "Lesara",
-    "website": "corporate.lesara.com",
-    "career_page_url": "https://corporate.lesara.com/career",
-    "board_token": null,
-    "domain_hint": "lesara.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "Lesara GmbH",
     "website": "corporate.lesara.com",
     "career_page_url": "https://corporate.lesara.com/career",
     "board_token": null,
@@ -62517,16 +61458,6 @@
   },
   {
     "company_name": "LifeWeb",
-    "website": "lifeweb360.com",
-    "career_page_url": "https://www.lifeweb360.com/",
-    "board_token": null,
-    "domain_hint": "lifeweb360.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "LifeWeb 360",
     "website": "lifeweb360.com",
     "career_page_url": "https://www.lifeweb360.com/",
     "board_token": null,
@@ -63269,16 +62200,6 @@
   },
   {
     "company_name": "LitCharts",
-    "website": "litcharts.com",
-    "career_page_url": "https://www.litcharts.com",
-    "board_token": null,
-    "domain_hint": "litcharts.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "LitCharts and CliffsNotes (Course Hero)",
     "website": "litcharts.com",
     "career_page_url": "https://www.litcharts.com",
     "board_token": null,
@@ -67253,16 +66174,6 @@
     ]
   },
   {
-    "company_name": "Maxint.com",
-    "website": "maxint.com",
-    "career_page_url": "https://www.maxint.com",
-    "board_token": null,
-    "domain_hint": "maxint.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "Maxlinear Hispania",
     "website": "maxlinear.com",
     "career_page_url": "https://www.maxlinear.com",
@@ -67627,16 +66538,6 @@
     "source_platforms": [
       "niche_datasets",
       "wd_devtools"
-    ]
-  },
-  {
-    "company_name": "Medallia, Inc",
-    "website": "medallia.com",
-    "career_page_url": "http://www.medallia.com/careers/",
-    "board_token": null,
-    "domain_hint": "medallia.com",
-    "source_platforms": [
-      "niche_datasets"
     ]
   },
   {
@@ -69159,16 +68060,6 @@
     ]
   },
   {
-    "company_name": "Microsoft Healthcare: EmpowerMD",
-    "website": "aka.ms",
-    "career_page_url": "https://aka.ms/empowermd",
-    "board_token": null,
-    "domain_hint": "aka.ms",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "Microsoft Research, Immunomics",
     "website": "aka.ms",
     "career_page_url": "https://aka.ms/immunomics",
@@ -69534,27 +68425,7 @@
     ]
   },
   {
-    "company_name": "Minibar Delivery",
-    "website": "minibardelivery.com",
-    "career_page_url": "https://minibardelivery.com",
-    "board_token": null,
-    "domain_hint": "minibardelivery.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "Minimax Labs",
-    "website": "minimaxlabs.com",
-    "career_page_url": "http://minimaxlabs.com",
-    "board_token": null,
-    "domain_hint": "minimaxlabs.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "Minimax Labs Ltd",
     "website": "minimaxlabs.com",
     "career_page_url": "http://minimaxlabs.com",
     "board_token": null,
@@ -70680,16 +69551,6 @@
   },
   {
     "company_name": "Mokriya",
-    "website": "craigslist.mokriya.com",
-    "career_page_url": "http://craigslist.mokriya.com/",
-    "board_token": null,
-    "domain_hint": "mokriya.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "Mokriya Craigslist",
     "website": "craigslist.mokriya.com",
     "career_page_url": "http://craigslist.mokriya.com/",
     "board_token": null,
@@ -72032,16 +70893,6 @@
     ]
   },
   {
-    "company_name": "Mutual Knowledge Systems, Inc. (aka MuKn)",
-    "website": "mukn.io",
-    "career_page_url": "https://mukn.io/",
-    "board_token": null,
-    "domain_hint": "mukn.io",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "Mutually Human",
     "website": "mutuallyhuman.com",
     "career_page_url": "http://www.mutuallyhuman.com/",
@@ -72350,16 +71201,6 @@
     "source_platforms": [
       "niche_datasets",
       "wd_dach"
-    ]
-  },
-  {
-    "company_name": "MYPOSTER & JUNIQE",
-    "website": "inside.myposter.de",
-    "career_page_url": "https://inside.myposter.de/jobs/",
-    "board_token": null,
-    "domain_hint": "myposter.de",
-    "source_platforms": [
-      "niche_datasets"
     ]
   },
   {
@@ -73659,16 +72500,6 @@
   },
   {
     "company_name": "NeoSensory",
-    "website": "neosensory.com",
-    "career_page_url": "http://neosensory.com",
-    "board_token": null,
-    "domain_hint": "neosensory.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "NeoSensory, Inc",
     "website": "neosensory.com",
     "career_page_url": "http://neosensory.com",
     "board_token": null,
@@ -75384,16 +74215,6 @@
     ]
   },
   {
-    "company_name": "Nitrous.IO",
-    "website": "nitrous.io",
-    "career_page_url": "https://www.nitrous.io/jobs",
-    "board_token": null,
-    "domain_hint": "nitrous.io",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "Nivi",
     "website": "nivi.io",
     "career_page_url": "https://www.nivi.io/",
@@ -76724,16 +75545,6 @@
     ]
   },
   {
-    "company_name": "Nuve, Inc",
-    "website": "nuve.us",
-    "career_page_url": "http://nuve.us/",
-    "board_token": null,
-    "domain_hint": "nuve.us",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "NUX",
     "website": "nux.ai",
     "career_page_url": "https://nux.ai/contact",
@@ -77837,16 +76648,6 @@
     ]
   },
   {
-    "company_name": "Omniex.io",
-    "website": "omniex.io",
-    "career_page_url": "https://omniex.io",
-    "board_token": null,
-    "domain_hint": "omniex.io",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "Omnigame",
     "website": "omnigame.com",
     "career_page_url": "https://omnigame.com",
@@ -78473,16 +77274,6 @@
     "career_page_url": "https://www.ooda-health.com",
     "board_token": null,
     "domain_hint": "ooda-health.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "OOHLALA Mobile (YC S16)",
-    "website": "oohlalamobile.com",
-    "career_page_url": "http://oohlalamobile.com/jobs",
-    "board_token": null,
-    "domain_hint": "oohlalamobile.com",
     "source_platforms": [
       "niche_datasets"
     ]
@@ -79389,16 +78180,6 @@
   },
   {
     "company_name": "Opp.io",
-    "website": "opp.io",
-    "career_page_url": "https://opp.io/jobs",
-    "board_token": null,
-    "domain_hint": "opp.io",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "Opp.io - Meetings",
     "website": "opp.io",
     "career_page_url": "https://opp.io/jobs",
     "board_token": null,
@@ -80580,16 +79361,6 @@
   },
   {
     "company_name": "Overleaf",
-    "website": "overleaf.com",
-    "career_page_url": "https://www.overleaf.com/jobs",
-    "board_token": null,
-    "domain_hint": "overleaf.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "Overleaf.com",
     "website": "overleaf.com",
     "career_page_url": "https://www.overleaf.com/jobs",
     "board_token": null,
@@ -82586,16 +81357,6 @@
     ]
   },
   {
-    "company_name": "Peanut Protocol",
-    "website": "peanut.to",
-    "career_page_url": "https://peanut.to/jobs",
-    "board_token": null,
-    "domain_hint": "peanut.to",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "Pear Deck",
     "website": "peardeck.com",
     "career_page_url": "https://www.peardeck.com",
@@ -83327,16 +82088,6 @@
     ]
   },
   {
-    "company_name": "PersonalGenomes.org 501(c)(3) / Open Humans",
-    "website": "openhumans.org",
-    "career_page_url": "http://openhumans.org",
-    "board_token": null,
-    "domain_hint": "openhumans.org",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "Persyst",
     "website": "persyst.com",
     "career_page_url": "http://www.persyst.com/",
@@ -83432,16 +82183,6 @@
   },
   {
     "company_name": "Pex - part of Vobile",
-    "website": "pex.com",
-    "career_page_url": "https://pex.com/",
-    "board_token": null,
-    "domain_hint": "pex.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "Pex - part of Vobile Group",
     "website": "pex.com",
     "career_page_url": "https://pex.com/",
     "board_token": null,
@@ -83740,16 +82481,6 @@
     "career_page_url": "https://phrasing.app/dream-team",
     "board_token": null,
     "domain_hint": "phrasing.app",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "Phusion (Passenger)",
-    "website": "phusion.nl",
-    "career_page_url": "https://www.phusion.nl/careers",
-    "board_token": null,
-    "domain_hint": "phusion.nl",
     "source_platforms": [
       "niche_datasets"
     ]
@@ -84281,16 +83012,6 @@
     ]
   },
   {
-    "company_name": "Pipeline.gg",
-    "website": "pipeline.gg",
-    "career_page_url": "https://www.pipeline.gg",
-    "board_token": null,
-    "domain_hint": "pipeline.gg",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "PipelineDeals",
     "website": "pipelinedeals.com",
     "career_page_url": "https://www.pipelinedeals.com",
@@ -84584,16 +83305,6 @@
     ]
   },
   {
-    "company_name": "Placed Inc",
-    "website": "placed.com",
-    "career_page_url": "http://www.placed.com/about/careers",
-    "board_token": null,
-    "domain_hint": "placed.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "PlaceIQ",
     "website": "placeiq.com",
     "career_page_url": "http://www.placeiq.com/jobs/",
@@ -84852,16 +83563,6 @@
     ]
   },
   {
-    "company_name": "Platterz Inc",
-    "website": "platterz.ca",
-    "career_page_url": "https://www.platterz.ca/c/careers/",
-    "board_token": null,
-    "domain_hint": "platterz.ca",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "Plausible Analytics",
     "website": "plausible.io",
     "career_page_url": "https://plausible.io/jobs/infrastructure-engineer",
@@ -84944,16 +83645,6 @@
     ]
   },
   {
-    "company_name": "PlayGen ltd",
-    "website": "playgen.com",
-    "career_page_url": "http://playgen.com/developer-job-london/",
-    "board_token": null,
-    "domain_hint": "playgen.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "Playit",
     "website": "playit.gg",
     "career_page_url": "https://playit.gg",
@@ -85025,16 +83716,6 @@
   },
   {
     "company_name": "Plethora",
-    "website": "plethora.io",
-    "career_page_url": "http://Plethora.io",
-    "board_token": null,
-    "domain_hint": "plethora.io",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "Plethora.io",
     "website": "plethora.io",
     "career_page_url": "http://Plethora.io",
     "board_token": null,
@@ -85319,16 +84000,6 @@
     ]
   },
   {
-    "company_name": "Podaris Ltd",
-    "website": "podaris.com",
-    "career_page_url": "http://www.podaris.com/",
-    "board_token": null,
-    "domain_hint": "podaris.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "Podio (Citrix)",
     "website": "company.podio.com",
     "career_page_url": "https://company.podio.com/",
@@ -85494,16 +84165,6 @@
     "company_name": "Polka Dot Sky",
     "website": "polkadotskysoftware.com",
     "career_page_url": "https://polkadotskysoftware.com",
-    "board_token": null,
-    "domain_hint": "polkadotskysoftware.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "Polka Dot Sky Software",
-    "website": "polkadotskysoftware.com",
-    "career_page_url": "https://polkadotskysoftware.com/",
     "board_token": null,
     "domain_hint": "polkadotskysoftware.com",
     "source_platforms": [
@@ -85829,16 +84490,6 @@
     "career_page_url": "https://www.portchain.com/careers/611/full-stack-software-engineer/",
     "board_token": null,
     "domain_hint": "portchain.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "Portchain ApS",
-    "website": "port-chain.com",
-    "career_page_url": "https://www.port-chain.com",
-    "board_token": null,
-    "domain_hint": "port-chain.com",
     "source_platforms": [
       "niche_datasets"
     ]
@@ -87498,16 +86149,6 @@
     ]
   },
   {
-    "company_name": "Prometheus Research, LLC",
-    "website": "prometheusresearch.com",
-    "career_page_url": "http://prometheusresearch.com",
-    "board_token": null,
-    "domain_hint": "prometheusresearch.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "PromisePay",
     "website": "promisepay.com",
     "career_page_url": "http://www.promisepay.com",
@@ -88064,16 +86705,6 @@
     ]
   },
   {
-    "company_name": "PTScientists GmbH",
-    "website": "ptscientists.com",
-    "career_page_url": "https://ptscientists.com",
-    "board_token": null,
-    "domain_hint": "ptscientists.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "Pubfront",
     "website": "pubfront.com",
     "career_page_url": "http://www.pubfront.com/jobs/",
@@ -88265,16 +86896,6 @@
   },
   {
     "company_name": "Punchbowl",
-    "website": "punchbowl.com",
-    "career_page_url": "https://www.punchbowl.com/contact/careers",
-    "board_token": null,
-    "domain_hint": "punchbowl.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "Punchbowl.com",
     "website": "punchbowl.com",
     "career_page_url": "https://www.punchbowl.com/contact/careers",
     "board_token": null,
@@ -88987,16 +87608,6 @@
     ]
   },
   {
-    "company_name": "Quant Finance",
-    "website": "quant.finance",
-    "career_page_url": "https://quant.finance",
-    "board_token": null,
-    "domain_hint": "quant.finance",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "Quant.to",
     "website": "go.quant.to",
     "career_page_url": "https://go.quant.to",
@@ -89170,16 +87781,6 @@
   },
   {
     "company_name": "Quatt",
-    "website": "quatt.io",
-    "career_page_url": "https://quatt.io",
-    "board_token": null,
-    "domain_hint": "quatt.io",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "Quatt.io",
     "website": "quatt.io",
     "career_page_url": "https://quatt.io",
     "board_token": null,
@@ -89528,16 +88129,6 @@
   },
   {
     "company_name": "Quobyte",
-    "website": "quobyte.com",
-    "career_page_url": "https://www.quobyte.com/",
-    "board_token": null,
-    "domain_hint": "quobyte.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "QUOBYTE Engineering",
     "website": "quobyte.com",
     "career_page_url": "https://www.quobyte.com/",
     "board_token": null,
@@ -89950,16 +88541,6 @@
   },
   {
     "company_name": "Rafflecopter",
-    "website": "jobs.rafflecopter.com",
-    "career_page_url": "http://jobs.rafflecopter.com",
-    "board_token": null,
-    "domain_hint": "rafflecopter.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "Rafflecopter.com",
     "website": "jobs.rafflecopter.com",
     "career_page_url": "http://jobs.rafflecopter.com",
     "board_token": null,
@@ -90709,16 +89290,6 @@
     ]
   },
   {
-    "company_name": "Re:amaze @ GoDaddy",
-    "website": "reamaze.com",
-    "career_page_url": "https://www.reamaze.com",
-    "board_token": null,
-    "domain_hint": "reamaze.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "re:infer",
     "website": "reinfer.io",
     "career_page_url": "https://reinfer.io/about#jobs",
@@ -91093,16 +89664,6 @@
     ]
   },
   {
-    "company_name": "Recital Software",
-    "website": "recital.software",
-    "career_page_url": "https://recital.software/",
-    "board_token": null,
-    "domain_hint": "recital.software",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "Reckon Digital",
     "website": "reckondigital.com",
     "career_page_url": "https://reckondigital.com/jobs/#senior-python-developer",
@@ -91393,16 +89954,6 @@
     "company_name": "RedCarpet",
     "website": "redcarpetup.com",
     "career_page_url": "http://www.redcarpetup.com/jobs",
-    "board_token": null,
-    "domain_hint": "redcarpetup.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "RedCarpetUp",
-    "website": "redcarpetup.com",
-    "career_page_url": "https://www.redcarpetup.com/jobs/",
     "board_token": null,
     "domain_hint": "redcarpetup.com",
     "source_platforms": [
@@ -91729,16 +90280,6 @@
     ]
   },
   {
-    "company_name": "Refresh Inc",
-    "website": "refresh.io",
-    "career_page_url": "http://www.refresh.io",
-    "board_token": null,
-    "domain_hint": "refresh.io",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "Refresh.io",
     "website": "refresh.io",
     "career_page_url": "http://www.refresh.io",
@@ -91996,16 +90537,6 @@
     ]
   },
   {
-    "company_name": "Relevant Healthcare Technologies",
-    "website": "relevant.healthcare",
-    "career_page_url": "https://relevant.healthcare/#jobs",
-    "board_token": null,
-    "domain_hint": "relevant.healthcare",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "Reliant Technology",
     "website": "reliant.theresumator.com",
     "career_page_url": "http://reliant.theresumator.com/apply/hfpWXQ/Search-Marketing-Specialist-SEOPPC",
@@ -92036,27 +90567,7 @@
     ]
   },
   {
-    "company_name": "Reloaded Games, Inc",
-    "website": "reloadedinc.com",
-    "career_page_url": "http://www.reloadedinc.com",
-    "board_token": null,
-    "domain_hint": "reloadedinc.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "Relyance",
-    "website": "relyance.io",
-    "career_page_url": "https://relyance.io/careers",
-    "board_token": null,
-    "domain_hint": "relyance.io",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "Relyance.AI",
     "website": "relyance.io",
     "career_page_url": "https://relyance.io/careers",
     "board_token": null,
@@ -92077,16 +90588,6 @@
   },
   {
     "company_name": "Remediant",
-    "website": "remediant.com",
-    "career_page_url": "https://www.remediant.com/careers/software-engineer",
-    "board_token": null,
-    "domain_hint": "remediant.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "Remediant Inc",
     "website": "remediant.com",
     "career_page_url": "https://www.remediant.com/careers/software-engineer",
     "board_token": null,
@@ -92167,16 +90668,6 @@
   },
   {
     "company_name": "Remote Inning",
-    "website": "remoteinning.com",
-    "career_page_url": "https://www.remoteinning.com",
-    "board_token": null,
-    "domain_hint": "remoteinning.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "Remote Inning LLP",
     "website": "remoteinning.com",
     "career_page_url": "https://www.remoteinning.com",
     "board_token": null,
@@ -92277,16 +90768,6 @@
     "source_platforms": [
       "niche_datasets",
       "wiki_lists"
-    ]
-  },
-  {
-    "company_name": "Renaissance Learning Inc",
-    "website": "renaissance.com",
-    "career_page_url": "https://www.renaissance.com/",
-    "board_token": null,
-    "domain_hint": "renaissance.com",
-    "source_platforms": [
-      "niche_datasets"
     ]
   },
   {
@@ -92493,16 +90974,6 @@
     ]
   },
   {
-    "company_name": "Rentlytics, Inc",
-    "website": "rentlytics.com",
-    "career_page_url": "http://rentlytics.com",
-    "board_token": null,
-    "domain_hint": "rentlytics.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "Rentman",
     "website": "rentman.io",
     "career_page_url": "https://www.rentman.io",
@@ -92699,16 +91170,6 @@
   },
   {
     "company_name": "RepSpark",
-    "website": "stackshare.io",
-    "career_page_url": "http://stackshare.io/repspark/repspark",
-    "board_token": null,
-    "domain_hint": "stackshare.io",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "RepSpark Systems",
     "website": "stackshare.io",
     "career_page_url": "http://stackshare.io/repspark/repspark",
     "board_token": null,
@@ -93653,16 +92114,6 @@
   },
   {
     "company_name": "Rideways",
-    "website": "rideways.com",
-    "career_page_url": "https://www.rideways.com/",
-    "board_token": null,
-    "domain_hint": "rideways.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "rideways.com",
     "website": "rideways.com",
     "career_page_url": "https://www.rideways.com/",
     "board_token": null,
@@ -95155,16 +93606,6 @@
     ]
   },
   {
-    "company_name": "rugpullindex.com",
-    "website": "rugpullindex.com",
-    "career_page_url": "https://rugpullindex.com",
-    "board_token": null,
-    "domain_hint": "rugpullindex.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "Rumbleship Financial, Inc",
     "website": "rumbleship.com",
     "career_page_url": "https://rumbleship.com/careers/",
@@ -95429,16 +93870,6 @@
   },
   {
     "company_name": "s.Oliver",
-    "website": "soliver.com",
-    "career_page_url": "http://www.soliver.com",
-    "board_token": null,
-    "domain_hint": "soliver.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "s.Oliver Bernd Freier GmbH",
     "website": "soliver.com",
     "career_page_url": "http://www.soliver.com",
     "board_token": null,
@@ -96039,16 +94470,6 @@
     ]
   },
   {
-    "company_name": "Sanvello Health Inc",
-    "website": "sanvello.com",
-    "career_page_url": "https://sanvello.com/",
-    "board_token": null,
-    "domain_hint": "sanvello.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "SAP Concur",
     "website": "concur.com",
     "career_page_url": "https://jobs.sap.com/job/Bellevue-Software-Design-Engineer-III-Concur-Job-WA-98004/436528501/?locale=en_US",
@@ -96491,16 +94912,6 @@
     ]
   },
   {
-    "company_name": "SceneDoc Inc",
-    "website": "scenedoc.com",
-    "career_page_url": "https://scenedoc.com",
-    "board_token": null,
-    "domain_hint": "scenedoc.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "Scenery",
     "website": "scenery.video",
     "career_page_url": "https://scenery.video",
@@ -96677,16 +95088,6 @@
     "career_page_url": "https://www.scientificamerican.com",
     "board_token": null,
     "domain_hint": "scientificamerican.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "Scientist, Inc",
-    "website": "scientist.com",
-    "career_page_url": "https://scientist.com",
-    "board_token": null,
-    "domain_hint": "scientist.com",
     "source_platforms": [
       "niche_datasets"
     ]
@@ -97503,16 +95904,6 @@
     ]
   },
   {
-    "company_name": "SecurityTrails.com",
-    "website": "securitytrails.com",
-    "career_page_url": "https://securitytrails.com",
-    "board_token": null,
-    "domain_hint": "securitytrails.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "Sedition",
     "website": "seditionart.com",
     "career_page_url": "https://www.seditionart.com/",
@@ -97722,16 +96113,6 @@
     "domain_hint": "segmed.ai",
     "source_platforms": [
       "dir_yc",
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "Segmed.ai",
-    "website": "segmed.ai",
-    "career_page_url": "https://www.segmed.ai",
-    "board_token": null,
-    "domain_hint": "segmed.ai",
-    "source_platforms": [
       "niche_datasets"
     ]
   },
@@ -98157,16 +96538,6 @@
   },
   {
     "company_name": "Sensible",
-    "website": "sensibleweather.com",
-    "career_page_url": "https://www.sensibleweather.com/",
-    "board_token": null,
-    "domain_hint": "sensibleweather.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "Sensible Weather",
     "website": "sensibleweather.com",
     "career_page_url": "https://www.sensibleweather.com/",
     "board_token": null,
@@ -99064,26 +97435,6 @@
     "career_page_url": "http://sharpspring.com/careers-list",
     "board_token": null,
     "domain_hint": "sharpspring.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "SharpSpring.com",
-    "website": "smtp.theresumator.com",
-    "career_page_url": "http://smtp.theresumator.com/",
-    "board_token": null,
-    "domain_hint": "theresumator.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "SharpSpring/SMTP.com",
-    "website": "smtp.theresumator.com",
-    "career_page_url": "http://smtp.theresumator.com/",
-    "board_token": null,
-    "domain_hint": "theresumator.com",
     "source_platforms": [
       "niche_datasets"
     ]
@@ -100097,16 +98448,6 @@
     ]
   },
   {
-    "company_name": "SigOpt, Inc",
-    "website": "sigopt.com",
-    "career_page_url": "https://sigopt.com/careers",
-    "board_token": null,
-    "domain_hint": "sigopt.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "sikmi Inc.",
     "website": "sikmi.com",
     "career_page_url": "https://blog.sikmi.com/blog/%E7%8F%BE%E5%9C%A8%E5%8B%9F%E9%9B%86%E4%B8%AD%E3%81%AE%E3%83%9D%E3%82%B8%E3%82%B7%E3%83%A7%E3%83%B3",
@@ -100744,16 +99085,6 @@
     ]
   },
   {
-    "company_name": "sirchit.com",
-    "website": "sirchit.com",
-    "career_page_url": "https://sirchit.com/",
-    "board_token": null,
-    "domain_hint": "sirchit.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "SiriusXM-Pandora",
     "website": "careers.siriusxm.com",
     "career_page_url": "https://careers.siriusxm.com/careers/jobs/14024?lang=en-us",
@@ -100785,16 +99116,6 @@
   },
   {
     "company_name": "Sitch",
-    "website": "unusual.inc",
-    "career_page_url": "https://unusual.inc",
-    "board_token": null,
-    "domain_hint": "unusual.inc",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "Sitch App",
     "website": "unusual.inc",
     "career_page_url": "https://unusual.inc",
     "board_token": null,
@@ -102136,26 +100457,6 @@
     ]
   },
   {
-    "company_name": "Sneos.com",
-    "website": "sneos.com",
-    "career_page_url": "https://sneos.com",
-    "board_token": null,
-    "domain_hint": "sneos.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "Sneos.com and Probotly.com",
-    "website": "sneos.com",
-    "career_page_url": "https://Sneos.com",
-    "board_token": null,
-    "domain_hint": "sneos.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "Sngular",
     "website": "sngular.com",
     "career_page_url": "https://www.sngular.com/talent-and-culture/jobs",
@@ -102676,16 +100977,6 @@
   },
   {
     "company_name": "SOFware",
-    "website": "sofwarellc.com",
-    "career_page_url": "https://sofwarellc.com/",
-    "board_token": null,
-    "domain_hint": "sofwarellc.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "SOFware LLC",
     "website": "sofwarellc.com",
     "career_page_url": "https://sofwarellc.com/",
     "board_token": null,
@@ -104130,16 +102421,6 @@
     ]
   },
   {
-    "company_name": "Spherity GmbH",
-    "website": "spherity.com",
-    "career_page_url": "https://www.spherity.com/",
-    "board_token": null,
-    "domain_hint": "spherity.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "Spice",
     "website": "spicedata.com",
     "career_page_url": "https://spicedata.com/",
@@ -104574,16 +102855,6 @@
     ]
   },
   {
-    "company_name": "SpotDraft",
-    "website": "spotdraft.com",
-    "career_page_url": "https://www.spotdraft.com",
-    "board_token": null,
-    "domain_hint": "spotdraft.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "Spotflux",
     "website": "spotflux.com",
     "career_page_url": "http://www.spotflux.com",
@@ -104911,16 +103182,6 @@
     "company_name": "SQream",
     "website": "sqream.com",
     "career_page_url": "https://sqream.com/about/careers/",
-    "board_token": null,
-    "domain_hint": "sqream.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "SQream Technologies",
-    "website": "sqream.com",
-    "career_page_url": "http://sqream.com/about/careers/",
     "board_token": null,
     "domain_hint": "sqream.com",
     "source_platforms": [
@@ -105367,16 +103628,6 @@
   },
   {
     "company_name": "Standard Token Protocol (STP)",
-    "website": "stp.network",
-    "career_page_url": "https://stp.network",
-    "board_token": null,
-    "domain_hint": "stp.network",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "Standard Token Protocol (STP) Network",
     "website": "stp.network",
     "career_page_url": "https://stp.network",
     "board_token": null,
@@ -105991,16 +104242,6 @@
   },
   {
     "company_name": "Stella Connect",
-    "website": "stellaconnect.com",
-    "career_page_url": "https://stellaconnect.com",
-    "board_token": null,
-    "domain_hint": "stellaconnect.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "Stella Connect by Medallia",
     "website": "stellaconnect.com",
     "career_page_url": "https://stellaconnect.com",
     "board_token": null,
@@ -106817,16 +105058,6 @@
     ]
   },
   {
-    "company_name": "Stream.io Inc",
-    "website": "getstream.io",
-    "career_page_url": "http://getstream.io/",
-    "board_token": null,
-    "domain_hint": "getstream.io",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "Streamable",
     "website": "streamable.run",
     "career_page_url": "https://streamable.com",
@@ -107118,16 +105349,6 @@
   },
   {
     "company_name": "STRIVR",
-    "website": "strivr.com",
-    "career_page_url": "https://www.strivr.com/careers",
-    "board_token": null,
-    "domain_hint": "strivr.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "STRIVR Inc",
     "website": "strivr.com",
     "career_page_url": "https://www.strivr.com/careers",
     "board_token": null,
@@ -108194,16 +106415,6 @@
     ]
   },
   {
-    "company_name": "Sustainable Engineering Lab at Columbia University",
-    "website": "sel.columbia.edu",
-    "career_page_url": "http://sel.columbia.edu/",
-    "board_token": null,
-    "domain_hint": "columbia.edu",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "Sustainable Engineering Lab, Columbia University",
     "website": "modi.mech.columbia.edu",
     "career_page_url": "http://modi.mech.columbia.edu",
@@ -108772,16 +106983,6 @@
   },
   {
     "company_name": "Symbiont",
-    "website": "symbiont.io",
-    "career_page_url": "http://symbiont.io",
-    "board_token": null,
-    "domain_hint": "symbiont.io",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "Symbiont.io",
     "website": "symbiont.io",
     "career_page_url": "http://symbiont.io",
     "board_token": null,
@@ -110322,16 +108523,6 @@
     ]
   },
   {
-    "company_name": "Team Coco Digital",
-    "website": "teamcoco.com",
-    "career_page_url": "http://teamcoco.com/content/web-developer",
-    "board_token": null,
-    "domain_hint": "teamcoco.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "Team Mobot",
     "website": "teammobot.com",
     "career_page_url": "https://teammobot.com/",
@@ -110839,16 +109030,6 @@
   },
   {
     "company_name": "Tempest",
-    "website": "searchtempest.com",
-    "career_page_url": "http://www.searchtempest.com",
-    "board_token": null,
-    "domain_hint": "searchtempest.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "Tempest Systems",
     "website": "searchtempest.com",
     "career_page_url": "http://www.searchtempest.com",
     "board_token": null,
@@ -111434,16 +109615,6 @@
   },
   {
     "company_name": "Textile",
-    "website": "textile.io",
-    "career_page_url": "https://textile.io",
-    "board_token": null,
-    "domain_hint": "textile.io",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "Textile.io",
     "website": "textile.io",
     "career_page_url": "https://textile.io",
     "board_token": null,
@@ -113530,16 +111701,6 @@
     ]
   },
   {
-    "company_name": "Thread.com",
-    "website": "thread.com",
-    "career_page_url": "https://www.thread.com",
-    "board_token": null,
-    "domain_hint": "thread.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "Threadflip",
     "website": "threadflip.com",
     "career_page_url": "http://www.threadflip.com/jobs",
@@ -113654,16 +111815,6 @@
   },
   {
     "company_name": "Thriva",
-    "website": "thriva.co",
-    "career_page_url": "https://thriva.co",
-    "board_token": null,
-    "domain_hint": "thriva.co",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "Thriva Health",
     "website": "thriva.co",
     "career_page_url": "https://thriva.co",
     "board_token": null,
@@ -115493,16 +113644,6 @@
     ]
   },
   {
-    "company_name": "Transcelestial Technologies",
-    "website": "transcelestial.com",
-    "career_page_url": "http://transcelestial.com",
-    "board_token": null,
-    "domain_hint": "transcelestial.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "Transcriptic",
     "website": "transcriptic.com",
     "career_page_url": "https://www.transcriptic.com/",
@@ -116171,16 +114312,6 @@
     ]
   },
   {
-    "company_name": "Trifork AB",
-    "website": "trifork.se",
-    "career_page_url": "http://trifork.se",
-    "board_token": null,
-    "domain_hint": "trifork.se",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "Triggertrap",
     "website": "triggertrap.com",
     "career_page_url": "https://triggertrap.com",
@@ -116376,16 +114507,6 @@
     "company_name": "Trivium Re",
     "website": "triviumre.com",
     "career_page_url": "http://www.triviumre.com",
-    "board_token": null,
-    "domain_hint": "triviumre.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "Trivium Real Estate",
-    "website": "triviumre.com",
-    "career_page_url": "https://www.triviumre.com",
     "board_token": null,
     "domain_hint": "triviumre.com",
     "source_platforms": [
@@ -117062,16 +115183,6 @@
     ]
   },
   {
-    "company_name": "Tundra.com",
-    "website": "tundra.com",
-    "career_page_url": "https://www.tundra.com",
-    "board_token": null,
-    "domain_hint": "tundra.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "Tuned",
     "website": "tuned.com",
     "career_page_url": "http://www.tuned.com",
@@ -117155,16 +115266,6 @@
     "company_name": "Turner Broadcasting",
     "website": "turnerjobs.com",
     "career_page_url": "http://www.turnerjobs.com/job/atlanta/analytics-architect-advisor/1174/7587928",
-    "board_token": null,
-    "domain_hint": "turnerjobs.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "Turner Broadcasting System, Inc",
-    "website": "turnerjobs.com",
-    "career_page_url": "https://www.turnerjobs.com/job/atlanta/analytics-architect-advisor/1174/7587928",
     "board_token": null,
     "domain_hint": "turnerjobs.com",
     "source_platforms": [
@@ -117535,16 +115636,6 @@
     "company_name": "Two Sigma / Beaker Notebook",
     "website": "twosigma.com",
     "career_page_url": "http://TwoSigma.com",
-    "board_token": null,
-    "domain_hint": "twosigma.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "Two Sigma Investments",
-    "website": "twosigma.com",
-    "career_page_url": "http://www.twosigma.com/careers.html",
     "board_token": null,
     "domain_hint": "twosigma.com",
     "source_platforms": [
@@ -119111,16 +117202,6 @@
     ]
   },
   {
-    "company_name": "Uplift Agency",
-    "website": "uplift.agency",
-    "career_page_url": "https://www.uplift.agency/careers/",
-    "board_token": null,
-    "domain_hint": "uplift.agency",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "UpLift Health",
     "website": "uplift.app",
     "career_page_url": "https://www.uplift.app/",
@@ -119429,16 +117510,6 @@
   },
   {
     "company_name": "Urge",
-    "website": "urge.io",
-    "career_page_url": "http://urge.io/jobs",
-    "board_token": null,
-    "domain_hint": "urge.io",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "URGE IO",
     "website": "urge.io",
     "career_page_url": "http://urge.io/jobs",
     "board_token": null,
@@ -120312,16 +118383,6 @@
   },
   {
     "company_name": "Veezoo",
-    "website": "veezoo.com",
-    "career_page_url": "https://www.veezoo.com",
-    "board_token": null,
-    "domain_hint": "veezoo.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "Veezoo AG",
     "website": "veezoo.com",
     "career_page_url": "https://www.veezoo.com",
     "board_token": null,
@@ -121460,16 +119521,6 @@
     "company_name": "VincuVentas",
     "website": "vincuventas.com",
     "career_page_url": "http://vincuventas.com/",
-    "board_token": null,
-    "domain_hint": "vincuventas.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "VincuVentas / Polymath Ventures",
-    "website": "vincuventas.com",
-    "career_page_url": "https://vincuventas.com/",
     "board_token": null,
     "domain_hint": "vincuventas.com",
     "source_platforms": [
@@ -122871,16 +120922,6 @@
     ]
   },
   {
-    "company_name": "Walker & Company Brands, Inc",
-    "website": "walkerandcompany.com",
-    "career_page_url": "https://walkerandcompany.com",
-    "board_token": null,
-    "domain_hint": "alkerandcompany.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "WalkIn",
     "website": "getwalk.in",
     "career_page_url": "https://www.getwalk.in/careers-at-walkin-1",
@@ -122991,16 +121032,6 @@
     "domain_hint": "altznetworks.com",
     "source_platforms": [
       "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "WAmazing, Inc.",
-    "website": "corp-global.wamazing.com",
-    "career_page_url": "https://corp.wamazing.com/recruit",
-    "board_token": null,
-    "domain_hint": "wamazing.com",
-    "source_platforms": [
-      "gh_awesome"
     ]
   },
   {
@@ -124573,16 +122604,6 @@
     ]
   },
   {
-    "company_name": "Whova, Inc",
-    "website": "whova.com",
-    "career_page_url": "http://whova.com/",
-    "board_token": null,
-    "domain_hint": "hova.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "WhoWhatWear",
     "website": "whowhatwear.com",
     "career_page_url": "https://www.whowhatwear.com",
@@ -124981,19 +123002,6 @@
     "domain_hint": "ingback.app",
     "source_platforms": [
       "dir_yc",
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "Wingify",
-    "website": "wingify.com",
-    "career_page_url": "https://wingify.com/careers",
-    "board_token": null,
-    "domain_hint": "ingify.com",
-    "source_platforms": [
-      "gh_awesome",
-      "gh_remote_lists",
-      "gh_remoteintech",
       "niche_datasets"
     ]
   },
@@ -126596,16 +124604,6 @@
     ]
   },
   {
-    "company_name": "Yepstr Ab",
-    "website": "yepstr.com",
-    "career_page_url": "http://www.yepstr.com",
-    "board_token": null,
-    "domain_hint": "yepstr.com",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "yepstr.com",
     "website": "yepstr.com",
     "career_page_url": "http://yepstr.com/careers/position6",
@@ -126872,19 +124870,10 @@
     "board_token": null,
     "domain_hint": "youcanbook.me",
     "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "YouCanBook.me Ltd",
-    "website": "youcanbook.me",
-    "career_page_url": "https://youcanbook.me/jobs/",
-    "board_token": null,
-    "domain_hint": "youcanbook.me",
-    "source_platforms": [
       "gh_awesome",
       "gh_remote_lists",
-      "gh_remoteintech"
+      "gh_remoteintech",
+      "niche_datasets"
     ]
   },
   {
@@ -127912,16 +125901,6 @@
     ]
   },
   {
-    "company_name": "Zigment.ai",
-    "website": "zigment.ai",
-    "career_page_url": "https://zigment.ai",
-    "board_token": null,
-    "domain_hint": "zigment.ai",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "ZigWay",
     "website": "zigway.co",
     "career_page_url": "https://www.zigway.co/",
@@ -128105,16 +126084,6 @@
     "company_name": "Zoetrope",
     "website": "zoetrope.io",
     "career_page_url": "http://zoetrope.io",
-    "board_token": null,
-    "domain_hint": "zoetrope.io",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
-    "company_name": "Zoetrope Labs",
-    "website": "zoetrope.io",
-    "career_page_url": "https://zoetrope.io",
     "board_token": null,
     "domain_hint": "zoetrope.io",
     "source_platforms": [

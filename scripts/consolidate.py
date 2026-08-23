@@ -30,9 +30,8 @@ ATS_HOST_RULES = [
     ("attrax",     ["wise.jobs"]),
 ]
 
-# Subdomain-token ATS use wildcard DNS, so a non-tenant subdomain still resolves and looks
-# like a live board. These show up in the raw data as bogus "tenants" and must never become
-# board tokens.
+# Subdomain-token ATS use wildcard DNS — non-tenant subdomains still resolve and
+# look live; they must never become board tokens.
 RESERVED_SUBDOMAINS = {
     "www", "www2", "api", "app", "apps", "admin", "login", "auth", "sso",
     "help", "support", "docs", "documentation", "resources", "developer", "developers",
@@ -316,6 +315,145 @@ for _k, _idxs in _board_groups.items():
 if _dedup_drop:
     merged = [c for i, c in enumerate(merged) if i not in _dedup_drop]
 
+# --- Alias merge ------------------------------------------------------------
+# One board = one employer = one row: name variants ("Aiven"/"Aiven.io") and host
+# variants (boards. vs job-boards.greenhouse.io) merge. Plain careers URLs merge
+# only on mutual name aliases, so portals shared by distinct subsidiaries stay separate.
+
+LEGAL_SUFFIXES = {"inc", "llc", "ltd", "limited", "gmbh", "ag", "bv", "nv", "plc",
+                  "sa", "srl", "spa", "oy", "ab", "as", "aps", "kk", "pte",
+                  "sdnbhd", "corp", "corporation", "company", "co", "pvt",
+                  "pvtltd", "private", "llp", "lp", "holdings"}
+TLD_WORDS = {"com", "io", "net", "org", "co", "ai", "app", "dev", "xyz", "info",
+             "tech", "so", "one"}
+HOST_KEY_ATS = {"workday", "applytojob", "trinethire", "keka", "attrax"}
+
+def _strip_words(n, words):
+    for w in words:
+        if n.endswith(w) and len(n) - len(w) >= 4:
+            return n[: -len(w)]
+    return n
+
+def name_aliases(n1, n2):
+    if not n1 or not n2 or n1 == n2:
+        return n1 == n2 and bool(n1)
+    a = _strip_words(_strip_words(n1, TLD_WORDS), LEGAL_SUFFIXES)
+    b = _strip_words(_strip_words(n2, TLD_WORDS), LEGAL_SUFFIXES)
+    if a == b:
+        return True
+    short, long_ = (n1, n2) if len(n1) <= len(n2) else (n2, n1)
+    return len(short) >= 5 and long_.startswith(short)
+
+def alias_ats_key(c):
+    u = c.get("career_page_url") or ""
+    if not u:
+        return None
+    a = infer_ats_from_url(u)
+    if a in SLUG_ATS:
+        s = board_slug(u, a)
+        return (a, s.lower()) if s else None
+    if a in HOST_KEY_ATS:
+        h = (urlparse(u).hostname or "").lower()
+        return (a, h) if h else None
+    return None
+
+_alias_stats = Counter()
+
+def _merge_alias_group(idxs):
+    """Merge merged[idxs] into one row; returns the kept index."""
+    counts = Counter(merged[i]["company_name"] for i in idxs)
+    keeper = min(idxs, key=lambda i: (-counts[merged[i]["company_name"]],
+                                      len(merged[i]["company_name"]), i))
+    keep = merged[keeper]
+    urls = []
+    for i in idxs:
+        for u in [merged[i].get("career_page_url", "")] + merged[i].get("alternate_career_urls", []):
+            if u and u not in urls:
+                urls.append(u)
+    seen = {board_url_key(keep.get("career_page_url"))}
+    alts = []
+    for u in urls:
+        ku = board_url_key(u)
+        if ku and ku not in seen:
+            seen.add(ku)
+            alts.append(u)
+    keep["alternate_career_urls"] = alts
+    websites = [merged[i].get("website", "").strip() for i in sorted(idxs)
+                if merged[i].get("website", "").strip()]
+    if websites:
+        wc = Counter(websites)
+        keep["website"] = sorted(wc.items(), key=lambda kv: (-kv[1], len(kv[0]), kv[0]))[0][0]
+    keep["agent_ats_labels"] = sorted({l for i in idxs for l in merged[i].get("agent_ats_labels", [])})
+    keep["source_platforms"] = sorted({s for i in idxs for s in merged[i].get("source_platforms", [])})
+    if not keep.get("domain_hint"):
+        for i in idxs:
+            if merged[i].get("domain_hint"):
+                keep["domain_hint"] = merged[i]["domain_hint"]
+                break
+    _prec = {"verified": 3, "discovered": 2, "url": 1, "guess": 0}
+    for i in idxs:
+        if _prec.get(merged[i].get("ats_source"), 0) > _prec.get(keep.get("ats_source"), 0):
+            keep["ats_type"], keep["ats_source"] = merged[i]["ats_type"], merged[i]["ats_source"]
+    keep["ats_conflict"] = any(merged[i].get("ats_conflict") for i in idxs)
+    keep["is_mnc_flagged"] = norm_name(keep["company_name"]) in _mnc_norms
+    return keeper
+
+_mnc_norms = {norm_name(x) for x in MNC_FLAG}
+
+# pass A: same ATS board (slug or tenant host) under different names
+_ats_groups = defaultdict(list)
+for _i, _c in enumerate(merged):
+    _k = alias_ats_key(_c)
+    if _k:
+        _ats_groups[_k].append(_i)
+_alias_drop = set()
+for _k, _idxs in _ats_groups.items():
+    if len(_idxs) < 2:
+        continue
+    _keep_i = _merge_alias_group(_idxs)
+    _alias_drop.update(i for i in _idxs if i != _keep_i)
+    _alias_stats["ats_board_merged"] += len(_idxs) - 1
+merged = [c for i, c in enumerate(merged) if i not in _alias_drop]
+
+# pass B: identical non-ATS careers URL, but only across name aliases
+_url_groups = defaultdict(list)
+for _i, _c in enumerate(merged):
+    _u = _c.get("career_page_url") or ""
+    if _u and alias_ats_key(_c) is None and _u.lower().startswith(("http://", "https://")):
+        _k = board_url_key(_u)
+        if _k:
+            _url_groups[_k].append(_i)
+_alias_drop = set()
+for _k, _idxs in _url_groups.items():
+    if len(_idxs) < 2:
+        continue
+    _knorms = [norm_name(merged[i]["company_name"]) for i in _idxs]
+    _keep_i = min(_idxs, key=lambda i: (-_knorms.count(_knorms[_idxs.index(i)]),
+                                        len(merged[i]["company_name"]), i))
+    _kn = norm_name(merged[_keep_i]["company_name"])
+    _grp = [i for i, n in zip(_idxs, _knorms) if i == _keep_i or name_aliases(_kn, n)]
+    if len(_grp) < 2:
+        continue
+    _keep_i = _merge_alias_group(_grp)
+    _alias_drop.update(i for i in _grp if i != _keep_i)
+    _alias_stats["url_alias_merged"] += len(_grp) - 1
+merged = [c for i, c in enumerate(merged) if i not in _alias_drop]
+
+# alternate-careers hygiene: drop alternates duplicating the primary or each other
+_alt_dupes = 0
+for _c in merged:
+    _pk = board_url_key(_c.get("career_page_url"))
+    _seen = {_pk} if _pk else set()
+    _alts = []
+    for _u in _c.get("alternate_career_urls", []):
+        _ku = board_url_key(_u)
+        if _ku and _ku not in _seen:
+            _seen.add(_ku)
+            _alts.append(_u)
+        else:
+            _alt_dupes += 1
+    _c["alternate_career_urls"] = _alts
+
 ATS_ORDER = {"greenhouse":0, "lever":1, "ashby":2, "smartrecruiters":3, "workable":4,
              "personio":5, "workday":6, "bamboohr":7, "trinethire":8, "onlyfy":9,
              "keka":10, "pinpoint":11, "breezyhr":12, "teamtailor":13, "rippling":14,
@@ -362,6 +500,8 @@ print(f"Total raw entries : {len(raw)}")
 print(f"Unique companies  : {len(merged)}")
 print(f"Board-collision dedup: dropped {len(_dedup_drop)} alias-dup entr(ies), "
       f"reverted {_dedup_stripped} false-positive/alias entr(ies) to unknown")
+print(f"Alias merge: merged {dict(_alias_stats)} duplicate endpoint row(s), "
+      f"dropped {_alt_dupes} duplicate alternate URL(s)")
 print(f"ATS conflicts     : {len(conflicts)} -> {conflicts}")
 print("By ATS:")
 for ats, n in sorted(summary.items(), key=lambda kv: -kv[1]):

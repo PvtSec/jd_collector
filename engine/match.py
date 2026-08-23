@@ -41,11 +41,9 @@ def matches(job: Job, target: Target) -> tuple[bool, list[str]]:
             reasons.append("remote but US/CA-only")
     elif wt in ("hybrid", "onsite", ""):
         if not loc:
-            # Some ATS (teamtailor, workday, personio) under-report both
-            # work_type and location even for valid remote/global postings.
-            # Only reject when we *know* it's non-remote (hybrid/onsite); when
-            # work_type is also unknown, surface the title-matched role for
-            # manual review instead of dropping it on missing metadata.
+            # some ATS under-report work_type+location for valid remote postings:
+            # reject only known non-remote (hybrid/onsite); unknown work_type
+            # surfaces the title-matched role for manual review instead of dropping
             if wt:
                 reasons.append("no location info for non-remote role")
         elif not any(p in loc for p in pref):

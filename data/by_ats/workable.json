@@ -3965,16 +3965,8 @@
   },
   {
     "company_name": "Boostdraft",
-    "website": "",
-    "career_page_url": "https://apply.workable.com/boostdraft",
-    "board_token": "boostdraft",
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "BoostDraft, Inc.",
     "website": "boostdraft.com",
-    "career_page_url": "https://apply.workable.com/boostdraft/?lng=en",
+    "career_page_url": "https://apply.workable.com/boostdraft",
     "board_token": "boostdraft",
     "domain_hint": "",
     "source_platforms": [
@@ -8415,14 +8407,6 @@
     ]
   },
   {
-    "company_name": "Ecp 123",
-    "website": "",
-    "career_page_url": "https://apply.workable.com/ecp-123",
-    "board_token": "ecp-123",
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
     "company_name": "Ed3nventures",
     "website": "",
     "career_page_url": "https://apply.workable.com/ed3nventures",
@@ -10328,14 +10312,6 @@
     "career_page_url": "https://apply.workable.com/floom",
     "board_token": "floom",
     "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "Floom/ FloomX",
-    "website": "",
-    "career_page_url": "https://apply.workable.com/floom/j/22C9980030/",
-    "board_token": "floom",
-    "domain_hint": "",
     "source_platforms": [
       "niche_datasets"
     ]
@@ -11146,14 +11122,6 @@
     "company_name": "Gene",
     "website": "",
     "career_page_url": "https://apply.workable.com/gene",
-    "board_token": "gene",
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "Generation Esports",
-    "website": "",
-    "career_page_url": "https://apply.workable.com/gene/j/0016EBE98F/",
     "board_token": "gene",
     "domain_hint": "",
     "source_platforms": [
@@ -13778,14 +13746,6 @@
     ]
   },
   {
-    "company_name": "Innopeaktech",
-    "website": "",
-    "career_page_url": "https://apply.workable.com/innopeaktech",
-    "board_token": "innopeaktech",
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
     "company_name": "Innovaccer Analytics",
     "website": "",
     "career_page_url": "https://apply.workable.com/innovaccer-analytics",
@@ -14751,14 +14711,6 @@
     "website": "",
     "career_page_url": "https://apply.workable.com/join-dahmakan",
     "board_token": "join-dahmakan",
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "Joinblink",
-    "website": "",
-    "career_page_url": "https://apply.workable.com/joinblink",
-    "board_token": "joinblink",
     "domain_hint": "",
     "source_platforms": []
   },
@@ -17622,14 +17574,6 @@
     "source_platforms": []
   },
   {
-    "company_name": "Mimica Automation",
-    "website": "",
-    "career_page_url": "https://apply.workable.com/mimica-automation",
-    "board_token": "mimica-automation",
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
     "company_name": "Mimica.ai",
     "website": "",
     "career_page_url": "https://apply.workable.com/mimica-automation/j/9085737E1B/",
@@ -18010,14 +17954,6 @@
     "company_name": "Moneyfarm",
     "website": "",
     "career_page_url": "https://apply.workable.com/moneyfarm",
-    "board_token": "moneyfarm",
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "moneyfarm.com",
-    "website": "",
-    "career_page_url": "https://apply.workable.com/moneyfarm/j/A81BB4D3A8/",
     "board_token": "moneyfarm",
     "domain_hint": "",
     "source_platforms": [
@@ -19964,14 +19900,6 @@
     "source_platforms": [
       "niche_datasets"
     ]
-  },
-  {
-    "company_name": "Origin Primary Limited",
-    "website": "",
-    "career_page_url": "https://apply.workable.com/origin-primary-limited",
-    "board_token": "origin-primary-limited",
-    "domain_hint": "",
-    "source_platforms": []
   },
   {
     "company_name": "Orlando Informer",
@@ -22114,16 +22042,6 @@
     "source_platforms": []
   },
   {
-    "company_name": "Quickly growing edtech SaaS company",
-    "website": "",
-    "career_page_url": "https://apply.workable.com/schoolinks/j/5D91B9ED17/",
-    "board_token": "schoolinks",
-    "domain_hint": "",
-    "source_platforms": [
-      "niche_datasets"
-    ]
-  },
-  {
     "company_name": "Quickrelease",
     "website": "",
     "career_page_url": "https://apply.workable.com/quickrelease",
@@ -22595,6 +22513,16 @@
     ]
   },
   {
+    "company_name": "RemotePass",
+    "website": "remotepass.com",
+    "career_page_url": "https://apply.workable.com/remotepass",
+    "board_token": "remotepass",
+    "domain_hint": "remote",
+    "source_platforms": [
+      "g07_remote_first"
+    ]
+  },
+  {
     "company_name": "Remotivatejobs",
     "website": "",
     "career_page_url": "https://apply.workable.com/remotivatejobs",
@@ -22921,14 +22849,6 @@
     "source_platforms": [
       "niche_datasets"
     ]
-  },
-  {
-    "company_name": "Rivecareers",
-    "website": "",
-    "career_page_url": "https://apply.workable.com/rivecareers",
-    "board_token": "rivecareers",
-    "domain_hint": "",
-    "source_platforms": []
   },
   {
     "company_name": "Riverside Insights",
@@ -23603,7 +23523,8 @@
     "board_token": "schoolinks",
     "domain_hint": "",
     "source_platforms": [
-      "atsprobe-ats-slug-repo"
+      "atsprobe-ats-slug-repo",
+      "niche_datasets"
     ]
   },
   {

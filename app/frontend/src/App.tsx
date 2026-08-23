@@ -39,8 +39,7 @@ export default function App() {
     window.history.pushState({}, '', v === 'demand' ? '/demand' : '/')
     setView(v)
   }
-  // debounced free-text search so typing doesn't fire a query per keystroke.
-  // Covers the global box (q) and each per-column box.
+  // debounced free-text search (global q + per-column boxes) — no query per keystroke
   const [debouncedText, setDebouncedText] = useState({
     q: filters.q, company: filters.company, title: filters.title,
     location: filters.location, ats_q: filters.ats_q,
@@ -71,8 +70,7 @@ export default function App() {
       if (e.type === 'hello') return
       api.taskCurrent().then(setTask).catch(() => {})
       if (e.type === 'sweep_completed') {
-        // a full discovery sweep finished; the backend immediately starts the
-        // next one. Surface it + refresh the sweep bar (stats carries the new cursor).
+        // sweep finished + next one started — surface it, refresh the sweep bar
         const id = (e.sweep_id as number) ?? 0
         const jn = (e.jobs_new as number) ?? 0
         const next = (e.new_sweep_id as number) ?? id + 1
@@ -91,18 +89,14 @@ export default function App() {
     return () => { unsub(); clearInterval(poll) }
   }, [refreshAll])
 
-  // auto-refresh the jobs table every 15s so newly-discovered jobs appear
-  // without a manual reload (the table also refetches on task_completed).
+  // auto-refresh the jobs table every 15s (also refetches on task_completed)
   useEffect(() => {
     const id = setInterval(() => setTick(n => n + 1), 15000)
     return () => clearInterval(id)
   }, [])
 
-  // reload jobs when the dropdown filters / page / page-size change, the debounced
-  // free-text search settles, a task finishes, or the 15s auto-refresh bumps `tick`.
-  // The raw text fields (q/company/title/location/ats_q) are intentionally NOT
-  // deps — they're applied via debouncedText so typing doesn't fire a query per
-  // keystroke.
+  // reload on dropdown/page/sort change, debounced search settle, task finish, or
+  // 15s tick. Raw text fields are intentionally NOT deps — applied via debouncedText.
   const { matched, ats, applied, recent, sort, closed, skill } = filters
   useEffect(() => {
     let cancelled = false

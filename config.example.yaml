@@ -54,4 +54,5 @@ app:
   dead_skip_minutes: 720
   company_discovery_minutes: 360
   stale_grace_misses: 2
+  seed_export_minutes: 360
   port: 8000

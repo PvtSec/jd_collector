@@ -740,11 +740,9 @@ def _bamboohr_sub(token: str) -> str:
 
 
 def _bamboohr_get(url: str, *, ua: str, timeout: int, retries: int) -> dict:
-    """GET a bamboohr careers JSON endpoint, treating any redirect as a dead board.
-
-    Tenants that never existed 30x to www.bamboohr.com; boards switched off 30x to
-    /login.php. Following redirects would make both look like a live empty board.
-    """
+    """GET a bamboohr careers JSON endpoint, treating any redirect as a dead
+    board: never-existed tenants 30x to www.bamboohr.com, switched-off boards
+    to /login.php — following redirects would make both look live+empty."""
     last = None
     for _ in range(retries + 1):
         try:
@@ -787,18 +785,11 @@ BAMBOOHR_DETAIL_WORKERS = 4
 
 def list_bamboohr(company: str, token: str, *, ua: str, timeout: int = 20, retries: int = 2,
                   detail: bool = True, detail_max: int = 80) -> Iterator[Job]:
-    """Enumerate a bamboohr careers board.
-
-    /careers/list returns every open posting in one unpaginated response
-    (meta.totalCount == len(result)), so it is safe for closed-job detection. The list
-    payload has no country and no date -- only /careers/{id}/detail supplies those, which
-    location_pref matching needs, so detail defaults on (costs 1 request per posting).
-
-    Those detail calls dominate the runtime (a 34-job board takes ~34s serially vs ~0.7s
-    without them), so they are fetched with a small worker pool. The pool size is the only
-    thing pacing them, so keep it low -- the scheduler already runs several bamboohr boards
-    at once via ats_concurrency.
-    """
+    """Enumerate a bamboohr board. /careers/list is unpaginated (safe for
+    closed-job detection) but carries no country/date — /careers/{id}/detail
+    supplies those, so detail defaults on. Detail calls dominate runtime and run
+    in a small worker pool; keep it low — ats_concurrency already parallelizes
+    boards."""
     sub = _bamboohr_sub(token)
     data = _bamboohr_get(BAMBOOHR_LIST.format(sub=sub), ua=ua, timeout=timeout, retries=retries)
     rows = data.get("result") or []

@@ -33,29 +33,19 @@ CREATE INDEX IF NOT EXISTS idx_jobs_matched ON jobs(matched, first_seen);
 CREATE INDEX IF NOT EXISTS idx_jobs_applied ON jobs(applied);
 CREATE INDEX IF NOT EXISTS idx_jobs_company ON jobs(company);
 CREATE INDEX IF NOT EXISTS idx_jobs_company_ats ON jobs(company, ats);
--- Covering indexes for /api/jobs list + count. The default view is
--- matched=1 AND closed=0 AND hidden=0 ORDER BY first_seen DESC — these make the
--- COUNT(*) (the expensive part, ~0.3-2.5s on 900k rows without them) index-only,
--- and the matched+open text search (q LIKE) an index-only scan over the ~5k
--- matched partition instead of a 900k-row table scan.
--- Covering indexes for /api/jobs list + count.
--- idx_jobs_open (closed, hidden, matched): covers the COUNTs (equality on
--- closed/hidden/matched) index-only. first_seen is intentionally NOT included
--- so this index can't serve ORDER BY first_seen — that routes the all-open
--- SELECT to idx_jobs_open_first (no 800k-row sort).
+-- Covering indexes for /api/jobs: idx_jobs_open (closed,hidden,matched) makes the
+-- COUNTs index-only; first_seen is excluded so it can't serve ORDER BY — that
+-- routes the all-open SELECT to idx_jobs_open_first (no huge-row sort).
 DROP INDEX IF EXISTS idx_jobs_open;
 DROP INDEX IF EXISTS idx_jobs_open_fs;
 CREATE INDEX IF NOT EXISTS idx_jobs_open
   ON jobs(closed, hidden, matched);
--- idx_jobs_open_first (closed, hidden, first_seen): the "all open jobs" view
--- (matched OFF) — the planner walks it in first_seen order for
--- ORDER BY first_seen DESC LIMIT n (no sort, early stop).
+-- idx_jobs_open_first: all-open view walks it in first_seen order (no sort, early stop).
 CREATE INDEX IF NOT EXISTS idx_jobs_open_first
   ON jobs(closed, hidden, first_seen);
--- partial covering index for the default matched+open view: covers the q LIKE
--- search AND the ats_exclude (NOT IN) filter as an index-only scan over the
--- ~5k matched partition. DROP+recreate on each init is cheap (5k rows) and lets
--- us evolve the column set without a separate migration.
+-- idx_jobs_matched_search: partial covering index for the matched+open view (q
+-- LIKE + ats_exclude as index-only scans); DROP+recreate evolves the column set
+-- without migrations.
 DROP INDEX IF EXISTS idx_jobs_matched_search;
 CREATE INDEX IF NOT EXISTS idx_jobs_matched_search
   ON jobs(ats, company, title, location, first_seen)
@@ -253,6 +243,91 @@ class DB:
                 )
             self._conn.commit()
 
+    def ingest_board(self, *, company: str, ats: str, rows: list[dict],
+                     reap: bool = False, grace: int = 2) -> dict:
+        """One write transaction for a whole board (upserts + skill counting +
+        reaper) instead of a commit per job; mid-board failure rolls back."""
+        now = time.time()
+        jobs_new = 0
+        new_rows: list[dict] = []
+        closed_now = 0
+        fresh_ids = {r["job_id"] for r in rows} if reap else set()
+        with self._lock:
+            try:
+                for r in rows:
+                    rcompany, rats, rjob = r["company"], r["ats"], r["job_id"]
+                    existed = self._conn.execute(
+                        "SELECT 1 FROM jobs WHERE company=? AND ats=? AND job_id=?",
+                        (rcompany, rats, rjob),
+                    ).fetchone()
+                    matched_i = 1 if r["matched"] else 0
+                    applied_i = 1 if r["applied"] else 0
+                    if existed:
+                        self._conn.execute(
+                            """UPDATE jobs SET title=?, location=?, work_type=?, url=?, posted_at=?,
+                               last_seen=?, last_check=?, matched=?, applied=MAX(applied, ?),
+                               miss_count=0, closed=0, closed_at=NULL WHERE id=(
+                                 SELECT id FROM jobs WHERE company=? AND ats=? AND job_id=?)""",
+                            (r["title"], r["location"], r["work_type"], r["url"], r["posted_at"],
+                             now, now, matched_i, applied_i, rcompany, rats, rjob),
+                        )
+                    else:
+                        self._conn.execute(
+                            """INSERT INTO jobs(company, ats, job_id, title, location, work_type,
+                               url, posted_at, first_seen, last_seen, last_check, matched, applied)
+                               VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)""",
+                            (rcompany, rats, rjob, r["title"], r["location"], r["work_type"],
+                             r["url"], r["posted_at"], now, now, now, matched_i, applied_i),
+                        )
+                        jobs_new += 1
+                        new_rows.append({
+                            "company": rcompany, "ats": rats, "job_id": rjob,
+                            "title": r["title"], "location": r["location"],
+                            "work_type": r["work_type"], "url": r["url"],
+                            "posted_at": r["posted_at"], "matched": r["matched"],
+                            "first_seen": now,
+                        })
+                    skills = r.get("skills")
+                    if skills:
+                        row = self._conn.execute(
+                            "SELECT id FROM jobs WHERE company=? AND ats=? AND job_id=? AND skills_counted=0",
+                            (rcompany, rats, rjob),
+                        ).fetchone()
+                        if row:
+                            jid = row[0]
+                            self._conn.execute("UPDATE jobs SET skills_counted=1 WHERE id=?", (jid,))
+                            for display, category in skills:
+                                self._conn.execute(
+                                    "INSERT INTO skill_demand(skill, category, count) VALUES(?,?,1) "
+                                    "ON CONFLICT(skill) DO UPDATE SET count=count+1",
+                                    (display, category),
+                                )
+                                self._conn.execute(
+                                    "INSERT OR IGNORE INTO job_skills(job_id, skill) VALUES(?,?)",
+                                    (jid, display),
+                                )
+                if reap and fresh_ids:
+                    placeholders = ",".join("?" for _ in fresh_ids)
+                    fresh = list(fresh_ids)
+                    self._conn.execute(
+                        f"UPDATE jobs SET miss_count = miss_count + 1 "
+                        f"WHERE company=? AND ats=? AND applied=0 "
+                        f"AND job_id NOT IN ({placeholders})",
+                        [company, ats, *fresh],
+                    )
+                    cur = self._conn.execute(
+                        "UPDATE jobs SET closed=1, closed_at=? "
+                        "WHERE company=? AND ats=? AND applied=0 AND closed=0 "
+                        "AND miss_count >= ?",
+                        (now, company, ats, grace),
+                    )
+                    closed_now = cur.rowcount
+                self._conn.commit()
+            except Exception:
+                self._conn.rollback()
+                raise
+        return {"jobs_new": jobs_new, "new_rows": new_rows, "closed_now": closed_now}
+
     def skill_demand(self, limit: int = 200) -> dict:
         with self._read_lock:
             analyzed = self._read_conn.execute(
@@ -419,6 +494,15 @@ class DB:
     def count_jobs(self) -> int:
         with self._read_lock:
             return self._read_conn.execute("SELECT COUNT(*) FROM jobs").fetchone()[0]
+
+    def export_signature(self) -> tuple:
+        # change detector for the seed exporter: same count + max(last_seen) →
+        # an export would produce identical job listings
+        with self._read_lock:
+            row = self._read_conn.execute(
+                "SELECT COUNT(*), COALESCE(MAX(last_seen), 0) FROM jobs"
+            ).fetchone()
+        return (row[0], row[1])
 
     def stats(self) -> dict:
         now = time.time()

@@ -17,7 +17,11 @@ Docker (with Docker Compose / the `docker compose` plugin).
 
 The first discovery tick runs immediately; matching jobs appear within a minute.
 The discovery DB and caches live in the `jobauto-data` Docker volume and persist
-across restarts.
+across restarts. Two pieces of user state live **outside** the volume as host
+bind mounts (both gitignored), so they survive even `./run.sh clean`,
+`docker system prune`, and no-cache rebuilds: the **applied-history ledger**
+(`data/applied.sqlite`) and the **dashboard state dir** (`state/` — applied/hidden
+restore records). Fresh clones start with neither — your marks stay on your machine.
 
 It boots with a **generic software-engineering** role set (auto-created from
 `config.example.yaml`). **Set your own roles (below) to get relevant matches.**
@@ -63,6 +67,7 @@ Any value under `app:` can also be set via a `JOBAUTO_*` environment variable
 ./run.sh stop          stop (data kept)
 ./run.sh status        container state
 ./run.sh clean         stop + delete the data volume (prompts)
+./run.sh smoke         end-to-end suite inside the container (run after changes)
 ./run.sh export-seed   snapshot live jobs (commit + ./run.sh up to bake for others)
 ```
 
@@ -71,6 +76,6 @@ Any value under `app:` can also be set via a `JOBAUTO_*` environment variable
 The scheduler enumerates companies' public job boards (Greenhouse, Lever, Ashby,
 Workable, SmartRecruiters, Personio, Teamtailor, Workday, …) on a rotation,
 matches new postings against your `target:`, and marks jobs closed when they
-disappear. Your **applied** and **hidden** actions are stored locally (in the
-Docker volume) — a fresh clone starts with none. See `CLAUDE.md` and
+disappear. Your **applied** and **hidden** actions are stored locally (ledger +
+state dir on the host; see Quick start) — a fresh clone starts with none. See
 `data/README.md` for internals.

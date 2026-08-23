@@ -5,8 +5,20 @@ services:
     container_name: job-auto
     ports:
       - "8000:8000"
+    environment:
+      # state must live in the ./state DIR mount below, not the default
+      # /app/app/state.json (container layer, wiped on recreate); a DIRECTORY
+      # mount is required because the writer persists via os.replace, which
+      # cannot replace a single-file bind mount (EBUSY).
+      JOBAUTO_STATE_FILE: state/state.json
     volumes:
       - jobauto-data:/app/data
+      # applied ledger: host file (gitignored) bind-mounted over the volume so
+      # it survives even `down -v` / clean; run.sh pre-creates it
+      - ./data/applied.sqlite:/app/data/applied.sqlite
+      # dashboard state (applied/hidden restore records): host dir, survives
+      # stop/rebuild/clean
+      - ./state:/app/state
     restart: unless-stopped
 
 volumes:

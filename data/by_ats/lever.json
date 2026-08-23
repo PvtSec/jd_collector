@@ -489,7 +489,8 @@
     "board_token": "aisafety",
     "domain_hint": "",
     "source_platforms": [
-      "seedprobe"
+      "seedprobe",
+      "simplify-intern"
     ]
   },
   {
@@ -707,14 +708,6 @@
     "company_name": "Alertus",
     "website": "",
     "career_page_url": "https://jobs.lever.co/alertus",
-    "board_token": "alertus",
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
-    "company_name": "Alertus Technologies",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/alertus/fa66c3bc-1410-441b-ad01-73b2df83bbd7/apply",
     "board_token": "alertus",
     "domain_hint": "",
     "source_platforms": [
@@ -1836,16 +1829,6 @@
     "board_token": "avua",
     "domain_hint": "",
     "source_platforms": []
-  },
-  {
-    "company_name": "aware3.com/nelnetinc.com",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/nce/c00bbf38-069c-4f98-9537-8a2ac338e002?lever-origin=applied&lever-source%5B%5D=ASK%20HN%3A%20Who%27s%20Hiring",
-    "board_token": "nce",
-    "domain_hint": "",
-    "source_platforms": [
-      "niche_datasets"
-    ]
   },
   {
     "company_name": "Axl",
@@ -3262,16 +3245,6 @@
     "board_token": "cellares",
     "domain_hint": "",
     "source_platforms": []
-  },
-  {
-    "company_name": "Center for AI Safety",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/aisafety/e011814b-9a80-43d6-bb0c-cc153ea4bec4/apply",
-    "board_token": "aisafety",
-    "domain_hint": "",
-    "source_platforms": [
-      "simplify-intern"
-    ]
   },
   {
     "company_name": "Centre for Strategic Infocomm Technologies",
@@ -5328,16 +5301,6 @@
     ]
   },
   {
-    "company_name": "Eastern Research Group",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/erg/8fbd157f-aabd-44ba-926f-db233304378a/apply",
-    "board_token": "erg",
-    "domain_hint": "",
-    "source_platforms": [
-      "simplify-newgrad"
-    ]
-  },
-  {
     "company_name": "Easyagile",
     "website": "",
     "career_page_url": "https://jobs.lever.co/easyagile",
@@ -5907,7 +5870,8 @@
     "board_token": "erg",
     "domain_hint": "",
     "source_platforms": [
-      "atsprobe-r1"
+      "atsprobe-r1",
+      "simplify-newgrad"
     ]
   },
   {
@@ -7487,16 +7451,7 @@
     "domain_hint": "",
     "source_platforms": [
       "atsprobe-r0",
-      "himalayas"
-    ]
-  },
-  {
-    "company_name": "Greenlight Financial Technology",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/greenlight/6f1e35c8-ec1c-40ff-9a21-7b360fa890be?lever-via=p-SMUT5lDn",
-    "board_token": "greenlight",
-    "domain_hint": "",
-    "source_platforms": [
+      "himalayas",
       "niche_datasets"
     ]
   },
@@ -8948,14 +8903,6 @@
     ]
   },
   {
-    "company_name": "Jobscan 2",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/jobscan-2",
-    "board_token": "jobscan-2",
-    "domain_hint": "",
-    "source_platforms": []
-  },
-  {
     "company_name": "Jobvite",
     "website": "",
     "career_page_url": "https://jobs.lever.co/jobvite",
@@ -9239,17 +9186,8 @@
     "board_token": "kepler",
     "domain_hint": "",
     "source_platforms": [
+      "atsprobe-r3",
       "simplify-intern"
-    ]
-  },
-  {
-    "company_name": "Kepler Communications Inc",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/kepler",
-    "board_token": "kepler",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r3"
     ]
   },
   {
@@ -9533,16 +9471,6 @@
     "board_token": "kraken123",
     "domain_hint": "",
     "source_platforms": []
-  },
-  {
-    "company_name": "KrakenFlex",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/octoenergy/18da27d8-fdb7-46c5-bb47-6e65591df32d",
-    "board_token": "octoenergy",
-    "domain_hint": "",
-    "source_platforms": [
-      "niche_datasets"
-    ]
   },
   {
     "company_name": "Kruzeconsulting",
@@ -10892,7 +10820,9 @@
     "career_page_url": "https://jobs.lever.co/mcgovern",
     "board_token": "mcgovern",
     "domain_hint": "",
-    "source_platforms": []
+    "source_platforms": [
+      "niche_datasets"
+    ]
   },
   {
     "company_name": "Mechanicalorchard",
@@ -11735,7 +11665,9 @@
     "career_page_url": "https://jobs.lever.co/nce",
     "board_token": "nce",
     "domain_hint": "",
-    "source_platforms": []
+    "source_platforms": [
+      "niche_datasets"
+    ]
   },
   {
     "company_name": "Nclusioninc",
@@ -12246,7 +12178,9 @@
     "career_page_url": "https://jobs.lever.co/octoenergy",
     "board_token": "octoenergy",
     "domain_hint": "",
-    "source_platforms": []
+    "source_platforms": [
+      "niche_datasets"
+    ]
   },
   {
     "company_name": "Odaseva",
@@ -12831,16 +12765,6 @@
     "board_token": "pathpoint",
     "domain_hint": "",
     "source_platforms": []
-  },
-  {
-    "company_name": "Patrick J. McGovern Foundation",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/mcgovern/db2123a6-d682-43db-bbd7-f198e3546373",
-    "board_token": "mcgovern",
-    "domain_hint": "",
-    "source_platforms": [
-      "niche_datasets"
-    ]
   },
   {
     "company_name": "Patsnap",
@@ -14104,16 +14028,7 @@
     "domain_hint": "",
     "source_platforms": [
       "atsprobe-r0",
-      "himalayas"
-    ]
-  },
-  {
-    "company_name": "Protective Life",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/protective/3c40e93e-66e3-4aeb-9a8a-ed65f826ed41/apply",
-    "board_token": "protective",
-    "domain_hint": "",
-    "source_platforms": [
+      "himalayas",
       "simplify-newgrad"
     ]
   },
@@ -15348,19 +15263,10 @@
     "board_token": "rws",
     "domain_hint": "",
     "source_platforms": [
+      "atsprobe-r0",
+      "himalayas",
       "simplify-newgrad",
       "tok_cdx_applytojob"
-    ]
-  },
-  {
-    "company_name": "RWS Group",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/rws",
-    "board_token": "rws",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r0",
-      "himalayas"
     ]
   },
   {
@@ -20043,17 +19949,8 @@
     "board_token": "woven-by-toyota",
     "domain_hint": "",
     "source_platforms": [
+      "atsprobe-r1",
       "simplify-newgrad"
-    ]
-  },
-  {
-    "company_name": "Woven by Toyota",
-    "website": "",
-    "career_page_url": "https://jobs.lever.co/woven-by-toyota",
-    "board_token": "woven-by-toyota",
-    "domain_hint": "",
-    "source_platforms": [
-      "atsprobe-r1"
     ]
   },
   {

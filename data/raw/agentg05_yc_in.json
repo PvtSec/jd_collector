@@ -1,0 +1,42 @@
+[
+  {
+    "company_name": "Lokal",
+    "website": "getlokalapp.com",
+    "career_page_url": "https://jobs.smartrecruiters.com/lokal",
+    "domain_hint": "consumer",
+    "ats_type": "smartrecruiters",
+    "source_platform": "g05_yc_in"
+  },
+  {
+    "company_name": "Skill-lync",
+    "website": "skill-lync.com",
+    "career_page_url": "https://jobs.smartrecruiters.com/skill-lync",
+    "domain_hint": "edtech",
+    "ats_type": "smartrecruiters",
+    "source_platform": "g05_yc_in"
+  },
+  {
+    "company_name": "Unschool",
+    "website": "unschool.in",
+    "career_page_url": "https://jobs.smartrecruiters.com/unschool",
+    "domain_hint": "edtech",
+    "ats_type": "smartrecruiters",
+    "source_platform": "g05_yc_in"
+  },
+  {
+    "company_name": "Statiq.",
+    "website": "statiq.in",
+    "career_page_url": "https://jobs.smartrecruiters.com/statiq",
+    "domain_hint": "consumer",
+    "ats_type": "smartrecruiters",
+    "source_platform": "g05_yc_in"
+  },
+  {
+    "company_name": "100x",
+    "website": "100x.bot?utm_source=inbound&utm_medium=bookface&utm_campaign=yc&utm_id=122",
+    "career_page_url": "https://100x.bot/careers",
+    "domain_hint": "ai",
+    "ats_type": "unknown",
+    "source_platform": "g05_yc_in"
+  }
+]

@@ -47,8 +47,7 @@ def export_seed(db, path: str, max_rows: int) -> dict:
     fd, tmp = tempfile.mkstemp(dir=parent, suffix=".tmp")
     try:
         with os.fdopen(fd, "w", encoding="utf-8") as f:
-            # minified: no whitespace, raw UTF-8 (not \uXXXX escapes) — the seed is
-            # machine-read only, and a smaller file compresses/decompresses faster.
+            # minified + raw UTF-8: machine-read only; smaller file = faster I/O
             json.dump(payload, f, separators=(",", ":"), ensure_ascii=False)
         os.replace(tmp, path)
     except Exception:
@@ -58,6 +57,25 @@ def export_seed(db, path: str, max_rows: int) -> dict:
             pass
         raise
     return {"exported": len(jobs), "path": path}
+
+
+def sig_path(path: str) -> str:
+    return path + ".sig"
+
+
+def read_sig(path: str):
+    try:
+        with open(sig_path(path), "r", encoding="utf-8") as f:
+            return tuple(json.load(f))
+    except Exception:
+        return None
+
+
+def write_sig(path: str, sig: tuple) -> None:
+    tmp = sig_path(path) + ".tmp"
+    with open(tmp, "w", encoding="utf-8") as f:
+        json.dump(list(sig), f)
+    os.replace(tmp, sig_path(path))
 
 
 def import_seed(db, path: str) -> int:
