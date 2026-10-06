@@ -1,0 +1,10 @@
+# Core (read-only job enumeration + ledger)
+requests>=2.31
+PyYAML>=6.0
+
+# Browser fallback (only needed for ATS that require JS / captcha)
+# playwright>=1.40
+# Install browsers after: `python -m playwright install chromium`
+
+# Quality of life
+rich>=13.7

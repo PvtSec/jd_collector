@@ -1,0 +1,455 @@
+[
+  {
+    "company_name": "a0.dev",
+    "website": "https://a0.dev",
+    "career_page_url": "https://www.ycombinator.com/companies/a0-dev/jobs",
+    "board_token": null,
+    "domain_hint": "AI/mobile",
+    "source_platforms": [
+      "yc"
+    ]
+  },
+  {
+    "company_name": "Adravision",
+    "website": "https://www.adra.ai",
+    "career_page_url": "https://www.ycombinator.com/companies/adravision",
+    "board_token": null,
+    "domain_hint": "adra.ai",
+    "source_platforms": [
+      "dir_yc",
+      "sg_vc",
+      "sg_yc"
+    ]
+  },
+  {
+    "company_name": "Advantage Club",
+    "website": "http://www.advantageclub.in",
+    "career_page_url": "https://www.ycombinator.com/companies/advantage-club",
+    "board_token": null,
+    "domain_hint": "Recruiting",
+    "source_platforms": [
+      "sg_yc",
+      "topstartups.io"
+    ]
+  },
+  {
+    "company_name": "Arbital",
+    "website": "https://www.arbital.xyz",
+    "career_page_url": "https://www.ycombinator.com/companies/arbital",
+    "board_token": null,
+    "domain_hint": "",
+    "source_platforms": [
+      "dir_yc",
+      "sg_yc"
+    ]
+  },
+  {
+    "company_name": "Aspire",
+    "website": "https://aspireapp.com/",
+    "career_page_url": "https://www.ycombinator.com/companies/aspire",
+    "board_token": null,
+    "domain_hint": "aspireapp.com",
+    "source_platforms": [
+      "lightspeed",
+      "sg_e27",
+      "sg_jobstreet",
+      "sg_yc"
+    ]
+  },
+  {
+    "company_name": "Axross Pte Ltd",
+    "website": "https://www.axross.co/",
+    "career_page_url": "https://www.ycombinator.com/companies/axross-pte-ltd",
+    "board_token": null,
+    "domain_hint": "axross.co",
+    "source_platforms": [
+      "dir_yc",
+      "sg_e27",
+      "sg_yc"
+    ]
+  },
+  {
+    "company_name": "Banabo",
+    "website": "https://www.banabo.io/",
+    "career_page_url": "https://www.ycombinator.com/companies/banabo",
+    "board_token": null,
+    "domain_hint": "",
+    "source_platforms": [
+      "dir_yc",
+      "sg_yc"
+    ]
+  },
+  {
+    "company_name": "Botmd",
+    "website": "http://www.botmd.io/en/",
+    "career_page_url": "https://www.ycombinator.com/companies/bot-md",
+    "board_token": null,
+    "domain_hint": "Artificial Intelligence / Healthcare",
+    "source_platforms": [
+      "sg_e27",
+      "sg_vc",
+      "sg_yc",
+      "topstartups.io"
+    ]
+  },
+  {
+    "company_name": "Bucket Robotics",
+    "website": "https://bucket.bot",
+    "career_page_url": "https://www.ycombinator.com/companies/bucket-robotics/jobs",
+    "board_token": null,
+    "domain_hint": "robotics",
+    "source_platforms": [
+      "whoishiring"
+    ]
+  },
+  {
+    "company_name": "Circular",
+    "website": "https://www.nowcircular.com",
+    "career_page_url": "https://www.ycombinator.com/companies/circular",
+    "board_token": null,
+    "domain_hint": "",
+    "source_platforms": [
+      "sg_e27",
+      "sg_yc"
+    ]
+  },
+  {
+    "company_name": "Collar",
+    "website": "https://usecollarai.com",
+    "career_page_url": "https://www.ycombinator.com/companies/collar",
+    "board_token": null,
+    "domain_hint": "",
+    "source_platforms": [
+      "dir_yc",
+      "sg_yc"
+    ]
+  },
+  {
+    "company_name": "Decentro",
+    "website": "https://decentro.tech/",
+    "career_page_url": "https://www.ycombinator.com/companies/decentro",
+    "board_token": null,
+    "domain_hint": "decentro.tech",
+    "source_platforms": [
+      "dir_yc",
+      "sg_e27",
+      "sg_yc"
+    ]
+  },
+  {
+    "company_name": "Deskimo",
+    "website": "http://www.deskimo.com",
+    "career_page_url": "https://www.ycombinator.com/companies/deskimo",
+    "board_token": null,
+    "domain_hint": "",
+    "source_platforms": [
+      "dir_yc",
+      "sg_yc"
+    ]
+  },
+  {
+    "company_name": "ErudiFi",
+    "website": "http://www.erudifi.com",
+    "career_page_url": "https://www.ycombinator.com/companies/erudifi",
+    "board_token": null,
+    "domain_hint": "erudifi.com",
+    "source_platforms": [
+      "dir_yc",
+      "sg_e27",
+      "sg_vc",
+      "sg_yc"
+    ]
+  },
+  {
+    "company_name": "Exosat",
+    "website": "https://www.exosat.com",
+    "career_page_url": "https://www.ycombinator.com/companies/exosat",
+    "board_token": null,
+    "domain_hint": "",
+    "source_platforms": [
+      "dir_yc",
+      "sg_yc"
+    ]
+  },
+  {
+    "company_name": "Express Building",
+    "website": "https://www.expressbuilding.ph",
+    "career_page_url": "https://www.ycombinator.com/companies/express-building",
+    "board_token": null,
+    "domain_hint": "",
+    "source_platforms": [
+      "dir_yc",
+      "sg_yc"
+    ]
+  },
+  {
+    "company_name": "FactIQ",
+    "website": "https://factiq.com/",
+    "career_page_url": "https://www.ycombinator.com/companies/factiq",
+    "board_token": null,
+    "domain_hint": "",
+    "source_platforms": [
+      "dir_yc",
+      "sg_yc"
+    ]
+  },
+  {
+    "company_name": "Fintelite",
+    "website": "http://www.fintelite.ai",
+    "career_page_url": "https://www.ycombinator.com/companies/fintelite",
+    "board_token": null,
+    "domain_hint": "",
+    "source_platforms": [
+      "dir_yc",
+      "sg_yc"
+    ]
+  },
+  {
+    "company_name": "Gotrade",
+    "website": "http://heygotrade.com/",
+    "career_page_url": "https://www.ycombinator.com/companies/gotrade",
+    "board_token": null,
+    "domain_hint": "FinTech / Investment",
+    "source_platforms": [
+      "sg_yc",
+      "topstartups.io"
+    ]
+  },
+  {
+    "company_name": "Greywing",
+    "website": "https://grey-wing.com/",
+    "career_page_url": "https://www.ycombinator.com/companies/greywing",
+    "board_token": null,
+    "domain_hint": "",
+    "source_platforms": [
+      "dir_yc",
+      "sg_yc"
+    ]
+  },
+  {
+    "company_name": "Hypestream",
+    "website": "https://www.hypestream.io/",
+    "career_page_url": "https://www.ycombinator.com/companies/hypestream",
+    "board_token": null,
+    "domain_hint": "",
+    "source_platforms": [
+      "dir_yc",
+      "sg_yc"
+    ]
+  },
+  {
+    "company_name": "Inviscid AI",
+    "website": "https://inviscidai.com/",
+    "career_page_url": "https://www.ycombinator.com/companies/inviscid-ai",
+    "board_token": null,
+    "domain_hint": "",
+    "source_platforms": [
+      "dir_yc",
+      "sg_yc"
+    ]
+  },
+  {
+    "company_name": "Jenfi",
+    "website": "http://jenfi.com/",
+    "career_page_url": "https://www.ycombinator.com/companies/jenfi",
+    "board_token": null,
+    "domain_hint": "jenfi.com",
+    "source_platforms": [
+      "dir_yc",
+      "sg_e27",
+      "sg_vc",
+      "sg_yc"
+    ]
+  },
+  {
+    "company_name": "Keye",
+    "website": "https://keye.co",
+    "career_page_url": "https://www.ycombinator.com/companies/keye/jobs",
+    "board_token": null,
+    "domain_hint": "AI/fintech",
+    "source_platforms": [
+      "yc"
+    ]
+  },
+  {
+    "company_name": "Lumina",
+    "website": "https://www.lumibot.com",
+    "career_page_url": "https://www.ycombinator.com/companies/lumina",
+    "board_token": null,
+    "domain_hint": "lumina.sh",
+    "source_platforms": [
+      "dir_yc",
+      "sg_vc",
+      "sg_yc"
+    ]
+  },
+  {
+    "company_name": "MindFi",
+    "website": "https://www.mindfi.co",
+    "career_page_url": "https://www.ycombinator.com/companies/mindfi",
+    "board_token": null,
+    "domain_hint": "",
+    "source_platforms": [
+      "dir_yc",
+      "sg_e27",
+      "sg_himalayas",
+      "sg_yc"
+    ]
+  },
+  {
+    "company_name": "Mistle",
+    "website": "https://mistle.dev",
+    "career_page_url": "https://www.ycombinator.com/companies/mistle",
+    "board_token": null,
+    "domain_hint": "",
+    "source_platforms": [
+      "dir_yc",
+      "sg_yc"
+    ]
+  },
+  {
+    "company_name": "Peakflo",
+    "website": "https://peakflo.co",
+    "career_page_url": "https://www.ycombinator.com/companies/peakflo",
+    "board_token": null,
+    "domain_hint": "",
+    "source_platforms": [
+      "dir_yc",
+      "sg_yc"
+    ]
+  },
+  {
+    "company_name": "Poko",
+    "website": "http://www.pokoapp.xyz",
+    "career_page_url": "https://www.ycombinator.com/companies/poko",
+    "board_token": null,
+    "domain_hint": "",
+    "source_platforms": [
+      "dir_yc",
+      "sg_yc"
+    ]
+  },
+  {
+    "company_name": "Powerhouse AI",
+    "website": "https://powerhouseai.com/",
+    "career_page_url": "https://www.ycombinator.com/companies/powerhouse-ai",
+    "board_token": null,
+    "domain_hint": "powerhouseai.com",
+    "source_platforms": [
+      "dir_yc",
+      "sg_e27",
+      "sg_yc"
+    ]
+  },
+  {
+    "company_name": "Redbean",
+    "website": "https://redbean.ai",
+    "career_page_url": "https://www.ycombinator.com/companies/redbean",
+    "board_token": null,
+    "domain_hint": "",
+    "source_platforms": [
+      "dir_yc",
+      "sg_yc"
+    ]
+  },
+  {
+    "company_name": "Signadot",
+    "website": "https://www.signadot.com",
+    "career_page_url": "https://www.ycombinator.com/companies/signadot/jobs",
+    "board_token": null,
+    "domain_hint": "devtools/infra",
+    "source_platforms": [
+      "yc"
+    ]
+  },
+  {
+    "company_name": "Strive Math",
+    "website": "https://www.strivemath.com/",
+    "career_page_url": "https://www.ycombinator.com/companies/strive-math",
+    "board_token": null,
+    "domain_hint": "strivemath.com",
+    "source_platforms": [
+      "dir_yc",
+      "sg_e27",
+      "sg_yc"
+    ]
+  },
+  {
+    "company_name": "Take App",
+    "website": "https://www.take.app",
+    "career_page_url": "https://www.ycombinator.com/companies/take-app",
+    "board_token": null,
+    "domain_hint": "",
+    "source_platforms": [
+      "dir_yc",
+      "sg_yc"
+    ]
+  },
+  {
+    "company_name": "Text Blaze",
+    "website": "https://blaze.today",
+    "career_page_url": "https://www.ycombinator.com/companies/text-blaze/jobs",
+    "board_token": null,
+    "domain_hint": "SaaS/devtools",
+    "source_platforms": [
+      "yc"
+    ]
+  },
+  {
+    "company_name": "Tiny",
+    "website": "https://andtiny.com",
+    "career_page_url": "https://www.ycombinator.com/companies/tiny",
+    "board_token": null,
+    "domain_hint": "tiny.cloud",
+    "source_platforms": [
+      "dir_yc",
+      "niche_datasets",
+      "sg_yc"
+    ]
+  },
+  {
+    "company_name": "twoplus fertility",
+    "website": "http://twoplusfertility.com",
+    "career_page_url": "https://www.ycombinator.com/companies/hannah-life-technologies",
+    "board_token": null,
+    "domain_hint": "",
+    "source_platforms": [
+      "dir_yc",
+      "sg_yc"
+    ]
+  },
+  {
+    "company_name": "Unravel Carbon",
+    "website": "https://www.unravelcarbon.com/",
+    "career_page_url": "https://www.ycombinator.com/companies/unravel-carbon",
+    "board_token": null,
+    "domain_hint": "unravelcarbon.com",
+    "source_platforms": [
+      "dir_yc",
+      "sg_e27",
+      "sg_himalayas",
+      "sg_yc"
+    ]
+  },
+  {
+    "company_name": "Variant",
+    "website": "https://variant.com",
+    "career_page_url": "https://www.ycombinator.com/companies/variant/jobs",
+    "board_token": null,
+    "domain_hint": "AI/devtools",
+    "source_platforms": [
+      "yc"
+    ]
+  },
+  {
+    "company_name": "Warpfy",
+    "website": "https://warpfy.com/",
+    "career_page_url": "https://www.ycombinator.com/companies/warpfy",
+    "board_token": null,
+    "domain_hint": "",
+    "source_platforms": [
+      "dir_yc",
+      "sg_yc"
+    ]
+  }
+]

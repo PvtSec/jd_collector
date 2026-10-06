@@ -1,0 +1,234 @@
+[
+  {
+    "company_name": "3Jane Lending",
+    "career_page_url": "https://jobs.lever.co/3jane",
+    "website": "3jane.xyz",
+    "ats_type": "lever",
+    "source_platform": "gh_lever",
+    "domain_hint": ""
+  },
+  {
+    "company_name": "Allora",
+    "career_page_url": "https://jobs.lever.co/allora-labs",
+    "website": "",
+    "ats_type": "lever",
+    "source_platform": "gh_lever",
+    "domain_hint": ""
+  },
+  {
+    "company_name": "Anzen V2",
+    "career_page_url": "https://jobs.lever.co/anzen",
+    "website": "anzen.finance",
+    "ats_type": "lever",
+    "source_platform": "gh_lever",
+    "domain_hint": ""
+  },
+  {
+    "company_name": "Basis Cash",
+    "career_page_url": "https://jobs.lever.co/basis",
+    "website": "basis.cash",
+    "ats_type": "lever",
+    "source_platform": "gh_lever",
+    "domain_hint": ""
+  },
+  {
+    "company_name": "BetterSwap",
+    "career_page_url": "https://jobs.lever.co/better",
+    "website": "betterswap.io",
+    "ats_type": "lever",
+    "source_platform": "gh_lever",
+    "domain_hint": ""
+  },
+  {
+    "company_name": "Connext",
+    "career_page_url": "https://jobs.lever.co/connext-network",
+    "website": "connext.network",
+    "ats_type": "lever",
+    "source_platform": "gh_lever",
+    "domain_hint": ""
+  },
+  {
+    "company_name": "Constellation Network",
+    "career_page_url": "https://jobs.lever.co/constellation",
+    "website": "",
+    "ats_type": "lever",
+    "source_platform": "gh_lever",
+    "domain_hint": ""
+  },
+  {
+    "company_name": "Copia Automation",
+    "career_page_url": "https://jobs.lever.co/copia",
+    "website": "",
+    "ats_type": "lever",
+    "source_platform": "gh_lever",
+    "domain_hint": ""
+  },
+  {
+    "company_name": "Crypto-com",
+    "career_page_url": "https://jobs.lever.co/crypto",
+    "website": "crypto.com",
+    "ats_type": "lever",
+    "source_platform": "gh_lever",
+    "domain_hint": ""
+  },
+  {
+    "company_name": "Cyngn",
+    "career_page_url": "https://jobs.lever.co/cyngn",
+    "website": "cyngn.com",
+    "ats_type": "lever",
+    "source_platform": "gh_lever",
+    "domain_hint": ""
+  },
+  {
+    "company_name": "Eternal Finance",
+    "career_page_url": "https://jobs.lever.co/eternal",
+    "website": "eternalfinance.io",
+    "ats_type": "lever",
+    "source_platform": "gh_lever",
+    "domain_hint": ""
+  },
+  {
+    "company_name": "Hive Protocol",
+    "career_page_url": "https://jobs.lever.co/hive",
+    "website": "hive.bsquared.network",
+    "ats_type": "lever",
+    "source_platform": "gh_lever",
+    "domain_hint": ""
+  },
+  {
+    "company_name": "Horizon Protocol",
+    "career_page_url": "https://jobs.lever.co/horizon",
+    "website": "",
+    "ats_type": "lever",
+    "source_platform": "gh_lever",
+    "domain_hint": ""
+  },
+  {
+    "company_name": "Intellias",
+    "career_page_url": "https://jobs.lever.co/intellias",
+    "website": "",
+    "ats_type": "lever",
+    "source_platform": "gh_lever",
+    "domain_hint": ""
+  },
+  {
+    "company_name": "Jito",
+    "career_page_url": "https://jobs.lever.co/jito",
+    "website": "jito.network",
+    "ats_type": "lever",
+    "source_platform": "gh_lever",
+    "domain_hint": ""
+  },
+  {
+    "company_name": "Jito Liquid Staking",
+    "career_page_url": "https://jobs.lever.co/jito.wtf",
+    "website": "jito.network",
+    "ats_type": "lever",
+    "source_platform": "gh_lever",
+    "domain_hint": ""
+  },
+  {
+    "company_name": "Kinter.ai",
+    "career_page_url": "https://jobs.lever.co/kinter",
+    "website": "kinter.ai",
+    "ats_type": "lever",
+    "source_platform": "gh_lever",
+    "domain_hint": ""
+  },
+  {
+    "company_name": "Maya Protocol",
+    "career_page_url": "https://jobs.lever.co/maya",
+    "website": "mayaprotocol.com",
+    "ats_type": "lever",
+    "source_platform": "gh_lever",
+    "domain_hint": ""
+  },
+  {
+    "company_name": "Neon Wild",
+    "career_page_url": "https://jobs.lever.co/neon",
+    "website": "neonwild.com",
+    "ats_type": "lever",
+    "source_platform": "gh_lever",
+    "domain_hint": ""
+  },
+  {
+    "company_name": "Offchain Labs",
+    "career_page_url": "https://jobs.lever.co/offchainlabs",
+    "website": "",
+    "ats_type": "lever",
+    "source_platform": "gh_lever",
+    "domain_hint": ""
+  },
+  {
+    "company_name": "Perennial V1",
+    "career_page_url": "https://jobs.lever.co/perennial",
+    "website": "perennial.finance",
+    "ats_type": "lever",
+    "source_platform": "gh_lever",
+    "domain_hint": ""
+  },
+  {
+    "company_name": "Proto",
+    "career_page_url": "https://jobs.lever.co/protolabs",
+    "website": "",
+    "ats_type": "lever",
+    "source_platform": "gh_lever",
+    "domain_hint": ""
+  },
+  {
+    "company_name": "Rezo Therapeutics",
+    "career_page_url": "https://jobs.lever.co/rezotx",
+    "website": "rezotx.com",
+    "ats_type": "lever",
+    "source_platform": "gh_lever",
+    "domain_hint": ""
+  },
+  {
+    "company_name": "SAR Tech",
+    "career_page_url": "https://jobs.lever.co/sar",
+    "website": "sar-tech.net",
+    "ats_type": "lever",
+    "source_platform": "gh_lever",
+    "domain_hint": ""
+  },
+  {
+    "company_name": "The Block",
+    "career_page_url": "https://jobs.lever.co/theblockcrypto",
+    "website": "",
+    "ats_type": "lever",
+    "source_platform": "gh_lever",
+    "domain_hint": ""
+  },
+  {
+    "company_name": "Topaz Dex",
+    "career_page_url": "https://jobs.lever.co/topazlabs",
+    "website": "",
+    "ats_type": "lever",
+    "source_platform": "gh_lever",
+    "domain_hint": ""
+  },
+  {
+    "company_name": "Topography Health",
+    "career_page_url": "https://jobs.lever.co/jointopo",
+    "website": "jointopo.com",
+    "ats_type": "lever",
+    "source_platform": "gh_lever",
+    "domain_hint": ""
+  },
+  {
+    "company_name": "Trunk",
+    "career_page_url": "https://jobs.lever.co/trunkio",
+    "website": "trunk.io",
+    "ats_type": "lever",
+    "source_platform": "gh_lever",
+    "domain_hint": ""
+  },
+  {
+    "company_name": "UnifyID",
+    "career_page_url": "https://jobs.lever.co/unify",
+    "website": "unify.id",
+    "ats_type": "lever",
+    "source_platform": "gh_lever",
+    "domain_hint": ""
+  }
+]

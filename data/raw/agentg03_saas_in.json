@@ -1,0 +1,58 @@
+[
+  {
+    "company_name": "TrueFoundry",
+    "website": "truefoundry.com",
+    "career_page_url": "https://boards.greenhouse.io/truefoundry",
+    "domain_hint": "devtools",
+    "ats_type": "greenhouse",
+    "source_platform": "g03_saas_in"
+  },
+  {
+    "company_name": "Atlan",
+    "website": "atlan.com",
+    "career_page_url": "https://jobs.ashbyhq.com/atlan",
+    "domain_hint": "data",
+    "ats_type": "ashby",
+    "source_platform": "g03_saas_in"
+  },
+  {
+    "company_name": "SpotDraft",
+    "website": "spotdraft.com",
+    "career_page_url": "https://jobs.ashbyhq.com/spotdraft",
+    "domain_hint": "saas",
+    "ats_type": "ashby",
+    "source_platform": "g03_saas_in"
+  },
+  {
+    "company_name": "Reo.Dev",
+    "website": "reo.dev",
+    "career_page_url": "https://jobs.ashbyhq.com/reo-dev",
+    "domain_hint": "devtools",
+    "ats_type": "ashby",
+    "source_platform": "g03_saas_in"
+  },
+  {
+    "company_name": "ZingHR",
+    "website": "zinghr.com",
+    "career_page_url": "https://careers.smartrecruiters.com/zinghr",
+    "domain_hint": "hrtech",
+    "ats_type": "smartrecruiters",
+    "source_platform": "g03_saas_in"
+  },
+  {
+    "company_name": "MoEngage",
+    "website": "moengage.com",
+    "career_page_url": "https://www.moengage.com/careers/",
+    "domain_hint": "saas",
+    "ats_type": "unknown",
+    "source_platform": "g03_saas_in"
+  },
+  {
+    "company_name": "Icertis",
+    "website": "icertis.com",
+    "career_page_url": "https://www.icertis.com/company/careers/",
+    "domain_hint": "saas",
+    "ats_type": "unknown",
+    "source_platform": "g03_saas_in"
+  }
+]

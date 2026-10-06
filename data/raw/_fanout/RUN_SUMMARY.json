@@ -1,0 +1,25 @@
+{
+  "baseline_companies": 56520,
+  "final_companies": 135916,
+  "net_new_unique": 79396,
+  "slots_total": 32,
+  "slots_completed": 33,
+  "raw_rows_kept_pre_consolidate": 93346,
+  "automatable_atss": {
+    "greenhouse": 780,
+    "ashby": 298,
+    "lever": 187,
+    "workable": 94,
+    "workday": 66,
+    "breezyhr": 62,
+    "smartrecruiters": 28,
+    "bamboohr": 31,
+    "rippling": 8,
+    "pinpoint": 4,
+    "personio": 4,
+    "teamtailor": 2,
+    "other(taleo/icims/recruitee/jobvite/sf)": 81
+  },
+  "custom_careers_pages": 12935,
+  "name_plus_website_seeds": 65936
+}

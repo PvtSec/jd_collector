@@ -1,0 +1,90 @@
+[
+  {
+    "company_name": "Magna International",
+    "website": "magna.com",
+    "career_page_url": "https://magna.wd3.myworkdayjobs.com/en-US/Magna",
+    "domain_hint": "gcc",
+    "ats_type": "workday",
+    "source_platform": "g06_gcc_in"
+  },
+  {
+    "company_name": "General Mills",
+    "website": "generalmills.com",
+    "career_page_url": "https://genmills.wd1.myworkdayjobs.com/en-US/GMI_External_Careers",
+    "domain_hint": "retail",
+    "ats_type": "workday",
+    "source_platform": "g06_gcc_in"
+  },
+  {
+    "company_name": "Dyson",
+    "website": "dyson.com",
+    "career_page_url": "https://dyson.wd3.myworkdayjobs.com/en-US/broadbean_external",
+    "domain_hint": "gcc",
+    "ats_type": "workday",
+    "source_platform": "g06_gcc_in"
+  },
+  {
+    "company_name": "Home Depot",
+    "website": "homedepot.com",
+    "career_page_url": "https://homedepot.wd5.myworkdayjobs.com/en-US/CareerDepot",
+    "domain_hint": "retail",
+    "ats_type": "workday",
+    "source_platform": "g06_gcc_in"
+  },
+  {
+    "company_name": "Walmart Global Tech India",
+    "website": "walmartglobaltech.com",
+    "career_page_url": "https://careers.walmart.com/",
+    "domain_hint": "retail",
+    "ats_type": "unknown",
+    "source_platform": "g06_gcc_in"
+  },
+  {
+    "company_name": "L'Oreal India",
+    "website": "loreal.com",
+    "career_page_url": "https://careers.loreal.com/",
+    "domain_hint": "retail",
+    "ats_type": "unknown",
+    "source_platform": "g06_gcc_in"
+  },
+  {
+    "company_name": "John Deere India",
+    "website": "deere.com",
+    "career_page_url": "https://careers.deere.com/",
+    "domain_hint": "gcc",
+    "ats_type": "unknown",
+    "source_platform": "g06_gcc_in"
+  },
+  {
+    "company_name": "Applied Materials India",
+    "website": "appliedmaterials.com",
+    "career_page_url": "https://careers.appliedmaterials.com/",
+    "domain_hint": "semis",
+    "ats_type": "unknown",
+    "source_platform": "g06_gcc_in"
+  },
+  {
+    "company_name": "Goldman Sachs India",
+    "website": "goldmansachs.com",
+    "career_page_url": "https://www.goldmansachs.com/careers/",
+    "domain_hint": "banking",
+    "ats_type": "unknown",
+    "source_platform": "g06_gcc_in"
+  },
+  {
+    "company_name": "JPMorgan Chase India",
+    "website": "jpmorganchase.com",
+    "career_page_url": "https://careers.jpmorgan.com/",
+    "domain_hint": "banking",
+    "ats_type": "unknown",
+    "source_platform": "g06_gcc_in"
+  },
+  {
+    "company_name": "Lam Research India",
+    "website": "lamresearch.com",
+    "career_page_url": "https://www.lamresearch.com/careers/",
+    "domain_hint": "semis",
+    "ats_type": "unknown",
+    "source_platform": "g06_gcc_in"
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "company_name": "RemotePass",
+    "website": "remotepass.com",
+    "career_page_url": "https://apply.workable.com/remotepass",
+    "domain_hint": "remote",
+    "ats_type": "workable",
+    "source_platform": "g07_remote_first"
+  },
+  {
+    "company_name": "Springworks",
+    "website": "springworks.in",
+    "career_page_url": "https://jobs.goodfit.so/jobs/springworks",
+    "domain_hint": "remote",
+    "ats_type": "unknown",
+    "source_platform": "g07_remote_first"
+  },
+  {
+    "company_name": "ACCELQ",
+    "website": "accelq.com",
+    "career_page_url": "https://accelq.com/company/careers",
+    "domain_hint": "devtools",
+    "ats_type": "unknown",
+    "source_platform": "g07_remote_first"
+  },
+  {
+    "company_name": "ConnectSecure",
+    "website": "connectsecure.com",
+    "career_page_url": "https://www.connectsecure.com/careers",
+    "domain_hint": "devtools",
+    "ats_type": "unknown",
+    "source_platform": "g07_remote_first"
+  }
+]

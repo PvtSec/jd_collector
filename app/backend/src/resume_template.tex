@@ -1,0 +1,106 @@
+\documentclass[10pt, letterpaper]{article}
+
+% Packages:
+\usepackage[
+	ignoreheadfoot,
+	top=1.5 cm,
+	bottom=1.0 cm,
+	left=2 cm,
+	right=2 cm,
+	footskip=1.0 cm
+]{geometry}
+\usepackage{titlesec}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage[dvipsnames]{xcolor}
+\definecolor{primaryColor}{RGB}{0, 0, 0}
+\usepackage{enumitem}
+\usepackage{amsmath}
+\usepackage[
+	pdftitle={@@PDF_TITLE@@},
+	pdfauthor={@@PDF_TITLE@@},
+	pdfcreator={LaTeX},
+	colorlinks=true,
+	urlcolor=primaryColor
+]{hyperref}
+\usepackage[pscoord]{eso-pic}
+\usepackage{calc}
+\usepackage{bookmark}
+\usepackage{lastpage}
+\usepackage{changepage}
+\usepackage{paracol}
+\usepackage{ifthen}
+\usepackage{needspace}
+\usepackage{iftex}
+
+% ATS-parseable PDF: embed ToUnicode so glyph text is selectable/searchable.
+\ifPDFTeX
+\input{glyphtounicode}
+\pdfgentounicode=1
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\fi
+
+\usepackage{charter}
+
+% Settings:
+\raggedright
+\AtBeginEnvironment{adjustwidth}{\partopsep0pt}
+\pagestyle{empty}
+\setcounter{secnumdepth}{0}
+\setlength{\parindent}{0pt}
+\setlength{\topskip}{0pt}
+\setlength{\columnsep}{0.15cm}
+\pagenumbering{gobble}
+
+\titleformat{\section}{\needspace{4\baselineskip}\bfseries\large}{}{0pt}{}[
+\vspace{1pt}
+\titlerule]
+
+\titlespacing{\section}{
+-1pt }{
+0.3 cm }{
+0.2 cm }
+
+\renewcommand{\labelitemi}{$\vcenter{\hbox{\small$\bullet$}}$}
+\newenvironment{highlights}{ \begin{itemize}[ topsep=0.10 cm, parsep=0.10 cm, partopsep=0pt,
+itemsep=0pt, leftmargin=0 cm + 10pt ] }{ \end{itemize} }
+
+\newenvironment{onecolentry}{ \begin{adjustwidth}{ 0 cm + 0.00001 cm }{ 0 cm + 0.00001 cm }
+}{ \end{adjustwidth} }
+
+\newenvironment{twocolentry}[2][]{ \onecolentry \def\secondColumn{#2} \setcolumnwidth{\fill, 4.5 cm}
+\begin{paracol}{2} }{ \switchcolumn \raggedleft \secondColumn \end{paracol}
+\endonecolentry }
+
+\newenvironment{threecolentry}[3][]{%
+  \onecolentry
+  \def\thirdColumn{#3}
+  \setcolumnwidth{4cm, 8cm, 4cm}%
+  \begin{paracol}{3}%
+  {\raggedright #2}%
+  \switchcolumn
+}{%
+  \switchcolumn
+  \raggedleft \thirdColumn
+  \end{paracol}
+  \endonecolentry
+}
+
+\newenvironment{header}{
+\setlength{\topsep}{0pt}
+\par\kern\topsep
+\centering
+\linespread{1.5} }{ \par\kern\topsep }
+
+% save the original href command:
+\let\hrefWithoutArrow\href
+
+\begin{document}
+\newcommand{\AND}{\unskip \cleaders\copy\ANDbox\hskip\wd\ANDbox \ignorespaces }
+\newsavebox{\ANDbox}
+\sbox{\ANDbox}{$|$}
+
+@@BODY@@
+
+\end{document}

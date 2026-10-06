@@ -1,0 +1,35 @@
+[
+  {
+    "company_name": "Figma",
+    "career_page_url": "https://job-boards.greenhouse.io/figma",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "greenhouse",
+    "board_token": "figma",
+    "source_platform": "sg_greenhouse",
+    "location": "Singapore",
+    "sg_evidence": "Singapore"
+  },
+  {
+    "company_name": "GovTech ",
+    "career_page_url": "https://job-boards.greenhouse.io/govtech",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "greenhouse",
+    "board_token": "govtech",
+    "source_platform": "sg_greenhouse",
+    "location": "Singapore",
+    "sg_evidence": "Singapore"
+  },
+  {
+    "company_name": "Wrike",
+    "career_page_url": "https://job-boards.greenhouse.io/wrike",
+    "website": "",
+    "domain_hint": "",
+    "ats_type": "greenhouse",
+    "board_token": "wrike",
+    "source_platform": "sg_greenhouse",
+    "location": "Singapore",
+    "sg_evidence": "Singapore"
+  }
+]

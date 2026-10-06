@@ -1,0 +1,242 @@
+[
+  {
+    "company_name": "Sash.AI",
+    "website": "sash.ai",
+    "career_page_url": "https://jobs.ashbyhq.com/sash",
+    "domain_hint": "ai",
+    "ats_type": "ashby",
+    "source_platform": "g08_lists_in"
+  },
+  {
+    "company_name": "Collinear",
+    "website": "collinear.ai",
+    "career_page_url": "https://jobs.ashbyhq.com/collinear-ai",
+    "domain_hint": "deeptech",
+    "ats_type": "ashby",
+    "source_platform": "g08_lists_in"
+  },
+  {
+    "company_name": "Intervue",
+    "website": "intervue.io",
+    "career_page_url": "https://jobs.smartrecruiters.com/intervue",
+    "domain_hint": "saas",
+    "ats_type": "smartrecruiters",
+    "source_platform": "g08_lists_in"
+  },
+  {
+    "company_name": "Bhanzu",
+    "website": "bhanzu.com",
+    "career_page_url": "https://exploringinfinities.keka.com/careers/",
+    "domain_hint": "edtech",
+    "ats_type": "keka",
+    "source_platform": "g08_lists_in"
+  },
+  {
+    "company_name": "Okulo Aerospace",
+    "website": "okuloaerospace.com",
+    "career_page_url": "https://okulo.keka.com/careers/",
+    "domain_hint": "deeptech",
+    "ats_type": "keka",
+    "source_platform": "g08_lists_in"
+  },
+  {
+    "company_name": "Bijak",
+    "website": "bijak.in",
+    "career_page_url": "https://bijak.keka.com/careers",
+    "domain_hint": "saas",
+    "ats_type": "keka",
+    "source_platform": "g08_lists_in"
+  },
+  {
+    "company_name": "Signzy",
+    "website": "signzy.com",
+    "career_page_url": "https://signzy.keka.com/careers",
+    "domain_hint": "fintech",
+    "ats_type": "keka",
+    "source_platform": "g08_lists_in"
+  },
+  {
+    "company_name": "SurveySparrow",
+    "website": "surveysparrow.com",
+    "career_page_url": "https://surveysparrow.keka.com/careers",
+    "domain_hint": "saas",
+    "ats_type": "keka",
+    "source_platform": "g08_lists_in"
+  },
+  {
+    "company_name": "ClickPost",
+    "website": "clickpost.ai",
+    "career_page_url": "https://clickpost.keka.com/careers/",
+    "domain_hint": "saas",
+    "ats_type": "keka",
+    "source_platform": "g08_lists_in"
+  },
+  {
+    "company_name": "Cityflo",
+    "website": "cityflo.com",
+    "career_page_url": "https://cityflo.keka.com/careers",
+    "domain_hint": "deeptech",
+    "ats_type": "keka",
+    "source_platform": "g08_lists_in"
+  },
+  {
+    "company_name": "Onsurity",
+    "website": "onsurity.com",
+    "career_page_url": "https://onsurity.keka.com/careers",
+    "domain_hint": "fintech",
+    "ats_type": "keka",
+    "source_platform": "g08_lists_in"
+  },
+  {
+    "company_name": "myBillBook",
+    "website": "mybillbook.in",
+    "career_page_url": "https://valorem.keka.com/careers/",
+    "domain_hint": "saas",
+    "ats_type": "keka",
+    "source_platform": "g08_lists_in"
+  },
+  {
+    "company_name": "ConveGenius",
+    "website": "convegenius.com",
+    "career_page_url": "https://convegenius.keka.com/careers",
+    "domain_hint": "edtech",
+    "ats_type": "keka",
+    "source_platform": "g08_lists_in"
+  },
+  {
+    "company_name": "ePayLater",
+    "website": "epaylater.in",
+    "career_page_url": "https://epaylater.keka.com/careers",
+    "domain_hint": "fintech",
+    "ats_type": "keka",
+    "source_platform": "g08_lists_in"
+  },
+  {
+    "company_name": "Eka Care",
+    "website": "ekacare.com",
+    "career_page_url": "https://ekacare.keka.com/careers",
+    "domain_hint": "healthtech",
+    "ats_type": "keka",
+    "source_platform": "g08_lists_in"
+  },
+  {
+    "company_name": "CallHealth",
+    "website": "callhealth.com",
+    "career_page_url": "https://callhealth.keka.com/careers",
+    "domain_hint": "healthtech",
+    "ats_type": "keka",
+    "source_platform": "g08_lists_in"
+  },
+  {
+    "company_name": "Open Financial",
+    "website": "open.money",
+    "career_page_url": "https://openfinancial.keka.com/careers",
+    "domain_hint": "fintech",
+    "ats_type": "keka",
+    "source_platform": "g08_lists_in"
+  },
+  {
+    "company_name": "SmartCoin",
+    "website": "smartcoinfinancials.com",
+    "career_page_url": "https://smartcoin.keka.com/careers",
+    "domain_hint": "fintech",
+    "ats_type": "keka",
+    "source_platform": "g08_lists_in"
+  },
+  {
+    "company_name": "Zebu",
+    "website": "zebu.ai",
+    "career_page_url": "https://zebu.keka.com/careers",
+    "domain_hint": "fintech",
+    "ats_type": "keka",
+    "source_platform": "g08_lists_in"
+  },
+  {
+    "company_name": "Unicommerce",
+    "website": "unicommerce.com",
+    "career_page_url": "https://unicommerce.keka.com/careers",
+    "domain_hint": "saas",
+    "ats_type": "keka",
+    "source_platform": "g08_lists_in"
+  },
+  {
+    "company_name": "LambdaTest",
+    "website": "lambdatest.com",
+    "career_page_url": "https://lambdatest.keka.com/careers",
+    "domain_hint": "saas",
+    "ats_type": "keka",
+    "source_platform": "g08_lists_in"
+  },
+  {
+    "company_name": "Toddle",
+    "website": "toddleapp.com",
+    "career_page_url": "https://toddle.keka.com/careers",
+    "domain_hint": "edtech",
+    "ats_type": "keka",
+    "source_platform": "g08_lists_in"
+  },
+  {
+    "company_name": "WinZO",
+    "website": "winzo.com",
+    "career_page_url": "https://winzo.keka.com/careers",
+    "domain_hint": "gaming",
+    "ats_type": "keka",
+    "source_platform": "g08_lists_in"
+  },
+  {
+    "company_name": "Tricog",
+    "website": "tricog.com",
+    "career_page_url": "https://tricog.zohorecruit.com/jobs/Careers",
+    "domain_hint": "healthtech",
+    "ats_type": "unknown",
+    "source_platform": "g08_lists_in"
+  },
+  {
+    "company_name": "Arya.ai",
+    "website": "arya.ai",
+    "career_page_url": "https://arya.zohorecruit.com/jobs/Careers",
+    "domain_hint": "ai",
+    "ats_type": "unknown",
+    "source_platform": "g08_lists_in"
+  },
+  {
+    "company_name": "Zuddl",
+    "website": "zuddl.com",
+    "career_page_url": "https://zuddl.keka.com/careers",
+    "domain_hint": "saas",
+    "ats_type": "keka",
+    "source_platform": "g08_lists_in"
+  },
+  {
+    "company_name": "Zluri",
+    "website": "zluri.com",
+    "career_page_url": "https://zluri.keka.com/careers/",
+    "domain_hint": "saas",
+    "ats_type": "keka",
+    "source_platform": "g08_lists_in"
+  },
+  {
+    "company_name": "Wingify",
+    "website": "wingify.com",
+    "career_page_url": "https://wingify.keka.com/careers/",
+    "domain_hint": "saas",
+    "ats_type": "keka",
+    "source_platform": "g08_lists_in"
+  },
+  {
+    "company_name": "Zuper",
+    "website": "zuper.co",
+    "career_page_url": "https://zupersoft.keka.com/careers/",
+    "domain_hint": "saas",
+    "ats_type": "keka",
+    "source_platform": "g08_lists_in"
+  },
+  {
+    "company_name": "Jupiter Money",
+    "website": "jupiter.money",
+    "career_page_url": "https://jupiter.keka.com/careers",
+    "domain_hint": "fintech",
+    "ats_type": "keka",
+    "source_platform": "g08_lists_in"
+  }
+]

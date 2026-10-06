@@ -1,0 +1,130 @@
+[
+  {
+    "company_name": "kAIgentic",
+    "website": "kaigentic.com",
+    "career_page_url": "https://jobs.ashbyhq.com/kaigentic",
+    "domain_hint": "cybersecurity",
+    "ats_type": "ashby",
+    "source_platform": "g01_cyber_in"
+  },
+  {
+    "company_name": "Scrut Automation",
+    "website": "scrut.io",
+    "career_page_url": "https://scrut.keka.com/careers/",
+    "domain_hint": "cybersecurity",
+    "ats_type": "keka",
+    "source_platform": "g01_cyber_in"
+  },
+  {
+    "company_name": "Sequretek",
+    "website": "sequretek.com",
+    "career_page_url": "https://www.sequretek.com/careers/",
+    "domain_hint": "cybersecurity",
+    "ats_type": "unknown",
+    "source_platform": "g01_cyber_in"
+  },
+  {
+    "company_name": "Kratikal Tech",
+    "website": "kratikal.com",
+    "career_page_url": "https://kratikal.zohorecruit.com/jobs/Careers",
+    "domain_hint": "cybersecurity",
+    "ats_type": "unknown",
+    "source_platform": "g01_cyber_in"
+  },
+  {
+    "company_name": "Appknox",
+    "website": "appknox.com",
+    "career_page_url": "https://www.appknox.com/careers",
+    "domain_hint": "cybersecurity",
+    "ats_type": "unknown",
+    "source_platform": "g01_cyber_in"
+  },
+  {
+    "company_name": "Indusface",
+    "website": "indusface.com",
+    "career_page_url": "https://www.indusface.com/careers/",
+    "domain_hint": "cybersecurity",
+    "ats_type": "unknown",
+    "source_platform": "g01_cyber_in"
+  },
+  {
+    "company_name": "TAC Security",
+    "website": "tacsecurity.com",
+    "career_page_url": "https://tacsecurity.com/careers/",
+    "domain_hint": "cybersecurity",
+    "ats_type": "unknown",
+    "source_platform": "g01_cyber_in"
+  },
+  {
+    "company_name": "Data Resolve Technologies",
+    "website": "dataresolve.com",
+    "career_page_url": "https://www.dataresolve.com/careers.php",
+    "domain_hint": "cybersecurity",
+    "ats_type": "unknown",
+    "source_platform": "g01_cyber_in"
+  },
+  {
+    "company_name": "Netenrich",
+    "website": "netenrich.com",
+    "career_page_url": "https://netenrich.com/careers",
+    "domain_hint": "cybersecurity",
+    "ats_type": "unknown",
+    "source_platform": "g01_cyber_in"
+  },
+  {
+    "company_name": "ColorTokens",
+    "website": "colortokens.com",
+    "career_page_url": "https://www.colortokens.com/careers/",
+    "domain_hint": "cybersecurity",
+    "ats_type": "unknown",
+    "source_platform": "g01_cyber_in"
+  },
+  {
+    "company_name": "Vehere",
+    "website": "vehere.com",
+    "career_page_url": "https://www.vehere.com/careers/",
+    "domain_hint": "cybersecurity",
+    "ats_type": "unknown",
+    "source_platform": "g01_cyber_in"
+  },
+  {
+    "company_name": "Cyfirma",
+    "website": "cyfirma.com",
+    "career_page_url": "https://www.cyfirma.com/careers/",
+    "domain_hint": "cybersecurity",
+    "ats_type": "unknown",
+    "source_platform": "g01_cyber_in"
+  },
+  {
+    "company_name": "FireCompass",
+    "website": "firecompass.com",
+    "career_page_url": "https://firecompass.com/careers/",
+    "domain_hint": "cybersecurity",
+    "ats_type": "unknown",
+    "source_platform": "g01_cyber_in"
+  },
+  {
+    "company_name": "Lepide",
+    "website": "lepide.com",
+    "career_page_url": "https://www.lepide.com/careers/",
+    "domain_hint": "cybersecurity",
+    "ats_type": "unknown",
+    "source_platform": "g01_cyber_in"
+  },
+  {
+    "company_name": "Innefu Labs",
+    "website": "innefu.com",
+    "career_page_url": "https://innefu.com/careers/",
+    "domain_hint": "cybersecurity",
+    "ats_type": "unknown",
+    "source_platform": "g01_cyber_in"
+  },
+  {
+    "company_name": "Foresiet",
+    "website": "foresiet.com",
+    "career_page_url": "https://foresiet.com/resources/careers/",
+    "domain_hint": "cybersecurity",
+    "ats_type": "unknown",
+    "source_platform": "g01_cyber_in"
+  }
+]

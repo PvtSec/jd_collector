@@ -1,0 +1,12 @@
+{
+  "total": 135916,
+  "nonjob_url": 1534,
+  "non_http": 61123,
+  "empty_url": 10336,
+  "auto_no_token": 14015,
+  "generic_slug": 14165,
+  "weak_custom": 8778,
+  "shared_url_rows": 5094,
+  "shared_token_rows": 1162,
+  "shared_domain_rows": 43617
+}
